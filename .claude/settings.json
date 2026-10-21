@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m observer:*)",
+      "Bash(python3 -m observer:*)",
+      "Read(./work/**)",
+      "Read(./out/**)",
+      "Write(./work/**)",
+      "Write(./out/**)"
+    ]
+  }
+}
