@@ -1,0 +1,629 @@
+{
+ "batch_id": "4cced41f570a",
+ "context": [],
+ "messages": [
+  {
+   "date": "2001-07-21T01:55:04+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/378",
+   "new_text": "After a year in RT...yeah, you could do it...",
+   "new_text_source": "new",
+   "subject": "RE: Could I do it?",
+   "thread_id": "te83a99864b",
+   "to": [
+    "virginia.thompson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-24T22:52:23+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/15",
+   "new_text": "Mike,\nYour cell phone is not working or has been disconnected and I have no way to reach you. Please update me with your contact information as soon as possible.\nThanks,\n\nBill",
+   "new_text_source": "new",
+   "subject": "Phone numbers",
+   "thread_id": "tea1f2a3e35",
+   "to": [
+    "michael.mier@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-07T17:11:30+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/324",
+   "new_text": "Yo!\nYeah, I am taking a look at it.  How are the interviews coming?  If you want to meet me for lunch, we can grab some pens and go over the thing. I am going to need information from you, and find out what you want to show.  Anything good going on this week?\nB",
+   "new_text_source": "new",
+   "subject": "RE: Resume",
+   "thread_id": "teaf822ae43",
+   "to": [
+    "mjthayer@hotmail.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-07T02:40:35+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/262",
+   "new_text": "Group,\nJust a quick reminder.\nWhen we are notified by the CAISO Generation desk regarding a \"waiver\" for an Enron managed unit in California, we should notify the services desk if it is during the day, and should email the services desk (and me) if it is after normal work hours. If you have questions please just let me know.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Generation Waiver's",
+   "thread_id": "teafa57d49b",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-19T20:19:37+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/163",
+   "new_text": "Kathy,\nI will be available on Tuesday but it would have to be either earlier or later on in the day.  I could meet with Britt at 3PM or at 9 AM. Any idea what this is regarding?\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: Meeting with Britt Whitman",
+   "thread_id": "teb31da964d",
+   "to": [
+    "kathryn.sheppard@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-05-28T23:34:12+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/516",
+   "new_text": "-----Original Message-----\nFrom: \tPerformance Evaluation Process (PEP) <perfmgmt@enron.com>@ENRON [mailto:IMCEANOTES-Performance+20Evaluation+20Process+20+28PEP+29+20+3Cperfmgmt+40enron+2Ecom+3E+40ENRON@ENRON.com] \nSent:\tFriday, May 18, 2001 8:05 AM\nTo:\tWilliams III, Bill\nSubject:\tPEP System Message\n\nDue to one or more individuals declining to be a reviewer WHITEHEAD, COLLIN has less than five reviewers listed in the PEP system.  \nThe recommended minimum number of reviewers for each employee is five.  \n \nPlease login to the PEP system at http://pep.enron.com to select additional reviewers for this employee.",
+   "new_text_source": "body",
+   "subject": "FW: PEP System Message",
+   "thread_id": "teb75b9b55f",
+   "to": [
+    "bill.william.iii@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T03:46:16+00:00",
+   "from": "crcommunications@caiso.com",
+   "msg_id": "williams-w3/inbox/83",
+   "new_text": "ISO Market Participants:\n\nThe attached document contains the CERS July Settlement figures:\n\n <<Closing 012402 mkt sum final CERS.xls>> \n\n\nClient Relations Communications.0921\nCRCommunications@caiso.com",
+   "new_text_source": "new",
+   "subject": "CAISO NOTICE - CERS July Settlement",
+   "thread_id": "tebb2cd3f8a",
+   "to": [
+    "20participants@caiso.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-05T17:39:22+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/431",
+   "new_text": "Jim,\nOn Tuesday we sold the CAISO replacement reserves at Malin for HE 15 and HE 16, then HE 18 through HE 22.  We were exercised for the first 40 minutes of HE 15 (for the last 20 minutes of HE 15 our energy was uninstructued and we received the dec price).  For HE 16, and HE 18-22 we were awarded the capacity payment but were not exercised.  The capacity payment should be at least $91.86 for each hour it was received.  If you have questions, please let me know.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Replacement Reserves",
+   "thread_id": "tecedc30912",
+   "to": [
+    "jim.reyes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-12T21:34:28+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/178",
+   "new_text": "Steve,\n\nGood afternoon, I have attached a draft of the Control Area Services Agreement to this email. Please take a look at it when you have a moment and let me know what you think about it. I understand we may not implement it for a while. However, I thought having an agreement in place might provide us with more flexibility and the ability to take advantage of opportunities as this month winds down. I appreciate your time and feedback.\n\nThank you,\n\nBill",
+   "new_text_source": "new",
+   "subject": "Control Area Services Agreement",
+   "thread_id": "teddea6b405",
+   "to": [
+    "sburac1@epelectric.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-16T21:18:39+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/173",
+   "new_text": "Paul,\nHere is an updated version of the agreement I sent to Steve on Friday.\nSorry I didn't cc you to start with. It's pretty much exactly as we discussed.\nLet me know if you have any questions.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "FW: Control Area Services Agreement",
+   "thread_id": "teddea6b405",
+   "to": [
+    "paul.choi@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-13T15:41:43+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/312",
+   "new_text": "Bert,\nWhen buying from any desk on the floor, you should have a sale from that desk (say ST-CALI) to either WHourly or WBOM, then do enpower as normal. The interdesk sale will not pull up in scheduling and you will have to route the sale in Enpower to the physical buy by the other desk (another words...ST-CALI buys from imbalance, sells to WHourly/WBOM, then WHourly/WBOM sells to EPMICALPOOL, then WHourly/WBOM sells to EPE.\nPlease let me know if you have questions.\n\nBill",
+   "new_text_source": "new",
+   "subject": "Interdesk scheduling",
+   "thread_id": "tede206331c",
+   "to": [
+    "bert.meyers@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-09T20:43:00+00:00",
+   "from": "crcommunications@caiso.com",
+   "msg_id": "williams-w3/inbox/112",
+   "new_text": "Market Notice\n\nJanuary 9, 2002\n\nISO Market Participants:\n\nThe ISO has posted its Draft Market Design 2002 on it's web site. You can\naccess the document at:\nhttp://www.caiso.com/docs/2001/12/21/2001122108490719681.html\n\nIf you have any questions, please contact Byron Woertz at 916-608-7066 or\nbwoertz@caiso.com.\n\nClient Relations Communications.1104\nCRCommunications@caiso.com <mailto:CRCommunications@caiso.com>",
+   "new_text_source": "new",
+   "subject": "CAISO Notice: Market Design 2002 Draft Proposal",
+   "thread_id": "tef568f6fd7",
+   "to": [
+    "20participants@caiso.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-08T17:12:09+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/316",
+   "new_text": "Guys,\nYou can find out the information you need on the website.\nThe website is www.wscc.com, click on certification and training, scroll down to the Schedulers Course manual.  Print off the schedulers course manual and study it.  You will be tested on the material, a pre-test and a post-test. (note:you will need to access the site in Explorer to get the manuals).  You can call telephone# 801-582-0353 to get information on the scheduler's course (this is the main-line to WSCC so you will have to ask around a bit).\n\nPlease arrange for those on night shift to get in about 15-25 minutes early so you can leave at 5:10 on the 13th.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Training class",
+   "thread_id": "teffe62ea4a",
+   "to": [
+    "steven.merriss@enron.com",
+    "eric.linder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-24T23:34:46+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/41",
+   "new_text": "-----Original Message-----\nFrom: \tHall, Steve C. (Legal)  \nSent:\tMonday, December 24, 2001 11:31 AM\nTo:\tWilliams III, Bill\nSubject:\tFW: You'll enjoy this\n\n\n\n -----Original Message-----\nFrom: \tHall, Steve C. (Legal)  \nSent:\tThursday, December 20, 2001 3:10 PM\nTo:\tHeizenrader, Tim\nSubject:\tYou'll enjoy this\n\nHe notes that Enron management lacked an 'honor among thieves,' but predicts that Enron alumni will flourish.  I suspect he is working on the Enron book right now.---sch\nIs Enron the New Drexel? \nBy Michael Lewis, the author of ``Liar's Poker'' and ``The New New Thing.''\nBerkeley, California, Dec. 20 (Bloomberg) -- Enron Corp. is rapidly expanding the American business journalists' notion of what is possible: No story can ever again be said to be too outrageous to be true. \nThe boss, Kenneth Lay, was a friend of the current president of these United States, an adviser to his administration and one of his biggest financial backers. The company itself was rated ``strong buy'' by analysts at almost every Wall Street firm, considered a shining example of modern accounting by reputable accounting firms, and plugged endlessly by the business press. Six years running as Fortune's most innovative company! And all the while this same operation was, at the very top, a lie. \nUnderstandably, people long for some analogy to help them grasp this situation, but really there isn't a good one. \nOther than failed hedge fund Long-Term Capital Management, Michael Milken's junk bond department at Drexel Burnham Lambert offers the closest parallels on Wall Street, and several people have written to me over the past week to suggest it. But it really is unfair to Milken to compare him to Lay. \nAlumni Will Flourish \nTrue, in both cases profitable trading businesses collapsed because their creditors came to distrust the people who ran them. And in both cases the core business -- Drexel's junk bonds and Enron's energy trading -- remain viable in the hands of other companies that banks trust. \nJust as the Drexel junk bond traders who didn't go to jail went to other Wall Street firms and created replicas of their former business, former Enron traders will soon be making lots of money for one-time rivals such as Dynegy Inc. and Duke Energy Corp. Well before Kenneth Lay emerges from his legal hell, the energy trading business will return to normal. \nBut the morality of the cases are entirely different. Whatever you think of Milken's junk bond department -- and I think its sins were minor beside its achievements -- you must admit the people in it exhibited a certain honor among thieves. \nThere was never a moment when Milken betrayed the broad interests of his traders for his own narrow ones. He paid himself huge sums of money, but he also made huge sums for his firm. He was careful to watch out for the little people who worked for him, and they loved him for it. The Enron bosses, by contrast, pillaged their firm and left the little people who worked for them holding the bag. \nDifferent Motivations \nEnron created the illusion that it was much more profitable than it actually was. Milken created an operation which was, if anything, much more profitable than it looked. What Milken hid was the thuggish manner in which he made his profits. What Enron hid was the sneaky way it made its losses. \n(This is something I still don't understand, and would love for some enterprising reporter to explain, as Enron seems intent on explaining nothing. The off-the-books partnerships that brought Enron down appear to have been a mechanism for hiding bad investments in hard assets -- Turkish gas pipelines, Indian power plants and the like. Why did Enron, which made its money as an intermediary, invest in this stuff in the first place?) \nThe speed with which the markets have punished Enron reflects the differences between it and Drexel. In Drexel's case, it took a multiyear investigation by the U.S. government, together with a smear campaign in the press, to bring down the business. In Enron's case, all it took was a couple of articles in the Wall Street Journal pointing out, among other things, that senior executives were profiting at the company's expense. \nIn Drexel's case, the demise of the firm and the jailing of Milken was pretty much the end of the story. In Enron's, the fate of the company and its leaders may open up a much bigger scandal that reaches right up to the top. Anything is possible. \n \nBerkeley, California, Dec. 20 (Bloomberg) -- Enron Corp. is rapidly expanding the American business journalists' notion of what is possible: No story can ever again be said to be too outrageous to be true. \nThe boss, Kenneth Lay, was a friend of the current president of these United States, an adviser to his administration and one of his biggest financial backers. The company itself was rated ``strong buy'' by analysts at almost every Wall Street firm, considered a shining example of modern accounting by reputable accounting firms, and plugged endlessly by the business press. Six years running as Fortune's most innovative company! And all the while this same operation was, at the very top, a lie. \nUnderstandably, people long for some analogy to help them grasp this situation, but really there isn't a good one. \nOther than failed hedge fund Long-Term Capital Management, Michael Milken's junk bond department at Drexel Burnham Lambert offers the closest parallels on Wall Street, and several people have written to me over the past week to suggest it. But it really is unfair to Milken to compare him to Lay.",
+   "new_text_source": "body",
+   "subject": "FW: You'll enjoy this",
+   "thread_id": "tf014a67c77",
+   "to": [
+    "wjwilliams3@hotmail.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-27T20:53:26+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/38",
+   "new_text": "-----Original Message-----\nFrom: \tHall, Steve C. (Legal)  \nSent:\tThursday, December 20, 2001 3:10 PM\nTo:\tHeizenrader, Tim\nSubject:\tYou'll enjoy this\n\nHe notes that Enron management lacked an 'honor among thieves,' but predicts that Enron alumni will flourish.  I suspect he is working on the Enron book right now.---sch\nIs Enron the New Drexel? \nBy Michael Lewis, the author of ``Liar's Poker'' and ``The New New Thing.''\nBerkeley, California, Dec. 20 (Bloomberg) -- Enron Corp. is rapidly expanding the American business journalists' notion of what is possible: No story can ever again be said to be too outrageous to be true. \nThe boss, Kenneth Lay, was a friend of the current president of these United States, an adviser to his administration and one of his biggest financial backers. The company itself was rated ``strong buy'' by analysts at almost every Wall Street firm, considered a shining example of modern accounting by reputable accounting firms, and plugged endlessly by the business press. Six years running as Fortune's most innovative company! And all the while this same operation was, at the very top, a lie. \nUnderstandably, people long for some analogy to help them grasp this situation, but really there isn't a good one. \nOther than failed hedge fund Long-Term Capital Management, Michael Milken's junk bond department at Drexel Burnham Lambert offers the closest parallels on Wall Street, and several people have written to me over the past week to suggest it. But it really is unfair to Milken to compare him to Lay. \nAlumni Will Flourish \nTrue, in both cases profitable trading businesses collapsed because their creditors came to distrust the people who ran them. And in both cases the core business -- Drexel's junk bonds and Enron's energy trading -- remain viable in the hands of other companies that banks trust. \nJust as the Drexel junk bond traders who didn't go to jail went to other Wall Street firms and created replicas of their former business, former Enron traders will soon be making lots of money for one-time rivals such as Dynegy Inc. and Duke Energy Corp. Well before Kenneth Lay emerges from his legal hell, the energy trading business will return to normal. \nBut the morality of the cases are entirely different. Whatever you think of Milken's junk bond department -- and I think its sins were minor beside its achievements -- you must admit the people in it exhibited a certain honor among thieves. \nThere was never a moment when Milken betrayed the broad interests of his traders for his own narrow ones. He paid himself huge sums of money, but he also made huge sums for his firm. He was careful to watch out for the little people who worked for him, and they loved him for it. The Enron bosses, by contrast, pillaged their firm and left the little people who worked for them holding the bag. \nDifferent Motivations \nEnron created the illusion that it was much more profitable than it actually was. Milken created an operation which was, if anything, much more profitable than it looked. What Milken hid was the thuggish manner in which he made his profits. What Enron hid was the sneaky way it made its losses. \n(This is something I still don't understand, and would love for some enterprising reporter to explain, as Enron seems intent on explaining nothing. The off-the-books partnerships that brought Enron down appear to have been a mechanism for hiding bad investments in hard assets -- Turkish gas pipelines, Indian power plants and the like. Why did Enron, which made its money as an intermediary, invest in this stuff in the first place?) \nThe speed with which the markets have punished Enron reflects the differences between it and Drexel. In Drexel's case, it took a multiyear investigation by the U.S. government, together with a smear campaign in the press, to bring down the business. In Enron's case, all it took was a couple of articles in the Wall Street Journal pointing out, among other things, that senior executives were profiting at the company's expense. \nIn Drexel's case, the demise of the firm and the jailing of Milken was pretty much the end of the story. In Enron's, the fate of the company and its leaders may open up a much bigger scandal that reaches right up to the top. Anything is possible. \n \nBerkeley, California, Dec. 20 (Bloomberg) -- Enron Corp. is rapidly expanding the American business journalists' notion of what is possible: No story can ever again be said to be too outrageous to be true. \nThe boss, Kenneth Lay, was a friend of the current president of these United States, an adviser to his administration and one of his biggest financial backers. The company itself was rated ``strong buy'' by analysts at almost every Wall Street firm, considered a shining example of modern accounting by reputable accounting firms, and plugged endlessly by the business press. Six years running as Fortune's most innovative company! And all the while this same operation was, at the very top, a lie. \nUnderstandably, people long for some analogy to help them grasp this situation, but really there isn't a good one. \nOther than failed hedge fund Long-Term Capital Management, Michael Milken's junk bond department at Drexel Burnham Lambert offers the closest parallels on Wall Street, and several people have written to me over the past week to suggest it. But it really is unfair to Milken to compare him to Lay.",
+   "new_text_source": "body",
+   "subject": "FW: You'll enjoy this",
+   "thread_id": "tf014a67c77",
+   "to": [
+    "ryan.slinger@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-07T05:03:56+00:00",
+   "from": "crcommunications@caiso.com",
+   "msg_id": "williams-w3/inbox/3",
+   "new_text": "> ISO Market Participants:\n> \n> The attached document contains the CERS January Settlement figures:\n> \n>  <<Closing 013102 mkt sum final CERS Jan.xls>> \n> \n> \n> Client Relations Communications.0921\n> CRCommunications@caiso.com\n>",
+   "new_text_source": "new",
+   "subject": "FW: CAISO NOTICE - CERS January Settlement",
+   "thread_id": "tf055241404",
+   "to": [
+    "20participants@caiso.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-02T18:23:50+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/199",
+   "new_text": "Todd,\nFrom an information standpoint this looks good. I would recommend using an appendix for the WSCC members, the FERC ruling, the NERC glossary and any other lengthy terms or charts. You might look to organize the paper from a broad overview of the electrical market in the west (including basic descriptions, timelines, fundamentals, etc.) down to a specific description of what you did at Enron. The content of the paper looks good and I am comfortable with you submitting what you have.\nIf you need any thing else regarding your paper just let me know.\n \nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: intership paper",
+   "thread_id": "tf08ccd48e3",
+   "to": [
+    "toddbland@hotmail.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T23:31:25+00:00",
+   "from": "alan.comnes@enron.com",
+   "msg_id": "williams-w3/inbox/72",
+   "new_text": "This article has good quotes reponding to McCullough's claim that Enron manipluated forward markets.\n\nThanks to Dave Perrino, former Enron employee who is now a consultant, for bringing this to my attention.\n\nGAC",
+   "new_text_source": "new",
+   "subject": "CAISO Responds to McCullough's inane claims",
+   "thread_id": "tf0ccc57c60",
+   "to": [
+    "jim.buerkle@enron.com",
+    "tom.alonso@enron.com",
+    "ray.alvarez@enron.com",
+    "robert.badeer@enron.com",
+    "tim.belden@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T23:55:13+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/9",
+   "new_text": "-----Original Message-----\nFrom: Comnes, Alan \nSent: Wednesday, January 30, 2002 11:31 AM\nTo: Buerkle, Jim; Alonso, Tom; Alvarez, Ray; Badeer, Robert; Belden,\nTim; Blair, Kit; Calger, Christopher F.; Choi, Paul; Dasovich, Jeff;\nDriscoll, Michael M.; Fischer, Mark; Foster, Chris H.; Gang, Lisa;\nGilbert, Scotty; Guzman, Mark; Hall, Steve C. (Legal); Heizenrader, Tim;\nKaufman, Paul; Mainzer, Elliot; Mallory, Chris; Malowney, John; Mara,\nSusan; Motley, Matt; Perrino, Dave; Platter, Phillip; Rance, Susan;\nRawson, Lester; Richter, Jeff; Rosman, Stewart; Savage, Gordon;\nScholtes, Diana; Semperger, Cara; Stokley, Chris; Swain, Steve;\nSwerzbin, Mike; Symes, Kate; Thome, Jennifer; Walton, Steve; Williams\nIII, Bill\nSubject: CAISO Responds to McCullough's inane claims\n\n\nThis article has good quotes reponding to McCullough's claim that Enron manipluated forward markets.\n\nThanks to Dave Perrino, former Enron employee who is now a consultant, for bringing this to my attention.\n\nGAC\n\n-----Original Message-----\nFrom: dave.perrino@rtoadvisors.com [mailto:dave.perrino@rtoadvisors.com]\nSent: Wednesday, January 30, 2002 8:15 AM\nTo: Comnes, Alan\nSubject: \n\n\nFrom: Dave Perrino  \n Subject:  \n \n Email a Friend brought to you by BayArea.com and SiliconValley.com\n **************************************************************************   \n \n Wed Jan 30 11:15:18 2002\n Robert McCullough Strikes again!  The \"Robinhood\" of the PNW discovers the evil Enron's western price fixing scheme!\n****************************************************************************\n \nAddress of original story:\nhttp://www0.mercurycenter.com/premium/front/docs/enron30.htm\n\n \n **************************************************************************\n Promotion\n Be sure to visit the Bayarea's web site http://www.bayarea.com\n **************************************************************************",
+   "new_text_source": "body",
+   "subject": "FW: CAISO Responds to McCullough's inane claims",
+   "thread_id": "tf0ccc57c60",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-02T02:22:53+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/122",
+   "new_text": "Matt,\nCheck this out, we got this from our managing director this morning...So is the Fremont bridge a target...how bout the I-5?\nMight want to pass this on to your mom and dad. By the way--your a wuss for skipping the high school playoff game...\n\n\n\nThis just came to me today.  This information is widely available to corporations and law enforcement around the country.  It will likely hit the media in the next day or so.  This is all the information that is available.\n\nEnron Corp. Business Controls/Corporate Security received the following information via the National Threat Warning system.  While we do not wish to unduly alarm employees, the specificity of the information dictated immediate dissemination to our West Coast offices.  \n\nTHE FBI IS IN POSSESSION OF UNCORROBORATED INFORMATION INDICATING THE\nPOSSIBILITY OF ADDITIONAL TERRORIST ATTACKS AGAINST THE UNITED STATES,\nSPECIFICALLY THE WEST COAST.  REPORTEDLY, UNSPECIFIED GROUPS ARE\nTARGETING SUSPENSION BRIDGES ON THE WEST COAST.  SIX INCIDENTS ARE TO\nTAKE PLACE DURING RUSH HOUR BEGINNING FRIDAY, NOVEMBER 2 AND CONTINUING\nTHROUGH NOVEMBER 7, 2001.\n\nNO FURTHER INFORMATION ABOUT THIS ALLEGED ATTACK IS KNOWN AT THIS TIME.\nTHE FBI IS ATTEMPTING TO VERIFY THE VALIDITY OF THIS REPORT.  RECIPIENTS\nWILL BE UPDATED AS EVENTS WARRANT.\n\nRECIPIENTS WHO RECEIVE OR DEVELOP INFORMATION RELATED TO THIS MATTER\nSHOULD IMMEDIATELY CONTACT THEIR LOCAL FBI OFFICE.\n\nWe will keep you apprised if we receive any further information.\n\nThank you.",
+   "new_text_source": "new",
+   "subject": "Heads up...",
+   "thread_id": "tf24b982681",
+   "to": [
+    "mjthayer@hotmail.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-07T11:05:04+00:00",
+   "from": "marketopshourahead@caiso.com",
+   "msg_id": "williams-w3/inbox/1",
+   "new_text": "PDCI\nMarket Notification: After the Day-Ahead Market closed, PDCI (S-N) TTC has\nbeen changed from 1407 MW to 1380 MW and PDCI (N-S) TTC has been changed\nfrom 1816 MW to 1720 MW starting HE23 for operating day 2/6/02. This is due\nto a Celilo Valve Group #3 forced out of service. No ETR. The first\napplicable hour to submit adjusted schedules in the Hour-Ahead Market is HE4\nfor operating day 2/7/02. Inquiries please call (916) 351-4409.  Please\naddress real-time operational inquiries to the Real-Time scheduling desk at\n(916) 351-2493, or (916) 351-4409.\n\nThe system conditions described in this communication are dynamic and\nsubject to change.  While the ISO has attempted to reflect the most current,\naccurate information available in preparing this notice, system conditions\nmay change suddenly with little or no notice.",
+   "new_text_source": "new",
+   "subject": "Derate of PDCI for 2/6/02 HE23 &24 and 2-7-02 HE01-08",
+   "thread_id": "tf2df1b7e7b",
+   "to": [
+    "mktstathourahead@caiso.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-05T20:07:16+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/58",
+   "new_text": "What up dawg! How are you and Meg doing?\nI still have a job. It has been an extremely rocky time. However, I feel optimistic that our trading business will continue in some fashion. I believe that we will be bought out by an investment bank and that we will be able to start trading again. The chances are good that I will have to thin out my group a bit, I am hoping that attrition will take care of some of the members of the group. I think we are going to let traders out of their contract if they want to leave. Hopefully that will cut down on any direct lay-offs I will have to do. It would suck having to lay-off good people. Its worrisome but like I said, I am optimistic. Soccer was going well, but I sprained my knee pretty badly playing indoor last night, so another two-three weeks before I am out there playing again...bollocks! Its ridiculous. How are things with you? I have two tickets to Mark Lanegan on December 19th at Berbatis Pan.  Are you going to be in town at that point? Its gonna be sweet. \nStill enjoying the Audi. My address is 1005 SW Park Ave. #706, Portland OR, 97205. Give me a ring and let me know what the word is. 503-887-3449.\n\nLater,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: Hello",
+   "thread_id": "tf3aefe6296",
+   "to": [
+    "badams@geraldmartin.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-03T21:08:36+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/434",
+   "new_text": "Group,\n\nTwo totally different issues for you.\n\nFirst:  When scheduling transmission on Portland General Electric from John Day to Malin we MUST use deal #146517, we MUST make the price zero.  We extend this deal in scheduling and change the delivery points.  We then make an annuity to ST-NW for losses.  Easy.\n\nSecond: For the third time in two weeks the behavior of the Real-Time Group after 6 PM has been brought up.  We will talk more regarding this in our meeting next week.  It is important to note that we need to remain within the bounds of professional behavior at all times.  Enron has a zero tolerance policy regarding harassment (language or behavior that offends or belittles others).\n\nThanks for your attention.\n\nBill",
+   "new_text_source": "new",
+   "subject": "IMPORTANT-PLEASE READ",
+   "thread_id": "tf43e53bffa",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-16T23:38:53+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/297",
+   "new_text": "Jack,\nThank you for the call. Below are the names of the folks in our real-time group, they share the same phone and fax number. You can include me on this list as well.\nI appreciate your help with this.\n\nThanks,\nBill\n\n\n\nName\t\t\tEmail\t\t\t\tPhone\t\t\tFax\nBill Williams\t\tbill.williams.iii@enron.com\t503-464-3730\t\t503-464-7996\t\n\nRyan Slinger\t\tryan.slinger@enron.com\t\t1-800-684-1336\t\t503-464-7996\nGeir Solberg\t\tgeir.solberg@enron.com\nMark Guzman\t\tmark.guzman@enron.com\nBert Meyers\t\tbert.meyers@enron.com\nLeaf Harasin\t\tleaf.harasin@enron.com\nEric Linder\t\teric.linder@enron.com\nDavid Porter\t\tdavid.v.porter@enron.com\nSteve Merriss\t\tsteve.merriss@enron.com\nCraig Dean\t\tcraig.dean@enron.com\nJohn Anderson\t\tjohn.anderson@enron.com\nDarin Presto\t\tdarin.presto@enron.com\nMike Meier\t\tmichael.mier@enron.com\nKate Symes\t\tkate.symes@enron.com",
+   "new_text_source": "new",
+   "subject": "EPMI ID's",
+   "thread_id": "tf4a61c6f2f",
+   "to": [
+    "jack_todd@pgn.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-07T03:48:26+00:00",
+   "from": "crcommunications@caiso.com",
+   "msg_id": "williams-w3/inbox/5",
+   "new_text": "Market Participants:\n\nPlease assure that this Notification is forwarded to your respective\nOperating Departments ---\n\nNotification of Operating Procedure Update\n\n*\tThe following new or revised ISO Operating Procedures have been\nimplemented and are posted for reference on the ISO Website.\n\nISO Operating Procedure posted:  E-508 Electrical Emergency Plan \n\t(With attachments A & C, NOTE: Attachment B is NOT Posted for\nSecurity Reasons)\nVersion: 3.0\nEffective Date: 2-6-02\nProcedure Purpose: Describes the process utilized by the Shift Manager to\naddress an imbalance between available system resources and system Demand\nduring periods when an Operating Reserve shortage is imminent or already\nexists, and includes all aspects of the notification process.   \nChanges / Reasons: See attached\n <<E-508 Procedure Change Description V3.0.doc>> \n\n*\tPlease find them at\nhttp://www1.caiso.com/thegrid/operations/opsdoc/index.html under the\nappropriate Operating Procedure section heading.\n\nPlease e-mail any comments or questions to the 'Procedure Control Desk'\nmailbox [mailto:procctrldesk@caiso.com] and we will respond as soon as\npossible.\n\nThank you!\n\nCalifornia ISO Procedure Control Desk\n\n\n\n\nClient Relations Communications.0921\nCRCommunications@caiso.com",
+   "new_text_source": "new",
+   "subject": "CAISO Notice - Operating Procedure Update - E-508 Electrical Emergency Plan",
+   "thread_id": "tf51e08415f",
+   "to": [
+    "20participants@caiso.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-29T01:52:17+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/279",
+   "new_text": "Sorry to hear about Racheal...so the Bretts weren't gay? But what about Nancy...\nI haven't been to the Breakroom. I think I will be coming up to Seattle on either Friday afternoon or Saturday morning. I haven't decided yet. I am taking Friday off from work though...my birthday is on Thursday...isn't your birthday here in the tail end of August--or am I thinking of Chuck. Erica Price? from the dorms, rowed crew, tall, red hair, sometimes slightly neurotic?..that would be kind of fun to run into her, anyway...I'll get back to you when I figure out what the heck is going on.\nLater.\nBill",
+   "new_text_source": "new",
+   "subject": "Interiors",
+   "thread_id": "tf6eff0e232",
+   "to": [
+    "craig@stollerinc.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-20T15:59:57+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/383",
+   "new_text": "Kourtney,\nJust a quick heads up for the flash.\nPath 26 was derated last night for HE 19 through HE 24.  For HE 24 the price for congestion revenue was $247.98.  We were awarded 218 mws of congestion relief by the CAISO.  This should equal $54059.64 in congestion revenue to ECTRT. \nIf you have any questions, please let me know.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RT congestion for 07/19",
+   "thread_id": "tf85b5a6128",
+   "to": [
+    "kit.blair@enron.com",
+    "caroline.emmert@enron.com",
+    "eugene.lee@enron.com",
+    "kourtney.nelson@enron.com",
+    "p..o'neil@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-03T02:47:12+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/33",
+   "new_text": "http://dotect.ect.enron.com/genstat/epe/status/",
+   "new_text_source": "new",
+   "subject": "El Paso Unit Status",
+   "thread_id": "tf8d8332ea4",
+   "to": [
+    "victor.bulbes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-12T17:59:47+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/507",
+   "new_text": "Steve,\nJust want to make sure you have me as Bill Williams III.\nThanks, \nBIll",
+   "new_text_source": "new",
+   "subject": "FW: EES Model for 6/11",
+   "thread_id": "tf9356d1200",
+   "to": [
+    "steven.merris@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-14T03:33:07+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/97",
+   "new_text": "Group,\nWe are long 20 mws in SDG1 for HE 2 and HE 3. We are long 10 mws in SDG1 for HE 4 and HE 5. This cost us $7.50. We imported it from MEAD 230.\nWe are also long 10 mws in NP-15 for HE 7-22 at $25. This is from Redding.\n\nFinally, ST-SW has extra transmission from PV to 4C and PV to Mead. You can query by Enron Power Marketing on the APS site to see what we have already purchased. If you need this transmission off-peak please use what we have already purchased. We can go over the Enpower when I get in in the morning.\n\nThanks,\n\nBill",
+   "new_text_source": "new",
+   "subject": "Positions for 11/13",
+   "thread_id": "tfa4886e40c",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-01T04:26:30+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/126",
+   "new_text": "Guys,\n\nWhen you see Four Corners #5 come back tonight. Please use the fundies webs=\nite to send out a message confirming it to Traders and RT. Also, you should=\n give BPA and CERS a call tonight to see if they are selling off cheap powe=\nr. Also, we are long 50mws flat at PV (see Kate's email)...The prices are $=\n27 and $37. Feel free to sell off up to HE 17 at around 39...if you can get=\n 43 bal peak--go for it!!! We sold 50's across the peak at PV tonight. This=\n was a result of the Four Corners 5 derate so prices may fall hard tomorrow=\n. Please try to find some information on the status of SouthPoint and the D=\nesert Basin unit tonight as well (this used to be Reliant's plant --rumor h=\nas it this is now SRP's starting tomorrow). As a bonus, CalPine scheduled o=\nff of SouthPoint for tomorrow while the plant was still down for maitenence=\n...If you get cut--sell them the off peak at PV for $75...MAKE THEM WEAR IT=\n! As an added bonus don't forget LADWP and CORAL cut us off for \"credit rea=\nsons\"...please treat them as you would any other non-performing counterpart=\ny...\n\n\nFinally, Services has a new deal with a cement company in NP-15. We will li=\nquidate the energy for the Services Desk RT at NP-15 +/- $2. We need to mak=\ne a buy/sell from imbalance under Services at $0 price. We then make a buy/=\nsell from Services under St-Whourly at NP-15 +/- $2. Finally we buy/sell fr=\nom/to Counterparty X under the St-Whourly book. Then we need to give Servic=\nes the swap deal # and the price. The mw values should be on Kysa's sheet. =\nIf this procedure works...please send out an email detailing the procedure =\nwith whatever comments are necessary when this goes physical.\n\nHave fun and good luck.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "FC #5 outage",
+   "thread_id": "tfa9410de80",
+   "to": [
+    "mark.guzman@enron.com",
+    "geir.solberg@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-24T19:34:19+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/365",
+   "new_text": "Group,\n\nWe are short 50 mws for tomorrow at PV through lending with EPE.  25 mws will be under ST-SW, 25 mws will be under ST-WBOM.\n\nWe are also short 65 mws for tomorrow at SP-15.  25 mws will be under ST-WBOM, 40 mws will be under ST-CALI.\n\nBoth schedules are HE 7-22.  All deals should be under appropriate books.  Please take extra time with the EPE lending.  We would like to do this size throughout August and want to make sure they have no problems.  Details regarding prices and deal numbers will be coming from Kate.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Lending (Short) for 07/25/01",
+   "thread_id": "tfb01dd7cab",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-08T01:50:33+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/319",
+   "new_text": "Neil,\nThe revenue for the sale that Phil entered to the CAISO will be captured by our volume management group.  RT will have no access to this revenue.  Consequently, we will not buy or sell it on your behalf to capture it.\nPlease give me a call tomorrow for a more thorough explanation.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Ancillary Services",
+   "thread_id": "tfb17354a57",
+   "to": [
+    "neil.bresnan@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-13T19:10:56+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/397",
+   "new_text": "Kate,\n\nThis is the last message from the total transfer capabilities folks.  I would like you to find this information and distill the relevant information from it.  We can go through what constitutes relevant information this afternoon.  I am working on adding you to the market status list, this will provide you with market information regarding real-time derates or market orders.  Finally, I would recommend printing the CAISO tariff off and reading it over the weekend or next few weeks.  Boring, but important.\n\nB",
+   "new_text_source": "new",
+   "subject": "FW: Total Transfer Capabilities",
+   "thread_id": "tfb537f4f4d",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-08T15:44:04+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/195",
+   "new_text": "Chip have you had a chance to work with Greg Ford on ADS? Any ideas on the new ADS phase II? \n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "FW: Latest Schedule for ADS Phase II",
+   "thread_id": "tfb5cd3ebfd",
+   "to": [
+    "chip.cox@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-14T00:20:06+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/307",
+   "new_text": "Journalism?\nPretty big Enron influence in this article from what I can tell...\nWhat are your thoughts?",
+   "new_text_source": "new",
+   "subject": "FW: Power Trading 101: Tricks of the trade",
+   "thread_id": "tfbeb0fc834",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-24T19:54:25+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/219",
+   "new_text": "-----Original Message-----\nFrom: \tKearney, Julie  \nSent:\tMonday, September 24, 2001 9:51 AM\nTo:\tDL-Portland World Trade Center\nSubject:\tAnalyst or Associate - Middle Market\n\nWe currently have an opening for a Analyst or Associate in Middle Markets reporting to John Malowney.  If you are interested in this position, please let Julie Kearney know by close of business on Wednesday, September 26, 2001 by calling 503) 464-7404 or through email.  \n\n\nANALYST OR ASSOCIATE, MIDDLE MARKET\n\nEPMI West Power Trading in Portland, Oregon, seeks an Analyst or an Associate to work in the Middle Market Group.  This individual will support Commercial level managers and directors with the Middle Market Group to manage physical energy purchases and sales and market structured financial products to utility and large industrial customers in the western United States.\n\nThe essential functions of this position are as follows.\nWork with other members of the Middle Market team to design deal structures for clients and respond to Requests for Proposals (RFPs).\nCommunicate with term and cash traders to obtain accurate price information for client quotes.\nCommunicate with internal Enron groups (credit, legal, scheduling, risk) as required to close transactions and manage ongoing business.\nAssist Middle Market team in contacting clients to ascertain their energy needs to develop opportunities.\n\n\nEssential Job Requirements\nBachelor degree in marketing, finance, or other related field although exceptional work experience or military experience may be substituted at Enron's discretion.\nExperience in commodity business and ability to understand Enron's internal processes (legal, credit, structuring, risk) for trading groups.\nStrong relationship building skills.\nProven Sales Skills.\nUnderstanding of derivatives.\nWill acquire and develop pricing/rate/tariff comparisons into a spreadsheet format for marketing purposes.\nAbility to work effectively under demanding time lines.\nAbility to \"cold call\" a mature client base.\nPerseverance/Tenacity - ability to call the same customers pitching products and extracting information.\nDetail oriented with ability to handle multiple projects or tasks simultaneously.\nStrong verbal and written communication skills.\nWork with other members of the Middle Market team to design deal structures for clients and respond to Requests for Proposals (RFPs).\nCommunicate with term and cash traders to obtain accurate price information for client quotes.\nCommunicate with internal Enron groups (credit, legal, scheduling, risk) as required to close transactions and manage ongoing business.\nAssist Middle Market team in contacting clients to ascertain their energy needs to develop new business opportunities.\nAbility to build and manage long-term client relationships.\nProficiency in MS Excel, Word and PowerPoint.\nDetail oriented with ability to handle multiple projects or tasks simultaneously.\nStrong verbal and written communication skills.\n\nSpecial Job Characteristics\n\nTravel may be required.\nSelf-starter and dedicated.\nMotivated to meet individual as well as team targets.",
+   "new_text_source": "body",
+   "subject": "FW: Analyst or Associate - Middle Market",
+   "thread_id": "tfce7540d70",
+   "to": [
+    "mark.guzman@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-07T16:30:50+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/325",
+   "new_text": "Spin was exercised for HE 9 and HE 10 at 08:35 and 09:35 respectively.",
+   "new_text_source": "new",
+   "subject": "Revised sheet for 08-06",
+   "thread_id": "tfdbbd79ede",
+   "to": [
+    "settlements.ees@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-14T19:52:54+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/246",
+   "new_text": "Jill,\nI was being sarcastic about the $16000. Could you send an email to each group member giving them their average usage since you started or the last 3 months (AT&T should have this info). If you could send me an email breaking out the costs that would be great as well. I am not that concerned with the new phones--but would like to know what was spent.\nI appreciate the help.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Cell phones...",
+   "thread_id": "tfde88bb9ec",
+   "to": [
+    "jill.chatterton@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-02T19:46:09+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/36",
+   "new_text": "**Per Tony at EPE, the following is new for 2002. I will attempt to get more information and pass it on as I receive it.**\n\nFirst, TNP now has a 75 MW call on EPE.  The schedule you see on the unit commitment was called in by PNM on behalf of TNP. Lets keep checking TNP schedules real-time to minimize inadverdant on this sale.  Second, SPS exchange now is 130 MW light load, SPS provides EPE 130 MW at the Eddy tie and EPE returns the power 100 MW at PV and 30 at FC. Again, this schedule will have to be verified real time with SPS/PSCO.\n\n**The TNP schedule is verified with PNM and is delivered at Hidalgo. 25 is firm just like the last two years, 50 is econ. and can be varied by PNM each hour.**\n\nPlease ask if you have any questions.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "New EPE procedures.",
+   "thread_id": "tfe02246d81",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "linder.eric@enron.com",
+    "mark.guzman@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-15T00:27:56+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/240",
+   "new_text": "ate,\nYou should recieve an email from Sean Crandall detailing a short position for tomorrow (Saturday) and for Monday. Please give this information to the group including Enpower information...etc.\n\nCall me if you have any questions.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Short pos",
+   "thread_id": "tfe71422298",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-04T21:11:30+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/31",
+   "new_text": "Alan,\nI think you have identified the most pressing issues. Certainly the ability to go long or short into R/T will be important and hopefully the CISO will follow through on its efforts to \"strive for simplicity and transparency.\" Any idea what the penalties for being long or short in R/T might be?  In the CISO's proposal the first two \"goals\" for the real time market appear to be at odds with each other. Also, I think we should push to rid ourselves of 10-minute dispatch at tie points. I understand the CAISO keeping the ADS in-state but it has not worked at tie-points. Feel free to let me know if you have any questions.\n\nThanks for the update.\n\nBill",
+   "new_text_source": "new",
+   "subject": "RE: California ISO Market Re-Design 2002 (MD02)",
+   "thread_id": "tfeadafa755",
+   "to": [
+    "alan.comnes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-11T21:09:42+00:00",
+   "from": "alan.comnes@enron.com",
+   "msg_id": "williams-w3/inbox/106",
+   "new_text": "All:\n\nA more detailed version  of CAISO's MD02 proposal was released on Wednesday.  Below I am copying a summary prepared by Andy Brown who covers these matters for IEP.\n\nIt appears that the CAISO proposal will allow for SC's to go short or long in the R/T market (i.e., final schedules do not need to be balanced).  That's good.  \n\nI think the most material issue at this point is how the forward capacity requirement (ACAP, akin to ICAP) will affect our trading.\n\nGAC\n\nWhat is CAISO proposing?\n\nFirst off, there are \"target price\" and \"intra-zonal congestion management\"\nFERC filings that are apparently almost ready for a drop at FERC.  The\n\"comprehensive\" package would build off that.\n\nIn essencence, CAISO is proposing a capacity market (similar to what IEP\nproposed at the CPUC \"Procurement OIR\") that has an \"available capacity\nobligation\" (ACAP) on the load-serving entities (LSEs, aka the utilities and\nelectric service providers).  This is the solution to the \"all spot, all the\ntime\" design that was associated with the CPUC's \"mandatory buy/sell\"\nrequirement and failure to provide forward reasonableness guidelines for the\nutilities.  The LSEs would be required to show / specify to CAISO the ACAP\nresources on a month-ahead basis equal to at least 115% of the coming\nmonth's peak demand.  ACAP resources can be the LSE's own generation,\ngeneration under contract, etc.  Failure to procure sufficient ACAP would\nlead to penalties.  Also, CAISO appears to suggest that it would be in the\nmiddle of arrangements between a LSE and the capacity supply as it would\npenalize the supplier for failure to be available, operate as dispatched,\netc.  That wrinkle seems like it calls for 3 party contracts or some element\nof complexity that shouldn't necessarily be required.  Its not clear from\nthe paper how costs for CAISO-dispatched ACAP resource would be allocated to\nother SCs, particularly where a LSE contracted for the capacity, but CAISO's\nrunning it to cover someone else's short energy schedule?  \n\nIt is not particularly clear how DWR resources fit into the mix (there seems\nto be a contradictory statement in the paper).  However, CAISO is proposing\na two-year \"transition\" mechanism where CAISO would provide the ACAP\nresources (based on their stellar creditworthiness?? or DWR resources??).\nThere could be tension here with the proposals at the CPUC proceeding.\nAlso, it appears that an argument can be made that DWR is a LSE under the\nterms of AB 1x.  \n\nCAISO is also moving toward a forward nodal-based congestion mechanism,\nsimilar to the PJM type of design.  It is based on a 3000 bus network model\nwith simplified modeling of adjacent control areas.  Dispatch will be on an\noptimized basis that on resource constraints (that appears to be dynamic)\nincluding transmission capacity changes (increased ATC when ETC rights are\nfreed up, etc.) and generation availability.  There will be some degree of\nnode aggregation (in the form of demand locations and trading hubs).  It\nappears that RMR contracts could disappear under this approach, although\nthat is not completely clear.\n\nCreation of the forward congestion approach with security based optimization\neffectively removes the need for the \"balanced schedule\" requirement.  Under\nthe proposal, CAISO would make trades happen in realtime through the\noptimization to the extent not addressed through the forward markets. CAISO\ncalls for the resurrection of a day ahead energy market (FERC has called for\nthat).  CAISO says its open to that market being run outside of CAISO, but\nthat the need is for a centralized day ahead energy market that could help\nshape resource needs.\n\nCAISO would have the ability to dispatch identified ACAP resources not\nalready scheduled by the LSE.  They speak in terms of a \"residual unit\ncommitment\" requirement ... something akin to the \"long lead time\" proposal\nunder the \"must-offer\" requirement.  Their start and min load payment\nproposal would be continued, subject to loosing it for unavailability or\nparticipation in the market.  \n\nNote that CAISO states they will need to mitigate bids due to \"locational\nmarket power\", particularly in relation to congestion.  I thought that\nlocational market power was addressed via RMR.  This raises the \"black box\"\nissue if CAISO is going to say on a realtime basis that they have some\ndynamic problem and only a particular generation asset could address the\nproblem so we're mitigating your bid curve based on some form of proxy\npricing mechanism.  To some extent, in a nodal system, CAISO could argue\nthat more folks have \"locational market power.\"  We'll need to review other\nmarkets' treatment of this issue.\n\nThe future of the AS markets is questioned in the paper, and there's the\nspecific suggestion that the replacement reserve market is unnecessary if\nACAP is put into place.  This is probably the largest hole in the paper,\nbecause there's a clear implication that something should happen and\npresumably CAISO has at least come up with some set of options on the issue\n(i.e., kill AS, have AS markets but alter products, have one AS product but\nexpect low volume, etc).\n\nOne element that seemed missing was a discussion of demand response.  In\nmany respects that element has been consistently missing in the market, save\nthe extraordinary conservation last summer.  There is a suggestion that the\nACAP requirement could be addressed by demand response, but presumably that\nwould need to be demand that could be dispatched by CAISO, and those\nresources are particularly limited under the current CAISO demand-side\ndesign.  While efforts on interruptible programs has occurred at the CPUC,\nit is not clear that the two entities are heading in the same direction.\n\nIt was noted earlier that the ACAP proposal is similar to what IEP (and\nothers) suggested at the CPUC Procurement OIR.  Based on a lone comment by a\nCPUCer during the CAISO media call yesterday, the CPUC is very far behind\nthe curve on these issues, and there is absolutely no coordination on this\nissue.  Given that the same \"solution\" is popping up in both venues, there\nis a real need to make sure that the two pieces can fit together, while\navoiding a bureaucratic paralysis that could happen if a formal attempt to\n\"coordinate\" the venues is proposed.\n\nABB\n\n\n\n\nAndrew B. Brown\nEllison, Schneider & Harris, LLP\n2015 H Street\nSacramento, CA  95814\nPhone: (916) 447-2166\nFax: (916) 447-3512\nmailto:abb@eslawfirm.com",
+   "new_text_source": "new",
+   "subject": "RE: California ISO Market Re-Design 2002 (MD02)",
+   "thread_id": "tfeadafa755",
+   "to": [
+    "alan.comnes@enron.com",
+    "tim.belden@enron.com",
+    "robert.badeer@enron.com",
+    "chris.mallory@enron.com",
+    "chris.lackey@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-11T21:18:15+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/23",
+   "new_text": "-----Original Message-----\nFrom: \tComnes, Alan  \nSent:\tFriday, January 11, 2002 9:10 AM\nTo:\tComnes, Alan; Belden, Tim; Badeer, Robert; Mallory, Chris; Lackey, Chris; Richter, Jeff; Hall, Steve C. (Legal); Blair, Kit; Gilbert, Scotty; Williams III, Bill; Calger, Christopher F.; Heizenrader, Tim; Foster, Chris H.\nCc:\tNicolay, Christi L.; Steffes, James D.; Dasovich, Jeff; Novosel, Sarah\nSubject:\tRE: California ISO Market Re-Design 2002 (MD02)\n\nAll:\n\nA more detailed version  of CAISO's MD02 proposal was released on Wednesday.  Below I am copying a summary prepared by Andy Brown who covers these matters for IEP.\n\nIt appears that the CAISO proposal will allow for SC's to go short or long in the R/T market (i.e., final schedules do not need to be balanced).  That's good.  \n\nI think the most material issue at this point is how the forward capacity requirement (ACAP, akin to ICAP) will affect our trading.\n\nGAC\n\nWhat is CAISO proposing?\n\nFirst off, there are \"target price\" and \"intra-zonal congestion management\"\nFERC filings that are apparently almost ready for a drop at FERC.  The\n\"comprehensive\" package would build off that.\n\nIn essencence, CAISO is proposing a capacity market (similar to what IEP\nproposed at the CPUC \"Procurement OIR\") that has an \"available capacity\nobligation\" (ACAP) on the load-serving entities (LSEs, aka the utilities and\nelectric service providers).  This is the solution to the \"all spot, all the\ntime\" design that was associated with the CPUC's \"mandatory buy/sell\"\nrequirement and failure to provide forward reasonableness guidelines for the\nutilities.  The LSEs would be required to show / specify to CAISO the ACAP\nresources on a month-ahead basis equal to at least 115% of the coming\nmonth's peak demand.  ACAP resources can be the LSE's own generation,\ngeneration under contract, etc.  Failure to procure sufficient ACAP would\nlead to penalties.  Also, CAISO appears to suggest that it would be in the\nmiddle of arrangements between a LSE and the capacity supply as it would\npenalize the supplier for failure to be available, operate as dispatched,\netc.  That wrinkle seems like it calls for 3 party contracts or some element\nof complexity that shouldn't necessarily be required.  Its not clear from\nthe paper how costs for CAISO-dispatched ACAP resource would be allocated to\nother SCs, particularly where a LSE contracted for the capacity, but CAISO's\nrunning it to cover someone else's short energy schedule?  \n\nIt is not particularly clear how DWR resources fit into the mix (there seems\nto be a contradictory statement in the paper).  However, CAISO is proposing\na two-year \"transition\" mechanism where CAISO would provide the ACAP\nresources (based on their stellar creditworthiness?? or DWR resources??).\nThere could be tension here with the proposals at the CPUC proceeding.\nAlso, it appears that an argument can be made that DWR is a LSE under the\nterms of AB 1x.  \n\nCAISO is also moving toward a forward nodal-based congestion mechanism,\nsimilar to the PJM type of design.  It is based on a 3000 bus network model\nwith simplified modeling of adjacent control areas.  Dispatch will be on an\noptimized basis that on resource constraints (that appears to be dynamic)\nincluding transmission capacity changes (increased ATC when ETC rights are\nfreed up, etc.) and generation availability.  There will be some degree of\nnode aggregation (in the form of demand locations and trading hubs).  It\nappears that RMR contracts could disappear under this approach, although\nthat is not completely clear.\n\nCreation of the forward congestion approach with security based optimization\neffectively removes the need for the \"balanced schedule\" requirement.  Under\nthe proposal, CAISO would make trades happen in realtime through the\noptimization to the extent not addressed through the forward markets. CAISO\ncalls for the resurrection of a day ahead energy market (FERC has called for\nthat).  CAISO says its open to that market being run outside of CAISO, but\nthat the need is for a centralized day ahead energy market that could help\nshape resource needs.\n\nCAISO would have the ability to dispatch identified ACAP resources not\nalready scheduled by the LSE.  They speak in terms of a \"residual unit\ncommitment\" requirement ... something akin to the \"long lead time\" proposal\nunder the \"must-offer\" requirement.  Their start and min load payment\nproposal would be continued, subject to loosing it for unavailability or\nparticipation in the market.  \n\nNote that CAISO states they will need to mitigate bids due to \"locational\nmarket power\", particularly in relation to congestion.  I thought that\nlocational market power was addressed via RMR.  This raises the \"black box\"\nissue if CAISO is going to say on a realtime basis that they have some\ndynamic problem and only a particular generation asset could address the\nproblem so we're mitigating your bid curve based on some form of proxy\npricing mechanism.  To some extent, in a nodal system, CAISO could argue\nthat more folks have \"locational market power.\"  We'll need to review other\nmarkets' treatment of this issue.\n\nThe future of the AS markets is questioned in the paper, and there's the\nspecific suggestion that the replacement reserve market is unnecessary if\nACAP is put into place.  This is probably the largest hole in the paper,\nbecause there's a clear implication that something should happen and\npresumably CAISO has at least come up with some set of options on the issue\n(i.e., kill AS, have AS markets but alter products, have one AS product but\nexpect low volume, etc).\n\nOne element that seemed missing was a discussion of demand response.  In\nmany respects that element has been consistently missing in the market, save\nthe extraordinary conservation last summer.  There is a suggestion that the\nACAP requirement could be addressed by demand response, but presumably that\nwould need to be demand that could be dispatched by CAISO, and those\nresources are particularly limited under the current CAISO demand-side\ndesign.  While efforts on interruptible programs has occurred at the CPUC,\nit is not clear that the two entities are heading in the same direction.\n\nIt was noted earlier that the ACAP proposal is similar to what IEP (and\nothers) suggested at the CPUC Procurement OIR.  Based on a lone comment by a\nCPUCer during the CAISO media call yesterday, the CPUC is very far behind\nthe curve on these issues, and there is absolutely no coordination on this\nissue.  Given that the same \"solution\" is popping up in both venues, there\nis a real need to make sure that the two pieces can fit together, while\navoiding a bureaucratic paralysis that could happen if a formal attempt to\n\"coordinate\" the venues is proposed.\n\nABB\n\n\n\n\nAndrew B. Brown\nEllison, Schneider & Harris, LLP\n2015 H Street\nSacramento, CA  95814\nPhone: (916) 447-2166\nFax: (916) 447-3512\nmailto:abb@eslawfirm.com",
+   "new_text_source": "body",
+   "subject": "FW: California ISO Market Re-Design 2002 (MD02)",
+   "thread_id": "tfeadafa755",
+   "to": [
+    "ryan.slinger@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-03T15:43:56+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/334",
+   "new_text": "Group,\n\nWhen doing imports and exports at tie points for other desks, be sure to put the other desk as the Customer in CAPS.  This prevents inappopriate charges going against the real-time book.  Import and Export fees are typically in the nature of $5 per mm on a wheel.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Imports and Exports",
+   "thread_id": "tfebdac8043",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  }
+ ]
+}

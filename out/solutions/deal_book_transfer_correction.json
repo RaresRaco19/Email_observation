@@ -1,0 +1,153 @@
+{
+ "current_workflow": [
+  {
+   "citations": [
+    "giron-d/sent/550",
+    "giron-d/sent/405",
+    "giron-d/sent/539"
+   ],
+   "step": "Settlements staff find deals in the wrong book (for example ECC deals or EnronOnline deals auto-booked into MGMT-WEST or G-DAILY-EST). They email whoever they think owns the book, and that person forwards the email to the book administrator.",
+   "who": "settlements (Calgary) / Houston book owners"
+  },
+  {
+   "citations": [
+    "giron-d/sent/469",
+    "giron-d/sent/117",
+    "giron-d/sent/83"
+   ],
+   "step": "Settlements and accounting staff send one-off correction requests to change a price, rate or counterparty on a Sitara deal, each by its own email.",
+   "who": "settlements / volume management"
+  },
+  {
+   "citations": [
+    "giron-d/inbox/117",
+    "giron-d/inbox/91",
+    "giron-d/inbox/84",
+    "giron-d/inbox/57"
+   ],
+   "step": "During the bankruptcy period, credit and risk staff send lists of counterparties or auto-terminating deals to move into the bankruptcy books, often in several batches of 'stragglers'.",
+   "who": "credit / risk (Stacey Richardson, Cyndie Balfour-Flanagan, P. Love)"
+  },
+  {
+   "citations": [
+    "giron-d/inbox/67"
+   ],
+   "step": "The person carrying out the move (IT/Estate database staff or the book administrator) writes back with clarifying questions: book IDs, commodity code, cutoff date for active deals, counterparty ID.",
+   "who": "Estate database / IT (Cecilia Cheung)"
+  },
+  {
+   "citations": [
+    "giron-d/inbox/103",
+    "giron-d/inbox/94",
+    "giron-d/sent/665",
+    "giron-d/sent/469"
+   ],
+   "step": "The deal lists are reconciled against Sitara or TAGG numbers and the price book, and someone confirms completion by email.",
+   "who": "book administrator / risk"
+  },
+  {
+   "citations": [
+    "giron-d/inbox/138"
+   ],
+   "step": "Unexplained GL differences come back later as possible write-offs and need research into which deals they relate to.",
+   "who": "accounting (Richard Tomaski) / book administrator"
+  }
+ ],
+ "effort": "S",
+ "implementation_steps": [
+  "Draft the request template fields from the questions that recur in the evidence: deal IDs, books, field and new value, physical or financial, reason, deadline, and the bulk-move IDs and cutoff date.",
+  "Draft the completion-confirmation reply that repeats the deal list, the action taken, and the time completed.",
+  "Build the book-owner routing list (for example MGMT-WEST, G-DAILY-EST, NG-PRICE, the bankruptcy books) with the responsible person for each book, and confirm it with Jeffrey Gossett.",
+  "Save the template and confirmation as stationery or a saved Notes/Outlook draft for the book administrator, and send the template and routing list to the settlements, credit, risk and accounting contacts who send these requests most often.",
+  "When a free-form request arrives, reply once with the template, and accept it as-is only if it is a deadline-critical same-day request.",
+  "Start the shared correction log and record each completed request.",
+  "After one month, review which fields were still missing and which requests still arrived by forwarding, then adjust the template and routing list."
+ ],
+ "opportunity": "deal_book_transfer_correction",
+ "risks": [
+  "Requesters keep sending free-form emails under deadline pressure. Mitigation: reply with the template every time, and get managers (for example Jeffrey Gossett) to endorse it.",
+  "The routing list goes stale as book ownership changes, which was common during the bankruptcy period. Mitigation: date the list and review it monthly.",
+  "The evidence covers only one mailbox (giron-d), so the volume and mix of requests from other desks are uncertain. The template may need more fields for cases not seen here.",
+  "Bulk bankruptcy moves have attachments and executor-specific needs (Estate database CP IDs), and the evidence shows only one example of those questions. Validate the addendum with the IT executor before rollout.",
+  "The savings are small ($82 a month by the formula), so the main value is fewer invoicing delays. That benefit is not priced and should not be presented as extra savings."
+ ],
+ "solution": {
+  "approach": "Publish one 'Book move / booking correction request' email template, plus a short completion-confirmation reply, both owned by the book administrator. The request template has one row per deal. Each row holds: deal number (Sitara or EnronOnline/TAGG ID), TAGG short name of the counterparty, current book, target book or field to change (price, rate, counterparty, book) with the new value, production month, physical or financial, reason (for example ECC counterparty, bankruptcy termination, invoice mismatch), required-by deadline (invoicing or book calc), and requester. For bulk moves such as bankruptcy transfers, the template also asks up front for the items the Estate database executor had to ask about: source and target book IDs, commodity code, active-deal cutoff date, and counterparty ID. The administrator sends a published book-owner list to settlements and credit, so requests go straight to the right person instead of being forwarded. Every completed request gets the standard confirmation, which repeats the deal list, the action taken, and the time done, so settlements can release invoicing and accounting has a record that explains later GL differences.",
+  "components": [
+   "book move / booking correction request template (email body with one row per deal)",
+   "bulk-move addendum listing book IDs, commodity code, cutoff date and counterparty ID",
+   "standard completion-confirmation reply",
+   "book-owner routing list (book name to responsible controller)",
+   "shared correction log (spreadsheet) recording deal, change, reason and date"
+  ],
+  "inputs": [
+   "deal numbers (Sitara / EnronOnline / TAGG)",
+   "TAGG counterparty short names",
+   "current and target book names",
+   "field to change and new value",
+   "production month",
+   "physical or financial flag",
+   "reason for the change",
+   "deadline (invoicing or book calc)",
+   "for bulk moves: book IDs, commodity code, active-deal cutoff date, counterparty ID"
+  ],
+  "outputs": [
+   "a complete request the book administrator can act on without follow-up questions",
+   "a standard completion confirmation to the requester (and accounting when invoicing is held)",
+   "a book-owner contact list so requests are routed directly",
+   "a running log of corrections with reasons, for GL reconciliation"
+  ],
+  "systems": [
+   "Sitara",
+   "TAGG",
+   "EnronOnline",
+   "Estate database"
+  ],
+  "trigger": "Settlements, credit, risk or accounting staff find a deal in the wrong book or with a wrong price or counterparty, usually ahead of an invoicing start or a book calc deadline."
+ },
+ "stall_points": [
+  {
+   "citation": "giron-d/sent/405",
+   "description": "Requests go to the wrong person first and are forwarded on, which uses up hours on a same-day invoicing deadline.",
+   "quote": "Here are some more deals that need to be flipped out of the G-DAILY-EST book,"
+  },
+  {
+   "citation": "giron-d/sent/539",
+   "description": "Wrong-book deals block invoicing for two entities until they are fixed and confirmed.",
+   "quote": "Invoicing for November should start today, and both ECC and ENA are held back from invoicing until these deals are fixed"
+  },
+  {
+   "citation": "giron-d/inbox/67",
+   "description": "The request has no book IDs, commodity code or cutoff date, so the executor has to send a list of questions before the move can start.",
+   "quote": "If I can have all the answers soon then I think the deals move can be completed around 3:00p.m."
+  },
+  {
+   "citation": "giron-d/inbox/84",
+   "description": "Requests carry a hard book-calc deadline and need a completion confirmation, but there is no standard confirmation format.",
+   "quote": "Please let me know when this is complete.  We need to have it done by the time we calc our books today - no exceptions."
+  },
+  {
+   "citation": "giron-d/inbox/103",
+   "description": "Deal lists arrive without Sitara numbers, so they have to be reconciled before anyone can act on them.",
+   "quote": "Please note that there are still several deals that I am trying to reconcile back to Sitara numbers."
+  },
+  {
+   "citation": "giron-d/inbox/94",
+   "description": "Verification waits for a book calc, so cross-checking is pushed to the next day.",
+   "quote": "Because of the translation to the bankruptcy book, we can not calc the bankruptcy book for a while, so we will cross reference those in the morning."
+  },
+  {
+   "citation": "giron-d/inbox/138",
+   "description": "Corrections without a recorded reason come back as unexplained GL differences that have to be researched.",
+   "quote": "Can you guys help try to resolve these differences?  We may have to write them off anyways, but we need to know what they relate to."
+  }
+ ],
+ "stays_manual": [
+  "Deciding whether a deal really belongs in another book (ECC versus ENA counterparty, bankruptcy eligibility), because it needs credit and legal context.",
+  "Executing the move or change in Sitara, TAGG or the Estate database and checking the result after the book calc.",
+  "Researching GL differences that turn up as potential write-offs.",
+  "Prioritising same-day requests that compete for the same calc or invoicing deadline."
+ ],
+ "success_metric": "Share of book-move or correction requests that are completed with no clarifying question or forwarding hop, and the median hours from request to completion confirmation.",
+ "summary": "Settlements, credit, risk and accounting staff ask the book administrator (Darron Giron) to move deals between books or fix price, counterparty or book through free-form emails. These are often forwarded two or three times, missing deal terms or IDs, and tied to same-day invoicing or book-calc deadlines. A standard book-move and booking-correction request template, with a standard completion confirmation, removes the clarifying round-trips and the forwarding hops. It is worth about $82 a month ($984 a year) in handling time and also cuts deadline risk on invoicing."
+}

@@ -1,0 +1,768 @@
+{
+ "batch_id": "c0596c327091",
+ "context": [],
+ "messages": [
+  {
+   "date": "2000-10-20T09:30:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/570",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 10/20/2000 \n09:30 AM ---------------------------\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Victor Guggenheim                           10/20/2000 08:58 AM\n\t\n\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: official post id",
+   "new_text_source": "body",
+   "subject": "official post id",
+   "thread_id": "td9ba5445af",
+   "to": [
+    "jason.wolfe@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-18T16:01:12+00:00",
+   "from": "isc.registrar@enron.com",
+   "msg_id": "giron-d/inbox/230",
+   "new_text": "Dear DARRON GIRON,\n\n\nYou have been added to the waiting list for the following.\n\n\nCourse Title : 'Understanding Options'\nSession Code : 103101\n\n\nThe course details are given below for your confirmation.\n\n\nType            : Instructor Led Course\nCourse Code     : UOPTNS\n\n\nSession Code    : 103101\nStarting Date   : Oct 31, 2001 8:00 AM\nEnding Date     : Nov 1, 2001 5:00 PM\n\n\nNumber of Units : 0\nprice           : $1,400.00\n\n\nLocation        : Doubletree Hotel\n\n                  Dallas St.\n                  Houston, TX\n\n\n\nMeetings        :\n      Start Time:  Oct 31, 2001 8:00 AM\n        End Time:  Nov 1, 2001 5:00 PM\n     No instructors or rooms have been assigned to this meeting.\n\n\n\n\nYou will be notified if a seat opens.\n\n\n\n\nThank you,\nDocent Learning Management System.",
+   "new_text_source": "new",
+   "subject": "You are included in the Waiting List",
+   "thread_id": "tda2c4128c4",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-13T17:56:16+00:00",
+   "from": "m..love@enron.com",
+   "msg_id": "giron-d/inbox/381",
+   "new_text": "-----Original Message-----\nFrom: \tMills, Bruce  \nSent:\tTuesday, November 13, 2001 11:54 AM\nTo:\tLove, Phillip M.; Doan, Jad\nSubject:\tFW: !!\n\n\n\n -----Original Message-----\nFrom: \tMorse, Brad  \nSent:\tTuesday, November 13, 2001 11:49 AM\nTo:\tMills, Bruce; Best, Kristine\nSubject:\tFW: !!\n\nKind of makes you feel warm all over, doesn't it?\n\n -----Original Message-----\nFrom: \tDenning, Terri  \nSent:\tTuesday, November 13, 2001 11:04 AM\nTo:\tMorse, Brad\nSubject:\tFW: !!\n\ni have to forward you this article if only because of my friend eva's response! haha, at least it made me laugh!\n\n -----Original Message-----\nFrom: \tRainer, Eva  \nSent:\tTuesday, November 13, 2001 11:03 AM\nTo:\tDenning, Terri; Koepke, Gwyn; Korioth, Ann; Clark, Catherine\nSubject:\tRE: !!\n\nSonofabitch.\n\n -----Original Message-----\nFrom: \tDenning, Terri  \nSent:\tTuesday, November 13, 2001 11:02 AM\nTo:\tKoepke, Gwyn; Korioth, Ann; Clark, Catherine; Rainer, Eva\nSubject:\t!!\n\nEnron's Lay could get $80M from deal \nLay's employment agreement with Enron, which is set to expire Dec. 31, 2005, allows the executive to terminate his employment with the company 60 days prior to the Dynegy merger and receive a lump-sum payment of up to $80.8 million, according to a regulatory filing Tuesday.\nAccording to the terms of the employment contract, if Lay quits before a change of control at the company, he is entitled to a lump sum payment equal to the number of years left in his contract multiplied by $20.2 million.\nThe agreement also allots an amount to Lay for any tax-related penalties if the lump-sum payment is held to constitute an \"excess parachute payment,\" according to the Securities and Exchange Commission filing.\nLay's original employment agreement with Enron was amended in August when he became CEO after Jeff Skilling resigned.\nEnron's shares fell 4 cents to $9.20 in recent trading.",
+   "new_text_source": "body",
+   "subject": "FW: !!",
+   "thread_id": "tda5b3078a6",
+   "to": [
+    "c..giron@enron.com",
+    "jimmy.simien@enron.com",
+    "greg.couch@enron.com",
+    "scott.palmer@enron.com",
+    "kevin.bosse@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-26T12:23:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/289",
+   "new_text": "Hey,\nWhat's going on?  I wanted to get up to date on recruiting.  I also wanted to \nask you something.  I heard some info from my wife regarding a kid that was \nrecruited and commited to UT from Jersey Village.\nDG",
+   "new_text_source": "new",
+   "subject": "",
+   "thread_id": "tda8231aad9",
+   "to": [
+    "greg_carrow@valic.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-16T09:31:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/765",
+   "new_text": "Gabriel, \nWe recognized a total of $9,488 of Orig last night.  All from FT-Central.  Is \nthe $468 from another book?\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Re: ORIG 0615",
+   "thread_id": "tdaa0448b56",
+   "to": [
+    "gabriel.monroy@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-28T14:51:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/112",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 03/28/2001 \n02:51 PM ---------------------------\n\n\n<reservations@goalamo.com> on 03/28/2001 02:48:56 PM\nTo: <dgiron@enron.com>\ncc:  \nSubject: Alamo Reservation Confirmation 5895703 For Orlando Intl \nAirport/Shuttle, FL  (MCO)\n\n\nDarron,\n\nThank you for using the Alamo Rent A Car website to make your car rental \nreservation.\n\nYour Confirmation Number is: 5895703\n\nYou will need this number to pick up your car, make any changes to, or cancel \nyour reservation.  Please print this e-mail message or record the \nconfirmation number to pick up your rental.\n\n******************************************************************************\n**\nTO CANCEL OR MODIFY YOUR RESERVATION\n******************************************************************************\n**\nTo view your reservation, follow this link:\nhttp://www.alamo.com/Default.asp?ConfirmationID=5895703&LastName=Giron&PUMonth\nYear=MAY-2001&PUDay=26&Page=Res&ResPage=V\n\nTo modify your reservation, follow this link:\nhttp://www.alamo.com/Default.asp?ConfirmationID=5895703&LastName=Giron&PUMonth\nYear=MAY-2001&PUDay=26&Page=Res&ResPage=M\n\nTo cancel your reservation, follow this link:\nhttp://www.alamo.com/Default.asp?ConfirmationID=5895703&LastName=Giron&PUMonth\nYear=MAY-2001&PUDay=26&Page=Res&ResPage=C\n\nYou may use the Web site to modify your reservation by following the link \nprovided above.  Please note that availability or pricing may have changed.  \nPlease carefully check the new reservation before cancelling your original \nreservation.  If you experience any problems, email the webmaster at \nwebmaster@goalamo.com or call 1-877-252-6600.\n\n******************************************************************************\n**\nRESERVATION INFORMATION\n******************************************************************************\n**\nYour reservation is for:\n\nName: Darron Giron\n\nVehicle type: Fullsize - Buick Century or Similar\n\nPickup location:\nOrlando Intl Airport/Shuttle, FL  (MCO)\n8200 McCoy Rd\nOrlando, FL   32822\nPhone: 407-857-8200\nFax: 407-855-6102\nHours: Mon-Sun: 24 hours\n\nPickup date: Saturday, May 26, 2001\nPickup time: 12:00 PM\n\nDropoff location: Same as Pickup Location\nDropoff date: Saturday, June 2, 2001\nDropoff time: 6:00 AM\n\n******************************************************************************\n**\n- Guaranteed Base Rate\n- Unlimited Mileage\n******************************************************************************\n**\n\nBase Rate Total (in USD)................................. $143.98\nBase Rate Total includes:\n(1) Weekly Rate\n\n******************************************************************************\n**\n\n\nADDITIONAL FEES AND TAXES\n******************************************************************************\n**\nPrivilege Fee Recovery Charge (8.70%)..................... $12.53\nLicense Recoupment Fee ($0.30/Day)......................... $2.10\nState Rental Surcharge ($2.05/Day)........................ $14.35\nSales Tax (6.00%)......................................... $10.38\n\nEstimated Sub-Total...................................... $183.33\n\nTotal may vary slightly at the time of rental based upon pickup/dropoff \ntimes, Alamo contracted rates and/or election of optional coverage items.\n\nOptional coverage items available at time of rental:\n Collision Damage Waiver ($16.99/Day)\n Extended Protection ($10.95/Day)\n Personal Protection ($7.99/Day)\n\nImportant Information:\nJust pick up the Alamo\n    courtesy bus outside the airport, one level below Baggage Claim.\n  Access the pickup area\n    using the stairs or elevators (escalators bypass this level).\n  Bus pickup is available\n    at areas A-12, B-12, and B-30.\n  For more information,\n    use the airport courtesy phones on Level (Baggage Claim) or Level 1 \n(Ground\n    Transportation).\n  Local renters go directly\n    to our rental plaza at 8200 McCoy Road.\n  Due to airport construction,\n    signs are limited.\n  Quicksilver service\n    is provided at our rental plaza, adjacent to the V.I.P. room.\n  Get on the road to happiness\n    even sooner with DirectRoad. This service is available to select \ninternational\n    tour customers who have booked prepaid, fully-inclusive rates.\n\n\n\nPERSONAL INFORMATION\n******************************************************************************\n**\nName: Darron Giron\nE-Mail: dgiron@enron.com\nAddress: 14343 Millstone Estates Ln.\n         Cypress, TX TX\nCountry: US\n\n******************************************************************************\n**\nFor additional information regarding your Alamo Rental, Rental Locations or \nDestination Information to plan your trip, please visit our web site via the \nlinks below:\n\nFor additional information on your rental, click http://www.alamo.com.\nFor Alamo location information, click http://www.alamo.com/locations.\nFor destination information, click http://www.alamo.com/traveltools.\n\n******************************************************************************\n**\n\nThank you again for reserving your car with Alamo.  Drive Happy!",
+   "new_text_source": "body",
+   "subject": "Alamo Reservation Confirmation 5895703 For Orlando Intl Airport/Shuttle, FL (MCO)",
+   "thread_id": "tdacc1c3250",
+   "to": [
+    "dgiron1@pdq.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-05-11T15:57:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/4",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 05/11/2001 \n03:57 PM ---------------------------\n\n\n<reservations@goalamo.com> on 05/11/2001 03:27:04 PM\nTo: <dgiron@enron.com>\ncc:  \nSubject: Alamo Reservation Confirmation 5895703 For Orlando Intl \nAirport/Shuttle, FL  (MCO)\n\n\nDarron,\n\nThank you for using the Alamo Rent A Car website to make your car rental \nreservation.\n\nYour Confirmation Number is: 5895703\n\nYou will need this number to pick up your car, make any changes to, or cancel \nyour reservation.  Please print this e-mail message or record the \nconfirmation number to pick up your rental.\n\n******************************************************************************\n**\nTO CANCEL OR MODIFY YOUR RESERVATION\n******************************************************************************\n**\nTo view your reservation, follow this link:\nhttp://www.alamo.com/Default.asp?ConfirmationID=5895703&LastName=Giron&PUMonth\nYear=MAY-2001&PUDay=26&Page=Res&ResPage=V\n\nTo modify your reservation, follow this link:\nhttp://www.alamo.com/Default.asp?ConfirmationID=5895703&LastName=Giron&PUMonth\nYear=MAY-2001&PUDay=26&Page=Res&ResPage=M\n\nTo cancel your reservation, follow this link:\nhttp://www.alamo.com/Default.asp?ConfirmationID=5895703&LastName=Giron&PUMonth\nYear=MAY-2001&PUDay=26&Page=Res&ResPage=C\n\nYou may use the Web site to modify your reservation by following the link \nprovided above.  Please note that availability or pricing may have changed.  \nPlease carefully check the new reservation before cancelling your original \nreservation.  If you experience any problems, email the webmaster at \nwebmaster@goalamo.com or call 1-877-252-6600.\n\n******************************************************************************\n**\nRESERVATION INFORMATION\n******************************************************************************\n**\nYour reservation is for:\n\nName: Darron Giron\n\nVehicle type: Fullsize - Buick Century or Similar\n\nPickup location:\nOrlando Intl Airport/Shuttle, FL  (MCO)\n\n\nPickup date: Saturday, May 26, 2001\nPickup time: 9:00 PM\n\nDropoff location: Orlando Intl Airport/Shuttle, FL  (MCO)\nDropoff date: Saturday, June 2, 2001\nDropoff time: 6:00 AM\n\n******************************************************************************\n**\n- Guaranteed Base Rate\n- Unlimited Mileage\n******************************************************************************\n**\n\nBase Rate Total (in USD)................................. $143.98\nBase Rate Total includes:\n(1) Weekly Rate\n\n******************************************************************************\n**\n\n\nADDITIONAL FEES AND TAXES\n******************************************************************************\n**\nPrivilege Fee Recovery Charge (8.70%)..................... $12.53\nLicense Recoupment Fee ($0.52/Day)......................... $3.64\nState Rental Surcharge ($2.05/Day)........................ $14.35\nSales Tax (6.00%)......................................... $10.47\n\nEstimated Sub-Total...................................... $184.97\n\nTotal may vary slightly at the time of rental based upon pickup/dropoff \ntimes, Alamo contracted rates and/or election of optional coverage items.\n\nOptional coverage items available at time of rental:\n Collision Damage Waiver ($16.99/Day)\n Extended Protection ($10.95/Day)\n Personal Protection ($7.99/Day)\n\nImportant Information:\nJust pick up the Alamo\n    courtesy bus outside the airport, one level below Baggage Claim.\n  Access the pickup area\n    using the stairs or elevators (escalators bypass this level).\n  Bus pickup is available\n    at areas A-12, B-12, and B-30.\n  For more information,\n    use the airport courtesy phones on Level (Baggage Claim) or Level 1 \n(Ground\n    Transportation).\n  Local renters go directly\n    to our rental plaza at 8200 McCoy Road.\n  Due to airport construction,\n    signs are limited.\n  Quicksilver service\n    is provided at our rental plaza, adjacent to the V.I.P. room.\n  Get on the road to happiness\n    even sooner with DirectRoad. This service is available to select \ninternational\n    tour customers who have booked prepaid, fully-inclusive rates.\n\n\n\nPERSONAL INFORMATION\n******************************************************************************\n**\nName: Darron Giron\nE-Mail: dgiron@enron.com\nAddress: 14343 Millstone Estates Ln.\n         Cypress, TX TX\nCountry: US\n\n******************************************************************************\n**\nFor additional information regarding your Alamo Rental, Rental Locations or \nDestination Information to plan your trip, please visit our web site via the \nlinks below:\n\nFor additional information on your rental, click http://www.alamo.com.\nFor Alamo location information, click http://www.alamo.com/locations.\nFor destination information, click http://www.alamo.com/traveltools.\n\n******************************************************************************\n**\n\nThank you again for reserving your car with Alamo.  Drive Happy!",
+   "new_text_source": "body",
+   "subject": "Alamo Reservation Confirmation 5895703 For Orlando Intl Airport/Shuttle, FL (MCO)",
+   "thread_id": "tdacc1c3250",
+   "to": [
+    "dgiron1@pdq.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-24T19:19:05+00:00",
+   "from": "bryant.frihart@enron.com",
+   "msg_id": "giron-d/inbox/211",
+   "new_text": "Brent,\n\nContacts we discussed.\n\ndgiron@enron.com\n\ntammy.gilmore@enron.com\n\nThanks.\n\nBryant",
+   "new_text_source": "new",
+   "subject": "FW: 082501 Enron Confirmation",
+   "thread_id": "tdafd9b017d",
+   "to": [
+    "hayhurstb@paceglobal.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-15T15:33:07+00:00",
+   "from": "texasexeschapters@alumni.utexas.edu",
+   "msg_id": "giron-d/inbox/458",
+   "new_text": "tEXas tailgatES talk\n\nIt was nice to see everybody play this weekend, and I do mean\nEVERYBODY. I think that even I had a few carries, and my wife\nhad a sack. Good to see Major get one more score, and then\nlaunch the ball 60 rows into the student section. There is no\nfootball game this weekend, but there is plenty going on with\nthe Longhorns. The basketball season opens the T.J. Ford Era\non Saturday as the 'horns face giant killer Arizona, who already\nhas beaten #3 Maryland and #9 Florida, all with replacing 4\nNBA-bound starters. If you are around Austin Saturday, get\nyourself to the basketball game. Let's make it as hard to play\nin the Drum as it is in DKR. There is that little matter of OU\ngoing out to Lubbock to play Tech on Saturday as well. Get your\nguns up, Longhorns.\n\n59-0\n\nWhat can I say about this? COMPLETE DOMINATION. Utterly complete.\nThe 'horns rolled up 606 yards total offense, all three quarterbacks\naccounted for touchdowns, every single player who is not redshirting\nplayed. The Defense seems to be getting nastier each week. The\nJayhawks had 67 yards of total offense. 67 yards. The closest\nthey got to the endzone was the Texas 48. Special teams standout\nMichael Ungar outscored Kansas all by himself with a safety of the\nJayhawk punter who bobbled the snap in the endzone. Ungar beat\nKansas, 2-0. Texas also had another safety when Marcus Tubbs sacked\nquarterback Mario Kinsey in the endzone, so I guess Tubbs beat\nKansas, too. If Texas wanted to score 100 on Saturday, they would\nhave made it so. The Jayhawks, in my opinion, quit on their\ninterim coach Saturday. They came out flat, played flat, and were\nimmediately flattened by a fired up Texas team ready to honor their\nseniors by getting all of them in the game. The only down side to\nthis game was the kickoff coverage. Kansas seemed to get through\nthe initial wall and get the ball close to midfield almost every\ntime. I think this was due to two things:\n1. The kickoff coverage team was looking for the knockout blow\nthat would make SportsCenter\n2. They were all exhausted from covering 10 kicks in the game.\nI think this problem was unique to the blowout, and will correct\nitself by the Aggie game. If that's my worst complaint, then I\nguess it's a good day.\n\nThe BCS, OU vs. Tech, Bowl Theories\n\nLet's talk about the BCS for a minute. I've heard from some of\nyou that you don't like the BCS. I concur. I don't see how they\ncan tell a team it must play in a major conference to be eligible\n(BYU will be snubbed due to this), and then amend the rules to\nfilter it \"fairly\". See, only 2 teams from one conference can\nplay in the BCS. The BCS was installed to eliminate the bias of\nvoters and make sure the best teams make it to the top 4 bowls.\nWith that being said, how can the NCAA use this system and then\nturn around and say, \"Oh, I'm sorry, but we can only have 2 teams\nfrom one conference. 3 teams would allow too much money to go to\none conference, and that's not fair.\" Excuse me? Why does it have\nto be fair here? Is it fair that Notre Dame has it's own TV deal\nwith NBC while better teams never get seen? They make A LOT of\nmoney that other schools don't. Is it fair that one BCS-factoring\npoll in Seattle has a 9-1 Pac-10 team at #2, and an Atlanta-based\npoll has an 8-1 SEC team #2 (Oregon and Florida have both jumped\nTexas in the BCS this week)? Maybe the Dallas Morning News should\nstart a BCS poll to even the score with it's own polling methods.\nIt's not fair anywhere in college football, it's not supposed to\nbe. The Big 10 shouldn't be guaranteed a team in the BCS if they\ncan't produce 1 in the top 10, penalizing another that has 3. No\nconference should. College football is eliminate the weak and\nthe strong survive, so why be \"fair\" in deciding a national champion?\nIt is a shame that Texas, Oklahoma or Nebraska will get left out\nso it will be \"fair.\" I will get off of my soapbox.\n\nLike I stated earlier, get your guns up, people. I am officially\njumping on the Texas Tech bandwagon now. One way, please, and\nI'd like a window seat, maybe in the emergency exit row?\nThere's plenty of room for everybody. The Sooners are 8-point\nfavorites in Lubbock this weekend, but it should be fun to watch\nKliff with a K throwing it all over the place. We really NEED\nthis game. If Tech can pull this off, Texas plays the Aggies for\nthe right to go to Dallas. If Tech loses, then Texas has to hope\nNebraska beats OU in the Big XII Championship Game, and the 'horns\nget the BCS nod over the 2-loss Sooners, which could happen.\nPrepare yourself for this:\nTexas will not make the BCS. If OU wins out and beats Nebraska\nin Dallas, those 2 will certainly make it to the BCS. In that\ncase, Texas will end up in Dallas in the Cotton Bowl vs. an SEC\nteam (Ole Miss or Auburn). I know this isn't the place most of\nus want to go, but it might be where we do go. Now Dallas isn't\nexactly the end-of-season goal that Texas had in mind, but they\nwill shake it off and play where they are sent. Many of you\n(and I do mean many) have proposed theories and explanations to\nme as to why the 'horns would end up BCS-less: the soft schedule,\nstarting the wrong quarterback, the wrong tailback, not throwing\ndeep, not running up the middle, and on and on. Some of these\nare solid, valid reasons that I cannot argue with, and some are\nnot.  Whatever the case, no one can change what has (might)\nhappened, but we can all affect the future.  The Cotton Bowl is\na major bowl, on New Year's Day, national telecast against a\nquality team. I, for one, would love to rinse that Arkansas taste\nout of my mouth. It will be hard for me to complain about an 11-1\nseason and a #3 final ranking after a big win over Ole Miss in\nDallas. I think most of you, like me, think of the sour ending to\nthe 1999 season and associate that with the Cotton Bowl. Don't.\nIt isn't 1999, and we will not be there because we limped to the\nfinish (like then), we will be there as arguably the best team in\nthe country and winners of 6 straight (no offense, Ags) who were\nsnubbed due to a technicality. Dallas is close. Dallas is fun.\nAgain, I will get off of my soapbox.\n\nHere are the directions to the tailgate again for Texas A&M.\nIt will be located in lot 97, near Reed Arena (the basketball\nstadium) and the Varsity Tennis Center. There is a map below.\nWhen clicking on the map, lot 97 is located on John Kimbrough\nBlvd, in grid D-4 (numbers are vertical, letters horizontal),\nsouthwest of Kyle Field (in this map, north is the top right\ncorner, south bottom left, west top left, east bottom right).\nIf you go to the bottom left of the map, you can enlarge it.\nJohn Kimbrough turns into Joe Routt after you cross Welborn\nRd (FM 2154). Kyle Field is located at Welborn and Joe Routt,\njust right of lot 62. Lot 97 is about 2 ?  blocks southwest\nof Kyle Field (straight left on the map) down Joe Routt/John\nKimbrough. It will begin around 9:00 am.\n\nhttp://www.tamu.edu/map/gifs/campus1.pdf\n\n\nFor bus information to Texas A&M, click below:\n\nhttp://www.texasexes.org/news.php3?id=54\n\nNews and Notes:\n* The defense got their 1st no hitter since last season, when\nTexas shut out Houston, 48-0.\n* The 67 yards allowed was the fewest since 1990. They also held\ntheir 7th straight opponent to under 300 yards total offense.\n* The Longhorns have now won 13 in a row at home. The average\nscore in those 13 games is 45-9, and Texas has scored over 40\npoints in the last 12 at DKR.\n* The Texas offense racked up 606 yards on the Jayhawks. It was\nthe high mark for the season, and the most yards the 'horns have\nproduced since the 637 yard output last year against...\nKansas. Ouch.\n* Cedric Benson continues to excel. Ced had 213 yards rushing on\n28 carries and 2 touchdowns, and 1 t.d. and 68 yards receiving on\n2 receptions. Ced's 213 broke the all-time 1 game freshman\nrushing record for Texas (187, Charles Hunter, 1985), and his\n281 all-purpose yards are 8th on the all-time list and 1st for\nfreshmen. Can you say Big XII Offensive Freshman of the Year?\n*",
+   "new_text_source": "new",
+   "subject": "COME EARLY, BE LOUD, STAY LATE",
+   "thread_id": "tdb1d89a3ed",
+   "to": [
+    "dgiron@alumni.utexas.net"
+   ],
+   "truncated": true
+  },
+  {
+   "date": "2001-11-26T14:50:42+00:00",
+   "from": "texasexeschapters@alumni.utexas.edu",
+   "msg_id": "giron-d/inbox/475",
+   "new_text": "This is not the regular email, that will come in a day or so,\nand it will have all of the regular info, and the tailgate\ninformation for the BIG XII CHAMPIONSHIP GAME!!!!!\n\nTickets\nLet's talk about the game for a second. I'm sure you can imagine\nthe demand for tickets. The Big XII allots 16,500 tickets to be\ndivided among both schools, or 8,250 each. Cut 10% out of that\nfor the student draw, and it's down to 7,425. That's 7,425 tickets\nfor around 70,000 people looking to be in Dallas this weekend.\nThe 7,425 should raise some when Colorado doesn't sell all of\ntheirs (they usually don't), so that should push it up to 11,000\nor so. That's 11,000 seats for around 40,000 people. These tickets\nwill be prioritized and dealt out as usual.You should know if you\nare one of those who get select tickets or if you do not. If you\ndo, you should contact the Longhorn Foundation (ticket reservations\nstarted on at 10:00 am on Sunday, November 25 and it ends at 7:00 pm\non Monday, November 26). If you are not one of these people, there\nare options: School message boards, ticket vendors/outlets, want ads\nin Norman and Lincoln, and most isp's have some sort of on-line\nshopping sites where people sell any and everything. Believe me, I\nhave looked, tickets are EVERYWHERE on the Internet. Start with the\nLonghorn links and work your way to the OU and NU sites, the ticket\noutlets and on to the buy/sell sites and you will find them.\n\nThe Game\nThis is it folks. It may not have happened exactly like it was\nsupposed to, but what ever does? It's right there in front of\nthe Longhorns, and now they need to reach out and grab it. They\nneed your help. COME TO DALLAS. From the players, the coaches,\nthe Athletic Department- COME TO DALLAS. When CU came to town in\nOctober, the game was close until the shovel pass. After that,\nthe crowd took over. Life was unbearable for the Buffalos after\nthat: they couldn't audible, they had false starts, delay of\ngames, etc... and they got blown out. That was the crowd. Dallas\nis our town, this our state, Texas Stadium is OUR house. The Buffs\nare the visitors in OUR HOUSE. Let's make it a Burnt Orange Dallas.\nAn endless sea of Texas shirts and hook'em horns, and a thundering\nstream of noise to let the Buffalos know we mean business down\nhere in Austin. Let's turn Texas Stadium into the DKR-North.\nA BURNT ORANGE DALLAS. Who knows, by the time the game kicks off,\nFlorida or Miami may have lost, and you could be watching the\nLonghorns celebrate Mack Brown's 1st Big XII Championship as the\nplayers carry roses around and the crowd goes crazy in anticipation\nof the National Championship game in Pasadena. Get yourself to\nDallas. It's right there.\nA BURNT ORANGE DALLAS. DKR-NORTH. OUR HOUSE.\n\n\nHOOK'EM\nTrey McLean\nTexas Exes\n\nKeep checking our site for information on\nthe Champoinship and Bowl games.\n\nhttp://www.texasexes.org",
+   "new_text_source": "new",
+   "subject": "COME EARLY, BE LOUD, STAY LATE",
+   "thread_id": "tdb1d89a3ed",
+   "to": [
+    "dgiron@alumni.utexas.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-04T20:48:49+00:00",
+   "from": "texasexeschapters@alumni.utexas.edu",
+   "msg_id": "giron-d/inbox/294",
+   "new_text": "tEXas tailgatES talk\n\nThe Longhorns have accepted a bid to the Holiday Bowl\nto play the Washington Huskies. We are off to San Diego.\nExpect the information on the tailgate, travel packages\nfrom the Flying Longhorns and other activities in the\nnext day or so. I will send along the regular email in\na day or so as well.\n\nTrey McLean\n\nhttp://www.TexasExes.org",
+   "new_text_source": "new",
+   "subject": "COME EARLY, BE LOUD, STAY LATE",
+   "thread_id": "tdb1d89a3ed",
+   "to": [
+    "dgiron@alumni.utexas.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-13T15:00:06+00:00",
+   "from": "texasexeschapters@alumni.utexas.edu",
+   "msg_id": "giron-d/inbox/299",
+   "new_text": "tEXas tailgatES talk\n\nHoliday Bowl Tickets\n\nFor those of you interested, there are still tickets to the\nbowl game available. If you have not been out to San Diego\nbefore, it is a great town to bump around, and the football\nstadium is excellent.  So, what are waiting for? Sunny weather,\ncool nights, ocean views and Tijuana. What else do you need?\nHow 'bout this- chance for 11 wins and to finish in the top\n10 for the 1st time since '83, chance to win the 1st bowl\ngame outside of Texas since 1964 (Sounds worse than it is,\nwe have only played outside the state 4 times in that span).\nOne more thing: Major is starting. Some of you have been\nchanting his name every week, others have said you don't like\nhow he was treated, and some of you have even said you would\nboycott the bowl if Applewhite didn't play. Well, he is, so\nshow him how much he means to you by coming to San Diego and\nwatching him start his final college game.  Is it Pasadena?\nNo. We aren't playing for the national title, and I know some\nof you are having a harder time dealing with that than others,\nbut I say don't look back, it's not healthy. What's done is\ndone. A coach will tell his team to put the previous game away\nwhen they get to practice on Monday. You can't hold your head\nand feel sorry for yourself and you can't sprain your elbow\npatting yourself on the back, because your next opponent could\ncare less about what you did last week.\n\nFor tickets click here:\nhttp://www.utexas.edu/athletics/tickets/football/request/Welcome.htm\n\nThe tEXas tailgate is still being worked out. It will be in a\nbar or restaurant starting early afternoon. Expect another email\nsoon about it, along with a breakdown of the game.\n\nHope to see you all in San Diego.\n\nHOOK'EM\nTrey McLean\nTexas Exes\n\n______________________________________________________\n\nFORWARD THIS EMAIL TO A FRIEND!\n\nTexas Tailgate Talk is free service for members of the Texas\nExes and graduates of The University of Texas.\n\nTo subscribe to the Texas Tailgate Talk send this email to\ntexasexeschapters@alumni.utexas.edu with SUBSCRIBE in the\nsubject line.  Be sure and include YOUR FULL NAME in the body\nof the email.\n\nIf you want to change where we send the email,\nupdate your free Texas Ex forwarding email by going to\nhttp://www.alumni.utexas.net\n\nYou can also update your record at:\nhttps://dpweb1.dp.utexas.edu/nlogon/alumni-address/\n\nTo unsubscribe send an email with UNSUBSCRIBE in the subject\nline to texasexeschapters@alumni.utexas.edu.  Be sure and\ninclude YOUR FULL NAME in the body of the email.",
+   "new_text_source": "new",
+   "subject": "COME EARLY, BE LOUD, STAY LATE",
+   "thread_id": "tdb1d89a3ed",
+   "to": [
+    "dgiron@alumni.utexas.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-13T20:57:52+00:00",
+   "from": "texasexeschapters@alumni.utexas.edu",
+   "msg_id": "giron-d/inbox/300",
+   "new_text": "tEXas tailgatES talk\n\nThe Tailgate\n\nWe have something set up. This is not a traditional tailgate party,\nthere will be no reserved section at this place, or banners or flags\nor anything. This is simply a place to gather and eat before the game,\nand hang out watch the early bowls games that day. Some others will be\ndoing some more traditional things around San Diego that day, but all\nwill start later, so come have some lunch with us and then head over to\nthe stadium for the other festivities (look for the blimp, or the\ncowboy hats and big white truck, whatever camp you may fall into).\n\nHere is where we will be:\nTrophy's\n7510 Hazard Center Drive\nSan Diego, CA 92108\nTrolley Exit: Hazard Center\n619/296-9600\n\nIf you have a large group, say 10 or more, you might want to call\nahead and make reservations.\n\nThis place is literally right on the Trolley Line, and can be clearly\nseen from the Trolley. It also has plenty of parking for those of you\ndriving, and it has a HUGE menu. They have everything from sandwiches\nto gourmet pizzas, enchiladas to bbq ribs, and everything in between.\n\nBe careful when you get there to look for the name. There will not be\nany Texas paraphanalia out anywhere. The place is nervous we might run\noff the Husky fans if we bring our gear (what a shame that would be),\nso we won't. You won't have any trouble finding it, though.\n\nWe will be there from 12:30 pm on, so come out and see me.\nLet me know if you have any questions.\n\nHere is a link to information/maps for Trophy's:\nhttp://www.sdinsider.com/shared/health/calendar/venue.html?id\n=Calendar::Location%3d691\n\nThursday night we will be at place called Moose McGillycuddy's in the\nGaslamp District. Start time is still tba, but I will let you know\nnext week. Here's the info on Mooses:\nMoose McGillycuddy's\n1165 Garnet Avenue\nSan Diego, CA 92109\n858/274-2325\n\nHere is a link to a map and more information about the bar:\nhttp://www.sdinsider.com/shared/events/calendar/venue.html?id\n=Calendar::Location%3d1236\n\n\nHOOK'EM\nTrey McLean\nTexas Exes",
+   "new_text_source": "new",
+   "subject": "COME EARLY, BE LOUD, STAY LATE",
+   "thread_id": "tdb1d89a3ed",
+   "to": [
+    "dgiron@alumni.utexas.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-20T13:26:59+00:00",
+   "from": "texasexeschapters@alumni.utexas.edu",
+   "msg_id": "giron-d/inbox/305",
+   "new_text": "tEXas tailgatES talk\n\nI hope everyone has a great holiday coming up. With the\nexception of the NCAA Tournament, this is my favorite\ntime of the year. Bowl season. I will watch them all.\nEvery single one of them. That New Orleans Bowl, wow.\nNorth Texas, at 5-6, makes a bowl? You must be kidding,\nright? Colorado State put the wood to the Mean Green,\nand I watched the whole thing. The good news for the\nparticipants in the New Orleans Bowl? You went to a\nbowl game. The bad news? Now you have to go back and\ntake your finals.\n\nThe BCS\nI'm not sure how in the world Nebraska ended up in the\nRose Bowl. If I am an Oregon fan, I am livid. The Ducks\nfinished the year 10-1, won the PAC-10 and did everything\nthat was asked of them, and were left out. Nebraska got 62\npinned on them in late November and still got in. Unacceptable.\nThe mantra of college football for years has been if you\nlose, lose early - unless you're Nebraska. I don't think\nColorado should be there, either (2 losses), but at least\nthey won the conference.  I figured out a little system\nwithin the BCS that might work, and here it is:\n\n1.  Only conference champions are eligible for the national\ntitle. Nebraska or Florida can still go to a BCS bowl, but\nonly the champs can win it. This year that would be Miami,\nOregon, Colorado, Illinois and Maryland. You can use the BCS\nto determine the top 2. (This would obviously have to be\nmodified for independent teams like Notre Dame, but that's\nfor smarter people than me)\n\n2.  If a case like the Oregon/Colorado situation comes up,\nwhere the 2 teams are so close that a clear-cut #2 cannot\nbe determined, have them play 2 weeks from the BCS announcement\nday, which is around the 16th. Pick a place half way between\neach school, maybe Vegas for this one, and the BCS can pick\nup the bill for both teams, their staffs and bands. The revenue\nmade from it being the only televised college game that day\nwould more than make up for the costs. The winner goes to the\ntitle game and the loser goes to a pre-determined bowl.\nThe 2-week interval would give the kids time to take their\nfinals, go to award ceremonies (like the Heisman), and still\nhave a solid week of practice in there for the game. It would\nnot affect the preparation for the bowl game, since most teams\ndon't start that until around Christmas. The only down side I\nsee is it's a long, NFL-like year for the kids. Trust me when\nI say it would have bothered no one in Eugene or Boulder if\nthere was a game last weekend to see who would draw Miami.\n\nThe Holiday Bowl in San Diego\nWashington\n7:30 pm (Austin Time)\nESPN\n\nTexas goes back to Cali to exorcise some west coast demons. The\n'horns went 0-2 there in 2000, with a bad effort against Stanford\nand a nail biter v. Oregon. Texas is a heavy favorite in this\ngame for good reason, at least on paper. The Longhorns finished\nthe season ranked #1 in defense, allowing only 236.3 ypg. The\nHuskies are a passing team, and are 16th nationally with 279.5 ypg.\nTexas is 12th v. the pass, allowing only 173.7 ypg. They say to\nbeat a team, make them one-dimensional. Washington already is\none-dimensional. They are 96th nationally in rushing at 111.7 ypg,\nwhich plays right into the hands of the 6th ranked Texas rush\ndefense, which yields only 89.5 ypg. If Ivan Williams played for\nthe Huskies, he would be their 2nd leading rusher (trailing the\nleader by ~20 yards) and he hasn't seen the field since day light\nsavings. The Texas defense has to be licking their chops for a\nredemption game after the Big XII Championship, and this one could\nbe just what the doctor ordered, at least on paper.\nThe match-up of the day will be Quentin Jammer vs. Reggie Williams.\nYou all know Jam's story, but if you haven't heard of Reggie\nWilliams, pay attention. The 6'4\" 215 lb. freshman is Udub's\n\"Real Deal.\"   He had 973 yards on 55 catches and was the PAC-10's\nFreshman of the Year.  If he gets loose in the secondary, look\nout. The other side of field will be just as intriguing,  with\nRod Babers locked up with burner Paul Arnold, who is their main\ndeep threat. Babers is a great cover corner, but will have to\nbring his A-game to keep up with Arnold. The main problem for\nWashington this year has been their o-line. They have given up\n25 sacks this season, and are only 38% in 3rd down conversions.\nIf the Texas front 7 can bring heat on qb Cody Pickett, the Husky\noffense could be in trouble.  Major Applewhite starts his final\ncollege game. The offense will not change in scheme, since neither\nTexas qb likes to run. Look for some shotgun, though, since Major\nlikes it and Chris doesn't. If Benson goes (check in the news and\nnotes section for more on Ced), Texas will look to exploit the\nweakness of the Huskies- their run defense. Washington gives up\n162 ypg on the ground,  which is exactly what Texas averages.\nThey allow 4.2 per carry and a whopping 20 touchdowns on the\nground. Senior dt Larry Tripplett is in the Casey Hampton mold,\nand the All-American is a great run stopper, but the linebacking\ncorps is hasn't played consistent enough to help on run defense.\nThe secondary is young and inexperienced. They have had their\nmoments, but as a whole, good teams can beat them.  If the Texas\no-line can spark up the running game, Applewhite will pick them\napart with his vision. Look for Washington to bring the house at\nMajor, and if the o-line repels the borders, Husky fans will be\nleaving VERY early.\n\nCORRECTION:\n\nI gave you the wrong address for Moose McGillycuddy's.\nApparently there are 2, and I picked the wrong one.\nHere it is:\nMoose McGillycuddy's\n535 5th Avenue\nSan Diego, CA 92101\n619/702-5595\n\nHere is a link for maps and more info:\nhttp://sandiego.citysearch.com/profile/86556\n\ntEXas tailgate\nWe are meeting for lunch and watching the Aggie game at a sports\nbar on the Trolley route to the stadium. This is not a typical\ntailgate party. There will not be balloons or ribbons or any\nfanfare, nor will there be any band or reserved seating or anything.\nThis is simply a gathering place to watch the Aggies and Frogs\nand eat something before heading over to the game. We will be\nthere from 12:30 on. If you have a party of 8 or more, call for\nreservations.\n\nTrophy's\n7510 Hazard Center Drive\nSan Diego, CA 92108\n619/296-9600\nTrolley Exit: Hazard Center\n\nHere is a link to maps and more info:\nhttp://sandiego.citysearch.com/profile/86394\n\nThursday night we will be at Moose McGillycuddy's (info above)\n\nThe team will arrive at QualComm at 3:30 on the west side of\nthe stadium between gates E and F.\n\n\nLet's get that 11th win! See you all in San Diego.\n\nNews and Notes:\n* Don't expect Cedric Benson to play. He is having trouble\nwith his neck after his Big XII Championship stinger. Look\nVictor Ike and Ivan Williams to get the call.\nWelcome back, I-Train.\n* The 2001 Texas Longhorns could be only the 5th Longhorn\nteam ever to win 11 games in a season if they beat Washington.\n* Texas last finished in the Top 10 in 1983, that will change\nif they win this game.\n* Texas has received commitments in the last few days from Marco\nMartin, super dt out of Div.1 5-A State Champion Mesquite, the\n#1 dt recruit in all the land Rodrique Wright out of Alief Hastings,\nthe #1 player in the state of Oklahoma,  de Bryan Pickryl, and\nthe #1 rb in Texas, Albert Hardy of Galena Park. Texas already\nhas the #1 recruiting class in the country right now, and 1 or\n2 more of these guys could make the best class to EVER sign with\nTexas.\n* Washington has had an interesting few weeks since the Miami\ngame. 1st, backup tight end Kevin Ware, from Spring, TX by the\nway, was suspended indefinitely for violating team rules.\nAttacking police officers is never a good idea, my man. I hope\nhe gets himself straightened out, he's a player. Meanwhile, back\nup qb Taylor Barton and 2 walk-ons were arrested on the University\nof the Pacific campus for trespassing after refusing to leave the\ngrounds. I'm sure they had their reasons...\nSo now Washington is left with 2 options at 2nd team qb: Casey\nPaus",
+   "new_text_source": "new",
+   "subject": "COME EARLY, BE LOUD, STAY LATE",
+   "thread_id": "tdb1d89a3ed",
+   "to": [
+    "dgiron@alumni.utexas.net"
+   ],
+   "truncated": true
+  },
+  {
+   "date": "2001-04-11T09:11:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/75",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 04/11/2001 \n09:10 AM ---------------------------\nFrom: Russell Diamond/ENRON@enronXgate on 04/11/2001 09:04 AM\nTo: Janie Aguayo/HOU/ECT@ECT, Diane Anderson/NA/Enron@Enron, Derek \nBailey/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, \nPatricia Boulanger/CAL/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Julie \nBrewer/NA/Enron@Enron, Lesli Campbell/ENRON@enronXgate, Celeste \nCisneros/NA/Enron@Enron, Sharon Crawford/CAL/ECT@ECT, Richard \nDeming/NA/Enron@Enron, Russell Diamond/ENRON@enronXgate, Cindy \nFeldman/CAL/ECT@ECT, Darron C Giron/HOU/ECT@ECT, Veronica \nGonzalez/ENRON@enronXgate, Jeffrey C Gossett/HOU/ECT@ECT, Walter \nGuidroz/ENRON@enronXgate, Larry Joe Hunter/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Bianca Ornelas/NA/Enron@Enron, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron, Veronica Espinoza/ENRON@enronXgate\ncc:  \nSubject: Credit Report -4/11/01\n\n\n\nCounterparty     TAGG#   Action                                            \nAEP Energy Services Ltd.   v26767.1  Rebook to AEP Energy Services, Inc.\n             \"     v28098.3.4                                   \"\nAnadarko Energy Services Corp   v28837.1  Rebook to Anadarko Petroleum Corp.\nAquila Energy Marketing Corp.   v28299.1  Rebook to Aquila Risk Managment\n \"     v27082.1   \"\nBank of America Corporation   v28205.1  Rebook to Bank of America, NA\nDuke Energy Trading and Marketing  v28394.1.2  Rebook from ECC to ENA under \nthe ISDA\nDynegy Canada Inc.    v28242.1  Rebook from ENA to ECC under the ISDA\nEnserco Energy Inc.    v27843.1  Pending Veronica Espinoza\nFibre Source North America    v26240.1  Pending Arpana Rajaram\nGasmar SA     v27688.1  Pending Brant Reves\nGraphic Communications   v26187.1  Pending Arpana Rajaram\nItochu International Inc.    v28052.1  Pending Darren Vanek\nMGS Corporation    v27703.1  Pending Brant Reves\nNew Counteraparty    v27560.1  Pending Arpana Rajaram\n \"     v28581.1  Pending Arpana Rajaram\nPacific Gas & Electric Company   v27828.1  Do Not Confirm\nTexican Natural Gas Company   v27724.1.5.6  Pending Darren Vanek\nTrafalgar Commodities Limited   v28860.1.2  Rebook to Trafigura Derivatives \nLimited\nTrafigura Derivatives Limited   v27767.1  Credit Previously Provided-Darren \nVanek\n \"     v28860.1.2   \"\nTransCanada Energy Financials Products v27966.1  Rebook from ENA to ECC under \nthe ISDA\n \"     v27794.1.2   \"\nUtilicorp United Inc.    v17089.2.3  Rebook to Aquila Risk Management\nWest Texas Gas, Inc.    v27383.1  Pending Jay Williams",
+   "new_text_source": "body",
+   "subject": "Credit Report -4/11/01",
+   "thread_id": "tdb5eb2027e",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-31T20:17:35+00:00",
+   "from": "sap_security@enron.com",
+   "msg_id": "giron-d/inbox/186",
+   "new_text": "THIS IS A GENERATED EMAIL - DO NOT REPLY!\n\nIF YOU NEED FURTHER ASSISTANCE, CONTACT THE ISC HELP DESK AT:  713-345-4727\n\nThe password for your account:P00502976 has been reset to:14062321",
+   "new_text_source": "new",
+   "subject": "Password Reset",
+   "thread_id": "tdb8ce3a369",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-28T15:01:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/754",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 06/28/2000 \n02:57 PM ---------------------------\n\n\nMark.Ebert@broadwing.com on 06/28/2000 01:45:56 PM\nTo: zambrano@austintexas.org, bphipps@houston.proalt.com, \nbonnie.ebert@tasb.org, BryLad5@aol.com, Darron C Giron/HOU/ECT@ECT, \ndavid.long@tdhca.state.tx.us, keykeith@mindspring.com, \ngeorge.ewton@unisys.com, heather.hodnett@tdhca.state.tx.us, \nbjnelson81@uswest.net, jw@cleartrading.com, kelang@mmm.com, \nkeith.doran@tdhca.state.tx.us, michael.boettner@cpa.state.tx.us, \npsalas@flash.net, SPSMITHCPA@aol.com, swash@tdhca.state.tx.us\ncc:  \nSubject: FW: Branded\n\n\n\n\n\n>  <<branded.mpeg>> Ouch!!\n>\n\n - branded.mpeg",
+   "new_text_source": "body",
+   "subject": "FW: Branded",
+   "thread_id": "tdbb447b232",
+   "to": [
+    "dgiron1@pdq.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-05T10:34:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/170",
+   "new_text": "Jennifer,\n\nPhillip Allen and Keith Holst indicated that the curve changes in question \nfor Socal was simply due to a higher forward market.  Let me know if you have \nany further questions.\n\nDG",
+   "new_text_source": "new",
+   "subject": "January Gas Curve Validation",
+   "thread_id": "tdbdd02b731",
+   "to": [
+    "jennifer.nguyen@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-12-01T09:38:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/432",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 12/01/2000 \n09:37 AM ---------------------------\n\n\nMark.Ebert@broadwing.com on 12/01/2000 09:29:24 AM\nTo: zambrano@austintexas.org, bphipps@carltonstaffing.com, \nbonnie.ebert@tasb.org, BryLad5@aol.com, dgiron@ect.enron.com, \nkeykeith@mindspring.com, george.ewton@unisys.com, \nheather.hodnett@tdhca.state.tx.us, jw@cleartrading.com, kelang@mmm.com, \nkeith.doran@tdhca.state.tx.us, psalas@flash.net, SPSMITHCPA@aol.com, \nswash@tdhca.state.tx.us\ncc: Stephanie.Brieger@broadwing.com, Kelly.Allen@Broadwing.com, \nJuli.Word@broadwing.com \nSubject: FW: DRINK POLLS\n\n\nMessage-ID: <379755163.975379391824.JavaMail.root@web694-wra.mail.com>\nFrom: positive_energy@prodigy.net\nTo: jojo@pulse.net, taznewman@aol.com, KDAultman@aol.com,  \nmartine.armstrong@dfait-maeci.gc.ca, napali@centex.net,  \nJean_Perkins@tiginsurance.com, MHender515@home.com, SpookeyLS@hotmail.com,  \ncheryl.anderson@email.swmed.edu, WBRAKE@SWSPORTSGROUP.COM,  \nseasherrillhawks@mail.utexas.edu, annabaron@home.com,  \nBlaineCowling@yahoo.com, shawna.sullivan@ursa.dhs.state.tx.us,  \ntwicker@nch.com, susana.madden@juno.com, ombrageux@worldnet.att.net,  \ncassandra.lovelady@senate.state.tx.us, piper.oneal@frontpagepr.com,  \nSMAJORBABE@hotmail.com\nSubject: FWD: DRINK POLLS\nDate: Mon, 27 Nov 2000 20:43:08 -0600\nMIME-Version: 1.0\nX-Mailer: Internet Mail Service (5.5.2653.19)\nContent-Type: text/plain\n\n------Original Message------\nFrom: Frances Guerrero <frances_guerrero@pagenet.com>\nTo: Michelle Peters <Michelle_Peters@pagenet.com>, Zenia Gonzalez\n<Zenia_Gonzalez@pagenet.com>, 'andy' <andy.c.renwick@bnfl.com>, 'angie'\n<ajens1@jcpenney.com>, 'Brigitte' <Positive_Energy@prodigy.net>, 'Brooke'\n<brooke@southwest.net>, 'Carrie' <cmg129_2000@yahoo.com>, 'Gloria'\n<GBaures@aol.com>, 'Lena' <MSmith0959@aol.com>, Anna Alva\n<Anna_Alva@pagenet.com>, Dawn Roberts <Dawn_Roberts@pagenet.com>, Alison\nWeber <Alison_Weber@pagenet.com>, Catina Thomas <Catina_Thomas@pagenet.com>,\nValerie Parks <Valerie_Parks@pagenet.com>\nSent: November 27, 2000 4:53:54 PM GMT\nSubject: DRINK POLLS\n\n\n\n> >\n> > > > >>Seven New York City bartenders were asked if they could nail a\n> > > > >>woman's personality based on what she drinks. Though interviewed\n> > > > >>separately, they concurred on almost all counts.\n> > > > >>\n> > > > >>The results:\n> > > > >>\n> > > > >>Drink: Beer\n> > > > >>Personality: Casual, low-maintenance; down to earth.\n> > > > >>Your Approach: Challenge her to a game of pool.\n> > > > >>\n> > > > >>Drink: Blender Drinks\n> > > > >>Personality: Flaky, whiny, annoying; a pain in the buttocks.\n> > > > >>Your Approach: Avoid her, unless you want to be her cabin boy.\n> > > > >>\n> > > > >>Drink: Mixed Drinks\n> > > > >>Personality: Older, more refined, high maintenance, has\n> > > > >>very picky tastes; knows exactly what she wants.\n> > > > >>Your Approach: You won't have to approach her, if she is\n> > > > >>interested, she'll send YOU a drink.\n> > > > >>\n> > > > >>Drink: Wine - (does not include White Zinfandel, see below)\n> > > > >>Personality: Conservative and classy; sophisticated yet giggles.\n> > > > >>Your Approach: Tell her you love to travel and spend quiet\n> > > > >>evenings with friends.\n> > > > >>\n> > > > >>Drink: White Zinfandel\n> > > > >>Personality: Easy; thinks she is classy and sophisticated,\n> > > > >>actually has no clue.\n> > > > >>Your approach: Make her feel smarter than she is...\n> > > > >>this should be an easy target.\n> > > > >>\n> > > > >>Drink: Shots\n> > > > >>Personality: Likes to hang with frat-boy pals and looking to\n> > > > >>get totally drunk... and naked.\n> > > > >>Your Approach: Easiest hit in the joint. You have been blessed\n> > > > >>this evening. Nothing to do but wait. However, be careful not\n> > > > >>to make her mad!\n> > > > >>\n> > > > >>Then there is the MALE addendum. The deal with guys is, as\n> > > > >>always, very simple and clear cut:\n> > > > >>\n> > > > >>Domestic Beer: He's poor and wants to get laid.\n> > > > >>\n> > > > >>Imported Beer: He likes good beer and wants to get laid.\n> > > > >>\n> > > > >>Wine: He's hoping that the wine thing will give him a\n> > > > >>sophisticated image to help him get laid.\n> > > > >>\n> > > > >>Whiskey: He doesn't give a hoot about anything but getting laid.\n> > > > >>\n> > > > >>Tequila: He is thinking he has a chance with the toothless\n> waitress.\n> > > > >>\n> > > > >>White Zinfandel: He's gay.\n> > >\n> > >\n> >",
+   "new_text_source": "body",
+   "subject": "FW: DRINK POLLS",
+   "thread_id": "tdc25bd550d",
+   "to": [
+    "hollyw@email.msn.com",
+    "kristi.giron@cfisd.net",
+    "dawn.kenne@enron.com",
+    "smmayers@earthlink.net",
+    "cgiron@mindspring.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-09T17:47:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/342",
+   "new_text": "What is your price for a MB Quart QM218.61Q?\n\nDG",
+   "new_text_source": "new",
+   "subject": "MG Quart QM218.61Q",
+   "thread_id": "tdc4d3a6a66",
+   "to": [
+    "q-series@car-audio-discount.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-21T15:03:45+00:00",
+   "from": "dmoore21@charter.net",
+   "msg_id": "giron-d/inbox/312",
+   "new_text": "----- Original Message -----  \nFrom: Saucier  \nTo: darnell moore  \nSent: Thursday, December 20, 2001 4:20 PM\nI was at the doctor's when you called today.  Doesn't  look like we will have a Christmas baby.  And probably not a tax-deduction  either according to her.  I have been so congested and coughing  terribly. I either pulled a chest wall muscle or broke a rib coughing  several nights ago.  Lots of pain to get around but otherwise I'm doing  fine.  \n \nThe \"12 days of Christmas\" was cute.\n \nDo you have tickets to the Sugar Bowl yet?  That is  definately a hot ticket here.  \n \nVisited with Uncle Clark Tues. night.  He looks  good.  Connor got an Ants in the Pants game from him and he went  wild.  Of course, it doesn't take much to tip him over the edge  lately.  Cammie is calm and content as usual.  \n \nI will see you shortly.  \n \nJessie",
+   "new_text_source": "body",
+   "subject": "News from Jessie Fw:",
+   "thread_id": "tdc5e6989d5",
+   "to": [],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-14T10:04:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/775",
+   "new_text": "Imelda,\n\nPlease change the subregion code for all ANR ML5 deals from Market to \nMidcon.  Also, the curve mapping needs to be changed as well.\n\n Intramonth IF-ANR/OK\n Mid Market IF-ANR/OK\n Gas Daily GDP-ANR/OK\n\nIf you have any questions, please call.  Also, will you please send me the \nlatest version of the Central curve mappings.  Thanks.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "ANR ML5",
+   "thread_id": "tdce690fec6",
+   "to": [
+    "imelda.frayre@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-21T08:44:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/139",
+   "new_text": "I got a bill in the mail for an annual IRA fee.  Can I just transfer from my \nCMA?\n\nDG",
+   "new_text_source": "new",
+   "subject": "Fee",
+   "thread_id": "tdd6c47b685",
+   "to": [
+    "jay_liberman@ml.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-07-25T07:38:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/729",
+   "new_text": "Please send me the Meta ID.  I don't remember it.  I want to make sure we \nhave covered all of the counterparties.  Thanks.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Existing Deals",
+   "thread_id": "tdd928bc7ee",
+   "to": [
+    "kevin.radous@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-07-25T09:53:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/728",
+   "new_text": "Gregg,\nI used the following counterparties in the query:\n\nCentral Illinois Public Service Company\nCentral Illinois Light Company\nIllinois Power Company\nNorthern Indiana Public Service Company\nNicor, Inc.\nNicor Energy LLC.\nNicor Enerchange LLC.\nNicor Gas Company\nNicor Gas Marketing Company\nNipsco Industries, Inc.\nNipsco Energy Services, Inc.\nNiSource Capital Markets, Inc.\n\nThe only deals I came up with were with Nicor.  If you have any questions, \ndon't hesitate to call me.\n\nDG    3-9573\n\n\n   \n\t\n\t\n\tFrom:  Gregg Penman @ ENRON                           07/21/2000 04:09 PM\n\t\n\nTo: Darron C Giron/HOU/ECT@ECT\ncc: Kevin P Radous/Corp/Enron@Enron \nSubject: Existing Deals\n\nThanks for the list of existing transactions.  Only one question, it looks \nlike the list includes only the different corporate entities of NICOR.  Does \nthat mean that there were no existing transactions with the other Corporate \nfamilies, i.e. NIPSCO, CILCO, PGL and NS?\n\nThanks,\n\nGregg",
+   "new_text_source": "new",
+   "subject": "Re: Existing Deals",
+   "thread_id": "tdd928bc7ee",
+   "to": [
+    "gregg.penman@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T17:52:36+00:00",
+   "from": "d..winfree@enron.com",
+   "msg_id": "giron-d/inbox/50",
+   "new_text": "Hey Gang,\n\nJust a heads up, but you may need to edit your Copy Physical Macro in your P&L's that are saved in the Netco/Regions folder... The changes were simply renaming sheets in the Macro... O",
+   "new_text_source": "new",
+   "subject": "Heads up",
+   "thread_id": "tddccb7b27b",
+   "to": [
+    "kam.keiser@enron.com",
+    "m..love@enron.com",
+    "c..giron@enron.com",
+    "scott.palmer@enron.com",
+    "errol.mclaughlin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T18:52:20+00:00",
+   "from": "kam.keiser@enron.com",
+   "msg_id": "giron-d/inbox/49",
+   "new_text": "Also, all physical weapon-X tabs are linking to an old east book.  I didn't touch that tab yet, we don't know if we're using weapon-X or sasqwatch.\n\nKK",
+   "new_text_source": "new",
+   "subject": "RE: Heads up",
+   "thread_id": "tddccb7b27b",
+   "to": [
+    "d..winfree@enron.com",
+    "m..love@enron.com",
+    "c..giron@enron.com",
+    "scott.palmer@enron.com",
+    "errol.mclaughlin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T19:22:14+00:00",
+   "from": "m..love@enron.com",
+   "msg_id": "giron-d/inbox/48",
+   "new_text": "Looks like we also need to modify the OA tabs - John has anyone in OA come up with a new template?\nPL",
+   "new_text_source": "new",
+   "subject": "RE: Heads up",
+   "thread_id": "tddccb7b27b",
+   "to": [
+    "kam.keiser@enron.com",
+    "d..winfree@enron.com",
+    "c..giron@enron.com",
+    "scott.palmer@enron.com",
+    "john.valdes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T19:29:34+00:00",
+   "from": "scott.palmer@enron.com",
+   "msg_id": "giron-d/inbox/47",
+   "new_text": "You may need to hit the \"Refresh Booklist\" button on the QueryPage tab in you hedgestrips. A lot of the hedgestrip refer to a East1 book in the QueryPage tab.",
+   "new_text_source": "new",
+   "subject": "heads up",
+   "thread_id": "tddccb7b27b",
+   "to": [
+    "d..winfree@enron.com",
+    "m..love@enron.com",
+    "kam.keiser@enron.com",
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-09T17:40:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/343",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 01/09/2001 \n05:40 PM ---------------------------\n\n\nJeffrey C Gossett\n01/08/2001 04:04 PM\nTo: Michelle Bruce/HOU/ECT@ECT, John Swinney/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Darron C Giron/HOU/ECT@ECT, William Kelly/HOU/ECT@ECT, \nDavid Baumbach/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Phillip M \nLove/HOU/ECT@ECT\ncc: Robin Rodrigue/HOU/ECT@ECT \nSubject: Lagrasta Orig\n\nFred Lagrasta (Middle Market NYMEX) will begin getting a daily report \nbegining today with all of his groups daily origination.  As such,  it is \nessential that all information is accurate on the origination schedule.  \nMeaning :\n\nAll entries must have:\n\nBook\nDeal #\nDate originated\nCustomer\nOrigination Group\nOrigination Value\nOriginator\n\n\nNew information needed in this order:\nB/S\nTerm\nPrice\nPub code\n\n\nThanks for your help",
+   "new_text_source": "body",
+   "subject": "Lagrasta Orig",
+   "thread_id": "tded1e10669",
+   "to": [
+    "jason.wolfe@enron.com",
+    "anne.bike@enron.com",
+    "chris.walker@enron.com",
+    "carole.frank@enron.com",
+    "jennifer.bagwell@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-15T16:41:47+00:00",
+   "from": "greg.couch@enron.com",
+   "msg_id": "giron-d/inbox/387",
+   "new_text": "Here is a test of several items you have learned in the Excel class so far.\n\nI have set up a basic program structure for you that opens a file and reads the file, line by line, into the variable \"sBuf\".\n\nYou should write functions that tally the results asked for on Sheet1  (number of lines in the file, number of characters, etc).  A user should be able to enter a search (source) string.  Given the string you should also search for how many times it occurs in the file under 3 different conditions (case-sensitive, case-insensitive and as a \"word\" - separated by blanks).\n\nYou should have all the basic concepts down to complete the program fairly easily.  Work on this project and we will discuss it on the Monday following Thanksgiving.\n\nI will be out tomorrow and next week.\n\nHave fun!",
+   "new_text_source": "new",
+   "subject": "FW: PROJECT 1",
+   "thread_id": "tdef999eb67",
+   "to": [
+    "brad.jones@enron.com",
+    "glory.chi@enron.com",
+    "derek.bailey@enron.com",
+    "c..giron@enron.com",
+    "scott.palmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-27T08:42:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/190",
+   "new_text": "I can't believe that I said what I did this morning.  It was selfish and I \nsincerely appologize.  I don't know what I was thinking or why.  Well,  I \njust listened to your message and I deserve all of it.  Even though you may \nnot believe it.  I do love you, but many times cannot justify my actions.  I \nlove you very much, and will call you later.\n\nD",
+   "new_text_source": "new",
+   "subject": "I'm an Idioit",
+   "thread_id": "tdfdda76313",
+   "to": [
+    "kristi.giron@cfisd.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-04-25T09:55:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/41",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 04/25/2001 \n09:54 AM ---------------------------\nFrom: Veronica Espinoza/ENRON@enronXgate on 04/25/2001 09:53 AM\nTo: Janie Aguayo/HOU/ECT@ECT, Diane Anderson/NA/Enron@Enron, Derek \nBailey/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, \nPatricia Boulanger/CAL/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Julie \nBrewer/NA/Enron@Enron, Lesli Campbell/ENRON@enronXgate, Celeste \nCisneros/ENRON@enronXgate, Sharon Crawford/CAL/ECT@ECT, Richard \nDeming/NA/Enron@Enron, Russell Diamond/ENRON@enronXgate, Cindy \nFeldman/CAL/ECT@ECT, Darron C Giron/HOU/ECT@ECT, Veronica \nGonzalez/ENRON@enronXgate, Jeffrey C Gossett/HOU/ECT@ECT, Walter \nGuidroz/ENRON@enronXgate, Larry Joe Hunter/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Bianca Ornelas/NA/Enron@Enron, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron\ncc:  \nSubject: Credit Report--4/25/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--4/25/01",
+   "thread_id": "tdff4dff0d4",
+   "to": [
+    "ryan.o'rourke@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-11T10:14:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/659",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 09/11/2000 \n10:14 AM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 08/24/2000 08:14:22 AM\nTo: \"Darron C Giron\" <Darron.C.Giron@enron.com>, \"Debbie Hall\" \n<gmind@icsi.net>\ncc:  \nSubject: Fw: THE TRUE OLYMPIC SPIRIT\n\n\nI say staged.\n\n----- Original Message -----\nFrom: \"Warren, Stacy\" <swarre02@coair.com>\nTo: \"'Ugly Boo (E-mail)'\" <hollyw@email.msn.com>\nSent: Monday, August 14, 2000 4:47 PM\nSubject: FW: THE TRUE OLYMPIC SPIRIT\n\n\n> Excellent!\n>\n> -----Original Message-----\n> From: Wanda Harding [mailto:wharding@redsky.com]\n> Sent: Monday, August 14, 2000 4:02 PM\n> To: Alan Birchenough (E-mail); Alisa Mayfield Conboy (E-mail); Brian Mann\n> (E-mail); Dave Pitschel (E-mail); Hazel Birchenough (E-mail); Heather\n> Sullivan (E-mail); Ignacio Martinez (E-mail); Jeff Bishop (E-mail); Jeff\n> Draper (E-mail); Jennifer Vodvarka (E-mail); Jim Terando (E-mail); Lori\n> Stull (E-mail); Pegi Newhouse (E-mail); Rick Pleczko (E-mail); Warren,\n> Stacy; Wes Manning (E-mail); Jeff Harris\n> Subject: FW: THE TRUE OLYMPIC SPIRIT\n>\n>\n>\n>\n>\n> Subject:        FW: THE TRUE OLYMPIC SPIRIT\n>\n> <<sportszeru biciklis.mpg>>\n>\n>\n>\n>\n>\n>\n\n\n - sportszeru biciklis.mpg",
+   "new_text_source": "body",
+   "subject": "Fw: THE TRUE OLYMPIC SPIRIT",
+   "thread_id": "te03d37fd86",
+   "to": [
+    "kristi.giron@cfisd.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-11T10:21:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/657",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 09/11/2000 \n10:21 AM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 08/24/2000 08:14:22 AM\nTo: \"Darron C Giron\" <Darron.C.Giron@enron.com>, \"Debbie Hall\" \n<gmind@icsi.net>\ncc:  \nSubject: Fw: THE TRUE OLYMPIC SPIRIT\n\n\nI say staged.\n\n----- Original Message -----\nFrom: \"Warren, Stacy\" <swarre02@coair.com>\nTo: \"'Ugly Boo (E-mail)'\" <hollyw@email.msn.com>\nSent: Monday, August 14, 2000 4:47 PM\nSubject: FW: THE TRUE OLYMPIC SPIRIT\n\n\n> Excellent!\n>\n> -----Original Message-----\n> From: Wanda Harding [mailto:wharding@redsky.com]\n> Sent: Monday, August 14, 2000 4:02 PM\n> To: Alan Birchenough (E-mail); Alisa Mayfield Conboy (E-mail); Brian Mann\n> (E-mail); Dave Pitschel (E-mail); Hazel Birchenough (E-mail); Heather\n> Sullivan (E-mail); Ignacio Martinez (E-mail); Jeff Bishop (E-mail); Jeff\n> Draper (E-mail); Jennifer Vodvarka (E-mail); Jim Terando (E-mail); Lori\n> Stull (E-mail); Pegi Newhouse (E-mail); Rick Pleczko (E-mail); Warren,\n> Stacy; Wes Manning (E-mail); Jeff Harris\n> Subject: FW: THE TRUE OLYMPIC SPIRIT\n>\n>\n>\n>\n>\n> Subject:        FW: THE TRUE OLYMPIC SPIRIT\n>\n> <<sportszeru biciklis.mpg>>\n>\n>\n>\n>\n>\n>\n\n\n - sportszeru biciklis.mpg",
+   "new_text_source": "body",
+   "subject": "Fw: THE TRUE OLYMPIC SPIRIT",
+   "thread_id": "te03d37fd86",
+   "to": [
+    "dgiron1@pdq.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-11T10:21:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/658",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 09/11/2000 \n10:19 AM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 08/24/2000 08:14:22 AM\nTo: \"Darron C Giron\" <Darron.C.Giron@enron.com>, \"Debbie Hall\" \n<gmind@icsi.net>\ncc:  \nSubject: Fw: THE TRUE OLYMPIC SPIRIT\n\n\nI say staged.\n\n----- Original Message -----\nFrom: \"Warren, Stacy\" <swarre02@coair.com>\nTo: \"'Ugly Boo (E-mail)'\" <hollyw@email.msn.com>\nSent: Monday, August 14, 2000 4:47 PM\nSubject: FW: THE TRUE OLYMPIC SPIRIT\n\n\n> Excellent!\n>\n> -----Original Message-----\n> From: Wanda Harding [mailto:wharding@redsky.com]\n> Sent: Monday, August 14, 2000 4:02 PM\n> To: Alan Birchenough (E-mail); Alisa Mayfield Conboy (E-mail); Brian Mann\n> (E-mail); Dave Pitschel (E-mail); Hazel Birchenough (E-mail); Heather\n> Sullivan (E-mail); Ignacio Martinez (E-mail); Jeff Bishop (E-mail); Jeff\n> Draper (E-mail); Jennifer Vodvarka (E-mail); Jim Terando (E-mail); Lori\n> Stull (E-mail); Pegi Newhouse (E-mail); Rick Pleczko (E-mail); Warren,\n> Stacy; Wes Manning (E-mail); Jeff Harris\n> Subject: FW: THE TRUE OLYMPIC SPIRIT\n>\n>\n>\n>\n>\n> Subject:        FW: THE TRUE OLYMPIC SPIRIT\n>\n> <<sportszeru biciklis.mpg>>\n>\n>\n>\n>\n>\n>\n\n\n - sportszeru biciklis.mpg",
+   "new_text_source": "body",
+   "subject": "Fw: THE TRUE OLYMPIC SPIRIT",
+   "thread_id": "te03d37fd86",
+   "to": [
+    "robert.fowler@cfisd.net",
+    "scrowell@us.oracle.com",
+    "kyle.lilly@enron.com",
+    "dawn.kenne@enron.com",
+    "cgiron@mindspring.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-28T08:40:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/683",
+   "new_text": "Yes.  Just after lunch if possible.  It's bid week.  Thanks.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Re: July Flash To Actual",
+   "thread_id": "te055fd86df",
+   "to": [
+    "mary.ruffer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-28T09:06:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/682",
+   "new_text": "I'll see you at 1:00\n\nDG",
+   "new_text_source": "new",
+   "subject": "Re: July Flash To Actual",
+   "thread_id": "te055fd86df",
+   "to": [
+    "mary.ruffer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-09T14:08:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/159",
+   "new_text": "Hey,\n\nHow goes it?  I need your brother's phone numbers.  I am staying with him \ntomorrow night, but don't have directions.  We have only been communicating \nvia email.  I hope you get this today.  Thanks.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Sean",
+   "thread_id": "te112e586ac",
+   "to": [
+    "kim.mayers@mail.sprint.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-19T13:09:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/146",
+   "new_text": "Yes we did.  We had a great time.  I heard Christine is pregnant again.  How \nare you doing?  After a week off, I realize how much work sucks!\n\nDG\n\n\n\n\nKim.Mayers@mail.sprint.com on 03/19/2001 09:07:06 AM\nTo: Darron.C.Giron@enron.com\ncc:  \nSubject: RE: Sean\n\n\nHello,\nIt sounds like you got hooked up with Sean.  I went to Dallas on Friday\nand just got your message.  How was Colorado?\n\nKim Mayers\nProduct Manager\nSprint Broadband Wireless Group\nPhone: (913) 315-9132\nPCS: (913) 269-8197\nFax: (913) 315-0760\nkim.mayers@mail.sprint.com",
+   "new_text_source": "new",
+   "subject": "RE: Sean",
+   "thread_id": "te112e586ac",
+   "to": [
+    "kim.mayers@mail.sprint.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-16T06:04:12+00:00",
+   "from": "40enron@enron.com",
+   "msg_id": "giron-d/inbox/201",
+   "new_text": "To:          All Enron Houston Users\n \nSubject:   New Dialing Instructions\n \nRef:   Tie Line Access Code Changes - Enron Building Phone System\n \nEffective Saturday, August 18, the access code for remote locations will be modified within the Enron Building phone system to reflect a standard utilized by all Enron phone systems.  The modification will change the first digit dialed when accessing the tie lines by using the Alternative Routing feature from 7 to 8.  As all other Enron phone systems currently access the tie lines with the digit 8, the change from 7 to 8 will only affect users who reside in the Enron Building.  All other Enron phone system users should note that several digits of the tie lines to London, Calgary, and Portland have changed.\n \nWhat This Change Means To You\n \nEffective Saturday, August 18, you must replace the first digit 7 with an 8 when accessing the tie lines.  Additionally, several of the digits to the London, Calgary, and Portland tie lines have changed.  All other digits of existing access codes will remain the same.  For your reference, a list of the new dial strings for remote locations is identified at the bottom of this message.  Please Note:  This change also means that any Auto-Dial buttons you use to call associates at remote locations will now have to be re-programmed.  Such buttons may be programmed on conference room phones and FAX machines in your area.\n \nTo re-program an Auto-Dial button:\n \n?         Press the Menu button on your soft keys\n?         Press the Program button on your soft keys\n?         Press the Auto-Dial button you wish to program\n?         Dial the new Dial String (as identified below)\n?         Press the # key\n \nREVISED DIAL STRINGS FOR ENRON TIE LINE NETWORK\nUsers must dial 8 digits to call via Tie Lines\n \n\n\nEnron Location\tOld String\tNew String\t\nBeijing\t7 810 XXXX\t8 810 XXXX\t\nBuenos Aires\t7 900 XXXX\t8 900 XXXX\t\nCalgary\t7 403 XXXX\t8 283 XXXX\t\nCaracas\t7 58 XXXXX\t8 58 XXXXX\t\nChicago\t7 220 XXXX\t8 220 XXXX\t\nDahbol India\t7 812 XXXX\t8 812 XXXX\t\nHinsdale\t7 235 XXXX\t8 235 XXXX\t\nLondon\t7 830 XXXXX\t8 44 XXXXX\t\nMonterey\t7 152 2XXX\t8 152 XXXX\t\nNew York\t7 212 XXXX\t8 212 XXXX\t\nNew York Metals\t7 211 XXXX\t8 211 XXXX\t\nOmaha\t7 287 XXXX\t8 287 XXXX\t\nPortland\t7 834 XXXX\t8 234 XXXX\t\nRio De Janiero\t7 920 XXXX\t8 920 XXXX\t\nSao Paulo\t7 910 XXXX\t8 910 XXXX\t\nSydney\t7 800 XXXX\t8 800 XXXX\t\nTokyo\t7 860 XXXX\t8 860 XXXX\t\nToronto\t7 285 XXXX\t8 285 XXXX\t\nWashington DC (Future)\tN/A\t8 245 XXXX\t\n\n\n \n* X represents an extension number",
+   "new_text_source": "new",
+   "subject": "New Dialing Instructions",
+   "thread_id": "te1417404b9",
+   "to": [],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-08T16:04:34+00:00",
+   "from": "chairman.ken@enron.com",
+   "msg_id": "giron-d/inbox/372",
+   "new_text": "Enron and Dynegy each announced today that they are holding discussions about a possible merger of the two companies.  As you know, Dynegy is a major player in the energy marketplace, and is not only a competitor, but also a counterparty of Enron.  This is just one of several options that we are considering.\n\nUpon receipt of this announcement, the NYSE briefly suspended trading of both Enron and Dynegy.  We have no additional information we can share at this time.  We'll keep you updated as developments occur.",
+   "new_text_source": "new",
+   "subject": "Dynegy Discussions",
+   "thread_id": "te18731e1a4",
+   "to": [
+    "dl-ga-all_enron_worldwide@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-06T17:18:26+00:00",
+   "from": "julie.clyatt@enron.com",
+   "msg_id": "giron-d/inbox/7",
+   "new_text": "It appears that the following email may not have been clear.  You have to copy all documents yourself.\n\nThis is my cheat sheet if it helps:  \n\nH Drives:\n1.  Each person will have to move any data over personally from the old H drive (which is now Z:) drive to their new H drive.  \n2. The Z: drive (old H:) will be removed from UBS employees on Thursday night.\n\nO Drives:\n1. For the old O or M drives go to O:\\ESTATE\\ O (or M ? pending location of data) and copy to the new common O.  The Estate O and M will be removed from UBS employees on Thursday night.\n\nDo not delete anything and only copy information which is complies with the policy.  Please make sure that those people who are not in the office are contacted and comply.  \n\n\nLouise\n\n  \n\nTo:\t\tAll Enron Employees Transferring to UBS Warburg Energy (or its affiliates)\n\nUnder the terms of the various agreements among certain Enron entities and UBS AG, certain Enron data and documents may be provided to UBS.  To ensure compliance with those agreements, Enron's document retention policy, as well as directives of various investigative agencies, the attached protocol regarding the process for migration of any information or data to UBS has been developed.\n\nPlease review the protocol carefully.  Then, complete the attached Certification and return it, with attachments, to Linda Guinn at EB 3829a no later than February 11, 2002.\n\nQuestions about this matter may be directed to Michelle Cash at (713) 853-6401 or Francisco Pinto-Leite at (713) 345-7942 .\n\nProtocol Document and Data Copy Instructions\n   \n\nCertification Document",
+   "new_text_source": "new",
+   "subject": "YOU HAVE 48 HOURS - Message from Louise Kitchen",
+   "thread_id": "te25e02e783",
+   "to": [
+    "darren.adamik@enron.com",
+    "p..adams@enron.com",
+    "habib.ahsan@enron.com",
+    "d.alexander@enron.com",
+    "diana.allen@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-11T16:52:18+00:00",
+   "from": "kam.keiser@enron.com",
+   "msg_id": "giron-d/inbox/131",
+   "new_text": "FYI....\n\nTo keep things consistent all of the traders, except the financial group, will use their physical books to log in for EOL.",
+   "new_text_source": "new",
+   "subject": "FW: Trader Log In",
+   "thread_id": "te2caf07dea",
+   "to": [
+    "m..love@enron.com",
+    "d..winfree@enron.com",
+    "c..giron@enron.com",
+    "scott.palmer@enron.com",
+    "errol.mclaughlin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-07-21T08:13:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/736",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 07/21/2000 \n08:12 AM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 07/20/2000 12:16:31 PM\nTo: \"Stephanie Sever\" <Stephanie.Sever@enron.com>, \"Darron Giron\" \n<dgiron@enron.com>, \"Rochelle Smith\" <rochelle@waterengineers.com>, \"Sheri \nThomas\" <Sheri.Thomas@enron.com>\ncc:  \nSubject: new braunsfels\n\n\n\nhey, \nwe have a 3 bedroom 2 bath at Camp  Warneke Estates reserved for the \nbabelicious chick squad, Aug 18 -  20.?? Let me know that you girls are in \nfor sure........Sheri, pass  this on to necessary personnel, cuz I don't have \neverybody's email  addresses.? Derwood, pass on to the Popester.? \nLets see if we can cram like 20  people into this place!\nParty on!\n?\nHolly",
+   "new_text_source": "body",
+   "subject": "new braunsfels",
+   "thread_id": "te30afe247b",
+   "to": [
+    "dgiron1@pdq.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-16T15:33:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/327",
+   "new_text": "Mark,\n\nI'm in Chicago right now and will return on Thursday.  Let me know if you can \nwait until then.  Thanks.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Re: Monthly Natural Gas P & L Request",
+   "thread_id": "te396fd1f37",
+   "to": [
+    "mark.austin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-16T15:44:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/326",
+   "new_text": "Could you please read this request and get back to Mark with the info ASAP?  \nThanks.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Re: Monthly Natural Gas P & L Request",
+   "thread_id": "te396fd1f37",
+   "to": [
+    "chris.walker@enron.com",
+    "jason.wolfe@enron.com",
+    "jennifer.bagwell@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-16T15:45:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/325",
+   "new_text": "I asked people in my group to respond to you.  Let me know if you don't have \nanything by tomorrow.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Re: Monthly Natural Gas P & L Request",
+   "thread_id": "te396fd1f37",
+   "to": [
+    "mark.austin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-17T08:32:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/322",
+   "new_text": "Thanks.\n\nDG\n\n\n   \n\t\n\t\n\tFrom:  Jason Wolfe @ ENRON                           01/16/2001 04:20 PM\n\t\n\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Re: Monthly Natural Gas P & L Request  \n\nI forwarded this to Carole to take care of Northwest as she was running it \nNov and Dec.\nI also sent off the Mgmt-West P&L\n\nJason",
+   "new_text_source": "new",
+   "subject": "Re: Monthly Natural Gas P & L Request",
+   "thread_id": "te396fd1f37",
+   "to": [
+    "jason.wolfe@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-18T09:21:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/317",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 01/18/2001 \n09:21 AM ---------------------------\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Darron C Giron                           01/16/2001 03:44 PM\n\t\n\nTo: Chris Walker/HOU/ECT@ECT, Jason Wolfe/NA/Enron@ENRON, Jennifer \nBagwell/NA/Enron@ENRON\ncc:  \nSubject: Re: Monthly Natural Gas P & L Request\n\nCould you please read this request and get back to Mark with the info ASAP?  \nThanks.\n\nDG\n---------------------- Forwarded by Darron C Giron/HOU/ECT on 01/16/2001 \n03:36 PM ---------------------------\n\n\nMark C Austin@ENRON\n01/16/2001 03:38 PM\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Re: Monthly Natural Gas P & L Request  \n\nDarron,\n\nIs there someone else that can direct us to?  I would like to get this \ninformation as soon as it is possible.  Please let me know.\n\nMark\n\n\n   \n\t\n\t\n\tFrom:  Darron C Giron @ ECT                           01/16/2001 03:33 PM\n\t\n\nTo: Mark C Austin/AA/Corp/Enron@ENRON\ncc:  \n\nSubject: Re: Monthly Natural Gas P & L Request  \n\nMark,\n\nI'm in Chicago right now and will return on Thursday.  Let me know if you can \nwait until then.  Thanks.\n\nDG\n\n\n\nMark C Austin@ENRON\n01/16/2001 10:57 AM\nTo: William Kelly/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, Darron C \nGiron/HOU/ECT@ECT, David Baumbach/HOU/ECT@ECT\ncc: Sharon Smith/AA/Corp/Enron@ENRON, Jennifer Stevenson/AA/Corp/Enron@ENRON, \nKate Agnew/AA/Corp/Enron@ENRON \nSubject: Monthly Natural Gas P & L Request\n\nAs part of our monthly testing we review the monthly Natural Gas P & L \nStatement and identify specific regions for which we would like to review \nadditional documentation.  Please find below, the regions that we have \nidentified.  We are requesting that you supply the P & L top pages for the \nlast day of the month for those regions that are applicable to you.  Once we \nhave reviewed these top pages, we will be contacting you to discuss the \ndrivers of these regions.  Please let me know if you have any questions or \ncomments.\n\nThank You,\n\nMark Austin\nArthur Andersen\next. 68680\n\nNovember  December\n\nIM-East   IM-East\nIM-Central  IM-Central\nIM-Texas  IM-Texas\n\nFT-West  FT-East\nFT--Nwest  FT-NY\nFT-MGMT-West FT-West\n   FT-Nwest\nWest Gas Daily  FT-MGMT-West\nStorage\n   NYMEX\n   MANAGEMENT\n   Henry Hub Gas Daily\n   Texas Gas Daily\n   West Gas Daily",
+   "new_text_source": "body",
+   "subject": "Re: Monthly Natural Gas P & L Request",
+   "thread_id": "te396fd1f37",
+   "to": [
+    "kam.keiser@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-23T13:31:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/201",
+   "new_text": "Please make sure this guy gets what he needs.  Thanks.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Monthly Natural Gas P & L Request",
+   "thread_id": "te396fd1f37",
+   "to": [
+    "jason.wolfe@enron.com",
+    "anne.bike@enron.com",
+    "carole.frank@enron.com",
+    "patrick.ryder@enron.com",
+    "ryan.o'rourke@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-24T17:15:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/299",
+   "new_text": "Please contact Mark and provide him with the documentation he needs.  Thanks.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Top Page P&L Support",
+   "thread_id": "te3976cb68b",
+   "to": [
+    "carole.frank@enron.com",
+    "jason.wolfe@enron.com",
+    "chris.walker@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-04-16T09:27:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/67",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 04/16/2001 \n09:27 AM ---------------------------\nFrom: Veronica Espinoza/ENRON@enronXgate on 04/13/2001 09:31 AM\nTo: Janie Aguayo/HOU/ECT@ECT, Diane Anderson/NA/Enron@Enron, Derek \nBailey/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, \nPatricia Boulanger/CAL/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Julie \nBrewer/NA/Enron@Enron, Lesli Campbell/ENRON@enronXgate, Celeste \nCisneros/NA/Enron@Enron, Sharon Crawford/CAL/ECT@ECT, Richard \nDeming/NA/Enron@Enron, Russell Diamond/ENRON@enronXgate, Cindy \nFeldman/CAL/ECT@ECT, Darron C Giron/HOU/ECT@ECT, Veronica \nGonzalez/ENRON@enronXgate, Jeffrey C Gossett/HOU/ECT@ECT, Walter \nGuidroz/ENRON@enronXgate, Larry Joe Hunter/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Bianca Ornelas/NA/Enron@Enron, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron\ncc:  \nSubject: Credit Report--4/13/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--4/13/01",
+   "thread_id": "te3acd6ed05",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-09T10:46:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/239",
+   "new_text": "I will be able to interview at either time.  I selected the late time on the \nemail, but wanted to respond to make sure you received it.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Analyst Interviews Needed - 2/15/01",
+   "thread_id": "te3f3daab7e",
+   "to": [
+    "jana.giovannini@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-16T11:43:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/218",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/16/2001 \n11:43 AM ---------------------------\n   \n\n\nFrom:  Veronica Espinoza @ ENRON                                              \n               02/16/2001 09:36 AM\t\n\t\n\t\n\t                           \n\t\n\nTo: Larry Joe Hunter/HOU/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Kim S \nTheriot/HOU/ECT@ECT, Melinda Whalen/CAL/ECT@ECT, Dianne Seib/CAL/ECT@ECT, \nJanie Aguayo/HOU/ECT@ECT, Derek Bailey/Corp/Enron@ENRON, Kevin \nMeredith/Corp/Enron@ENRON, Ellen Wallumrod/NA/Enron@ENRON, Celeste \nCisneros/NA/Enron@Enron, Diane Anderson/NA/Enron@Enron, Tiffany \nWilliams/NA/Enron@Enron, Cindy Feldman/CAL/ECT@ECT, Patricia \nBoulanger/CAL/ECT@ECT, Linda Sietzema/CAL/ECT@ECT, Sharon \nCrawford/CAL/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Tanya \nRohauer/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, William S Bradford/HOU/ECT@ECT, \nRussell Diamond/HOU/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Nidia \nMendoza/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, \nDavid Baumbach/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Darron C \nGiron/HOU/ECT@ECT, Walter Guidroz/NA/Enron@Enron, Leslie Reeves/HOU/ECT@ECT, \nVeronica Gonzalez/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Jean \nBell/HOU/ECT@ECT, Paul Radous/Corp/Enron@ENRON, Ken Curry/HOU/ECT@ECT\ncc:  \nSubject: Credit Report--2/16/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--2/16/01",
+   "thread_id": "te504472312",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  }
+ ]
+}

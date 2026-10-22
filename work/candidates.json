@@ -1,0 +1,3840 @@
+{
+ "candidates": {
+  "activity_driver_survey_response": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Staff fill out recurring monthly activity driver surveys for cost allocation and return them by deadline."
+   ],
+   "sample_subjects": [
+    "July Activity Driver Survey",
+    "Activity Driver Quantity Survey"
+   ]
+  },
+  "analyst_staffing_info_request": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Responding to HR requests for location, cost center and supervisor details when taking on analysts."
+   ],
+   "sample_subjects": [
+    "Re: First Year Analyst"
+   ]
+  },
+  "audit_support_data_request": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Respond to external auditor requests for deal tickets, confirmations and forward detail on sampled deals."
+   ],
+   "sample_subjects": [
+    "Re: Originations Detail Request",
+    "Originations Detail Request"
+   ]
+  },
+  "audit_testing_request_coordination": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Collecting requested data from desk staff and passing it to the external auditors for periodic testing requests."
+   ],
+   "sample_subjects": [
+    "Monthly Gas Testing",
+    "1st Qtr Gas Trading Requests"
+   ]
+  },
+  "available_capacity_bid_promotion": {
+   "count": 3,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Commercial staff email internal and customer contacts links to posted available capacity and remind them of bid deadlines."
+   ],
+   "sample_subjects": [
+    "TW - available capacity"
+   ]
+  },
+  "bankruptcy_book_deal_reconciliation": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Build and refine books and deal lists of live positions by counterparty, reconcile deals to Sitara numbers, and move them into bankruptcy books."
+   ],
+   "sample_subjects": [
+    "Deals to be moved to Bankruptcy Books (From Russell's Exposure Report)",
+    "RE: NG-PRICE_FinancialOnly.xls",
+    "FW: Deals to be moved to Bankruptcy Books (From Russell's Exposure Report)"
+   ]
+  },
+  "bankruptcy_book_deal_transfer": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Risk/estate staff send lists of stragglers deals that desk staff must move into bankruptcy books and confirm."
+   ],
+   "sample_subjects": [
+    "RE: bankruptcy book deals",
+    "bankruptcy book deals",
+    "more deals to move to bankruptcy books"
+   ]
+  },
+  "bankruptcy_deal_book_migration": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Move deals of terminated bankrupt counterparties into bankruptcy books from shared deal lists."
+   ],
+   "sample_subjects": [
+    "More deals to move"
+   ]
+  },
+  "bankruptcy_deal_book_transfer": {
+   "count": 4,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Identify auto-terminating or listed deals and move them into the bankruptcy books, answering questions about which deals are included."
+   ],
+   "sample_subjects": [
+    "RE: ENA Upstream deals to move",
+    "FW: ENA Upstream deals to move",
+    "RE: Additional deals to move to Bankruptcy Books - Phy Gas",
+    "Additional deals to move to Bankruptcy Books - Phy Gas"
+   ]
+  },
+  "bid_request_handling": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Collect and return pricing bids on gas packages for requesters."
+   ],
+   "sample_subjects": [
+    "Exxon Bids"
+   ]
+  },
+  "book_access_request_management": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Maintaining the desk matrix and submitting book access requests to controls."
+   ],
+   "sample_subjects": [
+    "risk matrix"
+   ]
+  },
+  "book_officialization_controls": {
+   "count": 5,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Ensuring trading books are officialized and signed off nightly and instructing staff on position roll-off and top-level approvals."
+   ],
+   "sample_subjects": [
+    "Top Levels",
+    "Official Books",
+    "Re: Official Books",
+    "Basis and Index Roll-Off"
+   ]
+  },
+  "book_pipe_mapping_request": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Answering requests about which pipes or counterparties must be mapped to new business units or books so traders can book deals."
+   ],
+   "sample_subjects": [
+    "Re: New ENA - IM Mid Business Units"
+   ]
+  },
+  "bridge_error_monitoring": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Monitor the Sitara/POPS bridge for erroring tickets and route them to the owning group to fix."
+   ],
+   "sample_subjects": [
+    "BRIDGE ERRORS",
+    "Re: BRIDGE ERRORS"
+   ]
+  },
+  "caiso_ads_credential_renewal_chase": {
+   "count": 2,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Chasing IT or the CAISO for expired ADS cards and passwords needed to communicate with the CAISO."
+   ],
+   "sample_subjects": [
+    "RE: ADS Cards",
+    "ADS Cards"
+   ]
+  },
+  "caiso_congestion_revenue_reconciliation": {
+   "count": 1,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Trader reconciles CAISO-awarded wheels and congestion revenue against internal inc sheets and CAPS finals and raises discrepancies."
+   ],
+   "sample_subjects": [
+    "Congestion Revenue for 10/05"
+   ]
+  },
+  "caiso_market_notice_distribution": {
+   "count": 3,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "CAISO operating, derate and market notices are received and forwarded to the real-time desk so traders adjust schedules."
+   ],
+   "sample_subjects": [
+    "HA market HE's 0700-1100 GMM's and TMM's re-published",
+    "CAISO Notice - Operating Procedure Update - S-320 Four Corners-Moenkopi and Eldorado-Moenkopi 500 kV Lines",
+    "FW: ISO Share (PNOB) South to North Derate"
+   ]
+  },
+  "caiso_market_notice_relay": {
+   "count": 6,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Forward ISO/CAISO and counterparty market notices, outages and ID changes to the real-time desk and shift lists so schedulers act on them."
+   ],
+   "sample_subjects": [
+    "CAISO Notice - MD02 Documents Posted",
+    "FW: Announcement: Allegheny Energy Supply SCID Changing",
+    "FW: CAISO Notice - FAQ on June 19 FERC Order",
+    "FW: CAISO Communication: Draft Statement File Specification (V13.1) - \"Soft Price Cap for Ancillary Services\"",
+    "FW: CAISO Urgent Notice - SI Servers UNAVAILABLE, MONDAY July 9th, 2001 (14:18 to 14:55pst)"
+   ]
+  },
+  "caiso_market_notice_review": {
+   "count": 6,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Incoming CAISO market notices, settlement figures, derates and procedure updates that the desk must read and act on or forward to operating staff.",
+    "Reading CAISO market operations notices (derates, path limits, outages) and adjusting hour-ahead and day-ahead trading accordingly."
+   ],
+   "sample_subjects": [
+    "Derate of PDCI for 2/6/02 HE23 &24 and 2-7-02 HE01-08",
+    "CAISO Notice: Market Design 2002 Draft Proposal",
+    "FW: CAISO NOTICE - CERS January Settlement",
+    "CAISO Notice - Operating Procedure Update - E-508 Electrical Emergency Plan",
+    "Mirage de-rate"
+   ]
+  },
+  "california_capacity_report_weekly": {
+   "count": 6,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Weekly compilation and email of Transwestern and El Paso California deliveries, utilization and posted Gas Daily prices to the commercial group."
+   ],
+   "sample_subjects": [
+    "California Capacity Report for Week of 03/11-03/15",
+    "California Capacity Report for Week of 12/10-12/14",
+    "FW: California Capacity Report for Week of 12/31-01/04",
+    "California Capacity Report for Week of 12/31-01/04",
+    "California Capacity Report for Week of 12/17-12/21"
+   ]
+  },
+  "california_capacity_weekly_report": {
+   "count": 6,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Commercial staff compile and email a weekly California capacity and price report covering TW and El Paso deliveries, Gas Daily prices and bases.",
+    "Weekly compilation and email of California deliveries, El Paso/Transwestern throughput and posted Gas Daily prices to commercial team."
+   ],
+   "sample_subjects": [
+    "California Capacity Report for Week of 10/22-10/26",
+    "California Capacity Report for Week of 01/21-01/25",
+    "California Capacity Report for Week of 01/14-01/18",
+    "RE: California Capacity Report for Week of 01/07-01/11",
+    "California Capacity Report for Week of 12/26-12/28"
+   ]
+  },
+  "calpine_nomination_intake": {
+   "count": 16,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Receiving Calpine's daily/monthly gas nomination documents by email and keying or forwarding them into scheduling."
+   ],
+   "sample_subjects": [
+    "Calpine Daily Gas Nomination",
+    "Calpine Monthly Nomination (December)"
+   ]
+  },
+  "capacity_posting_review": {
+   "count": 2,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Capacity postings are drafted and reviewed by commercial before going live, with escalations when postings go up late."
+   ],
+   "sample_subjects": [
+    "FW: capacity posting",
+    "AVAILABLE FIRM CAPACITY ON TRANSWESTERN"
+   ]
+  },
+  "capacity_release_billing_adjustment": {
+   "count": 3,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Manual invoice adjustments and revenue-sharing calculations for capacity releases, coordinated between commercial, billing and accounting before each billing cycle."
+   ],
+   "sample_subjects": [
+    "FW: Transwestern Capacity Release - ENA/Burlington",
+    "RE: Transwestern Capacity Release - ENA/Burlington"
+   ]
+  },
+  "congestion_revenue_and_bid_price_reconciliation": {
+   "count": 4,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Tracking CAISO congestion awards, calculating revenue, and reconciling published prices against Enron bids with settlements and volume management."
+   ],
+   "sample_subjects": [
+    "RE: SI Support for Enron",
+    "FW: 21st cong",
+    "RE: Congestion for 08-07",
+    "Congestion for 08-07"
+   ]
+  },
+  "congestion_revenue_notification": {
+   "count": 4,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Real-time desk computes congestion relief volumes and revenue from the CAISO and emails settlements/accounting to confirm and book it."
+   ],
+   "sample_subjects": [
+    "Congestion",
+    "RE: Congestion",
+    "Congestion revenue for 07/09/01"
+   ]
+  },
+  "congestion_revenue_settlement_followup": {
+   "count": 5,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Tracking CAISO congestion bids/revenue, disputing mispriced awards and instructing settlements to book congestion revenue from the inc sheet."
+   ],
+   "sample_subjects": [
+    "RE: Mead Congestion Issue",
+    "RE: Congestion Management Revenue for Tuesday",
+    "Congestion Management Revenue for Tuesday"
+   ]
+  },
+  "contract_activity_report_distribution": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Periodic distribution of assignment, termination and expiration reports for pipeline contracts to a maintained list."
+   ],
+   "sample_subjects": [
+    "04/01 Assignment, Termination, Expiration Report - Houston Pipe Line"
+   ]
+  },
+  "contract_amendment_request_handling": {
+   "count": 10,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Commercial rep approves or relays customer contract change requests to Gas Logistics/Contract Administration, who draft amendments and update admin contract records."
+   ],
+   "sample_subjects": [
+    "RE: Red Rock Receipts",
+    "Red Rock Receipts",
+    "RE: PPL EnergyPlus, LLC",
+    "Burlington OBA name change",
+    "FW: Burlington OBA name change"
+   ]
+  },
+  "contract_mdq_change_request": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Request changes to contract parameters such as MDQ with pipeline or contract administrators."
+   ],
+   "sample_subjects": [
+    "Increase MDQ for contract 5910"
+   ]
+  },
+  "contract_number_lookup": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Look up and provide pipeline contract numbers on request."
+   ],
+   "sample_subjects": [
+    "Transport contracts"
+   ]
+  },
+  "contract_signature_routing_followup": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Chasing the status of a contract sent for review and initials so it can be routed for signature and returned to the counterparty."
+   ],
+   "sample_subjects": [
+    "Blue Dolphin Pipe Line Company Contract No. 96037499"
+   ]
+  },
+  "contract_status_report_distribution": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Periodically produce and distribute contract assignment/termination/expiration reports ahead of bid week."
+   ],
+   "sample_subjects": [
+    "03/01 Assignment, Termination, Expiration Report - Houston Pipe Line"
+   ]
+  },
+  "contract_status_tracking_report": {
+   "count": 1,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Periodic contract status list of processing, tendered and executed agreements circulated to commercial team for follow-up on missing items such as CAFs."
+   ],
+   "sample_subjects": [
+    "TW Contract Status as of March 25th @ 5:15 pm"
+   ]
+  },
+  "cost_center_budget_and_allocation_reporting": {
+   "count": 5,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Collecting recurring cost-center inputs (allocations, budgets, surveys, charge checks) from desk managers for finance and accounting."
+   ],
+   "sample_subjects": [
+    "May Activity Survey",
+    "BUDGET HELP!!",
+    "2000 Plan Allocations and January Allocations",
+    "Monthly Charges for Analysts on your RC report",
+    "1497"
+   ]
+  },
+  "counterparty_balance_dispute_handling": {
+   "count": 1,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Handling disputed volumes or amounts with counterparties by verifying internal numbers and deciding whether to concede."
+   ],
+   "sample_subjects": [
+    "RE: MPC March 2001"
+   ]
+  },
+  "counterparty_billing_dispute_support": {
+   "count": 5,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Gather supporting documents and information to answer counterparty penalty, pricing or rate disputes on billing."
+   ],
+   "sample_subjects": [
+    "Pricing Issue for 5/00 production - Duke Energy",
+    "Texas General Land Office IT Transport",
+    "Calpine Force Majeure - Dec 99",
+    "Midcon Invoices",
+    "Re: Midcon Invoices"
+   ]
+  },
+  "counterparty_billing_verification": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Checking counterparty invoices and billing spreadsheets against how deals were booked and resolving discrepancies."
+   ],
+   "sample_subjects": [
+    "FW: Enron/Citizens/PPL Attachment"
+   ]
+  },
+  "counterparty_contract_termination_notice_handling": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Credit or contracts staff announce terminated master agreements with a counterparty and traders must confirm outstanding deals are moved or closed."
+   ],
+   "sample_subjects": [
+    "RE: Calpine Energy Services, LP",
+    "Calpine Energy Services, LP"
+   ]
+  },
+  "counterparty_credit_report_rebook_handling": {
+   "count": 7,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Receive the periodic credit report listing counterparties to rebook or pending credit review, relay it, and rebook affected deals to the correct legal entity."
+   ],
+   "sample_subjects": [
+    "Credit Report--3/30/01",
+    "Credit Report - 3/5/01",
+    "Credit Report--2/6/01",
+    "Credit Report--1/25/01",
+    "Credit Report - 1/30/01"
+   ]
+  },
+  "counterparty_existing_deals_query": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Query the deal system for existing transactions with a list of counterparty entities and report the results to requesting groups."
+   ],
+   "sample_subjects": [
+    "Re: Existing Deals",
+    "Existing Deals"
+   ]
+  },
+  "counterparty_invoice_deal_discrepancy": {
+   "count": 9,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Reconcile counterparty invoices or disputes against deal tickets (price, volume, netting) and correct deals or invoices."
+   ],
+   "sample_subjects": [
+    "Tristar Gas Company May 2001",
+    "FW: Pymt for 03/01 Sales adjustment for Cowtrap",
+    "RE: Pymt for 03/01 Sales adjustment for Cowtrap",
+    "Jan. 01 Sale to Texas General Land Office",
+    "Net Out with Kinder Morgan-Beginning March 21st"
+   ]
+  },
+  "counterparty_invoice_responsibility_query": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Settlement staff ask logistics which party owes fees on counterparty invoices before paying or forwarding them."
+   ],
+   "sample_subjects": [
+    "Blue Dolpin /August and September 2001"
+   ]
+  },
+  "counterparty_mtm_audit_request": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Providing mark-to-market valuations and position reports for counterparties' auditors by going to desks for each request."
+   ],
+   "sample_subjects": [
+    "Re: Audit Request procedure"
+   ]
+  },
+  "counterparty_mtm_value_request": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Collecting regional MTM values by counterparty for a given date from desk contacts."
+   ],
+   "sample_subjects": [
+    "Re: 12/29/2000 - MTM",
+    "12/29/2000 - MTM"
+   ]
+  },
+  "counterparty_nomination_actuals_notice": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Receive daily nomination and actuals notices from counterparties and reconcile them to internal volumes."
+   ],
+   "sample_subjects": [
+    "Enron Actuals for January 4, 2000"
+   ]
+  },
+  "counterparty_price_calculation_support": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Calculating contract prices in calc sheets, correcting system price data, and sharing the spreadsheet so settlement or price discrepancies can be resolved."
+   ],
+   "sample_subjects": [
+    "Re: Agave Price Spreadsheet",
+    "Re: Agave Price Calculation"
+   ]
+  },
+  "credit_approval_request_routing": {
+   "count": 2,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Capacity credit approval requests for shippers are submitted to CAS and circulated to commercial and credit staff, with forwards and follow-up on approvals."
+   ],
+   "sample_subjects": [
+    "Credit request Oneok Bushton Processing, Inc.",
+    "FW: Credit Approval"
+   ]
+  },
+  "credit_report_and_rebook_handling": {
+   "count": 7,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Forwarding daily credit reports, pendings and credit-driven rebook requests to the assistant to action in the deal system."
+   ],
+   "sample_subjects": [
+    "Rebooks",
+    "Credit Report--5/4/01",
+    "Credit Report--3/8/01",
+    "Credit Report--3/1/01",
+    "Credit Report--2/20/01"
+   ]
+  },
+  "credit_report_counterparty_action_distribution": {
+   "count": 8,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Receive and forward periodic credit reports listing counterparties needing rebooking or pending action, then act on the listed TAGG deals.",
+    "Receive the daily/periodic credit report listing counterparty rebooks, pending credit and do-not-confirm actions, and forward it to staff who must apply the changes to deals."
+   ],
+   "sample_subjects": [
+    "Credit Report--3/22/01",
+    "Credit Report 3/15/01",
+    "Credit Report--2/16/01",
+    "Credit Report--2/1/01",
+    "Credit Report--5/1/01"
+   ]
+  },
+  "credit_report_counterparty_rebook": {
+   "count": 4,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Processing the periodic credit report listing counterparties whose deals must be rebooked to the correct legal entity or need credit language."
+   ],
+   "sample_subjects": [
+    "Credit Report 3/19/01",
+    "Credit Report--5/2/01",
+    "Credit Report--4/27/01",
+    "Credit Report--4/23/01"
+   ]
+  },
+  "credit_report_counterparty_rebooking": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Act on daily credit reports by rebooking trades in Tagg to correct counterparty entities."
+   ],
+   "sample_subjects": [
+    "Credit Report - 5/7/01",
+    "Credit Report--3/6/01",
+    "PMA's for January"
+   ]
+  },
+  "credit_report_distribution": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Receiving and forwarding the periodic counterparty credit report to desk staff."
+   ],
+   "sample_subjects": [
+    "Credit Report--4/3/01",
+    "Credit Report--2/5/01",
+    "Credit Report--1/24/01"
+   ]
+  },
+  "credit_report_distribution_forward": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Receive periodic credit reports and forward them on to team members who need them."
+   ],
+   "sample_subjects": [
+    "Credit Report--2/21/01",
+    "Credit Report--2/7/01",
+    "Credit Report--4/30/01"
+   ]
+  },
+  "credit_report_forwarding": {
+   "count": 9,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Forwarding the recurring credit report notice to the desk's mid-office contact.",
+    "Forward periodic counterparty credit reports from credit group to the person who applies them to the desk."
+   ],
+   "sample_subjects": [
+    "Credit Report--3/16/01",
+    "Credit Report--3/14/01",
+    "Credit Report--2/28/01",
+    "Credit Report--5/3/01",
+    "Credit Report--2/22/01"
+   ]
+  },
+  "credit_report_rebook_action_forwarding": {
+   "count": 9,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Forwarding credit department reports and reserve notices listing counterparties/TAGG deals to rebook or hold so the responsible person can update deals."
+   ],
+   "sample_subjects": [
+    "Credit Report 3/29/2001",
+    "Credit Report--3/21/01",
+    "Credit Report--3/20/01",
+    "AEC Marketing -Credit Reserve",
+    "Credit Report for 3/13/2001"
+   ]
+  },
+  "curve_change_validation_response": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Answer back-office or risk questions about forward curve changes and mappings by getting traders' explanations or updating curve/subregion mappings."
+   ],
+   "sample_subjects": [
+    "January Gas Curve Validation",
+    "ANR ML5"
+   ]
+  },
+  "curve_validation_query_response": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Answering monthly curve validation questions from the risk group about price shifts on specific curves, including asking traders for explanations."
+   ],
+   "sample_subjects": [
+    "Re: March Curve Validation"
+   ]
+  },
+  "customer_contract_usage_data_request": {
+   "count": 2,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Logistics staff pull and send contract usage data (e.g. alternate point use) for commercial account directors analyzing a customer."
+   ],
+   "sample_subjects": [
+    "Burlington contracts through 09/30",
+    "RE: Burling Contracts utilizing Alt pts"
+   ]
+  },
+  "customer_nomination_volume_change": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Customers or counterparties send revised volumes or nomination changes that logistics must apply to nominations and schedules."
+   ],
+   "sample_subjects": [
+    "Mobil Beaumont - May 2001",
+    "Revised March 2000 Avails"
+   ]
+  },
+  "customer_price_quote_request_handling": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Customers ask the desk to obtain trader price quotes for forward gas volumes, which must be relayed back and followed up."
+   ],
+   "sample_subjects": [
+    "Fixed Forward Contract Purchase - Ventura",
+    "RE: Fixed Forward Contract Purchase - Ventura"
+   ]
+  },
+  "daily_credit_report_forwarding": {
+   "count": 6,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "The daily credit report from the credit group is received and forwarded on to other staff or an assistant.",
+    "Daily credit report received from credit group is forwarded on to desk staff for awareness."
+   ],
+   "sample_subjects": [
+    "Credit Report--5/8/01",
+    "Credit Report--3/27/01",
+    "Credit Report--3/7/01",
+    "Credit Report--3/2/01",
+    "Credit Report--1/29/01"
+   ]
+  },
+  "daily_gas_nomination_intake": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Receiving daily and monthly gas nomination documents from counterparties and entering or processing them for scheduling."
+   ],
+   "sample_subjects": [
+    "Calpine Daily Gas Nomination and Monthly (JULY) Nomination",
+    "Calpine Daily Gas Nomination (weekend)"
+   ]
+  },
+  "daily_gas_nomination_submission": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Receiving, relaying and acting on counterparty daily or monthly gas nomination forms."
+   ],
+   "sample_subjects": [
+    "Calpine Daily and Monthly Gas Nomination",
+    "Calpine Daily Gas nomiantion"
+   ]
+  },
+  "daily_imbalance_signoff_routing": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Routing the daily imbalance check to the person with sign-off authority."
+   ],
+   "sample_subjects": [
+    "daily imbalance sign off"
+   ]
+  },
+  "daily_nomination_and_balancing": {
+   "count": 8,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Prepare, adjust and confirm gas nominations and balance positions to production, entitlements and customer requirements."
+   ],
+   "sample_subjects": [
+    "TUFCO",
+    "NATURAL GAS NOMINATION FOR 09/00",
+    "Re: NATURAL GAS NOMINATION FOR 09/00",
+    "Re: FW: King Ranch Balancing.xls",
+    "REVISION - Forest Oil's JANUARY 2001 Gas Volumes"
+   ]
+  },
+  "daily_nomination_change_coordination": {
+   "count": 9,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Communicate, confirm and record daily/weekend nomination, flow and scheduling changes with counterparties and pipelines."
+   ],
+   "sample_subjects": [
+    "FYI - Gas flow",
+    "Weekend Activity Dated: June 2 thru June4th",
+    "3rd Party Maintenance at Meter 6040 for 29th & 30th",
+    "Deliveries into Channel at Gulf Plains",
+    "Re: Valero's February Gas Nominations"
+   ]
+  },
+  "daily_nomination_confirmation": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Confirming daily gas nominations (e.g. Calpine) with schedulers, verifying volumes and path against the prior day."
+   ],
+   "sample_subjects": [
+    "RE: Calpine Daily Gas Nomination"
+   ]
+  },
+  "daily_nomination_file_intake": {
+   "count": 5,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Receiving counterparty nomination or revised nomination files and notices and entering or confirming them in scheduling systems."
+   ],
+   "sample_subjects": [
+    "Revised Nomination - June, 2000",
+    "FW: Calpine Daily Gas Nomination (REVISED)",
+    "Kn changes upstream on the 60 K to 92155 for the 5,000 and we bring in 3,000 for champians also Kn 92155 on the 201 ....no other changes"
+   ]
+  },
+  "daily_pl_reporting_and_topside_confirmation": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Produce, send, and reconcile daily and month-end P&L reports, top-level adjustments and last-day files for management and accounting."
+   ],
+   "sample_subjects": [
+    "Re: Are ya done yet?",
+    "Re: top-leveled P&L",
+    "EMW 07/17"
+   ]
+  },
+  "daily_pnl_reporting": {
+   "count": 4,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Calculating, adjusting and sending daily P&L and balance numbers to traders and managers."
+   ],
+   "sample_subjects": [
+    "Re: P&L",
+    "P&L"
+   ]
+  },
+  "daily_pnl_top_level_explanation": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Explaining daily P&L top-level adjustments or discrepancies to traders and reconciling the other side of transactions."
+   ],
+   "sample_subjects": [
+    "12/26"
+   ]
+  },
+  "daily_position_report_review": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Review, approve and adjust the daily position/P&L reports (DPR) and GL adjustments, and answer position questions from preparers."
+   ],
+   "sample_subjects": [
+    "Re: Prelim Enovate DPR for 3-7-2001",
+    "DPR/GL Adjustments",
+    "Re: 11/15/2000 Enovate DPR"
+   ]
+  },
+  "daily_volume_actuals_exchange": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Counterparties and schedulers exchange daily estimated or actual volumes by meter, which the desk reads and reconciles."
+   ],
+   "sample_subjects": [
+    "Enron Scheduled Volumes---May 6 thru 8",
+    "Enron Actuals for April 4, 2001"
+   ]
+  },
+  "deal_annuity_pma_adjustment": {
+   "count": 5,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Correcting or creating annuity deals and PMA adjustments between trading books and reconciling them with deal-entry/settlement staff."
+   ],
+   "sample_subjects": [
+    "RE: Annuity Deal changed #664324",
+    "Transalta PMA from 01/31",
+    "Adjustments for ST-WBOM for 06/27/01",
+    "Annuity with ST-CALI."
+   ]
+  },
+  "deal_book_counterparty_correction": {
+   "count": 8,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Correct counterparty, book or deal-number details in the trading/deal systems after credit, risk or settlements staff query a deal, and confirm back."
+   ],
+   "sample_subjects": [
+    "NSS Detail",
+    "RE: Additional Book to Move",
+    "terminated financial CPs still in NG-PRice",
+    "INTRA-DENVER-GDL",
+    "Re: Park And Loan Deals from EOL"
+   ]
+  },
+  "deal_book_flip_request": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Moving deals or counterparties to the correct book or settlement entity when a new agreement or desk request requires it."
+   ],
+   "sample_subjects": [
+    "Deal in WEST SJ book to be flipped",
+    "Aquila Canada Corp. deals in your books",
+    "Friendly Reminder"
+   ]
+  },
+  "deal_book_reassignment_fix": {
+   "count": 7,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Fixing deals booked into the wrong book (flipping them to the correct book) so invoicing and settlement can proceed."
+   ],
+   "sample_subjects": [
+    "Re: G-Daily-EST book",
+    "G-Daily-Est deals that need to be fixed",
+    "MGMT-WEST deal to be fixed",
+    "Deals in the MGMT-WEST book",
+    "Q59761"
+   ]
+  },
+  "deal_book_reassignment_request": {
+   "count": 6,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Move or rebook deals between books or Enron entities per requests from other groups, including bulk counterparty moves.",
+    "Move listed deals between trading books (e.g. to FT-US/CAND-ERMS) by a deadline so invoicing can proceed."
+   ],
+   "sample_subjects": [
+    "Book moves",
+    "EOL Deals - Aquila Canada Corp.",
+    "Deals needing to be flipped to FT-US/CAND-ERMS book today",
+    "Deals in FT-Northwest book to be flipped to FT-US/CAND-ERMS book",
+    "Canadian deals in US books."
+   ]
+  },
+  "deal_book_status_change_request": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Moving or extracting deals between trading books (bankruptcy, live, counterparty books) on request from credit or risk groups."
+   ],
+   "sample_subjects": [
+    "Deals to be \"re-activated\" for MIDLANDCOGEN (Midland Cogeneration Venture Limited Partnership)",
+    "Undeliverable: Active Financial Deals",
+    "Canadian deals in Houston books"
+   ]
+  },
+  "deal_book_transfer_request": {
+   "count": 9,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Requests to move or flip deals between trading books (e.g. to the right entity book or the bankruptcy book) and confirm completion before invoicing or book calcs.",
+    "Move deals between trading books on request, often before a deadline so they can be invoiced from another office."
+   ],
+   "sample_subjects": [
+    "deals to move",
+    "FW: termination list for deals to be moved to bankruptcy book",
+    "RE: 6 more counterparties to move",
+    "6 more counterparties to move",
+    "Aquila Canada Corp. deals in Houston books"
+   ]
+  },
+  "deal_booking_change_request_fulfillment": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Back-office or scheduling staff ask the book admin to correct a deal's counterparty, rate, or book, and the admin makes the change and confirms."
+   ],
+   "sample_subjects": [
+    "Re: Q50979.1",
+    "Re: Enervest for 12/00",
+    "Re: Deal # qi3642/3736/3895"
+   ]
+  },
+  "deal_booking_correction": {
+   "count": 5,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Traders or schedulers ask the desk to change, flip or fix deal attributes (price, book, entity) in the deal system and confirm when done."
+   ],
+   "sample_subjects": [
+    "Physical RMT Deals",
+    "Deals to be flipped to FT-US/CAND-ERMS book right away.",
+    "Re: NW2862",
+    "Re: Cook Deal #663029",
+    "Gas Daily \"four leg\" Booking"
+   ]
+  },
+  "deal_booking_correction_requests": {
+   "count": 7,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Correct, move, or verify booked deals (book, portfolio, flags, tickets) after counterparts or accounting/credit report booking problems."
+   ],
+   "sample_subjects": [
+    "RE: GD Options",
+    "FW: Additional Terminations - spreadsheet",
+    "QK1706.1",
+    "Physical Deals",
+    "NW7322"
+   ]
+  },
+  "deal_booking_reconciliation": {
+   "count": 4,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Reconciling deals booked in internal systems against a counterpart or desk deal list, chasing terms, and rebooking so deals can be valued before P&L close."
+   ],
+   "sample_subjects": [
+    "HUB Deals",
+    "Hub Deals"
+   ]
+  },
+  "deal_booking_variance_followup": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Investigate variances and booking errors in trading books, follow up with risk and origination on underlying causes, and correct them."
+   ],
+   "sample_subjects": [
+    "OA",
+    "Orig."
+   ]
+  },
+  "deal_booking_verification_request": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Reviewing test or new deals in Tagg and Sitara to verify indexes, books and pricing book correctly."
+   ],
+   "sample_subjects": [
+    "Canada products"
+   ]
+  },
+  "deal_correction_and_dispute_support": {
+   "count": 7,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Explaining, correcting or reconciling deal entries, prices, books and counterparty disputes for risk, settlements and deal control."
+   ],
+   "sample_subjects": [
+    "RE: LP deal",
+    "New Deal Summary",
+    "CAPS manual entry for 06/09/01",
+    "RE: Supp Decline",
+    "FW: el paso preschedules"
+   ]
+  },
+  "deal_correction_request_handling": {
+   "count": 11,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Receiving requests to fix, price-update, rebook or locate deals and routing or completing them in the deal systems."
+   ],
+   "sample_subjects": [
+    "December Denver Liquidation Support/March West Index Deals",
+    "Deals still to be flipped to FT-US/CAND-ERMS book by end of the day.",
+    "Deal # QZ2119",
+    "Re: Deal # QZ2119",
+    "Re: 12/00 Agave Pricing"
+   ]
+  },
+  "deal_data_discrepancy_resolution": {
+   "count": 6,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Researching and resolving unpaid, unlinked, mis-coded or unexplained deal and invoice items raised by settlements, accounting or risk colleagues."
+   ],
+   "sample_subjects": [
+    "FW: potential write offs 12/01 gl",
+    "ENA - West Gas Orig",
+    "Re: Eagan Enterprises Invoice",
+    "Re: EMW-IM Midwest",
+    "Re: Financial Deals"
+   ]
+  },
+  "deal_entry_correction_enpower": {
+   "count": 3,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Spotting missing, mis-booked or mismatched deals in Enpower and having the deal entered or corrected before the flash."
+   ],
+   "sample_subjects": [
+    "RE:",
+    "RE: 632823"
+   ]
+  },
+  "deal_extension_for_unticketed_meter_flow": {
+   "count": 10,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Schedulers ask the deal owner to extend, roll or create a deal ticket when a meter flows with no active deal."
+   ],
+   "sample_subjects": [
+    "980432",
+    "98-1188 K for 4/1 & 4/2/2000",
+    "98-6892",
+    "98-1601",
+    "Re: 98-1601"
+   ]
+  },
+  "deal_inquiry_followup_chase": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Chasing unanswered questions about deals, meters and production volumes awaiting research from the deal owner."
+   ],
+   "sample_subjects": [
+    "Meter #1591 Lamay Gas Lift"
+   ]
+  },
+  "deal_number_relay_to_scheduler": {
+   "count": 2,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Forwarding book-to-book transfer, tag and deal numbers between volume management, traders and schedulers so each can enter or verify them."
+   ],
+   "sample_subjects": [
+    "FW: BOOK TO BOOK TRANSFER DEAL NUMBERS",
+    "FW: APS Line Loss Payback"
+   ]
+  },
+  "deal_price_and_fee_correction_request": {
+   "count": 2,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Desk lead tells settlements/scheduling staff to correct deal prices or waive fees so Enpower and billing sheets reflect the right values."
+   ],
+   "sample_subjects": [
+    "$0.25 scheduling fee.",
+    "RE: May"
+   ]
+  },
+  "deal_price_and_term_correction": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Resolve questions on deal price, volume or deal pairing from settlements/schedulers by looking up the deal and supplying the correct value."
+   ],
+   "sample_subjects": [
+    "TX Gen Land Office Oct 2000 Prod",
+    "deal 637225"
+   ]
+  },
+  "deal_price_discrepancy_check": {
+   "count": 4,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Settlement/accounting staff compare Sitara deal pricing with counterparty payment or confirmation and ask logistics to verify or correct the price."
+   ],
+   "sample_subjects": [
+    "PG&E Texas 6/00",
+    "Tenaska Marketing Ventures - 04/01 prod",
+    "TXU Gas Distribution deal #589007",
+    "Southern Union- 03/01 prod- Austin Spot deal # 690249 (sale)"
+   ]
+  },
+  "deal_price_discrepancy_resolution": {
+   "count": 29,
+   "mailboxes": [
+    "farmer-d",
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Resolve disputes between internal deal tickets, pipeline/customer volumes or prices by checking records and correcting deals.",
+    "Resolve mismatches between invoiced/expected prices or booked purchases and Sitara deal tickets by verifying, reversing or correcting deals.",
+    "Confirming and correcting deal prices when a counterparty or settlements shows a different price than the system."
+   ],
+   "sample_subjects": [
+    "Duke Energy Trading and Marketing, L.L.C.",
+    "Re:",
+    "FW: Duke Energy Field Services 4/01",
+    "6/00 Production for Lower Colorado River Authority, Sitara #283939",
+    "Duke Energy Field Services 4/01"
+   ]
+  },
+  "deal_price_volume_discrepancy_resolution": {
+   "count": 13,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Investigate and correct mismatches in deal volumes, prices, counterparties or tickets between systems and counterparties, then confirm the fix."
+   ],
+   "sample_subjects": [
+    "FW: 05/01 Deal # 649741",
+    "MidTex",
+    "Deals under wrong Counterparty from weekend",
+    "deal 709296 Astra",
+    "PHILLIPS PETROLEUM"
+   ]
+  },
+  "deal_release_validation_followup": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Chase release or validation of Sitara deals so they appear in Path Manager."
+   ],
+   "sample_subjects": [
+    "FW: Release of Deal #70550"
+   ]
+  },
+  "deal_term_change_notification": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Notify schedulers and risk of changes to booked deal terms so that volumes, prices and risk assignments are updated."
+   ],
+   "sample_subjects": [
+    "Enron Methanol"
+   ]
+  },
+  "deal_term_extension_request": {
+   "count": 6,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Extending expired deal or contract terms so volumes can be attached, nominated and settled."
+   ],
+   "sample_subjects": [
+    "Re: FW: FW: 05/01 ENA Gas Sales on HPL, to D & H Gas Company",
+    "FW: FW: 05/01 ENA Gas Sales on HPL, to D & H Gas Company",
+    "FW: 05/01 ENA Gas Sales on HPL, to D & H Gas Company",
+    "Re: 05/01 ENA Gas Sales on HPL, to D & H Gas Company",
+    "Formosa Meter #: 1000"
+   ]
+  },
+  "deal_ticket_change_request": {
+   "count": 11,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Logistics/accounting staff ask the deal owner to create, correct, extend or reprice Sitara deal tickets so volumes and invoices match."
+   ],
+   "sample_subjects": [
+    "PanEnergy Marketing March 2000 Production",
+    "Duke Energy Deal 269123 for July & November 2000?",
+    "Re: PanEnergy Marketing March 2000 Production",
+    "Re: Southern Union- 03/01 prod- Austin Spot deal # 690249 (sale)",
+    "Southern Union- 03/01 prod- Austin Spot deal # 690249 (sale)"
+   ]
+  },
+  "deal_ticket_correction_request": {
+   "count": 14,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Logistics/scheduling staff ask the deal owner to create, extend, move or correct deal tickets and meter assignments in Sitara so volumes are booked correctly."
+   ],
+   "sample_subjects": [
+    "Sale to Rhone Poule meter 988078",
+    "Desk to Desk Ticket between NNG and PGEV and OPLC",
+    "HPL Meter #987195 Tatton Central Point",
+    "HPL Meter #985892 South Katy Gas Unit No. 2 #1",
+    "Re: HPL Meter #985892 South Katy Gas Unit No. 2 #1"
+   ]
+  },
+  "deal_ticket_creation_or_extension": {
+   "count": 19,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Create or extend a Sitara/Unify deal ticket so metered flow or a contract gap has a matching deal for allocation."
+   ],
+   "sample_subjects": [
+    "Sarco Lateral and Crow O'Connor Meters",
+    "meter 1429",
+    "Meter 1459 - 8/00",
+    "Meter 6315",
+    "Re: Meter 6315"
+   ]
+  },
+  "deal_ticket_creation_request": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Requests from traders or originators to create Sitara deal tickets for new supply with specified counterparty, meter, volume and price."
+   ],
+   "sample_subjects": [
+    "Union Gas - Doehrman #1"
+   ]
+  },
+  "deal_ticket_information_request": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Look up Sitara deal numbers, deal tickets and forward details for requesters such as auditors."
+   ],
+   "sample_subjects": [
+    "December New Deals Request",
+    "Re: Entrada - Brazos VPP Deal Tic"
+   ]
+  },
+  "deal_ticket_setup_or_extension": {
+   "count": 12,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Schedulers ask the logistics manager to create, extend, renegotiate or correct Sitara deal tickets so flow can be allocated."
+   ],
+   "sample_subjects": [
+    "Prior Month misnomination",
+    "98-6892 (Sitara Deal 319063)",
+    "Meter 1459, 6/00",
+    "Re: Meter 1459, 6/00",
+    "Re: Swift - OCTOBER 2000 Vols"
+   ]
+  },
+  "deal_ticket_setup_request": {
+   "count": 5,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Requests to create, copy or update Sitara/MOPS/POPS deal tickets for new months, meters or transport so volumes can be nominated and settled."
+   ],
+   "sample_subjects": [
+    "Meter 8741/1587 Nov 00",
+    "Park/Lend Acct on PGEV, deal tickets",
+    "Midcon Transport Usage Tickets --Mar01",
+    "Phillips Petroleum, Inc.",
+    "Re: Teco Gas Processing Company"
+   ]
+  },
+  "deal_ticket_update_request": {
+   "count": 11,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Requests to create, extend, back-date or correct deal tickets, meters and transport tickets in the scheduling systems."
+   ],
+   "sample_subjects": [
+    "Re: Texas Nom, LP dba Garrison, Ltd",
+    "July Transport Usage Tickets",
+    "Deal Number 109660",
+    "deal id 109475",
+    "708760"
+   ]
+  },
+  "deal_valuation_support_request": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Accounting/risk contacts ask the desk to value deals as of specific dates or review cash flow summaries, requiring manual re-valuation and meetings."
+   ],
+   "sample_subjects": [
+    "RE: Summary",
+    "RE: Peoples Cash Flow 1-22-02 - Russell.xls"
+   ]
+  },
+  "deal_volume_price_discrepancy_resolution": {
+   "count": 16,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Investigating and resolving price, volume or meter mismatches between internal deal tickets and counterparty or pipeline figures."
+   ],
+   "sample_subjects": [
+    "Meter #1591 Lamay Gaslift",
+    "HPLC/Ocean Energy Inc. 09/99 Purchase",
+    "Re: HPLC/Ocean Energy Inc. 09/99 Purchase",
+    "PG&E Texas 11/00",
+    "Equistar 3/01"
+   ]
+  },
+  "deal_volume_without_deal_resolution": {
+   "count": 14,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Investigate meter volumes or counterparty-reported quantities that have no matching deal ticket, and get the deal added, corrected or the volume reallocated."
+   ],
+   "sample_subjects": [
+    "Re: HPL Delivery Meter 1520",
+    "RE: DEFS 2001",
+    "Duke Energy deal #387571",
+    "CP&L",
+    "Re: CP&L"
+   ]
+  },
+  "desk_procedure_communication": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Sending the team procedures, macros and instructions for nightly deal and book handling."
+   ],
+   "sample_subjects": [
+    "Changing Deals",
+    "Post ID file"
+   ]
+  },
+  "desk_procedure_guidance_broadcast": {
+   "count": 8,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Desk lead emails the real-time group standing instructions on bid entry, deal entry and schedule handling to prevent errors and disputes."
+   ],
+   "sample_subjects": [
+    "Time Change",
+    "Tiered Adjustment Bids",
+    "FW: Length for Fri.-Sat.",
+    "Short in NW/Schedule going RT",
+    "Ancillary Services for Monday August"
+   ]
+  },
+  "dpr_approval_and_distribution": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "The daily position report (DPR) is prepared, approved by the book admin, and distributed, with recipients chasing missing days."
+   ],
+   "sample_subjects": [
+    "Re: Prelim Enovate DPR for 2/14/2001"
+   ]
+  },
+  "dpr_distribution_request": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Asking the report owner to send a printable or forwardable version of the daily position report to a third party."
+   ],
+   "sample_subjects": [
+    "Enovate DPR"
+   ]
+  },
+  "duplicate_sitara_deal_cleanup": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "After a Sitara/EOL bridge failure, desk staff review lists of duplicated deal pairs and kill the duplicate Sitara deal not linked to the EOL deal."
+   ],
+   "sample_subjects": [
+    "Re: 7 Duplicate Sitara deals"
+   ]
+  },
+  "eol_deal_change_coordination": {
+   "count": 4,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Handling and communicating changes to EOL deals between schedulers and the deal owner, including rules for what may be changed."
+   ],
+   "sample_subjects": [
+    "Deal # 339693 EOL Waha",
+    "Re: Deal # 339693 EOL Waha",
+    "Re: Southern"
+   ]
+  },
+  "eol_product_trader_book_mapping": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Assign EOL products to traders and books by confirming with desk heads and updating the mapping template."
+   ],
+   "sample_subjects": [
+    "EOL products",
+    "RE: EOL products"
+   ]
+  },
+  "epe_schedule_and_model_reporting": {
+   "count": 4,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Shift traders report El Paso Electric schedule changes, purchases and errors to the desk lead and send the daily EPE model to the customer."
+   ],
+   "sample_subjects": [
+    "EPE for 12/09/01",
+    "EPE Schedules for the past two days",
+    "epe model for 01/25/02",
+    "RE: EPE Schedules for the past two days"
+   ]
+  },
+  "expense_report_approval_requests": {
+   "count": 2,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Approving employee expense reports routed through the Concur system by notification email."
+   ],
+   "sample_subjects": [
+    "<<Concur Expense Document>> - Meyers, Bert 2/1/02",
+    "<<Concur Expense Document>> - Anderson, John 1/31/02"
+   ]
+  },
+  "expired_deal_extension_request": {
+   "count": 19,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Fix or extend expired, missing or mis-pointed deal tickets so that flowing volumes can be allocated and drafted in the systems.",
+    "Requests to extend expired deal tickets or enter replacement deals so volumes can be allocated and settled."
+   ],
+   "sample_subjects": [
+    "meter 5892 South Katy Gas Unit 2- Allocation",
+    "Re: meter 5892 South Katy Gas Unit 2- Allocation",
+    "Meter 986899 For November",
+    "Re: Feb 01 Prod: Sale to Teco Gas Processing",
+    "Feb 01 Prod: Sale to Teco Gas Processing"
+   ]
+  },
+  "forward_deal_confirmation_chase": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Counterparty chases a missing confirmation for a deal, requiring lookup of the deal and a response."
+   ],
+   "sample_subjects": [
+    "Confirmation of Forward Purchase"
+   ]
+  },
+  "hpl_flow_numbers_reporting": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Prepare and send preliminary monthly flow and nomination numbers to scheduling."
+   ],
+   "sample_subjects": [
+    "HL&P December",
+    "HL&P February Premlinary Flow Numbers"
+   ]
+  },
+  "hpl_volume_spreadsheet_exchange": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Circulate and correct monthly HL&P volume spreadsheets and agree flowed volumes with HL&P so they are billed correctly."
+   ],
+   "sample_subjects": [
+    "HL&P volumes 6/00",
+    "Re: HL&P 6/00",
+    "HL&P Month to Date"
+   ]
+  },
+  "imbalance_list_review": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Monthly review and update of imbalance and RTU variance lists by each desk."
+   ],
+   "sample_subjects": [
+    "Rough list"
+   ]
+  },
+  "imbalance_party_list_compilation": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Compile ad hoc lists of meters/parties owed gas or in variance for balancing decisions."
+   ],
+   "sample_subjects": [
+    "Urgent"
+   ]
+  },
+  "intercompany_accrual_variance_review": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Reviewing month-end accrual and intercompany volume variances between purchase and sale sides in Sitara and reconciling them."
+   ],
+   "sample_subjects": [
+    "Accrued 06/16",
+    "FEB2000 Intercompany Accrual variances"
+   ]
+  },
+  "intercompany_variance_cleanup": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Allocation and logistics staff track and resolve desk-to-desk and interconnect volume variances before month-end or cleanup deadlines."
+   ],
+   "sample_subjects": [
+    "Interconnect / Intercompany issues",
+    "Re: Interconnect / Intercompany issues"
+   ]
+  },
+  "invoice_deal_discrepancy_resolution": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Resolving invoice, contract or counterparty deal mismatches by identifying the deal and contact and correcting the records."
+   ],
+   "sample_subjects": [
+    "Re: PG&E Texas contract 5098-695 for 2/00",
+    "Mirant 4/01"
+   ]
+  },
+  "invoice_deal_lookup_request": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Settlements or accounting asking logistics to identify the Sitara deal number or validity behind a counterparty invoice, charge or volume."
+   ],
+   "sample_subjects": [
+    "Samson Lone Star Limited",
+    "Dec 2000 Prod: Panther Pipeline Demand Charge"
+   ]
+  },
+  "invoice_price_discrepancy_check": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Checking counterparty invoice prices or volumes against deal tickets and confirming or correcting with the trader."
+   ],
+   "sample_subjects": [
+    "Global Octanes",
+    "HPL/Conoco - Teco Waha 03/23/01 Purchase"
+   ]
+  },
+  "iso_market_notice_forwarding": {
+   "count": 2,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Desk members forward CAISO market notices and price-cap or rerate updates to the trading group so schedules can be adjusted."
+   ],
+   "sample_subjects": [
+    "FW: Correction to COI rerate message:",
+    "FW: CAISO Notice: Update to June 20 Market Notice"
+   ]
+  },
+  "market_and_system_notice_handling": {
+   "count": 5,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Receiving, interpreting and relaying ISO, market and internal system notices (outages, rule changes, shutdowns) to the trading group and replying with questions."
+   ],
+   "sample_subjects": [
+    "RE: CAISO Notice - Implementation of Revised Target Price Methodology",
+    "RE: ISO Compliance Filing on June 19 FERC Order",
+    "FW: CAISO Notice: Correction of FERC June 19 Order Market Notice",
+    "FW: FSP Ready Again for Production",
+    "FW: Important!!! Enpower Shutdown during Thanksgiving Weekend"
+   ]
+  },
+  "market_report_distribution": {
+   "count": 2,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Forwarding the daily Western energy market price and outage report to traders and managers."
+   ],
+   "sample_subjects": [
+    "FW: Energy Market Report - 01/31/02",
+    "FW: Energy Market Report - 01/30/02"
+   ]
+  },
+  "meter_allocation_correction": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Identify wrongly allocated volumes at meters and have them moved to the correct contract before month close."
+   ],
+   "sample_subjects": [
+    "Re: Remaining UA4 Meter variances",
+    "Meter 7268 Nov Allocation",
+    "Meter 1517 - Jan 1999"
+   ]
+  },
+  "meter_allocation_exception_resolution": {
+   "count": 10,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Investigate and clear meter allocation, confirmation or balance exceptions by checking volumes and deals across POPS/MOPS/MIPS and correcting them."
+   ],
+   "sample_subjects": [
+    "Meter 984132 for 1/16/99",
+    "Re: Meter 984132 for 1/16/99",
+    "Meter 980070 Lonestar/HPL Rusk for 10/99",
+    "UA4 - 1998",
+    "Re: Accounting Arrangements for 98-6725, 98-6575 & 98-6014"
+   ]
+  },
+  "meter_allocation_issue_resolution": {
+   "count": 9,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Investigate and resolve meter volume ownership, allocation, or nomination discrepancies with logistics and volume management contacts."
+   ],
+   "sample_subjects": [
+    "Meter 986296",
+    "February and March 2000 Meter 5688",
+    "Re: CP&L",
+    "Big Thicket Allocation",
+    "987012"
+   ]
+  },
+  "meter_allocation_payment_dispute_resolution": {
+   "count": 7,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Investigate producer complaints about unpaid or misallocated meter volumes, reallocate the meter and redraft invoices."
+   ],
+   "sample_subjects": [
+    "Duke Energy - # 5192 - 1999 Issues",
+    "Meter 5892",
+    "Re: Meter 5892",
+    "Killam Oil Company, Ltd., Meters 098-5427 & 098-6831, Bruni Hughes C/P & Fullbright C/P, N.E. Bruni Field, Webb Co., TX"
+   ]
+  },
+  "meter_deal_discrepancy_research": {
+   "count": 12,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Research and resolve volume, allocation, deal or meter mismatches between logistics, settlements and counterparties."
+   ],
+   "sample_subjects": [
+    "Re: PG&E Texas Meeting",
+    "Sale to El Paso Merchant for 4/00",
+    "Re: June 00 Production - O'Connor & Hewitt Ltd.",
+    "CLECO Deals 449243 & 397957/State Tract 121 (Meter 785)",
+    "HPL Meter #985579"
+   ]
+  },
+  "meter_deal_discrepancy_resolution": {
+   "count": 9,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Researching and fixing mismatches between metered flow and deals, contracts or counterparties (missing deals, wrong counterparty, unallocated or unaccounted volumes)."
+   ],
+   "sample_subjects": [
+    "Conoco, Inc. - missing deal for May 00 production - important, PLEASE READ",
+    "deal 709296 is on wrong counterparty",
+    "Flow w/ no nom",
+    "Duke Energy meter 6722 May 2001",
+    "HPL Meter #989824 DECKER LAURELES FARM C/P"
+   ]
+  },
+  "meter_deal_missing_or_mismatch_fix": {
+   "count": 8,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Resolve meters showing flow without a deal or with mismatched contract volumes by extending, creating, or correcting deal tickets."
+   ],
+   "sample_subjects": [
+    "Extend Deal",
+    "meter 986315",
+    "Coral on ExxonKaty 6/01",
+    "meter 6353",
+    "Texas General"
+   ]
+  },
+  "meter_deal_setup_request": {
+   "count": 14,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Requests to create, extend, change or correct deal tickets, desk-to-desk deals or accounting arrangements so meter volumes have a deal to allocate against."
+   ],
+   "sample_subjects": [
+    "ENA 202 and HPL 216 Transport Contracts Needed at Meter 378 for March 2000",
+    "Meter 980070; Oct 99",
+    "October deals",
+    "Guadalupe Power Partners- March 01 Prod",
+    "Meter 1594 for Nov."
+   ]
+  },
+  "meter_deal_ticket_assignment": {
+   "count": 8,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Finding the correct deal ticket or contract for gas that flowed at a meter without a valid deal so volume management can allocate it."
+   ],
+   "sample_subjects": [
+    "Re: Meter # 0986725 - 1/00 production - Encina Gas Marketing",
+    "98-1600 & 98-6725 Needing K's",
+    "Re: Teco Gas Processing; Meter No.: 6884",
+    "Meter 986679; the Hughes C/P",
+    "98-6736 & 98-9638 for 1997 (UA4 Issues)"
+   ]
+  },
+  "meter_flow_deal_nomination_fix": {
+   "count": 17,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Volume management or scheduling flags meters whose flow has no deal, an expired deal, or a nomination mismatch, and asks the deal owner to extend, create, or adjust the Sitara deal."
+   ],
+   "sample_subjects": [
+    "Meter 1517",
+    "Deal Extended",
+    "Meter 5593",
+    "Duke purchase on 8/2/00",
+    "Meter 1603"
+   ]
+  },
+  "meter_flow_deal_ticket_fix": {
+   "count": 9,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Resolve meters with flow but no deal or expired/incorrect deal ticket by creating, extending or correcting Sitara deals."
+   ],
+   "sample_subjects": [
+    "Re: Coastal Oil & Gas Corporation",
+    "Equistar track id for meter 981373",
+    "Meter 6879 - Sept. 00",
+    "Re: Meter 6879 - Sept. 00",
+    "Flagstaff on 11/10"
+   ]
+  },
+  "meter_flow_missing_deal_resolution": {
+   "count": 13,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Investigating meter flow that has no deal, a zero-volume deal, or volumes in the wrong place, and setting up, extending or correcting the deal in Sitara so allocation exceptions clear."
+   ],
+   "sample_subjects": [
+    "K's needed @ 98-1534 and 98-6725",
+    "98-6373",
+    "Re: Cannon Interest May 2000 Purchase",
+    "Meter 9794",
+    "Re: FW: COWTRAP ALLOCATION - 4/01"
+   ]
+  },
+  "meter_flow_no_deal_resolution": {
+   "count": 19,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Volume management finds meter flow with no deal attached and asks the deal owner for a deal, an extension, or approval to write off to unaccounted-for gas."
+   ],
+   "sample_subjects": [
+    "Re: Feedback Monitor Error - Meter 984132 - 1/99",
+    "Feedback Monitor Error - Meter 984132 - 1/99",
+    "meter 3425",
+    "10/2000 - Days 6 and 19 (98-0439)",
+    "Re: HPL discrepancy"
+   ]
+  },
+  "meter_flow_without_deal_extension_request": {
+   "count": 13,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Volume management asks the trader or scheduler to extend or create a Sitara deal to cover meter flow that has no deal so exceptions can be cleared."
+   ],
+   "sample_subjects": [
+    "Re: 98-6892 for 3/15/2000 and 3/23/2000",
+    "March business - meter 6490 - HELP",
+    "98-2601",
+    "Meter Variances - UA4 Clean-Up",
+    "Meter 0074"
+   ]
+  },
+  "meter_flow_without_deal_resolution": {
+   "count": 10,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Investigating meters with flow but no matching nomination or deal, and creating, extending or re-pathing deal tickets to clear the exception."
+   ],
+   "sample_subjects": [
+    "HL&P",
+    "Re: HL&P",
+    "Deal Ticket 329242; Meter 986887",
+    "Big Cowboy - Additional production",
+    "HPL Meter #980070 RUSK D/P - LONE STAR HPL"
+   ]
+  },
+  "meter_shutin_notification": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Notify stakeholders of meter shut-ins and check contracts behind the meter."
+   ],
+   "sample_subjects": [
+    "Shut-in of #986315",
+    "Re: Shut-in of #986315"
+   ]
+  },
+  "meter_volume_discrepancy_research": {
+   "count": 16,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Research and reconcile differences between nominated, metered and system-recorded volumes or deals at meters, using meter statements and deal lookups."
+   ],
+   "sample_subjects": [
+    "CILCO",
+    "Re: CILCO",
+    "Gulf Plains",
+    "Re: Big Cowboy/GEPL Actuals for February",
+    "Big Cowboy/GEPL Actuals for February"
+   ]
+  },
+  "meter_volume_feed_exception_fix": {
+   "count": 4,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Detecting zero or missing meter volumes fed from measurement systems into scheduling and Sitara, and overriding with estimates and reallocating."
+   ],
+   "sample_subjects": [
+    "PG&E Texoma Volumes",
+    "Re: PG&E Texoma Volumes"
+   ]
+  },
+  "meter_volume_override_request": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Requests to override POPS daily volumes at a meter using gas control data."
+   ],
+   "sample_subjects": [
+    "Enron Methanol ; Meter #: 988291",
+    "Re: Enron Methanol ; Meter #: 988291"
+   ]
+  },
+  "meter_volume_recap_tieout": {
+   "count": 1,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Receiving meter recaps and tying volumes to scheduled quantities, working discrepancies with the operator."
+   ],
+   "sample_subjects": [
+    "Meter 984132 recap"
+   ]
+  },
+  "meter_volume_variance_inquiry": {
+   "count": 8,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Analysts spot meter flow that differs from nominations or deals and ask the logistics manager to explain, adjust, or book it."
+   ],
+   "sample_subjects": [
+    "Re: I/C variance for deal 72893",
+    "Meter 5192",
+    "Meter 385",
+    "Big Cowboy for August",
+    "King Ranch Processed volumes at Tailgate"
+   ]
+  },
+  "missing_deal_creation_request": {
+   "count": 9,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Settlements or logistics staff ask the deal owner to create, extend or correct a deal ticket so flowing gas or billed volumes have a valid deal."
+   ],
+   "sample_subjects": [
+    "Deal Number",
+    "HPL Meter #981046 BUTANE PLANT NECHES GAS DIST H",
+    "Dec 00",
+    "meter 1386",
+    "RE: Need Deal For March 2000"
+   ]
+  },
+  "month_end_close_coordination": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Communicate and enforce month-end close cutoffs, and collect reports and exceptions from schedulers."
+   ],
+   "sample_subjects": [
+    "Month End Close Schedule *REVISED*"
+   ]
+  },
+  "month_end_close_schedule_notice": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Monthly notice of close schedule times (Unify to Sitara bridge, mass draft, accrual start) that teams must plan around."
+   ],
+   "sample_subjects": [
+    "Unify Close Schedule"
+   ]
+  },
+  "monthly_cost_allocation_survey_completion": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Each month, fill out cost-driver and hours surveys for the allocation model and return by deadline."
+   ],
+   "sample_subjects": [
+    "April Activity Surveys",
+    "February Surveys",
+    "March Activity Survey"
+   ]
+  },
+  "monthly_cost_survey_response": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Complete recurring monthly activity or hours surveys for cost allocation and return by deadline."
+   ],
+   "sample_subjects": [
+    "June Hourly Survey",
+    "Activity Survey - June 2000"
+   ]
+  },
+  "monthly_curve_validation_followup": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Explaining to curve validation staff why monthly curves changed shape or seasonality versus the prior month."
+   ],
+   "sample_subjects": [
+    "Re: February Curve Validation",
+    "February Curve Validation"
+   ]
+  },
+  "monthly_hours_survey_collection": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Collect monthly activity hours surveys from logistics teams, chase late responses and review data quality for the pricing model."
+   ],
+   "sample_subjects": [
+    "May Hours Survey"
+   ]
+  },
+  "monthly_nomination_notice": {
+   "count": 5,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Receive and act on recurring customer or affiliate gas nomination notices and fix errors in them."
+   ],
+   "sample_subjects": [
+    "NATURAL GAS NOMINATION FOR 10/00",
+    "2nd rev Dec. 1999 Josey Ranch nom",
+    "02/00 NATURAL GAS NOMINATION",
+    "Re: 02/00 NATURAL GAS NOMINATION",
+    "Re: Equistar"
+   ]
+  },
+  "monthly_nomination_processing": {
+   "count": 4,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Receive customer or counterparty nominations and nomination changes and enter or adjust them in the scheduling systems."
+   ],
+   "sample_subjects": [
+    "Walter O&G/Superior April Noms",
+    "Josey Ranch Est. -- Mar. 2000",
+    "nom change for champions",
+    "NATURAL GAS NOMINATION FOR 04/00"
+   ]
+  },
+  "monthly_ops_survey_response": {
+   "count": 4,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Respond to recurring monthly survey or reporting requests from support groups with counts, hours or variance explanations."
+   ],
+   "sample_subjects": [
+    "May Activity Survey",
+    "Re: May Activity Survey",
+    "Re: Wholesale Volumes",
+    "Re: OPM Hours Survey - January, 2001 - REMINDER"
+   ]
+  },
+  "monthly_pl_audit_support_request": {
+   "count": 7,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Respond to auditor requests for monthly P&L top pages by region, delegating to analysts and chasing until documentation is delivered."
+   ],
+   "sample_subjects": [
+    "Monthly Natural Gas P & L Request",
+    "Top Page P&L Support",
+    "Re: Monthly Natural Gas P & L Request"
+   ]
+  },
+  "monthly_pnl_flash_reporting": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Completing the monthly P&L flash and checking reported P&L variances so risk and accounting can proceed with month-end files."
+   ],
+   "sample_subjects": [
+    "Jan-01 P&L",
+    "Re: Has everyone completed 11/00 Flash?"
+   ]
+  },
+  "monthly_volume_variance_explanation": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Monthly review of wholesale volume statistics and written explanations of material variances for Investor Relations."
+   ],
+   "sample_subjects": [
+    "Re: Wholesale Volumes - August"
+   ]
+  },
+  "mtm_valuation_data_request": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Providing MTM or valuation figures for a counterparty or short name on request from credit or risk."
+   ],
+   "sample_subjects": [
+    "Cross Timbers"
+   ]
+  },
+  "mtm_valuation_report_request": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Requests to export and send MTM valuation reports for specific trading entities as of a period end."
+   ],
+   "sample_subjects": [
+    "CoEnergy Trading Company"
+   ]
+  },
+  "nomination_change_handling": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Process counterparty nomination change requests received by email."
+   ],
+   "sample_subjects": [
+    "nom change for increased Midcon gas..."
+   ]
+  },
+  "nomination_change_relay": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Receive and relay revised nominations or setups from producers/customers to schedulers for entry."
+   ],
+   "sample_subjects": [
+    "2nd rev Mar. 2000 Josey Ranch nom",
+    "Midlothian First Nominations"
+   ]
+  },
+  "nomination_flow_change_coordination": {
+   "count": 7,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Receive, relay and apply customer nominations, cuts, revisions and flow-change notices to schedule gas correctly."
+   ],
+   "sample_subjects": [
+    "Cuts",
+    "Meter 981594 - San Jacinto Low Pressure Del to DEFS",
+    "Re: Meter 981594 - San Jacinto Low Pressure Del to DEFS",
+    "Link to the HPL Scheduling Mailbox",
+    "1st rev Feb. 2000 Josey Ranch nom"
+   ]
+  },
+  "nomination_revision_handling": {
+   "count": 8,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Receive revised or new nominations from producers, customers and pipelines and adjust meter nominations and schedules accordingly."
+   ],
+   "sample_subjects": [
+    "Calpine May",
+    "Revised Nom",
+    "Supply for Midlothian",
+    "01/00 NATURAL GAS NOMINATION",
+    "1st rev Mar. 2000 Josey Ranch nom"
+   ]
+  },
+  "nomination_shortfall_buyback_resolution": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Resolving volume shortfalls versus nominations on a deal by arranging buybacks or deal corrections with counterparties and schedulers."
+   ],
+   "sample_subjects": [
+    "Re: Deal # 529159 for December 2000"
+   ]
+  },
+  "nomination_ticket_correction": {
+   "count": 10,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Fix nominations, point noms and transport usage tickets so scheduled volumes match actual meter flows."
+   ],
+   "sample_subjects": [
+    "King Ranch",
+    "Conoco supply cuts on Oasis 5/21-5/22",
+    "HPL xport TA99-027 for 4/00 Prod.",
+    "Bad Estimates on 28th",
+    "Transport on Koch, beginning Wednesday"
+   ]
+  },
+  "nomination_volume_change_handling": {
+   "count": 7,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Handling customer, producer or plant-driven changes to nominated volumes and deciding the deal economics and scheduling consequences."
+   ],
+   "sample_subjects": [
+    "CES - Carthage",
+    "NATURAL GAS NOMINATION FOR 07/00",
+    "MeOH UPSET",
+    "Valero -- Meter 8018",
+    "WELLS"
+   ]
+  },
+  "oba_imbalance_reconciliation": {
+   "count": 14,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Logistics and commercial staff distribute OBA/pipeline imbalance summaries and reconcile scheduled volume differences with counterparties, gathering supporting statements.",
+    "Reconciling scheduled versus measured volumes and imbalances with interconnect counterparties, gathering support reports and agreeing cash out or payback."
+   ],
+   "sample_subjects": [
+    "TW imbalance summary",
+    "Latest OBA imbalances, effective 12/10/01",
+    "RE: TW Imbalances at Topock and Tumbleweed",
+    "FW: Mojave Imbalance with Transwestern",
+    "FW: TW Imbalances at Topock and Tumbleweed"
+   ]
+  },
+  "on_call_shift_handoff_notes": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Weekend on-call schedulers write up notes of nomination changes, confirms and pipeline events for the team."
+   ],
+   "sample_subjects": [
+    "On Call Notes"
+   ]
+  },
+  "oncall_notes_distribution": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Weekend on-call staff distribute notes of weekend operational issues to the desk."
+   ],
+   "sample_subjects": [
+    "On Call Notes for Weekend Dated ; August 12th thru 13th",
+    "On-Call Notes"
+   ]
+  },
+  "operational_outage_notice": {
+   "count": 4,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Distribute notices of meter shut-ins, pipeline maintenance or outages affecting nominations."
+   ],
+   "sample_subjects": [
+    "FW: Update - Maintanence on HPL@Three Rivers",
+    "FYI ---Kinder Morgan Stg",
+    "Maintenance Work at Meters 584 & 6040",
+    "Tom O'Connor Shut-in List"
+   ]
+  },
+  "opm_hours_survey_completion": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Monthly Operations Pricing Model hours survey that staff must complete, followed by reminders and clarification questions."
+   ],
+   "sample_subjects": [
+    "OPM Survey",
+    "Re: OPM Survey"
+   ]
+  },
+  "ops_hours_survey_response": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Monthly collection of activity hours surveys from operations staff, including follow-up on missing details."
+   ],
+   "sample_subjects": [
+    "FW: OPM Hours Survey - July 2001",
+    "March Surveys"
+   ]
+  },
+  "origination_correction_handling": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Applying origination credit corrections and extra reporting requirements to the origination file and P&L."
+   ],
+   "sample_subjects": [
+    "January Originations",
+    "Lagrasta Origination"
+   ]
+  },
+  "origination_credit_reconciliation": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Reconcile origination amounts claimed versus granted per day and confirm tickets were granted."
+   ],
+   "sample_subjects": [
+    "Re: 8/28 origination"
+   ]
+  },
+  "origination_schedule_reconciliation": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Reconcile recognized origination revenue and origination schedule entries against books and originators, and chase missing fields."
+   ],
+   "sample_subjects": [
+    "Lagrasta Orig",
+    "Re: ORIG 0615"
+   ]
+  },
+  "pipeline_capacity_cut_notice": {
+   "count": 5,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Communicating pipeline cuts, shut-ins, leaks and outages affecting meters so schedulers can adjust nominations and allocations."
+   ],
+   "sample_subjects": [
+    "McMullen Outage",
+    "Leak on Wilson Creek Lateral",
+    "Transco Bammel, Meter 74, December 29",
+    "Shut in of meter 986240"
+   ]
+  },
+  "pipeline_charge_invoice_dispute": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Flag pipeline charges or balance fees that should be disputed or not paid, and tell accounting."
+   ],
+   "sample_subjects": [
+    "PG&E Texas Pipeline",
+    "Hub Park and Lend Agreement"
+   ]
+  },
+  "pipeline_deal_pathing_error_resolution": {
+   "count": 6,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Fix unpathed or mismatched deals and interconnect volumes against pipeline invoices and statements, coordinating with the logistics lead."
+   ],
+   "sample_subjects": [
+    "RE: EPGT",
+    "EPGT",
+    "FW: EPGT"
+   ]
+  },
+  "pipeline_imbalance_resolution": {
+   "count": 5,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Reviewing imbalance reports, netting or combining contracts, and chasing counterparties to resolve and pay back gas imbalances.",
+    "Investigating and resolving pipeline or meter imbalances and variances between systems, statements and counterparties, including payback scheduling."
+   ],
+   "sample_subjects": [
+    "I will be out next week",
+    "Accrued thru Nov. 19",
+    "PLE00004 2000",
+    "FW: HPL Imbalance Payback"
+   ]
+  },
+  "pipeline_maintenance_nomination_notice": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Pipeline or meter outages are relayed to schedulers so nominations at affected meters are halted and later resumed."
+   ],
+   "sample_subjects": [
+    "Work at PG&E Meters 6040 Riverside and 584 Agua Dulce"
+   ]
+  },
+  "pipeline_nomination_notice_processing": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Receive counterparty or internal nomination notices and key or confirm them into scheduling systems."
+   ],
+   "sample_subjects": [
+    "Eastrans Nomination- Gas Day 6/22/2000",
+    "NATURAL GAS NOMINATION FOR 03/00"
+   ]
+  },
+  "pipeline_nomination_pathing_followup": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Review unpathed or unnominated deals at month start, assign owners, and chase resolution."
+   ],
+   "sample_subjects": [
+    "Unresolved Issues for Jan 1.- Followup",
+    "Re: Unresolved Issues for Jan 1.- Followup"
+   ]
+  },
+  "pipeline_outage_nomination_adjustment": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Coordinating nomination holds, make-ups or cuts with pipelines and counterparties when gas control schedules outages."
+   ],
+   "sample_subjects": [
+    "Koch Three Rivers, #6722",
+    "Re: Koch Three Rivers, #6722"
+   ]
+  },
+  "pipeline_penalty_charge_review": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Gather and summarize pipeline penalty charges from settlements and counterparties for traders."
+   ],
+   "sample_subjects": [
+    "Re: Penalty Charges"
+   ]
+  },
+  "pipeline_shortfall_allocation_review": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Reviewing pipeline or customer volume shortfalls and imbalances and deciding how to bill, purchase back, or reconcile per contract terms."
+   ],
+   "sample_subjects": [
+    "Meter 8743 Dec 99",
+    "HL&P for 12/99",
+    "Re: HL&P for 12/99"
+   ]
+  },
+  "pma_cleanup_request": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Requests to supply missing or incorrect rate information to clear outstanding PMAs."
+   ],
+   "sample_subjects": [
+    "Oasis PMA's for 1999"
+   ]
+  },
+  "pma_prior_month_adjustment_resolution": {
+   "count": 5,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Reviewing prior month adjustment (PMA) charges and revenue losses on the P&L, querying settlements/deal control, and getting deals trued up."
+   ],
+   "sample_subjects": [
+    "RE: Prior Month Adjustments going into 10/31 P&L",
+    "FW: PMA's",
+    "PMA's",
+    "RE: PMA's"
+   ]
+  },
+  "pnl_adjustment_and_close_support": {
+   "count": 6,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Investigating, correcting and supporting P&L figures at month close, including restated P&L files, book clean-ups and support requests."
+   ],
+   "sample_subjects": [
+    "enovate new p&L",
+    "Jan NSS clean up",
+    "PMA",
+    "08/00 West P&L",
+    "Park and Loan sheet 2nd try"
+   ]
+  },
+  "pnl_review_and_filing": {
+   "count": 2,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Reviewing daily or monthly P&L and position reports and saving or filing them to shared locations for downstream linking."
+   ],
+   "sample_subjects": [
+    "regions file",
+    "Re: 11/16/2000 Enovate DPR - Draft"
+   ]
+  },
+  "position_manager_variance_resolution": {
+   "count": 7,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Trading and real-time desk staff find position manager or import/schedule mismatches and have schedulers or traders correct the data so the position is flat."
+   ],
+   "sample_subjects": [
+    "FW: Imports for 01/02/02 @ Mead",
+    "Imports for 01/02/02 @ Mead",
+    "Position Manager",
+    "RE: Position manager",
+    "Position manager"
+   ]
+  },
+  "post_id_reporting": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Look up and send nightly or monthly post ids and official books to risk, valuation and reporting colleagues."
+   ],
+   "sample_subjects": [
+    "West PostIds",
+    "Dec-00 PostId's",
+    "Enovate Books"
+   ]
+  },
+  "power_deal_scheduling_instructions": {
+   "count": 2,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Real-time power desk lead sends detailed deal, book and scheduling instructions to schedulers for non-standard transactions, and fixes mismatches with preschedule sheets."
+   ],
+   "sample_subjects": [
+    "RE: El Paso Lending for Monday",
+    "El Paso Lending for Monday"
+   ]
+  },
+  "pricing_curve_setup_request": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Analysts add new price curves in the curve system and ask support staff to add them to downstream systems such as Tagg."
+   ],
+   "sample_subjects": [
+    "New Curves"
+   ]
+  },
+  "producer_shutin_notification_letter": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Draft and send notification letters to producers when meters are shut in, based on operations notices."
+   ],
+   "sample_subjects": [
+    "Re: Shut-in of Meter 989842"
+   ]
+  },
+  "purchase_requisition_processing": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Weekly purchase requisition handling that consumes significant admin time."
+   ],
+   "sample_subjects": [
+    "RE: allocations question"
+   ]
+  },
+  "real_time_shift_schedule_change_tracking": {
+   "count": 2,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Shift swaps and schedule revisions for the real-time desk are emailed to the manager and recorded on the schedule."
+   ],
+   "sample_subjects": [
+    "RE: REVISED REAL TIME SCHEDULE FOR FEBRUARY",
+    "FW: REVISED REAL TIME SCHEDULE FOR FEBRUARY"
+   ]
+  },
+  "realtime_cut_documentation_and_booking": {
+   "count": 3,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Handling transmission/delivery cuts by documenting cut sheets, zeroing deals in Enpower and booking annuities or book-outs, with follow-up on errors."
+   ],
+   "sample_subjects": [
+    "CUTS",
+    "Handling Contractual Cuts and Deals.",
+    "FW: real time cut 11/25/01 tag 38616"
+   ]
+  },
+  "realtime_deal_entry_and_variance_reconciliation": {
+   "count": 12,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Real-time desk enters deals in Enpower/CAPS, reconciles report variances and EPE sheets, and issues rules or corrections to the shift team."
+   ],
+   "sample_subjects": [
+    "EPE Hourly Deals 2002",
+    "DA ahead Cali schedule taken to the HA market 01/02/02",
+    "FSP vs. CAPS",
+    "El Paso Deal Entry",
+    "Lending for 10/16/01"
+   ]
+  },
+  "realtime_deal_entry_instructions": {
+   "count": 5,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Desk lead emails the real-time team instructions on how to enter, book, or price specific deals and schedules in Enpower and the service sheets."
+   ],
+   "sample_subjects": [
+    "RE: SHORT FOR 11/07/01",
+    "Changing Deals and Counterparties--",
+    "Losses for HE 1 on July 4th",
+    "Losses to APS",
+    "Length for Monday"
+   ]
+  },
+  "realtime_desk_deal_entry_instructions": {
+   "count": 7,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Real-time desk lead issues rules and corrections for entering, pricing and correcting deals (Enpower, CAISO charges, transmission prices, lending, schedule changes) that staff must apply manually."
+   ],
+   "sample_subjects": [
+    "New BPA prices",
+    "EOL Deal entry and status update.",
+    "Congestion for Saturday",
+    "RE: EPE Lending for 8/1",
+    "FW: Creating Customer Finals"
+   ]
+  },
+  "realtime_desk_position_and_deal_entry_instructions": {
+   "count": 8,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Desk lead tells real-time traders what positions to enter and how to key deals in Enpower and CAPS, with rules and corrections."
+   ],
+   "sample_subjects": [
+    "SUNDAY ON PEAK LEADING DEAL",
+    "Import at Mead--and NP-15 purchase.",
+    "Short Stuff",
+    "EL PASO",
+    "FW: Palo Verde Bottleneck - PLEASE READ"
+   ]
+  },
+  "realtime_desk_procedure_broadcast": {
+   "count": 7,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Desk manager broadcasts operating rules, limits and procedure changes to the real-time shift so traders follow them when scheduling and trading."
+   ],
+   "sample_subjects": [
+    "Enpower down time",
+    "Adjustment Bids",
+    "Risk Management",
+    "ST-CALIFORNIA SCHEDULING",
+    "Email Address"
+   ]
+  },
+  "realtime_desk_procedure_communication": {
+   "count": 6,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Distributing standing operating instructions and procedures to the real-time trading group (scheduling, checkouts, outage calls, logins, dispatch handovers)."
+   ],
+   "sample_subjects": [
+    "Parking and Lending with ST-NW",
+    "New Friedwire login",
+    "El Paso Electric Expectations",
+    "Generator Checkouts and Control Area Services",
+    "Enron Canada Real Time"
+   ]
+  },
+  "realtime_desk_procedure_guidance": {
+   "count": 5,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Desk lead emails the real-time group standing instructions on how to handle cuts, units, counterparties, transmission and peak hours in the scheduling systems."
+   ],
+   "sample_subjects": [
+    "SEMPRA = BOX",
+    "Evening Peak and MEETING NEXT TUESDAY at 4:30.",
+    "El Paso Units",
+    "PACE Transmission Reservations.",
+    "Cut deals"
+   ]
+  },
+  "realtime_desk_procedure_instructions": {
+   "count": 7,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Writing and distributing operating procedures, cuts/checkout rules and position updates to the real-time desk and shift groups."
+   ],
+   "sample_subjects": [
+    "LV Cogen Purchase",
+    "RE: Cuts Procedure - DON'T FORGET",
+    "FW: NEW TRANSMISSION IDEA",
+    "Length and Short for 06/13/ SERVICES PROCEDURES",
+    "More CUTS procedures"
+   ]
+  },
+  "realtime_desk_scheduling_instructions": {
+   "count": 9,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Desk lead emails the real-time scheduling group positions, deal booking rules and Enpower procedures that staff must follow when scheduling and booking trades."
+   ],
+   "sample_subjects": [
+    "FC #5 outage",
+    "Short pos",
+    "Generation Waiver's",
+    "Interdesk scheduling",
+    "Imports and Exports"
+   ]
+  },
+  "realtime_position_and_schedule_notice": {
+   "count": 4,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Real-time desk lead tells traders/schedulers the open short/long positions, deal numbers and product availability windows so they can sell, buy or suspend products."
+   ],
+   "sample_subjects": [
+    "Long 10 mws flat in SP-15--",
+    "Short, Long",
+    "RE: Outage window on Friday nights",
+    "Lending at PV and SP"
+   ]
+  },
+  "realtime_position_handoff_notice": {
+   "count": 3,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Desk lead emails traders and schedulers the current long/short hourly positions, prices, and deal numbers that must be covered or entered."
+   ],
+   "sample_subjects": [
+    "ST-WBOM in the SW actually.",
+    "Short for HE 21 through HE 23",
+    "Short in SP-15 (ST-Cali is long off-peak)"
+   ]
+  },
+  "realtime_position_length_shortage_notice": {
+   "count": 7,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Real-time desk lead emails the shift the hourly length or shortage by hub, price and book so traders make or schedule the deals in Enpower and CAPS."
+   ],
+   "sample_subjects": [
+    "Long for HE 2 through 5 on Saturday at PV",
+    "FW: Short for Friday and Saturday",
+    "Short for Friday and Saturday",
+    "Short for 07/11/01 at SP-15",
+    "Length for 06/14/01"
+   ]
+  },
+  "realtime_schedule_sheet_exception_handling": {
+   "count": 3,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Real-time desk staff detect schedules or finals missing from schedule sheets/CAPS or hit system errors, then manually verify with counterparties and report to the manager."
+   ],
+   "sample_subjects": [
+    "Migration",
+    "EPE Schedules for Saturday 02/02/02",
+    "Problems on Saturday/Sunday"
+   ]
+  },
+  "realtime_settlement_flash_reporting": {
+   "count": 3,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Real-time desk reports daily awards, exercised ancillary services, congestion revenue and capacity payments to settlements and flash/reporting staff."
+   ],
+   "sample_subjects": [
+    "Revised sheet for 08-06",
+    "RT congestion for 07/19",
+    "Replacement Reserves"
+   ]
+  },
+  "realtime_tag_and_schedule_entry_controls": {
+   "count": 3,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Desk lead instructs staff on entering tag numbers, schedules and congestion allocations in the inc sheet and Enpower so settlements match counterparties."
+   ],
+   "sample_subjects": [
+    "Real Time Tags",
+    "Hour Ahead Congestion Charges",
+    "Fastest Way to Handle Colstrip Cuts"
+   ]
+  },
+  "risk_book_list_maintenance": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Review lists of risk books held in downstream systems and flag invalid or obsolete books for deletion."
+   ],
+   "sample_subjects": [
+    "Re: Natural Gas Risk Books on EOL"
+   ]
+  },
+  "risk_system_access_setup": {
+   "count": 5,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Request or confirm user access, file setups and list additions in risk/trading systems for desk staff."
+   ],
+   "sample_subjects": [
+    "Book Admins",
+    "Re: XL Book",
+    "XL Book",
+    "Net Send List",
+    "New Sitara Books for EOL"
+   ]
+  },
+  "schedule_c_release_notification": {
+   "count": 4,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Notify credit/risk contacts when amounts are added to or released from Schedule C at end of day."
+   ],
+   "sample_subjects": [
+    "Schedule C"
+   ]
+  },
+  "settlement_variance_investigation": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Researching unexplained liquidation, OA or settlement amounts by tracing deal numbers in TAGG/Sitara and answering analyst queries."
+   ],
+   "sample_subjects": [
+    "Liquidation Oct 2000",
+    "08/25 GD-WEST",
+    "Re: OA Analysis"
+   ]
+  },
+  "shipper_invoice_billing_resolution": {
+   "count": 2,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Resolving billing questions, underpayments and surcharge treatment on shipper contracts and invoices."
+   ],
+   "sample_subjects": [
+    "FW: ONEOK BUSHTON INVOICES",
+    "FW: Conoco Contract Nos. 20747 & 20748"
+   ]
+  },
+  "sitara_book_and_access_setup": {
+   "count": 9,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Setting up and maintaining Sitara books, portfolios, cash desks, ids and user access for trading and logistics desks."
+   ],
+   "sample_subjects": [
+    "Netco Sitara Cash desks",
+    "FW: Netco Sitara Access",
+    "RE: new book req",
+    "new book req",
+    "prompt post id"
+   ]
+  },
+  "sitara_deal_bulk_change_coordination": {
+   "count": 5,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Coordinate system-side bulk changes to Sitara/Unify deals (kill, zero out) with scheduling and volume management, including impact questions."
+   ],
+   "sample_subjects": [
+    "RE: Killing ENA to ENA deals in Sitara",
+    "FW: Killing ENA to ENA deals in Sitara"
+   ]
+  },
+  "sitara_deal_entry_and_adjustment_request": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d",
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Requests to enter, path or adjust deals and charges in Sitara/Unify so volumes and dollars book correctly before close."
+   ],
+   "sample_subjects": [
+    "FW: Centana Storage",
+    "GLO deals 2001",
+    "Re: Peoples/North Shore - 6/00 Transportation - Sitara demand charge adjustments"
+   ]
+  },
+  "sitara_deal_entry_request": {
+   "count": 6,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Requests to create, price or book spot tickets and trades in Sitara with given counterparty, meter, volume and price terms."
+   ],
+   "sample_subjects": [
+    "Cannon Interest May 2000 Purchase",
+    "Failed Deals",
+    "Y2K deal",
+    "United Oil & Minerals, Inc.",
+    "Re: Columbus Energy Deals"
+   ]
+  },
+  "sitara_deal_issue_escalation": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Route Sitara data problems such as unlinked hedges to the Sitara support team instead of fixing them locally."
+   ],
+   "sample_subjects": [
+    "Sitara hedges not linking"
+   ]
+  },
+  "sitara_deal_rate_change_request": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Schedulers ask the Sitara deal maintainer to change a deal's price/rate for a production month, and the change is made manually and confirmed."
+   ],
+   "sample_subjects": [
+    "Re: Enervest S# 27239",
+    "Re: EnerVest S# 27239",
+    "Re: Enervest- S#27239"
+   ]
+  },
+  "sitara_deal_ticket_creation_request": {
+   "count": 7,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Requests to create or back-fill a spot deal ticket (Sitara/POPS) for gas that already flowed, given counterparty, meter, volume and price."
+   ],
+   "sample_subjects": [
+    "Accounting Arrangement at Meter 692 - June 2000",
+    "Indian Springs",
+    "Re: Indian Springs",
+    "Re: C&E Operating, 11/99 production",
+    "GMT. Inc."
+   ]
+  },
+  "sitara_deal_ticket_entry_request": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Ask a logistics or scheduling person to enter or update a Sitara deal ticket for new wells, estimated volumes or moved meters."
+   ],
+   "sample_subjects": [
+    "Re: Deliveries into Channel at Gulf Plains",
+    "Rincon Petroleum Corp",
+    "Mobil - Beaumont - FYI"
+   ]
+  },
+  "sitara_deal_ticket_maintenance": {
+   "count": 5,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Change, combine, or roll Sitara deal tickets and notify desks to update downstream risk and invoicing."
+   ],
+   "sample_subjects": [
+    "98-6725 (Sitara deal 266149)",
+    "Guadalupe",
+    "Sitara # 92886",
+    "Sitara updates",
+    "Southern Union"
+   ]
+  },
+  "sitara_tagg_book_and_deal_maintenance": {
+   "count": 5,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Setting up new Tagg/Sitara/CPR books and counterparties and moving deals between books on request, often via ad hoc scripts."
+   ],
+   "sample_subjects": [
+    "RE: new script for moving books",
+    "FT-West deal that needs to be moved to FT-US/CAND-ERMS book",
+    "New Books"
+   ]
+  },
+  "sitara_ticket_correction_and_deal_entry": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Create, fix or document Sitara tickets and deals to cover physical flow that lacked proper deal entry."
+   ],
+   "sample_subjects": [
+    "Aspect Resources- meter # 78033, #78032 - 3/00 production",
+    "Duke Deliveries to Mobil"
+   ]
+  },
+  "storage_volume_variance_reconciliation": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Reconciling booked storage or transport volumes against customer-confirmed or withdrawn volumes and correcting imbalances."
+   ],
+   "sample_subjects": [
+    "CILCO STORAGE",
+    "Re: CILCO STORAGE"
+   ]
+  },
+  "storage_withdrawal_statement_delivery": {
+   "count": 1,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Prepare and send monthly storage activity worksheets to customers."
+   ],
+   "sample_subjects": [
+    "January 2000 Withdrawals from Storage"
+   ]
+  },
+  "supplier_nomination_change_relay": {
+   "count": 4,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Relaying and applying producer or counterparty nomination changes (volumes, effective dates) to the logistics desk and updating nominations accordingly."
+   ],
+   "sample_subjects": [
+    "Nom Change - Effective May 27, 2000 - SG Marshall - HPL Meter 98-6296",
+    "REVISION - Forest Oil's NOVEMBER 2000 Gas Volumes",
+    "5th Noms",
+    "COPANO CHANGES FOR THE 19TH"
+   ]
+  },
+  "system_access_account_change_request": {
+   "count": 4,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Requesting password changes, list additions or user removals for trading and scheduling systems and shared distribution lists."
+   ],
+   "sample_subjects": [
+    "RE:",
+    "Removal of David V. Porter from schedule crawler.",
+    "Password Changes"
+   ]
+  },
+  "system_access_request_approval": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Approve or review system access requests where the desk member is the designated data approver."
+   ],
+   "sample_subjects": [
+    "Request Submitted: Access Request for patrick.ryder@enron.com"
+   ]
+  },
+  "tagg_book_setup_request": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Request that a new book be added in Tagg from the system administrators."
+   ],
+   "sample_subjects": [
+    "Re: New Tagg Book",
+    "New Tagg Book"
+   ]
+  },
+  "terminated_deal_book_transfer": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Moving terminated or bankrupt-counterparty deals into bankruptcy books based on exposure and legal master log reports."
+   ],
+   "sample_subjects": [
+    "more terminated deals to move"
+   ]
+  },
+  "time_report_submission": {
+   "count": 3,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Staff submit or correct periodic time reports and absence/holiday info to the administrator in response to recurring reminders."
+   ],
+   "sample_subjects": [
+    "RE: Time Reports Due Today!!!",
+    "RE: Time Reports Due Thursday"
+   ]
+  },
+  "trade_error_correction": {
+   "count": 3,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Fixing or killing mis-entered, duplicate or incorrect deals and linking deal numbers across systems after errors are reported."
+   ],
+   "sample_subjects": [
+    "Reminder",
+    "Re: 6/00 Demand Charges for Metropolitan Utilities District",
+    "Re: Frank Ermis' trades"
+   ]
+  },
+  "trade_system_book_and_deal_maintenance": {
+   "count": 6,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Setting up, listing, and rebooking books, curves and deals in Tagg/Sitara at the request of desk or risk colleagues."
+   ],
+   "sample_subjects": [
+    "Re: OneOK storage deal",
+    "Re: Rebook",
+    "New West Curves",
+    "West Books",
+    "Re: Financial Cash Desk Deals"
+   ]
+  },
+  "trading_book_curve_mapping_maintenance": {
+   "count": 10,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Maintain Sitara/Tagg book, trade zone and curve mappings by collecting and relaying the correct book or curve for traders, pipes and locations."
+   ],
+   "sample_subjects": [
+    "RE: sitara mappings",
+    "sitara mappings",
+    "Re: TDS Physical Positions",
+    "Matrix",
+    "Re: Physical Trader \"Matrix\""
+   ]
+  },
+  "trading_book_curve_setup_request": {
+   "count": 9,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Request new trading books, curves, portfolio mappings and system access be set up in TAGG, TDS, Sitara and RisktRAC for traders and desks."
+   ],
+   "sample_subjects": [
+    "Book Request",
+    "Denver in TDS",
+    "requests for new curves, new books, porfolio changes",
+    "Re: Book Request",
+    "Officialized Books"
+   ]
+  },
+  "trading_book_setup_and_access_admin": {
+   "count": 6,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Requesting creation of new trading books, book list changes, and system access or authorization for books in Tagg/Sitara and related tools."
+   ],
+   "sample_subjects": [
+    "RE: Updated Book Admin",
+    "Updated Book Admin",
+    "FT-NORTHWEST",
+    "FT-Northwest",
+    "Re: New Book Codes"
+   ]
+  },
+  "trading_book_setup_request": {
+   "count": 4,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Requesting new trading books and relaying confirmations from the book administrators that the book was set up.",
+    "Requesting creation or splitting of trading books in the system."
+   ],
+   "sample_subjects": [
+    "Book Request 593",
+    "New Central Region Books",
+    "Central Books"
+   ]
+  },
+  "trading_system_book_access_change_request": {
+   "count": 5,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Requesting book moves, system access or reporting-line changes from system or book admin staff for the trading desk."
+   ],
+   "sample_subjects": [
+    "Re: PEP",
+    "MiniBook Access",
+    "West Access in Sitara",
+    "Change Books",
+    "PEP"
+   ]
+  },
+  "transport_contract_amendment_approval": {
+   "count": 3,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Marketer approves customer capacity or receipt-point change requests and instructs contract administration to amend the contract."
+   ],
+   "sample_subjects": [
+    "FW: I/B Link Space",
+    "PPL #27641"
+   ]
+  },
+  "transport_contract_quantity_amendment_approval": {
+   "count": 4,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Commercial approves customer requests to temporarily increase transport contract MDQ/TQ and forwards instructions to logistics/contracts to amend the contract."
+   ],
+   "sample_subjects": [
+    "FW: I/B Link Capacity",
+    "FW: I/B LINK CAPACITY",
+    "FW: TW transport"
+   ]
+  },
+  "transport_usage_ticket_update": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Monthly refresh of transport usage tickets with current rates and volumes by pipe, then desk checks in Position Manager."
+   ],
+   "sample_subjects": [
+    "June Transport Usage Tickets"
+   ]
+  },
+  "unaccounted_for_gas_writeoff_approval": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Logistics asks the manager to approve writing off stray meter volumes to unaccounted-for gas or to supply a deal ticket."
+   ],
+   "sample_subjects": [
+    "HPL Meter #981525 Texoma D/P- GSU HPL",
+    "HPL Meter #989648 TRAM/HPL - TRANSTEXAS THOMPSON"
+   ]
+  },
+  "unaccounted_gas_writeoff_approval": {
+   "count": 6,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Logistics requests approval and a Sitara deal so stray meter volumes can be written off to Unaccounted for Gas.",
+    "Obtaining signed approval to write off small unallocated meter volumes to unaccounted-for gas.",
+    "Request and process approval to write off stray meter volumes to unaccounted-for gas or move them to a contract."
+   ],
+   "sample_subjects": [
+    "HPL Meter #980074 Bammel HPL D/P to Transco",
+    "Re: HPL Meter #980074 Bammel HPL D/P to Transco",
+    "HPL Meter #980417 HPL/KMID - SEVEN OAKS",
+    "HPL Meter #985369 TAFT PLANT RESID ARCO HPL",
+    "HPL Meter #984179 HOFF-HELLER UNIT #22 CDP"
+   ]
+  },
+  "unassigned_meter_volume_resolution": {
+   "count": 6,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Resolving gas volumes flowing at meters with no deal (booked to Strangers contract) by finding or creating a deal or getting write-off approval."
+   ],
+   "sample_subjects": [
+    "Meter 981491",
+    "Write Off of Meter 74 Volumes",
+    "Re: Nomination For Gas Flow / 11/07/00 / Southland Pipeline",
+    "deal 83389",
+    "HPL Meter #981052 PASADENA PLANT PHILLIPS HPL"
+   ]
+  },
+  "unfinaled_invoice_followup": {
+   "count": 2,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Settlements sends lists of unfinaled invoices that teams must research and resolve by a deadline."
+   ],
+   "sample_subjects": [
+    "Texas Unfinaled Invoices - May 2000 Production",
+    "Unfinaled Sales Invoices"
+   ]
+  },
+  "unmatched_invoice_deal_verification": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Investigate invoiced deals that counterparties cannot match in their system, confirm deals and provide proof so cash can be collected."
+   ],
+   "sample_subjects": [
+    "Jan & Feb Midcon Invoices",
+    "Re: Jan & Feb Midcon Invoices"
+   ]
+  },
+  "unmatched_meter_flow_writeoff_approval": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Logistics sends meter flow with no active deal and asks trader to extend the deal, create a new one, or sign off a write-off to unaccounted-for gas."
+   ],
+   "sample_subjects": [
+    "HPL Meter #981488 PARIS TENASKA HPL",
+    "HPL Meter #981431 TEXAS CITY MARATHON OIL HPL",
+    "HPL Meter #981295 HUNGERFORD GRAIN COMPANY"
+   ]
+  },
+  "unmatched_meter_volume_resolution": {
+   "count": 10,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Resolve meters with flow but no nomination, deal or contract by finding the deal, creating one, or approving write-off to unaccounted-for gas."
+   ],
+   "sample_subjects": [
+    "HPL Meter #985355 Brown Common Point",
+    "meter 6387 & 5192",
+    "Re: meter 6387 & 5192",
+    "UA4",
+    "HPL Meter #986563 Texaco Fee c/P"
+   ]
+  },
+  "voice_tape_pull_for_trade_dispute": {
+   "count": 2,
+   "mailboxes": [
+    "williams-w3"
+   ],
+   "sample_descriptions": [
+    "Pull recorded phone tapes to resolve counterparty disputes over what was traded."
+   ],
+   "sample_subjects": [
+    "LADWP",
+    "Tape"
+   ]
+  },
+  "volume_allocation_correction": {
+   "count": 6,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Fix missing, wrong or overflow volumes on meters and deals found by schedulers or gas control, and reallocate."
+   ],
+   "sample_subjects": [
+    "Meter 9687",
+    "Meter 8022 - Bad Scada Feedback to Sitara",
+    "Lyondell -- #1063",
+    "meter 986315 Torch Rally/El Sordo 1/00",
+    "Re: meter 986315 Torch Rally/El Sordo 1/00"
+   ]
+  },
+  "volume_allocation_discrepancy_resolution": {
+   "count": 5,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Reconciling differing flow or allocation volumes between pipeline reports, internal allocations and counterparties so months can be finalized."
+   ],
+   "sample_subjects": [
+    "February 2000 Production, PG&E discrepancy for 02/24/00 ( Pan Energy Exchange Deal)",
+    "Mtr 980070 for 10/29-31/1999",
+    "TXU Lone Star",
+    "January Setup -- MOPS",
+    "PG&E Texas contract 5095-037 for 2/00"
+   ]
+  },
+  "volume_shortfall_buyback_handling": {
+   "count": 3,
+   "mailboxes": [
+    "farmer-d"
+   ],
+   "sample_descriptions": [
+    "Handling customer under-takes or deficiency volumes by deciding on buybacks or zeroing nominations and adjusting tickets."
+   ],
+   "sample_subjects": [
+    "Valero Gas Marketing ; Meter #: 8018 / Sitara Ticket # 148376",
+    "Re: Valero Gas Marketing ; Meter #: 8018 / Sitara Ticket # 148376"
+   ]
+  },
+  "weekly_california_capacity_report": {
+   "count": 5,
+   "mailboxes": [
+    "lokay-m"
+   ],
+   "sample_descriptions": [
+    "Compiling and emailing the weekly California deliveries, capacity utilization and posted gas price summary for TW and El Paso to the commercial team."
+   ],
+   "sample_subjects": [
+    "California Capacity Report for Week of 03/18-03/22",
+    "California Capacity Report for Week of 02/19-02/22",
+    "California Capacity Report for Week of 02/25-03/01",
+    "California Capacity Report for Week of 03/04-03/08",
+    "California Capacity Report for Week of 01/28-02/01"
+   ]
+  },
+  "ytd_reconciliation_correction": {
+   "count": 1,
+   "mailboxes": [
+    "giron-d"
+   ],
+   "sample_descriptions": [
+    "Fixing reconciliation or balance errors flagged by management or counterparties and confirming the correction."
+   ],
+   "sample_subjects": [
+    "Re: Phillip buzzed about the YTD reconciliation"
+   ]
+  }
+ },
+ "existing_processes": [],
+ "reset": false
+}

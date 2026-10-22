@@ -1,0 +1,843 @@
+{
+ "batch_id": "fcb55bfe666f",
+ "context": [],
+ "messages": [
+  {
+   "date": "2001-10-30T03:33:56+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/139",
+   "new_text": "Ken,\n \nThank you for your inquiry. I will do my best to answer your questions, but would prefer to answer your questions by phone. I feel that this will provide each of us with greater flexibility and likely will give me even more of an opportunity to answer your questions. I will usually be most available after 3 each day. You can reach me at 503-464-3730.\n \nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: Information interview",
+   "thread_id": "t2b380216fc",
+   "to": [
+    "klmcclintock@home.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-20T00:50:08+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/88",
+   "new_text": "Group,\nWe have had some issues with EpmiCalPool deals recently and I wanted to provide information for newer members of the group and a quick reminder for crusty veterans as we head into the Thanksgiving Holiday. I have also decided to change our protocol for entering multiple EpmiCalPool deals. Please pay special attention to #5 below.\n\nSo, some basic rules about EpmiCalPool deals.\n\n1. EpmiCalPool deals are BUY-RESALE deals--(a transmission deal will work but is not the preferred method)\n\n2. We only BUY from the EpmiCalPool-no exceptions-.\n\n3. EpmiCalPool deals have a $0 price in the buy and sell portions. Please do not enter a price on an EpmiCalPool deal.\n\n4. EpmiCalPool deals must have a delivery point of an CISO tie point or an CISO congestion zone. Good delivery points would be:\nMalin, COB N/S, COB S/N, NOB N/S, NOB S/N, Cascade, Captain Jack, Summit, Four Corners 345, Mead 230, Paloverde, NP-15, ZP-26, SP-15.\n\nBad delivery points would include: Mid-C, Hotsprings, Hidalgo, BC Border.\n\n5. IMPORTANT CHANGES TO BUSINESS PRACTICE HERE EpmiCalPool deals are used to simulate the purchase of transmission from the California ISO. \n\n\ta.) If you have a wheel from tie point to tie point for example Malin to Four Corners for congestion management--than an EpmiCalPool deal from Malin to Four \tCorners would be appropriate. For seperate wheels from tie point to tie point we will NOT be putting in deals from Malin to NP-15, NP-15 to SP-15, and SP-15 to \tFour Corners. \n\n\tb.)However, from Congestion zone to congestion zone inside of California, or if you are moving tie point to a congestion zone--for example Malin to SP-15 we will \tneed a Malin to NP-15 and NP-15 to SP-15. This will allow us to better capture congestion across congestion zones in California, and will prepare us for the move \tto FSP.\n\n6. We will initiate this change in business practice HE 1 on Tuesday November 20th.\n\nEpmicalpool deals continue to provide problems with reports. Please see me with any questions.\n\nThanks,\n\nBill",
+   "new_text_source": "new",
+   "subject": "Epmi Cal Pool Deal Entry-BUSINESS PRACTICE CHANGES",
+   "thread_id": "t2c4115e087",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-27T17:28:23+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/282",
+   "new_text": "Guys,\n\nGood looking discussion note last night. I appreciate the good work.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Discussion Note",
+   "thread_id": "t2c5cb8a697",
+   "to": [
+    "craig.dean@enron.com",
+    "steven.merriss@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-08T21:02:43+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/194",
+   "new_text": "Darren,\nCould you meet with me regarding congestion revenue for 10/05?\nWe had two wheels that were not in the inc sheet but were awarded by the CAISO and are in finals in CAPS. The wheels were EPMI_CISO_GREEN for HE 17 and HE 18. We were awarded 38.96 mws for HE 17 and 31.92 mws for HE 18. Both wheels were awarded at $54.90.\nWe should receive revenue of $3891.31 from these wheels.\nPlease give me a shout with questions.\nThanks,\n\nBill",
+   "new_text_source": "new",
+   "subject": "Congestion Revenue for 10/05",
+   "thread_id": "t2df363fe8b",
+   "to": [
+    "darren.cavanaugh@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-16T20:59:21+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/298",
+   "new_text": "ONE MORE TIME!\n\nDO NOT SELL BELOW $15 FOR EL PASO WITHOUT RAMPING DOWN FOUR CORNERS!\n\nREAD THE INSTRUCTIONS ON THE GENERATION DISPATCH.\n\nDo NOT let this happen again.\n\n\n\nSee me or another experienced member of the group with questions or concerns.\n\n\nB",
+   "new_text_source": "new",
+   "subject": "EL PASO",
+   "thread_id": "t2e014590cd",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-12T02:13:55+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/513",
+   "new_text": "Thank you Kysa,\nI appreciate the info.\nB",
+   "new_text_source": "new",
+   "subject": "RE: West BOM swap",
+   "thread_id": "t2e4c89c764",
+   "to": [
+    "kysa.alport@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-07T01:42:06+00:00",
+   "from": "john.oh@enron.com",
+   "msg_id": "williams-w3/inbox/11",
+   "new_text": "Please read the document at:\n\nhttp://172.17.172.62/inf/default.html",
+   "new_text_source": "new",
+   "subject": ">>>E-mail backup instructions FOR ALL UBSW<<<",
+   "thread_id": "t2ed8aedd0c",
+   "to": [
+    "center.dl-portland@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-30T22:34:27+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/64",
+   "new_text": "Dave,\n\nI need your help with some Enpower applications. Please give me a call as soon as you have an opportunity.\nBy the way...I sure hope your Longhorns do NOT end up matched against my Huskies...ouch!\n\nThanks,\nBill\n\n1-800-684-1336",
+   "new_text_source": "new",
+   "subject": "RE: Farewell Portland Office",
+   "thread_id": "t2fc02ffed0",
+   "to": [
+    "david.poston@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-02T22:00:47+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/34",
+   "new_text": "Scotty,\nWhat's up? Checking to see if this was your email or not? Haven't heard from you in forever. Hope you had a good new year. Drop me a line and give me the word.\n\nBill",
+   "new_text_source": "new",
+   "subject": "Kuehn?",
+   "thread_id": "t321f7ea737",
+   "to": [
+    "snareles@hotmail.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T03:48:28+00:00",
+   "from": "crcommunications@caiso.com",
+   "msg_id": "williams-w3/inbox/82",
+   "new_text": "Market Participants:\n\nPlease assure that this Notification is forwarded to your respective\nOperating Departments ---\n\nNotification of Operating Procedure Update\n\n*\tThe following new or revised ISO Operating Procedures have been\nimplemented and are posted for reference on the ISO Website.\n\nISO Operating Procedure posted:  S-320 Four Corners-Moenkopi and\nEldorado-Moenkopi 500 kV Lines\nVersion: 1.1\nEffective Date: 1-30-02\nProcedure Purpose: This Procedure addresses specific requirements associated\nwith operating and scheduling the Four Corners-El Dorado-Moenkopi 500 kV\npath. The Four Corners-El Dorado-Moenkopi path is made up of the 500 kV Four\nCorners-Moenkopi line and the 500 kV El Dorado-Moenkopi line. Both 500 kV\ntransmission lines are located within Arizona Public Service Company's (APS)\nControl Area.  The ISO-APS Control Area boundary is metered at El Dorado.\nThe line is operated in accordance with an existing Operating Agreement\nbetween APS and Southern California Edison (SCE).  SCE's entitlements on\nthis line are \"Converted Rights\" as of the ISO Operations Date.\nChanges / Reasons: See attached\n <<S-320 Procedure Change Description V1.1.doc>> \n\n*\tPlease find them at\nhttp://www1.caiso.com/thegrid/operations/opsdoc/index.html under the\nappropriate Operating Procedure section heading.\n\nPlease e-mail any comments or questions to the 'Procedure Control Desk'\nmailbox [mailto:procctrldesk@caiso.com] and we will respond as soon as\npossible.\n\nThank you!\n\nCalifornia ISO Procedure Control Desk\n\n\n\n\nClient Relations Communications.0921\nCRCommunications@caiso.com",
+   "new_text_source": "new",
+   "subject": "CAISO Notice - Operating Procedure Update - S-320 Four Corners-Moenkopi and Eldorado-Moenkopi 500 kV Lines",
+   "thread_id": "t329e5d6883",
+   "to": [
+    "20participants@caiso.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-19T16:22:22+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/233",
+   "new_text": "Group,\nWe will be covering for Enron Canada Corp as stated below. All submissions will have to be faxed to the Power Pool as we do not have a working digital certificate. Call me with any questions. Thanks,\nBill",
+   "new_text_source": "new",
+   "subject": "ENRON CANADA COVERAGE-FW: September 21 & 23",
+   "thread_id": "t329f9fd92f",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-11T14:49:11+00:00",
+   "from": "albert.meyers@enron.com",
+   "msg_id": "williams-w3/inbox/107",
+   "new_text": "Please find the enclosed attachment:\n\n \nRegards,\n\nBert Meyers",
+   "new_text_source": "new",
+   "subject": "EPE model for 01/10/02",
+   "thread_id": "t32e0f9b200",
+   "to": [
+    "kpeterso@epelectric.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-28T01:40:35+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/354",
+   "new_text": "I think you know.\n\n -----Original Message-----\nFrom: \tSymes, Kate  \nSent:\tFriday, July 27, 2001 3:32 PM\nTo:\tWilliams III, Bill\nSubject:\tFW: Palo Verde  Bottleneck - PLEASE READ\nImportance:\tHigh\n\n\n\n -----Original Message-----\nFrom: \tSymes, Kate  \nSent:\tFriday, July 27, 2001 2:58 PM\nTo:\tWilliams III, Bill\nSubject:\tPalo Verde  Bottleneck - PLEASE READ\nImportance:\tHigh\n\nIs this the only revision you'd like to see?\n\nFYI -\n\nRoger called today to inform us of a [Mark Hall]   [transmission capacity]  bottleneck at Palo Verde. Apparently, El Paso cannot take more than 50 mw into their system at Palo in any given hour; therefore, we  [Mark Hall]  [will] need to monitor El Paso's net schedule to  [Mark Hall]  insure [Mark Hall]  (sic)  that it does not exceed this. This poses some obstacles and opportunities related to the lending agreement. If El Paso is taking a net of 50 mw in at PV, you'll need to procure energy at Four Corners or Greenlee [Mark Hall]   [or buy transmission/do a buy/resell with SRP-PNM-TNP-APS-etc.]  to fill the lending short [Mark Hall]   note-EPE will still deliver us energy at PV- , then enter a zero priced buy-resale [Mark Hall]   in enpower  to get the energy from an alternate delivery point to PV. \n\nThis is how it should take place - \nDay-Ahead\n\tBuy from El Paso at PV \n\tSell to STSW at PV \nHour-Ahead\t\n\tBuy from Counterparty such as PNM, SRP, TNP, or APS at FC or Greenlee \n\tBuy-Resale from El Paso from FC or Greenlee to PV \n\nPlease let me know if you have questions.\n\nThanks,\nKate",
+   "new_text_source": "body",
+   "subject": "FW: Palo Verde Bottleneck - PLEASE READ",
+   "thread_id": "t337d032479",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-19T01:51:58+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/234",
+   "new_text": "Here is the original email from Keoni, and the follow-up from Chris Foster.\nJust give me a call with any questions.\n\nThanks,\n\nBill",
+   "new_text_source": "new",
+   "subject": "FW: ADS Dispatch Declines",
+   "thread_id": "t33a2aaaff4",
+   "to": [
+    "alan.comnes@enron.com",
+    "dave.perrino@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-26T00:27:06+00:00",
+   "from": "enron_update@concureworkplace.com",
+   "msg_id": "williams-w3/inbox/96",
+   "new_text": "The following expense report is ready for approval:\n\nEmployee Name: Albert L. Meyers\nStatus last changed by: Jill C. Chatterton\nExpense Report Name: Meyers, Bert  1/25/02\nReport Total: $76.63\nAmount Due Employee: $76.63\n\n\nTo approve this expense report, click on the following link for Concur Expense.\nhttp://expensexms.enron.com",
+   "new_text_source": "new",
+   "subject": "<<Concur Expense Document>> - Meyers, Bert 1/25/02",
+   "thread_id": "t33eebc9e7a",
+   "to": [
+    "bwillia5@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-14T04:28:37+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/92",
+   "new_text": "#10728\n -----Original Message-----\nFrom: \tMier, Michael  \nSent:\tWednesday, October 17, 2001 12:44 PM\nTo:\tRealtime,\nSubject:\tNew BPA Contract #\n\nOur old BPA contract # was 96104 our new BPA Contract # is 10728. Just wanted to give the group a heads up.\n\nMike",
+   "new_text_source": "body",
+   "subject": "FW: New BPA Contract #",
+   "thread_id": "t3497ac89b9",
+   "to": [
+    "shift.dl-portland@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-15T00:10:04+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/241",
+   "new_text": "Cindy,\n\nPlease...remove me from your list.\nI am not involved with security, in Houston or otherwise, and can not help you obtain a security badge.\n\nBill",
+   "new_text_source": "new",
+   "subject": "RE: Request for Security Badge Access - Compaq",
+   "thread_id": "t34b2ed4ce8",
+   "to": [
+    "cindy.adams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-19T23:58:11+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/161",
+   "new_text": "Group,\n\nFor those on night and day shift on Saturday/Sunday the emergency back-up generators will be tested. The testing will occur from 5 AM to 10 AM on Sunday morning. Dave Steiner has assured me that RT will be unaffected and Dave will be on hand to help if anything is needed. I think we should work to have everything submitted early to the CISO, tags made, etc. At least for HE 6, HE 7 and HE 8. This should give us some extra time if something goes wrong when they switch to the back-up power.\n\nBill",
+   "new_text_source": "new",
+   "subject": "Emergency Power Generator Testing",
+   "thread_id": "t34f26256cd",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-23T02:38:42+00:00",
+   "from": "no.address@enron.com",
+   "msg_id": "williams-w3/inbox/99",
+   "new_text": "Which IRA is right for you?\n\nWhether you are saving for a new home, college, or retirement,\nEnron Federal Credit Union offers \nTraditional, Roth, and Education IRAs to fit your needs.\n\n12 Month Term IRA Certificate\t2.75% APY\n24 Month Term IRA Certificate\t3.25% APY\n36 Month Term IRA Certificate\t3.75% APY\nIRA Savings\t\t\t\t1.75% APY\n\nAn IRA Savings Account can be opened with only $25,\nor open a Term IRA Certificate with $500.\n\nTo set up an IRA or for more information,\nplease visit www.enronfcu.com\nor call 713.853.6902.\n\n<Embedded Picture (Metafile)>",
+   "new_text_source": "new",
+   "subject": "EFCU Offers IRAs",
+   "thread_id": "t34ff853d33",
+   "to": [],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-09T23:37:47+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/184",
+   "new_text": "Sandra,\nPlease update your email list to read Bill Williams and not Bill Williams III.\nThank you,\nBW",
+   "new_text_source": "new",
+   "subject": "RE: LED - Project Contact List Rev. 2",
+   "thread_id": "t3507dbc8cb",
+   "to": [
+    "sandra.rodriguez@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-03T02:00:49+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/335",
+   "new_text": "The new column on the services sheet regards energy that we may need to market but that is not prescheduled, usually in the off peak hours...Call with any questions. Home number is 503-274-0502\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "FW: Grays Harbor Paper",
+   "thread_id": "t352cf474d3",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-31T22:54:32+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/4",
+   "new_text": "John,\nHere are the remaining hourly traders.\n\nBill Williams\nRyan Slinger\nHolden Salisbury\nGeir Solberg\nBert Meyers\nCraig Dean\nCasey Anderson\nMike Mier\n\nLet me know if you need anything else...\n\nBill",
+   "new_text_source": "new",
+   "subject": "Hourly Traders",
+   "thread_id": "t356f299161",
+   "to": [
+    "john.postlethwaite@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-26T01:50:44+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/363",
+   "new_text": "-----Original Message-----\nFrom: CAISO Market Operations - Hour Ahead\n[mailto:IMCEAEX-_O=CAISO_OU=CORPORATE_CN=SYSTEM_CN=MARKETOPSHOURAHEAD@ca\niso.com]\nSent: Wednesday, July 25, 2001 3:34 PM\nTo: Market Status: Hour-Ahead/Real-Time\nSubject: ISO Share (PNOB) South to North Derate\n\n\nAfter the Day ahead market ran, the branch group ISO Share (PNOB) TTC in the\n(S-N) direction was changed from 1407 MW to 1285 MW for HE's 0700 through\n1200 for operating day 7/26/01.  The reason for the change is the Celilo\nConverter #1 DC harmonic filters is out of service.  The first applicable\nHour Ahead market to run with these values is HE 0700.  The ISO will update\nyou of any changes in line rating status.  Sent by Market Operations,\ninquiries please call the Hour Ahead Desk.\n\nThe system conditions described in this communication are dynamic and\nsubject to change.  While the ISO has attempted to reflect the most current,\naccurate information available in preparing this notice, system conditions\nmay change suddenly with little or no notice.",
+   "new_text_source": "body",
+   "subject": "FW: ISO Share (PNOB) South to North Derate",
+   "thread_id": "t3609495709",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-13T19:40:04+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/101",
+   "new_text": "ST-WBOM is importing 20 mws for HE 2 and 3, and 10 mws for HE 4 and 5 at MEAD 230. I have made the Enpower deals (868223, 868224, 868234) to buy from PinWest and sell to the imbalance in SP-15. I have entered the schedule in CAPS and it should be good to go.\n\nST-WBOM also purchased 10 mws from Redding in NP-15 for HE 7-22 at $25. Chris Mallory brokered this deal.\n\nThanks\nBill",
+   "new_text_source": "new",
+   "subject": "Import at Mead--and NP-15 purchase.",
+   "thread_id": "t365ccff242",
+   "to": [
+    "kate.symes@enron.com",
+    "kysa.alport@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-14T02:34:35+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/47",
+   "new_text": "Jason,\nGood afternoon. I am contacting you regarding activating a pass to the Employee Store. I did product testing for you in late spring (for soccer). I would like to activate the pass for tomorrow, December 14th, if possible. I recognize this is short notice but if this would be possible please give me a call back at 503-887-3449. I would like to have my parents attend as well. Their names are Bill and Joy Williams. I appreciate your help.\n\nThanks,\n\nBill Williams",
+   "new_text_source": "new",
+   "subject": "Employee Store Pass",
+   "thread_id": "t3664960ab3",
+   "to": [
+    "jason.meeker@nike.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-07T01:18:12+00:00",
+   "from": "debra.davidson@enron.com",
+   "msg_id": "williams-w3/inbox/13",
+   "new_text": "As we discussed, your interview with Tim Belden will be held at 10:30 a.m. in Mt. St. Helens.",
+   "new_text_source": "new",
+   "subject": "Confirmation of Interview on Friday with Tim Belden",
+   "thread_id": "t366baf1ea7",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-17T06:29:26+00:00",
+   "from": "mark.guzman@enron.com",
+   "msg_id": "williams-w3/inbox/131",
+   "new_text": "Bill,=20\nI had quite a bad conversation with Kirk at LADWP yesterday.  Geir supposed=\nly purchased only spinning reserves from LA however, when I called to verif=\ny this Kirk at LA said that Geir bought power from him at $50 on top of the=\n reserves.  When I called Geir he said he didnt.  Therefore I called back K=\nirk at LA and told him that Geir said he didnt purchase power from him and =\nthat we would just pull the tapes in the morning to solve the dispute.  Kir=\nk then proceeded to go on a three minute tirade about how he \"isnt even sup=\nposed to deal with Enron\" and was doing us a big favor because he doesnt wa=\nnt to deal with us anyway.  He completely erupted on me and was absoulutely=\n unprofessional  and  cursed at me several times during the entire conversa=\ntion.    I kept trying to calm him down however, he just continued to rant.=\n   Anyway we will probably need to pull tapes for Giers conversations with =\nLA. I would imagine from about 16:00 thru my conversation with Kirk at 18:0=\n5.  Please let the guys know that when dealing with LADWP to be absoulutely=\n clear, to state exactly what they are purchasing, be specific when stating=\n time zones etc, as it appears that any dispute these guys will just procee=\nd to completely melt down on us which in the end just causes problems for E=\nPE.  Thanks.",
+   "new_text_source": "new",
+   "subject": "LADWP",
+   "thread_id": "t3672fc4c8a",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T20:15:43+00:00",
+   "from": "jill.chatterton@enron.com",
+   "msg_id": "williams-w3/inbox/75",
+   "new_text": "Subject: Energy Market Report - 01/29/02\n\n\nEnergy Market Report\nTuesday, January 29, 2002\n\n*See attached pdf file.\n__________________________________________________________\nNote: See correction in California paragraph for the issue dated Monday,\nJanuary 28, 2002.\n__________________________________________________________\nWestern Pre-Scheduled Firm Electricity Prices($/MWh)\nJanuary 29, 2002 for January 30, 2002\n\nPeak(Heavy)\n                   Low      Change     High     Change\nNW/N. Rockies     18.90      0.10     19.50     -2.50\nMid-Columbia      18.90      0.10     19.50     -2.50\nCOB               21.00      0.00     22.00     -0.25\nN. California     23.50      0.00     24.25     -0.75\nMidway/Sylmar       NA        NA        NA        NA\nS. California     23.00      0.00     25.00      0.00\nMead              24.50      1.75     26.50      0.75\nPalo Verde        23.50      0.75     25.50     -0.25\nInland SW         23.50      4.00     26.50      0.75\n4-Corners         23.00      0.00     25.25      0.75\nCentral Rockies   20.50     -1.50     23.00     -3.00\n__________________________________________________________\nOff-Peak(Light)\n                   Low      Change     High     Change\nNW/N. Rockies     17.00     -0.25     19.00      0.50\nMid-Columbia      17.00     -0.25     19.00      0.50\nCOB               17.75      0.75     18.75      0.75\nN. California     18.25      1.50     19.75      0.25\nMidway/Sylmar       NA        NA        NA        NA\nS. California     17.75      0.75     20.50      1.50\nMead              17.00     -0.50     19.00     -0.50\nPalo Verde        14.75      0.75     16.50      0.00\nInland SW         14.75      1.25     19.00      2.50\n4-Corners         15.00      0.50     16.00     -0.50\nCentral Rockies   12.00      0.50     13.75      0.25\n_________________________________________________________\nNew CEO to Resurrect Enron\n\nHeavy load energy costs for Wednesday delivery turned in mixed results in\nthe Western U.S. on Tuesday, reflecting varying weather forecasts in\ndifferent regions.  \"The average price in the Northwest was slightly lower\ntoday because temperatures were forecast to rise tomorrow, while the average\nprice in the Southwest rose slightly on expected cooler temperatures,\" said\none weather watcher.  Off-peak prices, however, were immune to geographical\nboundaries, rising at just about all of the Western hubs on the cold\nweather.  \"There were a lot of people looking to secure off-peak power today\nin order to meet demand,\" said one trader of the stronger light load prices.\nNonetheless, some players were surprised by Tuesday's strength, noting that\nthe worst of the cold was likely over.  Accordingly, Weather Derivatives was\nforecasting a general decline in heating demand throughout the West over the\ncourse of the week, and the latest six-to-ten from the NWS was predicting\nmostly normal temperatures for the WSCC from February 4 through 8.  In\nEnron-related news, \"Turnaround Expert\" Stephen Cooper was named interim CEO\nof bankrupt Enron Corp. on Tuesday.  Cooper told Enron employees that their\ncompany was in much better shape than some of the hundreds of other\ncompanies he and his partners have represented in bankruptcies and\nreorganizations.  \"They didn't start with nearly as strong a position as\nthis company.  They were able to emerge successfully from bankruptcy and I'm\nconfident that Enron will also,\" Cooper said in a company-wide voice mail on\nTuesday.  On Monday, about 400 former and current Enron employees filed suit\nagainst several company officials and auditor Arthur Andersen in a federal\ncourt in Houston, alleging that the defendants encouraged employees to buy\nEnron stock without being notified about the company's precarious financial\ncondition.\n\nPeak power prices in the Northwest fell by an average of nearly a buck on\nTuesday, likely due to forecasts indicating the worst of the region's most\nrecent cold snap had passed.  In addition, strong river flows made for\nabundant hydroelectric generation.  Nonetheless, light load prices for\nWednesday delivery traded slightly higher than a day ago, on average.  \"It's\nstill cold at night, and a lot of the hydro is being pushed through during\nthe peak hours to meet demand, so we're just not seeing as many offers for\nthe light load hours,\" said one Northwest utility trader.  Flow forecasts\nfor Chief Joseph were ratcheted slightly upward on Tuesday, coming in at 110\nkcfs through Thursday, 105 kcfs Friday, 80 kcfs Saturday, 65 kcfs Sunday,\n110 kcfs Monday, and 105 kcfs next Tuesday.  According to Weather\nDerivatives, heating demand in the region was forecast to be 124 percent of\nnormal on Wednesday, steadily falling to 99 percent of normal by February 3.\nMeanwhile, the latest six-to-ten was calling for temperatures to be normal\nin Oregon and Washington, and above normal in Idaho and Montana, from\nFebruary 4 through 8.\n\nAmid below-normal temperature forecasts, flat spot gas values at the Socal\nborder, and firmer overnight heating demand, peak power prices were mostly\nsteady and off-peak prices strengthened in the Golden State on Tuesday.\nHeavy load goods at NP15 changed hands predominantly between 23.5 and\n24.25$/MWh, but one confirmed trade was heard at 26.5$/MWh.  Light load\npieces saw action from 18.25 to 19.75$/MWh.  Correction:  in the Energy\nMarket Report for January 28 we incorrectly reported that CPUC\nadministrative law judge Robert Barnett advised the commission to restore\nthe direct access provision, which was revoked September 20, 2001, allowing\nindustrial and household consumers to again chose their ESP through July 1,\n2002.  In fact, Barnett's ruling would retroactively cancel direct access\nfrom July 1, 2001 onward, nullifying contracts signed between July 1, 2001\nand September 20, 2001.  \"This is not a restoration of choice.  This is a\npost-birth abortion,\" emailed one reader.  Additionally, contracts penned\nbefore July 1 but which didn't deliver power until after July 1 are also\ncancelled under the new ruling.  \"To boil all this down to the simplest\nterms, the DWR and the utilities are afraid that too much load switched to\nalternate suppliers during that time frame (July through September).  Since\nthey bought too much power through high-priced contracts they have fewer\nkilowatt hours to spread their costs against,\" summed up one market analyst\non the reason behind the new ruling.  The ruling is on the agenda for the\nCPUC's February 7 meeting, at which point it could be enacted.  In unit\nnews, Calpine's Sutter Plants (546 MW) was almost back to full capacity on\nTuesday, generating at 525 MW.  Helms PGP #1 (407 MW) also returned to the\ngrid.  Wednesday forecasts called for temperatures to climb slightly, with\nhighs expected in the upper-40s to low-50s at mid-state load centers and\novernight lows anticipated near freezing.  The latest six-to-ten predicted\nnormal temperatures from February 4 to 8.\n\n\nThe average price for a 25-megawatt block of spot electricity rose\nmarginally in the Southwest Tuesday amid continued cold weather.  Heating\ndemand in the region was expected to remain well above normal through\nFriday, but then drop to below-normal levels over the coming weekend.  \"It's\ncold down here, especially at night, so we're having to buy to cover our\nload,\" said one Phoenix-based trader shivering at the thought of overnight\nlows in the 30s.  Peak power at Palo Verde saw action from 23.5 to\n25.5$/MWh, with unconfirmed late-day trades heard as high as 26$/MWh.  There\nwas little in the way of unit news on Tuesday, except for word that\nArizona-based Coronado #1 (395 MW) was still having trouble making it back\nonline.  Weather forecasts called for gradual warming through the coming\nweekend, while the latest six-to-ten was predicting a near-blanketing of\nnormal temperatures from February 4 through 8.\n\n\n\nPatrick O'Neill and Jessie Norris\n_________________________________________________________\n\nWestern Generating Unit Outages\n\nCurrent                            ",
+   "new_text_source": "new",
+   "subject": "FW: Energy Market Report - 01/29/02",
+   "thread_id": "t36bf7954fc",
+   "to": [
+    "tom.alonso@enron.com",
+    "robert.badeer@enron.com",
+    "tim.belden@enron.com",
+    "sean.crandall@enron.com",
+    "m..driscoll@enron.com"
+   ],
+   "truncated": true
+  },
+  {
+   "date": "2002-01-30T20:00:30+00:00",
+   "from": "cara.semperger@enron.com",
+   "msg_id": "williams-w3/inbox/76",
+   "new_text": "-----Original Message-----\nFrom: \tSemperger, Cara  \nSent:\tWednesday, January 30, 2002 7:59 AM\nTo:\tRawson, Lester\nSubject:\tRE: 1/30 \n\nBill and I are considering having Real time do the EPE preschedules since they are the ones that live and die by them anyway.  That way you would be released from that burden and any errors would be all on the ownership of RT.\n\n\n\n -----Original Message-----\nFrom: \tRawson, Lester  \nSent:\tTuesday, January 29, 2002 1:20 PM\nTo:\tEl Paso dispatchers; Greg Grill; jhadda; Kathy Peterson; Luis Zaragoz; Powermarketing\nCc:\tSemperger, Cara; Cutsforth, Diane\nSubject:\t1/30 \n\nI'll be out tomorrow and Thursday back on Friday.\n\nDiane Cutsforth will be working on the EPE schedule. She can be reached at 503-464-3831.\n\nSee ya'll Friday.\n\nLes\n\n << File: EPE_JAN_2002.xls >>",
+   "new_text_source": "body",
+   "subject": "FW: 1/30",
+   "thread_id": "t375b6580cf",
+   "to": [
+    "diane.cutsforth@enron.com",
+    "donald.robinson@enron.com",
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-18T18:53:10+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/492",
+   "new_text": "Steve,\nMy address is Bill Williams III,\nPlease make the correction.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: EES Model for 6/15",
+   "thread_id": "t3764932012",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-01T22:59:27+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/125",
+   "new_text": "-----Original Message-----\nFrom: \tBelden, Tim  \nSent:\tThursday, November 01, 2001 10:12 AM\nTo:\tDL-Portland World Trade Center\nSubject:\tFW: FBI information regarding possible terrorist threat on West Coast\n\nThis just came to me today.  This information is widely available to corporations and law enforcement around the country.  It will likely hit the media in the next day or so.  This is all the information that is available.\n\nEnron Corp. Business Controls/Corporate Security received the following information via the National Threat Warning system.  While we do not wish to unduly alarm employees, the specificity of the information dictated immediate dissemination to our West Coast offices.  \n\nTHE FBI IS IN POSSESSION OF UNCORROBORATED INFORMATION INDICATING THE\nPOSSIBILITY OF ADDITIONAL TERRORIST ATTACKS AGAINST THE UNITED STATES,\nSPECIFICALLY THE WEST COAST.  REPORTEDLY, UNSPECIFIED GROUPS ARE\nTARGETING SUSPENSION BRIDGES ON THE WEST COAST.  SIX INCIDENTS ARE TO\nTAKE PLACE DURING RUSH HOUR BEGINNING FRIDAY, NOVEMBER 2 AND CONTINUING\nTHROUGH NOVEMBER 7, 2001.\n\nNO FURTHER INFORMATION ABOUT THIS ALLEGED ATTACK IS KNOWN AT THIS TIME.\nTHE FBI IS ATTEMPTING TO VERIFY THE VALIDITY OF THIS REPORT.  RECIPIENTS\nWILL BE UPDATED AS EVENTS WARRANT.\n\nRECIPIENTS WHO RECEIVE OR DEVELOP INFORMATION RELATED TO THIS MATTER\nSHOULD IMMEDIATELY CONTACT THEIR LOCAL FBI OFFICE.\n\nWe will keep you apprised if we receive any further information.\n\nThank you.",
+   "new_text_source": "body",
+   "subject": "FW: FBI information regarding possible terrorist threat on West Coast",
+   "thread_id": "t3815ba592e",
+   "to": [
+    "rmiletich@baughent.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-08T22:41:07+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/315",
+   "new_text": "WAY TO GO BIG!!!\nGood job...nice accomplishment.\nMuch props!\nB",
+   "new_text_source": "new",
+   "subject": "RE: High Five for a Smooth El Paso Checkout",
+   "thread_id": "t3958398967",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-01T03:34:37+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/127",
+   "new_text": "Chip,\nCould you help me put Enpower on my local computer?\nAnd my monitor keeps sleeping on the job.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Enpower on Local Computer--",
+   "thread_id": "t3981e51c1d",
+   "to": [
+    "chip.cox@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-10T03:26:44+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/102",
+   "new_text": "-----Original Message-----\nFrom: \tKen Lay - Office of the Chairman  \nSent:\tFriday, November 09, 2001 3:14 PM\nTo:\tDL-GA-all_enron_worldwide1\nSubject:\tIMPORTANT VIDEO ANNOUNCEMENT\n\n\nI have a very important video announcement about the future of our company.  Please go to <http://home.enron.com/message/> to access the video.  Thank you.",
+   "new_text_source": "body",
+   "subject": "FW: IMPORTANT VIDEO ANNOUNCEMENT",
+   "thread_id": "t398b44a494",
+   "to": [
+    "gordongecho@hotmail.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-19T02:42:22+00:00",
+   "from": "lester.rawson@enron.com",
+   "msg_id": "williams-w3/inbox/103",
+   "new_text": "REAL TIME TRADERS,\n\nSPS HAS MANAGED TO OVER SCHEDULE BY 100MW PER HOUR ON PEAK HOURS SUNDAY 1/20 AT PV THEIR EDDY/PV SWAP WITH EPE. Steve at EPE has agreed to a leading deal with SPS where SPS/PSCO will supply 100 mw at PV real time to EPE. El Paso already has tags out there showing EPE as the source for SPS sales. \n\nSPS/PSCO will supply the energy to El Paso at PV and El Paso should show it going to their system. Steve was supposed to let the dispatchers know all the details.\n\nLes",
+   "new_text_source": "new",
+   "subject": "SUNDAY ON PEAK LEADING DEAL",
+   "thread_id": "t39df27c4d3",
+   "to": [
+    "shift.dl-portland@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-19T03:30:42+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/17",
+   "new_text": "Thank you Les.\nBill\n\n -----Original Message-----\nFrom: \tRawson, Lester  \nSent:\tFriday, January 18, 2002 2:42 PM\nTo:\tDL-Portland Real Time Shift\nSubject:\tSUNDAY ON PEAK LEADING DEAL\n\nREAL TIME TRADERS,\n\nSPS HAS MANAGED TO OVER SCHEDULE BY 100MW PER HOUR ON PEAK HOURS SUNDAY 1/20 AT PV THEIR EDDY/PV SWAP WITH EPE. Steve at EPE has agreed to a leading deal with SPS where SPS/PSCO will supply 100 mw at PV real time to EPE. El Paso already has tags out there showing EPE as the source for SPS sales. \n\nSPS/PSCO will supply the energy to El Paso at PV and El Paso should show it going to their system. Steve was supposed to let the dispatchers know all the details.\n\nLes",
+   "new_text_source": "body",
+   "subject": "RE: SUNDAY ON PEAK LEADING DEAL",
+   "thread_id": "t39df27c4d3",
+   "to": [
+    "lester.rawson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-24T01:16:04+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/370",
+   "new_text": "Baruuuh?\n\n -----Original Message-----\nFrom: \tSymes, Kate  \nSent:\tMonday, July 23, 2001 3:14 PM\nTo:\tDL-Portland Real Time Shift\nSubject:\t\n\nWe have entered into another lending agreement with El Paso for Tuesday, 7/24. I've entered deals to show this in our system as a purchase from El Paso at $4 (fee for lending - to be changed if we end up actually purchasing from El Paso) and a sale to STSW. This is a 25 mw on peak schedule (tag entered by Lisa Gang) to be delivered at Palo Verde. We need to send 25 mws (zero price) to EPE real-time at PV to fulfil our part of the agreement. Following are the terms of these deals:\n\n697528 - STWBOM buys EPE\n\t HLH @ PV\n\t 25 mw @ $4\n\t (This price represents El Paso's fee for lending)\n\n697536 - STWBOM sells STSW\n\t HLH @ PV\n\t 25 mw @ $68\n\nLet me know if you have any questions.\n\nThanks,\nKate",
+   "new_text_source": "body",
+   "subject": "RE:",
+   "thread_id": "t3a47ac8365",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-04T19:22:38+00:00",
+   "from": "theresa.villeggiante@enron.com",
+   "msg_id": "williams-w3/inbox/50",
+   "new_text": "They do not have Gas daily loaded yet, I will check back periodically, if and when it becomes available I will send it.",
+   "new_text_source": "new",
+   "subject": "",
+   "thread_id": "t3af713ae23",
+   "to": [
+    "john.anderson@enron.com",
+    "robert.badeer@enron.com",
+    "jim.buerkle@enron.com",
+    "f..calger@enron.com",
+    "ed.clark@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-17T20:04:51+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/295",
+   "new_text": "Kate,\nWe will be short \n\n50 mws off-peak Sunday and Monday(that's all day Sunday and off-peak Monday) at @$36-check with Kysa on price.\n\n25 mws on peak Monday at @$45 in SP-15 (check with Kysa)\n\n25 mws on peak Monday at @$50 at PV with EPE (check with Holden)\n\n25 mws off peak at MidC on Monday ONLY at $32 with ST-NW (we will sell to ST-NW--check with Diana S.)\n\nQuestions?\n\nLet me know.\n\n\nWord.\nB",
+   "new_text_source": "new",
+   "subject": "Short Stuff",
+   "thread_id": "t3b1e2733ea",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-24T03:24:38+00:00",
+   "from": "john.anderson@enron.com",
+   "msg_id": "williams-w3/inbox/98",
+   "new_text": "http://172.17.172.22/elpaso/!current.txt",
+   "new_text_source": "new",
+   "subject": "The \"Real\" URL for El Paso Scrape",
+   "thread_id": "t3b47f8e0a5",
+   "to": [
+    "shift.dl-portland@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-02T20:53:00+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/inbox/123",
+   "new_text": "Group,\nEnron is attempting to reconcile the daily activities of each counterparty with us. This includes when each counterparty cut us, and schedules that were moved. To facilitate these efforts please put all cuts and scheduling sheets in the accordion file on the RT overflow desk (where Kate used to sit).\n\nAlso, stay tuned for new information on EPE. Apparently the information communicated by Tony was not completely correct.\n\nThanks,\n\nBill",
+   "new_text_source": "new",
+   "subject": "Tracking Cuts",
+   "thread_id": "t3c558e7ff6",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "albert.meyers@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-05T18:01:23+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/430",
+   "new_text": "Count me in...\n\nBill",
+   "new_text_source": "new",
+   "subject": "RE: Employment Law Training for Managers",
+   "thread_id": "t3ceb150a44",
+   "to": [
+    "amy.fitzpatrick@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T04:13:07+00:00",
+   "from": "john.oh@enron.com",
+   "msg_id": "williams-w3/inbox/81",
+   "new_text": "RT-\n\nThe new URL for the El Paso data scrape is:\nhttp://172.17.172.62/rt/current.asp\n\nOR\n\n\nJohn Oh\nEnron North America\t\t503.464.5066\n121 SW Salmon Street\t\t503.701.1160 (cell)\n3WTC 0306\t\t\t503.464.3740 (fax)\nPortland, OR 97204\t\t\tJohn.Oh@Enron.com",
+   "new_text_source": "new",
+   "subject": "New Address for El Paso Unit Status",
+   "thread_id": "t3cf2576fad",
+   "to": [
+    "shift.dl-portland@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-30T21:24:48+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/269",
+   "new_text": "Thresa,\n\nI have attached the spread sheet I created back in February. There are comments explaining the formulas. If you have questions please just give me a call and I will try to clear them up.\n\nThanks,\nBill\n\n\n503-464-3730",
+   "new_text_source": "new",
+   "subject": "Lou Pac for Feb.",
+   "thread_id": "t3d338dbd0e",
+   "to": [
+    "a..allen@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-05T19:42:12+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/428",
+   "new_text": "Chip,\nI need to have a tape pulled for Ryan Slinger on July 3 at 14:40 and 14:45.  Let me know when you have the time and I will go up with you to pull the tape.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Tape",
+   "thread_id": "t3db50156dc",
+   "to": [
+    "chip.cox@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-14T00:48:12+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/396",
+   "new_text": "Green Room,\n\nGranted, I missed the last game and though I may not deserve to present an opinion given my lengthy stay on the reserve list, I also favor the move to D1.  I think better competition will be more fun, provided that we field a full team (speaking mostly at myself here) on a consistent basis.  I have started playing again and am hoping to be back for the Fall season, I also know another player-Nate Stanton (he has played with a few of us in indoor)-who is interested in playing and is a bit quicker and better than myself.  So for what it's worth.  D1 all the way.\n\nThanks.\n\nB",
+   "new_text_source": "new",
+   "subject": "RE: Fall Green Room Soccer",
+   "thread_id": "t3e89614de6",
+   "to": [
+    "pws-fab1@siltronic.com",
+    "jon.gail@hcs.state.or.us",
+    "aevanloon@hotmail.com",
+    "bvargo@koin.com",
+    "greenroom@attglobal.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-14T01:16:42+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/394",
+   "new_text": "I am working on getting Nate's email.\nI will try to get him to show up at indoor on Monday.\nB",
+   "new_text_source": "new",
+   "subject": "RE: Fall Green Room Soccer",
+   "thread_id": "t3e89614de6",
+   "to": [
+    "jon.gail@hcs.state.or.us"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-23T01:47:49+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/472",
+   "new_text": "Nikki,\n\nHello, how are things going?   Hope you've caught up on your sleep from California.  That's what I am going to work on this afternoon so I can enjoy the weekend.  I am so glad the week is over.  I am exhausted.  Nothing like if I had worked 92 hours though.  \n\nSorry to hear you only have the night of the 3rd open.  Hopefully you are getting to spend more time in the city of Portland than just one afternoon.  There's just too much to do here to only spend one afternoon.  As for where to stay, there's a bunch of hotels out at the airport, or you can stay downtown.  I can take you out to the airport in the morning if you need as I will not be working on the 4th of July.\n\nGive me a call if you have a chance and have a good weekend.\n\nBill",
+   "new_text_source": "new",
+   "subject": "Ptown",
+   "thread_id": "t3f0e06edf0",
+   "to": [
+    "-nikole@excite.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-14T20:18:27+00:00",
+   "from": "administration.enron@enron.com",
+   "msg_id": "williams-w3/inbox/105",
+   "new_text": "This is a reminder that the ect.enron.com,ei.enron.com,and ees.enron.com Email domains will be decommissioned by close of business Friday, January 18th. If you currently use an Email address of name@ect.enron.com, name@ei.enron.com or name@ees.enron.com, you will need to notify your contacts to send mail to you at firstname.lastname@enron.com.\n\nThis is the first step of several to standardize everyone's Email address to firstname.lastname@enron.com. \n\nIf you have questions regarding this email, send an Email to enron.messaging.administration@enron.com.\n\nThank you for participation, cooperation and support. \nEnron Messaging Administration",
+   "new_text_source": "new",
+   "subject": "UPDATE: Supported Internet Email Addresses",
+   "thread_id": "t3f667be970",
+   "to": [],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-31T00:47:09+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/342",
+   "new_text": "Group,\n\nWe will have a real-time meeting on Tuesday August 7th at 4:30PM.  The meeting will run till 5:30.\nWe will go over Hourly EOL implementation, Cuts (yet again), new group members, and market changes.\n\nOur baseball trip to the suite is Thursday August 16th.  Food and beverages will be provided.\n\nFinally, reviews are coming.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Real-Time Meeting/Real-Time Outing",
+   "thread_id": "t3fef380c66",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-15T02:25:39+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/303",
+   "new_text": "Group,\nAnother update on the situation with California.\nCheck out the letter.\nGood questions...",
+   "new_text_source": "new",
+   "subject": "FW: Letter sent to the ISO on creditworthiness",
+   "thread_id": "t4050f082b6",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-14T04:07:18+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/93",
+   "new_text": "Amy,\nHey! Great to hear from you! Hope you are doing well. But...\nWhat are you talking about? Who's on what side?\nAnd what are you trying to recall?\n\nBill",
+   "new_text_source": "new",
+   "subject": "RE: Congratulations!",
+   "thread_id": "t407624078d",
+   "to": [
+    "amy.fitzpatrick@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-27T02:24:17+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/466",
+   "new_text": "Group,\nWe are long 25 mws on peak for 06/27/01 in SP-15.  This should be in CAPS under ST-WBOM, deals should be under ST-WBOM in Enpower as well.\n\nBill",
+   "new_text_source": "new",
+   "subject": "Length for Wednesday",
+   "thread_id": "t41731e0a7b",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-13T19:50:28+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/505",
+   "new_text": "Virginia, \nI have no idea.\nI would recommend checking with Cara...she's omniscient.\nGood luck.\n\nB",
+   "new_text_source": "new",
+   "subject": "RE: Do you know who..",
+   "thread_id": "t41accdfa5d",
+   "to": [
+    "virginia.thompson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-20T18:15:26+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/45",
+   "new_text": "-----Original Message-----\nFrom: \tGeneral Announcement/Corp/Enron@ENRON   On Behalf Of Enron General Announcements@ENRON\nSent:\tMonday, December 17, 2001 2:05 PM\nTo:\tAll Enron Worldwide@ENRON\nSubject:\tATTENTION: Changes in Remote Access\n\n\nPlease be aware that remote connectivity into the  Enron network has changed, IPASS is no longer available. Remote Connectivity into Enron may be obtained by using the eConnect solution.  Authorization to use eConnect may be requested via the eRequest system (you will find a link to eRequest on http://itcentral.enron.com).\n\nEmail is accessible from any computer with internet connectivity by logging into Outlook Web Access http:\\\\mail.enron.com with your NT login ID and password. Accessing OWA does not require an eConnect connection.\n\nPlease direct all questions or concerns to the Resolution Center at 713-853-1411\nETS customers should direct inquiries to the ETS Solution Center at 713-345-4745\n\nWe appreciate your cooperation in advance",
+   "new_text_source": "body",
+   "subject": "FW: ATTENTION: Changes in Remote Access",
+   "thread_id": "t41da692d4e",
+   "to": [
+    "wjwilliams3@hotmail.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-31T00:34:55+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/343",
+   "new_text": "Group,\n\nA quick reminder. The cell phones are for group member to group member usage.  As such, calling between group members, and our 1-800-684-1336 number is free.  We have 200 minutes each for use in calling other members of the West Desk on work related matters.  Over the past two months we have greatly exceeded our allowable minutes per month.  Some members of the group have exceeded their allotment by over 200 minutes per month!    Group member to group member usage is approximately 45-90 minutes per month-and this is not calculated in the minutes used.  If you want to use this phone as your only phone, let me know, and we will work out a calling and billing plan for you. \n\nThank you,\nB",
+   "new_text_source": "new",
+   "subject": "Reminder-Cell Phone Usage",
+   "thread_id": "t420f85a5de",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-21T20:25:31+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/224",
+   "new_text": "Geir,\nYou should be receiving an email regarding access to EOL. If you have any questions about getting set up just let me know.\nBill",
+   "new_text_source": "new",
+   "subject": "EOL access",
+   "thread_id": "t42eb7f0335",
+   "to": [
+    "geir.solberg@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-05T20:59:12+00:00",
+   "from": "marketopshourahead@caiso.com",
+   "msg_id": "williams-w3/inbox/34",
+   "new_text": "HA market HE's 0700-1100 GMM's and TMM's have been re-published.  You may\nnow view the GMM's and TMM's for the HA market,  2/5/02, HE's 0700-1100.\nSent by Market Operations, inquiries please call the Hour Ahead Desk.",
+   "new_text_source": "new",
+   "subject": "HA market HE's 0700-1100 GMM's and TMM's re-published",
+   "thread_id": "t43419ab3d4",
+   "to": [
+    "mktstathourahead@caiso.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-02T19:57:52+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/35",
+   "new_text": "Good morning. Hope your new year is off to a great start!",
+   "new_text_source": "new",
+   "subject": "Model for 12-28",
+   "thread_id": "t43d421415a",
+   "to": [
+    "kpeterso@epelectric.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-31T02:06:16+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/133",
+   "new_text": "Thanks,\nAnd sorry again about the stairwell--did you actually get stuck in there?",
+   "new_text_source": "new",
+   "subject": "RE: El Paso Annuities - 2000",
+   "thread_id": "t44acf56d5b",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  }
+ ]
+}

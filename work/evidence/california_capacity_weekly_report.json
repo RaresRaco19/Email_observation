@@ -1,0 +1,351 @@
+{
+ "allowed_figures": [
+  "$110",
+  "$1,320",
+  "$85"
+ ],
+ "allowed_types": [
+  "sop",
+  "email"
+ ],
+ "messages": [
+  {
+   "date": "2001-10-26T14:22:26+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/inbox/10",
+   "new_text": "Transwestern's average deliveries to California were 945 MMBtu/d (87%), with San Juan lateral throughput at 865 MMBtu/d.  Total East deliveries averaged 525 MMBtu/d.  \n\nEl Paso's average deliveries to California were 1782 MMBtu/d (66%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 667 MMBtu/d (59%)\n- SoCalEhr, capacity 1042 MMBtu/d, deliveries of 707 MMBtu/d (68%)\n- SoCalTop, capacity 512 MMBtu/d, deliveries of 408 MMBtu/d (80%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  3.03 (+.69)\n\tPG&E, large pkgs\t  3.02 (+.67)\n\tTW San Juan\t\t  n/a    \n\tTW Permian\t\t  2.86 (+.695)\n\nEnron Online bases:\n\t\tNov-Mar\t\tApr-Oct\nPerm-CA\t.17 (+.02)\t    \t.26 (+.03)\nSJ - CA\t.27 (+.03)  \t       \t.44 (+.03)\nSJ-Waha\t.14 (+.02)\t       \t.22 (even)\t\nPerm-Waha\t.04 (+.01)                 \t.04 (even)",
+   "quote": "Friday's posted Gas Daily prices:",
+   "stall": true,
+   "subject": "California Capacity Report for Week of 10/22-10/26",
+   "thread_id": "tffcb3264ad",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2001-12-14T19:37:51+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/18",
+   "new_text": "Transwestern's average deliveries to California were 1122 MMBtu/d (103%), with San Juan lateral throughput at 844 MMBtu/d.  Total East deliveries averaged 270 MMBtu/d.  \n\nEl Paso's average deliveries to California were 2198 MMBtu/d (75%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 696 MMBtu/d (61%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 1022 MMBtu/d (82%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 480 MMBtu/d (89%)\n\nThursday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.715 (+.35)\n\tPG&E, large pkgs\t  2.61 (+.37)\n\tTW San Juan\t\t  2.35 (+.55)    \n\tTW Permian\t\t  2.48 (+.615)\n\nEnron basis:\n\t\t\tJan\t\t\nPerm-CA\t\t.135\t   \t\nSJ- CA\t\t\t.255      \t\nSJ-Waha\t\t.15\nPerm-Waha\t\t.03",
+   "quote": "Transwestern's average deliveries to California were 1122 MMBtu/d (103%), with San Juan lateral throughput at 844 MMBtu/d.",
+   "stall": false,
+   "subject": "California Capacity Report for Week of 12/10-12/14",
+   "thread_id": "t0058bb42c3",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2001-12-21T17:22:54+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/67",
+   "new_text": "Transwestern's average deliveries to California were 1059 MMBtu/d (97%), with San Juan lateral throughput at 839 MMBtu/d.  Total East deliveries averaged 292 MMBtu/d.  \n\nEl Paso's average deliveries to California were 2064 MMBtu/d (70%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 692 MMBtu/d (61%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 910 MMBtu/d (73%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 462 MMBtu/d (86%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.575 (-.14)\n\tPG&E, large pkgs\t  2.545 (-.065)\n\tTW San Juan\t\t   n/a    \n\tTW Permian\t\t  2.30 (-.18)\n\nEnron basis:\tn/a",
+   "quote": "Transwestern's average deliveries to California were 1059 MMBtu/d (97%), with San Juan lateral throughput at 839 MMBtu/d.",
+   "stall": false,
+   "subject": "California Capacity Report for Week of 12/17-12/21",
+   "thread_id": "t0b1cb54f59",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2001-12-28T15:08:49+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/63",
+   "new_text": "Transwestern's average deliveries to California were 959 MMBtu/d (88%), with San Juan lateral throughput at 827 MMBtu/d.  Total East deliveries averaged 398 MMBtu/d.  \n\nEl Paso's average deliveries to California were 2122 MMBtu/d (72%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 653 MMBtu/d (57%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 979 MMBtu/d (78%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 490 MMBtu/d (90%)\n\nThursday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.885 (+.31)\n\tPG&E, large pkgs\t  2.84 (+.295)\n\tTW San Juan\t\t   n/a    \n\tTW Permian\t\t  2.74 (+.44)\n\nEnron basis:\tn/a",
+   "quote": "Transwestern's average deliveries to California were 959 MMBtu/d (88%), with San Juan lateral throughput at 827 MMBtu/d.",
+   "stall": false,
+   "subject": "California Capacity Report for Week of 12/26-12/28",
+   "thread_id": "t9bc718c44d",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2002-01-04T16:42:43+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/55",
+   "new_text": "Transwestern's average deliveries to California were 840 MMBtu/d (77%), with San Juan lateral throughput at 829 MMBtu/d.  Total East deliveries averaged 491 MMBtu/d.  \n\nEl Paso's average deliveries to California were 1568 MMBtu/d (54%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 426 MMBtu/d (37%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 713 MMBtu/d (57%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 429 MMBtu/d (79%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.35 (-.535)\n\tPG&E, large pkgs\t  2.29 (-.55)\n\tTW San Juan\t\t   n/a    \n\tTW Permian\t\t  2.27 (-.47)\n\nEnron basis:\tn/a",
+   "quote": "Transwestern's average deliveries to California were 840 MMBtu/d (77%), with San Juan lateral throughput at 829 MMBtu/d.",
+   "stall": false,
+   "subject": "California Capacity Report for Week of 12/31-01/04",
+   "thread_id": "t3218233662",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2002-01-11T17:02:07+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "followup",
+   "msg_id": "lokay-m/sent_items/46",
+   "new_text": "Sorry, the effective date for this new report is 01/07-01/11.",
+   "quote": "Sorry, the effective date for this new report is 01/07-01/11.",
+   "stall": false,
+   "subject": "RE: California Capacity Report for Week of 01/07-01/11",
+   "thread_id": "tfbe074dc54",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2002-01-18T20:02:50+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/40",
+   "new_text": "Transwestern's average deliveries to California were 854 MMBtu/d (78%), with San Juan lateral throughput at 844 MMBtu/d.  Total East deliveries averaged 473 MMBtu/d.  \n\nEl Paso's average deliveries to California were 1783 MMBtu/d (61%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 374 MMBtu/d (33%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 954 MMBtu/d (76%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 455 MMBtu/d (84%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.345 (+.21)\n\tPG&E, large pkgs\t  2.28 (+.19)\n\tTW San Juan\t\t  2.20 (+.19)   \n\tTW Permian\t\t  2.225 (+.185)\n\nEnron basis:\tn/a",
+   "quote": "Transwestern's average deliveries to California were 854 MMBtu/d (78%), with San Juan lateral throughput at 844 MMBtu/d.",
+   "stall": false,
+   "subject": "California Capacity Report for Week of 01/14-01/18",
+   "thread_id": "t8446081d95",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2002-01-24T15:22:04+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/30",
+   "new_text": "Transwestern's average deliveries to California were 933 MMBtu/d (86%), with San Juan lateral throughput at 864 MMBtu/d.  Total East deliveries averaged 452 MMBtu/d.  \n\nEl Paso's average deliveries to California were 1954 MMBtu/d (67%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 502 MMBtu/d (44%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 954 MMBtu/d (76%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 498 MMBtu/d (92%)\n\nThursday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.155 (-.19)\n\tPG&E, large pkgs\t  2.13 (-.15)\n\tTW San Juan\t\t  2.025 (-.175)   \n\tTW Permian\t\t  1.985 (-.24)\n\nEnron basis:\tn/a",
+   "quote": "Transwestern's average deliveries to California were 933 MMBtu/d (86%), with San Juan lateral throughput at 864 MMBtu/d.",
+   "stall": false,
+   "subject": "California Capacity Report for Week of 01/21-01/25",
+   "thread_id": "t94e481c5b1",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2002-02-01T16:17:21+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/79",
+   "new_text": "Transwestern's average deliveries to California were 1058 MMBtu/d (97%), with San Juan lateral throughput at 864 MMBtu/d.  Total East deliveries averaged 306 MMBtu/d.  \n\nEl Paso's average deliveries to California were 1994 MMBtu/d (68%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 598 MMBtu/d (55%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 909 MMBtu/d (73%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 487 MMBtu/d (90%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.18 (+.025)\n\tPG&E, large pkgs\t  2.18 (+.05)\n\tTW San Juan\t\t  n/a   \n\tTW Permian\t\t  2.07 (+.085)",
+   "quote": "Transwestern's average deliveries to California were 1058 MMBtu/d (97%), with San Juan lateral throughput at 864 MMBtu/d.",
+   "stall": false,
+   "subject": "California Capacity Report for Week of 01/28-02/01",
+   "thread_id": "t612779bb47",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2002-02-08T15:26:16+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/86",
+   "new_text": "Transwestern's average deliveries to California were 1011 MMBtu/d (93%), with San Juan lateral throughput at 872 MMBtu/d.  Total East deliveries averaged 337 MMBtu/d.  \n\nEl Paso's average deliveries to California were 2065 MMBtu/d (71%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 542 MMBtu/d (48%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 1035 MMBtu/d (83%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 488 MMBtu/d (90%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.16 (-.02)\n\tPG&E, large pkgs\t  2.15 (-.03)\n\tTW San Juan\t\t  2.01   \n\tTW Permian\t\t  2.03 (-.04)",
+   "quote": "Transwestern's average deliveries to California were 1011 MMBtu/d (93%), with San Juan lateral throughput at 872 MMBtu/d.",
+   "stall": true,
+   "subject": "California Capacity Report for Week of 02/04-02/08",
+   "thread_id": "tfd49ac0419",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2002-02-14T14:50:40+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/97",
+   "new_text": "Transwestern's average deliveries to California were 972 MMBtu/d (89%), with San Juan lateral throughput at 851 MMBtu/d.  Total East deliveries averaged 403 MMBtu/d.  \n\nEl Paso's average deliveries to California were 2075 MMBtu/d (71%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 573 MMBtu/d (50%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 1010 MMBtu/d (81%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 492 MMBtu/d (91%)\n\nThursday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.345 (+.185)\n\tPG&E, large pkgs\t  2.335 (+.185)\n\tTW San Juan\t\t  2.20 (+.19)   \n\tTW Permian\t\t  2.215 (+.185)",
+   "quote": "Transwestern's average deliveries to California were 972 MMBtu/d (89%), with San Juan lateral throughput at 851 MMBtu/d.",
+   "stall": false,
+   "subject": "California Capacity Report for Week of 02/11-02/15",
+   "thread_id": "t30620f7705",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2002-02-22T14:49:19+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/110",
+   "new_text": "Transwestern's average deliveries to California were 1015 MMBtu/d (93%), with San Juan lateral throughput at 873 MMBtu/d.  Total East deliveries averaged 394 MMBtu/d.  \n\nEl Paso's average deliveries to California were 2063 MMBtu/d (70%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 598 MMBtu/d (53%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 1002 MMBtu/d (80%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 463 MMBtu/d (86%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.345 (flat)\n\tPG&E, large pkgs\t  2.30 (-.035)\n\tTW San Juan\t\t  2.19 (-.01)   \n\tTW Permian\t\t  2.215 (flat)",
+   "quote": "Transwestern's average deliveries to California were 1015 MMBtu/d (93%), with San Juan lateral throughput at 873 MMBtu/d.",
+   "stall": false,
+   "subject": "California Capacity Report for Week of 02/19-02/22",
+   "thread_id": "t3d1abad77e",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2002-03-01T15:42:09+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/117",
+   "new_text": "Transwestern's average deliveries to California were 815 MMBtu/d (75%), with San Juan lateral throughput at 879 MMBtu/d.  Total East deliveries averaged 596 MMBtu/d.  \n\nEl Paso's average deliveries to California were 1790 MMBtu/d (61%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 534 MMBtu/d (47%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 804 MMBtu/d (64%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 452 MMBtu/d (84%)\n\nThursday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.34 (-.005)\n\tPG&E, large pkgs\t  2.285 (-.015)\n\tTW San Juan\t\t  2.18 (-.01)   \n\tTW Permian\t\t  2.295 (+.08)",
+   "quote": "Transwestern's average deliveries to California were 815 MMBtu/d (75%), with San Juan lateral throughput at 879 MMBtu/d.",
+   "stall": false,
+   "subject": "California Capacity Report for Week of 02/25-03/01",
+   "thread_id": "t5f84749c1e",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2002-03-08T14:58:48+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/131",
+   "new_text": "Transwestern's average deliveries to California were 874 MMBtu/d (80%), with San Juan lateral throughput at 862 MMBtu/d.  Total East deliveries averaged 451 MMBtu/d.  \n\nEl Paso's average deliveries to California were 1985 MMBtu/d (68%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 590 MMBtu/d (52%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 930 MMBtu/d (74%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 465 MMBtu/d (86%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.725 (+.385)\n\tPG&E, large pkgs\t  2.68 (+.395)\n\tSan Juan (non-Bondad)\t  2.565 (+.385)   \n\tTW Permian\t\t  2.54 (+.245)",
+   "quote": "Transwestern's average deliveries to California were 874 MMBtu/d (80%), with San Juan lateral throughput at 862 MMBtu/d.",
+   "stall": false,
+   "subject": "California Capacity Report for Week of 03/04-03/08",
+   "thread_id": "t4989f973ca",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  },
+  {
+   "date": "2002-03-15T14:53:48+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "report",
+   "msg_id": "lokay-m/sent_items/146",
+   "new_text": "Transwestern's average deliveries to California were 989 MMBtu/d (91%), with San Juan lateral throughput at 877 MMBtu/d.  Total East deliveries averaged 405 MMBtu/d.  \n\nEl Paso's average deliveries to California were 2136 MMBtu/d (73%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 615 MMBtu/d (54%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 1011 MMBtu/d (81%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 510 MMBtu/d (94%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.805 (+.08)\n\tPG&E, large pkgs\t  2.81 (+.13)\n\tSan Juan (non-Bondad)\t  2.69 (+.125)   \n\tTW Permian\t\t  2.64 (+.10)",
+   "quote": "Friday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.805 (+.08)",
+   "stall": false,
+   "subject": "California Capacity Report for Week of 03/11-03/15",
+   "thread_id": "t08b60970b1",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ]
+  }
+ ],
+ "opportunity": {
+  "action_idea": "A weekly scheduled job pulls the delivery, utilization and Gas Daily price figures and generates the California Capacity Report in the existing format for distribution. An analyst only reviews the draft and adds commentary before it is sent.",
+  "confidence": {
+   "active_months": 5,
+   "mailboxes": 1,
+   "quotes": 17,
+   "stall_share": 0.12,
+   "threads": 16
+  },
+  "description": "Commercial staff compile and email a weekly report of Transwestern and El Paso California deliveries, utilization and posted Gas Daily prices.",
+  "formula": "17 messages / 5.92 months observed (lokay-m) = 2.87/month; x 45 min median handling x 60% automatable = 1.3 h/month; x $85/h = $110/month",
+  "hours_month": 1.3,
+  "id": "california_capacity_weekly_report",
+  "kinds": {
+   "followup": 1,
+   "report": 16
+  },
+  "mailboxes": [
+   "lokay-m"
+  ],
+  "median_minutes": 45,
+  "messages": 17,
+  "messages_per_month": 2.87,
+  "name": "Weekly California Capacity Report",
+  "participants": [
+   {
+    "address": "michelle.lokay@enron.com",
+    "messages": 33
+   },
+   {
+    "address": "steven.harris@enron.com",
+    "messages": 17
+   },
+   {
+    "address": "kimberly.watson@enron.com",
+    "messages": 17
+   },
+   {
+    "address": "lorraine.lindberg@enron.com",
+    "messages": 17
+   },
+   {
+    "address": "tk.lohman@enron.com",
+    "messages": 17
+   },
+   {
+    "address": "lindy.donoho@enron.com",
+    "messages": 17
+   },
+   {
+    "address": "mark.mcconnell@enron.com",
+    "messages": 17
+   },
+   {
+    "address": "paul.y'barbo@enron.com",
+    "messages": 17
+   }
+  ],
+  "remedy": "automation",
+  "stall": {
+   "flagged_messages": 2,
+   "max_gap_hours": 165.8,
+   "median_gap_hours": 165.8
+  },
+  "threads": 16,
+  "usd_month": 110,
+  "usd_year": 1320
+ }
+}

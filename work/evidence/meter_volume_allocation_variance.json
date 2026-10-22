@@ -1,0 +1,312 @@
+{
+ "allowed_figures": [
+  "$91",
+  "$1,092",
+  "$85"
+ ],
+ "allowed_types": [
+  "sop",
+  "email"
+ ],
+ "messages": [
+  {
+   "date": "1999-12-27T17:16:00+00:00",
+   "from": "stella.morris@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/617",
+   "new_text": "Howard - the above meter indicates a daily swing with no one in Volume \nManagement's initials in OSS.  I need some information for Daren before it \ncan be determined if a deal should be set up to cover the 089 contract for \n11/97 forward.\n\nI've done some research as follows:\n\n1/95 shows delivery on transport contract #012-82269-02-002 (Southeastern \nMarketing Co. as counterparty)\n\n1/96 thru 10/31/97 shows delivery on transport contract #012-27182-02-001 \n(Esperanza Marketing Corp as counterparty).\n\n11/97 thru 12/97 shows delivery on 089-41500-102\n\n1/98 shows delivery on  089-41500-101\n\nNo other transactions at this meter since 1/98.\n\nSome questions I need answered are - why was volume allocated to transport \ncontracts through 10/31/97 and then started to be allocated to the 089 \ncontract later?  Are the transport contracts no longer valid to allocate to \nand is that the reason the 089 contract was used?   Or should the transport \ncontract be allocated to instead of the 089 contract for 11/97 forward?  Each \nitem indicates a delivered volume, so either a transport  or sale is taking \nplace.  \n\nAll the information that is supplied on the UA4 report is need a contract for \n9,448 MMBTU.\n\nSince the meter was assigned to someone else during this timeframe before it \nwas assigned to me, it's difficult to know why the 089 contract was ever used \nfor allocation and since there are no other records such as deal tickets in \nCPR or OSS.\n\nNeed help, Stella\n\n\n\n\n\n\nDaren J Farmer\n12/22/99 07:14 AM\nTo: Stella L Morris/HOU/ECT@ECT\ncc:  \nSubject: Re: UA4 - Meter 1441 for 11/97 - Falfurrias  \n\nWhat occurred at this point in prior months?  Who was allocated the volume?\n\nD\n\n\n   \n\t\n\t\n\tFrom:  Stella L Morris                           12/16/99 06:04 PM\n\t\n\nTo: Daren J Farmer/HOU/ECT@ECT\ncc: Mary M Smith/HOU/ECT@ECT, Howard B Camp/HOU/ECT@ECT \nSubject: UA4 - Meter 1441 for 11/97 - Falfurrias\n\n\nDaren - I need your help in resolving this issue.  There wasn't any deal in \nOSS for the above reference meter, nor could I find anything in CPR.  The \ncontract shows 089-41500-102 representing a sale in the amount of 9448.\n\n\nThanks, Stella",
+   "quote": "Some questions I need answered are - why was volume allocated to transport \ncontracts through 10/31/97 and then started to be allocated to the 089 \ncontract later?",
+   "stall": true,
+   "subject": "Re: UA4 - Meter 1441 for 11/97 - Falfurrias",
+   "thread_id": "t825dd57764",
+   "to": [
+    "daren.farmer@enron.com",
+    "howard.camp@enron.com"
+   ]
+  },
+  {
+   "date": "1999-12-29T10:07:00+00:00",
+   "from": "howard.camp@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/626",
+   "new_text": "Gary,\nWhat is the status of this?\nHC",
+   "quote": "What is the status of this?",
+   "stall": true,
+   "subject": "Valero 8018 and 1394",
+   "thread_id": "t8881ae5636",
+   "to": [
+    "gary.lamphier@enron.com"
+   ]
+  },
+  {
+   "date": "2000-01-12T14:13:00+00:00",
+   "from": "kimberly.vaughn@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/682",
+   "new_text": "HL&P was short on the following days:\n\nDecember \n\n4th (2256)\n9th (7214)\n11th (2527)\n12th (3537)\n15th (7058)\n16th (4776)\n17th (4465)\n28th (264)\n\nHow do you want to handle this??",
+   "quote": "HL&P was short on the following days:",
+   "stall": false,
+   "subject": "HL&P for 12/99",
+   "thread_id": "t9d677d29cc",
+   "to": [
+    "janet.wallis@enron.com",
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-02-02T08:54:00+00:00",
+   "from": "jackie.young@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/743",
+   "new_text": "Tom,\n\nCan you please seek Daren's advise on nom adjust at the aforementioned meter \ndue to this meter receiving 19 mmbtu's on a 28 nom?\n\nDaren, there are two Sitara deal numbers associated w/this receipt meter \n(both gathering) 154608 and 138572.  138572 is Wellhead gas.\n\nThanks\n-Jackie-",
+   "quote": "Can you please seek Daren's advise on nom adjust at the aforementioned meter",
+   "stall": false,
+   "subject": "98-9794 (Saxet Thompsonville) Receiving Under Nom",
+   "thread_id": "t79da162358",
+   "to": [
+    "tom.acton@enron.com"
+   ]
+  },
+  {
+   "date": "2000-03-01T16:51:00+00:00",
+   "from": "kimberly.vaughn@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/861",
+   "new_text": "Daren..  Have you had a chance to look at this yet?",
+   "quote": "Have you had a chance to look at this yet?",
+   "stall": true,
+   "subject": "Re: meter 986315 Torch Rally/El Sordo 1/00",
+   "thread_id": "t39a723d07c",
+   "to": [
+    "sherlyn.schumack@enron.com",
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-03-13T14:09:00+00:00",
+   "from": "robert.lloyd@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/902",
+   "new_text": "Effective March 11th  Valero has not pulled any gas on a 35.0/day \nnomination.\n \n  Do you want to arrange a buyback for this activity. There is a buyback \nticket { # 148381} available\n  to handle any underage.\n \n  I am being told this interconnect will be down 2-weeks; effective March \n11th.",
+   "quote": "Effective March 11th Valero has not pulled any gas on a 35.0/day nomination.",
+   "stall": false,
+   "subject": "Valero Gas Marketing ; Meter #: 8018 / Sitara Ticket # 148376",
+   "thread_id": "t159a53ae8d",
+   "to": [
+    "gary.lamphier@enron.com",
+    "stacey.neuweiler@enron.com",
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-03-21T08:58:00+00:00",
+   "from": "kenny.soignet@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/924",
+   "new_text": "The Cilco volumes are different than the confirmed volumes to Cilco.  Please \nreview the attached the spreadsheets from Lisa Kinsey, the central desk \nscheduler responsible for the Cilco account.  The biggest variance is in \nJanuary 2000.  Cilco withdrew 200,000 mmbtu's more than we booked @ bammel.  \nPlease let me know the best way to correct the problem.  I suspect the \nvariance is showing up as a transport imbalance.  Also, the nomination for \nthe current month is 7,327 mmbtu instead of 7,000 mmbtu per day.  7,000 is \nthe volume delivered to Cilco after transport fuel.\n \n---------------------",
+   "quote": "The Cilco volumes are different than the confirmed volumes to Cilco.  Please \nreview the attached the spreadsheets from Lisa Kinsey",
+   "stall": false,
+   "subject": "CILCO STORAGE",
+   "thread_id": "t081bc5f5e8",
+   "to": [
+    "daren.farmer@enron.com",
+    "aimee.lannou@enron.com",
+    "george.grant@enron.com",
+    "fred.boas@enron.com"
+   ]
+  },
+  {
+   "date": "2000-03-21T09:04:00+00:00",
+   "from": "lauri.allen@enron.com",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/925",
+   "new_text": "In reviewing some of the imbalance numbers, I discovered that Valero Texoma \n(#71) BAV volumes have not fed into POPS since 3/14 causing an out of balance \nat the meter in excess of 500,000mm month to date.  The more critical part of \nthis problem, however, is that POPS has fed 0 volumes back to Sitara on some \nof the HPLC deals.  This means that these purchase volumes (expenses) have \nnot been picked up in Tom's P&L and are, instead, sitting in UA4.  To the \nextent that the purchase prices vary from the UA4 value, the P&L may take a \nhit when these actual volumes flow through.\n\nI realize that Kim is out and that you guys are stretched thin, however, a \nproblem of this magnitude needs to be addressed as soon as it's discovered.  \nSomeone needs to be overriding the 0 volumes so that Sitara is receiving \ncorrect information and the P&L is kept as accurate as possible.\n\nPlease give me a call if you have any questions.",
+   "quote": "Someone needs to be overriding the 0 volumes so that Sitara is receiving correct information and the P&L is kept as accurate as possible.",
+   "stall": true,
+   "subject": "PG&E Texoma Volumes",
+   "thread_id": "t9357c72c4b",
+   "to": [
+    "robert.lloyd@enron.com",
+    "tom.acton@enron.com",
+    "charlotte.hawkins@enron.com"
+   ]
+  },
+  {
+   "date": "2000-04-04T15:19:00+00:00",
+   "from": "robert.lloyd@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/1013",
+   "new_text": "This is a follow up to the note I gave you on Monday, 4/3/00 { preliminary  \nflow data provided by Daren}.\n\n Please override POP'S  daily volume{ presently zero}  to reflect  daily \nactivity you can obtain from Gas Control.\n \n This change is needed  ASAP for economics purposes.",
+   "quote": "This change is needed  ASAP for economics purposes.",
+   "stall": true,
+   "subject": "Enron Methanol ; Meter #: 988291",
+   "thread_id": "t5a59154165",
+   "to": [
+    "charlotte.hawkins@enron.com"
+   ]
+  },
+  {
+   "date": "2000-04-13T13:33:00+00:00",
+   "from": "jackie.young@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/1038",
+   "new_text": "Fred,\n\nI spoke w/Karry this morning on this issue and it appears as if this gas will \nbe purchased by HPLC as wellhead.\n\nI'm waiting for Karry to phone me back, after he's spoken w/Legal, before I \ngive you a concrete answer.\n\nThanks\n-Jackie-\n3-9497",
+   "quote": "I'm waiting for Karry to phone me back, after he's spoken w/Legal, before I give you a concrete answer.",
+   "stall": true,
+   "subject": "February and March 2000 Meter 5688",
+   "thread_id": "tdca33c2402",
+   "to": [
+    "fred.boas@enron.com"
+   ]
+  },
+  {
+   "date": "2000-06-07T12:50:00+00:00",
+   "from": "howard.camp@enron.com",
+   "kind": "report",
+   "msg_id": "farmer-d/logistics/1185",
+   "new_text": "Below is a list of the major items that are still outstanding on the \ninterdesk/interconnect report for 1999 and 2000 that is impacting the \nintercompany cleanup for SAP implementation.  These issues have been \naddressed in earlier E-Mails and this is an updated list of issues that need \nto be completed by June 19, 2000.\n\n\n1) King Ranch interstates - Fred and Stella are working with Exxon to \nreconcile from Oct 1999 - Apr 2000 the interstate nominations for Tennessee \nand NGPL and also for Tejas.\n                             \n2) Tetco Meter 6892 -  Question of who has custody transfer at the meter.  \nENA is using Tetco's  volume and HPLC is using the HPL Measurement volume, \ncausing a desk to desk variance.\n                                            Clem and Pat are working on.\n\n3) Transco Bammel  Meter 74 - Transco and HPL's nominations are out of \nbalance at Meter 74. Charlotte needs to work with Transco to resolve.\n\n4) Dow  Meter 4486 - The sale to Entex needs to be taken off of HPLC meter \n4486 and the sale needs to be at Dow Meter 4486.  \n                                          A desk to desk between ENA (buyer) \nand HPLC (seller) needs to be set up on Dow Meter 4486.\n                                          Ami needs to set up the deals and \nThu needs to coordinate the months involved.\n\n                                          Once this is done and Thu \nreallocates to Dow Pipeline, Jackie needs to zero out the confirmed noms and \nmake the meter non allocatable in Pops.\n                                          Clem verified with Steve Schneider \nthat this meter is not on HPL's system.\n\n5) East Texas Gas / Devon     - Devon invoicing ENA entire flow at Carthage.\n     Meter 4607701                           East Texas keeping HPLC whole on \nnominations\n                                                             Desk to desk \ndeal is out of balance because of this \n                                                             Karen is working \nwith Pennzoil and East Texas to reach agreement on how to handle this issue \nbetween them\n          \n\n6) PGEV -  Actuals on swing meters (HPL ) not matching expense volumes being \nallocated by PGEV.  \n                    Sherlyn is working with Stacey and Charlotte to resolve.\n\n7) Pan Energy Sales issues - discrepancies on PGEV.  Katherine and Sherlyn \nare working with Stacey  to resolve.",
+   "quote": "this is an updated list of issues that need \nto be completed by June 19, 2000.",
+   "stall": true,
+   "subject": "Interconnect / Intercompany issues",
+   "thread_id": "tc5da9f0a21",
+   "to": [
+    "rita.wynne@enron.com",
+    "pat.clynes@enron.com",
+    "lisa.csikos@enron.com",
+    "daren.farmer@enron.com",
+    "ami.chokshi@enron.com"
+   ]
+  },
+  {
+   "date": "2000-06-08T09:48:00+00:00",
+   "from": "charlotte.hawkins@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/1191",
+   "new_text": "Daren:\n\nWhen you get a chance, stop by and we'll visit about CP&L...   If we need to \nchange the rankings we'll do it pronto!!\n\nThanks,\n\nCHawkins\n\n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Pat Clynes @ ENRON                           06/08/2000 08:53 AM\n\t\n\nTo: Charlotte Hawkins/HOU/ECT@ECT\ncc:  \nSubject: CP&L\n\nCharlotte,\nPlease verify CP&L back to the first of June.  Darren told me that it is \nallocating incorrectly and it\nis causing part of our UA4 problem for current month.  Please check this out \nasap.  Thanks,  Pat",
+   "quote": "Please verify CP&L back to the first of June. Darren told me that it is allocating incorrectly",
+   "stall": true,
+   "subject": "Re: CP&L",
+   "thread_id": "te7da9efe1b",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-08-23T14:20:00+00:00",
+   "from": "jackie.young@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/1357",
+   "new_text": "Daren,\n\nBelow is Volume Management's answers to Gary's questions.\n\nI'm now awaiting on an e-mail from Gary as to the direction that he is going \nto take.  I will follow suit according to his instructions.  \n\nShould you come aboard, I'll await your decision as well.\n\nAgain, thanks.\n\n-Jackie-\n3-9497",
+   "quote": "I'm now awaiting on an e-mail from Gary as to the direction that he is going \nto take.",
+   "stall": true,
+   "subject": "Meter 984132 for 1/16/99",
+   "thread_id": "t6ef1921c89",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2001-02-21T14:59:00+00:00",
+   "from": "charlene.richmond@enron.com",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/2089",
+   "new_text": "I am getting several phone calls from Alpine Resources demanding to be paid \nfor meter 5892 and there is nothing there to be paid.  \n\nThe person name doing the requesting is John Childers and he said that he \nspoke to Daren Farmer.  He is looking for 859 mmbtu's for December, 2000 and \n3,251 mmbtu's for January 2001 .  This is on the Katy Gas Unit.  If anyone \nwould like to talk to John his phone number is 281-646-0232\n\n\nCharlene\nX31539",
+   "quote": "I am getting several phone calls from Alpine Resources demanding to be paid for meter 5892 and there is nothing there to be paid.",
+   "stall": true,
+   "subject": "Meter 5892",
+   "thread_id": "t43c25da86a",
+   "to": [
+    "fred.boas@enron.com",
+    "daren.farmer@enron.com",
+    "melissa.graves@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-29T21:47:25+00:00",
+   "from": "g..barkowsky@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/102",
+   "new_text": "Daren - what about February 2000?  It doesn't look like it's been pathed for HPL and CHAN.\nPlease let me know.  Thanks, Gloria",
+   "quote": "what about February 2000?  It doesn't look like it's been pathed for HPL and CHAN.",
+   "stall": true,
+   "subject": "RE: EPGT",
+   "thread_id": "t76e1ab7423",
+   "to": [
+    "j..farmer@enron.com"
+   ]
+  }
+ ],
+ "opportunity": {
+  "action_idea": "When meter statements, actuals notices or allocation data arrive, a comparison against nominations and POPS/Sitara allocations produces a variance list by meter and day, above a tolerance. Logistics staff still investigate the flagged meters and decide on reallocation, overrides or paybacks.",
+  "confidence": {
+   "active_months": 20,
+   "mailboxes": 2,
+   "quotes": 111,
+   "stall_share": 0.39,
+   "threads": 76
+  },
+  "description": "Logistics and volume management reconcile differences between nominated, metered, allocated and counterparty-reported volumes at meters, and reallocate or correct volumes before the month is finalized.",
+  "formula": "111 messages / 25.86 months observed (farmer-d, williams-w3) = 4.29/month; x 25 min median handling x 60% automatable = 1.1 h/month; x $85/h = $91/month",
+  "hours_month": 1.1,
+  "id": "meter_volume_allocation_variance",
+  "kinds": {
+   "escalation": 9,
+   "followup": 23,
+   "fulfillment": 22,
+   "fyi": 1,
+   "report": 13,
+   "request": 43
+  },
+  "mailboxes": [
+   "farmer-d",
+   "williams-w3"
+  ],
+  "median_minutes": 25,
+  "messages": 111,
+  "messages_per_month": 4.29,
+  "name": "Meter volume and allocation variance resolution",
+  "participants": [
+   {
+    "address": "daren.farmer@enron.com",
+    "messages": 93
+   },
+   {
+    "address": "howard.camp@enron.com",
+    "messages": 29
+   },
+   {
+    "address": "pat.clynes@enron.com",
+    "messages": 28
+   },
+   {
+    "address": "aimee.lannou@enron.com",
+    "messages": 17
+   },
+   {
+    "address": "sherlyn.schumack@enron.com",
+    "messages": 15
+   },
+   {
+    "address": "jackie.young@enron.com",
+    "messages": 15
+   },
+   {
+    "address": "robert.lloyd@enron.com",
+    "messages": 14
+   },
+   {
+    "address": "fred.boas@enron.com",
+    "messages": 14
+   }
+  ],
+  "remedy": "automation",
+  "stall": {
+   "flagged_messages": 43,
+   "max_gap_hours": 588.7,
+   "median_gap_hours": 16.7
+  },
+  "threads": 76,
+  "usd_month": 91,
+  "usd_year": 1092
+ }
+}

@@ -1,0 +1,829 @@
+{
+ "batch_id": "28ca739bd8af",
+ "context": [],
+ "messages": [
+  {
+   "date": "2000-05-30T11:54:00+00:00",
+   "from": "james.scribner@enron.com",
+   "msg_id": "farmer-d/logistics/1155",
+   "new_text": "Attached please find the Hours Survey and Instructions for the month of May, \n2000.\n\nI am sending the survey out this time as an opportunity to introduce myself \nto those of you I have not yet met.  I am being asked to take a direct roll \nin the further development and rollout of the Operations Pricing Model (fka \nTransaction Cost Model).  In the past, I have directed the implementation of \nseveral pricing systems based on activity based costing similar to the \nOperations Pricing Model (OPM).  Over the past couple of weeks my \nobservations of the Model have lead me to be concerned with the quality of \ndata used in the model.  It will take efforts by both you and the OPM team to \nget to a satisfactory level of data quality.  This process can start with \nthis months data collection efforts.  Please pay particular attention this \nmonth as the \"bar is being raised\" by the management of Energy Operations for \ndata quality and timeliness.\n\nWhile completing the survey, take this time to review last month's numbers. \nPlease return these surveys to Shari Mao by end of day Friday, June 2.  \n\nPlease note the following changes:\nThe Nat Gas RC's will now see deal validation and transportation rate \nactivities therefore, these surveys will be notably longer but will not \nnecessarily take more time\n\nIf the survey does not contain an activity that your team spends time on, \nPLEASE DO NOT TYPE ANY ACTIVITIES IN THE SURVEY.  Contact Jennifer Reside at \n#35971 to discuss how to proceed.\n\nIf you have any questions relating to the model or this survey, or are unable \nto meet the survey due date, please call Jennifer Reside at #35971 (Shari is \non vacation this week).",
+   "new_text_source": "new",
+   "subject": "May Hours Survey",
+   "thread_id": "tf5aab805a1",
+   "to": [
+    "brenda.herod@enron.com",
+    "diane.cook@enron.com",
+    "mary.smith@enron.com",
+    "carolyn.gilley@enron.com",
+    "connie.sutton@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-07T17:56:00+00:00",
+   "from": "brenda.herod@enron.com",
+   "msg_id": "farmer-d/logistics/1188",
+   "new_text": "If you guys remeber, I reminded you all last Tuesday, 5/30, in our staff \nmeeting to be on the look-out for the attached message from James re: 5/00 \nhours.  The deadline was Friday, 6/2, and unfortunately, very few of you \nresponded.  I understand how busy each of you are and you have expressed your \nconcerns on the process burdening you.  However, there are pressures \ninternally to provide information to Sr. Management on a more timely basis.  \nWe need to do our part.  Please respond ASAP, but no later than Thursday, \n6/8.  Please contact Jennifer or Shari if you have any questions or need any \nhelp.\n\nAdditionally, for those of you who are involved in Bridgeline, we will be \npreparing a bid for our services going forward per a discussion I had with \nTrevor yesterday.  Therefore, the May drivers are very critical to that \nprocess also.\n\nSo everyone, please get your info in ASAP.  I appreciate your help.",
+   "new_text_source": "new",
+   "subject": "May Hours Survey",
+   "thread_id": "tf5aab805a1",
+   "to": [
+    "lisa.csikos@enron.com",
+    "daren.farmer@enron.com",
+    "mary.smith@enron.com",
+    "rita.wynne@enron.com",
+    "steve.venturatos@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "1999-12-15T09:28:00+00:00",
+   "from": "melissa.ratnala@enron.com",
+   "msg_id": "farmer-d/logistics/589",
+   "new_text": "The following is the close schedule for this coming month (year-end.)  Please \nkeep in the mind the following key times....\n\nUnify to Sitara bridge back 1:45p.m. Thursday, Dec 30th (all errors must be \nclear by this time)\nMass draft at 6p.m. Thursday evening, Dec 30th.\nAccrual process begins Friday morning, Dec 31st at 6:30a.m.  (If your group \nimpacts the accrual, please ensure that the necessary people are available \nfor support if needed, as this is an Enron holiday.)\n\nPlease feel free to contact me should you have any questions.\nThank you, Melissa x35615",
+   "new_text_source": "new",
+   "subject": "Unify Close Schedule",
+   "thread_id": "tf5f16087f6",
+   "to": [
+    "brent.price@enron.com",
+    "tommy.yanowski@enron.com",
+    "brenda.herod@enron.com",
+    "inja.chun@enron.com",
+    "dave.nommensen@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-03-28T10:07:00+00:00",
+   "from": "melissa.ratnala@enron.com",
+   "msg_id": "farmer-d/logistics/976",
+   "new_text": "The following is our tentative close schedule for this coming month.  Please \nkeep in the mind the following key times....\n\nUnify to Sitara bridge back 1:45p.m. Friday, March 31st (all errors must be \nclear by this time)\nMass draft at 6p.m. Friday evening.\nAccrual process begins Monday, April 3rd at 6a.m.\n\nIf you have any changes to this timeline, please ensure that I am contacted \nas soon as possible.\n\nThank you, \n\nMelissa x35615",
+   "new_text_source": "new",
+   "subject": "Unify Close Schedule",
+   "thread_id": "tf5f16087f6",
+   "to": [
+    "brent.price@enron.com",
+    "tommy.yanowski@enron.com",
+    "brenda.herod@enron.com",
+    "inja.chun@enron.com",
+    "dave.nommensen@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-26T10:01:00+00:00",
+   "from": "aimee.lannou@enron.com",
+   "msg_id": "farmer-d/logistics/1474",
+   "new_text": "Daren - There is flow at meters 6387 & 5192 for Oct. without a nom.\n  \n   Deal  contract  Last month of activity Counterparty\n\n Meter 6387 133179  HPL 215 Sept. 00  Duke Energy Trading  \n\n Meter 5192 269123  ENA 201 Nov. 99   Duke Energy Trading\n\nThanks.\n\nAL",
+   "new_text_source": "new",
+   "subject": "meter 6387 & 5192",
+   "thread_id": "tf6e1d6cecd",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-01T10:01:00+00:00",
+   "from": "aimee.lannou@enron.com",
+   "msg_id": "farmer-d/logistics/1485",
+   "new_text": "Daren - What is the status of meter 6387?\n\nAL",
+   "new_text_source": "new",
+   "subject": "Re: meter 6387 & 5192",
+   "thread_id": "tf6e1d6cecd",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-09T11:39:00+00:00",
+   "from": "aimee.lannou@enron.com",
+   "msg_id": "farmer-d/logistics/1506",
+   "new_text": "Just to let you know, ther is flow for November at meter 5192.  \n\nWhat is the status of meter 6387? \n\nAimee",
+   "new_text_source": "new",
+   "subject": "Re: meter 6387 & 5192",
+   "thread_id": "tf6e1d6cecd",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-05-11T09:08:00+00:00",
+   "from": "brenda.herod@enron.com",
+   "msg_id": "farmer-d/logistics/1103",
+   "new_text": "Please read the attached correspondence from Brent regarding the controls and \nstandards we have been discussing.  Daren, I realize you will not be able to \nattend the morning meeting due to trading.  However, Pat, I would like for \nyou to attend to represent the Gas Logistics role.  Please ensure you and \nDaren have met prior to the meeting, and you are prepared to represent this \nfunctional area.  Thanks.",
+   "new_text_source": "new",
+   "subject": "Houston Gas & Power Controls/Standards Assessment",
+   "thread_id": "tf75e92231d",
+   "to": [
+    "daren.farmer@enron.com",
+    "pat.clynes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-10T10:07:00+00:00",
+   "from": "enron.announcement@enron.com",
+   "msg_id": "farmer-d/logistics/1328",
+   "new_text": "Neither ENA/RAC/EGF employees nor family members or others living in their \nhousehold or financially dependent on the ENA/RAC/EGF employee may purchase \nor sell securities of any entity (or derivatives thereof) listed on the \nRestricted List for your or their personal or related accounts or recommend \nthe purchase or sale of such securities to any person, except with the prior \napproval of the Compliance Department in consultation with the ENA Legal \nDepartment.\n\nIn addition to the trading restrictions above, should you at any time possess \nnon-public material information about any public company, you, your family \nmembers and anybody that is financially dependent on you, are restricted from \ntrading in that issue, and you may not disclose the non-public material \ninformation to anyone that does not have a business need to know.\n\n\nCompany Name Stock Symbol\n\n3 TEC Energy Corp.       TTEN\nActive Power ACPW\nAdrian Resources ADRRF\nBeau Canada Exploration Ltd BAU CN\nBelco Oil & Gas Corporation BOG\nBonus Resource Services Corp BOU\nBrigham Exploration BEXP\nCanFibre Group Ltd. CFGL\nCarrizo Oil & Gas Inc. CRZO\nCostilla Energy COSE\nCrown Energy CROE\nCyNet, Inc. CYNE\nCypress Energy CYZ\nEsenjay Exploration ESNJ\nFirstWorld Communications Inc. FWIS\nHanover Compressor Co. HC\nICE Drilling Enterprises Inc. IDF\nIndustrial Holdings, Inc. IHII\nInland Resources, Inc. INLN\nKafus Environmental Industries, Inc. KS\nNakornthai Strip Mill Public Co Ltd NSM SET\nPaladin Resources PLC PLR LD \nParadigm Geophysical PGEOF\nPlace Resources, Inc. PLG CN\nQuanta Services Inc. PWR\nQueen Sand Resources, Inc. QSRI\nQuicksilver Resources Inc. KWK\nSaxon Petroleum, Inc. SXN CN\nSouthwest Royalties SWROY\nStartech SEH CN\nSyntroleum Corp. SYNM\nTejon Ranch Corp. TRC\nTetonka Drilling TDI\nTransCoastal Marine Services, Inc. TCMS\n\n\nThe Restricted List is solely for the internal use of ENA/RAC/EGF.  No one \nmay engage in discussions regarding whether a security is or is not on the \nRestricted List with persons outside ENA/RAC/EGF without specific clearance \nfrom the Compliance Department in consultation with the ENA Legal Department.\n\nIn addition to the above, you are reminded that pursuant to Enron Corp.'s \nRisk Management Policy (\"Policy\"), no ENA/RAC/EGF employee may engage in the \ntrading of any \"Position\"  (\"Position\" means any  commodity, financial \ninstrument, security, equity, financial asset or liability that are \nauthorized for trading in \nthe                                                                           \n                                                                              \n                                                                              \n                                                                             \nPolicy for the benefit of any party other than ENA/RAC/EGF, whether for \nhis/her own account or the account of any third party, where such Position \nrelates to (i) any commodity,  financial instrument, security, equity, \nfinancial asset or liability which falls within such employee's \nresponsibility at ENA/RAC/EGF or (ii) any energy commodity.\n\nThe prohibitions listed above do not replace or modify the policies set forth \nin ENA's Policies and Procedures Regarding Confidential Information and \nSecurities Trading, Enron Corp.'s Risk Management Policy, or Enron Corp.'s \nConduct of Business Affairs.  Should you have any questions regarding the \nabove, please contact me at ext. 31939.",
+   "new_text_source": "new",
+   "subject": "Restricted List",
+   "thread_id": "tf761fd0987",
+   "to": [
+    "restricted.list@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-29T07:24:00+00:00",
+   "from": "thomas.engel@enron.com",
+   "msg_id": "farmer-d/logistics/1371",
+   "new_text": "All except for last one rollled due to evergreen.  When you convert to ENA - \nIM Texas - don't forget to remove the evergreen flag on the old ECT - IM Waha \ndeals.",
+   "new_text_source": "new",
+   "subject": "Re: ECT - IM WAHA ???",
+   "thread_id": "tf856033589",
+   "to": [
+    "elizabeth.hernandez@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-23T15:00:20+00:00",
+   "from": "rita.wynne@enron.com",
+   "msg_id": "farmer-d/logistics/39",
+   "new_text": "fyi............\n\n -----Original Message-----\nFrom: \tMajorwitz, Buddy  \nSent:\tTuesday, October 23, 2001 9:55 AM\nTo:\tOlsen, Michael\nCc:\tWynne, Rita; Schumack, Sherlyn\nSubject:\tMeter 98-7266; May 2001 Texas General Land Fuel Volume\n\nMike,\n\nAs you may recall, this meter needs to be set up for May 2001 just as it was for April 2001.  Below is a screen print of what April 2001 looks like.  When you had previously attempted to set this meter up, I believe it wouldn't let you because of one (or both?) of the contracts being canceled or expired.  I have inquired as to what can be done and have learned that you can contact Global Counterparties and have them temporarily set the contract(s) back up for a short period to give us time run the volumes through the system.  As I am unfamiliar with this process and the Global Counterparty personnel, I do not have a contact for you.  Hopefully this is something you may have had to do in the past.  Since this is a call-out meter, I can enter the actual volumes in once the contracts are set up and appear for May 2001.  In case you need to enter them, the volume should be as follows:\n\nContract 012-41500-05-002 \tHPL \t\tInjection     16,149\nContract 012-88494-05-001 \tTX Genl Land \tWithdrawal 16,149 \n\nI have been advised that this volume needs to be entered by the end of October if at all possible, therefore, your prompt attention to this matter would be most appreciated.  If you have any questions, please don't hesitate to give me a call.\n\nBuddy\nX-31933\n\n \n\n\n\n\n\n\n<Embedded Picture (Metafile)>",
+   "new_text_source": "body",
+   "subject": "FW: Meter 98-7266; May 2001 Texas General Land Fuel Volume",
+   "thread_id": "tf8649a511e",
+   "to": [
+    "j..farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-01-18T15:41:00+00:00",
+   "from": "julie.meyers@enron.com",
+   "msg_id": "farmer-d/logistics/694",
+   "new_text": "Heads up on this.  They will be putting in a firm ticket starting in January.\n\nI have explained what a problem this causes your group, and we are working on \na solution.  Unfortanuately, this whole thing was missed, until Susan started \nasking for a ticket.\n\nJulie",
+   "new_text_source": "new",
+   "subject": "Re: Meter 989614",
+   "thread_id": "tf92e4fcfc5",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-24T02:23:00+00:00",
+   "from": "cheryl.dudley@enron.com",
+   "msg_id": "farmer-d/logistics/211",
+   "new_text": "Attached is the April 2001 Assignment, Termination & Expiration Report for Houston Pipe Line's contracts.  (FYI - It contains all of the entries made by our group since the report was last done on 3/8/01, regardless of the effective date.)  If you do not need to receive this report or if you know of someone else that should receive it, please let me know by e-mail or phone (x-36982) so that I can either remove your name from or add their name to the distribution list.",
+   "new_text_source": "new",
+   "subject": "04/01 Assignment, Termination, Expiration Report - Houston Pipe Line",
+   "thread_id": "tf958eac6e1",
+   "to": [
+    "lauri.allen@enron.com",
+    "debbie.brackett@enron.com",
+    "clem.cernosek@enron.com",
+    "robert.cotten@enron.com",
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-08T13:35:00+00:00",
+   "from": "clem.cernosek@enron.com",
+   "msg_id": "farmer-d/logistics/2034",
+   "new_text": "Daren:\n\nDuring the period of 12/1/99 through 3/31/00 gas flowed into HPL's pipeline \nat the above meter.  The gas volumes that flowed are as follows:\n\n12/1/99 - 12/31/99                   1,457  Mmbtus\n01/1/00 - 01/31/00                         49  Mmbtus\n02/1/00 - 02/29/00               7  Mmbtus\n03/1/00 - 03/31/00               4  Mmbtus\n\n         1,517  Mmbtus\n\nPrior to 12/1/99, the volumes were being purchased from High Sierra Operating \nLLC under contract #96003435  Deal #26611 which have terminated.  Currently, \nLogistics has these volumes recorded to HPL Stranger Gas Contract.  In order \nto correct this, HPL Logistics needs either a new deal to record these \nvolumes which have flowed into HPL's pipeline, or Logistics needs approval to \nwrite-off these volumes to Unaccounted for Gas Loss.  (Please print, sign, \nand return the original to Clem Cernosek).\n\n\n ________________________________________________________\n Deal/Deal Ticket#/ Customer (Buyer/Seller)\n\n    OR\n\n _________________________________________________________\n APPROVAL to Write-off the volumes to Unaccounted for Gas Loss\n\nThanks, Clem",
+   "new_text_source": "new",
+   "subject": "HPL Meter #986563 Texaco Fee c/P",
+   "thread_id": "tf9ae4d6881",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-12T18:59:00+00:00",
+   "from": "robert.cotten@enron.com",
+   "msg_id": "farmer-d/logistics/2045",
+   "new_text": "Clem,\n\nThe total volume of 1,517 mmbtu that flowed during the period of 12/1/99 \nthrough 3/31/00 has been moved from the Strangers Gas Contract to \n012-41500-02-004 for write-off purposes.\n\nBob",
+   "new_text_source": "new",
+   "subject": "Re: HPL Meter #986563 Texaco Fee c/P",
+   "thread_id": "tf9ae4d6881",
+   "to": [
+    "clem.cernosek@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-18T09:15:00+00:00",
+   "from": "heather.choate@enron.com",
+   "msg_id": "farmer-d/logistics/1459",
+   "new_text": "Effective immediately, I am pleased to announce a realignment of \nAdministrative support for the Gas Logistics, Unify and Electronic\n   Commerce Groups.  We have officially hired Brandee Jackson as a new member \nof our Admin Team, enabling us to provide \n   more hands on support across all of our groups.  \n\n   That being said, our administrative support responsibilities are as \nfollows:  \n\n   Heather Choate  Alex Saldana      Brandee Jackson\n   Bob Hall   Central Gas Logistics - George Smith   West Gas Logistics - \nRandy Gay\n   Bob Superty   NorthEast Gas Logistics  - Victor LaMadrid  Texas Gas \nLogistics - Pat Clynes/Daren Farmer\n   Kathryn Bussell  SouthEast Gas Logisitcs - Ed Terry   Electronic Commerce \n- Donna Greif\n        Diane Cook      Unify - Donna Greif \n           \n  This realignment will enable the assistants to provide more comprehensive \nand responsive support for both the day to day \n  business needs and special projects.  Please remember that your assistant \nis your primary support person!  Please utilize \n  her for all of your administrative needs.  This is critical to the overall \ndesire to provide the most effective service and cost\n  efficient support for the entire team.\n            \n  Alex and Brandee will back each other up in their absences and will back me \nup in my absence.  I will provide Alex and Brandee \n  support on an as needed basis.  \n \n  Please call me if you have any questions about this new alignment.  \n\n  Thank you, \n  Heather Choate, x33278",
+   "new_text_source": "new",
+   "subject": "Assistant - Realignment of duties",
+   "thread_id": "tf9e8857fde",
+   "to": [
+    "heather.choate@enron.com",
+    "diane.cook@enron.com",
+    "alex.saldana@enron.com",
+    "robert.superty@enron.com",
+    "brandee.jackson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-02-01T09:19:00+00:00",
+   "from": "kenneth.seaman@enron.com",
+   "msg_id": "farmer-d/logistics/737",
+   "new_text": "I guess he won't be by as he knows it all now. And if he doesn't it will be \nmy fault for not teaching him correctly. \n\nSupplemental to our conversation yesterday; I would come back to help you \nwith a project or job for which you needed any of my talents. If it involves \nworking with this guy ---- FORGET IT.\n\nP.S. I have not taught him well as things are still being done incorrectly.\n\nKen",
+   "new_text_source": "new",
+   "subject": "Re: Schedule",
+   "thread_id": "tf9fe8ed2ea",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-12T16:55:59+00:00",
+   "from": "robert.superty@enron.com",
+   "msg_id": "farmer-d/logistics/8",
+   "new_text": "Jeff, here is the information you requested on where we were as of December 11th. Please note this is a snapshot and the situation is very fluid.\n\nBob Superty",
+   "new_text_source": "new",
+   "subject": "Physical Gas Summary by desk",
+   "thread_id": "tfc5cf124ea",
+   "to": [
+    "t..hodge@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-18T11:21:00+00:00",
+   "from": "clem.cernosek@enron.com",
+   "msg_id": "farmer-d/logistics/1346",
+   "new_text": "Daren:\n\nDuring the period of 1/1/99 thru 7/31/00, the above meter has recorded flow \non the following days:\n\n    Days          Mmbtus\n 3/30/99  22\n 4/30/99  21\n 8/3/99    5\n 8/30/99  73\n 10/28/99 10\n 10/29/99   5\n 1/30/00    7\n 1/31/00  29\n 4/27/00  13\n 7/31/00  18 \n\n                203\n\nCurrently, these volumes are being booked under the HPL Strangers Gas \nContract.  Logistics needs either a deal to record these volumes which have \nflowed into HPL's Pipeline or  Logistics need approval to writeoff these \nvolumes to Unaccounted for Gas.\n\nThanks, Clem\n\nPS: ___________________________________________________                      \n APPROVAL to Writeoff the volumes to  Unaccounted for Gas  \n\n                                                              OR\n\n               _____________________________________ \n               Deal/Deal Ticket/Customer (Seller/Shipper)",
+   "new_text_source": "new",
+   "subject": "HPL Meter #985355 Brown Common Point",
+   "thread_id": "tfd06dfefee",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-30T13:18:13+00:00",
+   "from": "michael.olsen@enron.com",
+   "msg_id": "farmer-d/logistics/14",
+   "new_text": "-----Original Message-----\nFrom: \tSwisher, Stephen  \nSent:\tTuesday, November 27, 2001 11:52 AM\nTo:\tOlsen, Michael\nSubject:\tFW: Centana Storage\nImportance:\tHigh\n\nMike,\n\tI need a deal entered into Sitra and pathed for the sale of the Centana Storage to AEP.  See below.  Any questions, give me a call.  Thanks.\n\nStephen R. Swisher\nSpecialist, Energy Operations\nEnron Net Works, LLC\nPhone:  713-345-3042\nFax:  713-345-7701\nCell:  713-540-2063\nEmail:  stephen.swisher@enron.com\n\n -----Original Message-----\nFrom: \tWynne, Rita  \nSent:\tTuesday, November 13, 2001 1:30 PM\nTo:\tPond, Jim\nCc:\tKoerselman, Lisa; Lo, Connie; Swisher, Stephen\nSubject:\tRE: Centana Storage\n\nStephen,\n\nPlease get with Logistics to get a deal entered and pathed for this transaction.  If you have any questions, please let me know.  Thanks!\n\n -----Original Message-----\nFrom: \tPond, Jim  \nSent:\tTuesday, November 13, 2001 1:29 PM\nTo:\tWynne, Rita\nCc:\tKoerselman, Lisa; Lo, Connie; Swisher, Stephen\nSubject:\tRE: Centana Storage\n\nThe GL currently has 1,177,186 MMBTU @ $3,548,001.99.  \n\nI believe the sale took place in the facility.  \n\n -----Original Message-----\nFrom: \tWynne, Rita  \nSent:\tTuesday, November 13, 2001 1:05 PM\nTo:\tPond, Jim\nCc:\tKoerselman, Lisa; Lo, Connie; Swisher, Stephen\nSubject:\tRE: Centana Storage\n\nJim,\n\nWhere did the sale take place?  Was it an in place sale at the facility?  Stephen is working on the reconciliation.  If he cannot have it completed by this close, then we will have unaccounted for until he finishes his reconciliation.  We will do everything possible to get it cleared this close.  What does the G/L currently have for the storage number?\n\n -----Original Message-----\nFrom: \tPond, Jim  \nSent:\tTuesday, November 13, 2001 12:57 PM\nTo:\tWynne, Rita\nCc:\tKoerselman, Lisa; Lo, Connie\nSubject:\tCentana Storage\n\nRita,\n\nIt looks like we will be making our Bammel true-up payment to AEP in the next couple of days.  Included in the payment to AEP is a deduction for the sale of the Centana storage gas.  We are selling them 1,236,286 MMBTU @ $2.375 for a total of $2,936,179.25.  The sale is for September, 2001 production.  We will need a deal put in Sitara for that sale along with the appropriate pathing from storage by logistics.  However, there is only 1,195,754 MMBTU on report 006 in Unify (for contracts 96018371, 96014189, and 96019236).  How do we account for this volumetic difference?  Connie will be truing up the GL to match the current Unify volume.  The GL was short approx. 18,000 MMBTU because a beginning balance was not booked.  \n\nThis needs to happen before the upcoming close.\n\nThanks for you help in this matter.\n\nPlease let me know of any concerns.",
+   "new_text_source": "body",
+   "subject": "FW: Centana Storage",
+   "thread_id": "tfd135d7995",
+   "to": [
+    "j..farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-07T19:18:54+00:00",
+   "from": "megan.parker@enron.com",
+   "msg_id": "farmer-d/logistics/83",
+   "new_text": "Darren:\nHere is my problem.  As you know, HPLC did a deal with Texas General Land O=\nffice where we would exchange gas for crude.  The problem was HPLC was sell=\ning the gas and Enron Gas Marketing was receiving the crude.  Bryce Baxter =\nworked out a series of intercompany deals between HPLC, ENA and EGM that wo=\nuld book the deal correctly.  Julie Meyers was told how to create the deals=\n and she completed January and February, except for one small part, but Mar=\nch forward was never completed.  The attached word document explains the pr=\nocedure.  Basically, we were suppose to book an HPLC sale to the TGLO with =\nvolume and zero price.  This would book the volume to the GL and zero out t=\nhe receivable since we were never going to receive cash from TGLO.  Then, w=\ne would book a sale from HPLC-Wellhead to ENA-Wellhead for the value of the=\n gas only (no volume) and a sale from ENA-Wellhead to EGM for the value of =\nthe crude (no volume).  For these deals, we would use demand fees. EGM will=\n pay ENA for the crude dollars.\n\n  =20\n\nI will give you the deals for January so you can see how the dollars move. =\n You will see that the price is still on the sale from HPLC to TGLO.  Julie=\n zeroed this out, but O'Neal put it back.  I've left him a message to find =\nout why.\n1.  Sale from HPLC-IM Wellhead to TGLO=09=09=09547201\n2.  Sale from HPLC-IM HPLC to HPLC-IM Wellhead=09=09547205 =20\n3.  Sale from HPLC-Wellhead to ENA-IM Wellhead Texas=09679847\n4.  Sale from ENA-IM Wellhead Texas to EGM=09=09=09679859=20\n\nHere is a preliminary list of what needs to be done to finish out the trans=\nactions for March, April and May.  The previous email went to Kam Keiser, J=\nohn Grass, Linda Roberts and Dayem Khandker.  They may be able to help us w=\nork through this.  Let me know if you have any questions.\n\n1.  Zero out the prices on the HPLC sales to Texas General Land Office, lea=\nve volume only.\n=09Jan 2001=09547201=09\n=09Feb 2001=09591307\n=09March 2001=09640685\n=09April 2001=09692167\n=09May 2001=09755787\n2.  Enter a ticket for the HPL-Wellhead sale to ENA-Wellhead for March, Apr=\nil and May 2001 (the Feb deal number is 679848) for the value of the gas be=\nlow.  This should be entered as a demand fee only, no volume.\n=09March 2001=09$774,612.50\n=09April 2001=09$705,870.00\n=09May 2001=09$664,609.00\n=09\n3.  Enter a ticket for the sale from ENA-Wellhead to EGM for the value of t=\nhe crude below.  There is an existing ticket for Jan and Feb that can be ex=\ntended, deal 679859.\n=09March 2001=09$757,603.93\n=09April 2001=09$820,983.94\n=09May 2001=09$598,885.13\n\n4.  Update Jan and Feb crude values on deal 679859\n=09Jan 2001=09change $886,638.63 to $886,015.18\n=09Feb 2001=09change $839,008.31 to $842,475.06\n\n Let me know if you want me to come down to discuss.\n\nMegan",
+   "new_text_source": "new",
+   "subject": "GLO deals 2001",
+   "thread_id": "tfe88b37fc9",
+   "to": [
+    "j..farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-02-04T14:51:00+00:00",
+   "from": "jackie.young@enron.com",
+   "msg_id": "farmer-d/logistics/754",
+   "new_text": "Anita,\n\nThere is a delivery nom of 22 @ the above mentioned meter for 1/99 \nproduction.  This is a receipt meter. \n\nCan you please explain the purpose of this delivery nom being @ this receipt \nmeter?  I also have the same situation @ 98-2662 for 1/99.  Also, this \nactivity is continuing on into 2/99.\n\nClem Cernosek expressed that these delivery noms are causing errors on his \nend of the spectrum.",
+   "new_text_source": "new",
+   "subject": "Meter 98-9699 & 98-2662 (Receipt Meters w/Delivery Noms)",
+   "thread_id": "tfed10580ed",
+   "to": [
+    "anita.luong@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-02-04T17:17:00+00:00",
+   "from": "anita.luong@enron.com",
+   "msg_id": "farmer-d/logistics/756",
+   "new_text": "This is the fuel that is buy and sell between HPLC and HPLR.  For meter 9699 \nit's 2.5% and for meter 2662 it's 4%.   However, the volume is a fixed amount \nevery month and is kept whole.",
+   "new_text_source": "new",
+   "subject": "Re: Meter 98-9699 & 98-2662 (Receipt Meters w/Delivery Noms)",
+   "thread_id": "tfed10580ed",
+   "to": [
+    "jackie.young@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-07-14T17:26:00+00:00",
+   "from": "steve.venturatos@enron.com",
+   "msg_id": "farmer-d/logistics/1282",
+   "new_text": "I will be on vacation the week of July 17th through July 21st.  If you have \nany risk questions, please refer them to  Dave Baumbach. If you need to get \nin touch with me you can try my cell phone (713) 504-2666 or (850) 267-4300.",
+   "new_text_source": "new",
+   "subject": "My Vacation",
+   "thread_id": "tfff8d92108",
+   "to": [
+    "thomas.martin@enron.com",
+    "jim.schwieger@enron.com",
+    "edward.gottlob@enron.com",
+    "carrie.hollomon@enron.com",
+    "jeffrey.gossett@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-02-01T09:54:00+00:00",
+   "from": "susan.trevino@enron.com",
+   "msg_id": "farmer-d/logistics/739",
+   "new_text": "What is the status on this meter?",
+   "new_text_source": "new",
+   "subject": "Re: UA4",
+   "thread_id": "tfffb21ba25",
+   "to": [
+    "howard.camp@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-29T06:05:00+00:00",
+   "from": "david.baumbach@enron.com",
+   "msg_id": "farmer-d/logistics/203",
+   "new_text": "I put a file in your folder.  Hope it helps with the UA4.\n\nDave",
+   "new_text_source": "new",
+   "subject": "UA4",
+   "thread_id": "tfffb21ba25",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-28T17:05:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/628",
+   "new_text": "Unbelievable!\n---------------------- Forwarded by Darron C Giron/HOU/ECT on 09/28/2000 \n04:49 PM ---------------------------\n\n\nScott Crowell <scott.crowell@oracle.com> on 09/28/2000 02:24:24 PM\nTo: \"Beckman, Drew\" <dbeckman@bindview.com>, \"Bose, Timothy\" \n<bosetb@earthlink.net>, \"Fultz, Mike\" <mike.fultz@halliburton.com>, \"Giron, \nDarron\" <dgiron@enron.com>, \"Hatfield (AA), Bret\" \n<bret.j.hatfield@us.arthurandersen.com>, \"Jenny, Brook &\" \n<Cheetothecat@aol.com>, \"Judge, Mike\" <mjudge@us.oracle.com>, \"Liberman, Jay\" \n<j_liberman@hotmail.com>, \"Love, Phillip\" <Phillip.M.Love@enron.com>, \n\"Mehringer, Eric\" <emehringer@nextera.com>, \"Nagy, Joe\" \n<jnagy@intraspect.com>, \"Roberson, Calvin\" <CRoberson@ASAPSC.COM>, \"Rossen, \nMike\" <MRossen@INTERGEN.com>, \"Siddons, Chad\" <csiddons@phoenixdsl.com>, \n\"Thomas, Mike\" <mikepthomas@yahoo.com>, \"Young (home), Dennis\" \n<slsdfy@earthlink.net>\ncc:  \nSubject: [Fwd: FW: Vince Carter's dunk over a 7'2'' French player in the \nOlympics]\n\n\n\n\nReturn-Path: <MikeMullen@mail.house.gov>\nReceived: from usmail01.us.oracle.com (usmail01.us.oracle.com [130.35.60.80]) \nby gmgw02.us.oracle.com (8.8.8+Sun/8.8.8) with ESMTP id IAA29028 for \n<scott.crowell@oracle.com>; Thu, 28 Sep 2000 08:10:27 -0700 (PDT)\nReceived: from inet-smtp1.oracle.com (inet-smtp1.us.oracle.com \n[209.246.15.57]) by usmail01.us.oracle.com (8.8.8+Sun/8.8.8) with ESMTP id \nIAA20602 for <scrowell@us.oracle.com>; Thu, 28 Sep 2000 08:10:25 -0700 (PDT)\nReceived: from orion.house.gov (orion.house.gov [143.231.86.7]) by \ninet-smtp1.oracle.com (8.9.3/8.9.3) with ESMTP id IAA14327 for \n<scrowell@us.oracle.com>; Thu, 28 Sep 2000 08:15:35 -0700 (PDT)\nReceived: (from smap@localhost) by orion.house.gov (8.9.1b+Sun/8.9.1) id \nKAA17134; Thu, 28 Sep 2000 10:58:07 -0400 (EDT)\nX-Authentication-Warning: orion.house.gov: smap set sender to \n<MikeMullen@mail.house.gov> SIZE=3495340 using -f\nReceived: from ims02.house.gov(143.231.32.178) by orion via smap id \nxma016952; Thu, 28 Sep 00 10:57:54 -0400\nReceived: by ims02.house.gov with Internet Mail Service (5.5.2650.21) id \n<S5A2BGQ5>; Thu, 28 Sep 2000 11:04:36 -0400\nMessage-ID: <AD3CC6482AA0D211A7FB0008C7A4BBC306AE9252@hrm04.house.gov>\nFrom: \"Mullen, Mike\" <MikeMullen@mail.house.gov>\nSubject: FW: Vince Carter's dunk over a 7'2'' French player in the Olympic  s\nDate: Thu, 28 Sep 2000 11:02:25 -0400\nX-Mailer: Internet Mail Service (5.5.2650.21)\n\nCheck out this Vince Carter dunk.  Unbelievable.\n\n>  <<Vince_Carter-7'2_Dunk_(Olympics_2000).mpg>>\n>\n> Ok, you're heard the news reports...you've seen the photo on\n> espn.com...but had you seen the video?  If not, you're in for a treat.\n>\n>\n\n - Vince_Carter-7'2_Dunk_(Olympics_2000).mpg\n - scott.crowell.vcf",
+   "new_text_source": "body",
+   "subject": "[Fwd: FW: Vince Carter's dunk over a 7'2'' French player in the Olympics]",
+   "thread_id": "t0024aa9636",
+   "to": [
+    "cgiron@mindspring.com",
+    "victor.guggenheim@enron.com",
+    "jackson.logan@enron.com",
+    "phillip.love@enron.com",
+    "jeffrey.gossett@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-16T18:07:23+00:00",
+   "from": "scott_crowell@hotmail.com",
+   "msg_id": "giron-d/inbox/202",
+   "new_text": "Funny Cajun humor\n\n\n>From: \"Jennifer Fowler\" <Jennifer.Fowler@kaiseral.com>\n>To: \"Boyd; Megan\" <mboyd@coair.com>, \"RRaiderMom@aol.com\"\n><RRaiderMom@aol.com>, \"Scott_Crowell@hotmail.com\"\n><Scott_Crowell@hotmail.com>, \"Joyce Collett\" <jcollett@ccisd.net>, \"Darren\n>Withers\" <darrenwithers@earthlink.net>\n>Subject: FW:\n>Date: Wed, 15 Aug 2001 10:28 -0500\n>\n>The Audubon Zoo in New Orleans had acquired a\n>  very rare species of gorilla named Priscilla.\n>  Within a few weeks, she became very horny,\n>  and difficult to handle. Upon examination,\n>  the park veterinarian determined the problem.\n>  The gorilla was in heat. To make matters worse,\n>  there were no male gorillas of the species available.\n>\n>  While reflecting on their problem, the park\n>  administrators noticed their best employee, Trosclair,\n>  working near her cage.  Trosclair, like most cajuns,\n>  often bragged about how he could satisfy any female\n>  of ANY species. So, the park administrators thought\n>  they might have a solution.\n>\n>  Trosclair was approached with a proposition. Would he be\n>  willing to have sex with the gorilla for $500?  Trosclair\n>  scratched his head, looked at Priscilla and said he would\n>  have to think about it.  The following day, Trosclair\n>  said that he would accept their offer, but only under\n>  three conditions.\n>\n>  \"Firse,\" he said, \"I don't not want to haf to kiss er.\"\n>\n>  \"Second...you must not never tol'  no one 'bout dis.\"\n>\n>  The park administration quickly agreed to these\n>  conditions, so they asked what was his third\n>  condition.\n>\n>  \"Well, da tird ting,\" said Trosclair, \"you gotta give\n>  me another week to come up with the $500.\"\n\n\n_________________________________________________________________\nGet your FREE download of MSN Explorer at http://explorer.msn.com/intl.asp",
+   "new_text_source": "new",
+   "subject": "Fwd: FW:",
+   "thread_id": "t01373c57f3",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-26T20:53:57+00:00",
+   "from": "csulzer@grenergy.com",
+   "msg_id": "giron-d/inbox/264",
+   "new_text": "There are a growing number of things for us to discuss relative to gas\nsupply for Pleasant Valley Station.  I would like to suggest the following\ndates to meet in Houston.\n\nChoice #1:\tNovember 13, a morning meeting\n\nChoice #2:\tNovemer 6, a morning meeting\n\nPlease let me know (and reply all in your response) if one or both dates\nwork.\n\nI will put together an agenda of the items for discussion.",
+   "new_text_source": "new",
+   "subject": "Potential Houston Meeting Dates",
+   "thread_id": "t0195dad3ac",
+   "to": [
+    "c..giron@enron.com",
+    "janet'.'bowers@enron.com",
+    "jo'.'lewis@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-26T21:40:59+00:00",
+   "from": "janet.bowers@enron.com",
+   "msg_id": "giron-d/inbox/265",
+   "new_text": "Carl,  Either date works fine for me right now.  But I would prefer an afternoon or a late morning (10:30 a.m. or after) meeting.  I also would like Jean Adams to be available.  Let me know what you think.  Thanks!\n\nJanet",
+   "new_text_source": "new",
+   "subject": "RE: Potential Houston Meeting Dates",
+   "thread_id": "t0195dad3ac",
+   "to": [
+    "fuel/plant'.'carl@enron.com",
+    "c..giron@enron.com",
+    "janet'.'bowers@enron.com",
+    "jo'.'lewis@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-12T15:50:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/653",
+   "new_text": "Please look over this and get back with me on any changes you would like to \nmake.\n\nI am going to set up a new counterparty in our system:  Enovate LLC.  Under \nthis new counterparty will be 3 books in Tagg:  FT-ENOVATE, INTRA-ENOVATE, \nAND FT-INT-ENOVATE.  The INTRA-ENOVATE book will hold deals such as the \nTrunkline deal and will retain Rho & Drift.  The FT-ENOVATE book will be a \nflat book only used for  the confirmation process (deals must be in an FT \nbook to be confirmed).  The FT-INT-ENOVATE book will pass Rho & Drift to the \ninterest rate group.  This book will be used for EMW related deals not \nspecific to Enovate.\n\nThe current entity Enron MW LLC will continue to be used and will have the \nfollowing books in Tagg:  FT & Intra NSS1, FT & Intra NSS2, and FT & Intra \nTP.  FT and Intra MEH books will no longer be used.\n\nThe P&L will sum the 3 Enovate books to arrive at one number.  The other \ncolumns on the P&L(NSS1, NSS2, and TP) will be unaffected.\n\nI had planned on just adding the Enovate books, but think we really need to \nset up a new entity as well.  I have run this by accounting and have their \napproval.  Let me know what you think and we will start the process.  We will \nhave this completed by the end of this month.\n\nThanks.\n\nDG\n713-853-9573",
+   "new_text_source": "new",
+   "subject": "Enovate",
+   "thread_id": "t0201e6846e",
+   "to": [
+    "richard.tomaski@enron.com",
+    "lee.fascetti@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-22T09:52:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/634",
+   "new_text": "Call me if you have any further questions.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Enovate",
+   "thread_id": "t0201e6846e",
+   "to": [
+    "edie.leschber@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-16T14:19:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/594",
+   "new_text": "Have you seen this?  It's from Kevin, an Aggie.\n\nD",
+   "new_text_source": "new",
+   "subject": "Photo taken during OU - Texas Game",
+   "thread_id": "t023a975a44",
+   "to": [
+    "kristi.giron@cfisd.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-27T12:54:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/185",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/27/2001 \n12:54 PM ---------------------------\n\n\nChris Walker\n02/27/2001 12:51 PM\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: PMA's for January\n\nDarron,  you might want to investigate this one further.\n---------------------- Forwarded by Chris Walker/HOU/ECT on 02/27/2001 12:45 \nPM ---------------------------\n\n\nTiffany Miller@ENRON on 02/27/2001 12:15:40 PM\nTo: Denver Plachy/NA/Enron@Enron, Bruce Mills/Corp/Enron@ENRON, Chris \nWalker/HOU/ECT@ECT, Jeff Royed/Corp/Enron@ENRON, Kyle R Lilly/HOU/ECT@ECT, \nJody Crook/Corp/Enron@ENRON, Anne Bike/Corp/Enron@Enron, Victor \nGuggenheim/HOU/ECT@ECT, Carole Frank/NA/Enron@ENRON, Luchas \nJohnson/NA/Enron@Enron, Kam Keiser/HOU/ECT@ECT\ncc:  \nSubject: PMA's for January\n\nHere are the PMA's for January and the remaining PMA's for 2000.\n\n\n\nTiffany Miller\n5-8485",
+   "new_text_source": "body",
+   "subject": "PMA's for January",
+   "thread_id": "t03086c695d",
+   "to": [
+    "ryan.o'rourke@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-25T19:51:35+00:00",
+   "from": "jr..legal@enron.com",
+   "msg_id": "giron-d/inbox/75",
+   "new_text": "During the course of their investigation, Special Agents from the Federal Bureau of Investigation will be taking documents they believe may be important for their investigation from employees' offices.  The FBI has agreed to return copies of such documents. \n\nIn addition, should you have an immediate need for a document requested by the FBI, please make a copy of the specific document and give the original to the FBI. Thank you for your cooperation.",
+   "new_text_source": "new",
+   "subject": "FBI Investigation",
+   "thread_id": "t030e3b4659",
+   "to": [],
+   "truncated": false
+  },
+  {
+   "date": "2001-05-07T09:29:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/14",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 05/07/2001 \n09:29 AM ---------------------------\nFrom: Russell Diamond/ENRON@enronXgate on 05/07/2001 08:39 AM\nTo: Diane Anderson/NA/Enron@Enron, Derek Bailey/Corp/Enron@ENRON, David \nBaumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, Patricia Boulanger/CAL/ECT@ECT, \nBob Bowen/HOU/ECT@ECT, Julie Brewer/NA/Enron@Enron, Lesli \nCampbell/ENRON@enronXgate, Celeste Cisneros/ENRON@enronXgate, Sharon \nCrawford/CAL/ECT@ECT, Richard Deming/NA/Enron@Enron, Russell \nDiamond/ENRON@enronXgate, Cindy Feldman/CAL/ECT@ECT, Darron C \nGiron/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Walter \nGuidroz/ENRON@enronXgate, Larry Joe Hunter/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Bianca Ornelas/NA/Enron@Enron, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron, Veronica Espinoza/ENRON@enronXgate\ncc:  \nSubject: Credit Report - 5/7/01\n\n\n\nCounterparty    TAGG#   Action      \nCMS Energy Corporation  v78462.1,v78468.1 Rebook to CMS Marketing, Services \nand Trading\n \"    v78807.1,v78808.1   \"\nCalpine Natural Gas Company  v78254.1,v78255.1 Rebook to Calpine Energy \nServices, LP\nEngage Energy Canada LP  v78253.1  Rebook ENA trades to ECC (under the ISDA)\nKinder Morgan Energy Partners, Inc v78446.1,v78762.1 Rebook to Kinder Morgan \nInc. (under the ISDA)\nNew Counterparty    v78797.1  Pending Paul Radous\nPacificorp    v77849.1,v77879.1 Rebook to Pacificorp Power Marketing, Inc.\nTiger     v78638.1  Rebook to Tiger Natural Gas Inc.\nTotal Gas & Electric, Inc   v78680.1  Pending Brant Reves",
+   "new_text_source": "body",
+   "subject": "Credit Report - 5/7/01",
+   "thread_id": "t031d13741f",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-06T23:14:02+00:00",
+   "from": "david.oxley@enron.com",
+   "msg_id": "giron-d/inbox/1",
+   "new_text": "Dear Colleagues,\n\nWe know you have many questions about your new benefits plan, payroll issues and other changes that will occur over the next few weeks. Human Resources and Communications are preparing a thorough Q&A, which we will send to you tomorrow and will regularly update as more information is available. \n\nMeanwhile, please read the announcement below from Security about how you can obtain a new UBS Warburg access card that will allow you to enter our new office space after Friday.\n\nI am confident that you share my enthusiasm about our new opportunity.  We look forward to working along side each of you in the coming days.\n\nDavid Oxley\nHead, Human Resources\n____________________________________________________________________\n\nAccess Cards\n\nThere will be a two-day transition for the new UBS Warburg access cards. Beginning Monday, February 11, access to the 5th and 6th floors of Enron Center South will require these new cards. UBS Warburg access cards can be picked up from 7 a.m. to 7 p.m. at the reception area on the 5th floor of Enron Center South on Thursday, February 7th ; Friday, February 8th ; and Monday, February 11. Enron Security will produce new access cards with existing photographs, then simultaneously issue the new and collect the old cards. Employees without UBS Warburg cards will be allowed into the Enron Center South building on Monday but will have to collect their new cards as soon as possible to gain access to the 5th and 6th floors.\n\nEmployees who fail to collect their new cards by 7 p.m. Monday will be required to contact Enron Security's general information number at 713-853-5360 to arrange to pick them up.\n\nThere will be security staff available at the pick up point on ECS 5 to help with any problems you might have.\n\nIt is suggested employees wear their access cards at all times while on the premise.\n\nAccessible Areas - The new cards will allow UBS-W employees to enter:\n5th & 6th floors and Plaza area of Enron Center South , \nThe Sky Ring \nBody Shop, Enron Center North Plaza and therefore access the Credit Union and Cafeteria from either building.\n\nRestricted Areas - Employees must submit to Enron Security a Restricted Access Request form (available by calling 713 8535360 ) and signed by Bob McAuliffe (713-853-7468) to enter:\nEnron Center South, 8th and 9th floors\nEnron Center North, 22nd and 34th floor \nArdmore Data Center.\n\nEmployees staying with the Enron estate while visa and other issues are completed - Employees in this group who are on assignment arrangements to UBS-W will be issued a regular access card - available in the same way as other new UBS-W employees.\n\nEstate employees who are working with UBS-W on transition issues  - If they will be based in UBS-W office space they should talk to their UBS-W counterpart for approval and then UBSW HR for the issue of a UBS-W contractor card (in addition to their regular Enron badge).",
+   "new_text_source": "new",
+   "subject": "Access Card Information",
+   "thread_id": "t03473db159",
+   "to": [
+    "darren.adamik@enron.com",
+    "p..adams@enron.com",
+    "habib.ahsan@enron.com",
+    "d.alexander@enron.com",
+    "diana.allen@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-23T05:32:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/695",
+   "new_text": "Could you please follow up on this.  Thanks.\n\nDG",
+   "new_text_source": "new",
+   "subject": "8/22 origination",
+   "thread_id": "t03a38043c0",
+   "to": [
+    "b.palmer@enron.com",
+    "kam.keiser@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-12T22:02:21+00:00",
+   "from": "drewbeckman@hotmail.com",
+   "msg_id": "giron-d/inbox/380",
+   "new_text": "Hello,\nI am sending you this note to let you know that my email address has\nchanged. I have been having trouble receiving emails from different\nindividuals and have been unable to correct it, so I created a new address.\nIf you could please now address all emails to me at\n\ndab312@hotmail.com\n\nI would greatly appreciate it.\n\nThanks and I look forward to hearing from you.\n\nDrew Beckman\n\n_________________________________________________________________\nGet your FREE download of MSN Explorer at http://explorer.msn.com/intl.asp",
+   "new_text_source": "new",
+   "subject": "NEW EMAIL ADDRESS",
+   "thread_id": "t03e2702731",
+   "to": [
+    "dab312@hotmail.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-26T17:37:10+00:00",
+   "from": "iris.mack@enron.com",
+   "msg_id": "giron-d/inbox/239",
+   "new_text": "Hi, \n\tPreviously I forwarded an email to you which contain a list of options products we are considering making markets in. \n\tMany of you have asked for more details on these (exotic) options products. \n\tIn response to this request, I will be periodically forwarding modules to your attention which give further details on these options products. \n\tPlease do not hesitate to contact me if you have any questions, comments, etc. \n\t\t\nRegards, \nIris Mack, MBA/PhD \nPower Options Trading Desk \nx3-6711",
+   "new_text_source": "new",
+   "subject": "RE:Exotic Options Module Series - Asian Options",
+   "thread_id": "t040c11c984",
+   "to": [
+    "john.arnold@enron.com",
+    "mike.maggi@enron.com",
+    "tom.donohoe@enron.com",
+    "kevin.ruscitti@enron.com",
+    "h..lewis@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-07-18T13:30:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/738",
+   "new_text": "Done\n\n\n\n\n\tKevin W Drachenberg\n\t07/18/2000 12:46 PM\n\t\nTo: Darron C Giron/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT\ncc: Audrey Cook/HOU/ECT@ECT \nSubject: Peoples/North Shore - 6/00 Transportation - Sitara demand charge \nadjustments\n\nDarron/Kam,\n\nPlease update the Sitara demand charges on the following deals to match the \nactualized pipeline statements:\n\n#131389 -    $172,588.94\n#131405 - $1,297,419.61\n\nSee attached spreadsheet for calculations.\n\nPlease notify me when complete so I can redraft Unify.\n\nThanks.\nKevin \nx3-0560",
+   "new_text_source": "new",
+   "subject": "Re: Peoples/North Shore - 6/00 Transportation - Sitara demand charge adjustments",
+   "thread_id": "t04dee198c3",
+   "to": [
+    "kevin.drachenberg@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-09T21:01:48+00:00",
+   "from": "oscar.dalton@enron.com",
+   "msg_id": "giron-d/inbox/243",
+   "new_text": "Carl:\n\nI was recently informed via Janet Bowers at NNG that there have been some issues with regard to the gas contract to serve the Pleasant Valley Peaker.  In order to have someone address your issues, I have passed on your concerns to Darron Giron who works Mid-Market and Origination on the Central Gas Desk.  Darron's number is 713-853-9573.  I have also made the VP of the Central Gas Desk aware of your concerns.  You should be getting a call from Darron in the next couple of days after he has had a chance to get up to speed on the transaction.\n\nI am now doing long term power marketing in the ECAR region and thought it was best to let the gas desk address this; however, please feel free to contact me should the situation warrant.\n\nThanks\n\nOscar Dalton\nEnron Power Marketing",
+   "new_text_source": "new",
+   "subject": "",
+   "thread_id": "t051fb8716e",
+   "to": [
+    "csulzer@grenergy.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-08T09:31:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/512",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 11/08/2000 \n09:30 AM ---------------------------\n\n\n\"Clark Mayers\" <jcmayers@earthlink.net> on 11/02/2000 01:59:46 PM\nPlease respond to \"Clark Mayers\" <jcmayers@earthlink.net>\nTo: \"Darron Giron\" <Darron.C.Giron@enron.com>\ncc:  \nSubject: \n\n\n\nHello, Young People.....\n?\nStill planning on the KU/UT game next weekend, I  hope.? If you are flying \nin, you can get?from the airport, about 30-35  miles, without hitting a \ntraffic light until the last mile or so.\n?\nFROM THE AIRPORT:\n1.? Exit the airport toward Kansas City on  I-29 South.? When you get to\n2.??I-635, go South; probably will be  marked to \"Wichita\" or maybe Kansas \nCity.? When you get to\n3.??I-35, go South again.? You will  be somewhere around 50th street.? Street \nnumbers increase as you go  south.\n4.? After 75th Street stay in the right lane  and take Hiway 69 South.\n5.? Stay on Hiway 69; after 119th Street it  will curve left and then right.? \nAfter the right hand curve, the road  merges with another highway.? Stay in \nthe extreme right lane  and\n6.? Exit at 135th street.? Exit to the  right and stay in the right lane \nuntil the first light; (Antioch).? (About  half mile).\n7.? Turn right at Antioch (first light) and  get into the left lane.\n8.? Short block to the first light; this is  133rd Street; turn left.\n9.? Go to the second right; this is  Kessler.? Turn right on Kessler.\n10.? Take the immediate left onto 132nd  Place.? Go to second house on right; \nnot counting the house on the  corner.? The address is 9210.\n?\nAfter you leave the airport, the exits onto I-29  and then onto I-35 come a \nlittle quickly, so watch for the signs.?  I expect to be home all weekend.? \nBut, if I  am out, the garage door keypad combination is \"0730\".? Make \nyourselves at  home and help yourselves to anything that is not tied or \nnailed down or  hazardous.? My phone number is (913) 402-9210; cell phone is \n(913)  269-6247.? Not necessary to dial the area code once you get into  \nKansas.? From the airport (Missouri) you'll need the area  code.\n?\nIf you're driving, exit I-35 in Olathe at Exit  215.? Turn right and go about \n4.5 miles to Switzer (school on left; park on  right).? Left on Switzer to \nfirst right (133rd Street).? Right on  133rd to second left (Kessler).? Left \non Kessler; left on 132nd Place to  house.? Let me know when you expect to \narrive and then depart and maybe we  can line something up to keep you busy \nwhile you're here.? Sean and Tracie  will be in San Antonio that weekend, and \nMike and Christine can't make it, but  Michelle and her gang and Kim are \nanxious to see you again.? See you  soon......Clark.",
+   "new_text_source": "body",
+   "subject": "",
+   "thread_id": "t052f13e42b",
+   "to": [
+    "dgiron1@pdq.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-25T20:08:34+00:00",
+   "from": "susan.trevino@enron.com",
+   "msg_id": "giron-d/inbox/74",
+   "new_text": "I will be on vacation Friday January 25.  Please contact Shona Wilson at x39123 or Chris Abel at x33102.",
+   "new_text_source": "new",
+   "subject": "Out of Office AutoReply: Book Request",
+   "thread_id": "t0578cc66df",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-07T09:28:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/522",
+   "new_text": "On election day, you have to vote in your own precinct.  You need to find \nyour precinct number and then you can find the location on the web.\nDG",
+   "new_text_source": "new",
+   "subject": "Re: Help?",
+   "thread_id": "t05aaa67283",
+   "to": [
+    "jackson.logan@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-28T21:09:02+00:00",
+   "from": "patrick.tucker@enron.com",
+   "msg_id": "giron-d/inbox/275",
+   "new_text": "For everyone who might want a copy just for the sake of posterity--",
+   "new_text_source": "new",
+   "subject": "As it Was--EOL USGas Screen Capture as of about 0930",
+   "thread_id": "t061ef0c144",
+   "to": [
+    "s..pollan@enron.com",
+    "lindsay.culotta@enron.com",
+    "e.murrell@enron.com",
+    "denver.plachy@enron.com",
+    "martin.cuilla@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-06T09:22:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/167",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 03/06/2001 \n09:22 AM ---------------------------\nFrom: Veronica Espinoza/ENRON@enronXgate on 03/06/2001 09:19 AM\nTo: Janie Aguayo/HOU/ECT@ECT, Diane Anderson/NA/Enron@Enron, Derek \nBailey/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, \nPatricia Boulanger/CAL/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Debbie R \nBrackett/HOU/ECT@ECT, William S Bradford/ENRON@enronXgate, Lesli \nCampbell/ENRON@enronXgate, Celeste Cisneros/NA/Enron@Enron, Sharon \nCrawford/CAL/ECT@ECT, Richard Deming/NA/Enron@Enron, Russell \nDiamond/ENRON@enronXgate, Cindy Feldman/CAL/ECT@ECT, Darron C \nGiron/HOU/ECT@ECT, Veronica Gonzalez/ENRON@enronXgate, Jeffrey C \nGossett/HOU/ECT@ECT, Walter Guidroz/ENRON@enronXgate, Larry Joe \nHunter/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Kevin \nMeredith/Corp/Enron@ENRON, Tom Moran/ENRON@enronXgate, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron\ncc:  \nSubject: Credit Report--3/6/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--3/6/01",
+   "thread_id": "t06b88b3fed",
+   "to": [
+    "patrick.ryder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-09T08:03:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/712",
+   "new_text": "I told Dawn already, but my brother is getting married on the 16th.  We can't \nmake it.\n\nDG\n\n\n   \n\n\nFrom:  Sheri Thomas                                                           \n  08/08/2000 05:20 PM\t\n\t\n\t\n\t                           \n\t\n\nTo: jennifer_lamprecht@oxy.com, Richard Lauer/HOU/ECT@ECT, Angela \nHenn/HOU/ECT@ECT, Mechelle Stevens/HOU/ECT@ECT, Jennifer deBoisblanc \nDenny/HOU/ECT@ECT, Stephanie Sever/HOU/ECT@ECT, Dawn C Kenne/HOU/ECT@ECT, \nDarron C Giron/HOU/ECT@ECT, dgiron1@pdq.net\ncc:  \nSubject: bunko\n\nHey - we have not done this in a long, long time.  Dawn and Gary want to host \na party at their house on Sept. 16th. \n\nWho is interested?  let us know asap so that we can find subs if needed!\n\nthanks\nSheri",
+   "new_text_source": "new",
+   "subject": "Re: bunko",
+   "thread_id": "t0707b7f3a7",
+   "to": [
+    "sheri.thomas@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-28T08:16:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/684",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 08/28/2000 \n08:16 AM ---------------------------\n\n\nDawn C Kenne\n08/25/2000 02:38 PM\nTo: jennifer_lamprecht@oxy.com, Richard Lauer/HOU/ECT@ECT, Angela \nHenn/HOU/ECT@ECT, Mechelle Stevens/HOU/ECT@ECT, Jennifer deBoisblanc \nDenny/HOU/ECT@ECT, Stephanie Sever/HOU/ECT@ECT, Darron C Giron/HOU/ECT@ECT, \ndgiron1@pdq.net\ncc:  \nSubject: Re: bunko\n\nHey bunko gang...Unfortunately, Gary and I will be out of town that weekend.  \nWe are going on Gary's company's trip so we need to reschedule.  What do you \nguys think about September 30th?  Let me know who all can make it or suggest \nother dates that are more agreeable to your schedule!\n\nThanks,\n\nDawn\n\n\nTo: jennifer_lamprecht@oxy.com, Richard Lauer/HOU/ECT@ECT, Angela \nHenn/HOU/ECT@ECT, Mechelle Stevens/HOU/ECT@ECT, Jennifer deBoisblanc \nDenny/HOU/ECT@ECT, Stephanie Sever/HOU/ECT@ECT, Dawn C Kenne/HOU/ECT@ECT, \nDarron C Giron/HOU/ECT@ECT, dgiron1@pdq.net\ncc:  \n\nSubject: bunko\n\nHey - we have not done this in a long, long time.  Dawn and Gary want to host \na party at their house on Sept. 16th. \n\nWho is interested?  let us know asap so that we can find subs if needed!\n\nthanks\nSheri",
+   "new_text_source": "body",
+   "subject": "Re: bunko",
+   "thread_id": "t0707b7f3a7",
+   "to": [
+    "kristi.giron@cfisd.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-29T10:18:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/624",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 09/29/2000 \n10:18 AM ---------------------------\n\n\nDawn C Kenne\n09/29/2000 10:18 AM\nTo: jennifer_lamprecht@oxy.com, Richard Lauer/HOU/ECT@ECT, Angela \nHenn/HOU/ECT@ECT, Mechelle Stevens/HOU/ECT@ECT, Jennifer deBoisblanc \nDenny/HOU/ECT@ECT, Stephanie Sever/HOU/ECT@ECT, Dawn C Kenne/HOU/ECT@ECT, \nDarron C Giron/HOU/ECT@ECT, dgiron1@pdq.net, Sheri Thomas/HOU/ECT@ECT, \nr.wilson@oracle.com\ncc:  \nSubject: Re: bunko\n\nOK, after talking to several people...it ends up that this weekend is not \ngood for bunko and some are wishing to reschedule..once again.  We are going \nto set the dates of October 21 or 28th in stone.  Please take a look at your \ncalendar and let me know what works for you guys and I will e-mail out the \nnew date!\n\nSorry for the inconvenience.  I know your guys have been anxiously awaiting \nthis bunko weekend.\n\nPlease let me know!\n\nDawn\n---------------------- Forwarded by Dawn C Kenne/HOU/ECT on 09/29/2000 10:14 \nAM ---------------------------\n\n\nDawn C Kenne\n09/27/2000 10:14 AM\nTo: jennifer_lamprecht@oxy.com, Richard Lauer/HOU/ECT@ECT, Angela \nHenn/HOU/ECT@ECT, Mechelle Stevens/HOU/ECT@ECT, Jennifer deBoisblanc \nDenny/HOU/ECT@ECT, Stephanie Sever/HOU/ECT@ECT, Dawn C Kenne/HOU/ECT@ECT, \nDarron C Giron/HOU/ECT@ECT, dgiron1@pdq.net, Sheri Thomas/HOU/ECT@ECT\ncc:  \n\nSubject: Re: bunko\n\nI know some of y'all cannot make it to bunko this Saturday, but I am trying \nto get a final head count. Please reply and let me know!\n\nThanks,\nDawn\n---------------------- Forwarded by Dawn C Kenne/HOU/ECT on 09/27/2000 10:12 \nAM ---------------------------\n\n\nDawn C Kenne\n08/08/2000 05:36 PM\nTo: Sheri Thomas/HOU/ECT@ECT\ncc:  \n\nSubject: Re: bunko  \n\nI guess we are in since it is at our house....\n\n\nTo: jennifer_lamprecht@oxy.com, Richard Lauer/HOU/ECT@ECT, Angela \nHenn/HOU/ECT@ECT, Mechelle Stevens/HOU/ECT@ECT, Jennifer deBoisblanc \nDenny/HOU/ECT@ECT, Stephanie Sever/HOU/ECT@ECT, Dawn C Kenne/HOU/ECT@ECT, \nDarron C Giron/HOU/ECT@ECT, dgiron1@pdq.net\ncc:  \n\nSubject: bunko\n\nHey - we have not done this in a long, long time.  Dawn and Gary want to host \na party at their house on Sept. 16th. \n\nWho is interested?  let us know asap so that we can find subs if needed!\n\nthanks\nSheri",
+   "new_text_source": "body",
+   "subject": "Re: bunko",
+   "thread_id": "t0707b7f3a7",
+   "to": [
+    "kristi.giron@cfisd.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-13T09:38:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/598",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 10/13/2000 \n09:38 AM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 10/12/2000 03:41:28 PM\nTo: \"Sheri Thomas\" <Sheri.Thomas@enron.com>, \"Raymond Paterson\" \n<ray_paterson@hotmail.com>, \"Lori Horrocks\" <loroks@yahoo.com>, \"Len\" \n<bigusdickus70@hotmail.com>, \"KRISTI GIRON\" <KRISTI.GIRON@cfisd.net>, \"John \nSchmitz\" <jschm@telxon.com>, \"Jim Miller\" <jraggie1@pdq.net>, \"Janine Gregor\" \n<janine.gregor@talk21.com>, \"Gregor, Lynn C\" <GregorLC@bp.com>, \"Diego \nGotthelf\" <dygotthelf@hotmail.com>, \"Debbie Hall\" <gmind@icsi.net>, \"Darron C \nGiron\" <Darron.C.Giron@enron.com>\ncc:  \nSubject: Fw: This Is the Captain Speaking\n\n\n\n----- Original Message -----\nFrom: \"Warren, Stacy\" <swarre02@coair.com>\nTo: \"Ugly Boo (E-mail)\" <hollyw@email.msn.com>\nSent: Thursday, October 12, 2000 10:27 AM\nSubject: FW: This Is the Captain Speaking\n\n\n>\n>\n> -----Original Message-----\n> From: Brian & Cyndi Clark [mailto:bcclarks@worldnet.att.net]\n> Sent: Wednesday, October 11, 2000 8:14 PM\n> To: Gary Nathanson; Jerry T. Clark; Jim McLatchie; Kim McColley; Lisa\n> Clark; Lori Coy; Larrry Remmert; Brian Clark\n> Subject: This Is the Captain Speaking\n>\n>\n> .\n>\n> A pilot got on the loudspeaker shortly after takeoff and said to the\n> passengers, \"Folks, welcome aboard flight seven eighty-nine to Cleveland.\n> We'll be flying at thirty-five-thousand feet, and expect to land in an\nhour\n> and a half. Just sit back, relax, and enjoy the flight.\"\n>\n> Forgetting to turn off the microphone, he turned to his copilot, yawned,\nand\n> said, \"Why don't you take over for a while? I'm going to take me a big\n> healthy shit, and then I'm gonna fuck the brains outta that pretty blonde\n> flight attendant working in coach.\"\n>\n> His announcement went over the whole plane. The pretty blonde flight\n> attendant in coach heard this and exclaimed, \"Oh my God!\" and started\n> running towards the cockpit.\n>\n> An old lady sitting in an aisle seat stopped her and said, \"Relax honey,\n> he's gotta take a shit first.\"\n>\n>",
+   "new_text_source": "body",
+   "subject": "Fw: This Is the Captain Speaking",
+   "thread_id": "t0761d80027",
+   "to": [
+    "dgiron1@pdq.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-13T09:38:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/599",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 10/13/2000 \n09:36 AM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 10/12/2000 03:41:28 PM\nTo: \"Sheri Thomas\" <Sheri.Thomas@enron.com>, \"Raymond Paterson\" \n<ray_paterson@hotmail.com>, \"Lori Horrocks\" <loroks@yahoo.com>, \"Len\" \n<bigusdickus70@hotmail.com>, \"KRISTI GIRON\" <KRISTI.GIRON@cfisd.net>, \"John \nSchmitz\" <jschm@telxon.com>, \"Jim Miller\" <jraggie1@pdq.net>, \"Janine Gregor\" \n<janine.gregor@talk21.com>, \"Gregor, Lynn C\" <GregorLC@bp.com>, \"Diego \nGotthelf\" <dygotthelf@hotmail.com>, \"Debbie Hall\" <gmind@icsi.net>, \"Darron C \nGiron\" <Darron.C.Giron@enron.com>\ncc:  \nSubject: Fw: This Is the Captain Speaking\n\n\n\n----- Original Message -----\nFrom: \"Warren, Stacy\" <swarre02@coair.com>\nTo: \"Ugly Boo (E-mail)\" <hollyw@email.msn.com>\nSent: Thursday, October 12, 2000 10:27 AM\nSubject: FW: This Is the Captain Speaking\n\n\n>\n>\n> -----Original Message-----\n> From: Brian & Cyndi Clark [mailto:bcclarks@worldnet.att.net]\n> Sent: Wednesday, October 11, 2000 8:14 PM\n> To: Gary Nathanson; Jerry T. Clark; Jim McLatchie; Kim McColley; Lisa\n> Clark; Lori Coy; Larrry Remmert; Brian Clark\n> Subject: This Is the Captain Speaking\n>\n>\n> .\n>\n> A pilot got on the loudspeaker shortly after takeoff and said to the\n> passengers, \"Folks, welcome aboard flight seven eighty-nine to Cleveland.\n> We'll be flying at thirty-five-thousand feet, and expect to land in an\nhour\n> and a half. Just sit back, relax, and enjoy the flight.\"\n>\n> Forgetting to turn off the microphone, he turned to his copilot, yawned,\nand\n> said, \"Why don't you take over for a while? I'm going to take me a big\n> healthy shit, and then I'm gonna fuck the brains outta that pretty blonde\n> flight attendant working in coach.\"\n>\n> His announcement went over the whole plane. The pretty blonde flight\n> attendant in coach heard this and exclaimed, \"Oh my God!\" and started\n> running towards the cockpit.\n>\n> An old lady sitting in an aisle seat stopped her and said, \"Relax honey,\n> he's gotta take a shit first.\"\n>\n>",
+   "new_text_source": "body",
+   "subject": "Fw: This Is the Captain Speaking",
+   "thread_id": "t0761d80027",
+   "to": [
+    "scrowell@us.oracle.com",
+    "cgiron@mindspring.com",
+    "smmayers@earthlink.net",
+    "mike.fultz@halliburton.com",
+    "jackson.logan@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-09T17:34:59+00:00",
+   "from": "kam.keiser@enron.com",
+   "msg_id": "giron-d/inbox/147",
+   "new_text": "Do you guys know which books each of your people will be doing?  There is a column for that in the trader matrix under the controls folder.  Ramesh will be loading our information into risktrac for us once we have all of the information, book admin id is one of the fields he needs. \n\nWhen you have decided can you please input that into the trader matrix and I'll then forward everything to Ramesh.\n\nThanks\n\nKam",
+   "new_text_source": "new",
+   "subject": "trader matrix",
+   "thread_id": "t077d2d3124",
+   "to": [
+    "scott.palmer@enron.com",
+    "errol.mclaughlin@enron.com",
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-23T22:37:06+00:00",
+   "from": "stacey.richardson@enron.com",
+   "msg_id": "giron-d/inbox/93",
+   "new_text": "Attached please find an updated list with deals I have added today that need to be moved into the bankruptcy books per the counterparty's termination.\n\n \n\nThis evening, Cyndie Balfour-Flanagan will combine all our spreadsheets so that we are working off one document.  Any future deal listings sent you will be in that format.\n\nThanks,\nSBR x30569",
+   "new_text_source": "new",
+   "subject": "More deals to move",
+   "thread_id": "t07ce8c9571",
+   "to": [
+    "c..gossett@enron.com",
+    "m..love@enron.com",
+    "c..giron@enron.com",
+    "scott.palmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-04T14:52:35+00:00",
+   "from": "d..winfree@enron.com",
+   "msg_id": "giron-d/inbox/29",
+   "new_text": "The messages below can better explain what's going on IT wise... O=20",
+   "new_text_source": "new",
+   "subject": "FW: UPDATE: FW: 02-01-2002 Key Points",
+   "thread_id": "t0818dbd040",
+   "to": [
+    "kam.keiser@enron.com",
+    "c..giron@enron.com",
+    "m..love@enron.com",
+    "errol.mclaughlin@enron.com",
+    "scott.palmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-29T15:58:33+00:00",
+   "from": "sschroed@us.ca-indosuez.com",
+   "msg_id": "giron-d/inbox/267",
+   "new_text": "Gentlemen,\n\nThe Houston Beta Kappa Distinguished Speaker Series will continue tomorrow,\nOctober 30, 2001, at 12:30 PM at Zydeco's in the Bank One Building.  Our\nguest speaker will be Darron Giron.  His topic will be \"How to really fuck\nup a good company in a hurry\" aka \"The Enron Story\".  Please let me know if\nyou can attend.\n\nSchroeder",
+   "new_text_source": "new",
+   "subject": "Houston Beta Kappa Distinguished Speaker Series",
+   "thread_id": "t08ad924fdc",
+   "to": [
+    "dgiron@enron.com",
+    "randy.g.kruger.jr@arthuranderson.com",
+    "mikeshaw@andrews-kurth.com",
+    "todd.w.taylor@bakernet.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-09T11:19:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/612",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 10/09/2000 \n11:18 AM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 10/09/2000 11:06:13 AM\nTo: \"Stan & Katie Wright\" <stanchas@aol.com>, \"Ron Jones\" \n<jonesr@tpi-sourcing.com>, \"Rochelle Smith\" <rochelle@waterengineers.com>, \n\"Raymond Paterson\" <ray_paterson@hotmail.com>, \"Nicol, Gary\" <nicolg@bp.com>, \n\"KRISTI GIRON\" <KRISTI.GIRON@cfisd.net>, \"Jim Henness \\(E-mail\\)\" \n<jhennes@c2i2.com>, \"Emory & Joanne Peddicord\" <epeddi1254@cs.com>, \"Charlene \nAnderson\" <foxter@rionet.com.br>, \"Darron C Giron\" \n<Darron.C.Giron@enron.com>, \"Stacy Warren\" <swarre02@coair.com>\ncc:  \nSubject: Fw: Al Gore's 21 Lies\n\n\nDad'll love this.\n\n----- Original Message -----\nFrom: \"Jim Miller\" <jraggie1@pdq.net>\nTo: \"Wayne Duncan\" <Wayneduncan@hotmail.com>; \"Tom Svec\"\n<tsvec@generalwelding.com>; \"Steve Schmidt\" <sschmidt@urjet.net>; \"Randy T.\nRogers\" <rrogers@wbctx.com>; \"Pete Miller\" <pmiller@fciconnect.com>; \"Paul\nHeidaker\" <pheidak@yahoo.com>; \"Pat Duncan\" <wpduncanjr@aol.com>; \"Mike. W.\nSowden\" <Mike.W.Sowden@supervalu.com>; \"Mike Vineyard\" <qcgi@qualitec.com>;\n\"Michael Murr\" <Michael.Murr@COMPAQ.com>; \"Mcintyre\" <mcintyre@tca.net>;\n\"Julie Paxton\" <JuKaPa129@aol.com>; \"Jimmy Martin\"\n<Jimmy.Martin@COMPAQ.com>; \"Jim Lawler\" <wb365@email.msn.com>; \"Jesse\nKhangura\" <jskhangura@msn.com>; \"Janey Sowden\" <janebarb@aol.com>; \"Holly\nWright\" <hollyw@email.msn.com>; \"Gene Stpierre\" <Gene.Stpierre@COMPAQ.com>;\n\"Fred Valente\" <fvalente@micro.ti.com>; \"Danny A Dequeant\"\n<Danny.Dequeant@cmcsg.com>; \"Chris Strong\" <cstrong@strongpointe.net>;\n\"Cheryl Sparkman\" <cheryl@keystoneexec.com>; \"Carla Preston\"\n<cdspreston@earthlink.net>; \"AKoebig\" <AKoebig@aol.com>; \"A. J. Sowden\"\n<ASowden@aol.com>\nSent: Monday, October 09, 2000 10:16 AM\nSubject: FW: Al Gore's 21 Lies\n\n\n>\n>\n> -----Original Message-----\n> From: Reid Harmon [mailto:reid@gsihighway.com]\n> Sent: Monday, October 09, 2000 8:58 AM\n> To: 'Harmon, Kim'; 'Bechstein, Edwin'; 'Bridger Spence'; 'Brown, Mark';\n> 'Brzymialkiewicz ,Cindy'; 'Clay, Dan'; 'Conway, Mike'; 'Davis, C. Pat';\n> 'Durain, Larry - SALES'; 'Fulbright, E.B.'; 'Giuffre, Richard'; 'Hance,\n> Laddie'; 'Holt, Bill'; 'Jacobus, Ben'; 'Jim Miller'; 'Margie McCain';\n> 'Mathey, Steve'; 'Moss, Steve'; 'Musgrove, Vickie'; 'Patton, Keith';\n> 'Persall, Charles'; 'Richard Lytle'; 'Rose, Bob - SALES'; 'Schaub,\n> Michael'; 'SPENCEDMS@aol.com'; 'Stateler, Sharon'; 'Stephanie\n> Castleschouldt'; 'Turner, Jo'; 'Tuttle, Wally'; 'WAYNE WEAVER';\n> 'Weathersbee, Tommy'; 'Williams, John'\n> Subject: FW: Al Gore's 21 Lies\n>\n>\n>\n>\n>\n>\n> Subject: Al Gore's 21 Lies\n>\n>\n> Reprinted from the Internet News Bureau article \"Al Gore's 21 Lies\"\n> DO WE REALLY NEED ANOTHER PATHOLOGICAL LIAR FOR PRESIDENT?\n> FICTION: Al Gore recently claimed that his mother-in-law pays more than\n> $100.00 for the arthritis medicine Lodine; and he claims that his\n> dog\n> takes the same medicine for $37.00, claiming \"This is wrong!\"\n>\n> FACT: Gore's aides were quick to apologize for Gore's lie, saying the\n> information was from a Democratic study. Washington newspapers also\n> reported that Al Gore wasn't even sure his mother-in-law was taking\n> any\n> medication and wasn't even sure she had arthritis. And, he doesn't\n> know anything about his dog's \"arthritis\".\n>\n> FICTION: Al Gore said his father, a senator, was a champion of civil\n> rights during the 1960's.\n>\n> FACT:  Gore's father voted against the landmark Civil Rights Act of 1964\n> and was a racist who was fond of using the \"N\" word.\n>\n> FICTION: Al Gore said that his sister was the very first person to join\n> the Peace Corps.\n>\n> FACT: By the time Gore's sister joined the Peace Corps, there were\n> already over 100 members.\n>\n> FICTION: The same sister died of lung cancer years later and Gore vowed\n> to never accept tobacco money as campaign contributions.\n>\n> FACT:  Just four years later, while campaigning for office, Gore spoke\n> to the tobacco industry and said he was one of them because \"I've\n> planted\n> it,raised it, cut it, and dried it.\" He raised over $100,000 in\n> \"reported\"\n> contributions.\n>\n> FICTION: While running for office, Gore's campaign literature claimed he\n> was a \"Brilliant Student\".\n>\n> FACT: Washington newspapers said he barely passed Harvard and\n> consistently earned D's and C's.\n>\n> FICTION: Gore claims an extensive knowledge of law as a result of his\n> extensive study at law school.\n>\n> FACT: Al Gore dropped out of law school.\n>\n> FICTION: Gore claimed that his knowledge of God and spirituality came to\n> complete fruition while \"finishing\" divinity school.\n>\n> FACT:  Al Gore dropped out of divinity school.\n>\n> FICTION: Al Gore claimed responsibility for inventing the Internet in\n> the 1990's.\n>\n> FACT : Shocked scientists were quick to speak out, explaining that the\n> Internet had been in widespread use by government and educational\n> institutions since the early 1970's.\n>\n> FICTION: Al Gore claimed the book \"Love Story\" was based on his life and\n> Tipper's.\n>\n> FACT: Author Erich Segal called a press conference to deny his claim.\n> (Couldn't he at least lie about a love story where his sweetheart\n> doesn't die?\")\n>\n> FICTION : Gore claimed that as a reporter for a Nashville newspaper, his\n> stories led to the arrests of numerous corrupt criminals.\n>\n> FACT: He later apologized for his claim and actually said it was untrue\n> (Also known as lying).\n>\n> FICTION: Gore claims to increase diversity in the staff that follows him\n> daily, especially among blacks.\n>\n> FACT:  Black members of the Secret Service are suing because they claim\n> they are not being promoted to positions guarding the\n> Vice-President.\n>\n> FICTION: Al Gore said he was the first to discover the Love Canal\n> nuclear accident.\n>\n> FACT: The incident was already discovered, being investigated, and\n> covered widely in the press for many months before Gore was aware of\n> it.\n>\n> FICTION: Gore said just recently that if elected president, he would put\n> harsh sanctions on the sleazy producers of Hollywood's extreme sex\n> and\n> violence.\n>\n> FACT:  Just six days later, Gore attended a fundraiser by Hollywood\n> producers and radical gay activists where he told them that he would\n>\n> only pretend to \"nudge them\" if elected. He raised over $4 million.\n>\n> FICTION: Al Gore said he built his Tennessee home with his bare hands.\n>\n> FACT : Totally false!\n>\n> FICTION: Al Gore says parents should not have a choice between private\n> and public schools because public schools are far better.\n>\n> FACT : Al Gore attended private school and he has sent his children to\n> private schools.\n>\n> FICTION: Al Gore remembers his mother lulling him to sleep as a baby by\n> singing the popular ditty, \"Wear The Union Label\".\n>\n> FACT: The popular ditty was created by the unions when Gore was 27 years\n> old.\n>\n> FICTION: Al Gore claimed to co-sponsor the McCain-Feingold Campaign\n> Reform Act.\n>\n> FACT:  The Act was not sponsored until he had been out of office for\n> over a year.\n>\n> FICTION: Al Gore claims to be instrumental in keeping gas prices low.\n>\n> FACT: Gore has voted on numerous occasions to raise the tax on gasoline.\n> In his book \"Earth In The Balance\" Gore claims that the nation's\n> Number\n> One enemy is the internal combustion engine. (That's the motor in\n> your\n> vehicle that gets you to work and takes your kids to school)\n>\n> FICTION: Gore pretends to champion the rights of poor women to be tested\n> regularly for breast cancer with the most modern technology.\n>\n> FACT: While giving a speech on the subject in September, Gore didn't\n> know what a mammogram was.\n>\n> FICTION: AL Gore promised Florida's senior citizens that they would\n> finally have low-cost drugs with no interference from government.\n>\n> FACT: Gore's plan calls for the creation of a huge federal agency that\n> would tell you which doctor you are allowed to see in order to get\n> the\n> \"special rates\".\n>\n> FACT: Al Gore told NBC's Lisa Meyers that he had never told a l",
+   "new_text_source": "body",
+   "subject": "Fw: Al Gore's 21 Lies",
+   "thread_id": "t08dc47a3b0",
+   "to": [
+    "greg.couch@enron.com",
+    "phillip.love@enron.com",
+    "dawn.kenne@enron.com",
+    "jackson.logan@enron.com"
+   ],
+   "truncated": true
+  },
+  {
+   "date": "2000-10-09T13:52:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/611",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 10/09/2000 \n01:52 PM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 10/09/2000 11:06:13 AM\nTo: \"Stan & Katie Wright\" <stanchas@aol.com>, \"Ron Jones\" \n<jonesr@tpi-sourcing.com>, \"Rochelle Smith\" <rochelle@waterengineers.com>, \n\"Raymond Paterson\" <ray_paterson@hotmail.com>, \"Nicol, Gary\" <nicolg@bp.com>, \n\"KRISTI GIRON\" <KRISTI.GIRON@cfisd.net>, \"Jim Henness \\(E-mail\\)\" \n<jhennes@c2i2.com>, \"Emory & Joanne Peddicord\" <epeddi1254@cs.com>, \"Charlene \nAnderson\" <foxter@rionet.com.br>, \"Darron C Giron\" \n<Darron.C.Giron@enron.com>, \"Stacy Warren\" <swarre02@coair.com>\ncc:  \nSubject: Fw: Al Gore's 21 Lies\n\n\nDad'll love this.\n\n----- Original Message -----\nFrom: \"Jim Miller\" <jraggie1@pdq.net>\nTo: \"Wayne Duncan\" <Wayneduncan@hotmail.com>; \"Tom Svec\"\n<tsvec@generalwelding.com>; \"Steve Schmidt\" <sschmidt@urjet.net>; \"Randy T.\nRogers\" <rrogers@wbctx.com>; \"Pete Miller\" <pmiller@fciconnect.com>; \"Paul\nHeidaker\" <pheidak@yahoo.com>; \"Pat Duncan\" <wpduncanjr@aol.com>; \"Mike. W.\nSowden\" <Mike.W.Sowden@supervalu.com>; \"Mike Vineyard\" <qcgi@qualitec.com>;\n\"Michael Murr\" <Michael.Murr@COMPAQ.com>; \"Mcintyre\" <mcintyre@tca.net>;\n\"Julie Paxton\" <JuKaPa129@aol.com>; \"Jimmy Martin\"\n<Jimmy.Martin@COMPAQ.com>; \"Jim Lawler\" <wb365@email.msn.com>; \"Jesse\nKhangura\" <jskhangura@msn.com>; \"Janey Sowden\" <janebarb@aol.com>; \"Holly\nWright\" <hollyw@email.msn.com>; \"Gene Stpierre\" <Gene.Stpierre@COMPAQ.com>;\n\"Fred Valente\" <fvalente@micro.ti.com>; \"Danny A Dequeant\"\n<Danny.Dequeant@cmcsg.com>; \"Chris Strong\" <cstrong@strongpointe.net>;\n\"Cheryl Sparkman\" <cheryl@keystoneexec.com>; \"Carla Preston\"\n<cdspreston@earthlink.net>; \"AKoebig\" <AKoebig@aol.com>; \"A. J. Sowden\"\n<ASowden@aol.com>\nSent: Monday, October 09, 2000 10:16 AM\nSubject: FW: Al Gore's 21 Lies\n\n\n>\n>\n> -----Original Message-----\n> From: Reid Harmon [mailto:reid@gsihighway.com]\n> Sent: Monday, October 09, 2000 8:58 AM\n> To: 'Harmon, Kim'; 'Bechstein, Edwin'; 'Bridger Spence'; 'Brown, Mark';\n> 'Brzymialkiewicz ,Cindy'; 'Clay, Dan'; 'Conway, Mike'; 'Davis, C. Pat';\n> 'Durain, Larry - SALES'; 'Fulbright, E.B.'; 'Giuffre, Richard'; 'Hance,\n> Laddie'; 'Holt, Bill'; 'Jacobus, Ben'; 'Jim Miller'; 'Margie McCain';\n> 'Mathey, Steve'; 'Moss, Steve'; 'Musgrove, Vickie'; 'Patton, Keith';\n> 'Persall, Charles'; 'Richard Lytle'; 'Rose, Bob - SALES'; 'Schaub,\n> Michael'; 'SPENCEDMS@aol.com'; 'Stateler, Sharon'; 'Stephanie\n> Castleschouldt'; 'Turner, Jo'; 'Tuttle, Wally'; 'WAYNE WEAVER';\n> 'Weathersbee, Tommy'; 'Williams, John'\n> Subject: FW: Al Gore's 21 Lies\n>\n>\n>\n>\n>\n>\n> Subject: Al Gore's 21 Lies\n>\n>\n> Reprinted from the Internet News Bureau article \"Al Gore's 21 Lies\"\n> DO WE REALLY NEED ANOTHER PATHOLOGICAL LIAR FOR PRESIDENT?\n> FICTION: Al Gore recently claimed that his mother-in-law pays more than\n> $100.00 for the arthritis medicine Lodine; and he claims that his\n> dog\n> takes the same medicine for $37.00, claiming \"This is wrong!\"\n>\n> FACT: Gore's aides were quick to apologize for Gore's lie, saying the\n> information was from a Democratic study. Washington newspapers also\n> reported that Al Gore wasn't even sure his mother-in-law was taking\n> any\n> medication and wasn't even sure she had arthritis. And, he doesn't\n> know anything about his dog's \"arthritis\".\n>\n> FICTION: Al Gore said his father, a senator, was a champion of civil\n> rights during the 1960's.\n>\n> FACT:  Gore's father voted against the landmark Civil Rights Act of 1964\n> and was a racist who was fond of using the \"N\" word.\n>\n> FICTION: Al Gore said that his sister was the very first person to join\n> the Peace Corps.\n>\n> FACT: By the time Gore's sister joined the Peace Corps, there were\n> already over 100 members.\n>\n> FICTION: The same sister died of lung cancer years later and Gore vowed\n> to never accept tobacco money as campaign contributions.\n>\n> FACT:  Just four years later, while campaigning for office, Gore spoke\n> to the tobacco industry and said he was one of them because \"I've\n> planted\n> it,raised it, cut it, and dried it.\" He raised over $100,000 in\n> \"reported\"\n> contributions.\n>\n> FICTION: While running for office, Gore's campaign literature claimed he\n> was a \"Brilliant Student\".\n>\n> FACT: Washington newspapers said he barely passed Harvard and\n> consistently earned D's and C's.\n>\n> FICTION: Gore claims an extensive knowledge of law as a result of his\n> extensive study at law school.\n>\n> FACT: Al Gore dropped out of law school.\n>\n> FICTION: Gore claimed that his knowledge of God and spirituality came to\n> complete fruition while \"finishing\" divinity school.\n>\n> FACT:  Al Gore dropped out of divinity school.\n>\n> FICTION: Al Gore claimed responsibility for inventing the Internet in\n> the 1990's.\n>\n> FACT : Shocked scientists were quick to speak out, explaining that the\n> Internet had been in widespread use by government and educational\n> institutions since the early 1970's.\n>\n> FICTION: Al Gore claimed the book \"Love Story\" was based on his life and\n> Tipper's.\n>\n> FACT: Author Erich Segal called a press conference to deny his claim.\n> (Couldn't he at least lie about a love story where his sweetheart\n> doesn't die?\")\n>\n> FICTION : Gore claimed that as a reporter for a Nashville newspaper, his\n> stories led to the arrests of numerous corrupt criminals.\n>\n> FACT: He later apologized for his claim and actually said it was untrue\n> (Also known as lying).\n>\n> FICTION: Gore claims to increase diversity in the staff that follows him\n> daily, especially among blacks.\n>\n> FACT:  Black members of the Secret Service are suing because they claim\n> they are not being promoted to positions guarding the\n> Vice-President.\n>\n> FICTION: Al Gore said he was the first to discover the Love Canal\n> nuclear accident.\n>\n> FACT: The incident was already discovered, being investigated, and\n> covered widely in the press for many months before Gore was aware of\n> it.\n>\n> FICTION: Gore said just recently that if elected president, he would put\n> harsh sanctions on the sleazy producers of Hollywood's extreme sex\n> and\n> violence.\n>\n> FACT:  Just six days later, Gore attended a fundraiser by Hollywood\n> producers and radical gay activists where he told them that he would\n>\n> only pretend to \"nudge them\" if elected. He raised over $4 million.\n>\n> FICTION: Al Gore said he built his Tennessee home with his bare hands.\n>\n> FACT : Totally false!\n>\n> FICTION: Al Gore says parents should not have a choice between private\n> and public schools because public schools are far better.\n>\n> FACT : Al Gore attended private school and he has sent his children to\n> private schools.\n>\n> FICTION: Al Gore remembers his mother lulling him to sleep as a baby by\n> singing the popular ditty, \"Wear The Union Label\".\n>\n> FACT: The popular ditty was created by the unions when Gore was 27 years\n> old.\n>\n> FICTION: Al Gore claimed to co-sponsor the McCain-Feingold Campaign\n> Reform Act.\n>\n> FACT:  The Act was not sponsored until he had been out of office for\n> over a year.\n>\n> FICTION: Al Gore claims to be instrumental in keeping gas prices low.\n>\n> FACT: Gore has voted on numerous occasions to raise the tax on gasoline.\n> In his book \"Earth In The Balance\" Gore claims that the nation's\n> Number\n> One enemy is the internal combustion engine. (That's the motor in\n> your\n> vehicle that gets you to work and takes your kids to school)\n>\n> FICTION: Gore pretends to champion the rights of poor women to be tested\n> regularly for breast cancer with the most modern technology.\n>\n> FACT: While giving a speech on the subject in September, Gore didn't\n> know what a mammogram was.\n>\n> FICTION: AL Gore promised Florida's senior citizens that they would\n> finally have low-cost drugs with no interference from government.\n>\n> FACT: Gore's plan calls for the creation of a huge federal agency that\n> would tell you which doctor you are allowed to see in order to get\n> the\n> \"special rates\".\n>\n> FACT: Al Gore told NBC's Lisa Meyers that he had never told a l",
+   "new_text_source": "body",
+   "subject": "Fw: Al Gore's 21 Lies",
+   "thread_id": "t08dc47a3b0",
+   "to": [
+    "smmayers@earthlink.net"
+   ],
+   "truncated": true
+  }
+ ]
+}

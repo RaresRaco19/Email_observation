@@ -1,0 +1,155 @@
+{
+ "current_workflow": [
+  {
+   "citations": [
+    "farmer-d/logistics/896",
+    "farmer-d/logistics/1055",
+    "farmer-d/logistics/2137",
+    "farmer-d/logistics/1356"
+   ],
+   "step": "Volume management or settlements finds allocated flow at a meter that has no matching Sitara deal: the deal has expired, it starts a day late, or it covers only part of the month. Sometimes this turns up through a Feedback Monitor error or a counterparty statement.",
+   "who": "volume management / settlements analyst (e.g. Jackie Young, Heidi Withers, Rebecca Griffin)"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/896",
+    "farmer-d/logistics/1999",
+    "farmer-d/logistics/1149"
+   ],
+   "step": "The analyst emails the deal owner and types the meter number, Sitara deal number, dates, contract and volume into free text. They ask for the deal to be rolled, extended or created so that accounting can set up an accounting arrangement.",
+   "who": "volume management analyst to Texas desk deal owner (Daren Farmer)"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/1055",
+    "farmer-d/logistics/117",
+    "farmer-d/logistics/130"
+   ],
+   "step": "If it is unclear who owns the deal, the request is passed between people and desks (George/Craig, Julie Meyers, then Daren) until someone accepts it.",
+   "who": "logistics / trading desk contacts"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/1160",
+    "farmer-d/logistics/1485",
+    "farmer-d/logistics/1227",
+    "farmer-d/logistics/1149"
+   ],
+   "step": "The requester follows up by email while the gap stays open, sometimes repeatedly in the same thread.",
+   "who": "volume management, settlements, Aimee Lannou (logistics)"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/1356",
+    "farmer-d/logistics/1489",
+    "farmer-d/logistics/1972"
+   ],
+   "step": "For old or large gaps, an approver asks for root cause and billing details before signing off on a deal, or proposes letting the volume hit an OBA as a PPA instead.",
+   "who": "approver (Gary Lamphier), East Desk logistics (Victor Lamadrid)"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/130",
+    "farmer-d/logistics/1299",
+    "farmer-d/logistics/1516"
+   ],
+   "step": "The deal owner creates or extends the Sitara ticket, or fixes the volume. The change then has to flow through to Unify and Volume Management before payment or invoicing can happen.",
+   "who": "deal owner / scheduler (Daren Farmer, Mary Poorman)"
+  }
+ ],
+ "effort": "M",
+ "implementation_steps": [
+  "Agree the matching key and tolerance with volume management and the Texas desk: meter, contract, counterparty, day, and a minimum volume below which gaps are batched rather than raised individually.",
+  "Build read-only extracts of allocated volumes from Volume Management and of deal terms (dates, meter, evergreen flag, owner) from Sitara.",
+  "Write the comparison job and run it over recent production months in shadow mode. Check its exceptions against the gaps people actually emailed about, such as meters 98-6719, 98-9676 and 1520, to tune false positives.",
+  "Build the routing table (last deal owner per meter, plus a desk fallback) and the pre-filled case notification with its decision form.",
+  "Pilot with the Texas desk deal owner and the volume management analysts who raise most of these requests. Retire the free-text email requests for gaps the job already catches.",
+  "Add the aging escalation and the month-end open-gap report, and record decisions so recurring meters (repeated monthly rolls) can be moved to evergreen deals.",
+  "Extend to other desks once the false-positive rate is acceptable."
+ ],
+ "opportunity": "meter_flow_missing_deal_resolution",
+ "risks": [
+  "Allocation data arrives late or is restated (prior-month re-allocations), which would cause false or flapping exceptions. Mitigate by re-running per production month and suppressing cases whose volumes keep changing until allocation settles.",
+  "The evidence does not show the actual data structures or access paths for Sitara, Unify and Volume Management, so extract effort is uncertain. A technical discovery step is needed before committing to the M estimate.",
+  "Deal ownership is often unclear in the emails, so routing by last deal owner may send cases to the wrong person. Mitigate with a desk fallback owner and a reassign action.",
+  "Systems may not support very old periods (the emails note pre-Unify pathing for 1999), so the job should only cover current and recent production months.",
+  "The modelled saving ($205 per month) is small, so the build should stay lightweight. The main benefit may be catching unbilled gas early, which the evidence suggests but does not quantify.",
+  "Users may keep emailing in parallel. Mitigate by having the case notification carry all the request details and by measuring the drop in ad-hoc requests."
+ ],
+ "solution": {
+  "approach": "A nightly reconciliation job reads allocated daily volumes by meter and contract from Volume Management, plus the active Sitara deals for the same meter, counterparty and dates. It flags every meter-day where there is flow but no deal covers it, which includes missing deals, expired deals, deals that start late and partial-month coverage. Each gap becomes one exception case pre-filled with the meter, contract, counterparty, flow days, volume, the last deal number seen at that meter and the suggested fix (for example, extend deal X through the end of the month). The case is routed to the deal owner of the last deal at that meter, with a fallback owner by desk. The owner picks extend, create a new deal, or write-off/PPA with a reason, so requesters no longer have to email and chase. Cases still open after a set age go to the desk lead, and month-end close gets a report of open gaps, so they are fixed in the production month rather than discovered months later.",
+  "components": [
+   "nightly flow-versus-deal comparison job (meter, day, counterparty)",
+   "exception case store with status, owner, age and decision",
+   "routing rules: last deal owner at the meter, then a desk fallback",
+   "pre-filled notification and decision form (extend / new deal / write-off or PPA, with reason)",
+   "aging escalation rule and month-end open-gap report"
+  ],
+  "inputs": [
+   "allocated daily volumes by meter and contract (Volume Management)",
+   "Sitara deal tickets: deal number, counterparty, meter, start and end dates, volume, evergreen flag, deal owner",
+   "Unify paths by meter and day",
+   "Feedback Monitor errors where available",
+   "meter-to-desk ownership table for routing"
+  ],
+  "outputs": [
+   "daily exception queue of meter-days with flow but no valid deal, one pre-filled case per gap, for the deal owner",
+   "a suggested action per case (extend deal / new deal / write-off or PPA), with the decision and reason recorded",
+   "a month-end report of open gaps by age and volume for volume management, settlements and the desk lead",
+   "a notification to the requester (volume management or settlements) when a case is resolved and the deal number is available"
+  ],
+  "systems": [
+   "Sitara",
+   "Unify",
+   "Volume Management",
+   "Feedback Monitor"
+  ],
+  "trigger": "Nightly schedule after the daily allocation load, plus an on-demand run before month-end close and settlement"
+ },
+ "stall_points": [
+  {
+   "citation": "farmer-d/logistics/1055",
+   "description": "Deal tickets are not rolled forward month to month. Flow continues on an expired deal, nobody notices for months, and then someone has to work out who should roll it.",
+   "quote": "There should be a deal ticket in Sitara for this sale to Engage, but \nit looks as though 12/99 was the last month a deal was entered"
+  },
+  {
+   "citation": "farmer-d/logistics/1149",
+   "description": "A deal that covers only some of the flow days leaves the rest stranded. The same issue comes back and needs a second request for a new deal number.",
+   "quote": "Can you assist Anita and I w/a deal number to place the 1st 20 days on."
+  },
+  {
+   "citation": "farmer-d/logistics/2137",
+   "description": "A counterparty-reported volume with no deal sits unanswered for weeks after production month, and the requester has to chase.",
+   "quote": "Were you able to find anything out about this?"
+  },
+  {
+   "citation": "farmer-d/logistics/1356",
+   "description": "Gaps found very late (a 1/99 meter found in 8/2000) get held up because the approver needs root cause and billing details first.",
+   "quote": "I am uncomfortable putting a deal out there without more details."
+  },
+  {
+   "citation": "farmer-d/logistics/1489",
+   "description": "Prior-period gaps can become impossible to process in the systems, which forces a workaround decision.",
+   "quote": "I don't think we can even process this request."
+  },
+  {
+   "citation": "farmer-d/logistics/1972",
+   "description": "Volumes are changed repeatedly between pipeline allocation, Unify paths and Sitara deals, so the same gap is reworked several times.",
+   "quote": "We go round and round at this point \nchanging volumes two, three or more times."
+  },
+  {
+   "citation": "farmer-d/logistics/130",
+   "description": "Volumes that are not actualized leave nothing in Volume Management, so a counterparty payment is stuck against a hard noon deadline.",
+   "quote": "The volumes have not be actualized so there is nothing in Volume Management."
+  }
+ ],
+ "stays_manual": [
+  "Whether flow is legitimate and should get a deal, or should not be flowing at all, because it needs commercial judgement from the deal owner.",
+  "Price and terms for a new or extended deal (for example, a premium rate or historical transport charge), because the trader sets them.",
+  "Approving write-offs, PPA/OBA treatment or very old prior-period gaps, where an approver needs root cause, end-user billing and counterparty credit context.",
+  "Disputes with pipelines or counterparties over allocated volumes, which need negotiation outside the systems.",
+  "Same-day payment deadlines such as prompt counterparty payments, which still need someone to coordinate across accounting and logistics."
+ ],
+ "success_metric": "Number of meter-days with allocated flow but no valid Sitara deal still open at month-end close, plus the median age of gap cases from first flow to resolution",
+ "summary": "Volume management, settlements and accounting staff keep finding gas allocated at a meter where Sitara has no deal, or only an expired or short-dated one. Each case becomes a one-off email to the deal owner, usually Daren Farmer, and is often chased for days or months. A daily exception job would compare allocated meter flow against active Sitara deal terms, open one pre-filled case per gap and route it to the deal owner with a one-click decision (extend, new deal, or write-off/PPA). Gaps would be caught in the month they occur instead of at settlement or a year later, and the follow-up emails would stop. Modelled value is $205 per month ($2,460 per year)."
+}

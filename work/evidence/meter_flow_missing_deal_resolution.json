@@ -1,0 +1,302 @@
+{
+ "allowed_figures": [
+  "$205",
+  "$2,460",
+  "$85"
+ ],
+ "allowed_types": [
+  "sop",
+  "email"
+ ],
+ "messages": [
+  {
+   "date": "2000-03-10T10:39:00+00:00",
+   "from": "jackie.young@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/896",
+   "new_text": "Hi Daren,\n\nCan you please check into whether or not the below deals for the above meters \ncan be rolled and extended?  If so, can you please perform this for me so \nthat Anita can set up an accounting arrangement for me?\n\n98-6719  Sitara Deal #166989 Flow @ meter began on February 10th but the deal \nis not effective until  February the 11th.\n     No new deal # referenced and no evergreen flag.  This is on the \ngathering (96026573) K which is the only\n     K @ the meter.\n\n98-9676  Sitara Deal #151669 Deal good from 1/1/00 - 1/31/00 but there is \nflow for all of February 2000 with no K.  This is on the 215K      for 1/2000 \nproduction which is the only K @ the meter.\n\n\nThanks\n-Jackie-\n3-9497",
+   "quote": "Can you please check into whether or not the below deals for the above meters \ncan be rolled and extended?",
+   "stall": false,
+   "subject": "98-6719 and 98-9676",
+   "thread_id": "t86246fd0cf",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-04-19T14:40:00+00:00",
+   "from": "lauri.allen@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/1055",
+   "new_text": "Heidi-  There should be a deal ticket in Sitara for this sale to Engage, but \nit looks as though 12/99 was the last month a deal was entered \n(IF/HSC+1.00).  George/Craig- could you guys coordinate who should be rolling \nthis deal or let us know if this gas should not be flowing?  Heidi-  \nhistorically we've been charging $.60/mm for this transport.\n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Heidi Withers                           04/19/2000 10:27 AM\n\t\n\nTo: Lauri A Allen/HOU/ECT@ECT\ncc:  \nSubject: HPL Delivery Meter 1520\n\nI am finding flow out there on HPL 215 for meter 1520 (Tx City Coastal \nStates) starting 4/1/00 (actually, no volume was scheduled but looks like it \nhas been allocated since March 1).  Did you want a premium rate for this?",
+   "quote": "There should be a deal ticket in Sitara for this sale to Engage, but \nit looks as though 12/99 was the last month a deal was entered",
+   "stall": true,
+   "subject": "Re: HPL Delivery Meter 1520",
+   "thread_id": "te81fd4aab8",
+   "to": [
+    "heidi.withers@enron.com"
+   ]
+  },
+  {
+   "date": "2000-05-26T08:45:00+00:00",
+   "from": "jackie.young@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/1149",
+   "new_text": "Hey Daren,\n\nWe're back on this issue again.  There is gas out there for days 1-3 and 6-20 \nbut the deal is only good for 21-31. \n\nCan you assist Anita and I w/a deal number to place the 1st 20 days on.  \nAnita is attempting to close this issue.\n\nAs usual, thanks for your help.\n\n-Jackie-\n3-9497",
+   "quote": "Can you assist Anita and I w/a deal number to place the 1st 20 days on.",
+   "stall": true,
+   "subject": "Re: Meter # 0986725 - 1/00 production - Encina Gas Marketing",
+   "thread_id": "t28565e5b23",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-05-31T13:34:00+00:00",
+   "from": "lisa.csikos@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/1160",
+   "new_text": "Daren,\nThis relates to the discussion we had yesterday afternoon.  Have we made any \nprogress on these issues?\nThanks.",
+   "quote": "Have we made any \nprogress on these issues?",
+   "stall": true,
+   "subject": "PanEnergy Marketing March 2000 Production",
+   "thread_id": "tc402d7406a",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-06-22T08:41:00+00:00",
+   "from": "aimee.lannou@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/1227",
+   "new_text": "D - When you get a chance, I would like to go over what has been allocated \nthese days.\n\nAim",
+   "quote": "When you get a chance, I would like to go over what has been allocated these days.",
+   "stall": true,
+   "subject": "Re: HL&P",
+   "thread_id": "t8eace25e2f",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-07-24T12:30:00+00:00",
+   "from": "pat.clynes@enron.com",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/1299",
+   "new_text": "Mary,\nPlease be careful of EOL deals.  I got a call on Friday evening about this \ndeal being changed but you had already left.\nIt is a deal with Aquila and the volume was changed.  Please check on this \nand communicate all changes  to Daren.  \n\nThanks,  Pat",
+   "quote": "Please be careful of EOL deals.  I got a call on Friday evening about this \ndeal being changed but you had already left.",
+   "stall": true,
+   "subject": "Deal # 339693 EOL Waha",
+   "thread_id": "t02075217ab",
+   "to": [
+    "mary.poorman@enron.com"
+   ]
+  },
+  {
+   "date": "2000-08-23T14:19:00+00:00",
+   "from": "jackie.young@enron.com",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/1356",
+   "new_text": "Hi Daren,\n\nSorry that I didn't include you on Gary's e-mail.  He presented these \nquestions to the Volume Management Group (which I agree). I will now forward \nyou the response from Volume Management.\n\n-Jackie-\n3-9497\n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Gary W Lamphier                           08/22/2000 01:11 PM\n\t\n\nTo: Jackie Young/HOU/ECT@ECT\ncc: Karen Lindley/Corp/Enron@ENRON \nSubject: Re: Feedback Monitor Error - Meter 984132 - 1/99  \n\nI am uncomfortable putting a deal out there without more details.  Here are \nmy questions:\n 1) Why was this gas just discovered now?  And where has it been hiding?\n 2) Adonis is a WMBE which means he has a direct pay agreement so never pays \nfor gas taken.  We have to invoice\n  the actual burner for this gas (HL&P, TU, CP&L, etc).  Can we identify end \nuser and see if they paid for this gas or will have to pay.\n 3) Adonis has skipped town and is no longer in business.  HL&P told me he \ngot paid for gas that never was delivered (rumor).\n  How can we invoice him now?\n 4) 60,000 mmbtu seems like a high volume of gas to slip through the cracks \nfor almost two years.  Answer the above questions and \n  I will be glad to approve this.",
+   "quote": "Answer the above questions and \n  I will be glad to approve this.",
+   "stall": true,
+   "subject": "Re: Feedback Monitor Error - Meter 984132 - 1/99",
+   "thread_id": "tcaf9ca784b",
+   "to": [
+    "gary.lamphier@enron.com"
+   ]
+  },
+  {
+   "date": "2000-11-01T10:01:00+00:00",
+   "from": "aimee.lannou@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/1485",
+   "new_text": "Daren - What is the status of meter 6387?\n\nAL",
+   "quote": "Daren - What is the status of meter 6387?",
+   "stall": true,
+   "subject": "Re: meter 6387 & 5192",
+   "thread_id": "tf6e1d6cecd",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-11-01T18:34:00+00:00",
+   "from": "victor.lamadrid@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/1489",
+   "new_text": "Is this date really June of 1999?  Hopefully we're not just finding out about \nthis?\n\nI don't think we can even process this request.  The East Desk was not up and \nrunning on Unify in June of 1999.  All of our pathing for June of 1999 was in \nAutonoms and it's not y2K compatabile. With the volumes involved being so \nsmall and the accuracy of the data at Enerfin in question, why don't we let \nthis volume hit the new OBA at Enerfin as a PPA???\n\nI welcome your thoughts.\nVictor \n\n\n   \n\t\n\t\n\tFrom:  Cynthia Franklin @ ENRON                           11/01/2000 02:50 PM\n\t\n\nTo: Victor Lamadrid/HOU/ECT@ECT\ncc:  \nSubject: Re: 6/4/99 and 6/9/99 (98-0439) Enerfin TETCO\n\nVictor,\nCan we go this far back? Please advise.\nCindy",
+   "quote": "why don't we let this volume hit the new OBA at Enerfin as a PPA???",
+   "stall": true,
+   "subject": "Re: 6/4/99 and 6/9/99 (98-0439) Enerfin TETCO",
+   "thread_id": "t445bfa6c23",
+   "to": [
+    "jackie.young@enron.com",
+    "daren.farmer@enron.com",
+    "clem.cernosek@enron.com",
+    "sherlyn.schumack@enron.com"
+   ]
+  },
+  {
+   "date": "2000-11-14T10:25:00+00:00",
+   "from": "mary.poorman@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/1516",
+   "new_text": "This deal is to book the Teco PVR revenue.  It is my understanding that Teco \njust sends us a check, I haven't received an answer as to whether there is a \npredermined price associated with this deal or if Teco just lets us know what \nwe are giving.  I can continue to chase this deal down if you need.",
+   "quote": "I can continue to chase this deal down if you need.",
+   "stall": true,
+   "subject": "Re: Indian Springs",
+   "thread_id": "t3187cfa311",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-12-14T10:37:00+00:00",
+   "from": "victor.lamadrid@enron.com",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/1972",
+   "new_text": "Rita, Please help me with this. I have some questions regarding Enerfin.\nWhy are we re-allocating prior month volumes at Enerfin after we matched your \noriginal numbers back in October? Can't this be fixed in the actualization \nprocess?  \nThe numbers for October between ENA-TETCO and HPL vary a good bit.  Are we \nyour only customer at that point and why do we show volumes on days ENA had \nno transactions with HPL?  Can we simply put zero paths in UNIFY and extend \nour existing deals in Sitara with zero volumes and have you guys actualize \nthese small volumes to handle this?  We go round and round at this point \nchanging volumes two, three or more times. Call me if you have questions..  \nThanks Victor",
+   "quote": "We go round and round at this point \nchanging volumes two, three or more times.",
+   "stall": true,
+   "subject": "Re: HPL discrepancy",
+   "thread_id": "tcc6c9905ab",
+   "to": [
+    "rita.wynne@enron.com",
+    "sherlyn.schumack@enron.com"
+   ]
+  },
+  {
+   "date": "2000-12-21T09:08:00+00:00",
+   "from": "jackie.young@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/1999",
+   "new_text": "Hi Daren,\n\nI know that this is a busy part of the day for you.  But, when you get a \nminute, can you please extend deal #465322 for cover a flow volume of 140 \ndec. for 11/21/2000?\n\nThanks\n-Jackie-\n3-9497",
+   "quote": "can you please extend deal #465322 for cover a flow volume of 140",
+   "stall": true,
+   "subject": "Re: Deal extension for 11/21/2000 for 98-439",
+   "thread_id": "td95b9d0ebc",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2001-03-27T16:08:00+00:00",
+   "from": "rebecca.griffin@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/2137",
+   "new_text": "Daren,\n\nI am handling CP&L and am trying to resolve this issue from February \nproduction.  CP&L shows 5,000 mmbtu on February 21, but we do not have a \ndeal.  Were you able to find anything out about this?\n\nThanks for your help.\n\nRebecca",
+   "quote": "CP&L shows 5,000 mmbtu on February 21, but we do not have a deal.  Were you able to find anything out about this?",
+   "stall": true,
+   "subject": "Re: CP&L",
+   "thread_id": "te7da9efe1b",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2001-05-23T22:39:03+00:00",
+   "from": "mary.ellenberger@enron.com",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/130",
+   "new_text": "I'm trying to get this to pull through to Unify for payment to Spinnaker. Volume Management shows \"no detail\".\nSitara indicated  685 mmbut 4/1-4/30 expected.\nWho needs to talk to who to get this fixed.\nPayment MUST be set up by noon 5/24/01 for prompt payment to Spinnaker.\nThank you and Please advise.\nMary Ellenberger 5-8773 (713-345-8773)\n\n\n\nFrom:\tJoyce Viltz/ENRON@enronXgate on 05/22/2001 02:49 PM\nTo:\tJulie Meyers/HOU/ECT@ECT, Daren J Farmer/ENRON@enronXgate, Mary Ellenberger/Corp/Enron@ENRON\ncc:\tTess Ray/ENRON@enronXgate \n\nSubject:\tCOWTRAP ALLOCATION - 4/01\n\nI received the above allocation for this deal where there is a purchase from Spinnaker and a sale to Dow.  The volumes have not be actualized so there is nothing in Volume Management.  Can one of you look into this and get back to me.\n\nThanks,\n\nJoyce",
+   "quote": "Payment MUST be set up by noon 5/24/01 for prompt payment to Spinnaker.",
+   "stall": true,
+   "subject": "Re: COWTRAP ALLOCATION - 4/01",
+   "thread_id": "ta1ea915129",
+   "to": [
+    "joyce.viltz@enron.com",
+    "julie.meyers@enron.com",
+    "j..farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-14T16:43:37+00:00",
+   "from": "tnray@aep.com",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/117",
+   "new_text": "Daren,\nPer my e-mail to Julie and her reply (see below), Can you help me with\nthis?\n\nThanks!\nTess",
+   "quote": "Per my e-mail to Julie and her reply (see below), Can you help me with this?",
+   "stall": true,
+   "subject": "Re: 05/01 ENA Gas Sales on HPL, to D & H Gas Company",
+   "thread_id": "t15741e738d",
+   "to": [
+    "dfarmer@enron.com"
+   ]
+  }
+ ],
+ "opportunity": {
+  "action_idea": "A daily job compares allocated meter volumes against active Sitara deal tickets and flags each meter with flow but no matching or unexpired deal, pre-filling the counterparty, meter, month and volume into a request to the deal owner. The deal owner still decides whether to extend, create a new deal, or sign off a write-off to unaccounted-for gas.",
+  "confidence": {
+   "active_months": 25,
+   "mailboxes": 2,
+   "quotes": 311,
+   "stall_share": 0.26,
+   "threads": 228
+  },
+  "description": "Volume management, settlements or schedulers find gas flowing at a meter with no valid Sitara deal (missing, expired, wrong counterparty) and ask the deal owner to create, extend or correct the ticket, or approve a write-off to unaccounted-for gas.",
+  "formula": "311 messages / 25.84 months observed (farmer-d, giron-d) = 12.04/month; x 20 min median handling x 60% automatable = 2.4 h/month; x $85/h = $205/month",
+  "hours_month": 2.4,
+  "id": "meter_flow_missing_deal_resolution",
+  "kinds": {
+   "escalation": 15,
+   "followup": 49,
+   "fulfillment": 43,
+   "fyi": 5,
+   "report": 7,
+   "request": 192
+  },
+  "mailboxes": [
+   "farmer-d",
+   "giron-d"
+  ],
+  "median_minutes": 20,
+  "messages": 311,
+  "messages_per_month": 12.04,
+  "name": "Missing or expired deal tickets for metered flow",
+  "participants": [
+   {
+    "address": "daren.farmer@enron.com",
+    "messages": 261
+   },
+   {
+    "address": "aimee.lannou@enron.com",
+    "messages": 57
+   },
+   {
+    "address": "jackie.young@enron.com",
+    "messages": 48
+   },
+   {
+    "address": "clem.cernosek@enron.com",
+    "messages": 42
+   },
+   {
+    "address": "mary.poorman@enron.com",
+    "messages": 38
+   },
+   {
+    "address": "j..farmer@enron.com",
+    "messages": 36
+   },
+   {
+    "address": "sherlyn.schumack@enron.com",
+    "messages": 31
+   },
+   {
+    "address": "pat.clynes@enron.com",
+    "messages": 30
+   }
+  ],
+  "remedy": "automation",
+  "stall": {
+   "flagged_messages": 81,
+   "max_gap_hours": 588.7,
+   "median_gap_hours": 18.4
+  },
+  "threads": 228,
+  "usd_month": 205,
+  "usd_year": 2460
+ }
+}

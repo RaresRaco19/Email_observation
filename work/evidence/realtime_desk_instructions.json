@@ -1,0 +1,339 @@
+{
+ "allowed_figures": [
+  "$114",
+  "$1,368",
+  "$85"
+ ],
+ "allowed_types": [
+  "reply",
+  "checklist",
+  "template"
+ ],
+ "messages": [
+  {
+   "date": "2001-06-12T02:23:06+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "request",
+   "msg_id": "williams-w3/sent_items/512",
+   "new_text": "We are long 25 mws in NP-15 at $54 for HE 7-22.  This is under the ST-WBOM line in CAPS.  We are long at $54.00\nCall me with any questions...\nThanks,\nBill",
+   "quote": "We are long 25 mws in NP-15 at $54 for HE 7-22.  This is under the ST-WBOM line in CAPS.",
+   "stall": false,
+   "subject": "Length for 06/12/01",
+   "thread_id": "t6933dd490b",
+   "to": [
+    "shift.portland@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-13T02:55:55+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "fyi",
+   "msg_id": "williams-w3/sent_items/506",
+   "new_text": "Group,\n\nWe are long for the 13th in California, 25 mws under ST-WBOM in NP-15 at $57.  \n\nWe are also long 22 mws under ST-CALI in NP-15.  ST-CALI is also short in the morning in SP-15.  They are short at around $30.  ST-CALI is providing us with a sheet detailing their positions for RT, we will now be providing them with a sheet each morning detailing their sales from the previous day.  Going forward, please put all the ST-CALI sales or length in the service sheet beneath our activity.\n\nWe are also short 10 mws to EWEB for HE 1-12, Willamette has a month long sale at $270 but needs to come down unexpectedly for maintenance.  We will backfill this and split any profit with Services.\n\nFinally...\n\nWe must check out with BPA each hour for Frontier and GCPUD.  Please make the call right after you call EPE dispatchers (between 25 after and 35 after).  The new service sheets have a place for initials for the call each hour, please initial after making the call to BPA (ext. 2277).\n\nALSO...TIMBERS TOMORROW NIGHT!",
+   "quote": "We must check out with BPA each hour for Frontier and GCPUD.",
+   "stall": false,
+   "subject": "Length and Short for 06/13/ SERVICES PROCEDURES",
+   "thread_id": "t7ffdfcc76b",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-14T03:26:35+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "request",
+   "msg_id": "williams-w3/sent_items/502",
+   "new_text": "Group,\n\nWe have 25 mws of length in the BOM book at $56 again for 06/14/01 on peak.  This energy is in NP-15.  Please make deals under ST-WBOM.\n\nST-CALI has another 5 mws each hour on peak in NP-15.  See CAPS for other information.\n\nThanks,\nBill",
+   "quote": "We have 25 mws of length in the BOM book at $56 again for 06/14/01 on peak.",
+   "stall": false,
+   "subject": "Length for 06/14/01",
+   "thread_id": "t6277658c89",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-15T18:50:55+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "request",
+   "msg_id": "williams-w3/sent_items/496",
+   "new_text": "Group,\n\nWe are long 25 mws 7-22 on Monday in SP-15 at $65.  Deals should be under ST-WBOM.\n\nWe are also long 25 mws under the ST-CALI book.  Please be sure to put this in the service sheet.  Other ST-CALI length or EES shorts will be on Phil Platters sheet and in CAPS.\n\nThanks,\n\nBill",
+   "quote": "We are long 25 mws 7-22 on Monday in SP-15 at $65. Deals should be under ST-WBOM.",
+   "stall": false,
+   "subject": "Length for Monday",
+   "thread_id": "tdac1038f0a",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-19T04:06:31+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "followup",
+   "msg_id": "williams-w3/sent_items/487",
+   "new_text": "These schedule changes must be called in.  Just a reminder.\nBill",
+   "quote": "These schedule changes must be called in.  Just a reminder.",
+   "stall": false,
+   "subject": "Stacy Runswick Emails concerning RT Schedule Changes.",
+   "thread_id": "t729e1bdd87",
+   "to": [
+    "shift.portland@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-25T16:15:39+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "followup",
+   "msg_id": "williams-w3/sent_items/471",
+   "new_text": "Group,\n\nA reminder.\n\nMy email address is bill.williams.iii@enron.com.  Bill Williams III needs to appear in the outlook box, otherwise I do not receive the email.  I should be copied on the EES sheets, and any cut notes to volume managament, the services desk, or other traders.\n\nThank you for making this correction.\n\nBill",
+   "quote": "I should be copied on the EES sheets, and any cut notes to volume managament, the services desk, or other traders.",
+   "stall": false,
+   "subject": "Email Address",
+   "thread_id": "t704bc96a17",
+   "to": [
+    "shift.portland@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-27T02:24:17+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "request",
+   "msg_id": "williams-w3/sent_items/466",
+   "new_text": "Group,\nWe are long 25 mws on peak for 06/27/01 in SP-15.  This should be in CAPS under ST-WBOM, deals should be under ST-WBOM in Enpower as well.\n\nBill",
+   "quote": "We are long 25 mws on peak for 06/27/01 in SP-15.  This should be in CAPS under ST-WBOM",
+   "stall": false,
+   "subject": "Length for Wednesday",
+   "thread_id": "t41731e0a7b",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-27T18:56:32+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "request",
+   "msg_id": "williams-w3/sent_items/463",
+   "new_text": "Group,\nFor 06/28 only:\n\nWe need to send APS losses, 2 mws for HE 1 at 4C345 from EPE.  Lisa Gang has put this in the sheet and made a preschedule tag.  We need to make a buy from EPE under ST-Whourly in Enpower, and a sale to APS at zero in Enpower.  Please make sure this schedule is in as losses.  You can call me with any questions.\n\nThanks,\n\nBill",
+   "quote": "We need to make a buy from EPE under ST-Whourly in Enpower, and a sale to APS at zero in Enpower.",
+   "stall": false,
+   "subject": "Losses to APS",
+   "thread_id": "td654da7298",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-02T17:42:17+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "request",
+   "msg_id": "williams-w3/sent_items/449",
+   "new_text": "Group,\n\nHere is the most current information regarding charges from the CAISO, the FERC Ruling and the Price Cap.\n\n1.  The current price cap is $91.87.  We should continue our practice of not selling over the cap, however we can (and should) buy over the cap if necessary for the system reliability of our service customers.\n\n2.  The FERC order specifies a penalty of $100 per mw for underscheduling load (greater than 5% per load zone underscheduled).  Despite the CAISO's repeated protests (and the IOU's complete disregard of this order), WE can expect to be subject to this penalty.\n\n3.  When a WARNING is in effect the CAISO will be making out-of -market calls.  These OOM calls will not show up in the expost or beep stack.  Therefore when power supplies become tight, the prices in the \"expost\" may actually drop.  We should continue our practice of NOT leaving uninstructed energy in the CAISO whenever possible.\n\n4.  We should continue to participate in the CAISO congestion market.  The CAISO frequently has unexpected hourly path loadings, and congestion has occurred in the hour ahead market that was not present in the day ahead market.\n\n5.  Remember to include CAISO export fees, Tie Meter Multipliers/import fees and grid management fees in your CAISO calculations of wheeling charges.\n\n\n\nWe will have a real-time meeting on Monday July 9th at 4:30 PM in Mt. Hood.  We will discuss other changes in the market at that time.  Please make plans to attend.\nThank you,\nBill",
+   "quote": "Remember to include CAISO export fees, Tie Meter Multipliers/import fees and grid management fees in your CAISO calculations of wheeling charges.",
+   "stall": false,
+   "subject": "California Imbalance Charge Clarification",
+   "thread_id": "t1c659cc16f",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-02T23:36:48+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "fyi",
+   "msg_id": "williams-w3/sent_items/444",
+   "new_text": "Group,\n\nRyan sent this email out once already, here it is again.  The oasis site map is http://www.nwoasis.org/OASIS/NODE\nThe details of checking for ATC are as such Red=PAC(t), Blue=IPC(t)\n\nLeg 1. PACW to ENPR\nLeg 2. ENPR to BOBR\nLeg 3. BOBR to PATHC\nLeg 4. PATHC to PACE\nLeg 5. PACE to FC3\n\nWe can do a buy resell with EPE to move this to PV or can use APS tranny to move this to Mead or PV as well.\nWhen scheduling from BOBR to FC3 on PAC (t) be sure to just put in the POR/POD and do NOT schedule each wheel seperately.  This will prevent us from being charged $5.84 each time.  Total cost for this tranny should be $5.84 +$2.38 +$5.84 = $14.06.  There will also be losses.  If using this wheel for a services customer, be sure to add in for losses and scheduling fees.  Also, be sure to LOG OUT of the IPC website when finished, otherwise we will be locked out if we time out!  There should already be a template for a tag to move this energy from PAC system border in the NW to FC345.  This path has had approximately 400 mws of tranny availabe the last few days.\nPlease see me with questions.\n\nThanks,\nBill",
+   "quote": "be sure to just put in the POR/POD and do NOT schedule each wheel seperately.",
+   "stall": false,
+   "subject": "FW: NEW TRANSMISSION IDEA",
+   "thread_id": "t7a2ab4069c",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-03T21:08:36+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "request",
+   "msg_id": "williams-w3/sent_items/434",
+   "new_text": "Group,\n\nTwo totally different issues for you.\n\nFirst:  When scheduling transmission on Portland General Electric from John Day to Malin we MUST use deal #146517, we MUST make the price zero.  We extend this deal in scheduling and change the delivery points.  We then make an annuity to ST-NW for losses.  Easy.\n\nSecond: For the third time in two weeks the behavior of the Real-Time Group after 6 PM has been brought up.  We will talk more regarding this in our meeting next week.  It is important to note that we need to remain within the bounds of professional behavior at all times.  Enron has a zero tolerance policy regarding harassment (language or behavior that offends or belittles others).\n\nThanks for your attention.\n\nBill",
+   "quote": "When scheduling transmission on Portland General Electric from John Day to Malin we MUST use deal #146517, we MUST make the price zero.",
+   "stall": false,
+   "subject": "IMPORTANT-PLEASE READ",
+   "thread_id": "tf43e53bffa",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-03T22:06:17+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "request",
+   "msg_id": "williams-w3/sent_items/433",
+   "new_text": "We will pay APS losses of 1 mw for HE 1 PDT only on July 4th.  Lisa has made the tag and put the losses in the preschedule sheet.  Kate has made the enpower for this deal (#672781, and #672785).  Please put the price in for deal #672781 (buy from EPE).\n\nThanks,\nBill",
+   "quote": "Please put the price in for deal #672781 (buy from EPE).",
+   "stall": false,
+   "subject": "Losses for HE 1 on July 4th",
+   "thread_id": "td75b0a2b84",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-04T01:47:42+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "request",
+   "msg_id": "williams-w3/sent_items/432",
+   "new_text": "Group,\n\nWhen doing swaps please use the swap function in Enpower. Do not enter annuities anymore for financial deals. Be sure to specify whether you are buying or selling index and then what index you are selling (NP15 inc/dec...etc).  An example appears in the attachment.  Swaps have caused disputes that have dragged on for months in the past, so call me with any questions.  \nThanks,\n\nBill",
+   "quote": "Swaps have caused disputes that have dragged on for months in the past, so call me with any questions.",
+   "stall": false,
+   "subject": "Financial Swaps",
+   "thread_id": "t94ebe33a6b",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-13T00:07:29+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "followup",
+   "msg_id": "williams-w3/sent_items/403",
+   "new_text": "One more time.  \nWe have also bought HE 21 and HE 22 from the APX.  We bought 20 mws at $32 for HE 21 and 23 mws at $30 for HE 22.\nNo more messages.",
+   "quote": "We have also bought HE 21 and HE 22 from the APX.",
+   "stall": true,
+   "subject": "FW: Short for Friday and Saturday",
+   "thread_id": "t6e4f967f55",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-21T01:32:33+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "request",
+   "msg_id": "williams-w3/sent_items/380",
+   "new_text": "If this works for you, please copy and paste it into your own email and send it on.\nThanks-\nB\n\nGroup,\n\nWe are lending from El Paso Electric on Monday. We have sold 15 mws for HE 7-22 to ST-SW at $62.50.  We are paying El Paso $4 for the service to lend from their system.   The sell to ST-SW is under the ST-WBOM book (#696314), the purchase from EPE is also under the WBOM book (deal #696315-note the price will be changed to $4 on Monday from $56).  Please buy energy to cover this 15 mw short on Monday under the ST-WBOM book and sell to EPE at $0 under the ST-WBOM book.  The deal is physically prescheduled going out from EPE.  We need to schedule the 15 mw going to EPE.  Please do NOT buy from EPE in the morning even though they may be fat.  We are hoping to do more lending with EPE going forward and therefore need to make this as easy as possible for their dispatchers (do not bring up lending to them-it will lead to unnecessary confusion).  If you have any questions concerning this procedure please call me. 503-887-3449 (c) or 503-274-0502 (h).\n\nThanks,\nBill",
+   "quote": "Please buy energy to cover this 15 mw short on Monday under the ST-WBOM book and sell to EPE at $0 under the ST-WBOM book.",
+   "stall": false,
+   "subject": "El Paso Lending for Monday",
+   "thread_id": "t02f4f10e3d",
+   "to": [
+    "kate.symes@enron.com"
+   ]
+  }
+ ],
+ "opportunity": {
+  "action_idea": "A standing procedures checklist for the real-time shift (deal entry in Enpower and CAPS, cuts, lending, tags) and a fixed position notice template (hub, hours, MW, price, book, deal number) are used by the desk lead, so each email follows the same structure and rules are not re-explained.",
+  "confidence": {
+   "active_months": 8,
+   "mailboxes": 1,
+   "quotes": 81,
+   "stall_share": 0.19,
+   "threads": 78
+  },
+  "description": "The real-time desk lead emails shift traders the hourly long and short positions to cover and standing rules for entering deals, cuts, lending and schedules in Enpower and CAPS.",
+  "formula": "81 messages / 9.05 months observed (williams-w3) = 8.95/month; x 15 min median handling x 60% automatable = 1.3 h/month; x $85/h = $114/month",
+  "hours_month": 1.3,
+  "id": "realtime_desk_instructions",
+  "kinds": {
+   "escalation": 5,
+   "followup": 6,
+   "fulfillment": 3,
+   "fyi": 12,
+   "request": 55
+  },
+  "mailboxes": [
+   "williams-w3"
+  ],
+  "median_minutes": 15,
+  "messages": 81,
+  "messages_per_month": 8.95,
+  "name": "Real-time desk position and procedure instructions",
+  "participants": [
+   {
+    "address": "bill.williams@enron.com",
+    "messages": 132
+   },
+   {
+    "address": "kate.symes@enron.com",
+    "messages": 67
+   },
+   {
+    "address": "ryan.slinger@enron.com",
+    "messages": 53
+   },
+   {
+    "address": "mark.guzman@enron.com",
+    "messages": 53
+   },
+   {
+    "address": "geir.solberg@enron.com",
+    "messages": 53
+   },
+   {
+    "address": "craig.dean@enron.com",
+    "messages": 52
+   },
+   {
+    "address": "todd.bland@enron.com",
+    "messages": 51
+   },
+   {
+    "address": "leaf.harasin@enron.com",
+    "messages": 51
+   }
+  ],
+  "remedy": "quick_win",
+  "stall": {
+   "flagged_messages": 15,
+   "max_gap_hours": 62.6,
+   "median_gap_hours": 0.8
+  },
+  "threads": 78,
+  "usd_month": 114,
+  "usd_year": 1368
+ }
+}

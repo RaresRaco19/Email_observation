@@ -1,0 +1,70 @@
+{"opportunity": "california_capacity_weekly_report",
+ "summary": "Every week Michelle Lokay hand-builds the California Capacity Report: Transwestern and El Paso deliveries to California, utilization percentages by El Paso delivery point, posted Gas Daily prices and Enron basis. She types the numbers and percentages into an email by hand, and at least once had to send a follow-up to correct the report's week. A scheduled job that fills in the existing format, checks the dates and arithmetic, and holds the draft for her approval would remove most of the compilation work, worth about $110 per month ($1,320 per year), and stop corrections like that one.",
+ "current_workflow": [
+  {"step": "At the end of each trading week (usually Friday, Thursday when the week is short), the analyst gathers Transwestern's average deliveries to California and its utilization, San Juan lateral throughput and total East deliveries, and types them into the opening sentence of a new email.", "who": "Transwestern commercial analyst (michelle.lokay)", "citations": ["lokay-m/sent_items/18", "lokay-m/sent_items/63", "lokay-m/sent_items/110"]},
+  {"step": "The analyst collects El Paso's average deliveries to California and, for each delivery point (PG&ETop, SoCalEhr, SoCalTop), the capacity and deliveries, then works out each utilization percentage by hand. Capacity figures change over time and must be kept current by hand (SoCalEhr was listed at 1042 in October and at 1250 from December).", "who": "Transwestern commercial analyst (michelle.lokay)", "citations": ["lokay-m/inbox/10", "lokay-m/sent_items/18", "lokay-m/sent_items/146"]},
+  {"step": "The analyst copies the latest posted Gas Daily prices (SoCal gas, PG&E, TW San Juan, later 'San Juan (non-Bondad)', and TW Permian) with their day-over-day changes. Points with no posting are entered as 'n/a', and the heading is retyped as Thursday's or Friday's prices to match the send day.", "who": "Transwestern commercial analyst (michelle.lokay)", "citations": ["lokay-m/sent_items/67", "lokay-m/sent_items/131", "lokay-m/sent_items/97"]},
+  {"step": "The analyst adds an Enron Online basis table (Perm-CA, SJ-CA, SJ-Waha, Perm-Waha). It shrinks to a single month, then reads 'n/a', and from February it is dropped altogether.", "who": "Transwestern commercial analyst (michelle.lokay)", "citations": ["lokay-m/inbox/10", "lokay-m/sent_items/18", "lokay-m/sent_items/55", "lokay-m/sent_items/79"]},
+  {"step": "The analyst types a subject of the form 'California Capacity Report for Week of MM/DD-MM/DD' and emails the report to the same fixed distribution list (steven.harris, kimberly.watson, lorraine.lindberg, tk.lohman, lindy.donoho).", "who": "Transwestern commercial analyst (michelle.lokay)", "citations": ["lokay-m/sent_items/40", "lokay-m/sent_items/86", "lokay-m/sent_items/117"]},
+  {"step": "When a report goes out with a mistake, the analyst sends a correction email to the whole list.", "who": "Transwestern commercial analyst (michelle.lokay)", "citations": ["lokay-m/sent_items/46"]}
+ ],
+ "stall_points": [
+  {"description": "The week and dates are typed by hand, so at least one report went out labelled with the wrong week and needed a correction email to the whole distribution list.", "quote": "Sorry, the effective date for this new report is 01/07-01/11.", "citation": "lokay-m/sent_items/46"},
+  {"description": "Every week the analyst keys in delivery and utilization figures by hand from source data, and these are the numbers the recipients read first. This is the main recurring handling time, about 45 minutes per report.", "quote": "Transwestern's average deliveries to California were 945 MMBtu/d (87%), with San Juan lateral throughput at 865 MMBtu/d.", "citation": "lokay-m/inbox/10"},
+  {"description": "Capacity at each delivery point is a reference value the analyst maintains by hand. SoCalEhr capacity changed between reports, and each percentage is worked out by hand, so a stale capacity or a slip in the division would go unnoticed.", "quote": "- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 910 MMBtu/d (73%)", "citation": "lokay-m/sent_items/67"},
+  {"description": "The report is rebuilt from scratch every week, even when a section has gone stale (the Enron Online basis table first became 'n/a' and was later dropped). This shows the format is maintained by hand rather than generated.", "quote": "Transwestern's average deliveries to California were 1011 MMBtu/d (93%), with San Juan lateral throughput at 872 MMBtu/d.", "citation": "lokay-m/sent_items/86"}
+ ],
+ "solution": {
+  "approach": "On the last trading day of each week, a scheduled job averages the week's daily Transwestern deliveries to California, San Juan lateral throughput and East deliveries. It does the same for El Paso deliveries to California and each delivery point (PG&ETop, SoCalEhr, SoCalTop). It works out utilization against a maintained capacity table. It reads the latest posted Gas Daily prices for SoCal gas, PG&E, San Juan and TW Permian and calculates the day-over-day changes. It then fills in the existing report text exactly as recipients see it today, with a subject built from the trading-week calendar (for example 'California Capacity Report for Week of 03/11-03/15'), so the week can no longer be mistyped. Validation checks stop the draft and flag it to the analyst if a day of data is missing, a capacity value is older than a set age, or a percentage falls outside a plausible range. The analyst gets the draft as an unsent email, can add commentary or mark a price 'n/a', and approves it to go to the standard list.",
+  "trigger": "Weekly schedule on the last trading day of the week (normally Friday, Thursday when Friday is a holiday or non-posting day), after Gas Daily prices are posted",
+  "inputs": [
+   "Daily Transwestern deliveries to California, San Juan lateral throughput and East deliveries for the week",
+   "Daily El Paso deliveries to California by delivery point (PG&ETop, SoCalEhr, SoCalTop)",
+   "Capacity reference table per El Paso delivery point (for example SoCalEhr 1250, PG&ETop 1140, SoCalTop 540), with an effective date",
+   "Posted Gas Daily prices for SoCal gas large pkgs, PG&E large pkgs, San Juan (non-Bondad) / TW San Juan and TW Permian, current and previous posting",
+   "Trading-week calendar to set the report week and choose the Thursday or Friday price heading",
+   "Distribution list: steven.harris, kimberly.watson, lorraine.lindberg, tk.lohman, lindy.donoho"
+  ],
+  "outputs": [
+   "Draft 'California Capacity Report for Week of MM/DD-MM/DD' email in the current format, held for the analyst's approval",
+   "Validation notice to the analyst listing missing days, stale capacity values or out-of-range percentages",
+   "Weekly history file of the reported figures, so trends can be read without searching past emails"
+  ],
+  "systems": ["Gas Daily", "Transwestern", "El Paso"],
+  "components": [
+   "Weekly scheduled report job",
+   "Delivery and throughput extract with weekly averaging",
+   "Gas Daily price loader with day-over-day change calculation",
+   "Maintained capacity reference table with effective dates",
+   "Report text template that reproduces the current email layout",
+   "Week-label generator built on a trading-week calendar",
+   "Validation rules (completeness, capacity age, percentage range)",
+   "Draft-and-approve email step to the fixed distribution list",
+   "Weekly figures history file"
+  ]
+ },
+ "implementation_steps": [
+  "Confirm with the analyst where each figure comes from today: the Transwestern and El Paso delivery data, how the capacity values are set, and how Gas Daily prices are obtained. The emails do not name these sources.",
+  "Build the report text template from a recent report (for example the week of 03/11-03/15) and get the analyst to sign off that it matches the current layout line for line.",
+  "Build the capacity reference table with effective dates, loaded with the values in the latest reports, and name an owner for updates.",
+  "Build the delivery extract and weekly averaging, then backfill several past weeks and check the output against the reports already sent (for example weeks 12/10-12/14 through 03/11-03/15).",
+  "Build the Gas Daily price loader and the change calculation, with a defined 'n/a' rule when a point has no posting.",
+  "Add the trading-week calendar and subject generator, including short weeks such as 12/26-12/28 and 02/19-02/22.",
+  "Add the validation rules and the draft-and-approve email step, sending only to the analyst at first.",
+  "Run in parallel with the manual report for three to four weeks, comparing figures, then switch the list to the approved automated draft."
+ ],
+ "stays_manual": [
+  "Final review and approval before sending: recipients rely on the figures for commercial decisions, and someone has to answer for them.",
+  "Commentary or context on unusual weeks (for example a sharp utilization drop at PG&ETop), which needs market knowledge.",
+  "Updating capacity values when a pipeline posts new capacity: the change has to be confirmed as an actual capacity change and not a data glitch.",
+  "Deciding to add or drop report sections (as when the Enron Online basis table was dropped)."
+ ],
+ "risks": [
+  "The evidence never names the system that holds daily Transwestern and El Paso delivery volumes, or how Gas Daily prices are obtained. If those figures come from manual lookups or a source that can't be fed into the job, the build grows. Mitigation: confirm the sources first (step 1) and re-scope before funding.",
+  "The savings are small, about $110 per month ($1,320 per year), and all the volume comes from one mailbox (lokay-m) over a few months. Mitigation: keep the build to a script plus template and drop it if the sources need integration work.",
+  "A stale capacity value would produce wrong utilization percentages that look plausible. Mitigation: effective-dated capacity table, age check, and an analyst prompt when the value is older than the set limit.",
+  "Gas Daily postings are sometimes missing for a point (reports show 'n/a' for TW San Juan), and a point's label changed to 'San Juan (non-Bondad)'. Mitigation: map points explicitly and print 'n/a' rather than carrying a stale price.",
+  "If recipients come to trust an automated draft, they may assume figures were reviewed when they were not. Mitigation: the job never sends without approval and prints the validation status in the draft."
+ ],
+ "effort": "M",
+ "success_metric": "Analyst minutes per weekly California Capacity Report, plus the number of correction emails sent after a report (target zero)"}

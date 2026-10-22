@@ -1,0 +1,51 @@
+{"opportunity": "realtime_deal_variance_reconciliation",
+ "summary": "Real-time traders on the West desk find mismatches between Enpower deals, CAPS schedules, position manager and the EPE schedules by hand, often a day or a month later. Deal control and settlements then trade emails to fix prices, counterparties, duplicate entries and PMAs. An automated end-of-shift variance report flags every hour and book that is not flat, every scheduled hour with no deal, and every duplicate or price mismatch. Staff can then fix these during the shift instead of after the DPR or a PMA shows them. Code puts the handling time it removes at about 1.2 hours a month, worth $100/month ($1,200/year) at $85/hour.",
+ "current_workflow": [
+  {"step": "The day-ahead trader enters the deals in Enpower and the schedules in CAPS under a book such as ST-WBOM. Real-time staff get emailed instructions to make matching imbalance purchases and sales during real time.", "who": "day-ahead / real-time trader (Bill Williams)", "citations": ["williams-w3/sent_items/392"]},
+  {"step": "During the shift, real-time staff handle cuts, declined bids and generator shortfalls. They enter imbalance purchases in Enpower and email the schedulers to say how each deviation should be allocated.", "who": "real-time desk", "citations": ["williams-w3/sent_items/425", "williams-w3/sent_items/514"]},
+  {"step": "Schedulers and traders check CAPS against what was actually agreed and send manual-entry corrections when the CISO or a counterparty entered a schedule wrongly.", "who": "real-time desk and CAPS schedulers", "citations": ["williams-w3/sent_items/510", "williams-w3/inbox/126"]},
+  {"step": "The night shift is expected to run the CARP and fill in the EPE Reconciliation sheet. Errors in the Excel EPE schedules are found later and emailed to the lead.", "who": "night real-time traders, EPE schedulers", "citations": ["williams-w3/sent_items/417", "williams-w3/inbox/79"]},
+  {"step": "The next morning, the lead reads the DPR and runs a BOM SAR. He finds double entries and missing deals in position manager, then zeroes deals or asks deal control to add them.", "who": "real-time lead, deal control", "citations": ["williams-w3/sent_items/453", "williams-w3/sent_items/373"]},
+  {"step": "Price, counterparty and volume corrections reach settlements as prior-month adjustments (PMAs) and annuities. Each one gets questions and meeting requests before the revenue is trued up.", "who": "real-time lead, settlements (Virginia Thompson), risk (Heather Dunton)", "citations": ["williams-w3/sent_items/442", "williams-w3/sent_items/441", "williams-w3/sent_items/501", "williams-w3/sent_items/481", "williams-w3/sent_items/387"]}
+ ],
+ "stall_points": [
+  {"description": "A price correction made in Enpower never reached revenue. It surfaced only a month later during the PMA review, and the lead had to ask settlements how to fix it.", "quote": "The appropriate price is in Enpower, but the revenue has never appeared (Deal #590753).", "citation": "williams-w3/sent_items/442"},
+  {"description": "A January volume change in the settlement notes was never reflected in Enpower or the inc sheet. The resulting PMA charge was disputed months later.", "quote": "Enpower and the inc sheet do not reflect this change.", "citation": "williams-w3/sent_items/441"},
+  {"description": "The shift-end reconciliation depends on traders filling in a sheet by hand. When they skip it, Houston cannot tell whether the CARP was run at all.", "quote": "Even if there are no variances, please complete the July EPE Reconciliation sheet going forward.", "citation": "williams-w3/sent_items/417"},
+  {"description": "Wrong values in the Excel EPE schedules went unnoticed for two days until a scheduler spotted them and escalated.", "quote": "Please note the following due to the past two days schedules have been wrong in the EPE Schedules in Excel:", "citation": "williams-w3/inbox/79"},
+  {"description": "A missing deal left position manager short, and this was found after the flow date. Deal control had to be asked to investigate.", "quote": "Pacificorp deal #694155 is not in for those hours.", "citation": "williams-w3/sent_items/373"},
+  {"description": "Duplicate deal entry was caught only the next morning, from the DPR and a BOM SAR, and had to be zeroed out after the fact.", "quote": "We had some double deal-entry last night under the ST-WBOM book.", "citation": "williams-w3/sent_items/453"}
+ ],
+ "solution": {
+  "approach": "A scheduled comparison job runs at the end of each real-time shift and again before the morning DPR. For each flow date, book and hour ending, it lines up the Enpower deals against the CAPS schedules (by schedule ID), the position manager net position and the EPE schedules sheet. It produces one exception list covering hours where a book is not flat, CAPS schedules with no matching Enpower deal and the reverse, deals that look duplicated (same book, counterparty, hours and volume entered twice), and price or volume differences between Enpower and the schedule sheets. The list is emailed to the shift and saved as that night's EPE Reconciliation sheet entry, including a dated 'no variances' line, so Houston can see that the check ran. Each corrected deal is logged with its deal number and hours, so later PMA questions can be answered from the log instead of by email. Traders still decide and enter every correction.",
+  "trigger": "End of each real-time shift, plus a pre-DPR run early the next morning for the previous flow date",
+  "inputs": ["Enpower deal extract by book (deal number, counterparty, hours, MW, price)", "CAPS schedules and schedule IDs for the flow date", "position manager net position by hour and zone", "EPE schedules in Excel", "list of books in scope (e.g. ST-WBOM, ECTRT)"],
+  "outputs": ["Per-shift exception list emailed to the real-time desk: unflat hours, missing deals, possible duplicates, price or volume mismatches", "Auto-filled EPE Reconciliation sheet row for each shift, including 'no variances' when the check finds nothing", "Correction log (deal number, field, old and new value, who corrected it) for deal control and settlements to use when reviewing PMAs"],
+  "systems": ["Enpower", "CAPS", "position manager", "EPE Reconciliation sheet", "DPR"],
+  "components": ["extract scripts for Enpower deals and CAPS schedules by flow date and book", "hour-by-hour matching and flatness rules engine", "duplicate-deal detector", "exception email and reconciliation sheet writer", "correction log shared with settlements"]
+ },
+ "implementation_steps": [
+  "Confirm with the real-time desk and IT which export options exist for Enpower, CAPS and position manager (files, reports or database views). Agree the key that links a deal to a schedule, such as the schedule ID or the deal number.",
+  "Choose a pilot book (ST-WBOM) and write the extracts for one flow date. Compare the results by hand with a past DPR and BOM SAR to calibrate.",
+  "Write the matching rules: net position by hour and book, schedule without deal, deal without schedule, duplicates, and price or volume differences above a tolerance agreed with the desk.",
+  "Add the EPE schedules sheet as an input and write each shift's result to the EPE Reconciliation sheet, including a 'no variances' row.",
+  "Schedule the job at shift end and before the DPR. Send the exception list to the real-time desk distribution.",
+  "Run it in parallel with the manual CARP and reconciliation for a month and track false positives. Tighten the tolerances before extending it to other books.",
+  "Share the correction log with deal control and settlements, and use it as the first reference when PMA questions come in."
+ ],
+ "stays_manual": [
+  "Deciding how to correct a variance (adding, zeroing or repricing a deal, or reallocating a deviation such as Harbor's to load deviation), because that is a commercial judgment and depends on calls with the CISO or the counterparty.",
+  "Getting the CISO or counterparties to fix schedules they entered wrongly, because that requires a phone call or email with an outside party.",
+  "Agreeing PMAs and annuities with settlements and risk. These involve negotiated amounts and sign-off, for example by Chris on an annuity.",
+  "Filling in placeholder deals such as counterparty 'New' until the trader confirms the real counterparty."
+ ],
+ "risks": [
+  "The evidence does not show whether Enpower, CAPS or position manager can be exported automatically. If they can't, the job needs screen exports, which raises the effort. The first step therefore confirms access.",
+  "Schedule IDs and books do not always line up (one email says all schedules should be under ECTSTSW not ECTRT). A mapping table is needed, or the report will be full of false mismatches.",
+  "Load shifts between NP and SP can produce variances even when both CAPS and Enpower are flat. Tolerances and zone grouping must be tuned during the parallel run.",
+  "The monthly saving is small ($100/month in code's estimate, from one mailbox only). The main value is catching revenue errors earlier, and the evidence does not quantify that. The effort should stay small to match.",
+  "If traders come to trust the report and stop checking, a gap in an extract (a missing book, for example) could hide variances. The report should list which sources and books it loaded."
+ ],
+ "effort": "M",
+ "success_metric": "Number of hours per month where a book was not flat or a deal was missing and the variance was first found after the shift (by the DPR, BOM SAR or a PMA), plus the share of shifts with a completed EPE Reconciliation sheet entry"
+}

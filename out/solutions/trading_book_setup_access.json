@@ -1,0 +1,144 @@
+{
+ "current_workflow": [
+  {
+   "citations": [
+    "giron-d/sent/777"
+   ],
+   "step": "A new business unit or desk is created, and the system administrator asks the desk which pipes must be mapped so traders can book deals on it.",
+   "who": "Tagg/Sitara system administrator (Imelda Frayre)"
+  },
+  {
+   "citations": [
+    "giron-d/sent/769",
+    "giron-d/sent/650",
+    "giron-d/inbox/161"
+   ],
+   "step": "The desk lead emails a book request in free text to whichever admin he has been told handles it, listing book names, the counterparty the books fall under, and the risk types (P, B, I and GD), often marked as urgent.",
+   "who": "desk lead / book requester (Darron Giron, Kam Keiser)"
+  },
+  {
+   "citations": [
+    "giron-d/sent/526",
+    "giron-d/sent/525"
+   ],
+   "step": "The book administrators set up the book and email back a confirmation, which the requester later forwards as audit evidence.",
+   "who": "book administrators (Susan Trevino, Burton McIntyre)"
+  },
+  {
+   "citations": [
+    "giron-d/sent/470",
+    "giron-d/inbox/403",
+    "giron-d/sent/157"
+   ],
+   "step": "Portfolio and book codes, post ids and file names are then relayed by separate emails to the people who need them downstream.",
+   "who": "desk lead and risk staff"
+  },
+  {
+   "citations": [
+    "giron-d/sent/412",
+    "giron-d/inbox/132",
+    "giron-d/inbox/155"
+   ],
+   "step": "Trader-to-book assignments for price, basis and index, EOL products and Sitara curve mappings are gathered by spreadsheet and email from each region before the Tagg IT meeting.",
+   "who": "risk managers and regional leads (Dawn Kenne, Kam Keiser, regional leads)"
+  },
+  {
+   "citations": [
+    "giron-d/sent/18",
+    "giron-d/sent/523",
+    "giron-d/sent/520"
+   ],
+   "step": "User access and reporting-line changes (Book Admin list, PEP reviewer, print access for books) are requested one by one by email.",
+   "who": "desk lead to the relevant admin"
+  }
+ ],
+ "effort": "S",
+ "implementation_steps": [
+  "Collect the fields admins have asked for after the fact in past book threads (pipes, counterparty entity, risk types, codes, trader assignment, access) and agree the required field list with the book administrators.",
+  "Build the template and checklist as one spreadsheet in the shared Netco controls folder, reusing the columns of the existing Trader-Book template so the trader matrix and the book request are the same document.",
+  "Add the routing header naming the book administrators as the one destination, and the subject convention.",
+  "Write the prepared reply the admins send back for any free-form request, with the template linked and a list of missing fields to fill in.",
+  "Announce the template to desk leads and regional leads, and have Kam Keiser and Darron Giron use it for the next batch of book requests as the pilot.",
+  "After one month, review the request log for requests that still needed a clarifying email and add the missing fields to the template."
+ ],
+ "opportunity": "trading_book_setup_access",
+ "risks": [
+  "Requesters may keep sending free-form emails out of habit; mitigate by having the admins consistently send the prepared reply rather than piecing details together.",
+  "The evidence comes from a single mailbox (giron-d), so the admins' own intake steps and their real field requirements are inferred; validate the field list with the book administrators before rollout.",
+  "TDS is named in the process description but never appears in the sampled messages; confirm whether TDS access belongs on the form before adding it.",
+  "A template that is too long may slow down simple access requests; keep the access-only section short and optional fields clearly marked.",
+  "Low value at about $45 a month means this should stay a low-cost template, not a system build."
+ ],
+ "solution": {
+  "approach": "Create one Book and Access Request template (a single spreadsheet tab plus an email subject convention, 'Book Request - <desk> - <book name>') with required fields for everything the admins asked for later in the threads: book names, the counterparty or legal entity they fall under, region and desk, risk types (price, basis, index, gas daily), requested book and portfolio codes and the fallback if they are taken, pipes to map, Sitara curve mappings, EOL products, traders assigned per risk type, users who need Book Admin, calc or print access, the date by which deals must move, and the approver. Store it in the shared Netco controls folder next to the existing Trader-Book template, and put a routing line at the top that names the book administrators as the single destination. The desk lead fills it in and sends it to the book administrators, cc the risk lead. The admins keep a short prepared reply that returns any free-form request with the template attached and lists the missing fields. A one-page checklist at the bottom ('before you send') covers the items that caused follow-ups: pipes mapped, risk types routed to trader books, codes consistent across regions, and print and calc access for every user.",
+  "components": [
+   "Book and Access Request template (spreadsheet tab with required fields and a routing header)",
+   "'before you send' checklist covering pipes, risk-type routing, code consistency and access",
+   "prepared admin reply that returns free-form requests with the template and the missing fields",
+   "email subject convention 'Book Request - <desk> - <book name>'",
+   "request log tab where admins record the request number, the codes assigned and the confirmation date"
+  ],
+  "inputs": [
+   "book names, counterparty entity and region or desk",
+   "risk types per book (price, basis, index, gas daily)",
+   "requested book and portfolio codes",
+   "pipes to map to the business unit",
+   "Sitara curve mappings (from CurveMappings.xls)",
+   "EOL products and trader-to-book assignments",
+   "users needing Book Admin, calc or print access",
+   "required-by date and approver"
+  ],
+  "outputs": [
+   "a complete book request the book administrators can action without a clarifying email",
+   "the admins' confirmation reply with the assigned book and portfolio codes, sent back to the requester and kept for audit",
+   "a filled-in record of trader and risk-type routing that serves as the trader matrix for Tagg IT"
+  ],
+  "systems": [
+   "Tagg",
+   "Sitara",
+   "EOL",
+   "PEP"
+  ],
+  "trigger": "A desk, business unit, counterparty entity or trader needs a new trading book, mapping change or user access in Tagg, Sitara or EOL."
+ },
+ "stall_points": [
+  {
+   "citation": "giron-d/sent/769",
+   "description": "The requester does not know who handles new Tagg books, so the request is routed by word of mouth and can reach the wrong person first.",
+   "quote": "We need to add a new book in Tagg.  Kam suggested I send the request to you."
+  },
+  {
+   "citation": "giron-d/sent/777",
+   "description": "The admin has to come back to ask which pipes the new business units will trade before traders can book deals, because the original request did not list them.",
+   "quote": "Darron, do you know which pipes these two new business units will be"
+  },
+  {
+   "citation": "giron-d/inbox/161",
+   "description": "Coding conventions for book and portfolio codes are written into the email body every time, and the admin must phone back when the codes requested are not available.",
+   "quote": "We need all price, basis, index, and gas daily US books to be the same, all Canadian books to be the same and all physical books to have the same codes please."
+  },
+  {
+   "citation": "giron-d/sent/412",
+   "description": "The trader-to-book matrix is requested at short notice because it is needed for a Tagg IT meeting, which puts the desk under pressure to turn it around the same morning.",
+   "quote": "We have a meeting set up with Tagg IT and need this"
+  },
+  {
+   "citation": "giron-d/inbox/132",
+   "description": "Routing of risk types to trader books is decided late, after the books exist, and has to be confirmed in a separate round of emails.",
+   "quote": "Also, when physical deals are done, will all risk types go to the same desk or will one person be managing the index separately."
+  },
+  {
+   "citation": "giron-d/sent/520",
+   "description": "Access is not set up fully with the book, so the requester finds a gap later and has to ask for help.",
+   "quote": "I can calc postids for FT-NW but cannot print.  Please help."
+  }
+ ],
+ "stays_manual": [
+  "Choosing book names and which trader or desk owns each risk type is a desk decision that needs the traders' input.",
+  "Admins still decide whether a requested book or portfolio code is available and pick the alternative.",
+  "Approving access and reporting-line changes in PEP stays with HR and the supervisor.",
+  "Urgent setups for reorganizations (for example the Netco books for all regions) still need direct calls between the desk and the admins."
+ ],
+ "success_metric": "share of book and access requests that are set up without any clarifying email from the admins, tracked in the request log",
+ "summary": "Requests to set up Tagg books, portfolio and book codes, pipe and curve mappings, and user access reach the book administrators as free-form emails, so admins write back for missing details and requesters chase them. The fix is one book and access request template, kept in a shared folder and filled in by the desk before anything goes to the administrators, plus a short reply admins send to redirect free-form requests to it. The main benefit is fewer clarification round trips and faster book creation. Code values the handling time at about $45 a month ($540 a year)."
+}

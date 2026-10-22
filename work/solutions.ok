@@ -1,0 +1,10 @@
+{
+ "california_capacity_weekly_report": "c143ac3df189341b34266d37b516b3fed9b4a1483c6a7a6e80f731201f399a9c",
+ "deal_book_transfer_correction": "464ac40a7a63ec1747e8facdbde2b2453e37789e9a4b15143f3cd9c21044e415",
+ "deal_price_invoice_discrepancy": "1dcc7a83188f16947acfdd186edd0c32fbb59d6dbebb278ebbee06b6927688bd",
+ "meter_flow_missing_deal_resolution": "ca79442a76dd8b3143f1ff516999323326b864b434a798e3c3f9aa95b7bf9ebe",
+ "meter_volume_allocation_variance": "2663b44be9594d7d0e4a79618cd5ffa3b6f20eb64a937859bda2663f8c1f78c1",
+ "realtime_deal_variance_reconciliation": "cf45406d6e6489ba6879bcedfa3f38ecada7230a343329b467c72c207ef4da2e",
+ "realtime_desk_instructions": "026bcc2d2a4f4565bea7fe469c302edd4c96f5db1d356e9243f70372963aad0c",
+ "trading_book_setup_access": "a5313010f6ea82ccd3580abecca47b9453fad6f8730b5d659aba1f3075338ee1"
+}

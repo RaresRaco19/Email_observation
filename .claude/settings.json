@@ -1,12 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python -m observer:*)",
       "Bash(python3 -m observer:*)",
+      "Bash(python3 -m unittest:*)",
       "Read(./work/**)",
       "Read(./out/**)",
       "Write(./work/**)",
-      "Write(./out/**)"
+      "Write(./out/**)",
+      "Edit(./work/**)",
+      "Edit(./out/**)"
     ]
   }
 }

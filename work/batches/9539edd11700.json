@@ -1,0 +1,830 @@
+{
+ "batch_id": "9539edd11700",
+ "context": [],
+ "messages": [
+  {
+   "date": "2001-02-26T11:35:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/193",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/26/2001 \n11:35 AM ---------------------------\n\n\tGregory A Mausser\n\t02/26/2001 10:58 AM\n\t\nTo: Darron C Giron/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, David Baumbach/HOU/ECT@ECT, Patrick Ryder/NA/Enron@Enron, \nKevin P Radous/Corp/Enron@Enron\ncc: John Valdes/HOU/ECT@ECT \nSubject: Physical Template Revision2\n\nRevision that unprotects \"Top Level\" cells.\n\n\n\nRegards,\nGreg",
+   "new_text_source": "body",
+   "subject": "Physical Template Revision2",
+   "thread_id": "t172d38d78d",
+   "to": [
+    "kristen.clause@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-09T09:16:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/345",
+   "new_text": "From: Jim Little on 01/09/2001 09:08 AM\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: West Desk - Financial Liquidations for Physical Index Positions for \nDecember 2000",
+   "new_text_source": "new",
+   "subject": "Re: West Desk - Financial Liquidations for Physical Index Positions for December 2000",
+   "thread_id": "t173f641224",
+   "to": [
+    "jim.little@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-08T19:55:45+00:00",
+   "from": "frank.vickers@enron.com",
+   "msg_id": "giron-d/inbox/373",
+   "new_text": "Sorry to be talking business, but nonetheless find attacted a copy of the Master customer list developed in the East.  I would like each of you to forward your \"working\" customer list to Lindsay.  Lindsay will then begin to build a list like that attached for the Central group.  This will be a work in Progress so don't worry about everything being perfect.\n\nthanks\n\nFrank",
+   "new_text_source": "new",
+   "subject": "FW:",
+   "thread_id": "t1765ac3ba1",
+   "to": [
+    "bryant.frihart@enron.com",
+    "patrick.tucker@enron.com",
+    "lindsay.culotta@enron.com",
+    "c..giron@enron.com",
+    "s..pollan@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-12T15:40:06+00:00",
+   "from": "ralphmayers@hotmail.com",
+   "msg_id": "giron-d/inbox/176",
+   "new_text": ">From: Mail Delivery Subsystem <Mailer-Daemon@mailboy.enron.com>\n>To: <ralphmayers@hotmail.com>\n>Subject: Returned mail: see transcript for details\n>Date: Sat, 9 Jun 2001 18:11:35 -0500 (CDT)\n>\n>The original message was received at Sat, 9 Jun 2001 10:46:05 -0500 (CDT)\n>from f58.law14.hotmail.com [64.4.21.58]\n>\n>    ----- The following addresses had permanent fatal errors -----\n><c.giron@enron.com>\n>     (reason: 550 5.1.1 <c.giron@mailman.enron.com>... User unknown)\n>     (expanded from: <c.giron@enron.com>)\n>\n>    ----- Transcript of session follows -----\n>... while talking to mailman.enron.com.:\n> >>> RCPT To:<c.giron@mailman.enron.com>\n><<< 550 5.1.1 <c.giron@mailman.enron.com>... User unknown\n>550 5.1.1 <c.giron@enron.com>... User unknown\n>\n>    ----- Original message follows -----\n>\n>Return-Path: <ralphmayers@hotmail.com>\n>Received: from hotmail.com (f58.law14.hotmail.com [64.4.21.58])\n>\tby mailboy.enron.com (8.10.1/8.10.1/external_corp-1.10) with ESMTP id\n>f59Fk5D21577\n>\tfor <c.giron@enron.com>; Sat, 9 Jun 2001 10:46:05 -0500 (CDT)\n>Received: from mail pickup service by hotmail.com with Microsoft SMTPSVC;\n>\t Sat, 9 Jun 2001 08:45:42 -0700\n>Received: from 199.80.87.5 by lw14fd.law14.hotmail.msn.com with HTTP;\tSat,\n>09 Jun 2001 15:45:41 GMT\n>X-Originating-IP: [199.80.87.5]\n>From: \"ralph mayers\" <ralphmayers@hotmail.com>\n>To: c.giron@enron.com\n>Subject: Flood report\n>Date: Sat, 09 Jun 2001 15:45:41 -0000\n>Mime-Version: 1.0\n>Content-Type: text/plain; format=flowed\n>Message-ID: <F58VE6OEPwMUtgTia6900014ef1@hotmail.com>\n>X-OriginalArrivalTime: 09 Jun 2001 15:45:42.0099 (UTC)\n>FILETIME=[3D393230:01C0F0FB]\n>\n>Hey Coot:  Long time no speak.  Yes, got into this thing early this year to\n>watch the Sabine River level (Merryville area flooded 6 feet in March) That\n>stupid Toledo Bend \"authority\" kept the lake full for the spring fishing\n>tournaments then had to dump when rains hit Austin area.  My hunting area\n>stayed underwater for 4-5 weeks. Luckily I was at Mardi Gras in Eunice and\n>made a quick run over to pull up everything.  Just went back two weeks ago\n>to put it back and now your Mom is sending us some more rain.  Just checked\n>level, 6 ft under flood, but rising.  Will have to watch.  They haven't got\n>as much water as Houston, or US. Ascension is flooding all over, river\n>crests expected exceeding the record year of 1953.  Expected to go 5 ft\n>OVER\n>the road at Alligator Hilton.  Saw cons putting sandbags there yesterday,\n>but don't believe they go that tall.  Stop by your next trip through to\n>someplace real and I'll show you my computer room.  I only have 37\n>computers\n>(Ascension parish library)  I know you'll be on good behavior now that you\n>live with a PRINCIPAL!!!   Bye(Carlos showed you his snake?)   R--coon\n>_________________________________________________________________\n>Get your FREE download of MSN Explorer at http://explorer.msn.com\n>\n>\n\n_________________________________________________________________\nGet your FREE download of MSN Explorer at http://explorer.msn.com",
+   "new_text_source": "new",
+   "subject": "Fwd: Returned mail: see transcript for details",
+   "thread_id": "t17c1537319",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-31T08:47:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/673",
+   "new_text": "The deal was entered twice.  I killed 279644.  I spoke with Michael, and he \nknows the deal has been killed.  Thanks.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Re: 6/00 Demand Charges for Metropolitan Utilities District",
+   "thread_id": "t17d333b3f2",
+   "to": [
+    "elizabeth.hernandez@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-09T17:48:14+00:00",
+   "from": "lindsay.culotta@enron.com",
+   "msg_id": "giron-d/inbox/431",
+   "new_text": "-----Original Message-----\nFrom: \tMurray, Kevin  \nSent:\tFriday, November 09, 2001 11:33 AM\nTo:\tMarks, James; Weil, Timothy; Juvane, Danilo; Gottfredson, Bryan; Dolezal, Regan; Sandford, Marcie; Videtto, Melissa; Culotta, Lindsay; Hopkins, Stephanie; Brady, Edward; Brad Ruhoff (E-mail)\nSubject:\tFW: ENE Yahoo message 40414\n\n\n\n -----Original Message-----\nFrom: \tGonzalez, Andrea  \nSent:\tFriday, November 09, 2001 11:26 AM\nTo:\tQuinn, Kristin; Murray, Kevin\nSubject:\tFW: ENE Yahoo message 40414\n\n\n\n -----Original Message-----\nFrom: \tGarg, Alok  \nSent:\tFriday, November 09, 2001 11:20 AM\nTo:\tDupre, David P.; Stephan, Nicholas J; Wagner, Vincent; Gonzalez, Andrea; Rhee, Margaret; Parent, Alli; Harris, Charles\nSubject:\tFW: ENE Yahoo message 40414\n\n\n\n -----Original Message-----\nFrom: \tAkan, Emel  \nSent:\tFriday, November 09, 2001 11:13 AM\nTo:\tGarg, Alok\nSubject:\tFW: ENE Yahoo message 40414\n\n\n\n -----Original Message-----\nFrom: \tOboukhov, Fedor  \nSent:\tThursday, November 08, 2001 4:01 PM\nTo:\tHarvey, Claire; Fraser, Bryce; Day, Justin; Crovato, Eduardo; Howton, John; Linhart, Gary; Akan, Emel\nSubject:\tFW: ENE Yahoo message 40414\n\n\n\n\n\nSung to \"Those were the Days\" from All in the Family...\n\nOnly hung with wealthy friends\nHad the new Mercedes Benz\nMeans were justified by ends\nThose were the days\n\nAndy Fastow's Porsche was neat\nWith LJM it's off the balance sheet\nWe sure were loved by the Street\nThose were the days\n\nAnd you knew who you were then\nDown the hall, my new girlfriend\nBrother we could use a man like Jeffrey Skilling again\n\nDidn't need no SEC\nAll my calls deep in money\nUsed to drink with Delaney\nThose were the days. \n\n\n\n\nFedor A. Oboukhov\nEIM Transaction Development\nEnron Corp.\n713.345.4373",
+   "new_text_source": "body",
+   "subject": "FW: ENE Yahoo message 40414",
+   "thread_id": "t17e512c015",
+   "to": [
+    "kevin.brady@enron.com",
+    "e.murrell@enron.com",
+    "s..pollan@enron.com",
+    "c..giron@enron.com",
+    "bryant.frihart@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-13T08:36:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/507",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 11/13/2000 \n08:36 AM ---------------------------\n\n\n\"KRISTI GIRON\" <KRISTI.GIRON@cfisd.net> on 11/09/2000 10:36:36 AM\nTo: <Darron.C.Giron@enron.com>\ncc:  \nSubject: Fwd: Fw: Get out the Vote\n\n\nReceived: from smtp.email.msn.com (cpimssmtpu02.email.msn.com \n[207.46.181.18]) by gpwise01.cfisd.net; Thu, 09 Nov 2000 09:08:26 -0600\nReceived: from default - 63.28.143.245 by email.msn.com with Microsoft \nSMTPSVC;  Thu, 9 Nov 2000 06:57:54 -0800\nMessage-ID: <001a01c04a5d$86304c20$f58f1c3f@default>\nFrom: \"hollyw\" <hollyw@email.msn.com>\nTo: \"Steph and MO\" <headbergms1@home.com>, \"Stacy Warren\" \n<swarre02@coair.com>, \"Sheri Thomas\" <Sheri.Thomas@enron.com>, \"Shane Herzog\" \n<SHERZOG@ridgways.com>, \"Ron Jones\" <jonesr@tpi-sourcing.com>, \"Rochelle \nSmith\" <rochelle@waterengineers.com>, \"Rick Couvillon\" \n<julierickcouv@hotmail.com>, \"Nicol, Gary\" <nicolg@bp.com>, \"Matt Frazier\" \n<fraz2girls@ev1.net>, \"Len\" <bigusdickus70@hotmail.com>, \"KRISTI GIRON\" \n<KRISTI.GIRON@cfisd.net>, \"John Schmitz\" <jschm@telxon.com>, \"Jim Miller\" \n<jraggie1@pdq.net>, \"Janine Gregor\" <janine.gregor@talk21.com>, \"Jim Henness \n\\(E-mail\\)\" <jhennes@c2i2.com>, \"Diego Gotthelf\" <dygotthelf@hotmail.com>, \n\"Debbie Hall\" <gmind@icsi.net>, \"Darron C Giron\" <Darron.C.Giron@enron.com>, \n\"Ben Schulein\" <advantage@infovia.com.ar>, \"Ben & Phyllis Tobias\" \n<benandphyllistobias@compuserve.com>, \"Barbara Denson\" <bbdenson@pdq.net>\nSubject: Fw: Get out the Vote\nDate: Thu, 9 Nov 2000 08:58:25 -0600\nMIME-Version: 1.0\nContent-Type: multipart/mixed; \nboundary=\"----=_NextPart_000_0017_01C04A2B.384885E0\"\nX-Priority: 3\nX-MSMail-Priority: Normal\nX-Mailer: Microsoft Outlook Express 5.00.2919.6600\nX-MimeOLE: Produced By Microsoft MimeOLE V5.00.2919.6600\nReturn-Path: hollyw@email.msn.com\n\nThats adorable!!\n\n----- Original Message -----\nFrom: <raymond.paterson@dfait-maeci.gc.ca>\nTo: <gonzalo@loadmedia.com>; <hollyw@email.msn.com>;\n<Paul.Steed@glencore-us.com>; <TRatchford@webtonetech.com>\nSent: Thursday, November 09, 2000 5:22 AM\nSubject: Get out the Vote\n\n\n>\n>\n>\n> Don't open in your cube\n>\n>\n>\n\n - att1.jpg",
+   "new_text_source": "body",
+   "subject": "Fwd: Fw: Get out the Vote",
+   "thread_id": "t18d25787eb",
+   "to": [
+    "dgiron1@pdq.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-15T08:20:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/488",
+   "new_text": "I was going to last night, but it didn't sound like you wanted to talk.  We \nhad a great time.  Only wish we could have stayed longer.  It was cold but \nthe game was fun.  It was good to see the kids getting along as well as they \ndid.  We will try and make it a regular trip.  We also spoke about maybe \ngetting together in Dallas sometime next year.  I need to go, but will talk \nto you later.\n\nD\n\n\n\n\nDarnellmo@aol.com on 11/14/2000 10:30:17 PM\nTo: Darron.C.Giron@enron.com\ncc:  \nSubject: KS\n\n\nI had rather hoped you would share a few words about the Kansas trip with me.",
+   "new_text_source": "new",
+   "subject": "Re: KS",
+   "thread_id": "t19033c1ee7",
+   "to": [
+    "darnellmo@aol.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-07T21:20:15+00:00",
+   "from": "john.valdes@enron.com",
+   "msg_id": "giron-d/inbox/153",
+   "new_text": "Requests for RiskTrac have been sent.  \n\nJohn",
+   "new_text_source": "new",
+   "subject": "RiskTrac Access",
+   "thread_id": "t195a5ebad4",
+   "to": [
+    "m..love@enron.com",
+    "kam.keiser@enron.com",
+    "scott.palmer@enron.com",
+    "d..winfree@enron.com",
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-03T18:45:13+00:00",
+   "from": "bernard.dahanayake@enron.com",
+   "msg_id": "giron-d/inbox/289",
+   "new_text": "It has been a pleasure work with you all.\n\nWish you all the Very Best.\n\nBernard Dahanayake\nFinancial Settlements.\n281-461-9452 T'phone ( Home)\nhdahanayake@houston.rr.com",
+   "new_text_source": "new",
+   "subject": "Good luck to all",
+   "thread_id": "t19aab3b621",
+   "to": [
+    "enw-employees_houston@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-06T12:38:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/665",
+   "new_text": "I am in the process of getting these deals valued.  I know what we have \nbooked in Tagg as of now, but need to reconcile it to what People's has \nbooked.  I got something from Steve last time I was up, but it does not have \ndeal terms.  Could you ask Steve for a list that has the terms of each deal?  \nI don't even know his last name.  Thanks.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Hub Deals",
+   "thread_id": "t19d62b3ce9",
+   "to": [
+    "kevin.radous@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-11T17:07:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/654",
+   "new_text": "Steve,\nAttached is a list of the Hub Deals we have currently in the system.  I tried \nto reconcile them to the sheet you sent me but could not.  Please take a look \nat these and give me a call.  Thanks.\n\nDG\n713-853-9573",
+   "new_text_source": "new",
+   "subject": "HUB Deals",
+   "thread_id": "t19d62b3ce9",
+   "to": [
+    "steve.richman@enron.com",
+    "kevin.radous@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-14T14:51:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/651",
+   "new_text": "Mark,\n\nI think I need some help reconciling what Steve Richman has and we have \nbooked for the HUB deals.  He sent me a spreadsheet with deals but I cannot \neven come close to tying them out to what we have booked in Tagg.  Richard \nsuggested I contact you since Steve is out.  Attached is a list of deals we \ncurrently have booked in Tagg for the HUB deals.  They need to be verified \nbefore I can calc them for value and positions.  I will be out tomorrow, \nreturning on Monday.  Thanks for your help.  Please call me with any \nquestions.\n\nDG\n713-853-9573",
+   "new_text_source": "new",
+   "subject": "HUB Deals",
+   "thread_id": "t19d62b3ce9",
+   "to": [
+    "mark.mixon@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-20T08:48:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/640",
+   "new_text": "Steve,\nCongratulations.  Welcome back.  I sent you a note and a spreadsheet with the \ndeals we have booked in our system.  I was trying to reconcile them to your \nlist of deals.  I could not.  But I think the best thing to do is to simply \nstart over and book the deals you tell me to.  I just need the exact terms.  \nI know it's your first day back and you are probably swamped, but when you \nget a chance, please give me a call.  Richard wants me to have these deals \nvalued by the end of this month's P&L.  Thanks.\n\nDG\n713-853-9573",
+   "new_text_source": "new",
+   "subject": "HUB Deals",
+   "thread_id": "t19d62b3ce9",
+   "to": [
+    "steve.richman@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-19T13:13:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/145",
+   "new_text": "I think we need to hire this guy.\n\nDG",
+   "new_text_source": "new",
+   "subject": "[Fwd: FW: employment_wanted.jpg]",
+   "thread_id": "t1a082ec7fe",
+   "to": [
+    "phillip.love@enron.com",
+    "errol.mclaughlin@enron.com",
+    "kam.keiser@enron.com",
+    "david.baumbach@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-23T09:34:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/304",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 01/23/2001 \n09:34 AM ---------------------------\n\n\n\"Brent Wallace\" <bwallace@zahrsecurities.com> on 01/16/2001 08:55:34 AM\nPlease respond to <BWallace@zahrsecurities.com>\nTo: \"Ben Rollman\" <BRollman@protrader.com>, \"Darron. C. Giron@enron. com\" \n<Darron.C.Giron@enron.com>, \"Doug Benditz\" <doug@cont-casing.com>, \n\"Joe@gallup. com\" <Joe@gallup.com>, \"Jeff Young\" <jyoung@tcast.com>, \"James \nConlee\" <jconlee@tradecast.com>, \"Hollyw\" <hollyw@email.msn.com>\ncc:  \nSubject: FW: Dead Man's Schlong\n\n\n\n\n-> A mortician was working late one night.  It was his job to\n> examine the dead bodies before they were sent off to be\n> buried or cremated.  As he examined the body of Mr. Schwartz,\n> who was about to be cremated, he made an amazing discovery:\n> Schwartz had the longest penis he had ever seen!\n>\n> \"I'm sorry Mr. Schwartz,\" said the mortician, \"but I can't\n> send you off to be cremated with a tremendously huge penis\n> like this.  It has to be saved for posterity.\"  And the\n> coroner used his tools to remove the dead man's schlong.\n>\n> The coroner stuffed his prize into a briefcase and took it\n> home.  The first person he showed was his wife. \"I have\n> something to show you that you won't believe,\" he said, and\n> he opened his briefcase.\n>\n> \"Oh, my god!\" she screamed, \"Schwartz is dead!\"",
+   "new_text_source": "body",
+   "subject": "FW: Dead Man's Schlong",
+   "thread_id": "t1a1e6a02ac",
+   "to": [
+    "kristi.giron@cfisd.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-21T09:04:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/636",
+   "new_text": "Genaro,\n\nThe Sitara was not updated for Aug.  I just corrected Sitara.  So you can \nredraft in Unify.  I attached the completed calc-sheet.  Sorry for the delay.\n\nDG  3-9573",
+   "new_text_source": "new",
+   "subject": "Re: Agave Price Calculation",
+   "thread_id": "t1a8bd82fd1",
+   "to": [
+    "genaro.mendoza@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-21T09:44:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/635",
+   "new_text": "We have the NXAVC settle for Aug at $31.138.  So just pay the lesser of.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Re: Agave Price Calculation",
+   "thread_id": "t1a8bd82fd1",
+   "to": [
+    "genaro.mendoza@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-24T17:36:28+00:00",
+   "from": "david.plaisance@us.pwcglobal.com",
+   "msg_id": "giron-d/inbox/238",
+   "new_text": "For Tech, you may be able to buy one of mine as it looks like I'll be\nselling programs again.  I need to check with Mary.\n\nNo word on Kansas yet.\n\n\n\n\nDarron.C.Giron@enron.com on 09/24/2001 12:32:31 PM\n\nTo:   David Plaisance/US/FAS/PwC@FAS\ncc:\nSubject:  Texas Tech & Kansas\n\n\nDo you have any xtras for the above referenced.  I'm just looking for one\nfor Tech, but as many as 6 for Kansas.  Thanks.\n\n   DG\n\n\n\n\n**********************************************************************\nThis e-mail is the property of Enron Corp. and/or its relevant affiliate\nand may contain confidential and privileged material for the sole use of\nthe intended recipient (s). Any review, use, distribution or disclosure by\nothers is strictly prohibited. If you are not the intended recipient (or\nauthorized to receive for the recipient), please contact the sender or\nreply to Enron Corp. at enron.messaging.administration@enron.com and delete\nall copies of the message. This e-mail (and any attachments hereto) are not\nintended to be an offer (or an acceptance) and do not create or evidence a\nbinding and enforceable contract between Enron Corp. (or any of its\naffiliates) and the intended recipient or any other party, and may not be\nrelied on by anyone as the basis of a contract by estoppel or otherwise.\nThank you.\n**********************************************************************\n\n\n\n----------------------------------------------------------------\nThe information transmitted is intended only for the person or entity to\nwhich it is addressed and may contain confidential and/or privileged\nmaterial.  Any review, retransmission, dissemination or other use of, or\ntaking of any action in reliance upon, this information by persons or\nentities other than the intended recipient is prohibited.   If you received\nthis in error, please contact the sender and delete the material from any\ncomputer.",
+   "new_text_source": "new",
+   "subject": "Re: Texas Tech & Kansas",
+   "thread_id": "t1ab6ec9278",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-29T16:56:03+00:00",
+   "from": "lisa.kinsey@enron.com",
+   "msg_id": "giron-d/inbox/278",
+   "new_text": "-----Original Message-----\nFrom: Lenart, Kirk \nSent: Thursday, November 29, 2001 10:28 AM\nTo: Kinsey, Lisa\nSubject: FW: Immediate Suspension of Gas Deliveries\n\n\nAEP update just received\n\n-----Original Message-----\nFrom: tmurphy1@aep.com [mailto:tmurphy1@aep.com]\nSent: Thursday, November 29, 2001 10:22 AM\nTo: Lenart, Kirk\nCc: jvobergfell@aep.com\nSubject: Immediate Suspension of Gas Deliveries\n\n\nPlease be advised that effective 11:00 am EST today AEP Energy Services,\nInc. is suspending deliveries of natural gas to Enron Energy Services, Inc.\nand Enron North America Corp effective immediately.",
+   "new_text_source": "body",
+   "subject": "FW: Immediate Suspension of Gas Deliveries",
+   "thread_id": "t1b2b3887fd",
+   "to": [
+    "t..hodge@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-17T09:40:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/591",
+   "new_text": "Kevin,\n\nPlease remember to link up all deals.  By this, I mean Tagg numbers in \nSitara, Sitara numbers in Tagg, Tagg numbers in SCI, and especially EOL \nnumbers in Tagg.  I just got a call about the park & loan on Friday.  You \nneed to put EOL as the system of origin and the EOL number.  Thanks.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Reminder",
+   "thread_id": "t1b5fb6cf89",
+   "to": [
+    "kevin.radous@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-12-27T17:26:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/360",
+   "new_text": "974013\n\nDG\n\n\n   \n\t\n\t\n\tFrom:  William Kelly                           12/27/2000 05:24 PM\n\t\n\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Reminder\n\nGoss said you may have a calc set up to identify these deals.  Any chance I \ncould copy it?\n\nWK",
+   "new_text_source": "new",
+   "subject": "Re: Reminder",
+   "thread_id": "t1b5fb6cf89",
+   "to": [
+    "william.kelly@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-26T10:20:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/195",
+   "new_text": "Please take care of this if you have any to be flipped.  Thanks.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Friendly Reminder",
+   "thread_id": "t1b8fd6ce0d",
+   "to": [
+    "jason.wolfe@enron.com",
+    "anne.bike@enron.com",
+    "carole.frank@enron.com",
+    "patrick.ryder@enron.com",
+    "ryan.o'rourke@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-11T21:17:58+00:00",
+   "from": "sschroed@us.ca-indosuez.com",
+   "msg_id": "giron-d/inbox/129",
+   "new_text": "I heard you're on the 5th floor now.  What's the new #?  I was just going\nto chat about UBS & what this means for you.  Do you guys start trading\nnext week?  I'm at 713-223-7004.\n\nSchroeder",
+   "new_text_source": "new",
+   "subject": "Phone #",
+   "thread_id": "t1b9386f2aa",
+   "to": [
+    "dgiron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-29T13:53:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/444",
+   "new_text": "Toni,\nPlease let me know if I left anything out.  Thanks for your help.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Staff req form",
+   "thread_id": "t1bd2370953",
+   "to": [
+    "toni.graham@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-30T09:04:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/443",
+   "new_text": "The position will actually report to me.  You can change it.  Thanks.\n\nDG    3-9573\n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Toni Graham @ ENRON                           11/29/2000 08:14 PM\n\t\n\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Re: Staff req form  \n\nDarron,  your req number is:  106820.     Is this position reporting to you \nor Jeff?    If you, I'd like to change it on the req. \n\nI will forward resumes to you asap. \n\ntoni\n\n\n\n\n   \n\t\n\t\n\tFrom:  Darron C Giron @ ECT                           11/29/2000 01:53 PM\n\t\n\nTo: Toni Graham/Corp/Enron@ENRON\ncc:  \n\nSubject: Staff req form  \n\nToni,\nPlease let me know if I left anything out.  Thanks for your help.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Re: Staff req form",
+   "thread_id": "t1bd2370953",
+   "to": [
+    "toni.graham@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-27T08:28:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/465",
+   "new_text": "I'll try and find out today.\n\nD\n\n\n\n\nDMoore2651@aol.com on 11/22/2000 04:53:01 AM\nTo: Darron.C.Giron@enron.com\ncc:  \nSubject: Kristi\n\n\nAny chance of you knowing the phone number of the place where Kristi gets her\nnails done?  I want to give her gift certificates from there for Christmas.\nClark sent me about 24 pictures of your visit...In one, Carley and Erin look\nlike sisters.",
+   "new_text_source": "new",
+   "subject": "Re: Kristi",
+   "thread_id": "t1bef5575fb",
+   "to": [
+    "dmoore2651@aol.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-12T11:48:13+00:00",
+   "from": "dmoore21@charter.net",
+   "msg_id": "giron-d/inbox/196",
+   "new_text": "Well, I did read the note and will make one more comment, I NEVER said to\nany one that \"my daughter in law does not keep me informed\".  If Karen said\nthat, it is a lie.  Sorry if I come across pissed off,  it is not that way.\nDon't know what more I could possibly do to make Kris feel better; guess we\nwill leave it at that. It is obvious that things will remain just the same\nas the past 15 years.  I appreciate your comments and blieve what you have\nwritten.",
+   "new_text_source": "new",
+   "subject": "Re: Kristi",
+   "thread_id": "t1bef5575fb",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-06T09:58:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/526",
+   "new_text": "The first email was what I sent to Burton and Susan.  This is the \nconfirmation from them that the book was set up.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Book Request 593",
+   "thread_id": "t1c0249deb1",
+   "to": [
+    "michael.abraham@us.arthuranderson.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-06T13:44:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/524",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 11/06/2000 \n01:43 PM ---------------------------\n\n\nSusan D Trevino\n10/30/2000 01:25 PM\nTo: Debbie R Brackett/HOU/ECT@ECT, John D Powell/HOU/ECT@ECT, Michael \nSwaim/HOU/ECT@ECT, Ron Nolte/HOU/ECT@ECT, Jason Moore/HOU/ECT@ECT, Scott \nMills/HOU/ECT@ECT, Michael E Moscoso/HOU/ECT@ECT, Rudi Zipter/HOU/ECT@ECT, \nTodd Warwick/HOU/ECT@ECT, Chris Abel/HOU/ECT@ECT, Tracey Irvin/HOU/ECT@ECT, \nFrank Cernosek/HOU/ECT@ECT, Daniel Falcone/Corp/Enron@ENRON, Manfred \nRoenz/Corp/Enron@Enron, Clara Carrington/HOU/ECT@ECT, Minal \nDalia/HOU/EES@EES, Homan Amiry/LON/ECT@ECT, Christian \nLeBroc/Corp/Enron@ENRON, Xochitl Figueroa/NA/Enron@Enron, Joyce \nKuo/NA/Enron@Enron, Burton McIntyre/HOU/ECT@ECT, Kevin Lee/Corp/Enron@Enron, \nKenneth D'Silva/HOU/ECT@ECT, Rebecca Ford/HOU/ECT@ECT, Gregory \nCarraway/Corp/Enron@Enron, Bjorn Hagelmann/HOU/ECT@ECT, Sunil \nDalal/Corp/Enron@ENRON\ncc: Darron C Giron/HOU/ECT@ECT, Jennifer Bagwell/NA/Enron@ENRON, Anne \nBike/Corp/Enron@Enron, Carole Frank/NA/Enron@ENRON, Jason \nWolfe/NA/Enron@ENRON, Chris Walker/HOU/ECT@ECT \nSubject: Book Request 593\n\nThis book is set up.  Please contact me if you have any questions.\n\nThank you,\nSusan Trevino\nx3-1462",
+   "new_text_source": "body",
+   "subject": "Book Request 593",
+   "thread_id": "t1c0249deb1",
+   "to": [
+    "michael.abraham@us.arthurandersen.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-08T10:46:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/346",
+   "new_text": "Genaro Mendoza@ENRON\n01/05/2001 07:46 AM\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Agave Price Spreadsheet\n\nDarron,\n\n Can you please send to me the spreadsheet used to calculate the price for \nAgave? We have had price discrepancies and they would like to go over the \ndifferent pricing compnents to determine were we differ.\n\nThanks,\nGenaro",
+   "new_text_source": "body",
+   "subject": "Re: Agave Price Spreadsheet",
+   "thread_id": "t1c2ee8da1a",
+   "to": [
+    "genaro.mendoza@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-17T12:54:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/318",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 01/17/2001 \n11:55 AM ---------------------------\n\n\n\"Brent Wallace\" <bwallace@zahrsecurities.com> on 01/17/2001 11:57:12 AM\nPlease respond to <BWallace@zahrsecurities.com>\nTo: \"Philip Owens\" <philipowens@hotmail.com>, \"Mike Dickey\" \n<mikedickey@snpump.com>, \"Maria Pokluda\" <mpokluda@hotmail.com>, \"Joe@gallup. \ncom\" <Joe@gallup.com>, \"James Conlee\" <jconlee@tradecast.com>, \"Jeff Young\" \n<jyoung@tcast.com>, \"Greg Gillette\" <greg@amveco.com>, \"Doug Benditz\" \n<doug@cont-casing.com>, \"DENFETTERS@aol. com\" <DENFETTERS@aol.com>, \"Darron. \nC. Giron@enron. com\" <Darron.C.Giron@enron.com>, \"Chris Cooper\" \n<chris@savatech.com>, \"Ben Rollman\" <BRollman@protrader.com>\ncc:  \nSubject: FW: Total Regret\n\n\nSunflower \n> > \n>  > \n> > \n> > \n> >? A woman awoke during the  night to find that her \n> >? husband was not in bed.? She put  on her robe and went \n> >? downstairs. He was sitting at the  kitchen? table with \n> >? a cup of coffee in front of him. He  appeared to be \n> >? in deep thought,? just staring at the  wall. She saw him \n> >? wipe a tear from his eye and take a sip of  his coffee. \n> >? \"What's the matter dear? Why are you down here  at this \n> >? time of night?\" she asked. \n> >? \"Do  you remember twenty years ago when we were dating, and you were \nonly  \n> >16?\" he asked. \n> >\"Yes, I do,\" she replied. \n>  >\"Do you remember when your father caught us in the back seat of my car  \n> >making love?\" \n> >\"Yes, I remember.\" \n> >\"Do you  remember when he shoved that big shotgun in my face and said, \n>  >\"Either you marry my daughter or spend twenty years in jail?\" \n>  >? \"Yes, I do,\" she said. \n> > \n> >? He wiped  another tear from his cheek and said, \"You \n> >? know.....I would  have gotten out today.\"",
+   "new_text_source": "body",
+   "subject": "FW: Total Regret",
+   "thread_id": "t1c533d287d",
+   "to": [
+    "jason.wolfe@enron.com",
+    "phillip.love@enron.com",
+    "chris.walker@enron.com",
+    "victor.guggenheim@enron.com",
+    "b.palmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-09T13:30:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/782",
+   "new_text": "pep.enron.com",
+   "new_text_source": "body",
+   "subject": "",
+   "thread_id": "t1c639654c3",
+   "to": [
+    "dgiron1@pdq.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-12T09:38:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/603",
+   "new_text": "The date is good for the West desk.  I will forward a headcount later today.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Re: Paint ball",
+   "thread_id": "t1c85a982c4",
+   "to": [
+    "patrick.ryder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-12T15:36:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/601",
+   "new_text": "Put the West desk down for 5 people.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Re: Paint ball",
+   "thread_id": "t1c85a982c4",
+   "to": [
+    "patrick.ryder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-10T13:56:42+00:00",
+   "from": "kam.keiser@enron.com",
+   "msg_id": "giron-d/inbox/144",
+   "new_text": "Thomas is setting up a new NGP&L file and would like us to save a copy of each P&L to Netco\\2002\\0102\\region#0102.  Once you decide how you are going to break them up, one file for each book or combine them together, can you save them out there so he can start linking them.\n\nI think that for the physical regions it may be easier to keep each book separate because people could be moving around a lot. \n\nKK",
+   "new_text_source": "new",
+   "subject": "regions file",
+   "thread_id": "t1cf29b1089",
+   "to": [
+    "m..love@enron.com",
+    "d..winfree@enron.com",
+    "scott.palmer@enron.com",
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-28T11:49:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/180",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/28/2001 \n11:25 AM ---------------------------\n\n\nScott.Crowell@us.cgeyc.com on 02/28/2001 10:30:44 AM\nTo: GBauer@mtlm.com, drewbeckman@hotmail.com, jcarlisle@carltonstaffing.com, \ncolirma@yahoo.com, jennifer.fowler@kaiseral.com, mike.fultz@halliburton.com, \ndgiron@enron.com, chad.glessman@bankofamerica.com, bret_hat@swbell.net, \nDawn.C.Kenne@enron.com, jennifer_kern@yahoo.com, \nCrystal_Kettle@neimanmarcus.com, jay_liberman@ml.com, \nPhillip.M.Love@enron.com, tracy.manders@oracle.com, \nMikeMullen@mail.house.gov, jnagy@intraspect.com, \nValerieParker@carltechinc.com, PattiS7@aol.com, srasmussen362@earthlink.net, \nCRoberson@ASAPSC.COM, leslie.salyer@lyondell.com, sassytxn7@aol.com, \ncsiddons@comscore.com, rsole@us.oracle.com, philipsutton@yahoo.com, \nmikepthomas@yahoo.com, sheri.thomas@enron.com, bentsuch@yahoo.com, \nbigluv54@aol.com, nmw14@yahoo.com, slsdfy@earthlink.net, \nnateandmichelle@home.com\ncc:  \nSubject: Recall  [CGEY Virus checked]\n\n\n\nFunny!\n\n\nScott Crowell\nCap Gemini Ernst & Young Consulting\nSenior Consultant - Oracle High Growth\n\n214.665.5751  office\n214.543.9093  cellular\n\n----- Forwarded by Scott T. Crowell/CGEY/EYLLP/US on 02/28/2001 10:28 AM\n-----\n\n                    \"Timothy\n                    Bose\"                To:     \"Kern, Jennifer\" \n<Jennifer.Kern@aocnet.com>,\n                    <bosetb@minds        <Scott.Crowell@us.cgeyc.com>\n                    pring.com>           cc:\n                                         Subject:     Recall  [CGEY Virus \nchecked]\n                    02/27/2001\n                    09:44 PM\n                    Please\n                    respond to\n                    \"Timothy\n                    Bose\"\n\n\n\n\n\n\n\nI know that you two will appreciate  this\n\nTim\n(See attached file: Vibrator Recall.mp3)\n\n\n______________________________________________________________________\nThe information contained in this communication is intended solely for the\nuse of the individual or entity to whom it is addressed and others\nauthorized to receive it. It may contain confidential or legally privileged\ninformation. If you are not the intended recipient you are hereby notified\nthat any disclosure, copying, distribution or taking any action in reliance\non the contents of this information is strictly prohibited and may be\nunlawful. If you have received this communication in error, please notify\nus immediately by responding to this email and then delete it from your\nsystem. Cap Gemini Ernst & Young is neither liable for the proper and\ncomplete transmission of the information contained in this communication\nnor for any delay in its receipt.\n - Vibrator Recall.mp3",
+   "new_text_source": "body",
+   "subject": "Recall [CGEY Virus checked]",
+   "thread_id": "t1d27babb8c",
+   "to": [
+    "kwpope@pdq.net",
+    "cgiron@mindspring.com",
+    "mark.ebert@broadwing.com",
+    "smmayers@earthlink.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-17T17:26:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/476",
+   "new_text": "P&L is OK.  Open position is 39.0 contracts.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Re: 11/16/2000 Enovate DPR - Draft",
+   "thread_id": "t1d361329ba",
+   "to": [
+    "chris.abel@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-04-30T16:35:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/30",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 04/30/2001 \n04:35 PM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 04/30/2001 03:31:28 PM\nTo: \"Raymond Paterson\" <ray_paterson@hotmail.com>, \"Pete Weidler\" \n<Peter.E.Weidler@enron.com>, \"Nicol, Gary\" <nicolg@bp.com>, \"Miguel \nOttaviano\" <mottaviano@gastomarket.com>, \"Moe\" <MoeHeadberg@Hotmail.com>, \n\"KRISTI GIRON\" <KRISTI.GIRON@cfisd.net>, \"Jim Miller\" <jraggie1@pdq.net>, \n\"John Schmitz\" <john.schmitz@rlxtechnologies.com>, \"Gregor, Lynn C\" \n<GregorLC@bp.com>, \"Debbie Hall\" <gmind@icsi.net>, \"Matt Frazier\" \n<fraz2girls@ev1.net>, \"Diego Gotthelf\" <dygotthelf@hotmail.com>, \"Darron C \nGiron\" <Darron.C.Giron@enron.com>, \"Ben & Phyllis Tobias\" \n<benandphyllistobias@compuserve.com>, \"Barbara Denson\" <bbdenson@pdq.net>, \n\"Ben Schulein\" <advantage@infovia.com.ar>\ncc:  \nSubject: Fw: Fishing Proverb\n\n\nouch!\n\n----- Original Message -----\nFrom: \"Warren, Stacy\" <swarre02@coair.com>\nTo: \"Ugly Boo (E-mail)\" <hollyw@email.msn.com>\nSent: Monday, April 30, 2001 3:07 PM\nSubject: FW: Fishing Proverb\n\n\n> Very bad.\n>\n> -----Original Message-----\n> From: Trey Bergman [mailto:treybergman@ghg.net]\n> Sent: Monday, April 30, 2001 1:55 PM\n> To: Charlie Williams, M.D.\"; Stacy Warren; Walter Thurmond; Terry; Kelly\n> Swords; Karla Sevier; Sandy Schoenbeck; Brent Scheps; Joanne Rumery;\n> William Rucker; Lana Rawlinson; Susan Perin; G. Stephen Parrott; Joy\n> O'halla; Wayne Newell; Eric Myers; Charlie Myers; Ted Murray; Diane\n> Murray; Fred Morrison; Pam Moritz; Rick Melamed; Kevin McInnis; Anya\n> McInnis; Sharyl McGrew; Lee M. Larkin; David Lapin; Chris Knapp; Robert\n> Kilene; Larry Jones; Brad Ireland; Hill Hooks; Emmett Hines; Don\n> Hawbaker; Joy Hancock; Rick Greenleaf; Tom Graves; Alan Glazier; Cheryl\n> Evans; Danya Greenleaf; George Cire; Tara L Bosley; Robin L. Berry; Drew\n> Berkman; Mason Bergman; Marleen Bergman; Ed Bergman; Bob Belk; Craig\n> Bair; Andre\n> Subject: Fw: Fishing Proverb\n>\n>\n> ANCIENT JAPANESE PROVERB:\n>\n> Give a man a fish, and he eats for a day.\n>\n> Teach a man to fish, and he gets hit by an American nuclear submarine\n>",
+   "new_text_source": "body",
+   "subject": "Fw: Fishing Proverb",
+   "thread_id": "t1d9db94252",
+   "to": [
+    "phillip.love@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-04-30T16:36:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/29",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 04/30/2001 \n04:36 PM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 04/30/2001 03:31:28 PM\nTo: \"Raymond Paterson\" <ray_paterson@hotmail.com>, \"Pete Weidler\" \n<Peter.E.Weidler@enron.com>, \"Nicol, Gary\" <nicolg@bp.com>, \"Miguel \nOttaviano\" <mottaviano@gastomarket.com>, \"Moe\" <MoeHeadberg@Hotmail.com>, \n\"KRISTI GIRON\" <KRISTI.GIRON@cfisd.net>, \"Jim Miller\" <jraggie1@pdq.net>, \n\"John Schmitz\" <john.schmitz@rlxtechnologies.com>, \"Gregor, Lynn C\" \n<GregorLC@bp.com>, \"Debbie Hall\" <gmind@icsi.net>, \"Matt Frazier\" \n<fraz2girls@ev1.net>, \"Diego Gotthelf\" <dygotthelf@hotmail.com>, \"Darron C \nGiron\" <Darron.C.Giron@enron.com>, \"Ben & Phyllis Tobias\" \n<benandphyllistobias@compuserve.com>, \"Barbara Denson\" <bbdenson@pdq.net>, \n\"Ben Schulein\" <advantage@infovia.com.ar>\ncc:  \nSubject: Fw: Fishing Proverb\n\n\nouch!\n\n----- Original Message -----\nFrom: \"Warren, Stacy\" <swarre02@coair.com>\nTo: \"Ugly Boo (E-mail)\" <hollyw@email.msn.com>\nSent: Monday, April 30, 2001 3:07 PM\nSubject: FW: Fishing Proverb\n\n\n> Very bad.\n>\n> -----Original Message-----\n> From: Trey Bergman [mailto:treybergman@ghg.net]\n> Sent: Monday, April 30, 2001 1:55 PM\n> To: Charlie Williams, M.D.\"; Stacy Warren; Walter Thurmond; Terry; Kelly\n> Swords; Karla Sevier; Sandy Schoenbeck; Brent Scheps; Joanne Rumery;\n> William Rucker; Lana Rawlinson; Susan Perin; G. Stephen Parrott; Joy\n> O'halla; Wayne Newell; Eric Myers; Charlie Myers; Ted Murray; Diane\n> Murray; Fred Morrison; Pam Moritz; Rick Melamed; Kevin McInnis; Anya\n> McInnis; Sharyl McGrew; Lee M. Larkin; David Lapin; Chris Knapp; Robert\n> Kilene; Larry Jones; Brad Ireland; Hill Hooks; Emmett Hines; Don\n> Hawbaker; Joy Hancock; Rick Greenleaf; Tom Graves; Alan Glazier; Cheryl\n> Evans; Danya Greenleaf; George Cire; Tara L Bosley; Robin L. Berry; Drew\n> Berkman; Mason Bergman; Marleen Bergman; Ed Bergman; Bob Belk; Craig\n> Bair; Andre\n> Subject: Fw: Fishing Proverb\n>\n>\n> ANCIENT JAPANESE PROVERB:\n>\n> Give a man a fish, and he eats for a day.\n>\n> Teach a man to fish, and he gets hit by an American nuclear submarine\n>",
+   "new_text_source": "body",
+   "subject": "Fw: Fishing Proverb",
+   "thread_id": "t1d9db94252",
+   "to": [
+    "cgiron@mindspring.com",
+    "smmayers@home.com",
+    "kwpope@pdq.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-04-19T10:24:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/59",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 04/19/2001 \n10:23 AM ---------------------------\nFrom: Veronica Espinoza/ENRON@enronXgate on 04/19/2001 10:05 AM\nTo: Janie Aguayo/HOU/ECT@ECT, Diane Anderson/NA/Enron@Enron, Derek \nBailey/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, \nPatricia Boulanger/CAL/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Julie \nBrewer/NA/Enron@Enron, Lesli Campbell/ENRON@enronXgate, Celeste \nCisneros/NA/Enron@Enron, Sharon Crawford/CAL/ECT@ECT, Richard \nDeming/NA/Enron@Enron, Russell Diamond/ENRON@enronXgate, Cindy \nFeldman/CAL/ECT@ECT, Darron C Giron/HOU/ECT@ECT, Veronica \nGonzalez/ENRON@enronXgate, Jeffrey C Gossett/HOU/ECT@ECT, Walter \nGuidroz/ENRON@enronXgate, Larry Joe Hunter/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Bianca Ornelas/NA/Enron@Enron, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron\ncc:  \nSubject: Credit Report--4/19/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--4/19/01",
+   "thread_id": "t1dbaf37a1f",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-26T10:17:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/558",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 10/26/2000 \n10:17 AM ---------------------------\n   \n\t\n\t\n\tFrom:  Jennifer Bagwell @ ENRON                           10/26/2000 09:58 AM\n\t\n\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: do this:\n\n\n---------------------- Forwarded by Jennifer Bagwell/NA/Enron on 10/26/2000 \n09:54 AM ---------------------------\n\n\nJackson Logan@ECT\n10/13/2000 01:06 PM\nTo: Jennifer Bagwell/NA/Enron@ENRON\ncc:  \n\nSubject: do this:\n\n\n---------------------- Forwarded by Jackson Logan/HOU/ECT on 10/13/2000 01:06 \nPM ---------------------------\n\n\n\"Thorp, Brian C\" <Brian_Thorp@AIMFUNDS.COM> on 10/13/2000 12:58:55 PM\nTo: \"Jackson Logan (E-mail)\" <jlogan3@enron.com>\ncc:  \nSubject: do this:\n\n\nTry this one if you get bored...\n\nFollow the instructions... hilarious...\n\nToll Free National Discount Brokers\n\n1. dial 1-800-888-3999 (it's free)\n2. listen to the options- listen all the way through\n3. when you hear #7 hit 7\n\nEvery company should have an option #7.\n\nBrian Thorp\nAIM Institutional Group\n(800) 659-1005 x7636\n(713) 214-7636",
+   "new_text_source": "body",
+   "subject": "do this:",
+   "thread_id": "t1e0c852a25",
+   "to": [
+    "kristi.giron@cfisd.net",
+    "hollyw@email.msn.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-26T14:15:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/192",
+   "new_text": "Please read\n\nDG\n---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/26/2001 \n02:14 PM ---------------------------\n\n\nStacey Vallejo\n02/26/2001 12:37 PM\nTo: Jeffrey C Gossett/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, Darron C \nGiron/HOU/ECT@ECT, Victor Guggenheim/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, \nErrol McLaughlin/Corp/Enron@ENRON, Luchas Johnson/NA/Enron@Enron\ncc:  \nSubject: Aquila Canada Corp. deals in your books\n\nI just came across a counterparty that needs to be flipped to the \nFT-US/CAND-ERMS book for all deals in Houston books.  ECC has now signed a \nMaster Swap Agreement with Aquila Canada Corp., and all deals traded with ENA \nand Aquila Canada Corp. need to be settled with ECC in the P& book.  These \ndeals are showing up in TAGG as settling with ENA, could you all please keep \nan eye out for deals with this company and flip them right away.\n\nPlease let me know if you have any questions on this.\n\nThanks\nStacey",
+   "new_text_source": "body",
+   "subject": "Aquila Canada Corp. deals in your books",
+   "thread_id": "t1e392f6f43",
+   "to": [
+    "jason.wolfe@enron.com",
+    "anne.bike@enron.com",
+    "carole.frank@enron.com",
+    "patrick.ryder@enron.com",
+    "ryan.o'rourke@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-05T15:56:27+00:00",
+   "from": "m..love@enron.com",
+   "msg_id": "giron-d/inbox/422",
+   "new_text": "-----Original Message-----\nFrom: \tRyder, Patrick  \nSent:\tMonday, November 05, 2001 9:42 AM\nTo:\tWinfree, O'Neal D.; Baumbach, David; Love, Phillip M.; Palmer, B. Scott\nSubject:\tGood article on us\n\nhttp://www.businessweek.com/magazine/content/01_46/b3757078.htm",
+   "new_text_source": "body",
+   "subject": "FW: Good article on us",
+   "thread_id": "t1e4736fc36",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-19T15:19:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/474",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 11/19/2000 \n03:13 PM ---------------------------\n\n\nCarlos Giron <cgiron@mindspring.com> on 11/19/2000 11:05:38 AM\nTo: Angela Teer-WIlliams <angela.teerwilliams@gte.net>, Darron C Giron \n<dgiron@enron.com>, Grant Whipple <grant.w@mindspring.com>, Jennifer Iu \n<jenniferiu@yahoo.com>, danantom@bellsouth.net, Michael Massimi \n<mmassimi@auduboninstitute.org>, trapboy@earthlink.net, \njosh@intranetdesigns.com, cgiron@psiusa.com\ncc:  \nSubject: [Fwd: [Fwd: ]]\n\n\nReturn-Path: <gbohan@home.com>\nReceived: from femail1.sdc1.sfba.home.com ([24.0.95.81]) by \nrunyon.mail.mindspring.net (Mindspring Mail Service) with ESMTP id \nt1eli9.2l5.37kbi7f for <cgiron@mindspring.com>; Sat, 18 Nov 2000 23:25:45 \n-0500 (EST)\nReceived: from c1020703a ([24.13.193.4]) by \nfemail1.sdc1.sfba.home.com          (InterMail vM.4.01.03.00 201-229-121) \nwith SMTP          id \n<20001119042356.JEYJ14040.femail1.sdc1.sfba.home.com@c1020703a>          for \n<cgiron@mindspring.com>; Sat, 18 Nov 2000 20:23:56 -0800\nFrom: \"Lighthouse Design\" <gbohan@home.com>\nTo: \"Carlos Giron\" <cgiron@mindspring.com>\nSubject: RE: [Fwd: ]\nDate: Sat, 18 Nov 2000 22:31:25 -0600\nMessage-ID: <NDBBLKABALNJLBJLECKAOEODCEAA.gbohan@home.com>\nMIME-Version: 1.0\nContent-Type: multipart/mixed; \nboundary=\"----=_NextPart_000_0007_01C051AF.4977F9A0\"\nX-Priority: 3 (Normal)\nX-MSMail-Priority: Normal\nX-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2911.0)\nX-MimeOLE: Produced By Microsoft MimeOLE V5.50.4133.2400\nImportance: Normal\nIn-Reply-To: <3A175033.716D2D18@mindspring.com>\nX-Mozilla-Status2: 00000000\n\nthat shit is fucking funny, I got one from the Chris Rock show for you.\nLater\n\n-----Original Message-----\nFrom: Carlos Giron [mailto:cgiron@mindspring.com]\nSent: Saturday, November 18, 2000 10:00 PM\nTo: Glenn Bohan\nSubject: [Fwd: ]\n\n\n\n\n - Nplease.mpg",
+   "new_text_source": "body",
+   "subject": "[Fwd: [Fwd: ]]",
+   "thread_id": "t1e4dc050e6",
+   "to": [
+    "dgiron1@pdq.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-16T14:45:32+00:00",
+   "from": "chairman.enron@enron.com",
+   "msg_id": "giron-d/inbox/121",
+   "new_text": "Enron announced today that its common stock will now be traded as an Over-the-Counter (OTC) equity security under the symbol \"ENRNQ.\"  This follows a decision by the New York Stock Exchange (NYSE) to file an application to delist Enron's common stock, which means that Enron's common stock and related securities are suspended from trading on the NYSE.  Enron is considering whether to appeal the NYSE's decision.\n\nThe NYSE has standard criteria for listing stocks, which can be found on their website at www.nyse.com.  Enron recently fell below the following listing criteria: average closing price of a security less than $1.00 over a consecutive 30 trading-day period.  Quotation service for Enron's stock will now be provided by the National Quotation Bureau, LLC \"Pink Sheets.\"",
+   "new_text_source": "new",
+   "subject": "New Stock Symbol",
+   "thread_id": "t1e6164f9f2",
+   "to": [
+    "dl-ga-all_enron_worldwide1@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-13T22:16:03+00:00",
+   "from": "scott_crowell@hotmail.com",
+   "msg_id": "giron-d/inbox/199",
+   "new_text": "Darron,\n\nI have attached a revised resume for you to send to the managers and\nrecruiters if you have not already.  Thanks and let me know if you get any\nfeedback.\n\nScott\n\n\n>From: Darron.C.Giron@enron.com\n>To: scott_crowell@hotmail.com\n>Subject: RE: Enron postings\n>Date: Tue, 7 Aug 2001 14:18:13 -0500\n>\n>109423 Recruiter Jennifer Cronin 713-345-8267\n>      Supervisor Rich Hall 713-345-3389\n>\n>109078 Recruiter Donald Iacobell 713-345-3962\n>      Supervisor Zhiyong Wei 713-853-3020\n>\n>DG\n>\n>     -----Original Message-----\n>    From:   \"scott crowell\" <scott_crowell@hotmail.com>@ENRON\n>\n>[mailto:IMCEANOTES-+22scott+20crowell+22+20+3Cscott+5Fcrowell+40hotmail+2Ecom+3E+40ENRON@ENRON.com]\n>\n>\n>    Sent:   Tuesday, August 07, 2001 1:27 PM\n>    To:     Giron, Darron C.\n>    Subject:  RE: Enron postings\n>\n>    Don't worry about it.  There ended up being mostly people Brook works\n>    with.\n>    Not too many people that I knew.  We left and went out around 10:30 and\n>    were\n>    home by 1 am.  You didin't miss much.  I'll call you about lunch.\n>\n>\n>    >From: Darron.C.Giron@enron.com\n>    >To: scott_crowell@hotmail.com\n>    >Subject: RE: Enron postings\n>    >Date: Tue, 7 Aug 2001 07:44:29 -0500\n>    >\n>    >I'll look at them and get back with you.  We ended up staying at this\n>    party\n>    >until 10:30pm.  Its funny, because with her, we usually are the last\n>    people\n>    >to leave these types of things and that's why when I was talking to\n>you\n>    on\n>    >the phone I said would be there until at least 9pm.  But K immediately\n>    >said, no we won't be that late.  And I was thinking at the time, sure\n>    we\n>    >won't.  Sure enough, we were the last ones to leave.  Sorry.  When I\n>    get a\n>    >chance, I'll look at these jobs.  I can do lunch any day.\n>    >\n>    >DG\n>    >\n>    >     -----Original Message-----\n>    >    From:   \"scott crowell\" <scott_crowell@hotmail.com>@ENRON\n>    >\n>\n> >[mailto:IMCEANOTES-+22scott+20crowell+22+20+3Cscott+5Fcrowell+40hotmail+2Ecom+3E+40ENRON@ENRON.com]\n>    >\n>    >\n>    >    Sent:   Monday, August 06, 2001 11:36 PM\n>    >    To:     Giron, Darron C.\n>    >    Subject:  Enron postings\n>    >\n>    >    Hey.  I was looking on the Enron site and I found a couple of\n>    openings.\n>    >    Can\n>    >    you see if you can find out the hiring managers for these\n>    positions?\n>    >\n>    >    109423  Spec. Sr. IT Non Dev. - Business Analyst CRM\n>    >    109078  Spec. Sr. IT Dev. - Risk Mgmt. System Development\n>    >\n>    >    Thanks.\n>    >\n>    >    What happened to you on Saturday night?  When can you do lunch\n>this\n>    >    week.  I\n>    >    promise not to stand you up again.\n>    >\n>    >    Scott\n>    >\n>    >    _________________________________________________________________\n>    >    Get your FREE download of MSN Explorer at\n>    >    http://explorer.msn.com/intl.asp\n>    >\n>    >\n>    >\n>    >\n>    >**********************************************************************\n>    >This e-mail is the property of Enron Corp. and/or its relevant\n>    affiliate\n>    >and may contain confidential and privileged material for the sole use\n>    of\n>    >the intended recipient (s). Any review, use, distribution or\n>disclosure\n>    by\n>    >others is strictly prohibited. If you are not the intended recipient\n>    (or\n>    >authorized to receive for the recipient), please contact the sender or\n>    >reply to Enron Corp. at enron.messaging.administration@enron.com and\n>    delete\n>    >all copies of the message. This e-mail (and any attachments hereto)\n>are\n>    not\n>    >intended to be an offer (or an acceptance) and do not create or\n>    evidence a\n>    >binding and enforceable contract between Enron Corp. (or any of its\n>    >affiliates) and the intended recipient or any other party, and may not\n>    be\n>    >relied on by anyone as the basis of a contract by estoppel or\n>    otherwise.\n>    >Thank you.\n>    >**********************************************************************\n>\n>\n>    _________________________________________________________________\n>    Get your FREE download of MSN Explorer at\n>    http://explorer.msn.com/intl.asp\n>\n>\n\n\n_________________________________________________________________\nGet your FREE download of MSN Explorer at http://explorer.msn.com/intl.asp\n\n - ScottCrowellResume1.doc",
+   "new_text_source": "new",
+   "subject": "RE: Enron postings",
+   "thread_id": "t1eef648c71",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-02T12:00:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/358",
+   "new_text": "Andrea,\n\nIs it possible to get a list of first year analysts who graduated in December \nto interview for my group?  I don't know how the process works, but I would \nlike to hire a candidate just out of college if possible.  Thanks for your \nhelp.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "First Year",
+   "thread_id": "t1ef6f2a267",
+   "to": [
+    "andrea.richards@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-13T09:13:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/228",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/13/2001 \n09:13 AM ---------------------------\n   \n\n\nFrom:  Veronica Espinoza @ ENRON                                              \n               02/13/2001 08:54 AM\t\n\t\n\t\n\t                           \n\t\n\nTo: Larry Joe Hunter/HOU/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Kim S \nTheriot/HOU/ECT@ECT, Melinda Whalen/CAL/ECT@ECT, Dianne Seib/CAL/ECT@ECT, \nJanie Aguayo/HOU/ECT@ECT, Derek Bailey/Corp/Enron@ENRON, Kevin \nMeredith/Corp/Enron@ENRON, Ellen Wallumrod/NA/Enron@ENRON, Celeste \nCisneros/NA/Enron@Enron, Diane Anderson/NA/Enron@Enron, Tiffany \nWilliams/NA/Enron@Enron, Cindy Feldman/CAL/ECT@ECT, Patricia \nBoulanger/CAL/ECT@ECT, Linda Sietzema/CAL/ECT@ECT, Sharon \nCrawford/CAL/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Tanya \nRohauer/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, William S Bradford/HOU/ECT@ECT, \nRussell Diamond/HOU/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Nidia \nMendoza/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, \nDavid Baumbach/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Darron C \nGiron/HOU/ECT@ECT, Walter Guidroz/NA/Enron@Enron, Leslie Reeves/HOU/ECT@ECT, \nVeronica Gonzalez/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Jean \nBell/HOU/ECT@ECT\ncc:  \nSubject: Credit Report--2/13/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--2/13/01",
+   "thread_id": "t1faa7008e1",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-09T20:37:03+00:00",
+   "from": "chairman.ews@enron.com",
+   "msg_id": "giron-d/inbox/145",
+   "new_text": "As you know, Enron Wholesale Services (EWS) has been reorganized under the leadership of CEO Jim Fallon.  Rich DiMichele supports Jim as COO of EWS, while also continuing in his role as head of Enron Broadband Services (EBS).  EWS businesses include:  Enron North America, EBS, Enron Industrial Markets, Enron Global Markets, Enron Europe and Enron Canada.  EWS' business focus remains on maximizing creditor value and determining which businesses and assets will be a part of Enron's reorganization plan.\n\nIn addition to Rich, reporting to Jim are:\n\n?\tDon Miller - ENA\n?\tGary Hickerson - EGM\n?\tRodney Malcolm - EIM\n?\tEric Shaw - Enron Europe\n?\tKyle Kitagawa - Enron Canada\n?\tLance Schuler - General Counsel\n?\tBarry Pearce - Chief of Staff\n?\tDave Gorte - RAC\n?\tKent Castleman - Accounting\n?\tShanna Funkhouser - Human Resources\n\nEnron Wholesale Services\n\n \n\n\n\n\n\n\n\n\n\n<Embedded MS Organization Chart 2.0>",
+   "new_text_source": "new",
+   "subject": "EWS Organizational Announcement",
+   "thread_id": "t1fae6e29f1",
+   "to": [
+    "dl-ga-all_ews_employees@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-27T10:12:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/464",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 11/27/2000 \n10:12 AM ---------------------------\n\n\n\"Clark Mayers\" <jcmayers@earthlink.net> on 11/27/2000 10:03:15 AM\nPlease respond to \"Clark Mayers\" <jcmayers@earthlink.net>\nTo: \"Sean Mayers\" <smmayers@earthlink.net>, \"Mike/Christine Richter\" \n<crich75206@aol.com>, \"Mary Fate\" <maryfate@planetkc.com>, \"Kim \nMayers/Sprint\" <Kim.Mayers@mail.sprint.com>, \"Frank Frederic\" \n<fpfred@juno.com>, \"Darron Giron\" <Darron.C.Giron@enron.com>, \"Darnell Moore\" \n<darnellmo@aol.com>\ncc:  \nSubject: Fw: Have you done the Palm Beach Pokey yet?\n\n\n\n?\n?\n?\nhttp://www.dovewinds.com/dubya/alshokeypokey.html",
+   "new_text_source": "body",
+   "subject": "Fw: Have you done the Palm Beach Pokey yet?",
+   "thread_id": "t1fc54e9702",
+   "to": [
+    "dgiron1@pdq.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-29T19:23:42+00:00",
+   "from": "c..gossett@enron.com",
+   "msg_id": "giron-d/inbox/53",
+   "new_text": "-----Original Message-----\nFrom: =09Theriot, Kim S. =20\nSent:=09Tuesday, January 29, 2002 1:23 PM\nTo:=09Richardson, Stacey; Anderson, Diane; Gossett, Jeffrey C.; White, Stac=\ney W.; Murphy, Melissa; Hall, D. Todd; Sweeney, Kevin\nCc:=09Aucoin, Evelyn; Baxter, Bryce; Wynne, Rita\nSubject:=09FW: Master Termination Log\n\n\n\n -----Original Message-----\nFrom: =09Panus, Stephanie =20\nSent:=09Tuesday, January 29, 2002 11:39 AM\nTo:=09Adams, Laurel; Alonso, Tom; Aronowitz, Alan; Bailey, Susan; Balfour-F=\nlanagan, Cyndie; Baughman, Edward; Belden, Tim; Bishop, Serena; Brackett, D=\nebbie R.; Bradford, William S.; Browning, Mary Nell; Bruce, James; Bruce, M=\nichelle; Bruce, Robert; Buerkle, Jim; Calger, Christopher F.; Carrington, C=\nlara; Considine, Keith; Cordova, Karen A.; Crandall, Sean; Cutsforth, Diane=\n; Diamond, Russell; Dunton, Heather; Edison, Susan; Elafandi, Mo; Fischer, =\nMark; Flores, Nony; Fondren, Mark; Gorny, Vladimir; Gorte, David; Gresham, =\nWayne; Hagelmann, Bjorn; Hall, Steve C. (Legal); Harkness, Cynthia; Hendry,=\n Brent; Johnston, Greg; Keohane, Peter; Lindeman, Cheryl; Little, Kelli; Ma=\nllory, Chris; Mann, Kay; Mcginnis, Stephanie; McGrory, Robert; McMichael Jr=\n., Ed; Miller, Don (Asset Mktg); Moore, Janet H.; Moran, Tom; Murphy, Harla=\nn; Murray, Julia; Nemec, Gerald; Ogden, Mary; Otto, Randy; Page, Jonalan; P=\nostlethwaite, John; Prejean, Frank; Presto, Kevin M.; Puchot, Paul; Rasmuss=\nen, Dale; Richter, Brad; Richter, Jeff; Robison, Michael A.; Rohauer, Tanya=\n; Rosman, Stewart; Runswick, Stacy; Sacks, Edward; Scholtes, Diana; Shackle=\nton, Sara; Simons, Paul; Swinney, John; Thapar, Raj; Theriot, Kim S.; Thoma=\ns, Jake; Thome, Stephen; Tricoli, Carl; Van Hooser, Steve; Wente, Laura; Wi=\nlson, Shona; Winfree, O'Neal D.; Woodland, Andrea; Yoder, Christian\nSubject:=09Master Termination Log\n\nAttached is the Daily Termination List for January 25 as well as the Master=\n Termination Log, which incorporates all terminations received through Janu=\nary 25.\n\n =20\n\nThe following were previously on the Master Termination Log and have now be=\nen marked as \"Y\" for a valid termination:\n\nAtlantic Coast Fibers, Inc.=09=09=09ENA=09=09pulp/paper transactions\nCNC-Containers Corporation=09=09=09EPMI=09=09master power agreement\nPublic Utility District No. 1 of Chelan County=09EPMI=09=09deal no. 757497.=\n01\nConnect Energy Services, Inc.=09=09=09ENA=09=09liquids agreement\nNGL Supply, Inc. (including Premier=09=09ENA/EGLI=09physical & financial tr=\nansactions referenced\nEnergy Partners, a division of NGL Supply, Inc.)\nPlains Marketing, L.P.=09=09=09=09ERAC=09=09deal no. QG4563.1\nPlains Marketing, L.P.=09=09=09=09ERAC=09=09deal no. QG4482.2\n\nStephanie Panus\nEnron Wholesale Services\nph:  713.345.3249\nfax:  713.646.3490",
+   "new_text_source": "body",
+   "subject": "FW: Master Termination Log",
+   "thread_id": "t1fe043c644",
+   "to": [
+    "c..giron@enron.com",
+    "m..love@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-25T23:15:46+00:00",
+   "from": "resources.human@enron.com",
+   "msg_id": "giron-d/inbox/472",
+   "new_text": "We've updated the Merger Q&A document on our Enron Updates site ( <http://home.enron.com/updates/mergerQA.html>), as a result of the many questions you've had concerning the merger between Enron and Dynegy. Questions addressed include those about Enron stock options, benefits and immigration status. Please stay tuned for additional updates.",
+   "new_text_source": "new",
+   "subject": "Update to Merger Q&A",
+   "thread_id": "t200b22753c",
+   "to": [
+    "dl-ga-all_enron_worldwide1@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-16T10:13:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/480",
+   "new_text": "We would love to do this.\n\nD\n\n\n\n\nDarnellmo@aol.com on 11/15/2000 04:49:06 PM\nTo: Darron.C.Giron@enron.com, cgiron@mindspring.com\ncc:  \nSubject: Re: CO\n\n\nWill be sending you info about a first cousin's reunion set for next sept\nnear Denver.  Barry's family had already planned a family vacation there and\nI think Sean and Kim convinced them that this would be a good time for all 9\nof you to try to get together.\nBarry already has reservations at two condos there so will xerox Erva's\nletter.  I am willing to foot the bill for the condos.\n\nMOM",
+   "new_text_source": "new",
+   "subject": "Re: CO",
+   "thread_id": "t200e867a8f",
+   "to": [
+    "darnellmo@aol.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-16T11:10:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/479",
+   "new_text": "I relpied to mom already, but thought you would want to see it.\n\nD",
+   "new_text_source": "new",
+   "subject": "Re: CO",
+   "thread_id": "t200e867a8f",
+   "to": [
+    "kristi.giron@cfisd.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-08T08:40:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/164",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 03/08/2001 \n08:40 AM ---------------------------\n\n\nStacey Vallejo\n03/07/2001 09:57 AM\nTo: Jeffrey C Gossett/HOU/ECT@ECT, Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Deal in WEST SJ book to be flipped\n\nHi guys,\n\nDeal QP6086.1 in the WEST SJ book needs to be flipped\nto the FT-US/CAND-ERMS book right away.  I need to \nsettle this deal with Engage Energy Canada tomorrow.\n\nPlease let me know if you have any questions on this.\n\nThanks\nStacey",
+   "new_text_source": "body",
+   "subject": "Deal in WEST SJ book to be flipped",
+   "thread_id": "t2095353203",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-19T07:31:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/314",
+   "new_text": "Sounds good.  I'm available just about any day over the next few weeks.\n\nDG\n\n\n\n\nSSCHROED@us.ca-indosuez.com on 01/18/2001 04:35:19 PM\nTo: dgiron@enron.com, randy.g.kruger.jr@arthuranderson.com, \nmikeshaw@andrews-kurth.com\ncc:  \nSubject: \n\n\nHow about getting together for lunch in the next couple of weeks?",
+   "new_text_source": "new",
+   "subject": "Re:",
+   "thread_id": "t209d9d6d60",
+   "to": [
+    "sschroed@us.ca-indosuez.com",
+    "randy.g.kruger.jr@arthuranderson.com",
+    "mikeshaw@andrews-kurth.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-28T15:12:27+00:00",
+   "from": "m..love@enron.com",
+   "msg_id": "giron-d/inbox/214",
+   "new_text": "I talked with all of you about having a monthly poker/cards game.  Please let me know if you are not interested anymore.  We discussed, a Thursday night once a month.  I was thinking from roughly 7:30 - 10 p.m.  How does the third Thursday of the month sound to everyone?  This should always keep us out of bidweek/first of the month scenarios.  Right now we have 8 guys, so we can go two tables.  We were also talking about rotating the location each month to someone else's house.  I will volunteer my house for the first week.  Do we want to start in September?  The third Thursday would be September 20th.  We also talked about this being a small time game, like .25 ante, $1.00 maximum.  Please let me know what you guys think if we can do this and if we should change some of the suggestions listed above.  Thanks.\nPL",
+   "new_text_source": "new",
+   "subject": "Thursday Poker Game Group",
+   "thread_id": "t20e3c35b81",
+   "to": [
+    "c..giron@enron.com",
+    "errol.mclaughlin@enron.com",
+    "bruce.mills@enron.com",
+    "scott.palmer@enron.com",
+    "patrick.ryder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-05-09T13:38:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/9",
+   "new_text": "Done.\n\nDG\n\n\nFrom: Patrick Mulvany/ENRON@enronXgate on 05/09/2001 10:35 AM\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Frank Ermis' trades\n\nDarron,\n\nI have two trades from yesterday that have a few problems.  \n\nV83030.1:  shows a term of Nov02-Mar03.  The broker is saying that is should \nbe Nov02-Dec02.\n\nV83656.1:  Counterparty name should be BANKAMENAT.\n\nI know that you are covering for Carole, so thank you for your time.\n\nPatrick    X53877",
+   "new_text_source": "new",
+   "subject": "Re: Frank Ermis' trades",
+   "thread_id": "t20ec2c3285",
+   "to": [
+    "patrick.mulvany@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-30T14:24:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/102",
+   "new_text": "Is it really necessary to change the book names just to avoid confusion?  Who \nis confused?  Can't we just inform those who need to know that the Denver \nbooks are simply another desk that rolls up into the West Region?  I don't \nwant to be difficult, but it will require a great deal of time and effort to \nchange every deal in the Denver books to a new name.  Let me know what you \nthink.\n\nDG    3-9573\n\n\n   \n\t\n\t\n\tFrom:  Shona Wilson @ ENRON                           03/30/2001 11:55 AM\n\t\n\nTo: Burton McIntyre/Enron@EnronXGate, Susan D Trevino/HOU/ECT@ECT, Darron C \nGiron/HOU/ECT@ECT, Patrick Ryder/NA/Enron@Enron\ncc: Mark Whitt/NA/Enron@Enron \nSubject: Denver FT and IM books\n\nIs this possible to do easily?",
+   "new_text_source": "new",
+   "subject": "Re: Denver FT and IM books",
+   "thread_id": "t210ec26ea3",
+   "to": [
+    "shona.wilson@enron.com"
+   ],
+   "truncated": false
+  }
+ ]
+}
