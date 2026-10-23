@@ -3,27 +3,11 @@
   {
    "citations": [
     "williams-w3/sent_items/514",
-    "williams-w3/sent_items/425",
-    "williams-w3/sent_items/291"
-   ],
-   "step": "During the operating day the real-time trader deals with cuts, declines and bought-back schedules (CISO declines, El Paso Electric cuts, Harbor not running). The trader enters fixing trades such as imbalance purchases in Enpower and checks that the position is flat in CAPS position manager.",
-   "who": "real-time trader (Bill Williams)"
-  },
-  {
-   "citations": [
     "williams-w3/sent_items/510",
-    "williams-w3/inbox/126"
+    "williams-w3/sent_items/425"
    ],
-   "step": "When the CISO misenters a schedule or an import ID is wrong, the desk emails the CAPS group and its schedulers so they can fix the CAPS entry manually or change load zones.",
-   "who": "real-time trader and CAPS scheduling group (Kit Blair, Caroline Emmert, Eugene Lee, Kourtney Nelson)"
-  },
-  {
-   "citations": [
-    "williams-w3/sent_items/453",
-    "williams-w3/sent_items/481"
-   ],
-   "step": "The next morning the trader reads the DPR, runs a BOM SAR, and zeroes or corrects bad deals such as double deal-entry in ST-WBOM. The trader then emails settlements with the deal numbers and the revenue effect.",
-   "who": "real-time trader to settlements (Heather Dunton)"
+   "step": "After each operating day the real-time trader looks over what happened: CISO declines, incs and decs, cuts, misentered schedules. Each item is written up as a free-text email to settlements or the scheduling group, listing hour ending, schedule ID and book.",
+   "who": "real-time trader (Bill Williams)"
   },
   {
    "citations": [
@@ -31,119 +15,153 @@
     "williams-w3/sent_items/431",
     "williams-w3/sent_items/90"
    ],
-   "step": "The trader works out the expected congestion and replacement-reserve revenue by hand (MW times price per HE) and emails it to Jim Reyes and the CAPS group so the revenue gets booked. This includes hours where the CAISO site has no data.",
-   "who": "real-time trader to real-time settlements (Jim Reyes)"
+   "step": "The trader works out the expected revenue for congestion relief and replacement reserve capacity by hand and emails the figure so settlements can check it against the CAISO statement.",
+   "who": "real-time trader"
+  },
+  {
+   "citations": [
+    "williams-w3/sent_items/453"
+   ],
+   "step": "The next morning the trader gets the DPR, runs a BOM SAR, spots double or wrong deal entries, zeroes them out in Enpower and emails settlements to explain the revenue impact.",
+   "who": "real-time trader / settlements (Heather Dunton)"
+  },
+  {
+   "citations": [
+    "williams-w3/sent_items/481",
+    "williams-w3/sent_items/387"
+   ],
+   "step": "Annuities between books (for example ST-CALI to ST-WHOURLY) are agreed with the desk head and passed to settlements by email to book.",
+   "who": "real-time trader / settlements"
   },
   {
    "citations": [
     "williams-w3/sent_items/442",
     "williams-w3/sent_items/441",
-    "williams-w3/sent_items/426",
-    "williams-w3/sent_items/428",
-    "williams-w3/sent_items/387"
+    "williams-w3/sent_items/426"
    ],
-   "step": "When a monthly PMA arrives, the trader checks it against Enpower and the inc sheet, emails the questions to Virginia Thompson, and follows up until the true-up is booked. Sometimes this needs a tape pull to settle what was traded.",
-   "who": "real-time trader and PMA/settlements analyst (Virginia Thompson), tape room (Chip Cox)"
+   "step": "When the monthly PMA arrives, the trader checks each adjustment against Enpower and the inc sheet. Where they disagree he escalates to settlements and asks for a meeting to true it up.",
+   "who": "real-time trader / settlements (Virginia Thompson)"
+  },
+  {
+   "citations": [
+    "williams-w3/sent_items/291",
+    "williams-w3/inbox/126"
+   ],
+   "step": "Position manager variances, from schedule errors or counterparties such as Enron Canada, are reported by email. Schedule corrections arrive from other desks with instructions to change load zones until the position is flat.",
+   "who": "real-time trader / scheduling"
+  },
+  {
+   "citations": [
+    "williams-w3/sent_items/428",
+    "williams-w3/sent_items/426"
+   ],
+   "step": "Disputed trades with nothing written down are settled by having a recorded-line tape pulled.",
+   "who": "real-time trader / tape custodian (Chip Cox)"
   }
  ],
  "effort": "M",
  "implementation_steps": [
-  "Sit with the real-time trader and settlements to list the variance types seen in the emails: duplicate entries, CISO misentries, cuts, unbooked congestion or reserve revenue, unexplained PMAs, and counterparty changes. Agree on the matching keys for each (book, HE, schedule ID, deal number).",
-  "Get read access to Enpower deal extracts and CAPS final schedules and position manager data, and find where CAISO award data and the DPR can be pulled each day.",
-  "Build the daily matching script for one book (ST-WBOM) and run it alongside the current manual process for two weeks, comparing its exceptions with what the trader reports by email.",
-  "Add the expected-revenue calculator for congestion and replacement reserves, plus the duplicate-deal detector, and extend coverage to the other real-time books.",
-  "Set up the shared exception queue with owner and status, and send the morning digest to the real-time desk, the CAPS group and settlements.",
-  "Add the PMA validator: load each month's PMA lines and check each one against the Enpower deal history and the inc sheet before settlements books it.",
-  "Retire the ad hoc variance emails once the queue covers them, and review aging exceptions each week before the P&L flash."
+  "Collect last year's reconciliation emails from the real-time desk and list the break types: schedule direction or firmness errors, double entry, unposted price changes, congestion and reserve revenue, annuities and PMA disputes. Agree with settlements which ones the job must catch.",
+  "Get read access to Enpower deal extracts and to CAPS final schedules. Confirm the shared keys (schedule ID, hour ending, book, counterparty) and how ECTRT and ECTSTSW schedules map to Enpower books.",
+  "Build the matching job and the duplicate-deal detector. Run them alongside the existing DPR and BOM SAR check for two to four weeks and compare their output with the breaks the desk actually reports.",
+  "Add the CAISO award loader and expected-revenue calculation. Where no data feed exists, allow a manual upload of the desk's award file.",
+  "Set up the break log with settlements (Virginia Thompson, Heather Dunton, Jim Reyes) as owners of closing items. Load the currently open PMA and price-correction items.",
+  "Add the month-end PMA checker and run it on the next PMA before the desk reviews it.",
+  "Switch the morning email on for the real-time desk and settlements. Retire the free-text adjustment emails for any break type the job reliably catches."
  ],
  "opportunity": "realtime_settlement_reconciliation",
  "risks": [
-  "The evidence comes from one mailbox (williams-w3) and does not show how Enpower, CAPS or CAISO data can be extracted. Feeds may need manual exports at first, so confirm access before committing.",
-  "Position manager already reports false variances. Using it as an input could flood the queue with noise, so compare at the detail level and suppress variances that disappear in the detail view.",
-  "CAISO data can be missing (server outages). The job should mark those hours as 'no source data' rather than as a variance or zero revenue.",
-  "PMA formats and the inc sheet layout do not appear in the emails. The PMA validator may need a manual mapping step until the formats are confirmed.",
-  "The value is small (about $77 a month, $924 a year at $85/hour), so build it as a lightweight script on existing extracts. A larger integration would not pay back on handling time alone; the main case is catching missed revenue earlier."
+  "The evidence doesn't show whether Enpower or CAPS can export data automatically or in what format. Confirm extract access before committing, or start from scheduled report exports.",
+  "Position manager itself showed false variances. The job should compare source records, not position manager totals, and treat position manager only as a cross-check.",
+  "CAISO data can be missing (their server went down). The job must mark those hours unconfirmed, not zero, so it doesn't report false breaks.",
+  "Schedule IDs and books are entered inconsistently, for example ECTRT against ECTSTSW. Matching rules need a maintained mapping table or the job will generate noise.",
+  "All evidence comes from one mailbox (williams-w3), and the calculated handling value is small (about $77 a month, $924 a year at $85/h). The case rests on catching breaks earlier rather than on hours saved. Scope it as a lightweight script first.",
+  "The evidence doesn't describe the PMA file layout. The month-end checker may need a manual import step at first."
  ],
  "solution": {
-  "approach": "Each morning after the DPR is published, a reconciliation job pulls the previous day's real-time deals from Enpower by book (ST-WBOM, ST-CALI, ST-WHOURLY, ECTRT, ECTSTSW). It also pulls the final schedules from CAPS and its position manager, and the CAISO congestion and replacement-reserve awards. It matches them by hour ending, schedule ID and counterparty. Every mismatch becomes an exception row with the expected value and the source of each side: a volume or direction difference, a duplicate deal, an award with no booked revenue, or a counterparty or price change that has no revenue effect. Exceptions go into a shared queue that the real-time trader and settlements (Jim Reyes, Heather Dunton, Virginia Thompson) all see, replacing the ad hoc emails. When a PMA arrives, the same job compares each PMA line with the current Enpower deal and the inc sheet, and flags lines that have no supporting change or whose sign does not match the trade. Each exception stays open, with its age and owner showing, until someone records a correcting entry or PMA, so stalled items show up on their own.",
+  "approach": "Each morning, after the DPR is produced, a reconciliation job pulls the previous day's Enpower deals by book (ECTRT, ST-WBOM, ST-CALI, ST-WHOURLY and others) and the CAPS final schedules by schedule ID and hour ending. It also loads whatever CAISO congestion and replacement reserve award data the desk can export. It matches records on schedule ID, hour ending and counterparty, then flags volume or direction mismatches (for example firm import against n-firm export), duplicate deals with the same terms, deals not in CAPS, CAPS schedules not in Enpower, and award hours with no matching revenue line. The job estimates expected congestion and capacity revenue from awarded MW and clearing price, which replaces the trader's hand calculation. Every variance goes into a running break log with an owner, a status and age. The log stays open until settlements closes it, so prior-month items such as unposted PMAs and price corrections stay visible instead of getting lost in email threads. In month-end mode, PMA lines are checked against the Enpower deal history and the inc sheet, and any adjustment those sources don't support is flagged before it is accepted.",
   "components": [
-   "daily hourly reconciliation job (Enpower vs CAPS vs CAISO awards)",
-   "duplicate-deal detector by book, counterparty and hour",
-   "expected-revenue calculator for congestion and replacement reserves (MW x price per HE)",
-   "PMA line validator against Enpower and the inc sheet",
-   "shared exception queue with owner, age and resolution fields",
-   "morning variance email digest that replaces the ad hoc reports"
+   "daily Enpower-to-CAPS matching job keyed on schedule ID, hour ending and book",
+   "duplicate-deal detector (same book, counterparty, hour and volume entered more than once)",
+   "CAISO award loader and expected-revenue calculator for congestion and replacement reserves",
+   "break log (shared table) with owner, status, age and links to the deals involved",
+   "month-end PMA checker that compares PMA lines with the Enpower deal history and the inc sheet",
+   "morning variance email or report"
   ],
   "inputs": [
-   "Enpower deal records by book, hour ending, counterparty, price and volume",
-   "CAPS final schedules and position manager positions by schedule ID and hour",
-   "CAISO congestion, replacement-reserve and imbalance award data",
-   "DPR and BOM SAR output for the prior day",
-   "inc sheet entries",
+   "Enpower deal records for the prior day by book, deal number, counterparty, price, volume and hour ending",
+   "CAPS final schedules and position manager positions by schedule ID and hour ending",
+   "DPR and BOM SAR output",
+   "CAISO congestion and replacement reserve awards and prices, where an export is available",
+   "inc sheet entries for incs, decs and declines",
    "monthly PMA lines from settlements",
-   "annuity entries between books"
+   "agreed annuities between books"
   ],
   "outputs": [
-   "daily variance report by hour and book for the real-time desk and the CAPS group",
-   "exception queue entries assigned to settlements, each with the expected revenue and its calculation",
-   "PMA validation report for Virginia Thompson that flags PMA lines with no matching change in Enpower or the inc sheet",
-   "aging summary of open corrections before the P&L flash"
+   "a morning variance list by hour, book and schedule ID, emailed to the real-time desk and settlements",
+   "an expected-revenue line for each congestion or reserve award hour, for settlements to check against the CAISO statement",
+   "a running break log with owner, status and age, including open prior-month PMAs",
+   "a month-end PMA check that flags adjustments not supported by Enpower or the inc sheet"
   ],
   "systems": [
    "Enpower",
    "CAPS",
    "position manager",
-   "DPR",
-   "BOM SAR",
    "inc sheet",
-   "CAISO"
+   "DPR",
+   "BOM SAR"
   ],
-  "trigger": "Daily, once the DPR for the prior flow day is available; also run on demand when a monthly PMA file is received."
+  "trigger": "Daily schedule, after the DPR is published each morning. A month-end run starts when the PMA file is received."
  },
  "stall_points": [
   {
    "citation": "williams-w3/sent_items/442",
-   "description": "A price correction already sits in Enpower, but the matching revenue never reaches the book. No one catches it until the trader goes over the next month's PMA, so the true-up waits more than a month.",
+   "description": "A price correction sits in Enpower but the revenue never flows through. The break carries over from one month to the next and needs an escalation to get trued up.",
    "quote": "The appropriate price is in Enpower, but the revenue has never appeared (Deal #590753)."
   },
   {
    "citation": "williams-w3/sent_items/441",
-   "description": "A PMA from January shows a volume change that the deal system and the inc sheet never recorded. The trader only finds the gap months later and has to ask for a meeting to go through it.",
+   "description": "A PMA from January is challenged months later because settlement notes disagree with Enpower and the inc sheet. Nothing compared the two sources when the change was made.",
    "quote": "On TransAlta deal #509285, your notes indicate that mw volumes for HE 23 and HE 24 were reduced by 95 mws each hour."
   },
   {
-   "citation": "williams-w3/sent_items/426",
-   "description": "Nothing records the deal, so finding out what was traded means pulling tapes or asking traders. Meanwhile an earlier PMA question is still open.",
-   "quote": "We could pull tapes?  Ask the person who did the deal?  There is nothing in notebooks.  Any word on the BOM PMA?"
+   "citation": "williams-w3/sent_items/442",
+   "description": "The PMA tool appears to charge again when a counterparty is changed, so the desk has to check every counterparty correction by hand.",
+   "quote": "Are we being charged for each counterparty again (like EES and ST-Cali last month), if so, we need to fix this flawed tool."
   },
   {
-   "citation": "williams-w3/sent_items/453",
-   "description": "Double deal-entry only comes to light after the DPR and a manual BOM SAR the next morning. It is then fixed by zeroing deals and explaining excess revenue to settlements.",
-   "quote": "We had some double deal-entry last night under the ST-WBOM book.  Consequently I zeroed the following deals out this morning after receiving the DPR and running a BOM SAR."
+   "citation": "williams-w3/sent_items/426",
+   "description": "Nothing was recorded for a disputed deal, so working it out means pulling tapes or tracking down the trader, and the BOM PMA is still open.",
+   "quote": "We could pull tapes?  Ask the person who did the deal?  There is nothing in notebooks."
   },
   {
    "citation": "williams-w3/sent_items/291",
-   "description": "Position manager raises false variances that disappear in the detail view, so the trader has to check variances by hand and report them.",
+   "description": "Position manager reports variances that disappear in the detail view, so the desk can't rely on it and checks positions by hand.",
    "quote": "Position manager is also not working properly, it is reporting a variance at Pacificorp system border ? and at Palo Verde."
   },
   {
    "citation": "williams-w3/sent_items/90",
-   "description": "Congestion revenue for an hour has no CAISO data because the CAISO server went down. The amount rests on a verbal statement over a recorded line, so it has to be chased by hand.",
+   "description": "Congestion revenue can't be confirmed from CAISO data because the CAISO site went down. The desk relies on a verbal confirmation on a recorded line.",
    "quote": "HE18-although it shows nothing from the CAISO on their site (their server went down) is the same as HE17-the CAISO specifically relayed this to me on a recorded line."
   },
   {
+   "citation": "williams-w3/sent_items/453",
+   "description": "Double deal entry is caught only the next morning, after the DPR and a BOM SAR, and then has to be reversed by hand.",
+   "quote": "We had some double deal-entry last night under the ST-WBOM book."
+  },
+  {
    "citation": "williams-w3/sent_items/510",
-   "description": "The CISO misenters schedules, so CAPS and the actual energy flow disagree and someone has to fix CAPS by hand.",
-   "quote": "For HE 11 and HE12, Danielle at the CISO misentered our schedule.  CAPS shows a final of 25 mws as a firm import."
+   "description": "The counterparty enters a schedule wrong, so CAPS and the actual energy flow disagree until the desk finds it and asks for a manual fix.",
+   "quote": "For HE 11 and HE12, Danielle at the CISO misentered our schedule."
   }
  ],
  "stays_manual": [
-  "Choosing the correcting entry: whether to zero a deal, enter an imbalance purchase, or book an annuity between books. This is a trading and accounting judgment.",
-  "Taking a charge for a counterparty (for example, buying back Harbor's schedule) and deciding how to allocate deviation. These are commercial decisions.",
-  "Disputes with the CISO/CAISO over misentered schedules or declined bids, which need calls and recorded-line evidence.",
-  "Approving and booking PMAs and true-ups, which settlements (Virginia Thompson) still owns.",
-  "Tape pulls to confirm what was traded when no system record exists."
+  "Deciding the correcting entry, zero-out or PMA amount. Settlements and the desk own the P&L effect and may need to talk to the counterparty.",
+  "Agreeing annuities between books, which needs the desk head's approval.",
+  "Disputes with the CISO/CAISO or counterparties over declined bids, cuts or misentered schedules, which need calls on recorded lines.",
+  "Pulling tapes to settle disputed deals with nothing written down.",
+  "Telling a real variance apart from a position manager display fault."
  ],
- "success_metric": "Share of real-time variances and PMA questions that first appear in the daily exception queue rather than in an ad hoc email, and the median days an exception stays open before its correcting entry or PMA is booked.",
- "summary": "The real-time desk works out by hand, hour by hour, how Enpower deals, CISO schedules, congestion awards and PMAs differ from CAPS, the inc sheet and the DPR. It then sends one-off emails to settlements and chases the answers for days. A daily variance job would compare these sources by hour and book and open a tracked exception for each mismatch. That turns free-form chasing into a short review queue, which recovers about $77 a month ($924 a year) at $85/hour and leaves an audit trail for every PMA."
+ "success_metric": "median age of open settlement breaks (PMAs, price corrections, schedule mismatches) in the break log, and the share of breaks first found by the morning job rather than by email from the desk or settlements",
+ "summary": "Today the real-time desk finds settlement breaks by hand. Bill Williams compares Enpower deals, CAPS schedules, position manager, the inc sheet and CAISO congestion and reserve awards, then emails settlements (Jim Reyes, Virginia Thompson, Heather Dunton) one hour and one deal at a time. Some of these breaks, such as PMAs and price corrections, stay open for weeks. The fix is a daily job that matches Enpower against CAPS and CAISO results by hour, book and schedule ID, and sends both teams one variance list each morning. It catches breaks before the P&L is struck and replaces many one-off emails with a single tracked list."
 }

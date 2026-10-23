@@ -1,72 +1,82 @@
 ---
 opportunity: sitara_deal_ticket_change_request
 type: template
-citations: [farmer-d/logistics/789, farmer-d/logistics/5, farmer-d/logistics/965, farmer-d/logistics/59, farmer-d/logistics/765, farmer-d/logistics/1082, farmer-d/logistics/1299]
+citations: [farmer-d/logistics/5, farmer-d/logistics/789, farmer-d/logistics/59, farmer-d/logistics/765, farmer-d/logistics/1082, farmer-d/logistics/1299]
 ---
 
-# Sitara Deal Request Template
+# Sitara Deal Request (send to the logistics desk)
 
-Use this for every request to the logistics desk to create, change, zero out, cut off or reprice a Sitara deal. Send one deal per email. Subject line: `SITARA REQUEST - [type] - [counterparty] - [deal number or "new"]`.
+Use this for every request to create or change a Sitara deal ticket. Requests in this form can be entered without a clarification round. The desk answers each one with the confirmation below. Value is modest (about $65 per month, $780 per year at $85 per hour), so this is an email template only, with no system build.
 
-## Why
-Requests arrive as loose text or a one-line ask, and the desk then has to ask back or get chased. Requesters want the number back:
+**Subject line:** `SITARA REQ: <action> <counterparty>`
 
-> Please supply the sitara number once entered.
+## Fields to fill in
 
-[farmer-d/logistics/789]
+| Field | Your entry |
+|---|---|
+| Action (create / change price / change volume / zero out / cut off / path) | [action] |
+| Existing Sitara deal number(s), if any | [deal numbers] |
+| Counterparty | [counterparty] |
+| Meter and pipe | [meter] / [pipe] |
+| Start and end dates | [start] to [end] |
+| Daily volume | [volume, MMBtu/d] |
+| Price or index formula | [price or formula] |
+| Book | [book] |
+| Contract in place (Y/N) | [Y/N] |
+| Close month needed by | [date] |
+| Reason for the change | [reason] |
+| Your name and phone extension | [name, ext.] |
 
-Others end up chasing with:
+Requests that already follow this pattern, such as the Doehrman #1 ticket (counterparty, meter, volume, price) [farmer-d/logistics/765], only need the book, contract status and deadline added.
 
-> Have you had a chance to look at this yet?
+## Guidance for requesters
 
-[farmer-d/logistics/59]
-
-Filling in every field below lets the desk enter the deal and confirm it in one pass. Value is small ($58 per month, $696 per year), so keep this a simple email form.
-
-## Request form (copy into a new email to the logistics desk)
-
-1. Request type (pick one): New deal / Change volume / Change price / Zero out / Cut off going forward
-2. Existing Sitara deal number (required for every type except New): [deal number]
-3. Counterparty: [counterparty]
-4. Meter: [meter number]
-5. Start date and end date (effective date of the change): [start] to [end]
-6. Volume: [volume, for example MMBtu/d] and term (for example one-month baseload firm)
-7. Price or pricing formula: [fixed price or formula, for example Gas Daily less an adjustment]
-8. Book: [for example Storage Book]
-9. Linked entries that must go in the same day: [for example matching purchase and sale, and who enters the other side] (see [farmer-d/logistics/1082])
-10. Reason for the change: [one line; required for zero out and cut off]
-11. Requester name and extension: [name, ext.]
-12. Anyone to copy on the confirmation (volume management for volume or path changes): [names]
-
-Example of a complete new-deal ask, as sent by producer services:
-
-> Please create a one month baseload firm deal ticket for the remaining days of the month based on the following information:
-
-[farmer-d/logistics/765]
-
-## Rule to follow when ending a deal
-Do not ask for a deal to be killed if paths exist. Ask for a zero out, and put the reason in field 10:
+1. **Zero out, do not kill, when paths exist.** Unify support has asked for this:
 
 > If a deal is killed it poses a problem for us in Unify if there are any paths associated with the deal; therefore, we request the deals be zeroed out.
 
 [farmer-d/logistics/5]
 
-For a cut-off, state the deal number, effective date and reason yourself instead of forwarding someone else's note, as in:
+2. **Phoned-in or EOL changes must be confirmed by email in this template.** An after-hours EOL volume change was never passed to the desk [farmer-d/logistics/1299].
+3. **Multi-party deals** (for example a storage purchase) need one template per desk, and each desk enters on the same day [farmer-d/logistics/1082].
+4. State the close month. Without it the desk cannot tell what must be in before close.
 
-> Can you cut off deal 47472 going forward?
+## Desk confirmation reply (use when the request is complete)
 
-[farmer-d/logistics/965]
+```
+Subject: RE: SITARA REQ: [action] [counterparty]
+Sitara deal number(s) [created / changed]: [deal numbers]
+Entered as: [fields as entered]
+Date entered: [date]
+Position Manager checked: [Y/N]   Pathing checked: [Y/N]
+Reason on file: [reason]
+```
 
-## EOL deals
-If you change an EOL deal (for example volume), email the desk the same day with the deal number. A change made after hours that never reached the desk led to an escalation. [farmer-d/logistics/1299]
+Requesters have asked for exactly this:
 
-## Desk replies
+> Please supply the sitara number once entered.
 
-Confirmation (use when the form is complete):
-"[Requester], done. Sitara deal [new or changed deal number], [counterparty], meter [meter], [start] to [end], [volume] at [price]. Change made: [what changed]. Effective [date]. Copying volume management: [names, or none]."
+[farmer-d/logistics/789]
 
-Incomplete request (one line, no back-and-forth):
-"Please resend using the Sitara deal request form; missing: [field names]. I will enter it once I have them."
+## Desk reply when fields are missing
 
-## What stays manual
-The desk still enters and changes the ticket in Sitara and decides whether an old or unclear deal should be changed at all. Ownership of unpathed pipes at month start is the supervisor's call.
+```
+Thanks. I cannot enter this yet. Please resend using the Sitara Deal
+Request template with these fields: [missing fields]. I will enter it
+as soon as it arrives, for the [close month] close.
+```
+
+## Month-start checklist (logistics desk, Pat Clynes reviews)
+
+1. List unpathed deals by pipe.
+2. Confirm which scheduler owns each pipe, and assign any pipe with no owner.
+3. List open template requests that have a close-month deadline.
+4. Send a confirmation reply for anything entered, so requesters do not have to chase with notes like this one:
+
+> Have you had a chance to look at this yet?
+
+[farmer-d/logistics/59]
+
+## Stays manual
+
+The desk still keys and edits tickets in Sitara and judges pricing and contract coverage. A scheduler decides whether a deal is zeroed or killed when Unify paths exist.

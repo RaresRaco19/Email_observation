@@ -39,36 +39,29 @@ def mailbox_windows(messages: list[dict]) -> dict[str, tuple[datetime, datetime]
     return win
 
 
-def observed_days(mailboxes, windows: dict) -> float:
-    """Length of the union of the mailboxes' observation windows."""
-    spans = sorted(windows[mb] for mb in mailboxes if mb in windows)
-    total, cur = 0.0, None
-    for lo, hi in spans:
-        if cur and lo <= cur[1]:
-            cur = (cur[0], max(cur[1], hi))
-            continue
-        if cur:
-            total += (cur[1] - cur[0]).total_seconds()
-        cur = (lo, hi)
-    if cur:
-        total += (cur[1] - cur[0]).total_seconds()
-    return total / 86400
+def mailbox_months(windows: dict, mailbox: str) -> float:
+    """Length of one mailbox's observation window in months, at least one."""
+    lo, hi = windows.get(mailbox, (None, None))
+    days = (hi - lo).total_seconds() / 86400 if lo else 0.0
+    return max(1.0, days / DAYS_PER_MONTH)
 
 
-def price(n_messages: int, span_days: float, minutes: list[float], window: str = "") -> dict:
-    """The rate is taken over the period the involved mailboxes were observed, not the process's own first-to-last
-    span, so a six-week burst is not priced as if it recurred every month."""
-    span_months = max(1.0, span_days / DAYS_PER_MONTH)
-    per_month = n_messages / span_months
+def price(by_mailbox: dict[str, int], windows: dict, minutes: list[float]) -> dict:
+    """Each mailbox's messages are rated over that mailbox's own observation window and the rates are summed, so
+    messages from a 6-month mailbox are not diluted by one stray message from a 24-month one. The window is the
+    mailbox's, not the process's first-to-last span, so a six-week burst is still not priced as if it recurred."""
+    terms = [{"mailbox": mb, "messages": n, "months": round(mailbox_months(windows, mb), 2),
+              "per_month": round(n / mailbox_months(windows, mb), 2)} for mb, n in sorted(by_mailbox.items())]
+    per_month = sum(n / mailbox_months(windows, mb) for mb, n in by_mailbox.items())
     median_min = statistics.median(minutes) if minutes else 0.0
     hours = per_month * median_min / 60 * config.AUTOMATABLE_SHARE
     dollars = hours * config.RATE_USD
+    rate = " + ".join(f"{t['messages']} msgs / {t['months']:.2f} months observed ({t['mailbox']})" for t in terms)
     return {
-        "span_days": round(span_days, 1), "span_months": round(span_months, 2),
+        "rate_by_mailbox": terms,
         "messages_per_month": round(per_month, 2), "median_minutes": median_min,
         "hours_month": round(hours, 1), "usd_month": round(dollars), "usd_year": round(dollars) * 12,
-        "formula": (f"{n_messages} messages / {span_months:.2f} months observed{f' ({window})' if window else ''} "
-                    f"= {per_month:.2f}/month; x {median_min:g} min median handling x {config.AUTOMATABLE_SHARE:.0%} "
+        "formula": (f"{rate} = {per_month:.2f}/month; x {median_min:g} min median handling x {config.AUTOMATABLE_SHARE:.0%} "
                     f"automatable = {hours:.1f} h/month; x ${config.RATE_USD}/h = {usd(dollars)}/month"),
     }
 
@@ -140,8 +133,7 @@ def build(p: Paths) -> dict:
             # shown next to the figure, never used to order it
             "confidence": {"quotes": len(labs), "threads": len(threads), "mailboxes": len(mailboxes),
                            "active_months": len(by_month), "stall_share": round(flagged / len(labs), 2)},
-            **price(len(msgs), observed_days(mailboxes, windows), [lab["minutes_estimate"] for lab in labs.values()],
-                    ", ".join(mailboxes)),
+            **price(Counter(m["mailbox"] for m in msgs), windows, [lab["minutes_estimate"] for lab in labs.values()]),
             "evidence": evidence,
         })
     ranked.sort(key=lambda o: (-o["usd_month"], -o["messages"], o["id"]))
@@ -150,9 +142,11 @@ def build(p: Paths) -> dict:
 
     from .artifacts import artifact_done
     from .solutions import design_done
-    # only the top N are shown, totalled and worked on: each gets a design (an automation or a quick-win rollout) and
-    # then a draft built on it. Nothing below the cut gets an evidence file.
-    shown, rest = ranked[:config.TOP_N], ranked[config.TOP_N:]
+    # only opportunities worth at least MIN_USD_MONTH, at most TOP_N of them, are shown, totalled and worked on: each gets
+    # a design (an automation or a quick-win rollout) and then a draft built on it. Nothing below the cut gets an
+    # evidence file, so no designer or writer is ever launched for it.
+    shown = [o for o in ranked if o["usd_month"] >= config.MIN_USD_MONTH][:config.TOP_N]
+    rest = ranked[len(shown):]
     designs, targets = [], []
     for o in shown:
         ev_path = p.evidence / f"{o['id']}.json"
@@ -180,7 +174,7 @@ def build(p: Paths) -> dict:
                            "failed_batches": label_summary.get("failed_batches", [])},
         "assumptions": {"rate_usd": config.RATE_USD, "automatable_share": config.AUTOMATABLE_SHARE,
                         "min_evidence": config.MIN_EVIDENCE, "min_threads": config.MIN_THREADS,
-                        "top_n": config.TOP_N},
+                        "top_n": config.TOP_N, "min_usd_month": config.MIN_USD_MONTH},
         "total_usd_month": sum(o["usd_month"] for o in shown),
         "total_hours_month": round(sum(o["hours_month"] for o in shown), 1),
         "opportunities": shown, "rejected": rejected,
@@ -195,7 +189,7 @@ def build(p: Paths) -> dict:
                            "messages": o["messages"]} for o in ranked],
         "rejected": len(rejected), "total_usd_month": report["total_usd_month"],
         "solution_targets": designs,
-        "top_n": config.TOP_N, "artifact_targets": targets,
+        "top_n": config.TOP_N, "min_usd_month": config.MIN_USD_MONTH, "artifact_targets": targets,
     }
 
 
@@ -240,9 +234,9 @@ def render_md(r: dict) -> str:
         f"at ${r['assumptions']['rate_usd']}/h, assuming {r['assumptions']['automatable_share']:.0%} of handling time is automatable.", "",
         f"Ships every process with at least {r['assumptions']['min_evidence']} verified quotes in at least "
         f"{r['assumptions']['min_threads']} threads; {len(r['rejected'])} had too little evidence. "
-        "Monthly rates use the period the involved mailboxes were observed. "
-        f"The top {r['assumptions']['top_n']} by $/month are shown and totalled, and each gets a solution design plus a draft "
-        "built on it (an automation, or the rollout of a quick win). Solution designs are in `solutions.md`.", "",
+        "Monthly rates add up each mailbox's messages over the period that mailbox was observed. "
+        f"Opportunities worth at least {usd(r['assumptions']['min_usd_month'])}/month are shown and totalled (at most "
+        f"{r['assumptions']['top_n']}, by $/month), and each gets a solution design plus a draft built on it (an automation, or the rollout of a quick win). Solution designs are in `solutions.md`.", "",
         "| # | Process | Remedy | Msgs | /month | Median min | Hours/mo | $/mo | Draft |",
         "|---|---|---|---|---|---|---|---|---|",
     ]
@@ -254,7 +248,7 @@ def render_md(r: dict) -> str:
                   f"*Arithmetic:* {o['formula']}", "", "Evidence:"]
         lines += [f"- `{e['msg_id']}` ({(e['date'] or 'undated')[:10]}, {e['from']}): \"{e['quote']}\"" for e in o["evidence"][:5]]
     if r["below_cutoff"]:
-        lines += ["", f"## Below the top {r['assumptions']['top_n']} (not totalled)", "",
+        lines += ["", f"## Below the cutoff: under {usd(r['assumptions']['min_usd_month'])}/month or outside the top {r['assumptions']['top_n']} (not totalled)", "",
                   "| # | Process | Remedy | Msgs | Hours/mo | $/mo |", "|---|---|---|---|---|---|"]
         lines += [f"| {o['rank']} | {o['name']} | {REMEDY_LABEL[o['remedy']]} | {o['messages']} | {o['hours_month']} | "
                   f"{usd(o['usd_month'])} |" for o in r["below_cutoff"]]

@@ -244,7 +244,7 @@
    "threads": 44
   },
   "description": "The real-time desk reconciles Enpower deals, congestion revenue, annuities and prior-month adjustments against CAPS, inc sheets and settlement flashes, and chases corrections before the P&L flash.",
-  "formula": "55 messages / 9.05 months observed (williams-w3) = 6.08/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $77/month",
+  "formula": "55 msgs / 9.05 months observed (williams-w3) = 6.08/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $77/month",
   "hours_month": 0.9,
   "id": "realtime_settlement_reconciliation",
   "kinds": {

@@ -38,7 +38,7 @@ Labels are cached per message under a hash of sender, date, subject and new text
 
 ## Threshold for drafting
 
-Every process with at least 8 verified quotes across at least 3 threads ships to the ranking. All 18 passed in the first run. Designs and drafts are produced only for the **top 8 by $/month**. #8 is worth $45/month and #9 is $36/month. Below about $40/month, the time a reviewer spends checking a draft against its evidence is comparable to a month of the saving, and the lower processes are mostly variants of the top ones (nominations, imbalances). **TODO(author):** confirm or restate this reasoning.
+Every process with at least 8 verified quotes across at least 3 threads ships to the ranking. All 18 passed in the first run. Designs and drafts are produced only for opportunities worth **at least $50/month, at most 8 of them** (`MIN_USD_MONTH`, `TOP_N`). The cut is made in `rank`, before any designer or writer runs, so nothing below it costs tokens. In the current run #8 is worth $52/month and #9 is $43/month. Below about $50/month, the time a reviewer spends checking a draft against its evidence is comparable to a month of the saving, and the lower processes are mostly variants of the top ones (nominations, imbalances). **TODO(author):** confirm or restate this reasoning.
 
 ## Where Claude Code got it wrong, and how it was caught
 
@@ -48,6 +48,8 @@ Every process with at least 8 verified quotes across at least 3 threads ships to
 - **TODO(author):** mistakes caught while building (bad parses, hallucinated systems or figures in designs, and so on) and which test or validator now guards each one.
 
 - **The orchestrator stopped on recoverable errors.** The first command told it to stop on any non-zero exit, although each error already names its fix. It now runs unattended: it never asks the user, it follows a recovery table, it re-launches subagents that wrote nothing, and `check-process-map --salvage` replaces a stop after two bad consolidations (unresolved labels go to `none`, so it can only drop claims).
+
+- **Mixed-mailbox processes were underpriced.** The monthly rate divided all of a process's messages by the union of its mailboxes' observation windows, which run from 6 months (lokay-m) to 24 months (farmer-d). Three stray farmer-d messages spread 14 lokay-m messages over 24 months, so pipeline imbalance came out at $11/month instead of $42. Each mailbox is now rated over its own window and the rates are summed (`test_rate_is_summed_per_mailbox`).
 
 ## Where it is most likely wrong
 

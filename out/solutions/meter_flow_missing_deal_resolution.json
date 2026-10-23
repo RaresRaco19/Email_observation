@@ -2,164 +2,159 @@
  "current_workflow": [
   {
    "citations": [
-    "farmer-d/logistics/1055",
-    "farmer-d/logistics/899",
-    "farmer-d/logistics/1149"
-   ],
-   "step": "An allocation or exception screen shows flow at a meter on days with no valid deal. Examples are a meter allocated since March with no volume scheduled, or flow on days outside a deal's term.",
-   "who": "Volume Management / pipeline allocation analyst"
-  },
-  {
-   "citations": [
     "farmer-d/logistics/1224",
-    "farmer-d/logistics/1055",
-    "farmer-d/logistics/782"
+    "farmer-d/logistics/782",
+    "farmer-d/logistics/899",
+    "farmer-d/logistics/1356"
    ],
-   "step": "The analyst looks up the Sitara deal ticket by hand, works out which days or months it does not cover, and decides who the trader or deal owner is.",
-   "who": "Volume Management / logistics"
+   "step": "A volume analyst or logistics scheduler sees flow or an allocation at a meter that no valid deal covers. The deal might have ended (286824 ends on 6/17), cover only some days (155118 is valid on 1/26 only), or not exist at all. Sometimes the item shows up in the allocation exception screen or as a Feedback Monitor error.",
+   "who": "volume management analyst / logistics"
   },
   {
    "citations": [
-    "farmer-d/logistics/899"
+    "farmer-d/logistics/899",
+    "farmer-d/logistics/130"
    ],
-   "step": "To keep the volume from hanging in the exception screen, the analyst parks it on Strangers Gas or another temporary accounting arrangement.",
-   "who": "Volume Management"
+   "step": "While waiting for a deal number, the analyst parks the volume on Strangers Gas, or in Volume Management with 'no detail', so the meter clears temporarily.",
+   "who": "volume management analyst"
   },
   {
    "citations": [
     "farmer-d/logistics/1981",
     "farmer-d/logistics/1999",
-    "farmer-d/logistics/1514",
-    "farmer-d/logistics/117"
+    "farmer-d/logistics/1149"
    ],
-   "step": "The analyst emails the deal owner, usually Daren Farmer, asking for a specific deal to be extended (deal number, date and volume) or a new ticket to be created.",
-   "who": "Volume Management / logistics / accounting"
+   "step": "The analyst types up an email to the deal owner with the meter, deal number, dates and decatherms, and asks for an extension or a new ticket (e.g. extend 422516 for 10/6/2000, extend 465322 for 11/21/2000).",
+   "who": "volume management analyst (Jackie Young, Aimee Lannou)"
   },
   {
    "citations": [
-    "farmer-d/logistics/1485",
-    "farmer-d/logistics/130",
-    "farmer-d/logistics/782"
+    "farmer-d/logistics/1055",
+    "farmer-d/logistics/1981",
+    "farmer-d/logistics/117"
    ],
-   "step": "If nothing comes back, requesters send status follow-ups, forward the thread to other people, or escalate. This happens most when a payment or invoice deadline is close.",
-   "who": "logistics, accounting, settlements"
+   "step": "If the owner is unclear or the request lands on the wrong desk, it gets forwarded between desks (the East desk to Daren, Julie to Daren, George/Craig asked to work out who should roll the deal).",
+   "who": "traders / deal owners on HPL and East desks"
   },
   {
    "citations": [
     "farmer-d/logistics/1356",
     "farmer-d/logistics/1489",
-    "farmer-d/logistics/2070",
+    "farmer-d/logistics/2070"
+   ],
+   "step": "Old or large items go to an approver, who asks why the gas was only found now before agreeing to a deal, a buy back or a write-off.",
+   "who": "deal owner / approver"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/1981",
+    "farmer-d/logistics/1514",
     "farmer-d/logistics/1972"
    ],
-   "step": "The deal owner or approver decides whether to extend the deal, create a new deal or a buy-back, or refuse/write the volume off (for example, very old or questionable volumes). Volumes are then reallocated, sometimes several times.",
-   "who": "trader / deal owner, East desk, credit/approver"
+   "step": "The deal owner extends or creates the Sitara ticket. Someone inserts the path in Unify, and the analyst re-allocates, gets track ids and closes the item. Volumes are often changed several times before it is closed.",
+   "who": "trader, scheduler, volume management"
   }
  ],
  "effort": "M",
  "implementation_steps": [
-  "Confirm read access to the allocation data behind Volume Management and to a Sitara deal extract (deal number, meter, term, trader). Use an export or report if there is no direct query.",
-  "Build the meter-to-deal-owner lookup from current Sitara traders. Have the desk confirm it, with a fallback owner for each pipeline or region.",
-  "Write the comparison job for the three exception types (no deal, outside term, Strangers Gas). Run it in report-only mode for one month against the emailed requests to check its precision.",
-  "Add the suggested-deal logic: the same meter and counterparty with a term that ends just before, or starts just after, the uncovered days.",
-  "Launch the deal-owner digest and the shared exception list. Ask Volume Management and logistics to point to the list instead of sending a new email for each meter.",
-  "Add escalation rules for exceptions still open near month-end close or near known payment cutoffs, plus the aging report.",
-  "After two production months, review the exceptions that were never resolved and tune the thresholds (for example, a minimum volume, and leaving out meters known to be measurement-only)."
+  "With volume management, list the exception types they chase today (no deal, partial-term deal, expired deal, Strangers Gas) and agree how each is defined at the meter-day level.",
+  "Get read access to Sitara deal tickets (meter, term, trader) and to the daily allocation data behind Volume Management and the allocation exception screen.",
+  "Build the comparison job and run it in shadow mode for one month next to the current email process. Check that its exceptions match what analysts such as Jackie Young and Aimee Lannou actually raised.",
+  "Build the owner-routing table from deal history, and send meters with no history to a desk default. Have the HPL and East desk leads confirm it.",
+  "Turn on the daily digest for one desk (HPL, Daren Farmer) with pre-filled extend/create requests and a status the owner can update with a reply or a click.",
+  "Add ageing and escalation rules, including a flag for items tied to counterparty payment deadlines.",
+  "Add the Unify path check so that a deal extension without a path is still shown as open.",
+  "Extend to other desks, and retire ad-hoc chase emails for exceptions the job already covers."
  ],
  "opportunity": "meter_flow_missing_deal_resolution",
  "risks": [
-  "The evidence does not show the actual data feeds or table structures for allocations or Sitara. Feasibility of the extract has to be confirmed before committing; plan a manual export fallback.",
-  "Deal-owner records may be stale or ambiguous (requesters often ask who should be rolling a deal). If the lookup is not kept up to date, exceptions go to the wrong person. Mitigate with a fallback owner and a weekly 'unowned' list.",
-  "Meter allocation data is revised after the fact, so the flags can be false or keep changing. Show the allocation date and suppress repeats until the volume changes.",
-  "Too many small exceptions (single-day, tiny volumes) could make owners ignore the digest. Use a volume threshold and grouping by deal.",
-  "The savings estimate (about $184/month) uses the median handling time across all messages. The real benefit depends on whether requesters actually stop sending ad-hoc emails.",
-  "The evidence comes from one mailbox (farmer-d), so the volume handled by other desks is not visible."
+  "The evidence does not show how allocation data is stored or exported, so the effort to join it to Sitara by meter could be higher than estimated. Confirm data access before committing.",
+  "Meter numbers appear in several formats (98-9676, 0986725, 6387). If they are not normalized the job will produce false exceptions. Build a meter key mapping and test it in shadow mode.",
+  "Prior-period re-allocations change volumes after the fact, so an item may reopen. Track by meter-day and show reopened items as such instead of creating duplicates.",
+  "If owner routing is wrong, exceptions bounce between desks just as they do now. Have desk leads review the routing table, and give unassigned items a default owner.",
+  "A large digest could be ignored. Group items per owner, rank by volume and age, and keep the daily list short.",
+  "The evidence comes from a single mailbox (farmer-d), so how often this happens on other desks is uncertain."
  ],
  "solution": {
-  "approach": "A daily job pulls allocated and metered volumes by meter and day, along with active Sitara deal tickets (deal number, counterparty, meter, start and end dates, trader). It finds three exception types: flow with no deal, flow on days outside a deal's term, and volume sitting on Strangers Gas. For each one it builds an exception record showing the meter, the uncovered dates and volumes, the closest existing deal (the likely deal to extend) and the deal owner on record. The record goes to that owner as one daily digest. The digest has one-click options to extend the named deal, create a new deal, or refer the volume for write-off or investigation. The requesting analyst sees the status on a shared exception list, so they don't need to send status emails. Exceptions that are still open close to month-end, or close to a payment deadline, are escalated to the desk lead. Old ones are flagged early, before they become prior-year cleanups.",
+  "approach": "A nightly job pulls allocated or measured volumes by meter and gas day from the volume and allocation data behind Volume Management and the allocation exception screen. It joins them to active Sitara deal tickets on meter and date. Each meter-day with flow is put into one bucket: covered; no deal; deal expired or outside its term (flow on days the deal does not cover); or parked on Strangers Gas. Next to each meter it shows the nearest existing deal number so the owner can see at a glance whether an extension will do. Exceptions are grouped per deal owner (the trader on the nearest deal, or a desk default when there is none) into one daily digest, rather than one email per meter. Each line carries the meter, the date range, the volume, the suggested deal to extend and three actions: extend, create new, or route to write-off/approval. Items stay open, with their age shown, until a covering Sitara deal appears or someone records a decision. Anything open past a set age, or tied to a payment deadline, is escalated to the desk lead.",
   "components": [
-   "nightly flow-vs-deal comparison job",
-   "exception record store with status tracking",
-   "meter-to-deal-owner lookup table (maintained by the desk)",
-   "deal-owner daily digest email with extend / create / refer actions",
-   "shared exception list view for requesters",
-   "month-end and payment-deadline escalation rule",
-   "exception aging report"
+   "nightly meter-versus-deal comparison job",
+   "exception classifier (no deal / outside term / strangers gas)",
+   "owner-routing table (meter and deal to trader or desk)",
+   "per-owner daily digest email with pre-filled extend/create/write-off requests",
+   "open-exceptions tracker with ageing and escalation rules",
+   "decision log capturing who approved a write-off or buy back and why"
   ],
   "inputs": [
-   "Daily allocated and metered volumes by meter and day (the data behind the allocation exception screen and Volume Management)",
-   "Active and recently expired Sitara deal tickets: deal number, counterparty, meter, term dates, trader/deal owner",
-   "Volumes currently assigned to the Strangers Gas contract",
-   "Unify paths/nominations for the meter, to tell unscheduled flow apart from scheduled flow",
-   "Payment and settlement deadlines for counterparties with pending payments"
+   "allocated and measured volumes by meter and gas day (allocation / Volume Management data)",
+   "active and recently expired Sitara deal tickets: deal number, meter, start/end dates, counterparty, trader",
+   "volumes currently placed on the Strangers Gas contract",
+   "Unify path records for the meter and date, to show whether a path exists",
+   "a maintained meter-to-desk/owner table for meters that have no deal history"
   ],
   "outputs": [
-   "Daily exception digest for each deal owner (e.g. the HPL trader desk): meter, dates, uncovered volume, suggested deal to extend",
-   "Shared exception list with status (open, extension requested, extended, new deal, referred for write-off) for Volume Management, logistics and accounting",
-   "Escalation notice to the desk lead for exceptions that are still open near month-end or a payment cutoff",
-   "Monthly aging report of exceptions older than one production month, so prior-period cleanup is visible early"
+   "a daily exception digest for each deal owner (e.g. Daren Farmer for HPL deals), listing meter, dates, volume, suggested deal to extend and action buttons",
+   "a shared open-exceptions list for volume management, with age, status and owner, replacing individual chase emails",
+   "an escalation notice to the desk lead for items older than the threshold or with a payment due date",
+   "a month-end summary: meter-days with flow but no deal, and volume parked on Strangers Gas"
   ],
   "systems": [
    "Sitara",
    "Unify",
    "Volume Management",
-   "Strangers Gas"
+   "allocation exception screen",
+   "Feedback Monitor"
   ],
-  "trigger": "Nightly schedule after the daily allocation load. An extra run happens on business days in the last week of the month and before settlement and payment cutoffs."
+  "trigger": "Nightly schedule after the day's allocations post, plus an on-demand run during month-end close"
  },
  "stall_points": [
   {
    "citation": "farmer-d/logistics/782",
-   "description": "Logistics cannot finish until the deal owner answers, because the deal covers only one day of the flowing volume.",
-   "quote": "He will either need \nto extend the deal or maybe there should be another deal in place."
+   "description": "Logistics cannot move until the deal owner answers, and nothing in the request tells him what is needed or by when.",
+   "quote": "Logistics is waiting to hear from Daren on this issue."
   },
   {
    "citation": "farmer-d/logistics/899",
-   "description": "Volume waits on Strangers Gas, a temporary parking contract, until the trader replies. The requester's vacation then forces a handoff.",
-   "quote": "I'm going to place 98-9676 on Strangers Gas until you \nhear back from Daren or Julie."
+   "description": "Flow starts before any Sitara deal exists, so the gap is found later during allocation instead of on day one.",
+   "quote": "It looks as though this meter is flowing starting 3/1/2000."
   },
   {
    "citation": "farmer-d/logistics/1149",
-   "description": "The same meter and deal come back again because the deal term does not match the days that actually flowed.",
-   "quote": "There is gas out there for days 1-3 and 6-20 \nbut the deal is only good for 21-31."
-  },
-  {
-   "citation": "farmer-d/logistics/1224",
-   "description": "The analyst has to check the ticket end date by hand and find the uncovered days before asking for an extension.",
-   "quote": "I checked the deal ticket (286824) and it ends on 6/17.  There \nis still two more days that need to be reallocated."
-  },
-  {
-   "citation": "farmer-d/logistics/1055",
-   "description": "The gap was found months late, and no one was sure who should be rolling the deal.",
-   "quote": "it looks as though 12/99 was the last month a deal was entered \n(IF/HSC+1.00)."
+   "description": "The same meter comes back because the deal covers only part of the month's flow days, so a second request is needed.",
+   "quote": "Can you assist Anita and I w/a deal number to place the 1st 20 days on."
   },
   {
    "citation": "farmer-d/logistics/1356",
-   "description": "The gap went undetected for so long that the approver will not create a deal without an investigation.",
+   "description": "An item found after two years stalls at approval because nobody can say why the gas was missed.",
    "quote": "I am uncomfortable putting a deal out there without more details."
   },
   {
    "citation": "farmer-d/logistics/1489",
-   "description": "Prior-period gaps become too old to fix in the scheduling system.",
-   "quote": "The East Desk was not up and \nrunning on Unify in June of 1999."
+   "description": "A very old request may not be processable at all because the period predates the current scheduling system.",
+   "quote": "I don't think we can even process this request."
   },
   {
    "citation": "farmer-d/logistics/1972",
-   "description": "Volumes are reallocated again and again between desks because deals and paths do not match actual flow.",
+   "description": "Volumes are re-allocated several times between parties, which repeats deal and path changes.",
    "quote": "We go round and round at this point \nchanging volumes two, three or more times."
   },
   {
    "citation": "farmer-d/logistics/130",
-   "description": "A volume with no actualization blocks a supplier payment that has a hard deadline.",
+   "description": "A missing actualization or deal blocks a counterparty payment that has a hard deadline.",
    "quote": "Payment MUST be set up by noon 5/24/01 for prompt payment to Spinnaker."
+  },
+  {
+   "citation": "farmer-d/logistics/1224",
+   "description": "The analyst only learns the deal term has ended when checking the ticket during allocation.",
+   "quote": "I checked the deal ticket (286824) and it ends on 6/17."
   }
  ],
  "stays_manual": [
-  "Choosing between extending a deal, creating a new deal or buy-back, or refusing the volume. This is a commercial and pricing decision for the trader.",
-  "Approving deals for old or suspicious volumes (e.g. a counterparty no longer in business, or volume found after nearly two years), which needs an investigation and approver sign-off.",
-  "Write-offs to unaccounted-for gas, or using an OBA/PPA for small or unreliable volumes. These need a judgment on how good the data is and how much money is at stake.",
-  "Entering or changing Unify paths for cross-desk (e.g. East desk) pieces, which need coordination between desks.",
-  "Pricing on newly created or extended deals."
+  "Deciding whether to extend a deal, create a new one or treat the flow as unauthorized. This is a commercial pricing decision for the trader.",
+  "Approving write-offs to unaccounted-for gas, buy backs and old prior-period adjustments, which need judgment on whether the gas can be invoiced (as in the Adonis case).",
+  "Deciding whether very old periods can be processed at all, e.g. periods before the move to Unify.",
+  "Settling volume disputes with outside parties such as Enerfin or HL&P when their numbers differ from ours."
  ],
- "success_metric": "Number of meter/day exceptions with flow but no valid Sitara deal (or on Strangers Gas) still open at month-end close, and median days from first flow to deal extension or creation. Track the count of ad-hoc 'please extend deal' emails to the deal desk alongside these.",
- "summary": "Gas regularly turns up at HPL meters with no Sitara deal, with a deal whose term has ended, or parked on Strangers Gas. Logistics, Volume Management and accounting then email Daren Farmer's desk one meter at a time to get a ticket extended or created, and the reply often takes a day or more. A daily exception job would compare allocated flow against active Sitara deal terms and send each gap to the deal owner as a pre-filled extend/create/write-off request. This removes the manual detective work and the status-chasing, worth about $184 a month ($2,208 a year) at $85/hour, and closes gaps before payment and invoicing deadlines."
+ "success_metric": "Number of meter-days with allocated flow but no covering Sitara deal at month-end close, and the median days from first flow to deal extension or creation",
+ "summary": "Volume management and logistics keep finding gas allocated at a meter with no Sitara deal behind it: the deal has expired, covers the wrong days, or the volume is parked on Strangers Gas. They then email Daren Farmer, the deal owner, one request at a time to extend or create a ticket, and that request often waits a day or more. The fix is a daily exception job that compares allocated flow by meter and day with active Sitara deal terms and sends the owner a pre-filled extend/create/write-off request. Most of these items would then be caught the day after flow starts instead of months later, which removes the chasing emails worth about $184 a month ($2,208 a year)."
 }

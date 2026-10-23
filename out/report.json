@@ -3,34 +3,44 @@
   "automatable_share": 0.6,
   "min_evidence": 8,
   "min_threads": 3,
+  "min_usd_month": 50,
   "rate_usd": 85,
   "top_n": 8
  },
  "below_cutoff": [
   {
-   "hours_month": 0.5,
-   "id": "deal_book_transfer_correction",
-   "messages": 70,
-   "name": "Deal and counterparty book transfers",
+   "hours_month": 0.6,
+   "id": "realtime_shift_position_handoff",
+   "messages": 37,
+   "name": "Real-time position and shift handoff",
    "rank": 9,
-   "remedy": "automation",
-   "usd_month": 46
+   "remedy": "quick_win",
+   "usd_month": 52
   },
   {
-   "hours_month": 0.4,
+   "hours_month": 0.5,
    "id": "trading_book_setup_access",
    "messages": 85,
    "name": "Trading book setup and system access requests",
    "rank": 10,
    "remedy": "quick_win",
-   "usd_month": 36
+   "usd_month": 43
+  },
+  {
+   "hours_month": 0.5,
+   "id": "pipeline_imbalance_reconciliation",
+   "messages": 17,
+   "name": "Pipeline and OBA imbalance reconciliation",
+   "rank": 11,
+   "remedy": "automation",
+   "usd_month": 42
   },
   {
    "hours_month": 0.3,
    "id": "nomination_change_processing",
    "messages": 82,
    "name": "Counterparty nomination intake and changes",
-   "rank": 11,
+   "rank": 12,
    "remedy": "automation",
    "usd_month": 29
   },
@@ -39,7 +49,7 @@
    "id": "cost_center_survey_collection",
    "messages": 22,
    "name": "Cost center surveys and allocation requests",
-   "rank": 12,
+   "rank": 13,
    "remedy": "quick_win",
    "usd_month": 27
   },
@@ -48,16 +58,25 @@
    "id": "tw_contract_amendment_request",
    "messages": 18,
    "name": "Transportation contract amendment approvals",
-   "rank": 13,
+   "rank": 14,
    "remedy": "quick_win",
    "usd_month": 26
+  },
+  {
+   "hours_month": 0.2,
+   "id": "deal_data_request_response",
+   "messages": 31,
+   "name": "Deal data and audit support requests",
+   "rank": 15,
+   "remedy": "quick_win",
+   "usd_month": 20
   },
   {
    "hours_month": 0.2,
    "id": "pnl_position_reporting_signoff",
    "messages": 40,
    "name": "Daily P&L, position and post ID sign-off",
-   "rank": 14,
+   "rank": 16,
    "remedy": "quick_win",
    "usd_month": 17
   },
@@ -66,27 +85,9 @@
    "id": "pipeline_operations_notice_relay",
    "messages": 42,
    "name": "Pipeline operations, shut-in and outage notice relay",
-   "rank": 15,
-   "remedy": "automation",
-   "usd_month": 15
-  },
-  {
-   "hours_month": 0.2,
-   "id": "deal_data_request_response",
-   "messages": 31,
-   "name": "Deal data and audit support requests",
-   "rank": 16,
-   "remedy": "quick_win",
-   "usd_month": 15
-  },
-  {
-   "hours_month": 0.1,
-   "id": "pipeline_imbalance_reconciliation",
-   "messages": 17,
-   "name": "Pipeline and OBA imbalance reconciliation",
    "rank": 17,
    "remedy": "automation",
-   "usd_month": 11
+   "usd_month": 15
   },
   {
    "hours_month": 0.1,
@@ -3526,7 +3527,7 @@
     }
    ],
    "first_date": "1999-12-14T15:39:00+00:00",
-   "formula": "260 messages / 24.06 months observed (farmer-d) = 10.81/month; x 20 min median handling x 60% automatable = 2.2 h/month; x $85/h = $184/month",
+   "formula": "260 msgs / 24.06 months observed (farmer-d) = 10.81/month; x 20 min median handling x 60% automatable = 2.2 h/month; x $85/h = $184/month",
    "hours_month": 2.2,
    "id": "meter_flow_missing_deal_resolution",
    "kinds": {
@@ -3580,6 +3581,14 @@
     }
    ],
    "rank": 1,
+   "rate_by_mailbox": [
+    {
+     "mailbox": "farmer-d",
+     "messages": 260,
+     "months": 24.06,
+     "per_month": 10.81
+    }
+   ],
    "remedy": "automation",
    "source_labels": [
     "deal_ticket_extension_correction",
@@ -3598,8 +3607,6 @@
     "unaccounted_gas_writeoff_approval",
     "unmatched_meter_volume_deal_or_writeoff"
    ],
-   "span_days": 732.2,
-   "span_months": 24.06,
    "stall": {
     "flagged_messages": 107,
     "max_gap_hours": 588.7,
@@ -5179,8 +5186,8 @@
     }
    ],
    "first_date": "1999-12-14T12:49:00+00:00",
-   "formula": "127 messages / 27.38 months observed (farmer-d, giron-d, lokay-m, williams-w3) = 4.64/month; x 20 min median handling x 60% automatable = 0.9 h/month; x $85/h = $79/month",
-   "hours_month": 0.9,
+   "formula": "93 msgs / 24.06 months observed (farmer-d) + 24 msgs / 19.99 months observed (giron-d) + 5 msgs / 5.92 months observed (lokay-m) + 5 msgs / 9.05 months observed (williams-w3) = 6.46/month; x 20 min median handling x 60% automatable = 1.3 h/month; x $85/h = $110/month",
+   "hours_month": 1.3,
    "id": "deal_price_invoice_discrepancy",
    "kinds": {
     "escalation": 14,
@@ -5199,7 +5206,7 @@
    ],
    "median_minutes": 20,
    "messages": 127,
-   "messages_per_month": 4.64,
+   "messages_per_month": 6.46,
    "name": "Deal price and invoice discrepancy resolution",
    "participants": [
     {
@@ -5236,6 +5243,32 @@
     }
    ],
    "rank": 2,
+   "rate_by_mailbox": [
+    {
+     "mailbox": "farmer-d",
+     "messages": 93,
+     "months": 24.06,
+     "per_month": 3.87
+    },
+    {
+     "mailbox": "giron-d",
+     "messages": 24,
+     "months": 19.99,
+     "per_month": 1.2
+    },
+    {
+     "mailbox": "lokay-m",
+     "messages": 5,
+     "months": 5.92,
+     "per_month": 0.84
+    },
+    {
+     "mailbox": "williams-w3",
+     "messages": 5,
+     "months": 9.05,
+     "per_month": 0.55
+    }
+   ],
    "remedy": "automation",
    "source_labels": [
     "booked_deal_reconciliation_valuation",
@@ -5252,16 +5285,14 @@
     "unfinaled_invoice_followup",
     "volume_allocation_reconciliation_support"
    ],
-   "span_days": 833.5,
-   "span_months": 27.38,
    "stall": {
     "flagged_messages": 53,
     "max_gap_hours": 588.7,
     "median_gap_hours": 11.0
    },
    "threads": 96,
-   "usd_month": 79,
-   "usd_year": 948
+   "usd_month": 110,
+   "usd_year": 1320
   },
   {
    "action_idea": "A daily comparison of Enpower deals and congestion awards against CAPS and settlement data lists variances by hour and book. Settlements and the real-time desk still decide on the correcting entry or PMA.",
@@ -5948,7 +5979,7 @@
     }
    ],
    "first_date": "2001-06-11T18:18:19+00:00",
-   "formula": "55 messages / 9.05 months observed (williams-w3) = 6.08/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $77/month",
+   "formula": "55 msgs / 9.05 months observed (williams-w3) = 6.08/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $77/month",
    "hours_month": 0.9,
    "id": "realtime_settlement_reconciliation",
    "kinds": {
@@ -6002,6 +6033,14 @@
     }
    ],
    "rank": 3,
+   "rate_by_mailbox": [
+    {
+     "mailbox": "williams-w3",
+     "messages": 55,
+     "months": 9.05,
+     "per_month": 6.08
+    }
+   ],
    "remedy": "automation",
    "source_labels": [
     "congestion_revenue_reconciliation",
@@ -6015,8 +6054,6 @@
     "realtime_revenue_settlement_reporting",
     "trade_tape_pull_dispute_support"
    ],
-   "span_days": 275.5,
-   "span_months": 9.05,
    "stall": {
     "flagged_messages": 21,
     "max_gap_hours": 139.5,
@@ -6699,7 +6736,7 @@
     }
    ],
    "first_date": "2001-06-19T04:06:31+00:00",
-   "formula": "54 messages / 9.05 months observed (williams-w3) = 5.97/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $76/month",
+   "formula": "54 msgs / 9.05 months observed (williams-w3) = 5.97/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $76/month",
    "hours_month": 0.9,
    "id": "realtime_desk_instructions",
    "kinds": {
@@ -6753,6 +6790,14 @@
     }
    ],
    "rank": 4,
+   "rate_by_mailbox": [
+    {
+     "mailbox": "williams-w3",
+     "messages": 54,
+     "months": 9.05,
+     "per_month": 5.97
+    }
+   ],
    "remedy": "quick_win",
    "source_labels": [
     "cut_handling_documentation",
@@ -6762,8 +6807,6 @@
     "realtime_desk_procedure_instructions",
     "realtime_desk_procedure_reminder"
    ],
-   "span_days": 275.5,
-   "span_months": 9.05,
    "stall": {
     "flagged_messages": 25,
     "max_gap_hours": 62.6,
@@ -7001,7 +7044,7 @@
     }
    ],
    "first_date": "2001-10-26T14:22:26+00:00",
-   "formula": "17 messages / 5.92 months observed (lokay-m) = 2.87/month; x 30 min median handling x 60% automatable = 0.9 h/month; x $85/h = $73/month",
+   "formula": "17 msgs / 5.92 months observed (lokay-m) = 2.87/month; x 30 min median handling x 60% automatable = 0.9 h/month; x $85/h = $73/month",
    "hours_month": 0.9,
    "id": "california_capacity_weekly_report",
    "kinds": {
@@ -7051,12 +7094,18 @@
     }
    ],
    "rank": 5,
+   "rate_by_mailbox": [
+    {
+     "mailbox": "lokay-m",
+     "messages": 17,
+     "months": 5.92,
+     "per_month": 2.87
+    }
+   ],
    "remedy": "automation",
    "source_labels": [
     "california_capacity_weekly_report"
    ],
-   "span_days": 180.3,
-   "span_months": 5.92,
    "stall": {
     "flagged_messages": 3,
     "max_gap_hours": 165.8,
@@ -8237,8 +8286,8 @@
     }
    ],
    "first_date": "1999-12-14T12:17:00+00:00",
-   "formula": "94 messages / 25.86 months observed (farmer-d, williams-w3) = 3.64/month; x 20 min median handling x 60% automatable = 0.7 h/month; x $85/h = $62/month",
-   "hours_month": 0.7,
+   "formula": "93 msgs / 24.06 months observed (farmer-d) + 1 msgs / 9.05 months observed (williams-w3) = 3.98/month; x 20 min median handling x 60% automatable = 0.8 h/month; x $85/h = $68/month",
+   "hours_month": 0.8,
    "id": "meter_volume_allocation_variance",
    "kinds": {
     "escalation": 10,
@@ -8255,7 +8304,7 @@
    ],
    "median_minutes": 20.0,
    "messages": 94,
-   "messages_per_month": 3.64,
+   "messages_per_month": 3.98,
    "name": "Meter volume and allocation variance resolution",
    "participants": [
     {
@@ -8292,6 +8341,20 @@
     }
    ],
    "rank": 6,
+   "rate_by_mailbox": [
+    {
+     "mailbox": "farmer-d",
+     "messages": 93,
+     "months": 24.06,
+     "per_month": 3.87
+    },
+    {
+     "mailbox": "williams-w3",
+     "messages": 1,
+     "months": 9.05,
+     "per_month": 0.11
+    }
+   ],
    "remedy": "automation",
    "source_labels": [
     "counterparty_volume_confirmation",
@@ -8313,16 +8376,14 @@
     "meter_volume_recap_reconciliation",
     "volume_discrepancy_reconciliation"
    ],
-   "span_days": 787.0,
-   "span_months": 25.86,
    "stall": {
     "flagged_messages": 52,
     "max_gap_hours": 588.7,
     "median_gap_hours": 18.0
    },
    "threads": 65,
-   "usd_month": 62,
-   "usd_year": 744
+   "usd_month": 68,
+   "usd_year": 816
   },
   {
    "action_idea": "A structured request template for requesters covering deal number, counterparty, meter, dates, volume, price, book and reason for the change. The desk uses a matching confirmation reply that returns the new or changed deal number, so requests do not need clarification rounds.",
@@ -9773,8 +9834,8 @@
     }
    ],
    "first_date": "1999-12-21T16:10:00+00:00",
-   "formula": "117 messages / 25.84 months observed (farmer-d, giron-d) = 4.53/month; x 15 min median handling x 60% automatable = 0.7 h/month; x $85/h = $58/month",
-   "hours_month": 0.7,
+   "formula": "87 msgs / 24.06 months observed (farmer-d) + 30 msgs / 19.99 months observed (giron-d) = 5.12/month; x 15 min median handling x 60% automatable = 0.8 h/month; x $85/h = $65/month",
+   "hours_month": 0.8,
    "id": "sitara_deal_ticket_change_request",
    "kinds": {
     "escalation": 10,
@@ -9791,7 +9852,7 @@
    ],
    "median_minutes": 15,
    "messages": 117,
-   "messages_per_month": 4.53,
+   "messages_per_month": 5.12,
    "name": "Sitara deal ticket entry and correction requests",
    "participants": [
     {
@@ -9828,6 +9889,20 @@
     }
    ],
    "rank": 7,
+   "rate_by_mailbox": [
+    {
+     "mailbox": "farmer-d",
+     "messages": 87,
+     "months": 24.06,
+     "per_month": 3.62
+    },
+    {
+     "mailbox": "giron-d",
+     "messages": 30,
+     "months": 19.99,
+     "per_month": 1.5
+    }
+   ],
    "remedy": "quick_win",
    "source_labels": [
     "deal_correction_request",
@@ -9854,563 +9929,974 @@
     "transport_usage_ticket_maintenance",
     "unpathed_deal_followup"
    ],
-   "span_days": 786.5,
-   "span_months": 25.84,
    "stall": {
     "flagged_messages": 44,
     "max_gap_hours": 713.0,
     "median_gap_hours": 21.7
    },
    "threads": 87,
-   "usd_month": 58,
-   "usd_year": 696
+   "usd_month": 65,
+   "usd_year": 780
   },
   {
-   "action_idea": "A fixed handoff template listing position by hour and hub, book, deals to key, open issues and problems from the last shift, used by the desk lead and shift operators at each handover.",
-   "artifact": "artifacts/realtime_shift_position_handoff.md",
+   "action_idea": "When a termination or book-move list arrives, a script looks up every live deal for the listed counterparties or deal numbers and produces the move file for the target book, plus a before-and-after check. The book admin reviews exceptions and runs the move; credit still decides which counterparties are terminated.",
+   "artifact": "artifacts/deal_book_transfer_correction.md",
    "by_month": {
-    "2001-06": 6,
-    "2001-07": 10,
-    "2001-08": 5,
-    "2001-09": 1,
-    "2001-10": 5,
-    "2001-11": 4,
-    "2002-01": 4,
-    "2002-02": 2
+    "2000-06": 2,
+    "2000-08": 1,
+    "2000-10": 5,
+    "2000-11": 4,
+    "2000-12": 5,
+    "2001-01": 5,
+    "2001-02": 5,
+    "2001-03": 12,
+    "2001-04": 2,
+    "2001-05": 2,
+    "2002-01": 27
    },
    "confidence": {
-    "active_months": 8,
-    "mailboxes": 1,
-    "quotes": 37,
-    "stall_share": 0.35,
-    "threads": 35
+    "active_months": 11,
+    "mailboxes": 2,
+    "quotes": 70,
+    "stall_share": 0.5,
+    "threads": 57
    },
-   "description": "The desk lead tells the shift the day's long and short positions, deals to enter and books to use, and shift operators report missed schedules and problems back.",
-   "design": "solutions/realtime_shift_position_handoff.json",
+   "description": "Risk, credit or middle office send lists of deals or terminated counterparties to move or flip between trading books, including bankruptcy books, and the book admin moves them and confirms before books are calculated.",
+   "design": "solutions/deal_book_transfer_correction.json",
    "evidence": [
     {
-     "date": "2001-06-12T02:23:06+00:00",
+     "date": "2000-06-14T10:04:00+00:00",
      "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 10,
-     "msg_id": "williams-w3/sent_items/512",
-     "quote": "We are long 25 mws in NP-15 at $54 for HE 7-22.  This is under the ST-WBOM line in CAPS.",
-     "stall": false,
-     "subject": "Length for 06/12/01",
-     "thread_id": "t6933dd490b"
-    },
-    {
-     "date": "2001-06-13T02:55:55+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
+     "from": "darron.giron@enron.com",
      "kind": "request",
      "minutes": 20,
-     "msg_id": "williams-w3/sent_items/506",
-     "quote": "We must check out with BPA each hour for Frontier and GCPUD. Please make the call right after you call EPE dispatchers",
+     "msg_id": "giron-d/sent/775",
+     "quote": "Please change the subregion code for all ANR ML5 deals from Market to Midcon. Also, the curve mapping needs to be changed as well.",
      "stall": false,
-     "subject": "Length and Short for 06/13/ SERVICES PROCEDURES",
-     "thread_id": "t7ffdfcc76b"
+     "subject": "ANR ML5",
+     "thread_id": "tdce690fec6"
     },
     {
-     "date": "2001-06-14T03:26:35+00:00",
+     "date": "2000-06-23T09:18:00+00:00",
      "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 10,
-     "msg_id": "williams-w3/sent_items/502",
-     "quote": "We have 25 mws of length in the BOM book at $56 again for 06/14/01 on peak.  This energy is in NP-15.  Please make deals under ST-WBOM.",
-     "stall": false,
-     "subject": "Length for 06/14/01",
-     "thread_id": "t6277658c89"
-    },
-    {
-     "date": "2001-06-15T18:50:55+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 15,
-     "msg_id": "williams-w3/sent_items/496",
-     "quote": "We are long 25 mws 7-22 on Monday in SP-15 at $65. Deals should be under ST-WBOM.",
-     "stall": false,
-     "subject": "Length for Monday",
-     "thread_id": "tdac1038f0a"
-    },
-    {
-     "date": "2001-06-27T02:24:17+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 10,
-     "msg_id": "williams-w3/sent_items/466",
-     "quote": "We are long 25 mws on peak for 06/27/01 in SP-15.  This should be in CAPS under ST-WBOM, deals should be under ST-WBOM in Enpower as well.",
-     "stall": false,
-     "subject": "Length for Wednesday",
-     "thread_id": "t41731e0a7b"
-    },
-    {
-     "date": "2001-06-27T18:56:32+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 15,
-     "msg_id": "williams-w3/sent_items/463",
-     "quote": "We need to make a buy from EPE under ST-Whourly in Enpower, and a sale to APS at zero in Enpower.",
-     "stall": false,
-     "subject": "Losses to APS",
-     "thread_id": "td654da7298"
-    },
-    {
-     "date": "2001-07-03T22:06:17+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 15,
-     "msg_id": "williams-w3/sent_items/433",
-     "quote": "Kate has made the enpower for this deal (#672781, and #672785). Please put the price in for deal #672781 (buy from EPE).",
-     "stall": false,
-     "subject": "Losses for HE 1 on July 4th",
-     "thread_id": "td75b0a2b84"
-    },
-    {
-     "date": "2001-07-11T02:27:08+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 15,
-     "msg_id": "williams-w3/sent_items/414",
-     "quote": "We are short 50 mws in SP-15 for HE 7-22 on Wednesday at $61.44.  Please purchase this 50 mws under ST-WBOM.",
-     "stall": false,
-     "subject": "Short for 07/11/01 at SP-15",
-     "thread_id": "t6ba587fd35"
-    },
-    {
-     "date": "2001-07-12T23:46:56+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 20,
-     "msg_id": "williams-w3/sent_items/405",
-     "quote": "We are short 50 mws in ST-WBOM at $42.88 for HE 7-22 Friday and Saturday in SP-15.",
-     "stall": false,
-     "subject": "Short for Friday and Saturday",
-     "thread_id": "t6e4f967f55"
-    },
-    {
-     "date": "2001-07-12T23:56:54+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "followup",
-     "minutes": 8,
-     "msg_id": "williams-w3/sent_items/404",
-     "quote": "We have also bought HE 10 and HE 11 from the APX.  We bought 35 mws for HE 10 at $35, and 31 mws for HE 11 at $35.",
-     "stall": false,
-     "subject": "FW: Short for Friday and Saturday",
-     "thread_id": "t6e4f967f55"
-    },
-    {
-     "date": "2001-07-13T00:07:29+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "followup",
-     "minutes": 8,
-     "msg_id": "williams-w3/sent_items/403",
-     "quote": "We have also bought HE 21 and HE 22 from the APX.  We bought 20 mws at $32 for HE 21 and 23 mws at $30 for HE 22.",
-     "stall": true,
-     "subject": "FW: Short for Friday and Saturday",
-     "thread_id": "t6e4f967f55"
-    },
-    {
-     "date": "2001-07-14T01:02:42+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "escalation",
-     "minutes": 20,
-     "msg_id": "williams-w3/sent_items/395",
-     "quote": "We have recently paid PACE $57,000 for transmission in May that we reserved but did not flow.",
-     "stall": true,
-     "subject": "PACE Transmission Reservations.",
-     "thread_id": "t5ab35cdda9"
-    },
-    {
-     "date": "2001-07-14T04:33:38+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 20,
-     "msg_id": "williams-w3/sent_items/392",
-     "quote": "I have made the purchase from APX and the sale to the imbalance in Enpower (#685980,685981).",
-     "stall": false,
-     "subject": "Real Time Length for Sunday and Monday.",
-     "thread_id": "tc8292367a9"
-    },
-    {
-     "date": "2001-07-24T01:16:04+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "fyi",
-     "minutes": 15,
-     "msg_id": "williams-w3/sent_items/370",
-     "quote": "We have entered into another lending agreement with El Paso for Tuesday, 7/24. I've entered deals to show this in our system as a purchase from El Paso at $4",
-     "stall": false,
-     "subject": "RE:",
-     "thread_id": "t3a47ac8365"
-    },
-    {
-     "date": "2001-07-26T03:17:44+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
+     "from": "darron.giron@enron.com",
      "kind": "request",
      "minutes": 25,
-     "msg_id": "williams-w3/sent_items/362",
-     "quote": "We will need to buy transmission from NEVP from Nevada system to Mead 230 and then into the CAISO for HE 8 thru HE 10.",
+     "msg_id": "giron-d/sent/759",
+     "quote": "Sitara has set up two new internal books:  ENA-IM Mid Central South & ENA-IM Mid Central North.",
      "stall": true,
-     "subject": "LV Cogen Purchase",
-     "thread_id": "t8253787dc8"
+     "subject": "New Sitara Books for EOL",
+     "thread_id": "t27266f4448"
     },
     {
-     "date": "2001-07-27T17:16:25+00:00",
+     "date": "2000-08-29T07:24:00+00:00",
      "dup_paths": [],
-     "from": "bill.williams@enron.com",
+     "from": "thomas.engel@enron.com",
      "kind": "fulfillment",
-     "minutes": 15,
-     "msg_id": "williams-w3/sent_items/360",
-     "quote": "we should ramp them down. They should still be the last units down (Copper off, then the steamer, then FC's).",
+     "minutes": 10,
+     "msg_id": "farmer-d/logistics/1371",
+     "quote": "When you convert to ENA - IM Texas - don't forget to remove the evergreen flag on the old ECT - IM Waha deals.",
      "stall": false,
-     "subject": "El Paso Units",
-     "thread_id": "t4d3c84db8b"
+     "subject": "Re: ECT - IM WAHA ???",
+     "thread_id": "tf856033589"
     },
     {
-     "date": "2001-08-04T01:03:19+00:00",
+     "date": "2000-10-06T08:46:00+00:00",
      "dup_paths": [],
-     "from": "bill.williams@enron.com",
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 10,
+     "msg_id": "giron-d/sent/615",
+     "quote": "It looks like we need to be consistent in booking the GD spread deals.",
+     "stall": false,
+     "subject": "Gas Daily \"four leg\" Booking",
+     "thread_id": "td463da104f"
+    },
+    {
+     "date": "2000-10-18T13:00:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
      "kind": "request",
      "minutes": 30,
-     "msg_id": "williams-w3/sent_items/330",
-     "quote": "We need to keep track of the amount exercised. We should do this in the Service Sheet and then record the amount dispatched on the sheet to EES on Tuesday morning as well.",
+     "msg_id": "giron-d/sent/575",
+     "quote": "Currently, all of our index deals are in the FT-WEST book. I would like to \nmove them all to the GD-NEW book.",
      "stall": false,
-     "subject": "Ancillary Services for Monday August",
-     "thread_id": "t941019459a"
+     "subject": "Index Book Move",
+     "thread_id": "t09bacd665b"
     },
     {
-     "date": "2001-08-09T02:10:12+00:00",
+     "date": "2000-10-27T10:56:00+00:00",
      "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 5,
-     "msg_id": "williams-w3/sent_items/314",
-     "quote": "Please do not charge EPE the $0.25 scheduling fee on EPE lending or parking with us or ST-SW.",
-     "stall": false,
-     "subject": "$0.25 scheduling fee.",
-     "thread_id": "t5093ea9125"
-    },
-    {
-     "date": "2001-08-13T17:07:47+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 10,
-     "msg_id": "williams-w3/sent_items/310",
-     "quote": "We are short 25 mws in SP15 at $43 for Tuesday.  I am unsure if ST-CALI is doing anything.",
-     "stall": true,
-     "subject": "Lending at PV and SP",
-     "thread_id": "t4dceedb759"
-    },
-    {
-     "date": "2001-08-17T01:03:35+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
+     "from": "darron.giron@enron.com",
      "kind": "request",
      "minutes": 20,
-     "msg_id": "williams-w3/sent_items/296",
-     "quote": "Phil Platter will be scheduling the purchase from NCPA in CAPS and submitting an HA 24 schedule.",
-     "stall": false,
-     "subject": "Short in NW/Schedule going RT",
-     "thread_id": "t9437b61f7d"
-    },
-    {
-     "date": "2001-08-17T20:04:51+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 20,
-     "msg_id": "williams-w3/sent_items/295",
-     "quote": "25 mws on peak Monday at @$45 in SP-15 (check with Kysa)",
+     "msg_id": "giron-d/sent/551",
+     "quote": "there are a few deals that need to be\nmoved to the FT-US/CAND-ERMS book before the end of \nThursday this week, as they need to be invoiced from the \nCanada office.",
      "stall": true,
-     "subject": "Short Stuff",
-     "thread_id": "t3b1e2733ea"
+     "subject": "Deals in the FT-West book",
+     "thread_id": "t55009c7324"
     },
     {
-     "date": "2001-09-13T21:01:32+00:00",
+     "date": "2000-10-27T10:58:00+00:00",
      "dup_paths": [],
-     "from": "bill.williams@enron.com",
+     "from": "darron.giron@enron.com",
      "kind": "request",
-     "minutes": 10,
-     "msg_id": "williams-w3/sent_items/254",
-     "quote": "The night shift will average the sales price and make one strip for the on-peak piece.",
-     "stall": false,
-     "subject": "FW: Length for Fri.-Sat.",
-     "thread_id": "t8fd35496e3"
+     "minutes": 30,
+     "msg_id": "giron-d/sent/550",
+     "quote": "There are a few deals in the MGMT-WEST book that need to be moved to the FT-US/CAND-ERMS BOOK.",
+     "stall": true,
+     "subject": "Deals in the MGMT-WEST book",
+     "thread_id": "t65cbb7e305"
     },
     {
-     "date": "2001-10-15T16:55:55+00:00",
+     "date": "2000-10-27T13:40:00+00:00",
      "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "request",
-     "minutes": 10,
-     "msg_id": "williams-w3/sent_items/175",
-     "quote": "We are short 2 pieces of BOM at SP-15 7-22. Price of $27.20 and $28.00.",
-     "stall": false,
-     "subject": "Lending for 10/16/01",
-     "thread_id": "tbd666fe051"
-    },
-    {
-     "date": "2001-10-17T17:38:21+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
+     "from": "darron.giron@enron.com",
      "kind": "request",
      "minutes": 15,
-     "msg_id": "williams-w3/sent_items/171",
-     "quote": "We are short 3 pieces tomorrow at $27.20, $28.00, and a piece at the ST-CALI index.",
+     "msg_id": "giron-d/sent/549",
+     "quote": "Neither the Sitara or EOL number is \nin Tagg.  Please update the deal with the EOL and Sitara number.",
      "stall": false,
-     "subject": "Short, Long",
-     "thread_id": "t4ae88caab6"
+     "subject": "Q59761",
+     "thread_id": "t63cb3cbfd9"
     },
     {
-     "date": "2001-10-19T01:43:16+00:00",
+     "date": "2000-11-01T10:38:00+00:00",
      "dup_paths": [],
-     "from": "bill.williams@enron.com",
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 30,
+     "msg_id": "giron-d/sent/539",
+     "quote": "Just a quick request for you to go into all your books to make sure that there are no ECC deals booked there.",
+     "stall": true,
+     "subject": "Canadian deals in US books.",
+     "thread_id": "tb880f6b32e"
+    },
+    {
+     "date": "2000-11-02T10:05:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "followup",
+     "minutes": 3,
+     "msg_id": "giron-d/sent/535",
+     "quote": "I can't remember if I forwarded this to you already.",
+     "stall": true,
+     "subject": "Canadian deals in US books.",
+     "thread_id": "tb880f6b32e"
+    },
+    {
+     "date": "2000-11-27T14:38:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 40,
+     "msg_id": "giron-d/sent/460",
+     "quote": "Please move these deals to the FT-US/CAND-ERMS book by the end of tomorrow.",
+     "stall": true,
+     "subject": "Deals in FT-Northwest book to be flipped to FT-US/CAND-ERMS book",
+     "thread_id": "tae46b7d470"
+    },
+    {
+     "date": "2000-11-27T14:39:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 15,
+     "msg_id": "giron-d/sent/459",
+     "quote": "There's a deal in the FT-West book that needs to be moved to the \nFT-US/CAND-ERMS book right away.",
+     "stall": true,
+     "subject": "FT-West deal that needs to be moved to FT-US/CAND-ERMS book",
+     "thread_id": "t8037060991"
+    },
+    {
+     "date": "2000-12-06T15:54:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
      "kind": "request",
      "minutes": 20,
-     "msg_id": "williams-w3/sent_items/166",
-     "quote": "Please do not fill any sale to EnMax with MPC energy. We need to treat EnMax just like ECC.",
-     "stall": false,
-     "subject": "Changing Deals and Counterparties--",
-     "thread_id": "td9b46e1a4c"
+     "msg_id": "giron-d/sent/419",
+     "quote": "This needs to be fixed so liquidations will be correct for Novmeber.",
+     "stall": true,
+     "subject": "NZ2724.1",
+     "thread_id": "t7bed9e2ddd"
     },
     {
-     "date": "2001-10-19T19:48:26+00:00",
+     "date": "2000-12-08T10:52:00+00:00",
      "dup_paths": [],
-     "from": "bill.williams@enron.com",
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 20,
+     "msg_id": "giron-d/sent/406",
+     "quote": "Here's another deal that needs to be flipped to the FT-US/CAND-ERMS book \nA.S.A.P.",
+     "stall": true,
+     "subject": "MGMT-WEST deal to be fixed",
+     "thread_id": "t5c03b491a4"
+    },
+    {
+     "date": "2000-12-08T10:52:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 30,
+     "msg_id": "giron-d/sent/407",
+     "quote": "there are several deals in the MGMT-WEST book that need to be flipped to the FT-US/CAND-ERMS book in the morning.",
+     "stall": true,
+     "subject": "Deals in the MGMT-WEST book",
+     "thread_id": "t65cbb7e305"
+    },
+    {
+     "date": "2000-12-08T10:56:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 30,
+     "msg_id": "giron-d/sent/405",
+     "quote": "These need to be fixed right away this \nmorning as I need to invoice and settle them today.",
+     "stall": true,
+     "subject": "G-Daily-Est deals that need to be fixed",
+     "thread_id": "t5df28014dc"
+    },
+    {
+     "date": "2000-12-08T11:57:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "fulfillment",
+     "minutes": 5,
+     "msg_id": "giron-d/sent/404",
+     "quote": "I forwarded your request to Luchas Johnson.  He runs the G-Daily-Est book.",
+     "stall": false,
+     "subject": "G-Daily-Est deals that need to be fixed",
+     "thread_id": "t5df28014dc"
+    },
+    {
+     "date": "2001-01-03T10:12:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "fulfillment",
+     "minutes": 15,
+     "msg_id": "giron-d/sent/357",
+     "quote": "I was told that these should be The Peoples Gas Light & Coke Company. Please let me know if this is incorrect.",
+     "stall": false,
+     "subject": "Re: Deal # qi3642/3736/3895",
+     "thread_id": "te541a58377"
+    },
+    {
+     "date": "2001-01-04T10:48:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "fulfillment",
+     "minutes": 10,
+     "msg_id": "giron-d/sent/351",
+     "quote": "Please rebook NW2862.8,.9 to Bank of America, National Association (BANKAMENAT).",
+     "stall": false,
+     "subject": "Re: Rebook",
+     "thread_id": "t66a0da1f78"
+    },
+    {
+     "date": "2001-01-16T15:30:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "fulfillment",
+     "minutes": 15,
+     "msg_id": "giron-d/sent/329",
+     "quote": "This is a physical deal.  Leg 4 is unwinding Leg 1.  Leg 1 had the Price and \nBasis components and Leg 3 had the Index component.",
+     "stall": false,
+     "subject": "Re: NW2862",
+     "thread_id": "td81a3f7aa5"
+    },
+    {
+     "date": "2001-01-22T09:53:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 30,
+     "msg_id": "giron-d/sent/309",
+     "quote": "did you calc and officialize the book one last time to insure that the positions are zeroed out for credit purposes?",
+     "stall": true,
+     "subject": "INTRA-DENVER-GDL",
+     "thread_id": "t29d8f526ad"
+    },
+    {
+     "date": "2001-01-26T09:39:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
      "kind": "request",
      "minutes": 10,
-     "msg_id": "williams-w3/sent_items/164",
-     "quote": "Same deal # as yesterday--#826094. If you could adjust your sheets for tomorrow I would appreciate it.",
+     "msg_id": "giron-d/sent/292",
+     "quote": "Please flip these if applicable.",
      "stall": true,
-     "subject": "Long for HE 2 through 5 on Saturday at PV",
-     "thread_id": "t63fcfb06c6"
+     "subject": "Deals to be flipped to FT-US/CAND-ERMS book by Monday",
+     "thread_id": "td37f3eadcc"
     },
     {
-     "date": "2001-10-26T00:38:04+00:00",
+     "date": "2001-02-01T12:55:00+00:00",
      "dup_paths": [],
-     "from": "bill.williams@enron.com",
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 45,
+     "msg_id": "giron-d/sent/270",
+     "quote": "please go into your books and flip all the ECC deals to the FT-US/CAND-ERMS book by the end of today for both January and February start dates.",
+     "stall": true,
+     "subject": "Deals needing to be flipped to FT-US/CAND-ERMS book today",
+     "thread_id": "taa07924694"
+    },
+    {
+     "date": "2001-02-07T09:39:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
      "kind": "request",
      "minutes": 25,
-     "msg_id": "williams-w3/sent_items/148",
-     "quote": "We are still short 50 mws in ST-WBOM on peak Friday and Saturday at $27.60.",
+     "msg_id": "giron-d/sent/250",
+     "quote": "this deal needs to be flipped to the\nFT-US/CAND-ERMS book right away as all Dynegy Canada deals\nneed to settle with ECC, not ENA.",
      "stall": true,
-     "subject": "Long 10 mws flat in SP-15--",
-     "thread_id": "t49f66b9412"
+     "subject": "QK1706.1",
+     "thread_id": "t0df9238d57"
     },
     {
-     "date": "2001-11-02T01:25:31+00:00",
+     "date": "2001-02-07T15:41:00+00:00",
      "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "fyi",
-     "minutes": 10,
-     "msg_id": "williams-w3/sent_items/124",
-     "quote": "NO TRADES WITH SEMPRA UNTIL FURTHER. \n\nDo not sell to them, do not buy from them.",
-     "stall": false,
-     "subject": "SEMPRA = BOX",
-     "thread_id": "t4f70c0ea45"
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 30,
+     "msg_id": "giron-d/sent/246",
+     "quote": "Please let me know when these are \nfinished as I need to get an invoice to the customers within the next couple \nof hours.",
+     "stall": true,
+     "subject": "Deals to be flipped to FT-US/CAND-ERMS book right away.",
+     "thread_id": "td7e33b451b"
     },
     {
-     "date": "2001-11-07T02:40:14+00:00",
+     "date": "2001-02-26T09:39:00+00:00",
      "dup_paths": [],
-     "from": "bill.williams@enron.com",
+     "from": "darron.giron@enron.com",
      "kind": "fulfillment",
-     "minutes": 5,
-     "msg_id": "williams-w3/sent_items/112",
-     "quote": "This is appropriate--do not make the Enpower till the next day if it will be under St-Whourly....",
-     "stall": false,
-     "subject": "RE: SHORT FOR 11/07/01",
-     "thread_id": "td61afbe296"
-    },
-    {
-     "date": "2001-11-13T19:40:04+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "report",
-     "minutes": 20,
-     "msg_id": "williams-w3/sent_items/101",
-     "quote": "I have made the Enpower deals (868223, 868224, 868234) to buy from PinWest and sell to the imbalance in SP-15. I have entered the schedule in CAPS and it should be good to go.",
-     "stall": false,
-     "subject": "Import at Mead--and NP-15 purchase.",
-     "thread_id": "t365ccff242"
-    },
-    {
-     "date": "2001-11-30T05:30:14+00:00",
-     "dup_paths": [],
-     "from": "bill.williams@enron.com",
-     "kind": "fyi",
      "minutes": 10,
-     "msg_id": "williams-w3/sent_items/65",
-     "quote": "we can only purchase up to 100 mws from APS transmission. Please do not put wheels in to relieve congestion for over 100 mws.",
+     "msg_id": "giron-d/sent/199",
+     "quote": "This deal is related to the long term transportation that was sold to Calpine, but it is correctly booked as a physical forward sale at Malin.",
      "stall": false,
-     "subject": "Montana Power Company",
-     "thread_id": "t5e4a221860"
+     "subject": "Re: Deal #559974 moved to master contract",
+     "thread_id": "tad2f869e68"
     },
     {
-     "date": "2002-01-02T00:27:27+00:00",
+     "date": "2001-02-26T14:15:00+00:00",
      "dup_paths": [],
-     "from": "albert.meyers@enron.com",
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 30,
+     "msg_id": "giron-d/sent/192",
+     "quote": "ECC has now signed a Master Swap Agreement with Aquila Canada Corp., and all deals traded with ENA and Aquila Canada Corp. need to be settled with ECC in the P& book.",
+     "stall": true,
+     "subject": "Aquila Canada Corp. deals in your books",
+     "thread_id": "t1e392f6f43"
+    },
+    {
+     "date": "2001-03-01T10:55:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 20,
+     "msg_id": "giron-d/sent/173",
+     "quote": "Could you make sure that these seven deals are changed in Tagg to ENA I would \nreally appreciate it.",
+     "stall": true,
+     "subject": "Physical RMT Deals",
+     "thread_id": "td47f8293b4"
+    },
+    {
+     "date": "2001-03-05T10:34:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "fulfillment",
+     "minutes": 20,
+     "msg_id": "giron-d/sent/170",
+     "quote": "Phillip Allen and Keith Holst indicated that the curve changes in question for Socal was simply due to a higher forward market.",
+     "stall": false,
+     "subject": "January Gas Curve Validation",
+     "thread_id": "tdbdd02b731"
+    },
+    {
+     "date": "2001-03-05T17:02:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "fulfillment",
+     "minutes": 25,
+     "msg_id": "giron-d/sent/168",
+     "quote": "I've come across this deal that needs to be flipped right away. This deal is in the MGMT-WEST book with Aquila Canada Corp. and ENA.",
+     "stall": true,
+     "subject": "Re: Q50979.1",
+     "thread_id": "te9862cfba9"
+    },
+    {
+     "date": "2001-03-06T09:22:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
      "kind": "report",
      "minutes": 20,
-     "msg_id": "williams-w3/inbox/127",
-     "quote": "I built a load zone in PGE3 (ST Cali) and took the trade with the APX to zero. Please be sure to reempliment the original schedule.",
-     "stall": true,
-     "subject": "DA ahead Cali schedule taken to the HA market 01/02/02",
-     "thread_id": "tc5bb5f9357"
+     "msg_id": "giron-d/sent/167",
+     "quote": "From: Veronica Espinoza/ENRON@enronXgate on 03/06/2001 09:19 AM",
+     "stall": false,
+     "subject": "Credit Report--3/6/01",
+     "thread_id": "t06b88b3fed"
     },
     {
-     "date": "2002-01-19T02:42:22+00:00",
+     "date": "2001-03-08T08:40:00+00:00",
      "dup_paths": [],
-     "from": "lester.rawson@enron.com",
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 20,
+     "msg_id": "giron-d/sent/164",
+     "quote": "Deal QP6086.1 in the WEST SJ book needs to be flipped to the FT-US/CAND-ERMS book right away.",
+     "stall": true,
+     "subject": "Deal in WEST SJ book to be flipped",
+     "thread_id": "t2095353203"
+    },
+    {
+     "date": "2001-03-23T09:56:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "report",
+     "minutes": 20,
+     "msg_id": "giron-d/sent/128",
+     "quote": "From: Veronica Espinoza/ENRON@enronXgate on 03/23/2001 09:47 AM",
+     "stall": false,
+     "subject": "Credit Report--3/23/01",
+     "thread_id": "t0e4ab1ac42"
+    },
+    {
+     "date": "2001-03-23T14:02:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 25,
+     "msg_id": "giron-d/sent/127",
+     "quote": "Can you please have the following deals rebooked from ENA to ECC.",
+     "stall": false,
+     "subject": "EOL Deals - Aquila Canada Corp.",
+     "thread_id": "tb4dbb7a2e3"
+    },
+    {
+     "date": "2001-03-27T08:37:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "request",
+     "minutes": 20,
+     "msg_id": "giron-d/sent/126",
+     "quote": "make sure that all Canadian deals that are in Houston books are flipped to the P& book.",
+     "stall": true,
+     "subject": "Canadian deals in Houston books",
+     "thread_id": "tbe5ce6e098"
+    },
+    {
+     "date": "2001-03-27T11:34:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
      "kind": "request",
      "minutes": 15,
-     "msg_id": "williams-w3/inbox/103",
-     "quote": "Steve at EPE has agreed to a leading deal with SPS where SPS/PSCO will supply 100 mw at PV real time to EPE.",
-     "stall": true,
-     "subject": "SUNDAY ON PEAK LEADING DEAL",
-     "thread_id": "t39df27c4d3"
+     "msg_id": "giron-d/sent/124",
+     "quote": "Can you please have this deal rebooked as indicated by credit.",
+     "stall": false,
+     "subject": "Rebooks",
+     "thread_id": "tc46e95fb28"
     },
     {
-     "date": "2002-01-20T12:23:34+00:00",
+     "date": "2001-03-28T17:05:00+00:00",
      "dup_paths": [],
-     "from": "john.anderson@enron.com",
+     "from": "darron.giron@enron.com",
+     "kind": "fulfillment",
+     "minutes": 10,
+     "msg_id": "giron-d/sent/110",
+     "quote": "I just came across one more deal that needs to be flipped.",
+     "stall": false,
+     "subject": "Re: G-Daily-EST book",
+     "thread_id": "t60e6563d34"
+    },
+    {
+     "date": "2001-03-29T10:44:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "escalation",
+     "minutes": 60,
+     "msg_id": "giron-d/sent/108",
+     "quote": "What I'm requesting is that you go through all your books and look for all deals with Aquila Canada Corp.",
+     "stall": true,
+     "subject": "Aquila Canada Corp. deals in Houston books",
+     "thread_id": "t752942dca9"
+    },
+    {
+     "date": "2001-03-30T14:24:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "escalation",
+     "minutes": 20,
+     "msg_id": "giron-d/sent/102",
+     "quote": "it will require a great deal of time and effort to change every deal in the Denver books to a new name.",
+     "stall": true,
+     "subject": "Re: Denver FT and IM books",
+     "thread_id": "t210ec26ea3"
+    },
+    {
+     "date": "2001-04-19T14:30:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
+     "kind": "fulfillment",
+     "minutes": 15,
+     "msg_id": "giron-d/sent/57",
+     "quote": "please change and/or review a \nchange of price for the Mar 15 item from $0.00000 to $7.20000 and advise when \ncomplete.",
+     "stall": false,
+     "subject": "Re: Cook Deal #663029",
+     "thread_id": "tce180872a1"
+    },
+    {
+     "date": "2001-04-20T12:46:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
      "kind": "report",
      "minutes": 20,
-     "msg_id": "williams-w3/inbox/102",
-     "quote": "The El Paso scrape was down from 5AM through the end of my night shift.",
-     "stall": true,
-     "subject": "Problems on Saturday",
-     "thread_id": "tc89e37cf2a"
+     "msg_id": "giron-d/sent/53",
+     "quote": "From: Veronica Espinoza/ENRON@enronXgate on 04/20/2001 10:13 AM",
+     "stall": false,
+     "subject": "Credit Report--4/20/01",
+     "thread_id": "t0ad2b9f78a"
     },
     {
-     "date": "2002-01-28T00:28:41+00:00",
+     "date": "2001-05-02T16:31:00+00:00",
      "dup_paths": [],
-     "from": "john.anderson@enron.com",
+     "from": "darron.giron@enron.com",
+     "kind": "fulfillment",
+     "minutes": 10,
+     "msg_id": "giron-d/sent/23",
+     "quote": "The WEST-PERM deals have been flipped.",
+     "stall": false,
+     "subject": "Re: Deals to be flipped to FT-US/CAND-ERMS book right away.",
+     "thread_id": "td7e33b451b"
+    },
+    {
+     "date": "2001-05-07T09:29:00+00:00",
+     "dup_paths": [],
+     "from": "darron.giron@enron.com",
      "kind": "report",
+     "minutes": 30,
+     "msg_id": "giron-d/sent/14",
+     "quote": "Calpine Natural Gas Company v78254.1,v78255.1 Rebook to Calpine Energy Services, LP",
+     "stall": false,
+     "subject": "Credit Report - 5/7/01",
+     "thread_id": "t031d13741f"
+    },
+    {
+     "date": "2002-01-18T18:30:34+00:00",
+     "dup_paths": [],
+     "from": "scott.palmer@enron.com",
+     "kind": "request",
+     "minutes": 40,
+     "msg_id": "giron-d/inbox/117",
+     "quote": "please find a listing of auto-terminating deals that need to be moved into the bankruptcy books.",
+     "stall": false,
+     "subject": "FW: ENA Upstream deals to move",
+     "thread_id": "ta2d1375db4"
+    },
+    {
+     "date": "2002-01-18T20:11:01+00:00",
+     "dup_paths": [],
+     "from": "stacey.richardson@enron.com",
+     "kind": "followup",
+     "minutes": 10,
+     "msg_id": "giron-d/inbox/116",
+     "quote": "Please start forwarding these requests to myself and Darron Giron.",
+     "stall": false,
+     "subject": "RE: ENA Upstream deals to move",
+     "thread_id": "ta2d1375db4"
+    },
+    {
+     "date": "2002-01-19T00:15:05+00:00",
+     "dup_paths": [],
+     "from": "stacey.richardson@enron.com",
+     "kind": "request",
+     "minutes": 45,
+     "msg_id": "giron-d/inbox/115",
+     "quote": "here are some deals that need to be moved into the bankruptcy books.  There will be many more deals listed to move on Tuesday.",
+     "stall": true,
+     "subject": "more terminated deals to move",
+     "thread_id": "tfb1a08d949"
+    },
+    {
+     "date": "2002-01-22T21:58:20+00:00",
+     "dup_paths": [],
+     "from": "c..gossett@enron.com",
+     "kind": "request",
+     "minutes": 30,
+     "msg_id": "giron-d/inbox/108",
+     "quote": "Here is the list of Counterparties that have been requested:",
+     "stall": false,
+     "subject": "FW: termination list for deals to be moved to bankruptcy book",
+     "thread_id": "t7cdb9f05f1"
+    },
+    {
+     "date": "2002-01-22T23:35:31+00:00",
+     "dup_paths": [],
+     "from": "stacey.richardson@enron.com",
+     "kind": "request",
+     "minutes": 30,
+     "msg_id": "giron-d/inbox/105",
+     "quote": "Here are more deals that need to be moved into the bankruptcy books.  Please skim across the spreadsheet to the column for the date reported to risk.",
+     "stall": false,
+     "subject": "deals to move",
+     "thread_id": "t77405a71c9"
+    },
+    {
+     "date": "2002-01-23T02:01:27+00:00",
+     "dup_paths": [],
+     "from": "cyndie.balfour-flanagan@enron.com",
+     "kind": "fulfillment",
+     "minutes": 45,
+     "msg_id": "giron-d/inbox/103",
+     "quote": "The attached deal list are the deals behind those contracts, for those deals that are currently not included in the bankruptcy books.",
+     "stall": true,
+     "subject": "Deals to be moved to Bankruptcy Books (From Russell's Exposure Report)",
+     "thread_id": "t53b1134d93"
+    },
+    {
+     "date": "2002-01-23T21:47:58+00:00",
+     "dup_paths": [],
+     "from": "m..love@enron.com",
+     "kind": "followup",
+     "minutes": 15,
+     "msg_id": "giron-d/inbox/95",
+     "quote": "I am still waiting on a final list to cross reference with our calcs.",
+     "stall": true,
+     "subject": "FW: Deals to be moved to Bankruptcy Books (From Russell's Exposure Report)",
+     "thread_id": "t53b1134d93"
+    },
+    {
+     "date": "2002-01-23T21:54:31+00:00",
+     "dup_paths": [],
+     "from": "m..love@enron.com",
+     "kind": "followup",
+     "minutes": 30,
+     "msg_id": "giron-d/inbox/94",
+     "quote": "we will cross reference the list with a fwd detail of the price book to verify there are no deals with terminated counter parties.",
+     "stall": false,
+     "subject": "FW: termination list for deals to be moved to bankruptcy book",
+     "thread_id": "t7cdb9f05f1"
+    },
+    {
+     "date": "2002-01-23T22:37:06+00:00",
+     "dup_paths": [],
+     "from": "stacey.richardson@enron.com",
+     "kind": "request",
+     "minutes": 45,
+     "msg_id": "giron-d/inbox/93",
+     "quote": "Attached please find an updated list with deals I have added today that need to be moved into the bankruptcy books per the counterparty's termination.",
+     "stall": true,
+     "subject": "More deals to move",
+     "thread_id": "t07ce8c9571"
+    },
+    {
+     "date": "2002-01-23T23:43:34+00:00",
+     "dup_paths": [],
+     "from": "cyndie.balfour-flanagan@enron.com",
+     "kind": "request",
+     "minutes": 30,
+     "msg_id": "giron-d/inbox/91",
+     "quote": "Per the terms of the 11/14/01 Master Netting Agreement, the following contracts are terminated effective 12/30/01.",
+     "stall": false,
+     "subject": "Calpine Energy Services, LP",
+     "thread_id": "te9f06410a9"
+    },
+    {
+     "date": "2002-01-24T14:37:19+00:00",
+     "dup_paths": [],
+     "from": "m..love@enron.com",
+     "kind": "fulfillment",
+     "minutes": 10,
+     "msg_id": "giron-d/inbox/88",
+     "quote": "This is complete. These deals have been moved previously. Thanks.",
+     "stall": false,
+     "subject": "RE: Calpine Energy Services, LP",
+     "thread_id": "te9f06410a9"
+    },
+    {
+     "date": "2002-01-24T16:33:36+00:00",
+     "dup_paths": [],
+     "from": "m..love@enron.com",
+     "kind": "report",
+     "minutes": 45,
+     "msg_id": "giron-d/inbox/85",
+     "quote": "with 7,000 lines, I am afraid it would take at least a day for risk to move manually",
+     "stall": true,
+     "subject": "terminated financial CPs still in NG-PRice",
+     "thread_id": "t24bc167425"
+    },
+    {
+     "date": "2002-01-24T16:47:04+00:00",
+     "dup_paths": [],
+     "from": "m..love@enron.com",
+     "kind": "request",
+     "minutes": 45,
+     "msg_id": "giron-d/inbox/84",
+     "quote": "We need to have it done by the time we calc our books today - no exceptions.",
+     "stall": true,
+     "subject": "6 more counterparties to move",
+     "thread_id": "t7a92fd543b"
+    },
+    {
+     "date": "2002-01-24T19:51:23+00:00",
+     "dup_paths": [],
+     "from": "cecilia.cheung@enron.com",
+     "kind": "followup",
+     "minutes": 5,
+     "msg_id": "giron-d/inbox/83",
+     "quote": "I should be able to finish before 3:30p.m. (if there are not too many deals)",
+     "stall": true,
+     "subject": "RE: 6 more counterparties to move",
+     "thread_id": "t7a92fd543b"
+    },
+    {
+     "date": "2002-01-24T21:10:54+00:00",
+     "dup_paths": [],
+     "from": "cecilia.cheung@enron.com",
+     "kind": "fulfillment",
+     "minutes": 60,
+     "msg_id": "giron-d/inbox/82",
+     "quote": "2923 deals with NG-PRICE book attached have been moved to the Bankruptcy bookand retranslated successfully.",
+     "stall": false,
+     "subject": "RE: 6 more counterparties to move",
+     "thread_id": "t7a92fd543b"
+    },
+    {
+     "date": "2002-01-25T17:41:32+00:00",
+     "dup_paths": [],
+     "from": "elena.chilkina@enron.com",
+     "kind": "request",
+     "minutes": 30,
+     "msg_id": "giron-d/inbox/77",
+     "quote": "When you will be creating a new book with live financial in-the-money deals by counterparty, could you please refine it a bit further and exclude all Internal Enron entities and NYMEX.",
+     "stall": false,
+     "subject": "RE: NG-PRICE_FinancialOnly.xls",
+     "thread_id": "t539266e59c"
+    },
+    {
+     "date": "2002-01-25T19:02:27+00:00",
+     "dup_paths": [],
+     "from": "c..gossett@enron.com",
+     "kind": "request",
+     "minutes": 45,
+     "msg_id": "giron-d/inbox/76",
+     "quote": "There aren't enough deals to involve IT, so can you please have your Risk groups move the attached deals to the Bankruptcy books.",
+     "stall": true,
+     "subject": "FW: Additional Terminations - spreadsheet",
+     "thread_id": "t0f2938ed38"
+    },
+    {
+     "date": "2002-01-25T23:08:00+00:00",
+     "dup_paths": [],
+     "from": "stacey.richardson@enron.com",
+     "kind": "request",
      "minutes": 20,
-     "msg_id": "williams-w3/inbox/93",
-     "quote": "there were no DA or HA finals created for 1/27 or the 1/28.",
-     "stall": true,
-     "subject": "Problems on Saturday/Sunday",
-     "thread_id": "tdf5f8d125b"
+     "msg_id": "giron-d/inbox/72",
+     "quote": "Attached please find some \"stragglers\" that need to moved into the bankruptcy books.",
+     "stall": false,
+     "subject": "more deals to move to bankruptcy books",
+     "thread_id": "tcf76d0d102"
     },
     {
-     "date": "2002-02-03T01:32:08+00:00",
+     "date": "2002-01-28T16:51:17+00:00",
      "dup_paths": [],
-     "from": "albert.meyers@enron.com",
-     "kind": "escalation",
+     "from": "cecilia.cheung@enron.com",
+     "kind": "request",
      "minutes": 30,
-     "msg_id": "williams-w3/inbox/52",
-     "quote": "For yet another day we seem to be having problems including all the schedules in our EPE schedule sheet. Tag 52159 was not included (25mw schedule to LADWP).",
+     "msg_id": "giron-d/inbox/67",
+     "quote": "If I can have all the answers soon then I think the deals move can be completed around 3:00p.m.",
      "stall": true,
-     "subject": "EPE Schedules for Saturday 02/02/02",
-     "thread_id": "td5c0083b00"
+     "subject": "RE: Additional Book to Move",
+     "thread_id": "t2b8f863ed4"
     },
     {
-     "date": "2002-02-06T18:36:49+00:00",
+     "date": "2002-01-28T18:08:56+00:00",
      "dup_paths": [],
-     "from": "geir.solberg@enron.com",
-     "kind": "escalation",
+     "from": "m..love@enron.com",
+     "kind": "fulfillment",
+     "minutes": 10,
+     "msg_id": "giron-d/inbox/65",
+     "quote": "the book is ENA-FT-WT-SOCAL.  Answer to question 2 & 3 - yes Commodity code NG Move deals as of 1/1/02",
+     "stall": false,
+     "subject": "RE: Additional Book to Move",
+     "thread_id": "t2b8f863ed4"
+    },
+    {
+     "date": "2002-01-28T21:22:39+00:00",
+     "dup_paths": [],
+     "from": "cyndie.balfour-flanagan@enron.com",
+     "kind": "request",
+     "minutes": 20,
+     "msg_id": "giron-d/inbox/61",
+     "quote": "we should continue to moving the gas until further notice. As result of such, please move the following transactions from the BANKRUPTCY book back to the 'Live' side",
+     "stall": false,
+     "subject": "Deals to be \"re-activated\" for MIDLANDCOGEN (Midland Cogeneration Venture Limited Partnership)",
+     "thread_id": "tc677813d2f"
+    },
+    {
+     "date": "2002-01-28T22:18:53+00:00",
+     "dup_paths": [],
+     "from": "cecilia.cheung@enron.com",
+     "kind": "fulfillment",
+     "minutes": 10,
+     "msg_id": "giron-d/inbox/58",
+     "quote": "The deals have been moved to ENA-FT-WT-SOCAL and retranslated successfully.",
+     "stall": false,
+     "subject": "RE: Additional Book to Move",
+     "thread_id": "t2b8f863ed4"
+    },
+    {
+     "date": "2002-01-28T23:12:58+00:00",
+     "dup_paths": [],
+     "from": "stacey.richardson@enron.com",
+     "kind": "request",
+     "minutes": 20,
+     "msg_id": "giron-d/inbox/57",
+     "quote": "Here are a few more stragglers to move into the bankruptcy books:",
+     "stall": false,
+     "subject": "bankruptcy book deals",
+     "thread_id": "tcf7791f91b"
+    },
+    {
+     "date": "2002-01-30T22:30:52+00:00",
+     "dup_paths": [],
+     "from": "cyndie.balfour-flanagan@enron.com",
+     "kind": "request",
      "minutes": 30,
-     "msg_id": "williams-w3/inbox/24",
-     "quote": "I was also unable to get into CAPS (Trading cluster is not reconfigured).",
+     "msg_id": "giron-d/inbox/46",
+     "quote": "Attached are some additional phy gas deals that need to be moved over to the bankruptcy books.",
      "stall": true,
-     "subject": "Migration",
-     "thread_id": "te0fffceb25"
+     "subject": "Additional deals to move to Bankruptcy Books - Phy Gas",
+     "thread_id": "ta9c4488a53"
+    },
+    {
+     "date": "2002-01-31T14:29:02+00:00",
+     "dup_paths": [],
+     "from": "m..love@enron.com",
+     "kind": "request",
+     "minutes": 30,
+     "msg_id": "giron-d/inbox/44",
+     "quote": "move any deals with the FT-TERMIN-GD book to the bankruptcy book from NG-Price.  Financial deals only.",
+     "stall": false,
+     "subject": "RE: new script for moving books",
+     "thread_id": "t7fe1bc9fca"
+    },
+    {
+     "date": "2002-01-31T14:51:39+00:00",
+     "dup_paths": [],
+     "from": "m..love@enron.com",
+     "kind": "followup",
+     "minutes": 15,
+     "msg_id": "giron-d/inbox/42",
+     "quote": "can you tell me why EH6453.2 is not on the list?  We are moving EH6453.5, in the comments it says it is an unwind of leg 2.",
+     "stall": true,
+     "subject": "RE: Additional deals to move to Bankruptcy Books - Phy Gas",
+     "thread_id": "ta9c4488a53"
+    },
+    {
+     "date": "2002-01-31T16:16:32+00:00",
+     "dup_paths": [],
+     "from": "m..love@enron.com",
+     "kind": "request",
+     "minutes": 90,
+     "msg_id": "giron-d/inbox/39",
+     "quote": "Please let me know if you are not going to be able to move these today by 3:30.  Below is what we need done:",
+     "stall": true,
+     "subject": "Book moves",
+     "thread_id": "tb2b8836686"
     }
    ],
-   "first_date": "2001-06-12T02:23:06+00:00",
-   "formula": "37 messages / 9.05 months observed (williams-w3) = 4.09/month; x 15 min median handling x 60% automatable = 0.6 h/month; x $85/h = $52/month",
-   "hours_month": 0.6,
-   "id": "realtime_shift_position_handoff",
+   "first_date": "2000-06-14T10:04:00+00:00",
+   "formula": "1 msgs / 24.06 months observed (farmer-d) + 69 msgs / 19.99 months observed (giron-d) = 3.49/month; x 20 min median handling x 60% automatable = 0.7 h/month; x $85/h = $59/month",
+   "hours_month": 0.7,
+   "id": "deal_book_transfer_correction",
    "kinds": {
-    "escalation": 3,
-    "followup": 2,
-    "fulfillment": 2,
-    "fyi": 3,
-    "report": 4,
-    "request": 23
+    "escalation": 2,
+    "followup": 6,
+    "fulfillment": 16,
+    "report": 5,
+    "request": 41
    },
-   "last_date": "2002-02-06T18:36:49+00:00",
+   "last_date": "2002-01-31T16:16:32+00:00",
    "mailboxes": [
-    "williams-w3"
+    "farmer-d",
+    "giron-d"
    ],
-   "median_minutes": 15,
-   "messages": 37,
-   "messages_per_month": 4.09,
-   "name": "Real-time position and shift handoff",
+   "median_minutes": 20.0,
+   "messages": 70,
+   "messages_per_month": 3.49,
+   "name": "Deal and counterparty book transfers",
    "participants": [
     {
-     "address": "bill.williams@enron.com",
-     "messages": 56
+     "address": "darron.giron@enron.com",
+     "messages": 42
     },
     {
-     "address": "kate.symes@enron.com",
-     "messages": 28
+     "address": "c..giron@enron.com",
+     "messages": 27
     },
     {
-     "address": "geir.solberg@enron.com",
-     "messages": 22
+     "address": "m..love@enron.com",
+     "messages": 26
     },
     {
-     "address": "ryan.slinger@enron.com",
-     "messages": 21
-    },
-    {
-     "address": "todd.bland@enron.com",
+     "address": "c..gossett@enron.com",
      "messages": 20
     },
     {
-     "address": "craig.dean@enron.com",
-     "messages": 20
+     "address": "carole.frank@enron.com",
+     "messages": 18
     },
     {
-     "address": "mark.guzman@enron.com",
-     "messages": 20
+     "address": "s..theriot@enron.com",
+     "messages": 15
     },
     {
-     "address": "leaf.harasin@enron.com",
-     "messages": 20
+     "address": "stacey.richardson@enron.com",
+     "messages": 12
+    },
+    {
+     "address": "cyndie.balfour-flanagan@enron.com",
+     "messages": 11
     }
    ],
    "rank": 8,
-   "remedy": "quick_win",
-   "source_labels": [
-    "desk_position_and_schedule_briefing",
-    "realtime_desk_position_instructions",
-    "realtime_lending_position_request",
-    "realtime_position_deal_handoff",
-    "realtime_position_notice_broadcast",
-    "shift_schedule_issue_reporting"
+   "rate_by_mailbox": [
+    {
+     "mailbox": "farmer-d",
+     "messages": 1,
+     "months": 24.06,
+     "per_month": 0.04
+    },
+    {
+     "mailbox": "giron-d",
+     "messages": 69,
+     "months": 19.99,
+     "per_month": 3.45
+    }
    ],
-   "span_days": 275.5,
-   "span_months": 9.05,
+   "remedy": "automation",
+   "source_labels": [
+    "counterparty_deal_book_migration",
+    "counterparty_deal_rebooking_and_book_moves",
+    "counterparty_termination_deal_review",
+    "deal_book_correction_and_transfer",
+    "deal_book_correction_request",
+    "deal_book_transfer_correction",
+    "deal_termination_bankruptcy_book_move",
+    "terminated_deal_book_transfer"
+   ],
    "stall": {
-    "flagged_messages": 13,
-    "max_gap_hours": 2.3,
-    "median_gap_hours": 0.5
+    "flagged_messages": 35,
+    "max_gap_hours": 23.9,
+    "median_gap_hours": 9.5
    },
-   "threads": 35,
-   "usd_month": 52,
-   "usd_year": 624
+   "threads": 57,
+   "usd_month": 59,
+   "usd_year": 708
   }
  ],
  "rejected": [],
- "total_hours_month": 7.8,
- "total_usd_month": 661,
- "total_usd_year": 7932
+ "total_hours_month": 8.5,
+ "total_usd_month": 712,
+ "total_usd_year": 8544
 }

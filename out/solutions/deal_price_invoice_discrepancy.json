@@ -6,8 +6,8 @@
     "farmer-d/logistics/133",
     "farmer-d/logistics/922"
    ],
-   "step": "A counterparty statement, invoice or payment arrives, and a settlements or accounting analyst compares it line by line with the Sitara deal ticket, by hand.",
-   "who": "settlements / volume accounting analyst"
+   "step": "A counterparty statement, invoice or payment arrives, and a settlements or volume accountant compares it by hand with the deal ticket in Sitara, deal by deal.",
+   "who": "settlements / volume accounting (e.g. Megan Parker, Katherine Herrera, Lauri Allen)"
   },
   {
    "citations": [
@@ -16,135 +16,131 @@
     "farmer-d/logistics/2083",
     "farmer-d/logistics/124"
    ],
-   "step": "When the price or volume differs, or the counterparty does not recognise the deal, the analyst emails the trader who created the deal in Sitara and asks which figure is correct, often marked ASAP.",
-   "who": "settlements analyst to trader (logistics desk)"
+   "step": "When a price, rate or volume differs, or the counterparty does not recognise the deal at all, the accountant writes a free-text email to the trader or logistics desk. The email holds the deal number, both figures and a question about which one is correct.",
+   "who": "settlements accountant to trader / logistics desk (Daren Farmer)"
   },
   {
    "citations": [
-    "farmer-d/logistics/837",
+    "giron-d/sent/665",
     "farmer-d/logistics/963",
-    "giron-d/sent/665"
+    "giron-d/sent/178"
    ],
-   "step": "The trader researches the deal, or has to ask the counterparty's trader or a colleague, because the analyst cannot tell who agreed the terms.",
-   "who": "trader"
+   "step": "The trader looks back at the deal, sometimes having to ask the counterparty's trader or a third party for the deal terms, and confirms the price or agrees to dispute it.",
+   "who": "trader / desk (Daren Farmer, Darron Giron)"
   },
   {
    "citations": [
-    "farmer-d/logistics/1488",
     "farmer-d/logistics/177",
+    "farmer-d/logistics/1488",
     "farmer-d/logistics/951"
    ],
-   "step": "If the trader is unavailable or the answer is slow, the analyst chases again, escalates, or routes the change to another person so the invoice deadline is not missed.",
-   "who": "settlements analyst"
+   "step": "If the trader is unavailable, the accountant escalates or asks someone else to change the deal so the invoice can still go out on time.",
+   "who": "settlements accountant / deal entry (Elizabeth Hernandez)"
   },
   {
    "citations": [
     "giron-d/sent/636",
     "farmer-d/logistics/124",
-    "farmer-d/logistics/177"
+    "lokay-m/sent_items/45"
    ],
-   "step": "The trader or deal desk corrects the price on the deal in Sitara, and settlements then redrafts the invoice in Unify and sends a corrected invoice.",
-   "who": "trader / Sitara deal desk, then settlements"
-  },
-  {
-   "citations": [
-    "lokay-m/sent_items/45",
-    "giron-d/sent/178"
-   ],
-   "step": "Where the disagreement involves contractual conditions or penalty charges, commercial staff hold the billing until the terms are discussed.",
-   "who": "commercial / marketing lead"
+   "step": "The desk corrects the Sitara deal, settlements redraft the invoice in Unify, and a corrected invoice goes to the counterparty. Commercial conditions may first have to be discussed before billing.",
+   "who": "desk, then settlements"
   }
  ],
  "effort": "M",
  "implementation_steps": [
-  "Pull a read-only extract of Sitara deal tickets (deal number, counterparty, price, volume, creating trader) and confirm the fields with the Sitara deal desk.",
-  "Agree with settlements (for example Megan Parker, Katherine Herrera, Tina Valadez) on a statement intake template and the price and volume tolerances that count as a mismatch.",
-  "Build the matching job: deal-number match first, then counterparty, point and month fallback, plus checks for zero or missing prices.",
-  "Build the case queue and routing table, mapping each deal's creating trader to a backup so absences do not block invoicing.",
-  "Add due-date escalation and the redraft-ready notice that tells settlements when to redraft in Unify.",
-  "Pilot for one production month on the logistics desk's top counterparties, running alongside the current email process, and compare flagged lines with the discrepancies raised by email.",
-  "Tune the tolerances and the fallback matching, then make the queue the standard channel and retire ad hoc price-confirm emails for covered counterparties."
+  "Pull a sample of recent counterparty statements from settlements (Midcon, Mitchell Gas Services, DEFS, Hesco, Southern Union, Texas General Land Office) and list the fields each one carries.",
+  "Build the staging table and a manual upload template, with deal number, production month, day, point, volume and price, so accountants can load any statement on day one.",
+  "Write the match job against a read-only Sitara extract. Join by deal number first, then by counterparty, point and month, and agree price and volume tolerances with settlements.",
+  "Set up the case queue. Route each case by the trader on the Sitara ticket and assign a named backup per desk for when the trader is out.",
+  "Add the decision form. Have 'counterparty correct' produce a Sitara change request for deal entry, and send settlements a Unify redraft notice once Sitara is updated.",
+  "Add the scheduled pre-invoice run that flags zero-rate tickets and months with no price entered before invoices are drafted.",
+  "Run alongside the current email process for one production month, compare the cases with the emails actually sent, then switch settlements over to the queue.",
+  "Add parsers for the highest-volume counterparty statement layouts after the pilot."
  ],
  "opportunity": "deal_price_invoice_discrepancy",
  "risks": [
-  "Counterparty statements arrive in inconsistent formats, and the evidence does not show their layout, so the intake template may need manual keying. Mitigate this by starting with the highest-volume counterparties.",
-  "Index-based prices (for example HSC minus a differential, or IF plus an adder) need the index value to compare totals. Mitigate this by comparing the formula terms as booked rather than the computed totals.",
-  "Sitara access, the field names, and whether the creating trader is stored on the deal are assumed and not confirmed by the emails. Verify them with the Sitara deal desk before building.",
-  "Tolerances set too tight will flood traders with false cases. Start loose and tune during the pilot.",
-  "The modeled value is low ($79 per month at $85 per hour), so build cost must stay small. Reuse existing extracts and spreadsheets rather than building a new application.",
-  "Unify integration is limited to a notice. Automatic redraft is not proposed, because the evidence does not describe how redrafts are triggered."
+  "Counterparty statements come in many layouts and some carry no deal number. Mitigate with a manual upload template first, and add parsers only for the high-volume layouts.",
+  "Index-based prices (for example HSC minus a differential) need formula comparison rather than a single number. Compare the formula and the differential, and flag any case where the index cannot be resolved for a human to look at.",
+  "Tolerances that are too tight flood traders with noise. Tune them during the parallel month and track how often traders mark cases 'Sitara correct'.",
+  "The evidence does not show how Unify or Tagg export data or what access is available. Confirm extract access with IT before committing to the M estimate.",
+  "Traders may keep answering by email. The settlements lead should send email requests back to the queue, and the aging report makes overdue cases visible.",
+  "The value estimate rests on a sampled median handling time. Measure actual time per case during the pilot."
  ],
  "solution": {
-  "approach": "Settlements analysts drop each counterparty statement or invoice extract (deal number, production month, day range, volume, price) into a shared intake. A matching job joins each line to the Sitara deal by deal number, or by counterparty, point and month when no deal number is given. It compares price and volume within a tolerance and flags lines that differ, lines with no matching deal, and deals with a zero or missing price, such as the month-not-updated case. Each flagged line becomes a discrepancy case routed to the trader who created the deal in Sitara, with a named backup trader, and it shows both figures and the invoice or payment due date. The trader answers with one action: Sitara is correct, so dispute with the counterparty, or the counterparty is correct, so correct the deal. A deal correction notifies settlements that the line is ready to redraft in Unify, and open cases near their due date are escalated automatically to the backup.",
+  "approach": "Counterparty statements, invoices and payment remittances are loaded into a staging table as they arrive, one row per deal, day and point. A match job joins each row to the Sitara deal ticket by deal number, or by counterparty, point and production month when no number is given. It compares price or index formula, volume and transport rate, and flags differences above a tolerance, missing deals and zero-rate tickets. Each flagged row becomes a case in a shared discrepancy queue. A case holds the deal number, both figures, the invoice due date and the trader from the Sitara ticket, and is routed to that trader with a backup named for each desk. The trader picks 'Sitara correct', 'counterparty correct' or 'dispute'. Choosing 'counterparty correct' produces a prefilled Sitara change request, and after the change is made settlements are told to redraft in Unify. The same match also runs on the desk's own booked deals before invoices go out, so stale prices like the August Agave case are caught before the invoice rather than after it.",
   "components": [
-   "statement intake template (spreadsheet layout settlements fill per counterparty statement)",
-   "nightly and on-arrival matching job against Sitara deal price and volume",
-   "discrepancy case queue with confirm / correct / dispute actions",
-   "trader-of-record and backup routing table",
-   "due-date escalation rule",
-   "redraft-ready notification to settlements"
+   "counterparty statement intake and staging table (manual upload at first, with a parser for recurring statement layouts)",
+   "deal match and tolerance comparison job",
+   "discrepancy case queue with trader routing and backup escalation",
+   "decision form (Sitara correct / counterparty correct / dispute) that produces a prefilled deal change request",
+   "pre-invoice stale-price check and aging report"
   ],
   "inputs": [
-   "Counterparty statement or invoice lines: deal number, production month, days, point or meter, volume, price",
-   "Sitara deal tickets: deal number, counterparty, price or index formula, volume, trader who created the deal",
-   "Invoice and payment due dates entered by settlements",
-   "Desk roster of primary and backup trader per desk"
+   "counterparty statements, invoices and payment remittances (deal number, production month, day, point, volume, price or rate)",
+   "Sitara deal tickets (deal number, counterparty, trader, price or index formula, volume, term, transport rate)",
+   "invoice drafts and due dates from Unify",
+   "desk booking positions in Tagg where a deal is valued there",
+   "desk-to-trader and backup roster"
   ],
   "outputs": [
-   "Discrepancy case per mismatched line for the trader of record, with both figures and the due date",
-   "Ready-to-redraft notice to the settlements analyst once the deal is corrected or the price is confirmed",
-   "Daily open-case list with ageing for the logistics desk lead",
-   "Monthly count of discrepancies by counterparty and cause (price, volume, unknown deal, missing price)"
+   "discrepancy cases for the responsible trader, holding both figures, the deal number and the due date",
+   "prefilled Sitara deal change requests when the counterparty figure is confirmed",
+   "a redraft notice to settlements when the Sitara change is made",
+   "a dispute record that settlements send to the counterparty when the Sitara figure is confirmed",
+   "a daily aging list of open cases sorted by invoice due date, for the settlements lead"
   ],
   "systems": [
    "Sitara",
-   "Unify"
+   "Unify",
+   "Tagg"
   ],
-  "trigger": "Arrival of a counterparty statement, invoice or payment extract in the settlements intake, plus a daily sweep before invoice and payment due dates."
+  "trigger": "Arrival of a counterparty statement, invoice or payment in settlements, plus a scheduled pre-invoice run in the days before invoices are sent each production month"
  },
  "stall_points": [
   {
    "citation": "farmer-d/logistics/922",
-   "description": "The mismatch is found only after the counterparty's figures arrive, and the analyst must wait for the trader to say which price is right before paying or invoicing.",
-   "quote": "deal 156658.  We have HSC -0.05 and Mitchell shows HSC - 0.04.  Can you tell"
+   "description": "The mismatch is found only after the counterparty's figures arrive. The accountant then has to ask the trader which price is right, under time pressure.",
+   "quote": "We have HSC -0.05 and Mitchell shows HSC - 0.04."
   },
   {
    "citation": "farmer-d/logistics/963",
-   "description": "The counterparty does not recognise deals that exist in Sitara, and the analyst does not know which counterparty trader to contact, so the case goes back to the trader while the payment due date approaches.",
-   "quote": "in her system and she can not pay on them.  You created the deals in Sitara"
-  },
-  {
-   "citation": "farmer-d/logistics/837",
-   "description": "The deal ticket itself is incomplete (a zero rate), so research depends on someone remembering the deal.",
-   "quote": "a zero rate, however.  Elsa/Daren- do either of you remember this deal?"
+   "description": "The counterparty does not have the deal booked at all, so payment stops until the trader goes back to the other side's trader. Invoices are due the same day.",
+   "quote": "Pat Dresner (accountant) at Midcon Texas says she does not show these deals"
   },
   {
    "citation": "farmer-d/logistics/177",
-   "description": "The single trader of record is out, so the analyst has to find someone else to change the price before the invoice goes out.",
+   "description": "Every case depends on one trader. When he is out, the accountant has to route around him to get the invoice out.",
    "quote": "I think Daren is out for the remainder of the day and I need to send out my invoice this afternoon."
   },
   {
    "citation": "giron-d/sent/636",
-   "description": "The price in Sitara was never updated for the month, so the invoice has to be redrafted downstream in Unify.",
-   "quote": "The Sitara was not updated for Aug.  I just corrected Sitara.  So you can"
+   "description": "Sitara was not updated with the month's price, so the Unify invoice had to be redrafted after the fact.",
+   "quote": "The Sitara was not updated for Aug.  I just corrected Sitara."
   },
   {
-   "citation": "farmer-d/logistics/1488",
-   "description": "The counterparty pushes for an answer and the analyst can only forward the request with an ASAP flag.",
-   "quote": "Help .   Steve Mauch at Hesco is wanting an answer ASAP"
+   "citation": "farmer-d/logistics/133",
+   "description": "A per-day price differs between the counterparty and Sitara, and it is found only line by line during checkout.",
+   "quote": "For sale deal 707274, DEFS says the price on 4/4 should be 5.25 and we have 5.20 in Sitara."
+  },
+  {
+   "citation": "giron-d/sent/665",
+   "description": "The counterparty's deal terms are not available in a structured form, so the desk cannot reconcile its own book in Tagg without chasing a list.",
+   "quote": "Could you ask Steve for a list that has the terms of each deal?"
   },
   {
    "citation": "farmer-d/logistics/2083",
-   "description": "The counterparty disputes which deal a sale belongs to, and the trader on the other side is not known.",
-   "quote": "Do we have the name of the trader at Texas General Land Office that did this"
+   "description": "The counterparty disputes what the deal covers, and nobody has the counterparty trader's name to hand.",
+   "quote": "Texas General Land office has called and is disputing that this sale is a"
   }
  ],
  "stays_manual": [
-  "Deciding which price is contractually correct: only the trader knows what was agreed, sometimes by phone with the counterparty's trader.",
-  "Changing a deal in Sitara and approving an invoice dispute: these remain trader or deal desk approvals.",
-  "Disputes about whether a sale belongs to an exchange or term deal, and conditions attached to capacity releases or penalty charges, which need commercial discussion before billing.",
-  "Contacting the counterparty's trader or accountant when they do not show the deal in their system."
+  "Deciding which price is correct: only the trader knows what was agreed, as the Mitchell and DEFS cases show.",
+  "Approving and keying any change to a Sitara deal ticket, which stays under existing deal-entry controls.",
+  "Contacting the counterparty's trader when they have no record of the deal or dispute what it covers (Midcon, Texas General Land Office).",
+  "Commercial judgments such as holding billing until side conditions are discussed (the Transwestern capacity release case).",
+  "Penalty or imbalance charges that the counterparty raises and that are not tied to a single deal line."
  ],
- "success_metric": "Median hours from a discrepancy being raised to the trader's confirmation, and the share of mismatched invoice lines still unresolved on their invoice or payment due date.",
- "summary": "Settlements and accounting staff find by hand that a counterparty statement or invoice disagrees with the deal booked in Sitara. They then email the trader, often Daren Farmer, and wait, sometimes past the invoice deadline, for him to say which price or volume is right. The proposal is a matching job that compares incoming statement lines with Sitara deal price and volume and opens a discrepancy case for the trader of record with both figures and the due date attached. Detection becomes automatic, the trader answers in one step, and the corrected deal goes straight back to Unify for redraft. The modeled value is small, at $79 per month ($948 per year) at $85 per hour."
+ "success_metric": "Median hours from discrepancy detected to trader decision, and the share of invoices redrafted in Unify after being sent, measured per production month before and after rollout",
+ "summary": "Settlements and volume accountants find that a counterparty invoice, statement or payment disagrees with the deal booked in Sitara. Today they email the trader one deal at a time and wait, often right up to an invoice or payment deadline. A pre-invoice match job compares each counterparty line with the Sitara deal price and volume, sends the trader a queue of cases that already hold both figures, and writes the confirmed answer back so Unify can redraft. That removes most of the research and chasing, worth about $110 per month ($1,320 per year)."
 }

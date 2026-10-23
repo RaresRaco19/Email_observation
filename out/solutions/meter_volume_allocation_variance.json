@@ -4,39 +4,43 @@
    "citations": [
     "farmer-d/logistics/595",
     "farmer-d/logistics/622",
-    "farmer-d/logistics/1483"
+    "farmer-d/logistics/682"
    ],
-   "step": "A settlements or accounting analyst working a UA4 or allocation exception finds a meter with flow but no matching deal. They check OSS, CPR and MIPs measurement statements by hand.",
-   "who": "settlements / UA4 analyst"
+   "step": "A settlements or volume analyst finds an unexplained volume at a meter (UA4 balance, measured flow with no deal, or a short delivery), often months after the gas flowed.",
+   "who": "settlements / volume management analyst"
   },
   {
    "citations": [
     "farmer-d/logistics/595",
     "farmer-d/logistics/622",
-    "farmer-d/logistics/682",
+    "farmer-d/logistics/1483"
+   ],
+   "step": "The analyst researches by hand across OSS, CPR and MIPs measurement statements to see whether a deal or measurement exists for the meter and month.",
+   "who": "settlements analyst"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/622",
+    "farmer-d/logistics/754",
     "farmer-d/logistics/902"
    ],
-   "step": "The analyst emails the logistics desk (usually Daren Farmer) to ask whether a deal exists, whether a CPR deal failed to feed OSS, or how a short or under-pulled nomination should be handled.",
-   "who": "settlements analyst to logistics desk"
+   "step": "The analyst emails the logistics desk (mostly Daren Farmer) or the scheduler to ask whether a deal is missing, what a nomination was for, or how a short day should be handled.",
+   "who": "analyst to logistics desk / scheduler"
   },
   {
    "citations": [
-    "farmer-d/logistics/925",
-    "farmer-d/logistics/754",
+    "farmer-d/logistics/925"
+   ],
+   "step": "Feed failures between POPS and Sitara come to light only when someone reviews imbalance numbers. The zero volumes then have to be overridden by hand so the P&L is right.",
+   "who": "volume management / imbalance reviewer"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/1185",
     "farmer-d/logistics/1351"
    ],
-   "step": "Volume management or scheduling spots wrong data in POPS by chance while reviewing imbalances: missing BAV feeds, zero volumes fed back to Sitara, delivery noms at receipt meters, confirmations on days the deal does not cover. They then escalate by email.",
-   "who": "volume management / scheduling"
-  },
-  {
-   "citations": [
-    "farmer-d/logistics/739",
-    "farmer-d/logistics/1185",
-    "farmer-d/logistics/1191",
-    "farmer-d/logistics/1241"
-   ],
-   "step": "Open items pile up and are chased with follow-ups, kept on a hand-maintained outstanding-issues list, or forwarded between managers until someone checks the allocation.",
-   "who": "logistics and accounting managers"
+   "step": "Open variances pile up in periodic lists (the interdesk/interconnect report, the feedback error report), each with a named owner working it through emails and calls.",
+   "who": "volume management lead / accounting"
   },
   {
    "citations": [
@@ -44,58 +48,60 @@
     "farmer-d/logistics/1185",
     "farmer-d/logistics/1483"
    ],
-   "step": "The fix is coordinated by hand across several people: zero confirmed noms, change the allocation method, reallocate, verify BAV adjustments with Settlements, update facilities, or have a deal extended or set up.",
-   "who": "measurement / volume management / Global Facilities Dept"
+   "step": "Once a cause is agreed, staff zero confirmed noms, change the allocation method, reallocate the meter in POPS, and extend or create deals in Sitara. These steps are done by hand and handed off by phone.",
+   "who": "volume management, scheduler, Global Facilities"
   },
   {
    "citations": [
-    "farmer-d/logistics/2089",
-    "farmer-d/logistics/1038"
+    "farmer-d/logistics/739",
+    "farmer-d/logistics/1241",
+    "farmer-d/logistics/2089"
    ],
-   "step": "Counterparties chase payment for volumes Enron has nothing allocated for. Their calls reach accounting, which forwards them to logistics.",
-   "who": "accounting / counterparty contact"
+   "step": "People who opened an item but got no answer send follow-ups, or escalate when a counterparty calls asking to be paid.",
+   "who": "requester / accounting"
   }
  ],
  "effort": "M",
  "implementation_steps": [
-  "Inventory the past year of exception emails and agree the rule list and tolerances with volume management, logistics and settlements.",
-  "Arrange read-only extracts from POPS, Sitara, OSS, CPR and MIPs, keyed by meter number and gas day.",
-  "Build the staging table and the meter and deal matching logic. Handle CPR-to-OSS feed lag by comparing both.",
-  "Implement the rules one at a time, starting with flow-with-no-deal and zero POPS-to-Sitara feed, and test them against known historical cases (e.g. meters 1441, 986782, 984132).",
-  "Build the exception queue and routing table, with owners named by volume management.",
-  "Run in parallel with the current email process for one month-end, and tune tolerances to remove noise.",
-  "Switch the month-end UA4 review and the outstanding-issues list over to the queue, and ask analysts to file new exceptions there rather than by email."
+  "Inventory the extract points: which POPS, Sitara and measurement tables or reports can be read daily, and how OSS/CPR history can be reached. Confirm read-only access with each system owner.",
+  "Build the meter/day join keyed on meter number, contract and deal (Sitara ticket and track id), and test it against the known cases in the evidence (meters 1441, 986782, 984132, Valero Texoma #71).",
+  "Write the first three rules (flow with no valid deal, out-of-term confirmation, zero POPS-to-Sitara feed). Set tolerances with volume management, then backtest on one closed month.",
+  "Build the meter-to-owner routing table with the logistics desk, schedulers and volume management. Add the disposition field and exception list.",
+  "Run in shadow mode for one month next to the existing interdesk/interconnect report and feedback error report. Compare what each catches and tune false positives.",
+  "Add the remaining rules (delivery noms on receipt meters, confirmed vs actual mismatch, UA4 growth) and the aging digest.",
+  "Go live: analysts log new variance questions as dispositions on exception items instead of emailing the desk. Review open-item aging weekly."
  ],
  "opportunity": "meter_volume_allocation_variance",
  "risks": [
-  "The evidence does not say what extracts or interfaces POPS, OSS, CPR and MIPs offer. If no extract exists, effort could grow from M to L, so confirm data access first.",
-  "Meter numbers appear in different formats across messages (e.g. 98-9699, 986892, 0980439), and meters get replaced. A meter cross-reference must be maintained or matches will be missed.",
-  "Loose tolerances will flood analysts with noise, and tight ones will miss material UA4 items. Tune them during the parallel run.",
-  "Measured savings are small ($62/month at $85/hour), so the funding case rests on catching large feed failures early, like the 500,000 MMBtu POPS imbalance. That benefit is not priced in these figures.",
-  "Exceptions without a clear owner will still stall. The routing table needs a named owner and an escalation path for each rule."
+  "The evidence does not show whether POPS, Sitara, OSS, CPR or MIPs offer usable extracts or interfaces. Integration could be harder than estimated, so confirm access before committing.",
+  "Measurement is often restated or arrives late (outside-measured meters, prior-period adjustments). The job should re-run prior months and label items as provisional until measurement is final.",
+  "Tolerances set too tight would flood analysts with noise and they would go back to email. Start with high-value rules, backtest, and tune during shadow mode.",
+  "Meter numbering and facility changes (e.g. meter 986892 replaced by 980439) can break the join. Maintain a meter-change mapping fed by the facility change process.",
+  "The measured benefit is small ($68/month, $816/year at $85/hour), because only about 4 messages a month are counted. The P&L exposure from undetected UA4 and feed failures is not priced here and is the stronger case, so it should be validated separately.",
+  "If owners keep resolving items by phone and email, dispositions go unrecorded and the aging digest misleads. Make the disposition entry part of closing an item."
  ],
  "solution": {
-  "approach": "A read-only reconciliation job runs after each POPS allocation and again at month-end. For every meter and day it pulls measured volume (MIPs measurement statements), POPS confirmed noms and allocated volumes, and the Sitara/OSS deals and their valid dates. It applies a fixed set of rules: flow with no deal, deal with no flow, zero or missing feed from POPS to Sitara, a delivery nom at a receipt meter, a confirmation outside the deal's date range, a nomination not pulled, and allocated vs measured differences beyond a tolerance. Each rule hit becomes an exception row. The row carries the meter, period, volumes from each source, the prior month for context, and a suggested owner (logistics desk, volume management, settlements). Exceptions go to one shared queue with status and age, replacing ad hoc emails and the hand-kept outstanding-issues list. Owners still decide the fix, and their resolution note is saved with the row.",
+  "approach": "A daily variance job pulls, for every meter and gas day, the measured volume (MIPs measurement), the confirmed noms and allocations in POPS, and the deals and volumes in Sitara (with OSS/CPR for older production months). It applies a fixed set of rules: flow with no valid deal on that day, a confirmation on a date outside the deal's term, zero volumes fed from POPS back to Sitara where flow exists, delivery noms on receipt meters, confirmed volume not matching allocated actuals beyond a tolerance, and a UA4 balance growing at a meter. Each exception goes on one shared list with the meter, month, volumes on each side, the prior month for context and the rule that fired. It is routed by rule to an owner: logistics desk for missing or invalid deals, scheduler for nomination issues, volume management for allocation and feed problems. Owners record a disposition on the item instead of starting an email thread. Items left open past an age threshold are flagged on a daily digest, so follow-ups and escalations are no longer needed.",
   "components": [
-   "extracts from POPS, Sitara, OSS, CPR and MIPs into a staging table",
-   "rule-based variance engine with per-rule tolerances",
-   "exception queue with owner, status, age and resolution note",
-   "routing table mapping meters and rule types to owners",
-   "daily and month-end exception reports"
+   "Daily meter variance comparison job (measurement vs POPS vs Sitara)",
+   "Rule set with tolerances (no-deal flow, out-of-term confirmation, zero feed, delivery nom on receipt meter, confirmed vs actual mismatch, UA4 growth)",
+   "Exception list with owner routing and a disposition field (fix deal, reallocate, accept variance, counterparty dispute)",
+   "Feed-health check that alerts on zero POPS-to-Sitara volumes",
+   "Aging digest replacing manual follow-up emails"
   ],
   "inputs": [
-   "MIPs measurement statement volumes by meter and day",
-   "POPS confirmed nominations, allocation method and allocated volumes",
-   "Sitara deal tickets (meter, counterparty, valid dates, volume)",
-   "OSS and CPR deal records for the same meters and periods",
-   "meter attributes (receipt vs delivery, allocatable flag)",
-   "prior-month exception history"
+   "Measured meter volumes by gas day (MIPs measurement statements)",
+   "POPS confirmed nominations, allocation method and allocated volumes per meter and contract",
+   "Sitara deal tickets: term dates, meter, volumes fed back from POPS",
+   "OSS and CPR deal records for prior production months",
+   "UA4 balances by meter",
+   "Meter-to-owner routing table (desk, scheduler, analyst)"
   ],
   "outputs": [
-   "daily exception list by meter for volume management and the logistics desk",
-   "month-end UA4 exception summary for settlements and accounting managers",
-   "aging report of open exceptions, replacing the manual interdesk/interconnect outstanding list",
-   "per-exception evidence pack the analyst can forward to the counterparty or pipeline"
+   "Daily exception list per meter and month, with volumes from each source, the prior month, and the rule that fired, for volume management and settlements analysts",
+   "Routed exception items for the logistics desk (missing or invalid deal), schedulers (nomination on wrong meter type, short delivery) and volume management (feed failure, allocation mismatch)",
+   "Same-day alert when POPS feeds zero volumes to Sitara for deals with measured flow",
+   "Aging digest of open exceptions, with disposition history, for the volume management lead"
   ],
   "systems": [
    "POPS",
@@ -104,56 +110,57 @@
    "CPR",
    "MIPs"
   ],
-  "trigger": "Completion of the daily POPS allocation run, plus a scheduled month-end run before UA4 close"
+  "trigger": "Daily schedule after the POPS allocation run and the POPS-to-Sitara volume feed. A month-end run also covers the full production month."
  },
  "stall_points": [
   {
-   "citation": "farmer-d/logistics/595",
-   "description": "An analyst cannot find a deal for measured flow in either system and has to wait for logistics to research it.",
-   "quote": "Daren - I need your help in resolving this issue.  There wasn't any deal in"
-  },
-  {
    "citation": "farmer-d/logistics/622",
-   "description": "A CPR deal may not have fed over to OSS. Nobody can see this until someone asks.",
+   "description": "Analysts cannot tell from their own systems whether a deal exists upstream in CPR, so each meter needs a question to the logistics desk.",
    "quote": "Daren is there a deal in CPR which may not have fed over to OSS?"
   },
   {
    "citation": "farmer-d/logistics/925",
-   "description": "Missing POPS feeds and zero volumes to Sitara went undetected for days, with UA4 and P&L impact.",
-   "quote": "problem of this magnitude needs to be addressed as soon as it's discovered."
-  },
-  {
-   "citation": "farmer-d/logistics/1185",
-   "description": "Desk-to-desk variances come from the two sides using different volume sources. They sit on a manually tracked outstanding list.",
-   "quote": "ENA is using Tetco's  volume and HPLC is using the HPL Measurement volume,"
+   "description": "A broken POPS-to-Sitara feed goes unnoticed for days. Purchase volumes sit in UA4 instead of the P&L until someone reviewing imbalances spots it.",
+   "quote": "is that POPS has fed 0 volumes back to Sitara on some"
   },
   {
    "citation": "farmer-d/logistics/1241",
-   "description": "A receivable stays open while accounting waits on one logistics person.",
+   "description": "Resolution waits on a reply from one person (Daren), and the receivable balance stays open in the meantime.",
    "quote": "receivable balance, then we are waiting on a response from Daren."
   },
   {
+   "citation": "farmer-d/logistics/1185",
+   "description": "Variances pile up as a standing list of open items with a cleanup deadline, rather than being resolved as they occur.",
+   "quote": "Below is a list of the major items that are still outstanding on the"
+  },
+  {
    "citation": "farmer-d/logistics/1351",
-   "description": "POPS confirmations on days the deal does not cover cause wrong prorating and feedback errors.",
+   "description": "A confirmation on a date the deal does not cover makes the allocation prorate wrongly, and nobody catches it until the feedback error report is worked.",
    "quote": "When Karen allocates the actual 10,000 it is prorating 5,000 for each day"
   },
   {
-   "citation": "farmer-d/logistics/1483",
-   "description": "Flow cannot be allocated until someone confirms it and gets a deal extended.",
-   "quote": "I need to verify that flow occured so that I can have a deal(s)"
+   "citation": "farmer-d/logistics/2089",
+   "description": "Flow with no matching deal is surfaced only by an external party demanding payment, not by an internal check.",
+   "quote": "I am getting several phone calls from Alpine Resources demanding to be paid"
   },
   {
-   "citation": "farmer-d/logistics/2089",
-   "description": "Counterparties find unallocated volumes before Enron does.",
-   "quote": "I am getting several phone calls from Alpine Resources demanding to be paid"
+   "citation": "farmer-d/logistics/1191",
+   "description": "A meter allocating incorrectly is found only after it has already added to the current month's UA4 problem.",
+   "quote": "Please verify CP&L back to the first of June."
+  },
+  {
+   "citation": "farmer-d/logistics/1483",
+   "description": "Allocation exceptions are cleared one by one, by hand, each needing someone to verify the flow.",
+   "quote": "This is the last allocation exception I have to clear."
   }
  ],
  "stays_manual": [
-  "Deciding which volume is correct when sources disagree (e.g. pipeline vs HPL Measurement custody questions), because it depends on contracts and custody transfer.",
-  "Creating, extending or moving deals in Sitara and reallocating meters in POPS, because these change P&L and are owned by logistics and volume management.",
-  "Legal or commercial calls such as whether gas is bought as wellhead, or which book a sale belongs in.",
-  "Talking to counterparties and pipelines (Transco, Exxon, Pennzoil and others) to settle imbalances."
+  "Deciding which volume is correct when sources disagree (e.g. pipeline vs HPL Measurement custody transfer) is a commercial and contractual judgment for volume management.",
+  "Deciding whether to create, extend or change a deal, or arrange a buyback, stays with the logistics desk and traders.",
+  "Reallocations, zeroing confirmed noms and facility changes in POPS stay human-executed, because they ripple into Gas Control and settlements (the evidence shows a multi-party, phone-coordinated sequence).",
+  "Disputes and payment claims from counterparties, and questions needing Legal input, stay with people.",
+  "Choosing tolerances and approving which rules route to whom."
  ],
- "success_metric": "Number of meters with measured flow but no matching Sitara/OSS deal still open at month-end UA4 close, and median age of open allocation exceptions",
- "summary": "Meter allocation problems (flow with no deal in OSS or CPR, POPS feeding zero volumes to Sitara, desk-to-desk variances, counterparties chasing payment) are found one meter at a time. Each one becomes its own email to Daren Farmer or volume management and can sit unanswered for days or weeks. A read-only exception report, run after each allocation, would compare measured flow, POPS confirmed and allocated volumes and Sitara/OSS deals, and give each meter a structured ticket with the evidence already attached. It saves about $62/month ($744/year) of handling, but most of its value is that big UA4 and P&L problems get caught the day they appear."
+ "success_metric": "Median days from a meter variance first appearing (flow, POPS or Sitara mismatch) to its disposition, together with the monthly count of variance-research emails to the logistics desk and the number of POPS-to-Sitara zero-feed days caught within 24 hours.",
+ "summary": "Settlements, volume management and logistics staff find meter allocation exceptions one at a time: a meter with flow but no deal, POPS feeding zero volumes to Sitara, or a desk-to-desk volume variance. Each one becomes its own email thread to Daren Farmer's logistics desk and can wait days or weeks. A daily variance job would compare measured flow, POPS confirmed noms and allocations, and Sitara deals per meter, then route each exception with its supporting data to the right owner. Analysts would work one ranked exception list instead of researching and chasing each meter by email."
 }

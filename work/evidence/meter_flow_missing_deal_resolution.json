@@ -237,7 +237,7 @@
    "threads": 191
   },
   "description": "Logistics and volume management find gas flowing at a meter with no deal, an expired deal or volumes on the strangers gas contract, and chase the deal owner to create or extend a Sitara ticket or approve a write-off to unaccounted-for gas.",
-  "formula": "260 messages / 24.06 months observed (farmer-d) = 10.81/month; x 20 min median handling x 60% automatable = 2.2 h/month; x $85/h = $184/month",
+  "formula": "260 msgs / 24.06 months observed (farmer-d) = 10.81/month; x 20 min median handling x 60% automatable = 2.2 h/month; x $85/h = $184/month",
   "hours_month": 2.2,
   "id": "meter_flow_missing_deal_resolution",
   "kinds": {

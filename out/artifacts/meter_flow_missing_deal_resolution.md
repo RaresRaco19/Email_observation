@@ -1,64 +1,54 @@
 ---
 opportunity: meter_flow_missing_deal_resolution
 type: sop
-citations: [farmer-d/logistics/130, farmer-d/logistics/1356, farmer-d/logistics/1149, farmer-d/logistics/1981, farmer-d/logistics/899]
+citations: [farmer-d/logistics/782, farmer-d/logistics/130, farmer-d/logistics/1356, farmer-d/logistics/899, farmer-d/logistics/1224, farmer-d/logistics/1981]
 ---
 
-# SOP: Daily meter-flow exception run (flow with no valid deal)
+# SOP: Daily meter-versus-deal exception digest
 
-**Scope.** Gas flowing at a meter with no Sitara deal, an expired deal term, or volume parked on Strangers Gas. Today Volume Management, logistics and accounting email the deal owner (mostly Daren Farmer's desk) one meter at a time. The evidence shows 260 messages over about 24 months, roughly 11 a month, worth about $184 a month ($2,208 a year) at $85/hour.
+**Purpose.** Replace one-off chase emails to the deal owner with a nightly exception list. Today the work is about 10.81 requests a month, worth about $184 a month ($2,208 a year) at $85/hour. The stall looks like this:
 
-## What the automation produces each day
-After the nightly allocation load, a job compares allocated and metered volumes by meter and day against active Sitara deal tickets. It writes one exception record per gap with:
-- meter, uncovered dates and volumes;
-- the closest existing deal (same meter and counterparty, term ending just before or starting just after), so the request names a deal to extend, as in this typical ask:
+> Logistics is waiting to hear from Daren on this issue.
 
-> Daren can you please extend Deal #422516 to cover flow of 9 dec. for 10/6/2000
-[farmer-d/logistics/1981]
+[farmer-d/logistics/782]
 
-- the deal owner on record, from the desk-maintained meter-to-owner lookup.
+## What the automation produces
+A nightly job runs after the day's allocations post. It compares allocated and measured volumes by meter and gas day with active Sitara deal tickets. Each meter-day lands in one bucket: covered, no deal, outside the deal term, or parked on Strangers Gas. It produces:
+- A daily digest per deal owner (for example Daren Farmer for HPL). Each line has the meter, date range, volume, the nearest deal number to extend, and three actions: extend, create new, or route to write-off/approval.
+- A shared open-exceptions list for volume management, showing age, status and owner.
+- An escalation notice to the desk lead for old items or items with a payment deadline.
+- A month-end summary of meter-days with flow but no deal, and volume on Strangers Gas.
 
-Outputs: a daily digest to each deal owner (extend / create / refer actions), a shared exception list with status, escalation notices, and a monthly aging report.
+## Daily steps for the desk
+1. **Volume management (Jackie Young, Aimee Lannou):** open the shared list each morning. Do not email the owner for anything already on the digest. Check that new lines match what the allocation exception screen or Feedback Monitor shows.
+2. **Deal owner:** work your digest. Extend the deal, create a new one, or send the item to approval. Record the decision in the log with a reason. A typical case is a deal that ends before the flow does:
 
-## Who does what
-| Role | Daily task |
-|---|---|
-| Deal owner (trader) | Open the digest. For each item choose extend, create new deal or buy-back, or refer for write-off. |
-| Volume Management / logistics analyst | Check the shared exception list instead of emailing. Add notes only where the record is wrong. |
-| Accounting / settlements | Watch items tied to a payment cutoff; confirm status before the deadline. |
-| Desk lead | Receives escalations and the aging report. Maintains the owner lookup and fallback owners. |
+> I checked the deal ticket (286824) and it ends on 6/17.
 
-## What a person checks
-1. Digest items carry a plausible suggested deal. Reject or correct it if the term or counterparty is wrong.
-2. Parked volume is visible. An analyst who parks volume on Strangers Gas, as here, leaves it on the list until a deal is chosen:
+[farmer-d/logistics/1224]
 
-> I'm going to place 98-9676 on Strangers Gas until you hear back from Daren or Julie.
-[farmer-d/logistics/899]
-
-3. Repeat gaps on the same meter (partial-month coverage) are grouped by deal, not listed day by day:
-
-> Can you assist Anita and I w/a deal number to place the 1st 20 days on.
-[farmer-d/logistics/1149]
-
-## Exceptions
-- **Near month-end or a payment cutoff:** items still open escalate to the desk lead. Example of the pressure this relieves:
+3. **Volume management:** once a covering Sitara deal appears, confirm the Unify path exists. An extension without a path stays open. Then re-allocate and close. Reopened prior-period items show as reopened, not as new.
+4. **Desk lead:** act on escalations the same day. Items tied to a payment deadline come first:
 
 > Payment MUST be set up by noon 5/24/01 for prompt payment to Spinnaker.
+
 [farmer-d/logistics/130]
 
-- **Old or questionable volume** (found long after the fact, counterparty gone): not auto-resolved. It goes to the approver with an investigation request, since the approver will not sign off blind:
+## What a person checks
+- Weekly: unassigned items, which go to the desk default owner, and wrong routing between the HPL and East desks.
+- Meter number formats (such as 98-9676 or 0986725). Fix mismatches in the meter key table [farmer-d/logistics/899].
+- Month end: compare the success measure (meter-days with flow but no covering deal, and median days from first flow to a deal) with last month.
+
+## Exceptions that stay manual
+- The decision to extend, create, or treat the flow as unauthorized. This is the trader's pricing call. The 1981 thread shows the typical ask the digest pre-fills [farmer-d/logistics/1981].
+- Write-offs to unaccounted-for gas, buy backs and old prior-period adjustments. The approver needs the facts before agreeing:
 
 > I am uncomfortable putting a deal out there without more details.
+
 [farmer-d/logistics/1356]
 
-- **Cross-desk pieces** (for example East desk Unify paths): the deal owner coordinates by hand.
-- **Unowned meter:** goes to the fallback owner and appears on a weekly unowned list.
-- **Small or single-day volumes** below the threshold are held back from the digest and shown only on the aging report.
+- Periods that may be too old to process (before the move to Unify), and volume disputes with outside parties such as Enerfin or HL&P.
+- Meters with no deal history: the job sends them to the desk default, and a person assigns an owner.
 
-## Stays manual
-Choosing extend vs. new deal vs. buy-back, pricing on new or extended deals, write-offs to unaccounted-for gas or OBA/PPA treatment, approval of old volumes, and Unify path changes across desks.
-
-## Run cadence and review
-Nightly after the allocation load, plus extra runs in the last week of the month and before settlement cutoffs. Roll out in report-only mode for one month, then review unresolved items after two production months. Track: exceptions open at month-end close, median days from first flow to a deal being extended or created, and the count of ad-hoc "please extend deal" emails.
-
-Caveat: evidence comes from one mailbox (farmer-d), and the allocation and Sitara data feeds must be confirmed before build; keep a manual export as fallback.
+## Rollout note
+Run in shadow mode for one month beside the email process, then switch on the HPL desk first. The evidence comes from one mailbox (farmer-d), so check volumes on other desks before extending.

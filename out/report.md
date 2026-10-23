@@ -2,20 +2,20 @@
 
 Read 3,240 files (3,201 unique messages after removing 39 duplicates, 2,535 threads). Labeled 3,201 messages; 44 quotes failed verification and were dropped.
 
-**Total: $661/month ($7,932/year), 7.8 hours/month** at $85/h, assuming 60% of handling time is automatable.
+**Total: $712/month ($8,544/year), 8.5 hours/month** at $85/h, assuming 60% of handling time is automatable.
 
-Ships every process with at least 8 verified quotes in at least 3 threads; 0 had too little evidence. Monthly rates use the period the involved mailboxes were observed. The top 8 by $/month are shown and totalled, and each gets a solution design plus a draft built on it (an automation, or the rollout of a quick win). Solution designs are in `solutions.md`.
+Ships every process with at least 8 verified quotes in at least 3 threads; 0 had too little evidence. Monthly rates add up each mailbox's messages over the period that mailbox was observed. Opportunities worth at least $50/month are shown and totalled (at most 8, by $/month), and each gets a solution design plus a draft built on it (an automation, or the rollout of a quick win). Solution designs are in `solutions.md`.
 
 | # | Process | Remedy | Msgs | /month | Median min | Hours/mo | $/mo | Draft |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Meter flow with missing or expired deal resolution | Automation | 260 | 10.81 | 20 | 2.2 | $184 | artifacts/meter_flow_missing_deal_resolution.md |
-| 2 | Deal price and invoice discrepancy resolution | Automation | 127 | 4.64 | 20 | 0.9 | $79 | artifacts/deal_price_invoice_discrepancy.md |
+| 2 | Deal price and invoice discrepancy resolution | Automation | 127 | 6.46 | 20 | 1.3 | $110 | artifacts/deal_price_invoice_discrepancy.md |
 | 3 | Real-time congestion and deal settlement reconciliation | Automation | 55 | 6.08 | 15 | 0.9 | $77 | artifacts/realtime_settlement_reconciliation.md |
 | 4 | Real-time desk standing procedures | Quick win | 54 | 5.97 | 15 | 0.9 | $76 | artifacts/realtime_desk_instructions.md |
 | 5 | Weekly California capacity report | Automation | 17 | 2.87 | 30 | 0.9 | $73 | artifacts/california_capacity_weekly_report.md |
-| 6 | Meter volume and allocation variance resolution | Automation | 94 | 3.64 | 20 | 0.7 | $62 | artifacts/meter_volume_allocation_variance.md |
-| 7 | Sitara deal ticket entry and correction requests | Quick win | 117 | 4.53 | 15 | 0.7 | $58 | artifacts/sitara_deal_ticket_change_request.md |
-| 8 | Real-time position and shift handoff | Quick win | 37 | 4.09 | 15 | 0.6 | $52 | artifacts/realtime_shift_position_handoff.md |
+| 6 | Meter volume and allocation variance resolution | Automation | 94 | 3.98 | 20 | 0.8 | $68 | artifacts/meter_volume_allocation_variance.md |
+| 7 | Sitara deal ticket entry and correction requests | Quick win | 117 | 5.12 | 15 | 0.8 | $65 | artifacts/sitara_deal_ticket_change_request.md |
+| 8 | Deal and counterparty book transfers | Automation | 70 | 3.49 | 20 | 0.7 | $59 | artifacts/deal_book_transfer_correction.md |
 
 ## 1. Meter flow with missing or expired deal resolution
 
@@ -23,7 +23,7 @@ Logistics and volume management find gas flowing at a meter with no deal, an exp
 
 *Automation:* A daily job compares metered and allocated volumes by meter against active Sitara deal tickets and flags flow with no deal, an expired term or a strangers gas assignment. It routes each exception to the deal owner on record with the meter, dates and volumes already filled in. The deal owner still decides whether to extend, create a deal or sign off a write-off to unaccounted-for gas.
 
-*Arithmetic:* 260 messages / 24.06 months observed (farmer-d) = 10.81/month; x 20 min median handling x 60% automatable = 2.2 h/month; x $85/h = $184/month
+*Arithmetic:* 260 msgs / 24.06 months observed (farmer-d) = 10.81/month; x 20 min median handling x 60% automatable = 2.2 h/month; x $85/h = $184/month
 
 Evidence:
 - `farmer-d/logistics/585` (1999-12-14, mandy.mackinnon@enron.com): "We need a method to accomodate the volume flow on HPL at meter 415 and 9643."
@@ -38,7 +38,7 @@ Settlements, accounting or counterparties report a price or volume mismatch betw
 
 *Automation:* When invoices or counterparty statements arrive, a match against the Sitara deal price and volume flags each line that differs and opens a case with the deal number, both figures and the trader. The trader still confirms which price is correct and approves any deal change or invoice dispute.
 
-*Arithmetic:* 127 messages / 27.38 months observed (farmer-d, giron-d, lokay-m, williams-w3) = 4.64/month; x 20 min median handling x 60% automatable = 0.9 h/month; x $85/h = $79/month
+*Arithmetic:* 93 msgs / 24.06 months observed (farmer-d) + 24 msgs / 19.99 months observed (giron-d) + 5 msgs / 5.92 months observed (lokay-m) + 5 msgs / 9.05 months observed (williams-w3) = 6.46/month; x 20 min median handling x 60% automatable = 1.3 h/month; x $85/h = $110/month
 
 Evidence:
 - `farmer-d/logistics/582` (1999-12-14, anita.luong@enron.com): "We need to resolve this as soon as possible so Settlement can send out payments."
@@ -53,7 +53,7 @@ The real-time desk reconciles Enpower deals, congestion revenue, annuities and p
 
 *Automation:* A daily comparison of Enpower deals and congestion awards against CAPS and settlement data lists variances by hour and book. Settlements and the real-time desk still decide on the correcting entry or PMA.
 
-*Arithmetic:* 55 messages / 9.05 months observed (williams-w3) = 6.08/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $77/month
+*Arithmetic:* 55 msgs / 9.05 months observed (williams-w3) = 6.08/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $77/month
 
 Evidence:
 - `williams-w3/sent_items/514` (2001-06-11, bill.williams@enron.com): "Harbor and Martel were declined with the CISO for 06/08/01 HE 1 and HE 2."
@@ -68,7 +68,7 @@ The real-time desk lead repeatedly emails procedures and rules on deal entry in 
 
 *Quick win:* A maintained real-time desk procedures checklist covering Enpower deal entry, cut handling, tags and time changes, used by shift traders at the start of each shift. The desk lead updates one document instead of re-sending instructions.
 
-*Arithmetic:* 54 messages / 9.05 months observed (williams-w3) = 5.97/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $76/month
+*Arithmetic:* 54 msgs / 9.05 months observed (williams-w3) = 5.97/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $76/month
 
 Evidence:
 - `williams-w3/sent_items/487` (2001-06-19, bill.williams@enron.com): "These schedule changes must be called in.  Just a reminder."
@@ -83,7 +83,7 @@ Each week California deliveries, capacity utilization and Gas Daily prices are c
 
 *Automation:* A scheduled job each week pulls delivery and capacity data and posted Gas Daily prices and generates the report email in the existing format. The analyst only reviews the numbers and adds commentary before sending.
 
-*Arithmetic:* 17 messages / 5.92 months observed (lokay-m) = 2.87/month; x 30 min median handling x 60% automatable = 0.9 h/month; x $85/h = $73/month
+*Arithmetic:* 17 msgs / 5.92 months observed (lokay-m) = 2.87/month; x 30 min median handling x 60% automatable = 0.9 h/month; x $85/h = $73/month
 
 Evidence:
 - `lokay-m/inbox/10` (2001-10-26, michelle.lokay@enron.com): "Transwestern's average deliveries to California were 945 MMBtu/d (87%), with San Juan lateral throughput at 865 MMBtu/d.  Total East deliveries averaged 525 MMBtu/d."
@@ -98,7 +98,7 @@ Staff research meter allocation exceptions, UA4 and unaccounted-for differences,
 
 *Automation:* After each allocation run, a comparison of POPS/MOPS meter volumes, UA4 results, pipeline statements and counterparty actuals lists every meter whose numbers disagree beyond a tolerance, with the prior month for context. Analysts receive one exception list instead of piecemeal emails. Volume management still decides which number is right and whether to reallocate.
 
-*Arithmetic:* 94 messages / 25.86 months observed (farmer-d, williams-w3) = 3.64/month; x 20 min median handling x 60% automatable = 0.7 h/month; x $85/h = $62/month
+*Arithmetic:* 93 msgs / 24.06 months observed (farmer-d) + 1 msgs / 9.05 months observed (williams-w3) = 3.98/month; x 20 min median handling x 60% automatable = 0.8 h/month; x $85/h = $68/month
 
 Evidence:
 - `williams-w3/inbox/142` (undated, clem.cernosek@enron.com): "Volumes tie to the
@@ -117,7 +117,7 @@ Traders, schedulers and accounting ask the desk to create, amend, rate-change, p
 
 *Quick win:* A structured request template for requesters covering deal number, counterparty, meter, dates, volume, price, book and reason for the change. The desk uses a matching confirmation reply that returns the new or changed deal number, so requests do not need clarification rounds.
 
-*Arithmetic:* 117 messages / 25.84 months observed (farmer-d, giron-d) = 4.53/month; x 15 min median handling x 60% automatable = 0.7 h/month; x $85/h = $58/month
+*Arithmetic:* 87 msgs / 24.06 months observed (farmer-d) + 30 msgs / 19.99 months observed (giron-d) = 5.12/month; x 15 min median handling x 60% automatable = 0.8 h/month; x $85/h = $65/month
 
 Evidence:
 - `farmer-d/logistics/604` (1999-12-21, julie.meyers@enron.com): "we might not be getting an answer until next week on these deals."
@@ -126,34 +126,35 @@ Evidence:
 - `farmer-d/logistics/673` (2000-01-11, mandy.mackinnon@enron.com): "There were deals left unpathed for Jan 1 (and Dec?). I brokered and nominated the obvious but we seem to have 10,000 with transport contract to move this gas on and no sale"
 - `farmer-d/logistics/675` (2000-01-12, pat.clynes@enron.com): "Please take the initiative to get these things done. I am counting on you and the others (Seniors in the group) to get these things done."
 
-## 8. Real-time position and shift handoff
+## 8. Deal and counterparty book transfers
 
-The desk lead tells the shift the day's long and short positions, deals to enter and books to use, and shift operators report missed schedules and problems back.
+Risk, credit or middle office send lists of deals or terminated counterparties to move or flip between trading books, including bankruptcy books, and the book admin moves them and confirms before books are calculated.
 
-*Quick win:* A fixed handoff template listing position by hour and hub, book, deals to key, open issues and problems from the last shift, used by the desk lead and shift operators at each handover.
+*Automation:* When a termination or book-move list arrives, a script looks up every live deal for the listed counterparties or deal numbers and produces the move file for the target book, plus a before-and-after check. The book admin reviews exceptions and runs the move; credit still decides which counterparties are terminated.
 
-*Arithmetic:* 37 messages / 9.05 months observed (williams-w3) = 4.09/month; x 15 min median handling x 60% automatable = 0.6 h/month; x $85/h = $52/month
+*Arithmetic:* 1 msgs / 24.06 months observed (farmer-d) + 69 msgs / 19.99 months observed (giron-d) = 3.49/month; x 20 min median handling x 60% automatable = 0.7 h/month; x $85/h = $59/month
 
 Evidence:
-- `williams-w3/sent_items/512` (2001-06-12, bill.williams@enron.com): "We are long 25 mws in NP-15 at $54 for HE 7-22.  This is under the ST-WBOM line in CAPS."
-- `williams-w3/sent_items/506` (2001-06-13, bill.williams@enron.com): "We must check out with BPA each hour for Frontier and GCPUD. Please make the call right after you call EPE dispatchers"
-- `williams-w3/sent_items/502` (2001-06-14, bill.williams@enron.com): "We have 25 mws of length in the BOM book at $56 again for 06/14/01 on peak.  This energy is in NP-15.  Please make deals under ST-WBOM."
-- `williams-w3/sent_items/496` (2001-06-15, bill.williams@enron.com): "We are long 25 mws 7-22 on Monday in SP-15 at $65. Deals should be under ST-WBOM."
-- `williams-w3/sent_items/466` (2001-06-27, bill.williams@enron.com): "We are long 25 mws on peak for 06/27/01 in SP-15.  This should be in CAPS under ST-WBOM, deals should be under ST-WBOM in Enpower as well."
+- `giron-d/sent/775` (2000-06-14, darron.giron@enron.com): "Please change the subregion code for all ANR ML5 deals from Market to Midcon. Also, the curve mapping needs to be changed as well."
+- `giron-d/sent/759` (2000-06-23, darron.giron@enron.com): "Sitara has set up two new internal books:  ENA-IM Mid Central South & ENA-IM Mid Central North."
+- `farmer-d/logistics/1371` (2000-08-29, thomas.engel@enron.com): "When you convert to ENA - IM Texas - don't forget to remove the evergreen flag on the old ECT - IM Waha deals."
+- `giron-d/sent/615` (2000-10-06, darron.giron@enron.com): "It looks like we need to be consistent in booking the GD spread deals."
+- `giron-d/sent/575` (2000-10-18, darron.giron@enron.com): "Currently, all of our index deals are in the FT-WEST book. I would like to 
+move them all to the GD-NEW book."
 
-## Below the top 8 (not totalled)
+## Below the cutoff: under $50/month or outside the top 8 (not totalled)
 
 | # | Process | Remedy | Msgs | Hours/mo | $/mo |
 |---|---|---|---|---|---|
-| 9 | Deal and counterparty book transfers | Automation | 70 | 0.5 | $46 |
-| 10 | Trading book setup and system access requests | Quick win | 85 | 0.4 | $36 |
-| 11 | Counterparty nomination intake and changes | Automation | 82 | 0.3 | $29 |
-| 12 | Cost center surveys and allocation requests | Quick win | 22 | 0.3 | $27 |
-| 13 | Transportation contract amendment approvals | Quick win | 18 | 0.3 | $26 |
-| 14 | Daily P&L, position and post ID sign-off | Quick win | 40 | 0.2 | $17 |
-| 15 | Pipeline operations, shut-in and outage notice relay | Automation | 42 | 0.2 | $15 |
-| 16 | Deal data and audit support requests | Quick win | 31 | 0.2 | $15 |
-| 17 | Pipeline and OBA imbalance reconciliation | Automation | 17 | 0.1 | $11 |
+| 9 | Real-time position and shift handoff | Quick win | 37 | 0.6 | $52 |
+| 10 | Trading book setup and system access requests | Quick win | 85 | 0.5 | $43 |
+| 11 | Pipeline and OBA imbalance reconciliation | Automation | 17 | 0.5 | $42 |
+| 12 | Counterparty nomination intake and changes | Automation | 82 | 0.3 | $29 |
+| 13 | Cost center surveys and allocation requests | Quick win | 22 | 0.3 | $27 |
+| 14 | Transportation contract amendment approvals | Quick win | 18 | 0.3 | $26 |
+| 15 | Deal data and audit support requests | Quick win | 31 | 0.2 | $20 |
+| 16 | Daily P&L, position and post ID sign-off | Quick win | 40 | 0.2 | $17 |
+| 17 | Pipeline operations, shut-in and outage notice relay | Automation | 42 | 0.2 | $15 |
 | 18 | CAISO market notice relay | Automation | 15 | 0.1 | $7 |
 | 19 | Credit report distribution and rebooking | Automation | 49 | 0.1 | $6 |
 

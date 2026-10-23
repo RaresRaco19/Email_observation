@@ -1,7 +1,7 @@
 {
  "allowed_figures": [
-  "$58",
-  "$696",
+  "$65",
+  "$780",
   "$85"
  ],
  "allowed_types": [
@@ -240,8 +240,8 @@
    "threads": 87
   },
   "description": "Traders, schedulers and accounting ask the desk to create, amend, rate-change, path, split or clean up Sitara and Tagg deal tickets and confirm the deal number back.",
-  "formula": "117 messages / 25.84 months observed (farmer-d, giron-d) = 4.53/month; x 15 min median handling x 60% automatable = 0.7 h/month; x $85/h = $58/month",
-  "hours_month": 0.7,
+  "formula": "87 msgs / 24.06 months observed (farmer-d) + 30 msgs / 19.99 months observed (giron-d) = 5.12/month; x 15 min median handling x 60% automatable = 0.8 h/month; x $85/h = $65/month",
+  "hours_month": 0.8,
   "id": "sitara_deal_ticket_change_request",
   "kinds": {
    "escalation": 10,
@@ -257,7 +257,7 @@
   ],
   "median_minutes": 15,
   "messages": 117,
-  "messages_per_month": 4.53,
+  "messages_per_month": 5.12,
   "name": "Sitara deal ticket entry and correction requests",
   "participants": [
    {
@@ -300,7 +300,7 @@
    "median_gap_hours": 21.7
   },
   "threads": 87,
-  "usd_month": 58,
-  "usd_year": 696
+  "usd_month": 65,
+  "usd_year": 780
  }
 }

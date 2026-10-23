@@ -290,7 +290,7 @@
    "threads": 16
   },
   "description": "Each week California deliveries, capacity utilization and Gas Daily prices are compiled and emailed to the Transwestern commercial team.",
-  "formula": "17 messages / 5.92 months observed (lokay-m) = 2.87/month; x 30 min median handling x 60% automatable = 0.9 h/month; x $85/h = $73/month",
+  "formula": "17 msgs / 5.92 months observed (lokay-m) = 2.87/month; x 30 min median handling x 60% automatable = 0.9 h/month; x $85/h = $73/month",
   "hours_month": 0.9,
   "id": "california_capacity_weekly_report",
   "kinds": {

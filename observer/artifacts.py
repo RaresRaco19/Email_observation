@@ -107,5 +107,9 @@ def check(p: Paths) -> dict:
         else:
             stamps[o["id"]] = _stamp(p, o["id"])
             ok.append(o["id"])
-    write_json(p.work / "artifacts.ok", {k: v for k, v in stamps.items() if any(o["id"] == k for o in report["opportunities"])})
+    shown = {o["id"] for o in report["opportunities"]}
+    for stale in p.artifacts.glob("*.md") if p.artifacts.exists() else []:
+        if stale.stem not in shown:
+            stale.unlink()
+    write_json(p.work / "artifacts.ok", {k: v for k, v in stamps.items() if k in shown})
     return {"ok": ok, "retry": retry}

@@ -1,0 +1,53 @@
+{"opportunity": "deal_book_transfer_correction",
+ "summary": "Lists of deals or terminated counterparties that must be moved or flipped between trading books (ECC deals to FT-US/CAND-ERMS, ENA deals to the bankruptcy books) arrive as forwarded emails and spreadsheets. Book controllers then hunt for the live deals by hand, ask clarifying questions, and confirm back under invoicing or book-calc deadlines. A move-list service would take the incoming list, look up every live deal in Sitara or TAGG, apply standard move rules, and produce a reviewed move file and a before-and-after report. That cuts the lookup, the question rounds and the confirmations, worth about $59 a month ($708 a year) at $85/h.",
+ "current_workflow": [
+  {"step": "A requester (Calgary invoicing, credit, risk or middle office) emails a list of deal numbers, counterparties or a spreadsheet of deals that sit in the wrong book or must go to the bankruptcy books, often with a same-day deadline.", "who": "invoicing / credit / middle office requester", "citations": ["giron-d/sent/550", "giron-d/sent/246", "giron-d/inbox/117", "giron-d/inbox/46"]},
+  {"step": "The request is forwarded until it reaches the controller who owns the book, sometimes via a manager, because the requester does not know who handles the book.", "who": "book controller (e.g. Darron Giron) via manager (Jeffrey Gossett)", "citations": ["giron-d/sent/550", "giron-d/sent/539", "giron-d/sent/405"]},
+  {"step": "The controller passes the list to the book administrators and asks them to scan all their books for similar deals (e.g. ECC deals with counterparties other than RISKMANTRA) and to flip them.", "who": "book controller and book administrators", "citations": ["giron-d/sent/539", "giron-d/sent/405", "giron-d/sent/246"]},
+  {"step": "For counterparty-level moves, credit/legal supply terminated contracts and counterparty lists, and someone reconciles them to live deal numbers in TAGG and Sitara.", "who": "credit / bankruptcy team (Cyndie Balfour-Flanagan, Patrick Mulvany)", "citations": ["giron-d/inbox/108", "giron-d/inbox/103", "giron-d/inbox/91"]},
+  {"step": "The person running the move in the Estate database asks the controller to confirm source books, CP IDs, commodity code, cutoff date for active deals and the offsetting ENA counterparty before moving.", "who": "Estate database operator (Cecilia Cheung)", "citations": ["giron-d/inbox/67", "giron-d/inbox/84"]},
+  {"step": "The move is done and confirmed by email so that invoicing can start or books can be calculated. Supplemental lists keep arriving afterwards.", "who": "book administrators / requester", "citations": ["giron-d/inbox/84", "giron-d/inbox/46", "giron-d/sent/246"]},
+  {"step": "Related structural changes (new internal books, subregion and curve mapping changes, conversions with evergreen flags) are also requested and remembered by email.", "who": "book controller and Sitara / risk support", "citations": ["giron-d/sent/759", "giron-d/sent/775", "farmer-d/logistics/1371"]}
+ ],
+ "stall_points": [
+  {"description": "Invoicing waits on deals booked under the wrong Enron counterparty, and the book owners have to hunt for them across all their books by hand.", "quote": "Invoicing for November should \nstart today, and both ECC and ENA are held back from invoicing until these \ndeals are fixed", "citation": "giron-d/sent/539"},
+  {"description": "Requests reach the wrong person first and are forwarded on, so time is lost before the book owner even sees them.", "quote": "Please call me if you \naren't the person who handles this book, and please forward this message on \nto the person who does.", "citation": "giron-d/sent/405"},
+  {"description": "The requester has to chase confirmation under a deadline of a few hours before customers can be invoiced.", "quote": "Please let me know when these are \nfinished as I need to get an invoice to the customers within the next couple \nof hours.", "citation": "giron-d/sent/246"},
+  {"description": "The move operator waits on answers about CP IDs, commodity code and cutoff date before running the move, because the request does not include them.", "quote": "If I can have all the answers soon then I think the deals move can be completed around 3:00p.m.", "citation": "giron-d/inbox/67"},
+  {"description": "Counterparty and contract lists do not map cleanly to Sitara deal numbers, so reconciliation spills into the next day and supplemental lists follow.", "quote": "Please note that there are still several deals that I am trying to reconcile back to Sitara numbers.", "citation": "giron-d/inbox/103"},
+  {"description": "Moves are tied to the daily book calculation, which leaves no slack for back-and-forth.", "quote": "Please move only financial deals.  Please let me know when this is complete.  We need to have it done by the time we calc our books today - no exceptions.", "citation": "giron-d/inbox/84"}
+ ],
+ "solution": {
+  "approach": "Requesters submit a structured move request instead of a free-form email: deal numbers or counterparty short names/CP IDs, source book(s), target book, deal type (financial or physical), cutoff date for active deals, and a deadline. A lookup job queries Sitara and TAGG for every live deal that matches. It applies saved rules for recurring cases, for example 'ECC deals with a counterparty other than RISKMANTRA belong in FT-US/CAND-ERMS' and 'auto-terminating deals for terminated counterparties go to the bankruptcy books'. It writes a proposed move file plus an exceptions list: unknown books, counterparties that resolve to no deal, contract-level items that do not reconcile to Sitara numbers. The request is routed to the controller who owns each source book, so nothing has to be forwarded. After the administrator runs the move, the job re-queries the books and emails a before-and-after confirmation to the requester. A scheduled sweep also checks US books for ECC-counterparty deals ahead of the invoicing start, so they are caught before invoicing instead of after.",
+  "trigger": "A submitted move request (deal list, counterparty termination list or spreadsheet), plus a scheduled sweep of the books before monthly invoicing and before the daily book calc.",
+  "inputs": ["deal numbers or counterparty short names / CP IDs from the request", "source and target book names", "deal type filter (financial or physical) and active-deal cutoff date", "live deal data from Sitara and TAGG", "book-to-controller ownership table", "saved move rules (ECC to FT-US/CAND-ERMS, terminated counterparties to bankruptcy books)"],
+  "outputs": ["proposed move file per target book for the book administrator", "exceptions list for the controller (unresolved counterparties, unknown books, unreconciled deals)", "before-and-after confirmation email to the requester (invoicing, credit, risk)", "pre-invoicing sweep report of ECC deals sitting in US books"],
+  "systems": ["Sitara", "TAGG", "EnronOnline", "Estate database"],
+  "components": ["structured book-move request form", "deal lookup job against Sitara and TAGG", "move rule table", "book ownership routing table", "proposed move file and exceptions generator", "post-move verification and confirmation email", "scheduled pre-invoicing ECC sweep"]
+ },
+ "implementation_steps": [
+  "Collect the past move requests (ECC flips, bankruptcy book moves, MGMT-WEST and G-DAILY-EST cleanups) and list the fields every request ended up needing: CP ID, source book, deal type, cutoff date, offsetting counterparty, commodity code.",
+  "Build the book ownership table that maps each book (e.g. MGMT-WEST, G-DAILY-EST, NG-PRICE, NG-PR-OPT) to its controller and administrators.",
+  "Publish the structured request form with those fields required, and tell invoicing, credit and middle office to use it instead of emailing lists.",
+  "Write the lookup job: read the request, query Sitara and TAGG for live deals that match, and produce the proposed move file and exceptions list.",
+  "Encode the recurring rules (ECC counterparty deals to FT-US/CAND-ERMS, terminated counterparties to bankruptcy books, financial vs physical filter) in the rule table, reviewed by the controller.",
+  "Add post-move verification that re-queries the books and emails the requester a confirmation listing each deal and its new book.",
+  "Schedule the pre-invoicing sweep for ECC deals in US books, including EnronOnline deals that were booked automatically.",
+  "Pilot on one region's books for a month and compare against manual moves, then extend to all books."
+ ],
+ "stays_manual": [
+  "Credit and legal decide which counterparties and contracts are terminated (e.g. under the Master Netting Agreement); the tool only acts on their list.",
+  "The book administrator reviews the proposed move file and runs the move in Sitara or the Estate database; nothing is moved automatically.",
+  "The controller resolves exceptions: contract-level items that do not reconcile to Sitara numbers, books missing from the Estate database, ambiguous commodity codes.",
+  "Structural changes such as new internal books, subregion or curve mapping changes and evergreen flag removal stay as controller requests to Sitara support."
+ ],
+ "risks": [
+  "Volume is low (about 0.7 h a month at the measured rate) and concentrated in bursts such as the January 2002 bankruptcy moves, so a full integration may not pay back. Mitigation: start with the request form and a read-only lookup script (effort could fall to S) before building verification.",
+  "The emails do not show how Sitara, TAGG and the Estate database can be queried or exported. Deal lookup may depend on access that has to be confirmed with IT first.",
+  "Counterparty identifiers differ between sources (TAGG short names, CP IDs, contract numbers), so the lookup can miss deals or match the wrong ones. Mitigation: show unresolved items as exceptions and never drop them silently.",
+  "Stale move rules could flip deals that should stay, e.g. ECC deals with RISKMANTRA. Mitigation: the controller owns the rule table and every move file is reviewed by a person.",
+  "Requesters may keep emailing lists, which bypasses the form. Mitigation: book admins reply with the form link and the confirmation only comes from the tool."
+ ],
+ "effort": "M",
+ "success_metric": "Median time from move request to confirmed move, and the number of clarifying emails per move request, both measured before and after rollout; plus the count of ECC deals found in US books after invoicing starts."
+}

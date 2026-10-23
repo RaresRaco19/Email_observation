@@ -1,56 +1,57 @@
 ---
 opportunity: realtime_settlement_reconciliation
 type: sop
-citations: [williams-w3/sent_items/442, williams-w3/sent_items/453, williams-w3/sent_items/291, williams-w3/sent_items/90, williams-w3/sent_items/510, williams-w3/sent_items/441]
+citations: [williams-w3/sent_items/453, williams-w3/sent_items/442, williams-w3/sent_items/291, williams-w3/sent_items/510, williams-w3/sent_items/90]
 ---
 
 # SOP: Daily real-time settlement reconciliation
 
-Owner: the real-time trader, with settlements (Jim Reyes, Heather Dunton, Virginia Thompson) and the CAPS scheduling group as readers. Value: about $77 a month ($924 a year) at $85/hour. It is a small gain in handling time. The main benefit is catching missed revenue earlier.
+**Owner:** real-time desk (Bill Williams). **Closing owners:** settlements (Virginia Thompson, Heather Dunton, Jim Reyes).
+**Value:** about 0.9 hours a month of handling, $77 a month, $924 a year at $85/h. The case rests mainly on catching breaks earlier, so keep the build light.
 
 ## What the job produces
+Each morning, after the DPR is published, the job matches the prior day's Enpower deals (by book, such as ECTRT, ST-WBOM, ST-CALI) against CAPS final schedules by schedule ID and hour ending. It emails one variance list to the desk and settlements. It also:
+- Flags duplicate deals, deals missing from CAPS, CAPS schedules missing from Enpower, and award hours with no revenue line.
+- Calculates expected congestion and replacement-reserve revenue from awarded MW and price, replacing the hand calculation.
+- Updates a break log with owner, status and age.
+- At month end, checks each PMA line against Enpower deal history and the inc sheet.
 
-Each morning, once the DPR for the prior flow day is available, the job compares Enpower deals (by book: ST-WBOM, ST-CALI, ST-WHOURLY, ECTRT, ECTSTSW) with CAPS final schedules, position manager, and CAISO congestion and replacement-reserve awards. It matches on hour ending, schedule ID and counterparty. It produces:
+## Daily routine (real-time desk)
+1. Open the morning variance list. Check the CAISO award file was loaded. If the feed is missing, upload the desk's award file by hand.
+2. For each variance, decide: real break, or position manager display fault. Position manager is only a cross-check, since it has reported variances that vanish in the detail view [williams-w3/sent_items/291].
+3. Duplicate deals: confirm, zero out in Enpower, and note it in the break log. This is the case the job exists to catch earlier:
 
-1. A daily variance report by hour and book, sent as a morning digest to the real-time desk, the CAPS group and settlements. It replaces the ad hoc variance emails.
-2. Exception queue rows, each with an owner, age, expected revenue (MW x price per HE) and the source of each side.
-3. A PMA validation report when a monthly PMA file arrives, flagging lines with no matching change in Enpower or the inc sheet.
-4. A weekly aging summary of open corrections, reviewed before the P&L flash.
+> We had some double deal-entry last night under the ST-WBOM book.
 
-## What a person checks
+[williams-w3/sent_items/453]
 
-- **Trader, each morning:** open the digest and review each exception. Typical types are a duplicate deal, a CISO misentry, an award with no booked revenue, or a counterparty or price change with no revenue effect. Example of a duplicate:
-> We had some double deal-entry last night under the ST-WBOM book. Consequently I zeroed the following deals out this morning after receiving the DPR and running a BOM SAR.
+4. Schedule mismatches (firm vs n-firm, wrong ID such as ECTRT vs ECTSTSW): assign to scheduling and ask the CISO for a fix. Example of the pattern:
 
-  [williams-w3/sent_items/453]
-- **Settlements:** for an award with no booked revenue, confirm the expected amount and book the true-up. Example of the gap the queue should surface at once instead of a month later:
-> The appropriate price is in Enpower, but the revenue has never appeared (Deal #590753).
-
-  [williams-w3/sent_items/442]
-- **PMA review (Virginia Thompson):** check each flagged line, such as a charge for a reduction in a purchase. Example of the mismatch the validator should flag:
-> Enpower and the inc sheet do not reflect this change.
-
-  [williams-w3/sent_items/441]
-- **CAPS group:** fix CAPS entries when the CISO misenters a schedule.
 > For HE 11 and HE12, Danielle at the CISO misentered our schedule.
 
-  [williams-w3/sent_items/510]
+[williams-w3/sent_items/510]
 
-## Exceptions
+5. Expected-revenue lines: send to settlements to check against the CAISO statement. Hours with no CAISO data show as "unconfirmed", not zero. A verbal confirmation on a recorded line is noted in the log [williams-w3/sent_items/90].
 
-- **Position manager noise.** Position manager sometimes reports variances that vanish in the detail view [williams-w3/sent_items/291]. The job compares at detail level and drops variances that disappear there. Anything it still cannot explain goes to the trader.
-- **Missing CAISO data.** When the CAISO site has no data for an hour, as when its server went down [williams-w3/sent_items/90], mark the hour "no source data". Do not treat it as zero revenue or as a variance. The trader confirms the amount with the CAISO and records it in the row.
-- **Aging.** Any exception still open at the weekly review is escalated to its owner before the P&L flash.
-- **Job failure or missing feed.** The trader falls back to the manual DPR and BOM SAR check for that day.
+## Settlements routine
+1. Take ownership of each assigned break in the log. Set the status and close it only once the entry posts.
+2. Review open prior-month items (unposted PMAs, price corrections) every week. The log replaces email threads such as:
 
-## Stays manual
+> The appropriate price is in Enpower, but the revenue has never appeared (Deal #590753).
 
-- Choosing the correcting entry: zero a deal, enter an imbalance purchase, or book an annuity between books.
-- Taking a charge for a counterparty and deciding how to allocate deviation.
-- Disputes with the CISO/CAISO, which need calls and recorded-line evidence.
-- Approving and booking PMAs and true-ups (settlements).
-- Tape pulls to confirm what was traded when no system record exists.
+[williams-w3/sent_items/442]
 
-## Success measure
+## Month-end PMA check
+When the PMA file arrives, run the checker. Review every line it flags as unsupported by Enpower or the inc sheet before accepting it. If the file layout needs a manual import at first, the desk does that step.
 
-The share of variances and PMA questions that first appear in the daily queue rather than in an ad hoc email, and the median days an exception stays open before its correcting entry or PMA is booked. Run the job alongside the manual process for two weeks on ST-WBOM before retiring the ad hoc emails.
+## Exceptions and what stays manual
+- Choosing the correcting entry, zero-out or PMA amount: settlements and the desk.
+- Annuities between books: the desk head approves; settlements books.
+- Disputes with the CISO/CAISO or counterparties, and tape pulls (Chip Cox) for undocumented trades.
+- A break unresolved after its agreed age limit goes to Virginia Thompson for a meeting with the desk.
+- Noisy matches (inconsistent books or schedule IDs): add to the mapping table, don't suppress.
+
+## Rollout notes
+Run alongside the current DPR and BOM SAR check for two to four weeks. Retire free-text adjustment emails only for break types the job reliably catches. Confirm Enpower and CAPS extract access first, since the evidence doesn't show it.
+
+**Measures:** median age of open breaks, and the share of breaks first found by the morning job rather than by email.

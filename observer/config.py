@@ -10,7 +10,8 @@ BATCH_MAX_MSGS = 60           # caps labeler output size per batch
 MSG_MAX_CHARS = 8_000         # per-message truncation (farmer-d/logistics/3221 is ~350 KB)
 MIN_EVIDENCE = 8              # validated quotes a process needs to ship
 MIN_THREADS = 3               # distinct threads it needs: one long conversation is not a recurring process
-TOP_N = 8                     # opportunities shown and totalled; each gets a design and a draft built on it
+MIN_USD_MONTH = 50            # opportunities below this $/month are not shown, totalled, designed or drafted
+TOP_N = 8                     # at most this many shown and totalled; each gets a design and a draft built on it
 REMEDIES = {"automation", "quick_win"}
 # artifact types a writer may choose, by remedy
 ARTIFACT_TYPES = {"automation": ["sop", "email"], "quick_win": ["reply", "checklist", "template"]}

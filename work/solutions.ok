@@ -1,10 +1,10 @@
 {
- "california_capacity_weekly_report": "79d5c6df83c6a6de6a766abe2dce1596532ca953a6e3629ceb767230a959d800",
- "deal_price_invoice_discrepancy": "0381bacce60d38b82e695eff82ed41aafbaa6dab93d981e50025bf47602ef058",
- "meter_flow_missing_deal_resolution": "3361f3f830187ab52f4acb2975fa7b4fbb2ad02f53da21a594dba8656a571528",
- "meter_volume_allocation_variance": "6065c306f2da9314696eb7986b1218c9c02a5ae329d0a6fcd29c8038f9b59e6e",
- "realtime_desk_instructions": "07406118ab31c0ab19e2d4ccd3a42bf3e247ff95a5ca8aa5fc357dd75062fa85",
- "realtime_settlement_reconciliation": "9113e9fdcbc9667236e16db670221749f5a5dc03c771775a654a64eed733fe11",
- "realtime_shift_position_handoff": "93df22ba313fbfb431049a32f0fed123ae9eee9a527587541e65808b779d61e9",
- "sitara_deal_ticket_change_request": "9bd043fe75fbcd90b87fe78bcde7186defe0a9beacd7ff8d684644bf6e2ca844"
+ "california_capacity_weekly_report": "1e2833b76ce955bd3841d3788f70f08f65b76aaebad3c87b7908be8cf41a8293",
+ "deal_book_transfer_correction": "a843555c3ee6335bfe12d18fc12188e13f95113e1100a7a3c4f647ccdd98680e",
+ "deal_price_invoice_discrepancy": "317a6571d0e30631751315d7890ca79ceb1f651c37ecf5d6dab0b76ab985c8fe",
+ "meter_flow_missing_deal_resolution": "0551591522e3876ff1215b33da6c04d5e5ec7b83338c4ba33d6eab8f61fc0e1a",
+ "meter_volume_allocation_variance": "6d26290d8aa7bbdd8c430d8f1e29160b0f718e787151cd8e2247faf67aacc592",
+ "realtime_desk_instructions": "9765378f0bb70bcf4c018275dfcef4fca2d28b724d48444185183069a9752c9c",
+ "realtime_settlement_reconciliation": "3b917ad7ff2164a29cf78534da43238e11e08bfc5a18ff4ae900482c7a0ba403",
+ "sitara_deal_ticket_change_request": "fc14c772cbc3ebb907cb892fcd224492d55db7bb81abcc9f2ae1e918b2afb65f"
 }

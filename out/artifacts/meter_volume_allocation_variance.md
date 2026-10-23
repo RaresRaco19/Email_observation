@@ -1,61 +1,56 @@
 ---
 opportunity: meter_volume_allocation_variance
-type: sop
-citations: [farmer-d/logistics/595, farmer-d/logistics/622, farmer-d/logistics/739, farmer-d/logistics/925, farmer-d/logistics/1185, farmer-d/logistics/1351, farmer-d/logistics/1483, farmer-d/logistics/2089]
+type: email
+citations: [farmer-d/logistics/622, farmer-d/logistics/925, farmer-d/logistics/2089, farmer-d/logistics/1185]
 ---
 
-# SOP: Daily and month-end meter exception review
+**To:** Volume Management Lead (process owner)
+**Cc:** Logistics desk, Settlements
+**Subject:** Proposal: one daily meter variance list instead of meter-by-meter emails
 
-**Owner:** volume management. **Users:** logistics desk, settlements/UA4 analysts, accounting managers.
+Hello,
 
-## What the automation produces
+I am proposing a daily meter variance check, to replace the email threads we use today to find and chase allocation exceptions.
 
-After each POPS allocation run, and again before month-end UA4 close, a read-only job compares MIPs measurement volumes, POPS confirmed and allocated volumes, and Sitara, OSS and CPR deals by meter and gas day. Each rule hit becomes one row in a shared exception queue. A row shows the meter, period, the volume from each source, the prior month, a suggested owner, status and age. Rules:
+**The problem.** Analysts find meter exceptions one at a time, then email the logistics desk to ask whether a deal exists. Stella Morris wrote:
 
-- flow with no deal
-- deal with no flow
-- zero or missing POPS-to-Sitara feed
-- delivery nom at a receipt meter
-- confirmation on a day the deal does not cover
-- nomination not pulled
-- allocated vs measured difference beyond tolerance
+> Daren is there a deal in CPR which may not have fed over to OSS?
 
-Outputs: a daily exception list, a month-end UA4 summary, an aging report that replaces the manual interdesk/interconnect list, and an evidence pack per exception.
+[farmer-d/logistics/622]
 
-## Daily routine
+Feed failures go unseen until someone reviews imbalances:
 
-1. Volume management opens the daily list after the allocation run and confirms the owner on each new row (routing table: meter and rule type to owner).
-2. The owner checks the row's evidence pack before emailing anyone. The pack already answers the questions analysts used to ask by hand:
-   > Daren is there a deal in CPR which may not have fed over to OSS?
+> POPS has fed 0 volumes back to Sitara on some of the HPLC deals.
 
-   [farmer-d/logistics/622]
-3. Flow with no deal [farmer-d/logistics/595] goes to the logistics desk. A zero feed to Sitara [farmer-d/logistics/925] goes to volume management the same day, so volumes are overridden before P&L is affected.
-4. The owner records a resolution note on the row and sets the status. Nobody sends a "status?" email; they read the queue instead of asking:
-   > What is the status on this meter?
+[farmer-d/logistics/925]
 
-   [farmer-d/logistics/739]
+Sometimes an outside party finds the gap first:
 
-## What a person checks
+> I am getting several phone calls from Alpine Resources demanding to be paid for meter 5892 and there is nothing there to be paid.
 
-- **Confirmations outside the deal dates.** A confirmation on a day the deal does not cover causes wrong prorating, as in [farmer-d/logistics/1351]. A person decides whether to move the volume or add the date to the deal.
-- **Desk-to-desk variances.** Different volume sources on each side [farmer-d/logistics/1185] are flagged. Logistics and the counterparty decide which number is custody.
-- **Unallocated flow awaiting a deal.** The owner confirms flow occurred and has a deal extended [farmer-d/logistics/1483].
-- **Counterparty payment calls.** Accounting checks the queue before forwarding a call such as [farmer-d/logistics/2089].
+[farmer-d/logistics/2089]
 
-## Exceptions and escalation
+Open items also build into standing lists, such as the interdesk/interconnect report [farmer-d/logistics/1185]. In the sampled threads, 52 messages were flagged as stalled. The median gap was 18.0 hours and the longest was 588.7 hours.
 
-- A row open past the age limit set by volume management escalates to the named manager on the routing table.
-- A row with no owner is assigned by volume management that day.
-- A tolerance that produces noise is logged and adjusted by volume management, not silenced by individual analysts.
-- If a source extract fails or is late, the job marks the run incomplete and the desk works from the prior day's list.
+**The fix.** After the POPS allocation run and the POPS-to-Sitara feed, a daily job compares three sources for each meter and gas day: MIPs measurement, POPS confirmed noms and allocations, and Sitara deals (with OSS and CPR for older months). It flags:
+- flow with no valid deal
+- a confirmation outside the deal's term
+- zero POPS-to-Sitara volumes
+- delivery noms on receipt meters
+- confirmed volume that does not match allocated actuals
+- a growing UA4 balance
 
-## Stays manual
+Each exception goes on one shared list with the meter, month, volumes from each source, the prior month and the rule that fired. It is routed to the logistics desk (missing or invalid deals), the scheduler (nomination issues) or volume management (feed and allocation problems). Owners record a disposition on the item instead of starting a thread. An aging digest flags items left open, which replaces follow-up emails. A same-day alert covers zero-volume feeds.
 
-- Deciding which volume is correct when sources disagree.
-- Creating, extending or moving deals in Sitara, and reallocating in POPS.
-- Legal or commercial calls, such as the book a sale belongs in.
-- Talking to counterparties and pipelines.
+**What stays with people.** Deciding which volume is correct, creating or changing deals, buybacks, reallocations and POPS changes, counterparty disputes, and setting tolerances.
 
-## Measure
+**Computed value.** The count is 3.98 messages a month. At 20 minutes median handling and 60% automatable, that is 0.8 hours a month. At $85 per hour, that is $68 a month, or $816 a year. This is a small saving. The larger case is the P&L exposure when feed failures sit undetected in UA4, and the evidence does not price that. I suggest we validate it separately.
 
-Meters with measured flow but no matching Sitara/OSS deal still open at month-end UA4 close, and the median age of open exceptions. Handling time saved is small, about $62/month ($744/year) at $85/hour. The real value is catching large feed failures the day they appear.
+**Risks.** We have not confirmed that POPS, Sitara, OSS, CPR or MIPs can be read daily. Measurement is often restated late, so early items would be marked provisional. Tolerances set too tight would swamp analysts with noise.
+
+**Ask.** Please approve a first step: confirm read-only access to the five systems and agree the first three rules (no valid deal, out-of-term confirmation, zero feed). Then we run one month in shadow beside the current interdesk/interconnect and feedback error reports before going live.
+
+We would measure success by the median days from a variance first appearing to its disposition, the monthly count of research emails to the logistics desk, and the zero-feed days caught within 24 hours.
+
+Thank you,
+[Sender name]

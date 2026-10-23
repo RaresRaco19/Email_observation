@@ -113,7 +113,7 @@ function overview(){
   <section class="card"><table><thead><tr><th></th><th>Process</th><th>$ / month</th><th class="num">Hours / mo</th>
     <th class="num hide-sm">Messages</th><th class="hide-sm" title="Implementation effort from the solution design">Effort</th><th class="hide-sm">Draft</th></tr></thead><tbody>${rows ||
     '<tr><td colspan="7" class="muted">No process cleared the evidence bar in this run.</td></tr>'}</tbody></table>
-    ${R.below_cutoff.length ? `<p class="small muted" style="margin-bottom:0">Showing the top ${R.assumptions.top_n}. ${R.below_cutoff.length} smaller opportunities also passed the evidence gates; they are listed in report.md and not counted in the total.</p>` : ''}</section>`;
+    ${R.below_cutoff.length ? `<p class="small muted" style="margin-bottom:0">Showing opportunities worth at least ${usd(R.assumptions.min_usd_month)}/month, at most ${R.assumptions.top_n}. ${R.below_cutoff.length} smaller opportunities also passed the evidence gates; they are listed in report.md and not counted in the total.</p>` : ''}</section>`;
 }
 
 function total(){
@@ -215,8 +215,8 @@ function coverage(){
   <section class="card"><h3 style="margin-top:0">Assumptions</h3><ul class="small">
     <li>Blended rate: $${R.assumptions.rate_usd}/hour</li><li>Automatable share of handling time: ${Math.round(R.assumptions.automatable_share * 100)}%</li>
     <li>A process ships only with ≥ ${R.assumptions.min_evidence} verified quotes in ≥ ${R.assumptions.min_threads} threads</li>
-    <li>Monthly rate measured over the period the involved mailboxes were observed</li>
-<li>Top ${R.assumptions.top_n} by $/month are shown and totalled; each gets a solution design (an automation, or the rollout of a quick win) and a draft built on it</li></ul>
+    <li>Monthly rate: each mailbox's messages over the period that mailbox was observed, summed across mailboxes</li>
+<li>Opportunities worth at least ${usd(R.assumptions.min_usd_month)}/month (at most ${R.assumptions.top_n}, by $/month) are shown and totalled; each gets a solution design (an automation, or the rollout of a quick win) and a draft built on it</li></ul>
     <h3>Not shipped (too little evidence)</h3><ul class="small">${rej}</ul><h3>Failed batches</h3><ul class="small">${fb}</ul></section></div>`;
 }
 

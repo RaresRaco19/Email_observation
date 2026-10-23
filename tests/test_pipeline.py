@@ -131,7 +131,7 @@ class PipelineTest(unittest.TestCase):
         labels.check_labels(p)
         self.assertEqual(rank.build(p)["opportunities"][0]["messages"], 9)
 
-    def run_through_rank(self, top_n=None, remedy="automation"):
+    def run_through_rank(self, top_n=None, remedy="automation", min_usd=None):
         p = self.c.paths
         self.write_labels(self.good_labels())
         self.assertEqual(labels.check_labels(p)["ok"], 1)
@@ -139,13 +139,15 @@ class PipelineTest(unittest.TestCase):
         self.write_delta(remedy=remedy)
         self.assertTrue(labels.check_process_map(p)["ok"])
         self.assertFalse(labels.candidates(p)["needs_consolidation"])
-        old = config.TOP_N
+        old = config.TOP_N, config.MIN_USD_MONTH
         if top_n is not None:
             config.TOP_N = top_n
+        if min_usd is not None:
+            config.MIN_USD_MONTH = min_usd
         try:
             return rank.build(p)
         finally:
-            config.TOP_N = old
+            config.TOP_N, config.MIN_USD_MONTH = old
 
     def test_rank_arithmetic(self):
         s = self.run_through_rank()
@@ -289,12 +291,15 @@ class PipelineTest(unittest.TestCase):
         self.assertEqual(r["opportunities"], [])
         self.assertIn("distinct threads", r["rejected"][0]["reason"])
 
-    def test_observed_window_is_union_of_mailbox_windows(self):
-        from datetime import datetime
-        d = lambda s: datetime.fromisoformat(s)
-        w = {"a": (d("2001-01-01"), d("2001-03-02")), "b": (d("2001-02-01"), d("2001-04-01")), "c": (d("2001-06-01"), d("2001-06-11"))}
-        self.assertEqual(rank.observed_days(["a", "b"], w), 90)  # overlap counted once
-        self.assertEqual(rank.observed_days(["a", "c"], w), 70)  # gap between windows not counted
+    def test_rate_is_summed_per_mailbox(self):
+        from datetime import datetime, timedelta
+        start = datetime(2001, 1, 1)
+        w = {"a": (start, start + timedelta(days=12 * rank.DAYS_PER_MONTH)),
+             "b": (start, start + timedelta(days=3 * rank.DAYS_PER_MONTH)),
+             "c": (start, start + timedelta(days=10))}
+        # 12/12 + 6/3: the short mailbox is not diluted by the long one (a union window would give 18/12 = 1.5)
+        self.assertEqual(rank.price({"a": 12, "b": 6}, w, [20])["messages_per_month"], 3)
+        self.assertEqual(rank.price({"c": 4}, w, [20])["messages_per_month"], 4)  # windows under a month count as one
 
     def write_design(self, **changes):
         p = self.c.paths
@@ -355,6 +360,16 @@ class PipelineTest(unittest.TestCase):
         self.assertEqual(r["opportunities"], [])
         self.assertEqual([o["id"] for o in r["below_cutoff"]], ["meter_fix"])
         self.assertEqual(s["opportunities"][0]["id"], "meter_fix")  # still printed for the run log
+
+    def test_below_min_usd_is_not_shown_designed_or_drafted(self):
+        s = self.run_through_rank(min_usd=100)  # the fixture opportunity is worth $78/month
+        p = self.c.paths
+        self.assertEqual((s["solution_targets"], s["artifact_targets"], s["total_usd_month"]), ([], [], 0))
+        self.assertFalse(list(p.evidence.glob("*.json")) if p.evidence.exists() else [])
+        r = read_json(p.out / "report.json")
+        self.assertEqual((r["opportunities"], r["assumptions"]["min_usd_month"]), ([], 100))
+        self.assertEqual([o["id"] for o in r["below_cutoff"]], ["meter_fix"])
+        self.assertEqual([t["id"] for t in rank.build(p)["solution_targets"]], ["meter_fix"])  # clears the default $50
 
     def test_quick_win_gets_design_and_draft(self):
         s = self.run_through_rank(remedy="quick_win")

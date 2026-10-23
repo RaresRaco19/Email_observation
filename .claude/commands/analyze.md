@@ -49,7 +49,7 @@ Run this stage once, after every labeling wave and its retries have finished, so
 
 ## Stage 4: Rank (deterministic)
 
-Run `python3 -m observer rank`. It ships every process that clears the evidence gates (enough verified quotes across enough threads) and lists the rest as rejected with the reason. Only the top 8 by $/month are shown, totalled and worked on, and each has a `remedy`: `automation` or `quick_win`. It prints every ranked opportunity, the total of the top 8, `solution_targets` (each top-8 opportunity, `{id, remedy, evidence_path, output_path, done}`), and `artifact_targets` (the same opportunities, each `{id, remedy, evidence_path, solution_path, output_path, done}`). If `rank` says the process map predates remedies, rerun Stage 3 with `--reconsolidate`.
+Run `python3 -m observer rank`. It ships every process that clears the evidence gates (enough verified quotes across enough threads) and lists the rest as rejected with the reason. Only opportunities worth at least $50/month (`MIN_USD_MONTH`), at most 8 (`TOP_N`), are shown, totalled and worked on; nothing below that cut gets a target, so no designer or writer is launched for it. Each shown opportunity has a `remedy`: `automation` or `quick_win`. It prints every ranked opportunity, the total of the shown ones, `solution_targets` (each shown opportunity, `{id, remedy, evidence_path, output_path, done}`), and `artifact_targets` (the same opportunities, each `{id, remedy, evidence_path, solution_path, output_path, done}`). If `rank` says the process map predates remedies, rerun Stage 3 with `--reconsolidate`.
 
 ## Stage 5: Design solutions (parallel subagents)
 

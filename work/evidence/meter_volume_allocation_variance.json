@@ -1,7 +1,7 @@
 {
  "allowed_figures": [
-  "$62",
-  "$744",
+  "$68",
+  "$816",
   "$85"
  ],
  "allowed_types": [
@@ -245,8 +245,8 @@
    "threads": 65
   },
   "description": "Staff research meter allocation exceptions, UA4 and unaccounted-for differences, bad feeds and volume mismatches between pipeline, counterparty and internal systems, then move volumes or correct allocations.",
-  "formula": "94 messages / 25.86 months observed (farmer-d, williams-w3) = 3.64/month; x 20 min median handling x 60% automatable = 0.7 h/month; x $85/h = $62/month",
-  "hours_month": 0.7,
+  "formula": "93 msgs / 24.06 months observed (farmer-d) + 1 msgs / 9.05 months observed (williams-w3) = 3.98/month; x 20 min median handling x 60% automatable = 0.8 h/month; x $85/h = $68/month",
+  "hours_month": 0.8,
   "id": "meter_volume_allocation_variance",
   "kinds": {
    "escalation": 10,
@@ -262,7 +262,7 @@
   ],
   "median_minutes": 20.0,
   "messages": 94,
-  "messages_per_month": 3.64,
+  "messages_per_month": 3.98,
   "name": "Meter volume and allocation variance resolution",
   "participants": [
    {
@@ -305,7 +305,7 @@
    "median_gap_hours": 18.0
   },
   "threads": 65,
-  "usd_month": 62,
-  "usd_year": 744
+  "usd_month": 68,
+  "usd_year": 816
  }
 }

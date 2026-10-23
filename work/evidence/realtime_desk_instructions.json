@@ -279,7 +279,7 @@
    "threads": 52
   },
   "description": "The real-time desk lead repeatedly emails procedures and rules on deal entry in Enpower, tags, cuts, checkouts and scheduling that shift traders must follow.",
-  "formula": "54 messages / 9.05 months observed (williams-w3) = 5.97/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $76/month",
+  "formula": "54 msgs / 9.05 months observed (williams-w3) = 5.97/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $76/month",
   "hours_month": 0.9,
   "id": "realtime_desk_instructions",
   "kinds": {
