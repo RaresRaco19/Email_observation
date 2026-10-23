@@ -1,6 +1,7 @@
 """Stage 5 validator: drafted artifacts may only cite evidence messages, quote verbatim, and use computed figures."""
 import re
 
+from . import caught
 from .config import Paths
 from .util import read_json, sha, write_json
 from .validate import quote_error
@@ -97,6 +98,8 @@ def check(p: Paths) -> dict:
         if "artifact" not in o:
             continue
         errs = artifact_errors(p, o["id"])
+        draft = p.out / o["artifact"]
+        caught.record(p, "artifacts", o["id"], errs, version=draft.read_text(encoding="utf-8") if draft.exists() else "")
         if not errs and not (p.out / "solutions" / f"{o['id']}.json").exists():
             errs = ["its solution design has not been validated; run check-solutions first"]
         if errs:

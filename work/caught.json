@@ -1,0 +1,317 @@
+{
+ "09f9577c80989c44": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/67",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "20beff4b6306055d": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "farmer-d/logistics/716",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "23d8e4d59c7cf627": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/171",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "2409f1d9a3d92375": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "farmer-d/logistics/1160",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "2f5984198e9fa7b7": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "farmer-d/logistics/628",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "30feb2bcd072653a": {
+  "category": "quote too short or too long",
+  "error": "quote has 2 words (need 5-60)",
+  "item": "giron-d/inbox/55",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "32c0911e0052c14e": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "farmer-d/logistics/2025",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "32e9ab6188c4eaff": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "farmer-d/logistics/764",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "402fb1df0d1e8e3e": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/129",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "43eb6f60af719a8d": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "giron-d/inbox/62",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "497452d427fd9993": {
+  "category": "quote not verbatim",
+  "error": "quote not found verbatim in raw file",
+  "item": "farmer-d/logistics/1369",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "51fdbb39014ff235": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/28",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "52d2a9bbb1c461b9": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "farmer-d/logistics/1423",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "5acc2cacac86a4e1": {
+  "category": "batch over the bad-quote limit",
+  "error": "7/28 quotes failed verbatim check: giron-d/sent/242: quote has 3 words (need 5-60); giron-d/sent/106: quote has 4 words (need 5-60); giron-d/sent/144: quote has 3 words (need 5-60); giron-d/sent/138: quote has 3 words (need 5-60); giron-d/sent/226: quote has 3 words (need 5-60); giron-d/sent/234: qu",
+  "item": "8523a69688dc",
+  "seen": "2026-10-23T12:33:39+00:00",
+  "stage": "labels"
+ },
+ "6d079f429fe95ca3": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "williams-w3/inbox/136",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "6f2ce36881e8ab23": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/86",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "6f54afd27290b99e": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "farmer-d/logistics/615",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "8367cc4e74dc1a9e": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/218",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "8462de5b0255b815": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/76",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "883b5a0ef9edeaed": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "farmer-d/logistics/955",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "8bc344d0e64aad2c": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/260",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "92a800270826bd18": {
+  "category": "quote too short or too long",
+  "error": "quote has 2 words (need 5-60)",
+  "item": "farmer-d/logistics/2111",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "95d5eae8a0edaf58": {
+  "category": "quote not verbatim",
+  "error": "quote not found verbatim in raw file",
+  "item": "farmer-d/logistics/90",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "99f38c50172ef67b": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/253",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "9ffcb8566bf206f7": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/165",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "a44ea7e075747072": {
+  "category": "quote not verbatim",
+  "error": "quote not found verbatim in raw file",
+  "item": "farmer-d/logistics/96",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "a77b8f12fffeb24d": {
+  "category": "quote not verbatim",
+  "error": "quote not found verbatim in raw file",
+  "item": "farmer-d/logistics/1409",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "ae2336c1fdc8e7e3": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "farmer-d/logistics/1107",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "aeb67a23864d633e": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "williams-w3/sent_items/406",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "af9c16f545d478f6": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "farmer-d/logistics/685",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "b010b197f0c2e9ad": {
+  "category": "quote not verbatim",
+  "error": "quote not found verbatim in raw file",
+  "item": "williams-w3/sent_items/289",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "bc0cf0131cbefe16": {
+  "category": "quote too short or too long",
+  "error": "quote has 2 words (need 5-60)",
+  "item": "farmer-d/logistics/2033",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "bc5dc9d9ce017aa9": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/258",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "bca04bc5d77f39c1": {
+  "category": "quote not verbatim",
+  "error": "quote not found verbatim in raw file",
+  "item": "williams-w3/sent_items/488",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "c8751f2381a72119": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "farmer-d/logistics/767",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "ced9c32e939f8c4c": {
+  "category": "quote not verbatim",
+  "error": "quote not found verbatim in raw file",
+  "item": "farmer-d/logistics/161",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "df039ae2dd0eb00a": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "farmer-d/logistics/627",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "e5ca001589efc544": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/94",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "e817d3d35e4c6a54": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/11",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "eb7c53223399974a": {
+  "category": "quote not verbatim",
+  "error": "quote not found verbatim in raw file",
+  "item": "williams-w3/sent_items/209",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "eeff6dbf680f150b": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "farmer-d/logistics/688",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "f5ee5e552550da27": {
+  "category": "quote not verbatim",
+  "error": "quote not found verbatim in raw file",
+  "item": "williams-w3/sent_items/138",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "f7e8083967cf94f7": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "giron-d/sent/41",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "f888f24ad47e982a": {
+  "category": "quote too short or too long",
+  "error": "quote has 3 words (need 5-60)",
+  "item": "farmer-d/logistics/2081",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ },
+ "fda64dc0f9a51dd3": {
+  "category": "quote too short or too long",
+  "error": "quote has 4 words (need 5-60)",
+  "item": "farmer-d/logistics/1998",
+  "seen": "2026-10-23T12:33:40+00:00",
+  "stage": "quotes"
+ }
+}

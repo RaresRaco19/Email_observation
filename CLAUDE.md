@@ -27,6 +27,8 @@ The directory is not a git repo yet. The deliverable gets pushed to the user's o
 
 The run is unattended: `analyze.md` forbids asking the user and holds a recovery table that maps each `SystemExit` message ("run prepare first", "predates remedies", and so on) to the stage that fixes it. Subagents that write no output are re-launched once.
 
+Every `check-*` stage records what it rejected in `work/caught.json` (`observer/caught.py`), keyed by stage, item, content hash and error, so a re-check adds nothing. `build-dashboard` prints and shows the counts per category.
+
 A message id is its corpus path without the trailing dot, for example `farmer-d/logistics/880`. Every stage appends its timing to `work/run.log`.
 
 ## What is being built

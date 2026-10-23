@@ -1,6 +1,7 @@
 """Stage 7: render a single-file dashboard from out/report.json. Numbers come from the report verbatim."""
 import json
 
+from . import caught
 from .artifacts import artifact_errors, front_matter
 from .config import Paths
 from .solutions import design_done
@@ -22,11 +23,13 @@ def build(p: Paths) -> dict:
         artifacts[o["id"]] = {"type": fm.get("type"), "body": body, "path": o["artifact"]}
     designs = {o["id"]: read_json(p.out / "solutions" / f"{o['id']}.json")
                for o in report["opportunities"] if o.get("design") and design_done(p, o["id"])}
-    data = json.dumps({"report": report, "artifacts": artifacts, "designs": designs}, ensure_ascii=False).replace("</", "<\\/")
+    mistakes = caught.summary(p)
+    data = json.dumps({"report": report, "artifacts": artifacts, "designs": designs, "caught": mistakes}, ensure_ascii=False).replace("</", "<\\/")
     p.dashboard.mkdir(parents=True, exist_ok=True)
     (p.dashboard / "index.html").write_text(TEMPLATE.replace("__DATA__", data), encoding="utf-8")
     return {"dashboard": "out/dashboard/index.html", "opportunities": len(report["opportunities"]),
-            "designs_shown": len(designs), "artifacts_shown": len(artifacts), "artifacts_withheld_invalid": invalid}
+            "designs_shown": len(designs), "artifacts_shown": len(artifacts), "artifacts_withheld_invalid": invalid,
+            "caught": mistakes}
 
 
 TEMPLATE = r"""<!doctype html>
@@ -73,7 +76,7 @@ svg text{fill:var(--ink-2);font-size:11px}
 </style></head><body><div class="wrap" id="app"></div>
 <script type="application/json" id="data">__DATA__</script>
 <script>
-const {report:R, artifacts:A, designs:D} = JSON.parse(document.getElementById('data').textContent);
+const {report:R, artifacts:A, designs:D, caught:C} = JSON.parse(document.getElementById('data').textContent);
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const usd = n => '$' + Math.round(n).toLocaleString('en-US');
@@ -209,6 +212,8 @@ function coverage(){
   const f = Object.entries(G.files_by_folder).map(([k, v]) => `<tr><td>${esc(k)}</td><td class="num">${num(v)}</td></tr>`).join('');
   const rej = R.rejected.map(x => `<li>${esc(x.name)}: ${esc(x.reason)}</li>`).join('') || '<li class="muted">None</li>';
   const fb = (G.failed_batches || []).map(b => `<li>${esc(b.id)}: ${esc(b.errors.join('; '))}</li>`).join('') || '<li class="muted">None</li>';
+  const cr = Object.entries(C.by_stage).flatMap(([stage, cats]) => Object.entries(cats).map(([cat, n]) =>
+    `<tr><td>${esc(stage)}</td><td>${esc(cat)}</td><td class="num">${num(n)}</td></tr>`)).join('');
   return header() + `<div class="crumbs"><a href="#/">Overview</a> › Method &amp; coverage</div><div class="grid2">
   <section class="card"><h3 style="margin-top:0">Files read</h3><table><tbody>${f}<tr><td><b>Total</b></td><td class="num"><b>${num(G.files)}</b></td></tr></tbody></table>
     <p class="small muted">${G.duplicates_removed} duplicate copies removed → ${num(G.unique_messages)} unique messages in ${num(G.threads)} threads. ${num(G.messages_labeled ?? 0)} messages labeled by review agents; ${G.quotes_rejected ?? 0} quotes failed verbatim verification and were discarded.</p></section>
@@ -217,7 +222,9 @@ function coverage(){
     <li>A process ships only with ≥ ${R.assumptions.min_evidence} verified quotes in ≥ ${R.assumptions.min_threads} threads</li>
     <li>Monthly rate: each mailbox's messages over the period that mailbox was observed, summed across mailboxes</li>
 <li>Opportunities worth at least ${usd(R.assumptions.min_usd_month)}/month (at most ${R.assumptions.top_n}, by $/month) are shown and totalled; each gets a solution design (an automation, or the rollout of a quick win) and a draft built on it</li></ul>
-    <h3>Not shipped (too little evidence)</h3><ul class="small">${rej}</ul><h3>Failed batches</h3><ul class="small">${fb}</ul></section></div>`;
+    <h3>Not shipped (too little evidence)</h3><ul class="small">${rej}</ul><h3>Failed batches</h3><ul class="small">${fb}</ul></section>
+  <section class="card"><h3 style="margin-top:0">Caught by validators</h3><p class="small muted">Agent output rejected by code before it could reach this dashboard (rejected batches, designs and drafts were retried; dropped quotes are not counted as evidence).</p>
+    ${cr ? `<table><thead><tr><th>Stage</th><th>Mistake</th><th class="num">Count</th></tr></thead><tbody>${cr}<tr><td></td><td><b>Total</b></td><td class="num"><b>${num(C.total)}</b></td></tr></tbody></table>` : '<p class="small muted">None recorded.</p>'}</section></div>`;
 }
 
 async function message(id, q){

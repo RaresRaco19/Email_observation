@@ -8,7 +8,7 @@ only maps label names it has not seen before.
 import json
 from collections import Counter
 
-from . import config
+from . import caught, config
 from .config import Paths
 from .util import read_json, sha, write_json
 from .validate import label_schema_errors, quote_error
@@ -114,7 +114,9 @@ def check_labels(p: Paths) -> dict:
             ok.append(b["id"])
             continue
         # one attempt per distinct failing file content, so re-running this check is idempotent
-        fails = set(attempts.get(b["id"], [])) | {sha(label_file.read_text(encoding="utf-8"))}
+        h = sha(label_file.read_text(encoding="utf-8"))
+        caught.record(p, "labels", b["id"], fatal, version=h)
+        fails = set(attempts.get(b["id"], [])) | {h}
         attempts[b["id"]] = sorted(fails)
         entry = {"id": b["id"], "path": b["path"], "output": b["output"], "errors": fatal}
         (failed if len(fails) >= config.MAX_ATTEMPTS else retry).append(entry)
@@ -140,6 +142,7 @@ def check_labels(p: Paths) -> dict:
             m.update(status="rejected" if qerr else "valid", label=lab, batch_id=entry["batch_id"])
             if qerr:
                 m["reject_reason"] = qerr
+                caught.record(p, "quotes", m["msg_id"], [qerr], version=lab["quote"])
                 rejected.append({"msg_id": m["msg_id"], "process": lab["process"], "reason": qerr})
             elif lab["process"] != "none":
                 counts["process"] += 1
@@ -273,6 +276,9 @@ def check_process_map(p: Paths, salvage: bool = False) -> dict:
             errs = ["process_map_delta.json missing"] if delta is None else delta_errors(cdata["candidates"], existing_ids, delta)
         except ValueError as e:
             delta, errs = None, [f"invalid JSON: {e}"]
+        if errs:
+            caught.record(p, "process-map", "delta", errs,
+                          version=delta_path.read_text(encoding="utf-8") if delta_path.exists() else "")
         if errs and not salvage:
             return {"ok": False, "errors": errs}
         if errs:

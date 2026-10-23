@@ -6,6 +6,7 @@ each one passed with, so an unchanged opportunity is not redesigned on the next 
 """
 import json
 
+from . import caught
 from .artifacts import figure_errors
 from .config import Paths
 from .util import read_json, sha, write_json
@@ -115,6 +116,7 @@ def check(p: Paths) -> dict:
             missing.append(o["id"])
             continue
         errs = design_errors(p, o["id"])
+        caught.record(p, "designs", o["id"], errs, version=path.read_text(encoding="utf-8"))
         if errs:
             stamps.pop(o["id"], None)
             out.unlink(missing_ok=True)

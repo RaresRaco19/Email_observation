@@ -65,4 +65,4 @@ Run `python3 -m observer build-dashboard`. Unless `--no-serve` is in the argumen
 
 ## Final report
 
-Finish with a short summary taken only from the printed summaries and `work/run.log`: files read, unique messages, messages labeled, opportunities shipped (and how many were rejected), total $/month, solution designs validated, drafts written (by remedy), rejected quotes, failed batches (with reasons), every recovery applied (retries, re-launches, `--salvage`, errors that ended the run early), seconds per stage, and the dashboard URL.
+Finish with a short summary taken only from the printed summaries and `work/run.log`: files read, unique messages, messages labeled, opportunities shipped (and how many were rejected), total $/month, solution designs validated, drafts written (by remedy), rejected quotes, mistakes caught by validators (the `caught` counts that `build-dashboard` prints), failed batches (with reasons), every recovery applied (retries, re-launches, `--salvage`, errors that ended the run early), seconds per stage, and the dashboard URL.

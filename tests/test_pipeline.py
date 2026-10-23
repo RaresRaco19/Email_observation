@@ -2,7 +2,7 @@
 import json
 import unittest
 
-from observer import artifacts, config, labels, prepare, rank, solutions
+from observer import artifacts, caught, config, labels, prepare, rank, solutions
 from observer.util import read_json, write_json
 from observer.validate import quote_error
 from tests.helpers import TempCorpus, message
@@ -88,6 +88,19 @@ class PipelineTest(unittest.TestCase):
         self.assertEqual(len(s["retry_batches"]), 1)
         self.assertTrue(any("failed verbatim check" in e for e in s["retry_batches"][0]["errors"]))
         self.assertEqual(s["labels_valid"], 0)  # a batch awaiting its retry contributes nothing yet
+
+    def test_caught_mistakes_are_counted_once_per_attempt(self):
+        p = self.c.paths
+        self.write_labels(self.good_labels()[:-1])
+        labels.check_labels(p)
+        labels.check_labels(p)  # re-checking the same file adds nothing
+        self.assertEqual(caught.summary(p), {"total": 1, "by_stage": {"labels": {"message skipped": 1}}})
+        self.write_labels(self.good_labels()[:-2])  # a second attempt with the same mistake counts again
+        labels.check_labels(p)
+        self.assertEqual(caught.summary(p)["by_stage"]["labels"]["message skipped"], 2)
+        self.assertEqual(caught.category("x: quote has 3 words (need 5-60)"), "quote too short or too long")
+        self.assertEqual(caught.category("system 'SAP' is not mentioned in the evidence; put new tools in solution.components"),
+                         "system not named in the evidence")
 
     def test_process_description_written_once_reaches_candidates(self):
         p = self.c.paths
