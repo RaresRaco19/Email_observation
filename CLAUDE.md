@@ -41,7 +41,7 @@ An "observation agent" driven by Claude Code. One command must do all of the fol
 5. Draft usable artifacts (an SOP, an email, a checklist, or a template) for opportunities above a chosen threshold, and justify that threshold in `NOTES.md`.
 6. Serve a localhost dashboard with ranked opportunities, a running dollar total, and click-through from every number to its source message. It should be client-presentable.
 
-## Hard constraints (from README)
+## Hard constraints (from the assignment brief)
 
 - **No paid API calls.** Model work runs through Claude Code itself (subagents, skills, slash commands, hooks), not through an SDK with an API key.
 - A full unattended run finishes in **under 30 minutes**.

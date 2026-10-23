@@ -1,47 +1,48 @@
-# Build assignment: an observation agent
+# Email observation agent
 
-You are given a company's email archive. Build a system that reads all of it, works out where that company is losing time, proves every claim it makes, and puts the result on a dashboard. It should also act on what it finds rather than only describing it.
+This tool reads every message in an email archive (here, 3,240 Enron emails in `corpus/`) and finds the recurring work in it. It ranks the automation opportunities by dollars per month at $85/hour, and drafts an SOP, email, checklist or template for each of the top ones. A local dashboard shows the result, with every figure linked to the source email it came from.
 
-Claude Code is the runtime here. The thing you deliver runs inside it and is driven by it. That is the exercise.
+Claude Code runs the whole pipeline. Python handles everything that has to be exact: parsing, deduplication, the arithmetic, and checking that each quote appears verbatim in its source file. Subagents handle only the judgment calls, and code validates their output before it is used. See `NOTES.md` for the design and its trade-offs.
 
-## The corpus
+## Requirements
 
-A subset of the Enron email archive, 3,240 messages, at `corpus/` in this repo. It is raw. Some messages have no usable date. Some are duplicated. One is enormous. The formatting is inconsistent because it came off a real mail server in 2002.
+- Python 3.10 or later. It uses only the standard library.
+- [Claude Code](https://claude.com/claude-code), which needs a subscription but no API key.
 
-It is about thirty times larger than a single context window. Everything about this assignment follows from that.
+## Run
 
-## What it has to do
+Open Claude Code in the repo folder and run:
 
-One command, and the system:
+```
+/analyze
+```
 
-1. Reads every message in the corpus. Not a sample.
+A full run takes about 10 minutes. It ends by serving the dashboard at http://127.0.0.1:8765/. Running it again on an unchanged corpus reuses the cached results.
 
-2. Identifies the recurring processes at that company: the work that happens over and over, who touches it, how often, and where it stalls.
+| Option | Effect |
+|---|---|
+| `--max-batches 2` | quick end-to-end test |
+| `--no-serve` | build the dashboard without starting the server |
+| `--reconsolidate` | rebuild the process map from scratch |
+| `--force` | wipe the caches in `work/` and `out/` and start over |
 
-3. Ranks the automation opportunities. Each one carries an estimate of hours per month and dollars per month at a blended $85/hour.
+To view the results of an earlier run without running it again:
 
-4. Cites everything. Every process and every opportunity traces back to specific messages, each carrying a verbatim quote. A claim that cannot name its evidence does not ship. I will pull claims at random and check them against the raw files.
+```
+python3 -m observer serve
+```
 
-5. Acts. For the opportunities above a threshold you choose, produce a drafted artifact someone could use the next morning: a written SOP, a draft email, a checklist, a template. You decide what is worth producing, and you defend that decision in your notes.
+## Tests
 
-6. Serves a dashboard on localhost. Ranked opportunities, the running dollar total, and drill-through on every claim. If I cannot click a number and land on the message it came from, the dashboard is not finished. It should look like something I would put in front of a client president.
+The tests run without a model.
 
-## Constraints
+```
+python3 -m unittest discover -s tests -t .
+```
 
-- No paid API keys and no API spend, yours or mine. It runs on your Claude Code subscription. Wanting to buy tokens means the design went wrong somewhere.
-- A full run completes unattended in under 30 minutes.
-- Re-running against an unchanged corpus does not repeat finished work.
-- Anything that has to be exactly right is deterministic code rather than a model call. Parsing, deduplication, the hours and dollars arithmetic, citation validation, the server. I will check whether a model was left holding any of it.
-- Tests pass without invoking a model at all.
-- Python or TypeScript for the deterministic parts.
-- Everything runs locally.
+## Output
 
-## What to send back
-
-- The repo.
-- Your `.claude/` directory exactly as you used it. CLAUDE.md, subagents, skills, hooks, slash commands, settings, whatever you built.
-- `NOTES.md`, two pages at most. How you drove Claude Code. What you handed to subagents and why. How you budgeted their context. What you ran in parallel. Where Claude Code got it wrong and how you caught it before it reached the output. What you would build next with another week.
-- In those notes, tell me where your system is most likely to be wrong, and what it took on faith because you had no way to check it.
-- The output of one real run: the report, the dashboard, the run logs, and the drafted artifacts.
-
-Push all of it to your own repo and send me the link.
+- **`out/report.md`, `out/report.json`:** the ranked opportunities, with their arithmetic and the quotes that back them.
+- **`out/solutions/`, `out/artifacts/`:** the design and the drafted artifact for each opportunity shown.
+- **`out/dashboard/index.html`:** the dashboard.
+- **`work/run.log`:** how long each stage took. `work/caught.json` lists the agent mistakes that validation rejected.
