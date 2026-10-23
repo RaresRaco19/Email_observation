@@ -2,134 +2,137 @@
  "current_workflow": [
   {
    "citations": [
-    "williams-w3/sent_items/512",
-    "williams-w3/sent_items/502",
-    "williams-w3/sent_items/496",
-    "williams-w3/sent_items/466"
-   ],
-   "step": "Desk lead (Bill Williams) writes a free-form email to the shift group or shift.portland@enron.com giving the day's length or short: hub (NP-15/SP-15), hours (HE 7-22), MW, price, and the book (ST-WBOM, ST-CALI). The order and wording change from day to day.",
-   "who": "real-time desk lead"
-  },
-  {
-   "citations": [
-    "williams-w3/sent_items/466",
-    "williams-w3/sent_items/506",
-    "williams-w3/sent_items/496"
-   ],
-   "step": "Shift traders read the email and book the deals under the named book in Enpower. They check the position against CAPS and record ST-CALI sales or length in the service sheet beneath the desk's own activity.",
-   "who": "real-time shift traders"
-  },
-  {
-   "citations": [
-    "williams-w3/sent_items/463",
-    "williams-w3/sent_items/433",
-    "williams-w3/sent_items/434",
-    "williams-w3/sent_items/380"
-   ],
-   "step": "For one-off structures (APS losses, El Paso lending, PGE John Day to Malin transmission), the lead spells out the Enpower entries deal by deal: which deal number to reuse or price, which leg is priced at zero, and the annuity to ST-NW. Scheduling (Lisa) or deal entry (Kate) may already have made the tag or the Enpower deals.",
-   "who": "real-time desk lead, scheduling, deal entry"
-  },
-  {
-   "citations": [
-    "williams-w3/sent_items/506",
     "williams-w3/sent_items/449",
     "williams-w3/sent_items/444",
-    "williams-w3/sent_items/432"
+    "williams-w3/sent_items/386",
+    "williams-w3/sent_items/365"
    ],
-   "step": "Standing procedures go out as separate ad hoc emails mixed in with daily positions: hourly BPA checkout for Frontier and GCPUD with initials on the service sheet, CAISO price cap and wheeling fees, OASIS transmission paths, and using the Enpower swap function instead of annuities.",
+   "step": "A rule change or a new deal structure comes up (a FERC/CAISO ruling, a new transmission path, EPE lending, Sundance dispatch). The desk lead writes a free-form 'Group,' email to the shift traders that explains the procedure step by step.",
+   "who": "real-time desk lead (Bill Williams)"
+  },
+  {
+   "citations": [
+    "williams-w3/sent_items/432",
+    "williams-w3/sent_items/434",
+    "williams-w3/sent_items/338"
+   ],
+   "step": "Instructions that go with Enpower deal entry are sent one email at a time: use the swap function rather than annuities, use deal #146517 at zero price for PGE John Day to Malin, and a 7-step Enpower clean-up for Colstrip cuts.",
    "who": "real-time desk lead"
+  },
+  {
+   "citations": [
+    "williams-w3/sent_items/413",
+    "williams-w3/sent_items/471",
+    "williams-w3/sent_items/473"
+   ],
+   "step": "Deadlines and hand-offs to other desks are added by email as they arise: customer finals in CAPS or FSP by 3AM for volume management, copies of EES sheets and cut notes to the lead, a CAPS outage workaround through workspace.",
+   "who": "real-time desk lead, volume management, shift traders"
   },
   {
    "citations": [
     "williams-w3/sent_items/487",
-    "williams-w3/sent_items/471",
-    "williams-w3/sent_items/403"
+    "williams-w3/sent_items/408",
+    "williams-w3/sent_items/357"
    ],
-   "step": "When instructions are missed or change, the lead sends follow-ups and resends: schedule changes must be called in, copy the lead on EES sheets and cut notes, updated APX buys.",
-   "who": "real-time desk lead"
+   "step": "Shift traders carry out the procedures on shift: they call in schedule changes, call the CAISO for every outage, call Grays Harbor and Frontier every hour, report actuals to BPA and sign off the hour in the services book.",
+   "who": "shift traders (Portland shift desk)"
+  },
+  {
+   "citations": [
+    "williams-w3/sent_items/487",
+    "williams-w3/sent_items/444",
+    "williams-w3/sent_items/357",
+    "williams-w3/sent_items/380"
+   ],
+   "step": "When a procedure is missed or forgotten, the lead re-sends the earlier instruction as a reminder or escalation. Sometimes he drafts it for someone else to send.",
+   "who": "real-time desk lead, Kate Symes"
   }
  ],
  "effort": "S",
  "implementation_steps": [
-  "Collect the standing rules already scattered across the lead's sent emails (BPA checkout, service sheet placement, ST-CALI logging, schedule-change call-ins, EES and cut note copies, losses to APS, PGE John Day to Malin, EPE lending, Enpower swap function, CAISO price cap and fee components, OASIS path notes) and write each as a numbered checklist item.",
-  "Have the shift traders review the draft checklist in the next real-time meeting, then publish it in one shared location next to the service sheet and preschedule sheet.",
-  "Build the position notice template with the fixed fields, with one row per position and a special-handling column that refers to checklist item numbers.",
-  "Starting on a set date, the desk lead sends every position notice from the template to shift.portland@enron.com, and sends corrections as reissued notices marked v2/v3.",
-  "Shift traders confirm each row against Enpower and CAPS and initial it on the service sheet, the same way they already initial the hourly BPA checkout.",
-  "Each time a rule changes, edit the checklist item, add a change-log line, and mention the item number in the next notice. After one month, check whether any separate reminder emails were still needed."
+  "Collect the lead's past 'Group,' instruction emails and the attached cut sheet, and sort each rule into the sections Enpower deal entry, Cuts, CAISO, Hourly checkouts, Nightly deadlines, Distribution and Special dispatch.",
+  "Write each rule as a numbered checklist item in imperative form, keeping exact deal numbers, books and step order from the source email (for example the 7 Colstrip steps and deal #146517), with a source-email date.",
+  "Have the lead review the draft and remove rules that no longer apply, such as short-dated lending or Sundance coverage, marking time-limited items with an expiry date.",
+  "Put the checklist in one shared location the shift desk opens at the start of every shift, and print the one-page start-of-shift checklist for the desk.",
+  "Set up the 'Procedure change' email template and send the first one to the shift group, announcing the checklist and asking each trader to acknowledge it.",
+  "From then on, when a trader asks about a covered rule or misses a step, reply 'see section X' and update the section when the answer changes.",
+  "Review the change log and any repeated misses at the weekly real-time meeting, and retire or clarify items as needed."
  ],
  "opportunity": "realtime_desk_instructions",
  "risks": [
-  "The evidence comes from one mailbox (williams-w3), so how shift traders actually use CAPS and the service sheet is only seen through the lead's emails. Validate the checklist with the traders before rollout.",
-  "A stale checklist could mislead traders on price caps or deal numbers. Mitigate with a dated change log and by quoting the item number in each notice.",
-  "The savings are small (about $114 a month), so the case rests as much on fewer booking errors and swap disputes as on time saved. That benefit is not quantified in the evidence.",
-  "Traders may keep working from old emails. Mitigate by announcing that only template notices and the current checklist are authoritative."
+  "The checklist goes stale if the lead keeps emailing rules without editing it. Mitigation: every change email must name a section, and the meeting reviews the change log.",
+  "Traders may not open it during busy hours. Mitigation: keep the start-of-shift page to one sheet and ask for acknowledgements on changes.",
+  "The evidence covers only one mailbox (williams-w3) and shows instructions sent, not how often traders actually look them up or miss them. The saving rests on the lead's handling time (about $76 per month) and may be understated if the reminders avoid penalties or disputes.",
+  "The emails do not say where shared documents live for the desk, so the hosting location has to be agreed with the team. Choosing a place traders do not use would defeat the fix.",
+  "Some instructions are time-limited (lending for specific dates, Sundance dispatch for July 19-22). Mixing them with standing rules could mislead. Mitigation: expiry dates on such items."
  ],
  "solution": {
-  "approach": "Two artifacts replace free-form writing. The first is a fixed position notice template that the desk lead fills in each afternoon for the next flow day. It has one row per position with fields for date, long/short, hub (NP-15/SP-15), hours (HE range), MW, price, book (ST-WBOM, ST-CALI, ST-Whourly) and the Enpower deal number(s) if already made. It also has a line saying where the entry goes (CAPS line, service sheet section) and a 'special handling' line that points to a numbered checklist item, not a re-explanation. The second is a standing Real-Time Shift Procedures checklist kept as a single document with numbered items. Items cover booking position deals under the named book in Enpower and matching CAPS, logging ST-CALI activity beneath desk activity on the service sheet, hourly BPA checkout for Frontier and GCPUD with initials, calling in schedule changes, copying the lead on EES sheets and cut notes, losses deals (buy from EPE, sale to APS at zero), PGE John Day to Malin on the standing deal, EPE lending, the Enpower swap function and CAISO wheeling fee components. When a rule changes, the lead edits the checklist item and the next notice carries a one-line 'Checklist updated: item N' instead of a full new email. Corrections go out as a reissued notice with a version marker ('v2 replaces v1'), not as a loose follow-up.",
+  "approach": "Gather the standing instructions from the lead's 'Group,' emails into one Real-Time Desk Procedures checklist with fixed sections. Enpower deal entry covers swaps, the PGE John Day to Malin deal and book assignment for lending. Cuts covers the general cut sheet and the Colstrip steps. Then come CAISO rules (price cap practice, outage calls, wheeling fee items), hourly checkouts (Grays Harbor and Frontier, BPA, services book sign-off), nightly deadlines (customer finals in CAPS or FSP by 3AM) and distribution (who is copied on EES sheets and cut notes). Each section has an owner and a 'last changed' date. A short start-of-shift checklist taken from it is ticked by the incoming trader. When a rule changes, the lead edits the section and sends a fixed 'Procedure change' email: what changed, the section, the effective date, and 'acknowledge by reply'. The free-form explanation is no longer written each time. Reminders become 'see section X', and the weekly real-time meeting reviews only the change log.",
   "components": [
-   "position notice email template (saved Outlook template or signature block) with fixed fields: date, long/short, hub, HE range, MW, price, book, Enpower deal #, CAPS line, special handling item #, version",
-   "Real-Time Shift Procedures checklist with numbered items and a change log",
-   "standing distribution list rule: notices go to shift.portland@enron.com with the lead and services desk copied"
+   "Real-Time Desk Procedures checklist with sectioned, dated entries and an owner per section",
+   "start-of-shift checklist (hourly checkouts, 3AM customer finals, outage calls, copy list)",
+   "'Procedure change' email template with section reference and acknowledgement line",
+   "change log of procedure edits"
   ],
   "inputs": [
-   "next-day long/short positions by hub, hours, MW, price and book",
-   "Enpower deal numbers already created by deal entry or scheduling",
-   "CAPS position line",
-   "changes to standing procedures (BPA checkout, losses, lending, swaps, CAISO fees)"
+   "the lead's existing procedure emails to the real-time group",
+   "the attached cut procedure sheet",
+   "deadlines set by volume management and the services desk",
+   "CAISO and BPA requirements relayed by the lead"
   ],
   "outputs": [
-   "daily position notice in a fixed format for the real-time shift traders",
-   "a numbered Real-Time Shift Procedures checklist the shift uses on every shift",
-   "a short 'checklist updated: item N' line when a rule changes"
+   "one maintained Real-Time Desk Procedures checklist for shift traders",
+   "a start-of-shift checklist ticked by the incoming trader",
+   "short 'Procedure change' notices pointing to the changed section, with trader acknowledgements",
+   "a change log reviewed at the real-time meeting"
   ],
   "systems": [
    "Enpower",
    "CAPS",
-   "service sheet",
-   "preschedule sheet",
-   "shift.portland@enron.com"
+   "FSP",
+   "services book",
+   "dispatch log"
   ],
-  "trigger": "The desk lead's daily close of next-day positions (length or short in the BOM or ST-CALI books), plus any change to a standing real-time procedure."
+  "trigger": "A new or changed desk rule (market ruling, new deal structure, new customer service, missed procedure or outside escalation), plus the start of every shift for the start-of-shift checklist"
  },
  "stall_points": [
   {
-   "citation": "williams-w3/sent_items/487",
-   "description": "Standing rules sit inside individual emails, not in one place the shift can look up, so the lead has to re-send and remind.",
-   "quote": "These schedule changes must be called in.  Just a reminder."
-  },
-  {
    "citation": "williams-w3/sent_items/444",
-   "description": "A procedure already circulated by another trader is resent in full because no shared reference exists.",
+   "description": "Instructions already sent are lost in inboxes and have to be sent again. Nothing points to a single current version.",
    "quote": "Ryan sent this email out once already, here it is again."
   },
   {
+   "citation": "williams-w3/sent_items/487",
+   "description": "The lead has to remind the shift desk of a standing rule because it is not written down where traders look during a shift.",
+   "quote": "These schedule changes must be called in.  Just a reminder."
+  },
+  {
    "citation": "williams-w3/sent_items/471",
-   "description": "Distribution rules for EES sheets and cut notes are not followed, so the lead sends a correction.",
+   "description": "Who to copy on hand-offs is not standardised, so the lead goes uncopied and has to re-send the distribution rule.",
    "quote": "I should be copied on the EES sheets, and any cut notes to volume managament, the services desk, or other traders."
   },
   {
-   "citation": "williams-w3/sent_items/403",
-   "description": "Position updates arrive in pieces in follow-up emails, so traders have to piece the current position together from several messages.",
-   "quote": "We have also bought HE 21 and HE 22 from the APX."
+   "citation": "williams-w3/sent_items/357",
+   "description": "Inconsistent hourly generator checkouts led to a customer escalation from BPA, which then needed a full procedure email to fix.",
+   "quote": "Warren explained to me the necessity and importance of calling in and reporting the actual amount of energy generated by Grays Harbor and Frontier EVERY hour."
   },
   {
    "citation": "williams-w3/sent_items/432",
-   "description": "Deal-entry rules that are explained only in passing lead to booking errors and long disputes afterward.",
+   "description": "Swaps entered the wrong way in Enpower cause long downstream disputes, and the fix arrives only as one email.",
    "quote": "Swaps have caused disputes that have dragged on for months in the past, so call me with any questions."
   },
   {
-   "citation": "williams-w3/sent_items/506",
-   "description": "Where the service sheet should record things changes by email, and every trader has to remember the change.",
-   "quote": "Going forward, please put all the ST-CALI sales or length in the service sheet beneath our activity."
+   "citation": "williams-w3/sent_items/413",
+   "description": "A nightly deadline from volume management reaches the desk as a forwarded email, not as a fixed shift task.",
+   "quote": "Volume management needs us to create customer finals by 3AM each night in CAPS or FSP."
   }
  ],
  "stays_manual": [
-  "Deciding the position itself (how much length to carry, price, which book) stays with the desk lead because it is a trading judgment.",
-  "One-off structures not yet in the checklist (for example a new lending arrangement) still need a written explanation the first time. They become checklist items only once they recur.",
-  "Professional conduct issues and meeting announcements are not procedure and stay as normal email.",
-  "Traders still make the real-time calls (BPA checkout, EPE dispatchers, calling in schedule changes). The checklist reminds them but cannot make the call."
+  "Judging trading strategy (dec bids, buy-backs, buying over the cap for reliability) stays with the lead and traders, because it depends on live market conditions.",
+  "Handling escalations from counterparties such as BPA, and conduct issues, needs the lead's direct involvement.",
+  "Deciding books and deal numbers for new one-off structures (lending with EPE, new transmission paths) is a trading decision. The checklist only records the result.",
+  "The phone calls themselves (to CAISO, generators, BPA, the power pool) are still made by the shift trader. The checklist tells them when and what to record."
  ],
- "success_metric": "Count of separate reminder, correction or resend emails from the desk lead to the shift group per month (for example 'just a reminder', 'one more time', 'here it is again') after rollout compared with before, plus the share of position emails sent in the template format.",
- "summary": "The real-time desk lead writes a fresh free-form email to the shift traders almost every day. Each one gives that day's long or short position (hub, hours, MW, price, book) and often restates a standing rule about Enpower, CAPS, the service sheet, losses or lending, and some of these get resent or corrected. Two fixes would make the emails predictable and stop the repeats: a fixed position notice template and one standing real-time procedures checklist that the notices link to. Together they are worth about $114 a month ($1,368 a year) in the lead's handling time, and they lower the risk of deals being booked wrong."
+ "success_metric": "Number of reminder or re-sent procedure emails from the desk lead to the shift group per month (target: near zero), and the share of shifts with a completed start-of-shift checklist",
+ "summary": "The real-time desk lead re-teaches standing procedures by group email: Enpower swap entry, Colstrip cut clean-up, PGE transmission deal use, customer finals in CAPS or FSP, hourly generator checkouts for BPA, CAISO outage calls. Some of these emails are resent after they are missed. The fix is one maintained Real-Time Desk Procedures checklist, plus a short start-of-shift checklist and a fixed 'procedure change' email template that points to it. Traders then have one current reference, and the lead edits a section instead of re-sending or re-explaining the rule, worth about $76 per month ($912 per year) at $85/hour."
 }

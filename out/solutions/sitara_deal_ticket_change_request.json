@@ -1,0 +1,154 @@
+{
+ "current_workflow": [
+  {
+   "citations": [
+    "farmer-d/logistics/765",
+    "farmer-d/logistics/789",
+    "farmer-d/logistics/679",
+    "farmer-d/logistics/1082"
+   ],
+   "step": "A requester emails the desk asking for a new deal ticket, often with the counterparty, meter, volume and price typed as loose text and sometimes with only a one-line ask",
+   "who": "producer services / traders / volume management"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/748",
+    "farmer-d/logistics/965",
+    "farmer-d/logistics/1200",
+    "farmer-d/logistics/5"
+   ],
+   "step": "Other requests ask to change an existing deal: bring expected volume to zero, cut a deal off going forward, change pricing, or zero a deal out instead of killing it so Unify paths are not broken",
+   "who": "volume management / storage / accounting"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/789",
+    "farmer-d/logistics/1082"
+   ],
+   "step": "The desk enters or changes the ticket in Sitara and, when asked, replies with the Sitara number. Coordinated entries such as a purchase plus a matching sale to the Storage Book have to land on the same day",
+   "who": "logistics desk (Daren Farmer, Tom Acton)"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/1144"
+   ],
+   "step": "Monthly transport usage tickets are rolled forward with refreshed rates and zeroed volumes, and schedulers are told to check that volumes show correctly in Position Manager",
+   "who": "transport rates / schedulers"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/673",
+    "farmer-d/logistics/102",
+    "farmer-d/logistics/12"
+   ],
+   "step": "At month start or at close, unpathed or unassigned deals are found and the desk is asked who owns them and whether the deal has been entered",
+   "who": "volume management / scheduler / accounting"
+  },
+  {
+   "citations": [
+    "farmer-d/logistics/59",
+    "farmer-d/logistics/1299",
+    "farmer-d/logistics/1200"
+   ],
+   "step": "When the request was incomplete, a change was made without telling anyone, or nothing was confirmed, requesters send follow-ups and supervisors escalate",
+   "who": "requesters / logistics supervisor (Pat Clynes)"
+  }
+ ],
+ "effort": "S",
+ "implementation_steps": [
+  "Collect the fields that requests in the evidence actually carry (counterparty, meter, volume, price formula, deal number, book, same-day linked entries, reason) and draft the template with request-type checkboxes: new, change volume, change price, zero out, cut off.",
+  "Add the 'zero out, do not kill, when Unify paths exist' rule and a required reason line to the template.",
+  "Write the confirmation reply, which returns the Sitara deal number, the effective date and what changed, copies volume management for volume or path changes, and asks requesters to send EOL deal changes to the desk the same day.",
+  "Write the one-line incomplete-request reply that links to the template.",
+  "Draft the month-start checklist: roll transport usage tickets, list unpathed pipes and give each one an owner, and have schedulers check volumes in Position Manager.",
+  "Review the drafts with the logistics supervisor and the main requesting groups (producer services, storage, volume management, settlements), then store them in a shared location the desk can reach.",
+  "Announce the template by email to frequent requesters. For two weeks the desk answers free-form requests with the template attached, then moves to the incomplete-request reply.",
+  "After one month, count follow-up and 'have you had a chance' emails on deal requests and compare with the baseline."
+ ],
+ "opportunity": "sitara_deal_ticket_change_request",
+ "risks": [
+  "Requesters may ignore the template and keep sending one-line asks. Mitigation: the desk replies consistently with the template, and the supervisor backs the rule.",
+  "The evidence does not show which email client or shared drive the desk uses, so where the template lives must be confirmed with the desk before rollout.",
+  "The value is small ($58 per month), so rollout effort must stay at a few days. A heavier tool is not justified by this evidence.",
+  "Some stalls come from capacity or ownership gaps (unassigned pipes, people out of the office), not missing fields. A template will not fix those, so the checklist only makes them visible.",
+  "EOL deal changes start outside the email request flow. The template can ask for notification but cannot enforce it."
+ ],
+ "solution": {
+  "approach": "Publish one 'Sitara deal request' email template that every requester must use for new tickets, changes, zero-outs, cut-offs and price changes. It has fixed fields: request type, existing Sitara deal number (for changes), counterparty, meter, start and end date, volume, price or pricing formula, book (for example Storage Book), linked entries that must go in the same day, and the reason. The template states the desk rule that deals are zeroed out, not killed, when paths exist in Unify. The desk keeps a matching confirmation reply that returns the new or changed Sitara deal number, the effective date and what was changed, and copies volume management when volumes or paths are affected. Requests missing required fields get a one-line canned reply pointing back to the template, not an ad-hoc question thread. A short month-start checklist covers rolling transport usage tickets, assigning unpathed pipes and checking volumes in Position Manager.",
+  "components": [
+   "Sitara deal request email template (Outlook/Lotus stationery or a shared document)",
+   "desk confirmation reply text returning the Sitara deal number",
+   "canned incomplete-request reply",
+   "month-start rollover checklist (transport usage tickets, unpathed pipes, Position Manager volume check)",
+   "shared folder or mailbox rule that files template-subject requests together"
+  ],
+  "inputs": [
+   "requester's completed template fields (request type, deal number, counterparty, meter, dates, volume, price, book, reason)",
+   "the existing deal in Sitara for change requests",
+   "the list of pipes and deals not yet pathed at month start"
+  ],
+  "outputs": [
+   "Sitara deal request template for traders, producer services, storage and accounting",
+   "a confirmation reply to the requester with the Sitara deal number and the change made, copying volume management",
+   "a canned 'incomplete request' reply",
+   "a month-start deal rollover checklist for the desk and schedulers"
+  ],
+  "systems": [
+   "Sitara",
+   "Unify",
+   "Position Manager",
+   "EOL"
+  ],
+  "trigger": "An incoming email asking the logistics desk to create, change, zero out, cut off or reprice a Sitara deal, and the first business day of each month for the rollover checklist"
+ },
+ "stall_points": [
+  {
+   "citation": "farmer-d/logistics/748",
+   "description": "Zero-out requests are sent as a list in an earlier email with no confirmation per deal, so the requester has to chase the deals still open",
+   "quote": "Wanted to let you know that there are still two sitara deals that need to"
+  },
+  {
+   "citation": "farmer-d/logistics/1200",
+   "description": "A pricing change waits on the desk while the counterparty keeps calling and the requester has no status to give them",
+   "quote": "Duke has called me several times they want to get our March deals finalized."
+  },
+  {
+   "citation": "farmer-d/logistics/12",
+   "description": "Deal entry for a storage sale is still not confirmed as close approaches, so accounting has to ask who did it",
+   "quote": "Have the two of you been able to get the deal in for the sale of the Centana storage to AEP?"
+  },
+  {
+   "citation": "farmer-d/logistics/5",
+   "description": "Deals are killed instead of zeroed, which breaks paths downstream and leads to a corrective request and a question about the reason",
+   "quote": "If a deal is killed it poses a problem for us in Unify if there are any paths associated with the deal; therefore, we request the deals be zeroed out."
+  },
+  {
+   "citation": "farmer-d/logistics/1299",
+   "description": "An EOL deal volume was changed after hours and the change was never sent to the desk, so the supervisor had to escalate",
+   "quote": "I got a call on Friday evening about this"
+  },
+  {
+   "citation": "farmer-d/logistics/673",
+   "description": "At the month rollover, deals are left unpathed and unassigned, and someone else has to path them from prior-month activity and ask who owns them",
+   "quote": "All Deals with the exception of the long term Transport Expense were left"
+  },
+  {
+   "citation": "farmer-d/logistics/102",
+   "description": "Months-old deals are found still unpathed long after the fact",
+   "quote": "It doesn't look like it's been pathed for HPL and CHAN."
+  },
+  {
+   "citation": "farmer-d/logistics/965",
+   "description": "A cut-off request arrives as a forward with the reason buried in someone else's message, so no effective date or reason is stated",
+   "quote": "Can you cut off deal 47472 going forward? I am forwarding the message from"
+  }
+ ],
+ "stays_manual": [
+  "Entering and changing the ticket in Sitara itself. That is the desk's judgment on deal structure, rates and paths.",
+  "Deciding whether an unclear or old deal (for example suspended payments on a former trader's deals) should be changed at all. This needs research and judgment.",
+  "Assigning ownership of unpathed or unassigned pipes at the month rollover. That is a staffing decision for the supervisor.",
+  "Handling rate questions where no contract covers the transaction. Legal and commercial judgment is needed."
+ ],
+ "success_metric": "Share of Sitara deal request threads that need a follow-up or clarification email before the desk confirms a deal number, measured monthly against the pre-rollout baseline",
+ "summary": "Traders, producer services, storage and accounting staff ask the logistics desk (mostly Daren Farmer) in free-form email to create, change, zero out or cut off Sitara deal tickets. These requests often leave out the deal number, meter, effective date or reason, and are then chased with follow-ups for days. The fix is a standard Sitara deal request template that requesters fill in, plus a matching confirmation reply that sends back the deal number. This removes the clarification and 'have you had a chance' rounds. The process is valued at $58 per month ($696 per year) at $85 per hour, so this is a low-cost hygiene fix, not a system build."
+}

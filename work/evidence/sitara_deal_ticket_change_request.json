@@ -1,0 +1,306 @@
+{
+ "allowed_figures": [
+  "$58",
+  "$696",
+  "$85"
+ ],
+ "allowed_types": [
+  "reply",
+  "checklist",
+  "template"
+ ],
+ "messages": [
+  {
+   "date": "2000-01-11T19:38:00+00:00",
+   "from": "mandy.mackinnon@enron.com",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/673",
+   "new_text": "Here is a followup to the memo sent on 12/31/99.  FYI\n\n\nEnron Field Services   -  Has not been nominated since September 99.  Have we \nstopped doing business on this pipe?  (Just an FYI - ?)  Do we need to get \nthis assigned?  I can find old\n   notes and try to get this pathed if necessary.  Someone just needs to let \nme know. Unresolved - appears to be unassigned?\n\nLavaca Expense Transport -  This is offsystem gas that HPLC Transports for \nENA.  ENA has no nom at meter 1000 in Pops for Jan 1. Unresolved\n\nMidCon Texas Pipeline   -  There were deals left unpathed for Jan 1 (and \nDec?).  I brokered and nominated the obvious but we seem to have 10,000 with \ntransport contract to move this    gas on and no sale to broker to.  As it \nstands, it looks like we have a long position.  Who is this assigned to?  I \nthought Carlos was handling this one, but I could    be wrong.  Unresolved\n\nChannel Industries Pipeline  -  Several issues here:\n\n 1. All Deals with the exception of the long term Transport Expense were left \nunpathed for Jan 1.  I viewed prior month transactions and pathed \nappropriately.  Someone\n  needs to review for accuracy. Also, there were deals that went to zero, \nthat were nominated for January.  Resolved but needs to be verified.\n\n 2. We still do not have enough supply to meet our sales requirement.  This \nissue has been left unsresolved since October 99.  Volume Management cannot \nallocate was is\n  not pathed and nominated.  Unresolved or Unpathed?\n\n 3. There is a transaction for January that is once again not on our point \nspecific transport contracts.  (Rec Mtr 1-6366 10,000 to Del Mtr 2-6203 \n10,000).  This is a pathed pipeline. We have no rate.  We need to know the \nrate and whether one of the expense contracts needs to be amended for this \ntransaction, we are not legally covered.  Carlos was handling this pipe in \nDec.  Who is this assigned to for Jan? Unresolved\n\nHPL Operational -  This Shipper on HPL has been left unpathed for December \nand January 1.  Who is this assigned to?  This can wait until we get back \nnext week.  If it is left     unresolved, I will get it pathed when I return. \nI haven't had time to do this yet.  If we haven't figured out the assignement \nthen I will get to it asap.",
+   "quote": "There were deals left unpathed for Jan 1 (and Dec?). I brokered and nominated the obvious but we seem to have 10,000 with transport contract to move this gas on and no sale",
+   "stall": true,
+   "subject": "Unresolved Issues for Jan 1.- Followup",
+   "thread_id": "te6228ce818",
+   "to": [
+    "pat.clynes@enron.com",
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-01-12T10:27:00+00:00",
+   "from": "kimberly.vaughn@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/679",
+   "new_text": "Daren.  I need a deal ticket for this.",
+   "quote": "Daren. I need a deal ticket for this.",
+   "stall": false,
+   "subject": "Re: Sales to PanEnergy at Exxon Clear Lake for 2/99",
+   "thread_id": "t07bcf69d82",
+   "to": [
+    "daren.farmer@enron.com",
+    "anita.luong@enron.com"
+   ]
+  },
+  {
+   "date": "2000-02-03T10:13:00+00:00",
+   "from": "jackie.young@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/748",
+   "new_text": "Daren,\n\nWanted to let you know that there are still two sitara deals that need to \nhave the expected volume brought down to \"0\" of the list that I previously \nsent you.\nThey are 114099 and 92918.\n\nI appreciate you revising the ones that you have and you probably were going \nto handle the above two today.  In case you were please disregard this \nnotice.  If you had fogotten, this can serve as reminder.\n\nAs usual, thanks for your help.\n\n-Jackie-\n3-9497",
+   "quote": "there are still two sitara deals that need to have the expected volume brought down to \"0\" of the list that I previously sent you.",
+   "stall": true,
+   "subject": "Re: 98-3405 Activity Being Allocated/Nomed @ 98-9643",
+   "thread_id": "t02ae1b9c56",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-02-08T09:31:00+00:00",
+   "from": "vance.taylor@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/765",
+   "new_text": "Tom,\n\nThe Doehrman #1 well came on line for first delivery on Monday, 2/7/00 at \n11:45am.  The contract calls for intra-month pricing for deliveries that \ncommence after the first day of the month.  Please create a one month \nbaseload firm deal ticket for the remaining days of the month based on the \nfollowing information:\n\n\n\nCounterparty    Meter   Volume   Price\n\nUnion Gas Operating Company  9825   500mmbtu/d   100% Gas Daily less $0.10\n\n\nSusan will create a committed reserves firm ticket for the remaining term of \nthe deal once our geologists have gathered enough data to forecast the \nreserves of this well; at such time, we will request that this ticket be \nzeroed out.\n\nIf you have any questions or concerns, please give me a call.\n\nThanks,\n\nvlt\nx3-6353",
+   "quote": "Please create a one month \nbaseload firm deal ticket for the remaining days of the month based on the \nfollowing information:",
+   "stall": false,
+   "subject": "Union Gas - Doehrman #1",
+   "thread_id": "t90ce1ee2f3",
+   "to": [
+    "tom.acton@enron.com"
+   ]
+  },
+  {
+   "date": "2000-02-14T16:09:00+00:00",
+   "from": "susan.smith@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/789",
+   "new_text": "Lindholm Oil , Inc.  6575   500 MMbtu/d   100% Gas Daily less $.15\n\nI will create a committed reserves ticket for the remaining term of the deal \nonce our geologists have gathered enough data to forecast the reserves of \nthis well, at such time, we will request that this ticket be zeroed out.\n\nPlease supply the sitara number once entered.  If you have any questions, \nplease give me a call.\n\nSusan x 33321",
+   "quote": "Please supply the sitara number once entered.",
+   "stall": false,
+   "subject": "Lindholm Oil , Inc.",
+   "thread_id": "tcf6208be49",
+   "to": [
+    "tom.acton@enron.com"
+   ]
+  },
+  {
+   "date": "2000-03-27T09:28:00+00:00",
+   "from": "karie.hastings@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/965",
+   "new_text": "Julie:\n\nCan you cut off deal 47472 going forward? I am forwarding the message from \nTommy Yanowski. Let me know if this is a problem.\n\nThanks, Karie (36759)",
+   "quote": "Can you cut off deal 47472 going forward?",
+   "stall": true,
+   "subject": "Re: Storage Deal 47472 and 60747",
+   "thread_id": "t31c99acad5",
+   "to": [
+    "julie.meyers@enron.com"
+   ]
+  },
+  {
+   "date": "2000-05-01T11:02:00+00:00",
+   "from": "kenny.soignet@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/1082",
+   "new_text": "The Storage Book book will purchase 788,354 mmbtu's from Cannon Interest on \nMay 1, 2000 @ $3.08.\nDaren- Please enter Texas purchase from Cannon Interest and a Texas sale to \nthe Storage Book in the sitara.\nGeorge and Aimee-  Please coordinate with Daren so your entries are entered \non the same day.\nMary- The contract agreement, I assume, is already in place. \nLisa, Rita, & Stephanie-  Please be sure the payment of  $2,428,130.32 is \nwired to Cannon Interest @ the corrected ABA on May 20th.\n\nIf I missed anyone who needs this information, please forward it.\n\nThanks,\n\nKenny",
+   "quote": "Please enter Texas purchase from Cannon Interest and a Texas sale to the Storage Book in the sitara.",
+   "stall": true,
+   "subject": "Cannon Interest May 2000 Purchase",
+   "thread_id": "ta58dcdf11d",
+   "to": [
+    "lisa.csikos@enron.com",
+    "stephanie.gomes@enron.com",
+    "daren.farmer@enron.com",
+    "mary.smith@enron.com",
+    "david.baumbach@enron.com"
+   ]
+  },
+  {
+   "date": "2000-05-24T18:27:00+00:00",
+   "from": "heidi.withers@enron.com",
+   "kind": "report",
+   "msg_id": "farmer-d/logistics/1144",
+   "new_text": "I updated the June transport usage tickets today through HPL, and will be \nfinishing these tickets tomorrow.  Rates have been updated to reflect current \nmatrix rates and all baseload rates that I know of at this time.  I have not \nyet received third party transport rates, so if you know of any, please let \nme know.  Also, I have zeroed out some volumes on some tickets for June, so \nyour schedulers will have to update volumes as they know them.  Rule of thumb \nwas that if I had to add a month, I refreshed the rate but left volume at \nzero.  If the months were already on the ticket, then I refreshed the rate \nand left the volume as is.\n\nI would advise that your schedulers check volumes on all pipes to ensure \nthey're reflected in Position Manager correctly.  Please let me know if you \nhave any questions.  All pipes will be updated by tomorrow morning.\n\nHeidi",
+   "quote": "I updated the June transport usage tickets today through HPL, and will be finishing these tickets tomorrow.",
+   "stall": true,
+   "subject": "June Transport Usage Tickets",
+   "thread_id": "t9e714c371a",
+   "to": [
+    "david.baumbach@enron.com",
+    "pat.clynes@enron.com",
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-06-12T13:29:00+00:00",
+   "from": "katherine.herrera@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/1200",
+   "new_text": "Daren-\nHave you had a chance to change the pricing in the system? \nDuke has called me several times they want to get our March deals finalized.\nI am not sure what I should tell them.  \nThanks-",
+   "quote": "Duke has called me several times they want to get our March deals finalized.",
+   "stall": true,
+   "subject": "PanEnergy Marketing March 2000 Production",
+   "thread_id": "tc402d7406a",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2000-07-24T12:30:00+00:00",
+   "from": "pat.clynes@enron.com",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/1299",
+   "new_text": "Mary,\nPlease be careful of EOL deals.  I got a call on Friday evening about this \ndeal being changed but you had already left.\nIt is a deal with Aquila and the volume was changed.  Please check on this \nand communicate all changes  to Daren.  \n\nThanks,  Pat",
+   "quote": "Please be careful of EOL deals. I got a call on Friday evening about this deal being changed but you had already left.",
+   "stall": true,
+   "subject": "Deal # 339693 EOL Waha",
+   "thread_id": "t02075217ab",
+   "to": [
+    "mary.poorman@enron.com"
+   ]
+  },
+  {
+   "date": "2000-10-02T17:19:00+00:00",
+   "from": "cynthia.hakemack@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/1438",
+   "new_text": "Daren, There are five HPLC purchase deals for 09/99 from Ocean Energy Inc.  \nThey were Craig Falbaum's deals.  A person who is no longer in my group \nsuspended payment for these deals.  Gary suggested that I contact you and see \nif you have any insight as to why the deals might have been suspended, or \nknow anything that might help.  Thanks.",
+   "quote": "They were Craig Falbaum's deals.  A person who is no longer in my group",
+   "stall": false,
+   "subject": "HPLC/Ocean Energy Inc. 09/99 Purchase",
+   "thread_id": "t314e992dc3",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-29T21:47:25+00:00",
+   "from": "g..barkowsky@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/102",
+   "new_text": "Daren - what about February 2000?  It doesn't look like it's been pathed for HPL and CHAN.\nPlease let me know.  Thanks, Gloria",
+   "quote": "what about February 2000? It doesn't look like it's been pathed for HPL and CHAN.",
+   "stall": true,
+   "subject": "RE: EPGT",
+   "thread_id": "t76e1ab7423",
+   "to": [
+    "j..farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2001-09-14T18:19:31+00:00",
+   "from": "sherlyn.schumack@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/59",
+   "new_text": "Have you had a chance to look at this yet?",
+   "quote": "Have you had a chance to look at this yet?",
+   "stall": true,
+   "subject": "FW: Black Marlin",
+   "thread_id": "t222b9783a8",
+   "to": [
+    "michael.olsen@enron.com"
+   ]
+  },
+  {
+   "date": "2001-12-11T14:07:33+00:00",
+   "from": "rita.wynne@enron.com",
+   "kind": "followup",
+   "msg_id": "farmer-d/logistics/12",
+   "new_text": "Mike/Stephen,\n\nHave the two of you been able to get the deal in for the sale of the Centana storage to AEP?  Please advise.  I would like to have this completed for this close if possible.\n\nDaren - if you are not aware of this transaction, please let me know.  Thanks!",
+   "quote": "Have the two of you been able to get the deal in for the sale of the Centana storage to AEP?  Please advise.",
+   "stall": true,
+   "subject": "Centana Storage Deal",
+   "thread_id": "tabffa6e124",
+   "to": [
+    "michael.olsen@enron.com",
+    "stephen.swisher@enron.com"
+   ]
+  },
+  {
+   "date": "2001-12-13T22:29:25+00:00",
+   "from": "tammy.jaquet@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/5",
+   "new_text": "Jay,\n\nIf a deal is killed it poses a problem for us in Unify if there are any paths associated with the deal; therefore, we request the deals be zeroed out.  Call me if this is a problem.  Also, we would appreciate further details on why these deals are being killed.  \n\nIn addition, I have copied Rita and Mark from Volume Management for their input.\n\nRegards,\n\nTammy\nx35375",
+   "quote": "If a deal is killed it poses a problem for us in Unify if there are any paths associated with the deal; therefore, we request the deals be zeroed out.",
+   "stall": true,
+   "subject": "RE: Killing ENA to ENA deals in Sitara",
+   "thread_id": "tb7156350b7",
+   "to": [
+    "jayant.krishnaswamy@enron.com"
+   ]
+  }
+ ],
+ "opportunity": {
+  "action_idea": "A structured request template for requesters covering deal number, counterparty, meter, dates, volume, price, book and reason for the change. The desk uses a matching confirmation reply that returns the new or changed deal number, so requests do not need clarification rounds.",
+  "confidence": {
+   "active_months": 26,
+   "mailboxes": 2,
+   "quotes": 117,
+   "stall_share": 0.38,
+   "threads": 87
+  },
+  "description": "Traders, schedulers and accounting ask the desk to create, amend, rate-change, path, split or clean up Sitara and Tagg deal tickets and confirm the deal number back.",
+  "formula": "117 messages / 25.84 months observed (farmer-d, giron-d) = 4.53/month; x 15 min median handling x 60% automatable = 0.7 h/month; x $85/h = $58/month",
+  "hours_month": 0.7,
+  "id": "sitara_deal_ticket_change_request",
+  "kinds": {
+   "escalation": 10,
+   "followup": 16,
+   "fulfillment": 33,
+   "fyi": 1,
+   "report": 9,
+   "request": 48
+  },
+  "mailboxes": [
+   "farmer-d",
+   "giron-d"
+  ],
+  "median_minutes": 15,
+  "messages": 117,
+  "messages_per_month": 4.53,
+  "name": "Sitara deal ticket entry and correction requests",
+  "participants": [
+   {
+    "address": "daren.farmer@enron.com",
+    "messages": 55
+   },
+   {
+    "address": "j..farmer@enron.com",
+    "messages": 30
+   },
+   {
+    "address": "darron.giron@enron.com",
+    "messages": 28
+   },
+   {
+    "address": "michael.olsen@enron.com",
+    "messages": 15
+   },
+   {
+    "address": "rita.wynne@enron.com",
+    "messages": 10
+   },
+   {
+    "address": "julie.meyers@enron.com",
+    "messages": 10
+   },
+   {
+    "address": "tom.acton@enron.com",
+    "messages": 10
+   },
+   {
+    "address": "david.baumbach@enron.com",
+    "messages": 9
+   }
+  ],
+  "remedy": "quick_win",
+  "stall": {
+   "flagged_messages": 44,
+   "max_gap_hours": 713.0,
+   "median_gap_hours": 21.7
+  },
+  "threads": 87,
+  "usd_month": 58,
+  "usd_year": 696
+ }
+}

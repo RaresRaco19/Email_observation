@@ -1,65 +1,63 @@
 ---
 opportunity: realtime_desk_instructions
-type: template
-citations: [williams-w3/sent_items/512, williams-w3/sent_items/502, williams-w3/sent_items/496, williams-w3/sent_items/466, williams-w3/sent_items/506, williams-w3/sent_items/463, williams-w3/sent_items/433, williams-w3/sent_items/434, williams-w3/sent_items/380, williams-w3/sent_items/487, williams-w3/sent_items/471, williams-w3/sent_items/403, williams-w3/sent_items/444, williams-w3/sent_items/432, williams-w3/sent_items/449]
+type: checklist
+citations: [williams-w3/sent_items/357, williams-w3/sent_items/413, williams-w3/sent_items/432, williams-w3/sent_items/487, williams-w3/sent_items/471, williams-w3/sent_items/338, williams-w3/sent_items/434, williams-w3/sent_items/408, williams-w3/sent_items/444]
 ---
 
-# Real-Time Position Notice Template
+# Real-Time Desk Start-of-Shift Checklist (Portland shift desk)
 
-**Who uses it:** the real-time desk lead, each afternoon for the next flow day. **Who reads it:** the shift traders on shift.portland@enron.com. **Why:** today each position email is written from scratch. Hub, hours, MW, price and book come in a different order every day [williams-w3/sent_items/512] [williams-w3/sent_items/502] [williams-w3/sent_items/496], and corrections arrive in loose follow-up emails:
+For shift traders. Tick each item at the start of your shift. Owner: the real-time desk lead (Bill Williams). Each section carries a "last changed" date; if an item is unclear, call the lead rather than guess. Time-limited items (EPE lending, Sundance dispatch) carry an expiry date and are not standing rules.
 
-> We have also bought HE 21 and HE 22 from the APX.
+## 1. Hourly checkouts (every hour)
+- [ ] Call Grays Harbor and Frontier at the top of the hour.
+- [ ] Call BPA with the actual energy generated, not an estimate, then sign off the hour in the services book.
 
-[williams-w3/sent_items/403]
+> We must call Grays Harbor and Frontier at the top of EVERY hour.
 
-Standing rules also get re-sent because there is no single place to look them up:
+[williams-w3/sent_items/357]
 
-> Ryan sent this email out once already, here it is again.
+Do this even if the generator is prescheduled. If it takes more than 5 minutes, tell the lead.
 
-[williams-w3/sent_items/444]
+## 2. Nightly deadline
+- [ ] Create customer finals in CAPS or FSP by 3AM for volume management.
 
-A fixed notice plus the numbered Real-Time Shift Procedures checklist should stop the rewriting and the resends. The handling time saved is worth about $114 a month ($1,368 a year) at $85/hour.
+> Volume management needs us to create customer finals by 3AM each night in CAPS or FSP.
 
----
+[williams-w3/sent_items/413]
 
-## The notice (copy into an Outlook template)
+## 3. Enpower deal entry
+- [ ] Swaps: use the Enpower swap function, state buy or sell index and which index.
 
-**To:** shift.portland@enron.com
-**Cc:** services desk; bill.williams.iii@enron.com [williams-w3/sent_items/471]
-**Subject:** Position for [MM/DD/YY], [v1 / v2 replaces v1]
+> When doing swaps please use the swap function in Enpower. Do not enter annuities anymore for financial deals.
 
-| # | Long/Short | Hub | Hours (HE) | MW | Price | Book | Enpower deal # | CAPS line | Special handling |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | [Long] | [NP-15 / SP-15] | [7-22] | [25] | [price] | [ST-WBOM / ST-CALI / ST-Whourly] | [deal # or "to book"] | [ST-WBOM] | [checklist item # or "none"] |
-| 2 | | | | | | | | | |
+[williams-w3/sent_items/432]
 
-**Already done by others:** [e.g. tag made by Lisa in preschedule sheet; Enpower deals made by Kate] [williams-w3/sent_items/433]
-**Checklist updated:** [item N, one line on what changed, or "no change"]
-**Questions:** call [desk lead phone]
+- [ ] PGE John Day to Malin transmission: use deal #146517 at zero price [williams-w3/sent_items/434].
+- [ ] Colstrip cut: follow the 7 steps in the lead's email (index forward buy under the LTNW book, BPA transmission deal, zero out the PGE buy, link the deals, confirm you are flat in the real time position manager) [williams-w3/sent_items/338].
 
-### Field rules
-- **Book** and **CAPS line** must match. The shift books deals in Enpower under the same book shown in CAPS [williams-w3/sent_items/466].
-- **Enpower deal #**: list it when deal entry or scheduling has already created it, and write "price only" if the shift just needs to enter the price [williams-w3/sent_items/433].
-- **Special handling**: give the checklist item number. Do not explain the rule again in the notice.
-- **Version**: a correction goes out as a new notice marked "v2 replaces v1" with every row filled in, not as a one-line add-on.
+## 4. Cuts and outages
+- [ ] Call the CAISO for every outage, however small [williams-w3/sent_items/408].
+- [ ] Call in schedule changes; do not rely on email alone.
 
-## Checklist items the notice points to (draft for shift review)
+> These schedule changes must be called in.  Just a reminder.
 
-1. Book position deals in Enpower under the named book, matching the CAPS line [williams-w3/sent_items/466].
-2. Record ST-CALI sales or length on the service sheet, beneath the desk's own activity [williams-w3/sent_items/496].
+[williams-w3/sent_items/487]
 
-> Going forward, please put all the ST-CALI sales or length in the service sheet beneath our activity.
+- [ ] Document everything on a cut and call the lead with questions (cut sheet attached to the CUTS email).
 
-[williams-w3/sent_items/506]
+## 5. Who to copy
+- [ ] Use the lead's full address (bill.williams.iii@enron.com) so he receives it.
+- [ ] Copy the lead on EES sheets and on any cut notes to volume management, the services desk or other traders.
 
-3. Do the hourly BPA checkout for Frontier and GCPUD (ext. 2277) right after the EPE dispatcher call, and initial the service sheet [williams-w3/sent_items/506].
-4. Call in real-time schedule changes [williams-w3/sent_items/487].
-5. Copy the lead on EES sheets and on cut notes to volume management, the services desk or other traders [williams-w3/sent_items/471].
-6. APS losses: buy from EPE under ST-Whourly and sell to APS at zero in Enpower, and make sure the schedule goes in as losses [williams-w3/sent_items/463].
-7. PGE John Day to Malin transmission: use the standing deal #146517 at price zero, then make an annuity to ST-NW for losses [williams-w3/sent_items/434].
-8. EPE lending: cover the short under ST-WBOM, sell to EPE at zero under ST-WBOM, and do not bring up lending with EPE dispatchers [williams-w3/sent_items/380].
-9. Swaps: use the Enpower swap function, not annuities, and state the buy or sell side and the index [williams-w3/sent_items/432].
-10. CAISO wheeling: include export fees, Tie Meter Multipliers/import fees and grid management fees. Do not sell over the price cap [williams-w3/sent_items/449].
-11. OASIS paths on PAC(t): enter only the POR/POD instead of scheduling each wheel separately, and log out of the IPC website when finished [williams-w3/sent_items/444].
+> I should be copied on the EES sheets, and any cut notes to volume managament, the services desk, or other traders.
 
-**Stays manual:** the lead still decides the position (size, price, book), and traders still make the real-time calls. A new one-off structure gets a full written explanation the first time and becomes a checklist item once it recurs.
+[williams-w3/sent_items/471]
+
+## When a rule changes
+The lead edits the section and sends a short "Procedure change" email: what changed, the section, the effective date, and "acknowledge by reply". Reply to acknowledge. If you miss a step, the answer is "see section X", not a re-sent email. A rule already sent once should not have to be sent again [williams-w3/sent_items/444].
+
+## Why this matters
+These instructions arrived as 54 separate group emails, 25 of them flagged as stalled. Handling time is worth about $76 per month ($912 per year) at $85/hour, before any avoided disputes or customer escalations.
+
+## Stays manual
+Trading strategy, counterparty escalations, books and deal numbers for new one-off structures, and the phone calls themselves.

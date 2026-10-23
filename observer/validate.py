@@ -56,7 +56,7 @@ def label_schema_errors(label) -> list[str]:
     m = label.get("minutes_estimate")
     if isinstance(m, bool) or not isinstance(m, (int, float)) or not 0 <= m <= 480:
         errs.append("minutes_estimate must be a number in 0-480")
-    for f in ("process_description", "manual_steps", "stall_signal", "quote"):
+    for f in ("stall_signal", "quote"):
         if not isinstance(label.get(f), str):
             errs.append(f"{f} must be a string")
     return errs

@@ -27,22 +27,23 @@ Reuse a process name already used in this batch or in the `context` list wheneve
 Write one label for **every** message in `messages`. Missing messages fail validation. Write this JSON to the output path:
 
 ```json
-{"batch_id": "<batch_id>", "labels": [
+{"batch_id": "<batch_id>",
+ "processes": {"snake_case_name": "one sentence, generic across instances"},
+ "labels": [
   {"msg_id": "farmer-d/logistics/880", "process": "none"},
   {"msg_id": "...",
    "process": "snake_case_name",
-   "process_description": "one sentence, generic across instances",
    "kind": "request | fulfillment | report | escalation | followup | fyi",
-   "manual_steps": "what a human had to do because of this message",
    "minutes_estimate": 15,
-   "stall_signal": "evidence of waiting, chasing, or deadline pressure, or \"\"",
+   "stall_signal": "evidence of waiting, chasing, or deadline pressure (at most 15 words), or \"\"",
    "quote": "verbatim span from new_text supporting the label"}
 ]}
 ```
 
 Rules:
+- `processes` describes each process name used in `labels` once. Do not repeat the description on the labels.
 - A `"none"` label needs only `msg_id` and `process`.
-- `quote` must be copied character-for-character from the message's `new_text`, 8 to 40 words, as one contiguous span with no ellipses and no stitching. Line breaks may become spaces. Code checks it against the raw file and drops any mismatch. If more than 20% of a batch's quotes fail, the whole batch is redone.
+- `quote` must be copied character-for-character from the message's `new_text`, 8 to 40 words, as one contiguous span with no ellipses and no stitching. Code rejects quotes under 5 or over 60 words. Line breaks may become spaces. Code checks it against the raw file and drops any mismatch. If more than 20% of a batch's quotes fail, the whole batch is redone.
 - Name processes by the work, not the instance. Use `meter_deal_mismatch_fix`, not `meter_1517_march`.
 - `minutes_estimate` is the human handling time the message caused for everyone involved (looking up, fixing, re-keying, replying), not the time to read it. Use an integer from 0 to 480.
 - Do not invent counts or totals. Code computes those.

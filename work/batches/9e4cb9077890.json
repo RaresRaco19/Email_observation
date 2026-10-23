@@ -1,0 +1,832 @@
+{
+ "batch_id": "9e4cb9077890",
+ "context": [],
+ "messages": [
+  {
+   "date": "2001-07-20T23:26:06+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/521",
+   "new_text": "Traci,\nI manage the short term west hourly trading desk in Portland.  Do you need me to come to Houston, or is there a more convenient way to convey my feedback?\nI also need a performance feedback form.\nYou can reach me at 503-464-3730\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: Summer Intern Reviews",
+   "thread_id": "tac8aa7753a",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-26T11:58:40+00:00",
+   "from": "albert.meyers@enron.com",
+   "msg_id": "williams-w3/inbox/94",
+   "new_text": "Kathy:\n\nPlease find the enclosed epe model for 01/25/02:\n\n\n \n\nRegards,\n\nBert Meyers",
+   "new_text_source": "new",
+   "subject": "epe model for 01/25/02",
+   "thread_id": "tad1c62a467",
+   "to": [
+    "kpeterso@epelectric.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-10T00:10:22+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/103",
+   "new_text": "Check this sick stuff out.",
+   "new_text_source": "new",
+   "subject": "FW: Michael's makeovers",
+   "thread_id": "tad440e47e0",
+   "to": [
+    "m..driscoll@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-18T20:43:39+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/18",
+   "new_text": "Yo!!!\nIt's cold, its wet, its raining. But at least in Portland we have F-15 fighter jets being scrambled over the city. Gotta love it. what's the word. Drop me a line on the cellular--(503) 887-3449.\nB",
+   "new_text_source": "new",
+   "subject": "Man down...",
+   "thread_id": "tadb100a746",
+   "to": [
+    "scottkuehn@go2netmail.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-29T03:14:37+00:00",
+   "from": "scottkuehn@go2netmail.com",
+   "msg_id": "williams-w3/inbox/90",
+   "new_text": "Good day Bill.  \nI just wanted to double check and make sure your weekend was open.  \nIm looking forward to visiting the city of 'Roses'.  Let me know if \nour secret plans are in order.  \nAgent Kuehn.\n\nSent by Go2net Mail!",
+   "new_text_source": "new",
+   "subject": "Re: Man down...",
+   "thread_id": "tadb100a746",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-06T20:13:38+00:00",
+   "from": "jblatchford@caiso.com",
+   "msg_id": "williams-w3/inbox/22",
+   "new_text": "Please call in @ 1330 Pacific Call In Number (877) 670-4111  Passcode\n246870#.\n\nOpen Forum\n\n\nJim Blatchford\nClient Relations\nCal ISO\n916.608.7051",
+   "new_text_source": "new",
+   "subject": "CAISO Notification - TSWG Conference call",
+   "thread_id": "tae2eb663a7",
+   "to": [
+    "tswg@caiso.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-01T22:47:00+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/338",
+   "new_text": "When Colstrip goes down we will be short at Montana system and long at PGE System.  We need to buy a transmission wheel from BPA (Account#736780) from PGE System to the Montana System Border.  If need be we can also do a Buy-Resale with WWP to move the energy from PGE Sys/Mid-C/LOLO to the Montana System Border.  The method for documentation and cleaning up enpower are below.\n\n\n1.) In enpower, build an index forward buy from PGE under LTNW book for the total amount of mws cut due to colstrip going down.  Use the DOW JONES MIDC index (remember to specify in the index if it is on or off-peak).  Enter an offset of .10  .  \n\n2.) Enter a transmission deal from BPA.   (MIDC to MPC SYS)  The transmission fee is $2.52\n\n3.) Go into deal scheduling and query  under the counterparty PGE.  Select all\n\n4.) Bring up all deals of the counterparties involved at Colstrip---- specifically, Ashgrove,Conocpil, Energywesr, Louisiana Pacific, and Smurfit Stone, etc.\n\t(these enpower deal numbers can be located under the counterparties name in lotus notes.)\n\n5.)Zero out the buy from PGE @MPC SYS\n\n6.) Finally link the deals.\n\n7.) Check real time postion manager, make sure you are flat.\n\nIf you have questions regarding this procedure please let me know.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Fastest Way to Handle Colstrip Cuts",
+   "thread_id": "taeb43a3019",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-02T22:33:06+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/336",
+   "new_text": "After yesterdays cuts there have been some changes in the Colstrip Cut Procedures.",
+   "new_text_source": "new",
+   "subject": "FW: Fastest Way to Handle Colstrip Cuts",
+   "thread_id": "taeb43a3019",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-19T03:22:42+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/389",
+   "new_text": "Group,\nPlease continue our policy of NOT buying energy from or selling energy to the California Imbalance.  I do not feel comfortable with the many risks associated with these transactions at this time (financial, physical, legal, political).  Please see me on an individual basis with questions or discussion regarding this. \n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Trading Pracitices",
+   "thread_id": "taf471f8649",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-31T21:10:30+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/inbox/141",
+   "new_text": "Julie - thanks very much for the information - and I do wish it pertained t=\no me.  But I believe you want bill.williams.III@enron.com rather than me (h=\nis Dad).\nI'm with the ENA - Estate, Bill III is with UBS.  Please replace my address=\n with his.\n\nI will forward this to him.\n\nCheers\nBill W. (The Elder)",
+   "new_text_source": "new",
+   "subject": "RE: Final Benefits Memo",
+   "thread_id": "taf5de77839",
+   "to": [
+    "julie.clyatt@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-09T18:28:37+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/187",
+   "new_text": "Actually,\nI think the Honda is probably the one.  Much cooler...and good Honda reliability.  Looks good in Silver or Red.\n\nBill",
+   "new_text_source": "new",
+   "subject": "Honda Motorcycles 2002 CBR954RR Home Page",
+   "thread_id": "tb04aed53d7",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-09T18:32:36+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/186",
+   "new_text": "The CBR 945 RR is a bit sweeter, cheaper, better looking and has Honda reliability...\nOooohhh. Nice. \n\nBill",
+   "new_text_source": "new",
+   "subject": "Honda Motorcycles 2002 CBR954RR Home Page",
+   "thread_id": "tb04aed53d7",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-30T20:20:08+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/270",
+   "new_text": "Darren,\nPer our discussion, please allocate all Hour-Ahead Congestion charges or revenues to the ECTRT group. Hopefully this will simplify the management of our books. My understanding is that Chris will tell RT if there are cuts or some other need to put in Hour Ahead (24) schedules for the Cali desk and will allow us to allocate approriate charges or revenue to him if necessary. All Congestion charges/revenue at tie points should still be allocated to the desk entered in CAPS. If you have any questions please see me. RealTime will still try to notify you of Congestion revenue or charges.\n\nThanks,\n\nBill",
+   "new_text_source": "new",
+   "subject": "Hour Ahead Congestion Charges",
+   "thread_id": "tb05de0c266",
+   "to": [
+    "darren.cavanaugh@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-13T22:03:11+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/503",
+   "new_text": "Thank you Jill\n\n -----Original Message-----\nFrom: \tChatterton, Jill  \nSent:\tWednesday, June 13, 2001 11:09 AM\nTo:\tPoston, David\nCc:\tLuu, Duong; Williams III, Bill\nSubject:\tTodays meeting\n\nDave,\nYou are all set for your meeting at 2pm pacific, 4pm central time\nin the Mt. Rainier conference room.   \n\n- Jill",
+   "new_text_source": "body",
+   "subject": "RE: Todays meeting",
+   "thread_id": "tb0ffaeef84",
+   "to": [
+    "jill.chatterton@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-22T17:52:45+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/159",
+   "new_text": "We also received congestion for HE 5--50 mws at $74.83. HE 5 is not in the inc sheet but will be. The CISO is again having difficulties reading our bids. They have been working on this for a week.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "FW: 21st cong",
+   "thread_id": "tb17677af0c",
+   "to": [
+    "darren.cavanaugh@enron.com",
+    "jim.reyes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-03T06:06:09+00:00",
+   "from": ".hall@enron.com",
+   "msg_id": "williams-w3/inbox/121",
+   "new_text": "The master status file for NETCO transmission service agreements is located at:  P:\\Legal\\PROJECT NETCO\\NETCO Transmission.",
+   "new_text_source": "new",
+   "subject": "NETCO Transmission File",
+   "thread_id": "tb1e4f24fb1",
+   "to": [
+    "tim.belden@enron.com",
+    "f..calger@enron.com",
+    "jake.thomas@enron.com",
+    "stewart.rosman@enron.com",
+    "paul.choi@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-11T03:14:45+00:00",
+   "from": "ryan.slinger@enron.com",
+   "msg_id": "williams-w3/inbox/132",
+   "new_text": "As per Fred's suggestion it is much better to buy from TEP at Springerville rather than PV.  It is less costly to bring it home.  The tag is much shorter but should be an easy modification from the one we usually use when we buy from TEP.  Also this causes fewer problems for both TEP and EPE dispatchers.\n\nThanks,\n\nRyan",
+   "new_text_source": "new",
+   "subject": "Buying from TEP for EPE",
+   "thread_id": "tb207d47d5e",
+   "to": [
+    "shift.dl-portland@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-15T18:19:17+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/497",
+   "new_text": "Chris,\n\nI attached a simple sheet outlining our basic process of decremental bidding.  From a Real-Time standpoint we are ready to implement this process immediately.  I believe we have the tools in place to capture the revenue on the volume management side as well.  Kourtney Nelson is out of the office today but will return on Monday.  I feel we should involve her in the process when she returns.  Overall, this is very similar to what we did last summer and should be relatively easy to implement.  Feel free to see me with questions.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "FW: Decremental Bidding",
+   "thread_id": "tb2f2036910",
+   "to": [
+    "h..foster@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-08T01:35:41+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/108",
+   "new_text": "I already do.\nB\n\n -----Original Message-----\nFrom: =09Symes, Kate =20\nSent:=09Wednesday, November 07, 2001 12:43 PM\nTo:=09Williams III, Bill\nSubject:=09FW: October New Gen Report\n\nBill - would you have any interest in receiving this?\n\n -----Original Message-----\nFrom: =09Bruce, James =20\nSent:=09Tuesday, November 06, 2001 5:02 PM\nTo:=09Allen, Phillip K.; Alonso, Tom; Alport, Kysa; Badeer, Robert; Belden,=\n Tim; Brown, Kortney; Bruce, James; Bryson, Jesse; Buerkle, Jim; Cadena, An=\ngela; Calger, Christopher F.; Chang, Fran; Chen, Andy; Choi, Paul; Clark, E=\nd; Comnes, Alan; Conwell, Wendy; Dalia, Minal; Davidson, Debra; Donovan, Te=\nrry W.; Driscoll, Michael M.; Dunton, Heather; Dyer, Laird; Eriksson, Fredr=\nik; Etringer, Michael; Fillinger, Mark; Foster, Chris H.; Frost, David; Ful=\nler, Dave; Gilbert, Jim; Gomez, Julie A.; Gray, Stan; Grigsby, Mike; Guilla=\nume, David; Guzman, Mark; Hammond, Don; Holst, Keith; Kaufman, Paul; Lackey=\n, Chris; Law, Samantha; Mainzer, Elliot; Malowney, John; Mays, Wayne; Mcdon=\nald, Michael; Mckay, Jonathan; Miller, Stephanie; Motley, Matt; Mullen, Mar=\nk; Mumm, Chris; Nelson, Kourtney; Ngo, Tracy; Oh, Jeffrey; Page, Jonalan; P=\narquet, David; Perry, Todd; Polsky, Phil; Presto, Darin; Radous, Paul; Ranc=\ne, Susan; Rawson, Lester; Richter, Jeff; Rosman, Stewart; Sacks, Edward; Sa=\nlisbury, Holden; Sarnowski, Julie; Savage, Gordon; Scholtes, Diana; Semperg=\ner, Cara; Shields, Jeff; Slaughter, Jeff G.; Smith, Sarabeth; Soderquist, L=\narry; Surowiec, Glenn; Swain, Steve; Swerzbin, Mike; Symes, Kate; Thomas, J=\nake; Thome, Stephen; Thome, Stephen; Thompson, Virginia; Van Gelder, John; =\nWard, Kim S (Houston); Wente, Laura; Williams III, Bill; Williams, Bill; Wi=\nlliams, Jason R (Credit); Zufferli, John\nSubject:=09October New Gen Report\n\n\nThe monthly \"New Generation in WSCC\" report for October is complete.  The m=\nethod of distribution for this report has changed and the reports will no l=\nonger be distributed electronically.  To receive a hard copy of the report,=\n please send me your name, location, and the name of your administrative as=\nsistant (If you have not already done so).  As always, please report any er=\nrors / inaccuracies to me as soon as possible.  Thanks,=20\n\nJames Bruce=09\nEnron North America=09=09(503) 464-8122\nWest Power Desk=09=09(503) 860-8612 (c)\n121 SW Salmon, 3WTC0306=09(503) 464-3740 (fax)\nPortland, OR 97204=09=09James.Bruce@Enron.com",
+   "new_text_source": "body",
+   "subject": "RE: October New Gen Report",
+   "thread_id": "tb3904af387",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-31T22:59:13+00:00",
+   "from": "john.oh@enron.com",
+   "msg_id": "williams-w3/inbox/60",
+   "new_text": "Realtime group-\nThis occurs when your H drive is not mapped.  To fix the mapping, follow the instructions at:\n\nhttp://172.17.172.62/rt/tips/mapHdrive.html\n\nHope this helps!\n\nJohn Oh\nEnron North America\t\t503.464.5066\n121 SW Salmon Street\t\t503.701.1160 (cell)\n3WTC 0306\t\t\t503.464.3740 (fax)\nPortland, OR 97204\t\t\tJohn.Oh@Enron.com",
+   "new_text_source": "new",
+   "subject": "RE: Profile Error Again",
+   "thread_id": "tb39294903a",
+   "to": [
+    "shift.dl-portland@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-30T20:29:02+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/137",
+   "new_text": "Group,\nA quick reminder.\nAll El Paso Electric Deals and related deals for El Paso Electric (ie buying from SRP selling to EPE--anything with a group of EPEC in Enpower) need to be in MST. These deals should be scheduled in MST on the deal scheduling portion of Enpower as well.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "El Paso Deal Entry",
+   "thread_id": "tb5932252d4",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-24T22:57:26+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/14",
+   "new_text": "Geir,\nI need to get a working cell phone number for you. I tried to reach you at home today regarding the postponement of our meeting. Please give me a call or send me an email with your contact info.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "contact info",
+   "thread_id": "tb659a346d3",
+   "to": [
+    "geir.solberg@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-13T22:17:28+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/99",
+   "new_text": "Dude--\nIt was $5. My total bet for the game was $40. $5 to you, $20 to Porter, $15 to Mark Fisher.\n\nCome on...don't try to run me over.\nThe gloating has to be worth $5.\n\nB",
+   "new_text_source": "new",
+   "subject": "RE: $10",
+   "thread_id": "tb7787206bc",
+   "to": [
+    "mike.purcell@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-13T22:20:33+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/98",
+   "new_text": "Of course.\n\nDeez nuts.",
+   "new_text_source": "new",
+   "subject": "RE: $10",
+   "thread_id": "tb7787206bc",
+   "to": [
+    "mike.purcell@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-21T17:44:51+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/525",
+   "new_text": "John,\nThanks for the timely note.  PRC is today.\nMuch appreciated.\nB",
+   "new_text_source": "new",
+   "subject": "RE: Tropical Storm Allison",
+   "thread_id": "tb7aea047ea",
+   "to": [
+    "m..forney@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-25T20:54:42+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/524",
+   "new_text": "John,\n\nHow was Austin?  Did you get the rest and relaxation you were looking for?  How about golf?  Everyone has only ever had good things to say about Austin.\n\nAudi TT?\nNICE pick.  Is that a 6-speed?  Only 23,000 miles is pretty sweet and the color is right (matches the 400E).  Next time I am down there (?) you'll have to provide a demonstration.  I am really getting the urge to lose my 525 (this seems to happen about every 6 months), I have only driven it once since I moved (about 5 miles total).  Kind of hard to justify $+500 a month for car, insurance and parking when I drive it 20 miles in a month (just not very cost effective).  An old 2002tii would only cost me parking and insurance (and my pride).  Other ideas?\n\nSo I am in the new place.  It's great!  Perfect location (just no parking), and I get way more sleep (til 5!).  Its got a pretty solid view and feels much bigger than it is because of all the windows.  Now if I could just get some furniture...maybe a table...\n\nB",
+   "new_text_source": "new",
+   "subject": "RE: Tropical Storm Allison",
+   "thread_id": "tb7aea047ea",
+   "to": [
+    "m..forney@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-23T22:26:09+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/371",
+   "new_text": "-----Original Message-----\nFrom: \tForney, John M.  \nSent:\tThursday, June 21, 2001 6:03 AM\nTo:\tBelden, Tim; Williams III, Bill\nCc:\tWolfe, Greg\nSubject:\tTropical Storm Allison\n\n\nJust a quick note to acknowledge the great job that Geir Solberg did in helping our office out during Tropical storm Allison.\nOur phone lines, computers and cell phones were down.    Additionally,   we were short staffed due to floodwaters downtown.\n\nOne of our service customers,  Teco,  wanted to sell some test power in South Texas.   Geir was contacted via satellite phone.\nHe sold 230 megawatts each hour to AEP.   He used the proper terminology unique to Ercot and sold the energy at a decent price.\nHe maintained good,  detailed notes and was able to relay this information to me the following Monday.    \nMost importantly,  this was a seamless transaction to the customer.\n\nAgain,  thanks for the help.\n\nJMF",
+   "new_text_source": "body",
+   "subject": "FW: Tropical Storm Allison",
+   "thread_id": "tb7aea047ea",
+   "to": [
+    "geir.solberg@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-01T22:33:14+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/339",
+   "new_text": "Kate,\nI would be glad to look at anything you had...\nB",
+   "new_text_source": "new",
+   "subject": "RE: Weather Database - PLEASE READ",
+   "thread_id": "tb82aecadd7",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-08T00:38:45+00:00",
+   "from": "tim.heizenrader@enron.com",
+   "msg_id": "williams-w3/inbox/119",
+   "new_text": "All:\n\nFor those people wanting to learn more about Var calculation and application, I've put a copy of JP Morgan's RiskMetrics documentation on the P: drive under \\MidMarketing\\RiskMetrics. Of the five documents, Part 2 probably gets most directly at the questions that were being asked in Matt's seminar.\n\nTim H",
+   "new_text_source": "new",
+   "subject": "Seminar Followup: RiskMetrics",
+   "thread_id": "tb85079e348",
+   "to": [
+    "center.dl-portland@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-28T04:15:56+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/70",
+   "new_text": "I have also not been able to approve these. I do need those folks to have access...",
+   "new_text_source": "new",
+   "subject": "FW: Approval...",
+   "thread_id": "tb88f13bc8e",
+   "to": [
+    "michael.tully@enron.com",
+    "will.smith@enron.com",
+    "pete.davis@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-03T01:25:35+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/443",
+   "new_text": "Confirmation from Keoni on an unrevised price cap...as of 15:01...",
+   "new_text_source": "new",
+   "subject": "FW: CAISO Notice: Update to June 20 Market Notice",
+   "thread_id": "tb8e4c73dcb",
+   "to": [
+    "alan.comnes@enron.com",
+    "mark.fischer@enron.com",
+    "holden.salisbury@enron.com",
+    "tom.alonso@enron.com",
+    "chris.mallory@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-02T19:40:10+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/448",
+   "new_text": "D'Ann,\nThis needs to go to Bill Williams, not Bill Williams III.  The difference is subtle but is rather important if you want the correct person to receive your message.\nPlease make the appropriate change in your contact lists and address book.\n\nThanks,\n\nBill Williams III\n\nManager Short Term West Hourly Trading\n503-464-3730",
+   "new_text_source": "new",
+   "subject": "FW: Project Status Report for the week of July 2, 2001",
+   "thread_id": "tb923f915ae",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-10T04:00:56+00:00",
+   "from": "albert.meyers@enron.com",
+   "msg_id": "williams-w3/inbox/134",
+   "new_text": "Team,\n\nPleas note that there is a new schedule for December.  You may find it in the real time schedule notebook.  If you have any questions or concerns you may either trade with one another or talk to Bill for a remedy.  \n\nThanks,\nBert",
+   "new_text_source": "new",
+   "subject": "New Real Time Schedule for December 2001",
+   "thread_id": "tb9ebe8b684",
+   "to": [
+    "shift.dl-portland@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-31T00:39:57+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/136",
+   "new_text": "Josie,\nSign me up.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: Flu Shots-Please Respond",
+   "thread_id": "tb9f17f0539",
+   "to": [
+    "josie.jarnagin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-01T02:50:33+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/128",
+   "new_text": "This is at the top right after you turning the volume on your computer down.\nAlso...\nRight after the boxes, but parallel to FSP parallel testing.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: First Day of New System Successful!",
+   "thread_id": "tba15c52460",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-19T22:26:55+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/229",
+   "new_text": "This is relatively irrelavent but thought you might enjoy it...of course...it is made up...just like everything else forwarded on the internet none of these people actually exist...",
+   "new_text_source": "new",
+   "subject": "FW: Important insight into our crisis",
+   "thread_id": "tbabd05e7f1",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-24T02:23:05+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/368",
+   "new_text": "Sounds good.\nB\n\n -----Original Message-----\nFrom: \tChatterton, Jill  \nSent:\tMonday, July 23, 2001 4:19 PM\nTo:\tWilliams III, Bill\nSubject:\t timekeeping\n\nBill,\nI just wanted to let you know that it's going to take a couple weeks (I think) until I receive access to the timekeeping system.  Apparently after requesting access, ISC sends back a ticket number and an FYI (below).  \nAs soon as I receive access I will go back for your group and enter their time, and from then on keep track of the groups time for each month.\n\nThanks, Jill\n\n -----Original Message-----\nFrom: \tCouret Stegall/NA/Enron@ENRON [mailto:IMCEANOTES-Couret+20Stegall_NA_Enron+40ENRON@ENRON.com]  On Behalf Of ISC Hotline,\nSent:\tMonday, July 23, 2001 3:58 PM\nTo:\tChatterton, Jill\nSubject:\tRe: timekeeping access\n\nYour ticket number is 525114. FYI- security requests are averaging 14 business days.\n\nThanks, \nCourie\n\n\nFrom:\tJill Chatterton/ENRON@enronXgate on 07/23/2001 05:54 PM\nTo:\tISC Hotline/Corp/Enron@Enron\ncc:\t \n\nSubject:\ttimekeeping access\n\n << File: SecurityRequestForm3.doc >>",
+   "new_text_source": "body",
+   "subject": "RE: timekeeping",
+   "thread_id": "tbb3a9a07dd",
+   "to": [
+    "jill.chatterton@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-13T18:59:02+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/308",
+   "new_text": "Jim and Darren,\n\nWe relieved Path 15 congestion for HE 7 on Saturday morning.  We flowed 10 mws from Malin to FC345. This resulted in the 10 mw \"variance\" in the report. I have added deals to Enpower to flatten the report, these deals are only necessary for the sake of the report. The identical variance in the north and south indicates a wheel or load shift. I prefer to not enter these extra deals. Please see me with questions if you do not understand why the report variance exists.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Congestion/Enpower to CAPS variance",
+   "thread_id": "tbb58d8de46",
+   "to": [
+    "darren.cavanaugh@enron.com",
+    "jim.reyes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-16T18:29:34+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/300",
+   "new_text": "A quick heads up.\nWe relieved congestion this morning (08/16/01). The hours and volumes are in the inc sheet.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Congestion for 08/16/01",
+   "thread_id": "tbc211228de",
+   "to": [
+    "darren.cavanaugh@enron.com",
+    "jim.reyes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-09T04:28:53+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/104",
+   "new_text": "Group,\n\nWe have returned to CAPS as of today. We will return to running the Enpower to CAPS report as usual. This will give us a chance to work the performance bugs out of FSP and improve our reconciliation methodology at the same time. \n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "FSP vs. CAPS",
+   "thread_id": "tbc3c4411a2",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-17T07:04:23+00:00",
+   "from": "mark.guzman@enron.com",
+   "msg_id": "williams-w3/inbox/130",
+   "new_text": "Bill, \nKirk from LADWP called back just after I talked to you. In that conversation he appoligized twice for the previous conversation.  Thus I dont think we need to pull the tapes for the conversation he and I had unless it is for your own amusement.  Being that he realized he was wrong and appologized I wouldnt want to jeopardize any future realationship with LADWP over one instance with him as he has been okay in the past.  However you will need to still pull the tapes for Geirs conversation which occured somewhere between 16:00 and 17:30.  Thanks.",
+   "new_text_source": "new",
+   "subject": "LADWP Cont.",
+   "thread_id": "tbcd64e9f81",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-24T22:35:01+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/150",
+   "new_text": "Take these days off too.",
+   "new_text_source": "new",
+   "subject": "RE:",
+   "thread_id": "tbd5f75dc5c",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-15T16:55:55+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/175",
+   "new_text": "Kate,\nWe are short 2 pieces of BOM at SP-15 7-22.\nPrice of $27.20 and $28.00.\nWe are also short 1 daily piece in SP-15 at the ST-CALI index price.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Lending for 10/16/01",
+   "thread_id": "tbd666fe051",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-05T22:34:16+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/427",
+   "new_text": "Fred can be reached at 1-915-543-4335.\n\nNice email to Fred on Tuesday by the way.\n\nB",
+   "new_text_source": "new",
+   "subject": "FW: EPE MARKETING AVAILABILITY",
+   "thread_id": "tbd6fc7ae43",
+   "to": [
+    "cara.semperger@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-29T06:48:07+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/275",
+   "new_text": "Group,\nEOL is off to a great start and is already becoming an integral part of the real-time market! Each person who has put in substantial extra time entering and reconciling deals deserves congratulations. I do recognize and appreciate the hard work. As always, there is more work to be done. We have had significant difficulty integrating the increased volume of EOL trades into our current business practice. Some members of the group have experienced limited success, others have experienced little to no success. A standardization in our process will benefit the entire group and will allow us to make consistent improvements as time goes on. So going forward.\n\n\t1.\tAll deals will be done under ST-Whourly. If there is lending, parking or a cut that corresponds to another book, we will make that deal for the entire strip (for \texample, W-BOM sells to EPE for HE 7-22--all one deal). We will then sell or buy the appropriate amount of energy from Whourly to that book (this interdesk deal \twill not be routed). We will do the interdesk transaction as one deal and will enter deal strips with pricing for each hour or hours where appropriate and will include \ttransmission charges when necessary. In Enpower, use strips wherever possible...try to avoid extending deals in scheduling.\n\n\t2. \tAll imports and exports will be under the appropriate desk (for example ST-SW exporting from SP-15 to FC MUST be under ST-SW in CAPS).\n\tThis will allow us to put everything under Whourly and have export/import fees paid for by the appropriate desk. Otherwise the Whourly book will be charged for \twheeling and/or potentially congestion for other desks. When filling a Service customer (such as Wheelabrator or EES) we should pay for the import and export \tfees.\n\n\t3.\tA \"skeleton\" of an inc sheet should be developed as soon as possible each day.  Sales/purchases to or from EES should be made for the day and \timmediately input into the service sheet. Likewise...Service deals/Lending/Parking should be put into the sheet for the day where possible.\n\nI would like to implement all of these practices immediately. Effective HE 1 08/29/01, THIS is our new business practice. Spread the word. I am looking for more suggestions for improvements on our process. We will have a meeting on September 4 to discuss group direction and ideas for improvement. This will be an important meeting at 4 PM on Tuesday September 4th. Please plan to attend.\n\nSee me at any time with suggestions or comments.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Enpower Deal Entry and INC Sheet Maintenence",
+   "thread_id": "tbdedb873e6",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-24T19:01:07+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/221",
+   "new_text": "NO!!!! You must live with gross tooth decay and bleeding gums. Yellow teeth and excessive plaque build-up are expected in Real-Time...",
+   "new_text_source": "new",
+   "subject": "RE: Dentist Appt. Today",
+   "thread_id": "tbebb862040",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-24T19:18:03+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/220",
+   "new_text": "Yes...that is correct.",
+   "new_text_source": "new",
+   "subject": "RE: Dentist Appt. Today",
+   "thread_id": "tbebb862040",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-23T03:30:34+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/157",
+   "new_text": "Cool\n\n -----Original Message-----\nFrom: \tWilliams, Bill  \nSent:\tMonday, October 22, 2001 5:27 PM\nTo:\tWilliams III, Bill\nSubject:\tHolsters Small of Back Concealed Carry for Handguns.htm\n\nAlso thinking small of back type as well.\n\n << File: Holsters Small of Back Concealed Carry for Handguns.htm >>",
+   "new_text_source": "body",
+   "subject": "RE: Holsters Small of Back Concealed Carry for Handguns.htm",
+   "thread_id": "tbef8256161",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-26T21:07:42+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/361",
+   "new_text": "-----Original Message-----\nFrom: CAISO Market Operations - Hour Ahead\n[mailto:IMCEAEX-_O=CAISO_OU=CORPORATE_CN=SYSTEM_CN=MARKETOPSHOURAHEAD@ca\niso.com]\nSent: Thursday, July 26, 2001 11:02 AM\nTo: Market Status: Hour-Ahead/Real-Time\nSubject: Correction to COI rerate message:\n\n\nCorrection to COI rerate message;see direction of power flow: After the Day\nahead market ran, the  branch group COI TTC in the (S-N) direction was\nchanged from 3675 MW to 2450 MW for HE's 1700 through 2400 for operating day\n7/26/01.  The reason for the change is for the Northwest Generation Urgent\npump repairs.  The first applicable Hour Ahead market to run with these\nvalues is HE 1700.  The ISO will update you of any changes in line rating\nstatus.  Sent by Market Operations, inquiries please call the Hour Ahead\nDesk.\n\nThe system conditions described in this communication are dynamic and\nsubject to change.  While the ISO has attempted to reflect the most current,\naccurate information available in preparing this notice, system conditions\nmay change suddenly with little or no notice.",
+   "new_text_source": "body",
+   "subject": "FW: Correction to COI rerate message:",
+   "thread_id": "tc0268f65c9",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-02T21:34:24+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/inbox/122",
+   "new_text": "Group,\n\nThere is a new binder for EPE hourly deals for 2002. The deal sheets MUST be kept in this binder. We are currently missing the deal sheet for 12/30/01 to 01/01/02. Please be on the lookout for this sheet or sheets. Those who were on shift for that period will need to coordinate what deals were done and will need to reconstruct a sheet. \n\nThese sheets are currently a main source of information on EPE for settlements. The deal sheets should be clear, concise, and should have information such as energy type, delivery point, who you spoke with and at what time.\n\nI will be sending another email regarding EPE procedure and model updates for 2002.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "EPE Hourly Deals 2002",
+   "thread_id": "tc07ddd6312",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "albert.meyers@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-31T20:27:31+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/6",
+   "new_text": "-----Original Message-----\nFrom: \tVilleggiante, Theresa  \nSent:\tThursday, January 31, 2002 7:44 AM\nTo:\tBadeer, Robert; Buerkle, Jim; Calger, Christopher F.; Clark, Ed; Donovan, Terry W.; Driscoll, Michael M.; Eriksson, Fredrik; Etringer, Michael; Gilbert, Jim; Hall, Steve C. (Legal); Lackey, Chris; Motley, Matt; Nelson, Kourtney; Page, Jonalan; Perry, Todd; Rosman, Stewart; Sarnowski, Julie; Shields, Jeff; Slaughter, Jeff G.; Swerzbin, Mike; Thomas, Jake; Thome, Stephen; Van houten, Maria; Wente, Laura; Williams III, Bill\nSubject:",
+   "new_text_source": "body",
+   "subject": "FW:",
+   "thread_id": "tc0aecc4fa1",
+   "to": [
+    "michael.mier@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-21T01:08:50+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/381",
+   "new_text": "Greg,\n\nI wanted to check with you quickly regarding taking a month-long position i=\nn August.  I would like to buy a piece of NP, sell a piece of SP, and sell =\nPV. I believe that value exists in taking these positions into the real-tim=\ne market throughout August.  NP and SP are currently trading near flat.  I =\nthink the potential for real-time congestion revenue(RT has seen approximat=\nely $250,000 so far this month) across constrained paths in California make=\ns this a low risk way to generate value in a low liquidity market. I have d=\niscussed a month long short at PV with Tom Alonso. While I recognize the re=\nst of the desk has a position, I think RT can generate good value liquidati=\nng in the shoulder hours beyond what could be generated by just filling dai=\nlies because of the current price levels.  This also represents a relativel=\ny low risk trade (under $10 downside).  I also would like to use these posi=\ntions as a basis in hourly EOL trading as well.  If you have concerns or qu=\nestions please let me know, otherwise I will put these positions on over th=\ne next week.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "",
+   "thread_id": "tc13e31698b",
+   "to": [
+    "greg.wolfe@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-27T17:59:53+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/464",
+   "new_text": "Enjoy.\nB\n\n -----Original Message-----\nFrom: \tCox, Chip  \nSent:\tTuesday, June 26, 2001 2:52 PM\nTo:\tWilliams III, Bill\nSubject:\tvoice",
+   "new_text_source": "body",
+   "subject": "FW: voice",
+   "thread_id": "tc13e92b12a",
+   "to": [
+    "eric.linder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-18T20:33:29+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/491",
+   "new_text": "Thanks Lisa...\n\n -----Original Message-----\nFrom: \tGang, Lisa  \nSent:\tMonday, June 18, 2001 10:09 AM\nTo:\tWolfe, Greg\nCc:\tPortland Shift; Williams III, Bill\nSubject:\tGOOD JOB\n\nI wanted to commend the real time group for their efforts.  For the past 6 month, I've noticed a dramatic difference in the accuracy of deal entry in Enpower.  Accordingly, by the end of the day when I have to route, it has made my job that much easier.  In the past it would take hours to figure out what deals were entered incorrectly.  Now it is very rare that our position manager is off and this makes everyone's lives better!\n\nKeep up the great work guys!!!!\n\nLisa",
+   "new_text_source": "body",
+   "subject": "RE: GOOD JOB",
+   "thread_id": "tc24a6f53d2",
+   "to": [
+    "lisa.gang@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-10T16:53:39+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/417",
+   "new_text": "Guys,\nGreat job on the cong last night but the EPE reconciliation sheet was not done.  Even if there are no variances, please complete the July EPE Reconciliation sheet going forward.  Houston will assume that no one ran the CARP if the sheet has no entries.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "EPE Reconciliation Sheet",
+   "thread_id": "tc2c07eed9c",
+   "to": [
+    "v..porter@enron.com",
+    "mark.guzman@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-26T15:47:48+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/147",
+   "new_text": "I still need to interview Stacy but will have feedback when I finish.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: Real Time Trading Interview",
+   "thread_id": "tc2d6ee74e5",
+   "to": [
+    "josie.jarnagin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-06T22:46:44+00:00",
+   "from": "cara.semperger@enron.com",
+   "msg_id": "williams-w3/inbox/139",
+   "new_text": "503-819-7783",
+   "new_text_source": "body",
+   "subject": "",
+   "thread_id": "tc34902c607",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-29T19:40:53+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/145",
+   "new_text": "You can go ahead and talk to Fran...Also, how was you vaca?\nAnd I have some things for you to take care of from Thursday and this weekend when you have a chance.\nThanks,\n\nB",
+   "new_text_source": "new",
+   "subject": "RE: El Paso Annuities - Year 2000",
+   "thread_id": "tc407480f7e",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-13T02:39:07+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/402",
+   "new_text": "I apologize for the \"glaring\".\n\nb",
+   "new_text_source": "new",
+   "subject": "FW: Summary- Judge's Recommendation re Retroactive Refunds",
+   "thread_id": "tc479fefad3",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-13T05:01:26+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/399",
+   "new_text": "-----Original Message-----\nFrom: =09Alvarez, Ray =20\nSent:=09Thursday, July 12, 2001 4:27 PM\nTo:=09Steffes, James; Hodge, Jeffrey T.; Williams, Robert C.; Kean, Steven;=\n Shapiro, Richard; Robertson, Linda; Dasovich, Jeff; Walton, Steve; Mara, S=\nusan; Comnes, Alan; Lawner, Leslie; Cantrell, Rebecca W.; Fulton, Donna; Ni=\ncolay, Christi; jalexander@gibbs-bruns.com; Allen, Phillip K.; Noske, Linda=\n; Perrino, Dave; Black, Don; Frank, Robert; Miller, Stephanie; Tycholiz, Ba=\nrry; Thome, Jennifer; Belden, Tim; Swerzbin, Mike; Driscoll, Michael M.; Mo=\ntley, Matt; Badeer, Robert; Scholtes, Diana; Crandall, Sean; Mallory, Chris=\n; Richter, Jeff; Alonso, Tom; Fischer, Mark; Platter, Phillip; Carla Hoffma=\nn/PDX/ECT@ECT; Calger, Christopher F.; Etringer, Michael; Hall, Steve C.; Y=\noder, Christian; Heizenrader, Tim; Swain, Steve; Mainzer, Elliot; Williams =\nIII, Bill; Thomas, Jake; Rawson, Lester; Wolfe, Greg; gwolfe@enron.com; All=\nen, Phillip K.; Kaufman, Paul; sscott3@enron.com; Pharms, Melinda\nSubject:=09Summary- Judge's Recommendation re Retroactive Refunds\n\nCommenting on his general perception of the settlement conference, the Chie=\nf Judge, in his down home manner, did not miss the opportunity to say that =\n\"you can take a horse to water but you can't make him drink.\"  Below is a C=\nliff Notes version of the Judge's report and recommendation issued at 4:49 =\nPM today.  Attached is the complete work. =20\n\nThe Judge opined that very large refunds would be due- \"While the amount of=\n such refunds is not $8.9 billion as claimed by the State of California, th=\ney do amount to hundreds of millions of dollars, probably more than a billi=\non dollars in an aggregate sum.  ?At the same time, while there are vast su=\nms due for overcharges, there are even larger amounts owed to energy seller=\ns by the CAISO, the investor owned utilities, and the State of California. =\n Can a cash refund be required where a much larger amount is due the seller=\n?  The Chief Judge thinks not.\"  Another notable quote:  \"?it is the opinio=\nn of the Chief Judge that the amount claimed by the State of California has=\n not and cannot be substantiated.\" =20\n\nThe Judge noted that he submitted a proposal of his own on July 5, which wa=\ns summarily rejected by the State of California, and that the five separate=\n offers of the various industry groups to settle with California were also =\nrejected.=20\n =20\nRefund Effective Date- Refund effective date of October 2, 2000, for sales =\nin the spot markets of the CAISO and the Cal PX.  The Chief Judge's recomme=\nndations do not go beyond that date.  \"Spot market\" sales are \"sales that a=\nre 24 hours or less and that are entered into the day of or day prior to de=\nlivery.\"=20\n\nEvidentiary Hearing- \"The differences between what the State of California =\nbelieves the buyers in the California markets are owed in refunds and what =\nthe sellers in the California market believe should be refunded raise mater=\nial issues of fact. The appropriate numbers to calculate potential refunds =\ninvolve factual disputes.  Thus, the Chief Judge recommends that a trial-ty=\npe, evidentiary hearing be ordered limited to a factual record to apply to =\nthe methodology set forth below.  Because of the urgent need for an answer =\nto the refund issues that hearing should be on a 60-day fast track schedule=\n.  It is important that a single methodology be adopted for calculating pot=\nential refunds in this proceeding.  However, such a methodology may not be =\nappropriate for all sellers in the CAISO's and Cal PX's spot markets in an =\nafter-the-fact refund calculation.    In any event, sellers not using the m=\nethodology should bear the burden of demonstrating that their costs exceede=\nd the results of the methodology recommended herein over the entire refund =\nperiod.\"\n\nMethodology- The Chief Judge recommends that the methodology set forth in t=\nhe June 19th Order be used with the modifications discussed below in order =\nto calculate any potential refunds that may be due to customers in the CAIS=\nO's and Cal PX's spot energy and ancillary service markets for the period O=\nctober 2, 2000 through May 28, 2001. =20\n\nHeat Rate- The actual heat rates, rather than hypothetical heat rates (asso=\nciated with recreating the must-bid requirement of the June 19th Order) pro=\nvide the first step in calculating the cost of the marginal unit.\n\nGas Cost-  The gas costs associated with the marginal unit should be based =\nupon a daily spot gas price.  \"In the event that the marginal unit is locat=\ned in NP15 (North of Path 15), the daily spot gas price for PG&E Citygate a=\nnd Malin should be averaged with the resulting gas price multiplied by the =\nmarginal unit's heat rate to calculate a clearing price for that hour.  If =\nthe marginal unit is located in SP15 (South of Path 15), the daily spot gas=\n price for Southern California Gas large packages should be multiplied by t=\nhe marginal unit's heat rate to calculate a clearing price for that hour.  =\nThe daily spot gas prices should be for the \"midpoint\" as published in Fina=\nncial Times Energy's \"Gas Daily\" publication for the aforementioned deliver=\ny points.  The last published gas prices should be used in calculating the =\nrefund price for the days that Gas Daily is not published (weekends and hol=\nidays).\"=20\n\nO&M Adder-  An adder of $6/MWh for O&M should also be included with the cal=\nculated market clearing price. =20\n\nEmissions Costs- Demonstrable emission costs should be excluded from the ma=\nrket clearing price and treated as an additional expense that sellers may s=\nubtract from their respective refund calculation.\n\nCredit Adder- The 10 percent adder should be included in the market clearin=\ng price for all transactions that occurred after January 5, 2001 when PG&E =\nand SoCal Edison were deemed no longer creditworthy.\n\nAncillary Services-  Consistent with the June 19th Order, ancillary service=\n prices would be capped at the market clearing price established in the rea=\nl-time imbalance energy market.  Adjustment bids would also be treated the =\nsame as set forth in the June 19th Order.=20\n\nMaximum Price for Non-Emergency Hours- Somewhat unclear.  The Chief Judge r=\necommends that for purposes of recreating a competitive market for calculat=\ning refunds, the refund methodology should deviate from the 85% non-emergen=\ncy requirement of the June 19th Order.  To measure the amount that actual p=\nrices may have exceeded the refund price, every hour should be recalculated=\n.\n\nOffsets-  \"Recalculating the hourly competitive price for purposes of a ref=\nund calculation would also permit the Cal PX and CAISO to resettle all char=\nges for the refund period.  Amounts owed to sellers and outstanding amounts=\n due from buyers would be recalculated.  Any refunds could then be offset a=\ngainst accurate amounts receivable without sellers netting out any of their=\n purchases from the CAISO and Cal PX during the refund period.\"\n\nInterest-  Interest should not be charged against any refund amounts unless=\n the refund amount exceeds the amounts that are past due to the seller.",
+   "new_text_source": "body",
+   "subject": "FW: Summary- Judge's Recommendation re Retroactive Refunds",
+   "thread_id": "tc479fefad3",
+   "to": [
+    "ryan.slinger@enron.com"
+   ],
+   "truncated": false
+  }
+ ]
+}

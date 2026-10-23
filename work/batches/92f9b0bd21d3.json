@@ -1,0 +1,858 @@
+{
+ "batch_id": "92f9b0bd21d3",
+ "context": [],
+ "messages": [
+  {
+   "date": "2001-10-29T22:23:03+00:00",
+   "from": "julie.armstrong@enron.com",
+   "msg_id": "lokay-m/inbox/4",
+   "new_text": "http://fourseasons.com/houston/dining/dining_60.html",
+   "new_text_source": "new",
+   "subject": "RE: Cirque du Soleil - Dralion",
+   "thread_id": "tb64a0ceee0",
+   "to": [
+    "michelle.lokay@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-14T14:24:13+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/94",
+   "new_text": "C:\\Documents and Settings\\mlokay\\Local Settings\\Temporary Internet Files\\OLK118\\SprintEnron.jpg",
+   "new_text_source": "new",
+   "subject": "SprintEnron",
+   "thread_id": "tba1c2c8a78",
+   "to": [
+    "'hitschel@enron.com",
+    "bhitschel@tesoropetroleum.com",
+    "jimboman@bigfoot.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-26T14:17:46+00:00",
+   "from": "ron.matthews@enron.com",
+   "msg_id": "lokay-m/inbox/11",
+   "new_text": "The attached reflect Marketing's request to have interest, overheads, and AFUDC split out for all line items.  The revision also includes recent additional input by Engineering.  If you have any question, please call.\n\nRon M.",
+   "new_text_source": "new",
+   "subject": "Mainline Expansion 250 & 300 MMcf/d Scenarios - Revised",
+   "thread_id": "tbc0e954e90",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "michelle.lokay@enron.com",
+    "morgan.gottsponer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-03-20T20:11:10+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/157",
+   "new_text": "Clock-1",
+   "new_text_source": "body",
+   "subject": "Clock",
+   "thread_id": "tbcc7452b7e",
+   "to": [
+    "548@britishparts.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-03-06T22:17:19+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/128",
+   "new_text": "Notwithstanding anything herein that may be interpreted to the contrary, the aggregate Operational Imbalance for all Interconnect Points in any month will be within a 10% tolerance level (i.e., neither exceeds 110% of the quantities scheduled, or is less than 90% of the quantities scheduled).\n\n\nBill,\nHere is how I currently have paragraph 6 (tolerance level) in the OBA.  Should we insert another sentence reemphasizing that \"all imbalances\" will be \"cashed out\"?\n\n\nMichelle Lokay\nAccount Director\nTranswestern Commercial Group\n713-345-7932",
+   "new_text_source": "new",
+   "subject": "Burlington OBA paragraph change",
+   "thread_id": "tbe02746a41",
+   "to": [
+    "bill.rapp@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-17T16:52:04+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/72",
+   "new_text": "What do you think of this itinerary?  You guys would leave San Antonio and pick us up at Hobby for the same flight to Orlando.  On the return trip, we leave 1 1/2 hours before you, but you guys have a direct flight.  The trip is Friday through Saturday, for 8 nights.  The flights are getting more limited and have increased again!  Let's talk soon.\n\nhttp://www.iflyswa.com/cgi-bin/showOrPrice\n\n\n\nMichelle Lokay\nAccount Director\nTranswestern Commercial Group\n713-345-7932",
+   "new_text_source": "new",
+   "subject": "Disney trip",
+   "thread_id": "tbe309b9120",
+   "to": [
+    "'hitschel@enron.com",
+    "bhitschel@tesoropetroleum.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-04T20:53:30+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/54",
+   "new_text": "http://disney.go.com/digitalshowcase/sc_flash.html\n\nMichelle Lokay\nAccount Director\nTranswestern Commercial Group\n713-345-7932",
+   "new_text_source": "new",
+   "subject": "Disney link",
+   "thread_id": "tc0845e28de",
+   "to": [
+    "jimboman@bigfoot.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-29T20:06:27+00:00",
+   "from": "dennis.lee@enron.com",
+   "msg_id": "lokay-m/inbox/5",
+   "new_text": "-----Original Message-----\nFrom: \tLee, Dennis  \nSent:\tMonday, October 29, 2001 1:31 PM\nTo:\tLokay, Michelle; McConnell, Mark\nSubject:\tBurling Contracts utilizing Alt pts\n\nAttached are the Burlington FT contracts that have used alternate points from October,. 2000 through September, 2001.\nI'll work on Amoco and Conoco.  \n\nLet me know if you need anything else.\n\n\n\nDennis P. Lee\nETS\nGas Logistics\n(713) 853-1715\ndennis.lee@enron.com",
+   "new_text_source": "body",
+   "subject": "RE: Burling Contracts utilizing Alt pts",
+   "thread_id": "tc0ef8e0dbe",
+   "to": [
+    "dennis.lee@enron.com",
+    "michelle.lokay@enron.com",
+    "mark.mcconnell@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-03-25T16:47:08+00:00",
+   "from": "audrey.robertson@enron.com",
+   "msg_id": "lokay-m/inbox/33",
+   "new_text": "Per discussions in Shelley's introductory meeting this morning, please mark your calendars to reflect a Strategy Meeting on Thursday of this week, March 28, 2:00 - 3:30 pm in ECN-39C1.\n\nPlease let me know if there are any conflicts.\n\nThanks in advance,\n\nadr\n\nAudrey D. Robertson\nTranswestern Pipeline Company \nemail address:  audrey.robertson@enron.com\n(713) 853-5849\n(713) 646-2551 Fax",
+   "new_text_source": "new",
+   "subject": "Strategy Meeting - TW Commercial Team",
+   "thread_id": "tc37ecc5775",
+   "to": [
+    "kevin.hyatt@enron.com",
+    "lindy.donoho@enron.com",
+    "tk.lohman@enron.com",
+    "michelle.lokay@enron.com",
+    "mark.mcconnell@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-31T14:40:50+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/60",
+   "new_text": "Approved.  Amendment to increase TQ by 10,000 for 2 days.",
+   "new_text_source": "new",
+   "subject": "FW: TW transport",
+   "thread_id": "tc42e15c546",
+   "to": [
+    "dennis.lee@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-31T14:42:07+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/59",
+   "new_text": "-----Original Message-----\nFrom: Lokay, Michelle \nSent: Monday, December 31, 2001 8:41 AM\nTo: Lee, Dennis\nSubject: FW: TW transport\n\n\nApproved.  Amendment to increase TQ by 10,000 for 2 days.\n \n-----Original Message-----\nFrom: Karen Swett [mailto:kswett@tmvgas.com]\nSent: Monday, December 31, 2001 8:36 AM\nTo: Lokay, Michelle\nSubject: TW transport\n\n\nPlease increase the MDQ of TW #27792 by 10000 to 20000/d for January 1-2, 2002 at the same rates.",
+   "new_text_source": "body",
+   "subject": "FW: TW transport",
+   "thread_id": "tc42e15c546",
+   "to": [
+    "tk.lohman@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-19T20:15:00+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/102",
+   "new_text": "http://www.ragroup.org/index.asp",
+   "new_text_source": "new",
+   "subject": "Welcome to ResourceAllianceGroup of Houston",
+   "thread_id": "tc4d436e0b2",
+   "to": [
+    "jimboman@bigfoot.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-21T15:59:13+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/108",
+   "new_text": "Feudalism\nYou have two cows.\nYour lord takes some of the milk.=20\nFascism\nYou have two cows.\nThe government takes both, hires you to take care of them and sells you the=\n milk.\nCommunism\nYou have two cows.\nYou must take care of them, but the government takes all the milk.=20\nCapitalism\nYou have two cows.\nYou sell one and buy a bull.\nYour herd multiplies, and the economy grows.\nYou sell them and retire on the income.=20\nEnron\nYou have two cows.  You borrow 80% of the forward value of the two cows fro=\nm your bank, then buy another cow with 5% down and the rest financed by the=\n seller on a note callable if your market cap goes below $20B at a rate 2 t=\nimes prime. You now sell three cows to your publicly listed company, using =\nletters of credit opened by your brother-in-law at a 2nd bank, then execute=\n a debt/equity swap with an associated general offer so that you get four c=\nows back, with a tax exemption for five cows. The milk rights of six cows a=\nre transferred via an intermediary to a Cayman Island company secretly owne=\nd by the majority shareholder who sells the rights to seven cows back to yo=\nur listed company. The annual report says the company owns eight cows, with=\n an option on one more and this transaction process is upheld by your indep=\nendent auditor and no Balance Sheet provided with the press release that an=\nnounces that Enron as a major owner of cows will begin trading cows via the=\n Internet site COW (cows on web). I am sure you now fully understand what h=\nappened.",
+   "new_text_source": "new",
+   "subject": "Enron government",
+   "thread_id": "tc6459480aa",
+   "to": [
+    "jimboman@bigfoot.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-10T15:13:04+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/2",
+   "new_text": "Approved.\n\nPlease increase the Total Quantity from 10000 to 23115 for TODAY.  Points remain the same.  Thanks.",
+   "new_text_source": "new",
+   "subject": "FW: I/B LINK CAPACITY",
+   "thread_id": "tc9cd3da8d1",
+   "to": [
+    "dennis.lee@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-13T20:57:49+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/14",
+   "new_text": "Approved.\n\n-----Original Message-----\nFrom: Reames Julie [mailto:JReames@br-inc.com]\nSent: Thursday, December 13, 2001 2:50 PM\nTo: Lokay, Michelle\nSubject: I/B Link Capacity\n\n\nMichelle,\n\nPer our conversation BRTI and Transwestern agree to increase the MDQ  of transportation contract 27748 from 10,000 MMBtu per day to 33,000\nMMBtu per day, effective 12/14/01 - 12/31/01.  The agreed to rate for the incremental transportation quantity of 23,000 MMBtu/day is $.055\nper MMBtu plus fuel.  As agreed, BRTI will have alternate receipt points from Ignacio (500535) and La Plata (500533) as well as EPNG Blanco\nas an alternate delivery point.\n\nThank you,\n\nJulie",
+   "new_text_source": "body",
+   "subject": "FW: I/B Link Capacity",
+   "thread_id": "tc9cd3da8d1",
+   "to": [
+    "michael.bodnar@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-12T17:10:38+00:00",
+   "from": "ron.matthews@enron.com",
+   "msg_id": "lokay-m/inbox/21",
+   "new_text": "This is a revised spreadsheet from the one yesterday.  Changes made were a result of discussions with Darrell.  Still need to stick to our guns and NOT give Burlington any pressure to hang their hats on.\n\nRon Matthews",
+   "new_text_source": "new",
+   "subject": "Burlington Study - El Paso WIndow Rock I/C",
+   "thread_id": "tccc2806da7",
+   "to": [
+    "michelle.lokay@enron.com",
+    "darrell.schoolcraft@enron.com",
+    "kimberly.watson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-29T13:52:01+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/28",
+   "new_text": "-----Original Message-----\nFrom: Jim Lokay [mailto:Lokay@bigfoot.com]\nSent: Monday, January 28, 2002 5:14 PM\nTo: Lokay, Michelle\nSubject: Enron Capitalism\n\n\nA primer on how to succeed in business:\n\nCapitalism\n\nYou have two cows. You sell one and buy a bull.  Your herd\nmultiplies, and the economy grows. You sell them and retire on the\nincome.\n\n\nEnron Capitalism\n\nYou have two cows. You sell three of them to your publicly listed\ncompany, using letters of credit  opened by your brother-in-law at\nthe bank, then execute a debt/equity swap with an associated  general\noffer so that you get all four cows back, with a tax exemption for\nfive cows. The milk rights of the six cows are transferred via an\nintermediary to a Cayman Island company secretly owned by your CFO\nwho sells the rights to all seven cows back to your listed company.\nThe annual report says the company owns eight cows, with an option on\nsix more.",
+   "new_text_source": "body",
+   "subject": "FW: Enron Capitalism",
+   "thread_id": "td5569c5315",
+   "to": [
+    "julie.armstrong@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-29T17:55:21+00:00",
+   "from": "elizabeth.brown@enron.com",
+   "msg_id": "lokay-m/inbox/8",
+   "new_text": "FYI - I am forwarding the attached file (matrix200111), which provides a matrix of TW's max tariff rates as well as a table of the base res. and comm. rates and reservation surcharges for the Global Settlement contracts.  If you have any questions, please feel free to contact me or Rita.\n\nThanks,\nElizabeth",
+   "new_text_source": "new",
+   "subject": "FW: 11/2001 TW Rate Matrix for posting",
+   "thread_id": "tdb479df1d3",
+   "to": [
+    "kimberly.watson@enron.com",
+    "lindy.donoho@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "michelle.lokay@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-03-22T15:22:16+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/158",
+   "new_text": "-----Original Message-----\nFrom: \tStark, Cindy   On Behalf Of Horton, Stanley\nSent:\tFriday, March 22, 2002 8:32 AM\nTo:\tHyatt, Kevin; Lohman, TK; Y'barbo, Paul; Lokay, Michelle; McConnell, Mark; Donoho, Lindy; Dietz, Rick; Nacey, Sheila; Scott, Donna; Bryant, Mike; Blair, Lynn; January, Steve; Holmes, Bradley\nSubject:\tORGANIZATION MEETING\nImportance:\tHigh\n\nPlease rearrange your schedules to attend a meeting with Stan Horton today at 10:45am in 49C3.   Sorry for the short notice.\n\nCindy Stark\nExecutive Assistant to Stan Horton\nTel:   713/853-6197\nFax:  713/345-7047\nCindy.Stark@enron.com",
+   "new_text_source": "body",
+   "subject": "FW: ORGANIZATION MEETING",
+   "thread_id": "tdc59a3deec",
+   "to": [
+    "audrey.robertson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-14T13:36:18+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/92",
+   "new_text": "I was out sick yesterday afternoon, 02/13, and will be taking vacation tomorrow, 02/15.  Thanks.",
+   "new_text_source": "new",
+   "subject": "RE: Time Reports Due Thursday",
+   "thread_id": "tdc8517342a",
+   "to": [
+    "audrey.robertson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-14T15:02:10+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/99",
+   "new_text": "Thank you!\n\n -----Original Message-----\nFrom: \tRobertson, Audrey  \nSent:\tThursday, February 14, 2002 9:02 AM\nTo:\tLokay, Michelle\nSubject:\tRE: Time Reports Due Thursday\n\nMichelle, you were here yesterday, okay....\n\nadr\n\nAudrey D. Robertson\nTranswestern Pipeline Company \nemail address:  audrey.robertson@enron.com\n(713) 853-5849\n(713) 646-2551 Fax\n\n -----Original Message-----\nFrom: \tLokay, Michelle  \nSent:\tThursday, February 14, 2002 7:36 AM\nTo:\tRobertson, Audrey\nSubject:\tRE: Time Reports Due Thursday\n\nI was out sick yesterday afternoon, 02/13, and will be taking vacation tomorrow, 02/15.  Thanks.\n\n -----Original Message-----\nFrom: \tRobertson, Audrey  \nSent:\tWednesday, February 13, 2002 2:34 PM\nTo:\tDonoho, Lindy; Lindberg, Lorraine; Lohman, TK; Lokay, Michelle; Mark McConnell (E-mail); Watson, Kimberly; Y'barbo, Paul\nSubject:\tTime Reports Due Thursday\n\n\nDon't forget to submit your time reports by Thursday morning.\n\nThanks in advance,\n\nadr\n\nAudrey D. Robertson\nTranswestern Pipeline Company \nemail address:  audrey.robertson@enron.com\n(713) 853-5849\n(713) 646-2551 Fax",
+   "new_text_source": "body",
+   "subject": "RE: Time Reports Due Thursday",
+   "thread_id": "tdc8517342a",
+   "to": [
+    "audrey.robertson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-14T00:39:57+00:00",
+   "from": "kimberly.watson@enron.com",
+   "msg_id": "lokay-m/inbox/43",
+   "new_text": "It is that time of year.... Please complete your list of accomplishments by the end of November.  \n\nAlso, please complete your 2002 Objectives by December 14.  Your objectives will need to outline your specific marketing plan for each customer, project and idea you may have for adding/increasing value to Transwestern in 2002.  As discussed earlier, we will get together in mid-December to review account loads to see if we need to do any shifting.  Your 2002 Objectives will be helpful in determining whether your load is heavy, light or just right.   \n\nI will be happy to visit with each of you individually if you have any questions or would like to discuss these items.    :>)\n\nThanks,\nKim.",
+   "new_text_source": "new",
+   "subject": "Year End Accomplishments",
+   "thread_id": "tdcc05381f1",
+   "to": [
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "michelle.lokay@enron.com",
+    "mark.mcconnell@enron.com",
+    "paul.y'barbo@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-13T17:17:09+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/10",
+   "new_text": "-----Original Message-----\nFrom: \tHanagriff, Richard  \nSent:\tThursday, December 13, 2001 9:38 AM\nTo:\tSchoolcraft, Darrell; Lokay, Michelle\nSubject:\ttw imbals",
+   "new_text_source": "body",
+   "subject": "Latest OBA imbalances, effective 12/10/01",
+   "thread_id": "tdcc87ad598",
+   "to": [
+    "kimberly.watson@enron.com",
+    "steven.harris@enron.com",
+    "lorraine.lindberg@enron.com",
+    "mark.mcconnell@enron.com",
+    "paul.y'barbo@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-03-19T19:07:43+00:00",
+   "from": "darrell.schoolcraft@enron.com",
+   "msg_id": "lokay-m/inbox/28",
+   "new_text": "Please see the attached.\n\n\nds",
+   "new_text_source": "new",
+   "subject": "Postings",
+   "thread_id": "tddd044b194",
+   "to": [
+    "david.roensch@enron.com",
+    "kimberly.watson@enron.com",
+    "michelle.lokay@enron.com",
+    "tk.lohman@enron.com",
+    "lorraine.lindberg@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-07T13:46:10+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/53",
+   "new_text": "-----Original Message-----\nFrom: \tEnron Announcements/Corp/Enron@ENRON   On Behalf Of ETS General Announcements@ENRON\nSent:\tFriday, January 04, 2002 2:58 PM\nTo:\tEnron Transportation Services - Houston@ENRON; Enron Everyone_ET&S_Omaha\nSubject:\tMeeting for Houston and Omaha ETS Employees\n\nHouston and Omaha ETS Employees,\n\nAs you know, Enron reached a settlement with Dynegy, which allows Dynegy to exercise its option to acquire Northern Natural Gas.\n\nTo discuss this action, please attend a floor meeting with Stan on Monday, January 7, from 1:30 - 2:30 in the Enron building in the area of 3922.  Omaha employees, please gather in 227. \n\nSee you then.",
+   "new_text_source": "body",
+   "subject": "FW: Meeting for Houston and Omaha ETS Employees",
+   "thread_id": "te12bd071ae",
+   "to": [
+    "julie.armstrong@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-14T16:39:31+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/101",
+   "new_text": "About CIG...yes, please send statements to support the volume difference for 07/01 and 03/00.  The reconciliation seems to be going very well.  We had originally sent Mike Clark the CIG data back to 06/93...do you have those?  Thanks.",
+   "new_text_source": "new",
+   "subject": "RE: TW Imbalances at Topock and Tumbleweed",
+   "thread_id": "te394ceea5d",
+   "to": [
+    "'mayher@enron.com",
+    "susan.mayher@elpaso.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-03-04T16:31:49+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/122",
+   "new_text": "-----Original Message-----\nFrom: Lokay, Michelle \nSent: Monday, March 04, 2002 10:28 AM\nTo: 'Mayher, Susan'\nCc: Minter, Tracy\nSubject: RE: TW Imbalances at Topock and Tumbleweed\n\n\nHere is a summary of the support I have faxed to you concerning the scheduled volume discrepancies:\n\n\n\nScheduled Volume Difference\nJul-00  CIG = 839,636   TW = 839,638 Difference = (2)...occurred 07/07\nApr-00  CIG = 163,162   TW= 163,134 Difference = 28...occurred 04/28\nOct-98  CIG = 84,505   TW = 85,107 Difference = 602...occurred 10/29, 10/30\nAug-98  CIG = 326,831   TW = 326,397 Difference = 434...occurred 08/02, 08/22, 08/23\nJul-98  CIG = 212,226   TW = 202,228 Difference = 9,998...occurred 07/18, 07/19, 07/20, 07/21, 07/31\nMay-97  CIG = 86,770   TW = 99,972 Difference = (13,202)...05/07, 05/16\nApr-96  CIG = 5,447   TW = 5,522 Difference = (75)...04/25, 04/26\nJan-96  CIG = 59,790   TW = 62,000 Difference = (2,210)...occurred 01/1-15",
+   "new_text_source": "body",
+   "subject": "FW: TW Imbalances at Topock and Tumbleweed",
+   "thread_id": "te394ceea5d",
+   "to": [
+    "richard.hanagriff@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-22T15:20:39+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/36",
+   "new_text": "Here is the internet link from TW's EBB.\n \n http://www.tw.enron.com/twdb/etfr_avcap.html",
+   "new_text_source": "new",
+   "subject": "TW - available capacity",
+   "thread_id": "te3ccd967fe",
+   "to": [
+    "mark.mcconnell@enron.com",
+    "paul.y'barbo@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-22T15:29:55+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/35",
+   "new_text": "Due today at 5:00...hope you guys bid!\n \n http://www.tw.enron.com/twdb/etfr_avcap.html",
+   "new_text_source": "new",
+   "subject": "TW - available capacity",
+   "thread_id": "te3ccd967fe",
+   "to": [
+    "pabercrombie@txu.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-22T15:45:50+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/34",
+   "new_text": "Bids are due today at 5:00...hope you guys bid!\n \n http://www.tw.enron.com/twdb/etfr_avcap.html",
+   "new_text_source": "new",
+   "subject": "TW - available capacity",
+   "thread_id": "te3ccd967fe",
+   "to": [
+    "rvhamman@aep.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-28T16:05:39+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/116",
+   "new_text": "-----Original Message-----\nFrom: \tLokay, Michelle  \nSent:\tThursday, February 28, 2002 10:02 AM\nTo:\t'jreames@br-inc.com'\nSubject:\tPottery Barn\n\nI'm serious!...if Patrick wants to build Meghan's new furniture, here are the links:\n\nfor the shelf,\nhttp://www.potterybarnkids.com/cat/pip.cfm?lst=n202012907%2Cdollhouses&itm=g15143&grp=15143\n\nfor the armoire,\nhttp://www.potterybarnkids.com/cat/pip.cfm?age=-&gnd=a&lst=f5260-a-&grp=15136&itm=g15136&src=famf5260%7Cp1%2Fpipa%2D%7Cc58%7Cg15084%7Cig15084%7CldFRNARM%2DA%2D%7Cna%7CpFRNARM%2FshpcFRNARM%7Cp1\n\nfor the bed, \nhttp://www.potterybarnkids.com/cat/pip.cfm?age=-&gnd=A&pcat=FRNBTR&lst=dFRNBTR-A-&grp=15092&itm=g15092&src=shpcFRNBTR%7Cp2%2FshpcFRN%7Cp1%2Fpipa%2D%7Cc58%7Cg15143%7Cig15143%7Cln202012907%2Cdollhouses%7Cna%7Cs3901402\n\nMichelle Lokay\nAccount Director\nTranswestern Commercial Group\n713-345-7932",
+   "new_text_source": "body",
+   "subject": "FW: Pottery Barn",
+   "thread_id": "te9e37c372b",
+   "to": [
+    "lokay@bigfoot.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-21T17:30:23+00:00",
+   "from": "mansoor.abdmoulaie@enron.com",
+   "msg_id": "lokay-m/inbox/25",
+   "new_text": "Michelle\n\nIn order to make this interconnect bi-directional the following work need to be performed: \n( capacity 35- 60 mmcf/d at 800-850 # pressure)\n\n1):  Blowdown gas in 5.335 miles of 12\" ( gas-loss) at 1000# pressure\n\n2):\tRemove a flapper in the check-valve or turn around the existing check-valve\n\n\nThe  cost for this is approximately $8,000 to $10,000.\n\nStill waiting for Earl Chanley from Roswell to send me some facility information regarding the Pecos interconnect.\n\nMansoor",
+   "new_text_source": "new",
+   "subject": "TW/ Lonestar Ward County intercoonect-----Level-A cost",
+   "thread_id": "teb6f00ed0a",
+   "to": [
+    "michelle.lokay@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-03-08T16:26:43+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/134",
+   "new_text": "Are we scheduled at certain time?  If I could be moved in the morning (I only have 2 boxes), that would be great.  I have customers coming in at 11:00 for the rest of the afternoon.  Thanks.",
+   "new_text_source": "new",
+   "subject": "RE: Your move scheduled for next Thursday, 3/14",
+   "thread_id": "tec2b2cf023",
+   "to": [
+    "ruthann.frausto@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-31T15:33:24+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/75",
+   "new_text": "I was out Friday, the 25th, and would like to use my \"discretionary holiday\"!  Thanks.",
+   "new_text_source": "new",
+   "subject": "RE: Time Reports Due Today!!!",
+   "thread_id": "tf20260ea8e",
+   "to": [
+    "audrey.robertson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-03-15T14:35:56+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/145",
+   "new_text": "Hi!\n\nOf course I remember you!  How are you, and your son?  What have you been doing?  Do you ever get to see Marilyn and Poli?  How are things at Compaq?  Is the Compaq/HP merger going to happen?  Things are going well here (at Enron!?!?)...considering it is the \"biggest corporate debacle\" in history.  Thanks for asking about Meghan...she's 3, can you believe it?  Jim and I are about to take her to Disney World!\n\nThanks for emailing me, please tell everyone I said \"hello\", and talk soon...",
+   "new_text_source": "new",
+   "subject": "RE: Hello",
+   "thread_id": "tf3aefe6296",
+   "to": [
+    "'payne@enron.com",
+    "sharee.payne@compaq.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-20T13:38:33+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/70",
+   "new_text": "Do you want to go?\n\n -----Original Message-----\nFrom: \tEnron General Announcements  \nSent:\tWednesday, December 19, 2001 5:03 PM\nTo:\tDL-GA-all_enron_houston_employees\nSubject:\tFROM CINDY OLSON, COMMUNITY RELATIONS:  Discount Tickets to The Nutcracker\n\n\nDear Enron Employee:\n\nHouston Ballet is presenting The Nutcracker through Sunday, December 30.  The production has been hailed by the Houston chronicle as \"the crown jewel of holiday entertainment,\" and is a perfect introduction to the world of ballet for families and audiences of all ages.  Enron has been a long-time supporter of the Ballet, and we would like to thank you with a special invitation from Houston Ballet and TicketMaster for discount tickets to The Nutcracker.\n\nClick on the following links below to receive a 25% discount on tickets to any of the selected performances of The Nutcracker.\n\nTo place your order, click on the link below to choose your day and time.  When requesting your tickets, you may choose from best available seats or a specific section, however, all ticket prices may not be available.  Ticketmaster service and handling charges will apply to your order.\n\nYour company code is: NUT1.\n\nHappy Holidays and enjoy Houston Ballet.\n\nPerformance Dates and Times:\n\nWednesday, December 26 at 7:30pm\nhttps://ticketing.ticketmaster.com/cgi/purchasePage.asp?event_id=C003345C3DE86FB&event_code=EHL1226\n\nThursday, December 27 at 7:30pm\nhttps://ticketing.ticketmaster.com/cgi/purchasePage.asp?event_id=C003345D10FB243&event_code=EHL1227\n\nSaturday, December 29 at 2:00pm\nhttps://ticketing.ticketmaster.com/cgi/purchasePage.asp?event_id=C003345CDB2A7A1&event_code=EHL1229M\n\nSunday, December 30 at 2:00pm\nhttps://ticketing.ticketmaster.com/cgi/purchasePage.asp?event_id=C003345CDDBA7F9&event_code=EHL1230M",
+   "new_text_source": "body",
+   "subject": "FW: FROM CINDY OLSON, COMMUNITY RELATIONS: Discount Tickets to The Nutcracker",
+   "thread_id": "tf55e91229a",
+   "to": [
+    "jimboman@bigfoot.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-03-08T16:20:48+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/132",
+   "new_text": "No bullets....ongoing with TXU, Burlington, Mojave.",
+   "new_text_source": "new",
+   "subject": "RE: Bullets",
+   "thread_id": "tf681f22c1d",
+   "to": [
+    "kimberly.watson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-03-21T03:22:24+00:00",
+   "from": "richard.hanagriff@enron.com",
+   "msg_id": "lokay-m/inbox/30",
+   "new_text": "fyi\n\nthere was a measurement adj during Feb at NNG Beaver (pressure base change) which caused fewer volumes to be measured resulting in approximately 60,000 mmbtus due NNG\n\nline pack has increased by approximately 253,000 mmbtus during March as a result of oba activity",
+   "new_text_source": "new",
+   "subject": "TW imbalance summary",
+   "thread_id": "tf7a7fdcd72",
+   "to": [
+    "bert.hernandez@enron.com",
+    "amy.mulligan@enron.com",
+    "darrell.schoolcraft@enron.com",
+    "kimberly.watson@enron.com",
+    "michelle.lokay@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-28T23:57:19+00:00",
+   "from": "kimberly.watson@enron.com",
+   "msg_id": "lokay-m/inbox/9",
+   "new_text": "FYI, Kim.\n\n -----Original Message-----\nFrom: \tMiller, Mary Kay  \nSent:\tFriday, October 26, 2001 3:35 PM\nTo:\tHarris, Steven; Watson, Kimberly; Lokey, Teb; Neubauer, Dave; Miller, Kent; Fossum, Drew; Pavlou, Maria; Kirk, Steve; Porter, Gregory J.; Hartsoe, Joe; Kilmer III, Robert; Williams, Jo\nSubject:\tColumbia Gulf order on negotiated rates\n\nI received a copy of an order issued by the FERc on Columbia negotiated rate transaction, which includes a formula ie indexed rate.  They accepted the negotiated rate deal but they are requiring  them to file in their tariff within ONE DAY after the rate has been determined the contract and actual rate. ( Each time the actual rate changes during the term)   Just think about this for the upcoming TW_ USGT deal and NNG\"- Reliant deals.    Notwithstanding the time to actually make the filing, the cost to serve it each day if the negotiated rate is different by day and then the service when an order is issued each day---  I believe this is FERC's way to attempt to eliminate negotiated rate indexed based deals-  they are punishing themselves as well, as each filing will require a notice etc-  so every day they could need to issue an order.   \n\nI feel we need to discuss with Columbia, INGAA and join in filing for rehearing on this administrative nightmare.  An alternative would be to require you to post on Internet website the day of the transaction the actual rate, so similarly situated customers would have access to the actual rate.  I'm sending you guys a copy of the order.",
+   "new_text_source": "body",
+   "subject": "FW: Columbia Gulf order on negotiated rates",
+   "thread_id": "tf9f4a9250f",
+   "to": [
+    "tk.lohman@enron.com",
+    "lorraine.lindberg@enron.com",
+    "michelle.lokay@enron.com",
+    "paul.y'barbo@enron.com",
+    "mark.mcconnell@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-11T17:02:07+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/46",
+   "new_text": "Sorry, the effective date for this new report is 01/07-01/11.",
+   "new_text_source": "new",
+   "subject": "RE: California Capacity Report for Week of 01/07-01/11",
+   "thread_id": "tfbe074dc54",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-14T15:03:13+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/100",
+   "new_text": "- WitCity The Enron Voice Mail System 2002.htm",
+   "new_text_source": "new",
+   "subject": "Enron's New Voice Mail System",
+   "thread_id": "tfc1f5bb86f",
+   "to": [
+    "jimboman@bigfoot.com",
+    "'hitschel@enron.com",
+    "bhitschel@tesoropetroleum.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-26T21:59:58+00:00",
+   "from": "audrey.robertson@enron.com",
+   "msg_id": "lokay-m/inbox/51",
+   "new_text": "Please note, Paul has scheduled a meeting to discuss \"Available Capacity\" on tomorrow, Tuesday, November 27, 10:30 - 11:30, ECN-1336.\n\nPlease mark your calendars accordingly.\n\n\nadr\n\nAudrey D. Robertson\nTranswestern Pipeline Company \nemail address:  audrey.robertson@enron.com\n(713) 853-5849\n(713) 646-2551 Fax",
+   "new_text_source": "new",
+   "subject": "Available Capacity",
+   "thread_id": "tfc46a1cf79",
+   "to": [
+    "kimberly.watson@enron.com",
+    "lindy.donoho@enron.com",
+    "paul.y'barbo@enron.com",
+    "lorraine.lindberg@enron.com",
+    "michelle.lokay@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-08T15:26:16+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/86",
+   "new_text": "Transwestern's average deliveries to California were 1011 MMBtu/d (93%), with San Juan lateral throughput at 872 MMBtu/d.  Total East deliveries averaged 337 MMBtu/d.  \n\nEl Paso's average deliveries to California were 2065 MMBtu/d (71%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 542 MMBtu/d (48%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 1035 MMBtu/d (83%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 488 MMBtu/d (90%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.16 (-.02)\n\tPG&E, large pkgs\t  2.15 (-.03)\n\tTW San Juan\t\t  2.01   \n\tTW Permian\t\t  2.03 (-.04)",
+   "new_text_source": "new",
+   "subject": "California Capacity Report for Week of 02/04-02/08",
+   "thread_id": "tfd49ac0419",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-03-12T19:32:59+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/sent_items/139",
+   "new_text": "I think I want to bid on this...how about up to $150?!?  \n \n http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=705566445",
+   "new_text_source": "new",
+   "subject": "Bid on this one?",
+   "thread_id": "tfe4d2ca2be",
+   "to": [
+    "lokay@bigfoot.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-29T22:31:06+00:00",
+   "from": "dennis.lee@enron.com",
+   "msg_id": "lokay-m/inbox/3",
+   "new_text": "Here's another file that includes April through September.\n\nDL\n\n \n\nDennis P. Lee\nETS\nGas Logistics\n(713) 853-1715\ndennis.lee@enron.com",
+   "new_text_source": "new",
+   "subject": "Burlington contracts through 09/30",
+   "thread_id": "tff16708e14",
+   "to": [
+    "michelle.lokay@enron.com",
+    "mark.mcconnell@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-26T14:22:26+00:00",
+   "from": "michelle.lokay@enron.com",
+   "msg_id": "lokay-m/inbox/10",
+   "new_text": "Transwestern's average deliveries to California were 945 MMBtu/d (87%), with San Juan lateral throughput at 865 MMBtu/d.  Total East deliveries averaged 525 MMBtu/d.  \n\nEl Paso's average deliveries to California were 1782 MMBtu/d (66%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 667 MMBtu/d (59%)\n- SoCalEhr, capacity 1042 MMBtu/d, deliveries of 707 MMBtu/d (68%)\n- SoCalTop, capacity 512 MMBtu/d, deliveries of 408 MMBtu/d (80%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  3.03 (+.69)\n\tPG&E, large pkgs\t  3.02 (+.67)\n\tTW San Juan\t\t  n/a    \n\tTW Permian\t\t  2.86 (+.695)\n\nEnron Online bases:\n\t\tNov-Mar\t\tApr-Oct\nPerm-CA\t.17 (+.02)\t    \t.26 (+.03)\nSJ - CA\t.27 (+.03)  \t       \t.44 (+.03)\nSJ-Waha\t.14 (+.02)\t       \t.22 (even)\t\nPerm-Waha\t.04 (+.01)                 \t.04 (even)",
+   "new_text_source": "new",
+   "subject": "California Capacity Report for Week of 10/22-10/26",
+   "thread_id": "tffcb3264ad",
+   "to": [
+    "steven.harris@enron.com",
+    "kimberly.watson@enron.com",
+    "lorraine.lindberg@enron.com",
+    "tk.lohman@enron.com",
+    "lindy.donoho@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-06T22:48:07+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/55",
+   "new_text": "Thank you.",
+   "new_text_source": "body",
+   "subject": "RE:",
+   "thread_id": "t008b04094e",
+   "to": [
+    "cara.semperger@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-16T20:06:24+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/174",
+   "new_text": "Group,\n\nWe are starting to see some market changes as we transition into the winter=\n months.\n\nFirst:\nWith EPE we will start seeing a severe morning ramp. We will have to carefu=\nlly manage the units to prevent \"swinging\" them and increasing the chance o=\nf a unit outage. As the EPE loads plummet off-peak, we should consult the u=\nnit commitment, and depending on market conditions look to take units off-l=\nine and/ or put units on manual and buy energy back. Recently we have sold =\nenergy from EPE at a loss rather than putting costly gas turbines on manual=\n (Newman 1, 2 and 3), reducing them, and buying that energy less expensivel=\ny in the market. Our relationship with EPE is at a critical stage, they hav=\ne a new vice-president and will be hiring new management to lead their mark=\neting group. We would like to be a part of EPE's marketing effort going for=\nward, but need to continue to prove that our level of service cannot be mat=\nched either in-house or by other marketers. I look to each member of the gr=\noup to be a part of this effort and to work closely to run the EPE grid as =\nefficiently as possible.\n\nSecond:\nThe morning ramp will soon be upon us in the Northwest. It will become very=\n difficult to get energy in the Nortwest for HE 6 through HE 10. We should =\nlook for congestion possibly on the COI and the DC. Also, as lights and hea=\nters come on in the evening, there should be another jump in load at HE 18 =\nthrough HE 20. Enron Calgary will also be looking for energy these hours. B=\ne sure to take this load movement into consideration if you lock a price in=\n with ECC.\n\nFinally:\nWe will have a meeting on TUESDAY--November 6th at 4:30 in the afternoon--(=\nthe first Tuesday as usual) to discuss market changes, peformance reviews a=\nnd the final two months of the year.\n\nPlease see me with any questions regarding the system.\n\nThank you.\n\nBill",
+   "new_text_source": "new",
+   "subject": "Market Changes",
+   "thread_id": "t018f0f0b46",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-06T22:33:18+00:00",
+   "from": "cara.semperger@enron.com",
+   "msg_id": "williams-w3/inbox/15",
+   "new_text": "**For New UBS employees***\n\nI am going to send all of our File Migration compliance forms in one batch, so give them to me when you have signed the Document Migration Certificate. I will be sending this the evening of the 8th.\n\nIf you don't know who I am or what this is about, ask Dave Steiner or any of the Admins.\n\nThanks,\n\nCara Freeland",
+   "new_text_source": "new",
+   "subject": "<<GIVE YOUR COMPLIANCE FORMS TO ME BY THE 8TH>>",
+   "thread_id": "t01927837fe",
+   "to": [
+    "center.dl-portland@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-06T03:13:50+00:00",
+   "from": "amy.fitzpatrick@enron.com",
+   "msg_id": "williams-w3/inbox/30",
+   "new_text": "Craig -\n\nOur records indicate that you have not taken your pre-employment drug test for UBS.  Can you please do so ASAP, or if you have already completed, can you please let me know the date that you went so that we can update our records.\n\nThanks!\nAmy",
+   "new_text_source": "new",
+   "subject": "Drug Test for UBS",
+   "thread_id": "t019c73bee3",
+   "to": [
+    "craig.dean@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-06T03:14:48+00:00",
+   "from": "amy.fitzpatrick@enron.com",
+   "msg_id": "williams-w3/inbox/29",
+   "new_text": "Geir -\n\nOur records indicate that you have not taken your pre-employment drug test for UBS.  Can you please do so ASAP, or if you have already completed, can you please let me know the date that you went so that we can update our records.\n\nThanks!\nAmy",
+   "new_text_source": "new",
+   "subject": "Drug Test for UBS",
+   "thread_id": "t019c73bee3",
+   "to": [
+    "geir.solberg@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-13T21:19:48+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/100",
+   "new_text": "Group,\nWe all knew it was coming. NERC Compliance surveys are continuining. Everything must be tagged both light load and heavy load. THIS INCLUDES SCHEDULES IN THE SOUTHWEST. Templates and POR/POD sheets are available. If you have any questions regarding our policy please let me know.\nLet's be especially sharp for HE 14 on the 17th.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "E-TAG Survey",
+   "thread_id": "t021363c07b",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-21T01:32:33+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/380",
+   "new_text": "If this works for you, please copy and paste it into your own email and send it on.\nThanks-\nB\n\nGroup,\n\nWe are lending from El Paso Electric on Monday. We have sold 15 mws for HE 7-22 to ST-SW at $62.50.  We are paying El Paso $4 for the service to lend from their system.   The sell to ST-SW is under the ST-WBOM book (#696314), the purchase from EPE is also under the WBOM book (deal #696315-note the price will be changed to $4 on Monday from $56).  Please buy energy to cover this 15 mw short on Monday under the ST-WBOM book and sell to EPE at $0 under the ST-WBOM book.  The deal is physically prescheduled going out from EPE.  We need to schedule the 15 mw going to EPE.  Please do NOT buy from EPE in the morning even though they may be fat.  We are hoping to do more lending with EPE going forward and therefore need to make this as easy as possible for their dispatchers (do not bring up lending to them-it will lead to unnecessary confusion).  If you have any questions concerning this procedure please call me. 503-887-3449 (c) or 503-274-0502 (h).\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "El Paso Lending for Monday",
+   "thread_id": "t02f4f10e3d",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-23T16:10:18+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/375",
+   "new_text": "Apparently not.\nThe EPE preschedule sheet had a 25 mw lending position in...\nWe'll have to work with the preschedulers to get it squared away.\n\nB",
+   "new_text_source": "new",
+   "subject": "RE: El Paso Lending for Monday",
+   "thread_id": "t02f4f10e3d",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-14T18:52:54+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/249",
+   "new_text": "Jill,\n\nI need information regarding our monthly cell phone costs. I would like to cap per employee costs at $50 per month on the group calling plan. Effective in October, I would like employees billed for any amount they have over $50 per month on their cell phone. If an employee needs more minutes I would like to structure a plan to allow them to purchase more minutes through us--with them paying the extra per month.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Cellular Phone Budget",
+   "thread_id": "t030a59edd9",
+   "to": [
+    "jill.chatterton@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-14T19:37:07+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/247",
+   "new_text": "Absolutely,\nPlease send an email to the group explaining to them that they will be billed if they go over $55 a month. Let them know they can set up a different plan if they need (I would prefer they stick with the group calling plan and add minutes...but the choice is theirs).  Let's put this in effect by October. I am seeing $20000 ytd as of June in cell phone charges (and $55 x 13 group members x 6 months should equal $4290--have we really spent $16000 on new phones?\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: Cellular Phone Budget",
+   "thread_id": "t030a59edd9",
+   "to": [
+    "jill.chatterton@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-07T01:25:56+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/inbox/138",
+   "new_text": "Not much - Greg was nice - possibility of real time in the future if you are interested.\nI'm open but his office here in Portland is not what I do - unless I wanted to change (no problem there) but I should pursue other avenues.",
+   "new_text_source": "new",
+   "subject": "RE:",
+   "thread_id": "t03e4d51466",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-13T21:32:32+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/48",
+   "new_text": "-----Original Message-----\nFrom: \tPoston, David  \nSent:\tWednesday, December 12, 2001 3:20 PM\nTo:\tWilliams III, Bill; Mallory, Chris; Platter, Phillip; Bishop, Serena; Gilbert, Scotty\nCc:\tNat, Steve; Davis, Pete; Burleigh, Matt; Amador, Susan\nSubject:\tFSP Ready Again for Production\n\nGood Afternoon FSP users,\n\nWe have just finished a comprehensive FSP rebuild & testing phase for the next release of FSP.  The rebuild should address all the issues raised in the previous go-live as well as some additional capabilities for robustness.  Please note that we have already executed several hundred different test case scenarios & performed some stress testing using data before the Enron collapse.\n\nWhat we need now is help from you to continue to identify enhancements and/or bugs with FSP so that we can go-live with FSP once the new company starts trading.  Susan Amador will be available to help in any testing.  You should probably also coordinate with her when you are about to start testing so that our continuing testing doesn't interfere with your testing.  PWRTESTN & PWRTESTP should be all setup for your use.\n\nHere are some of the bug fixes & enhancements we have rolled-out with this latest release:\n1.  Bid Curve - Ability to bid on zero volumes (for import, export, and wheels)\n2.  Rebuild of all FSP application utilizing Direct Oracle Access components for faster database access & higher reliability.\n3.  Bug Fixes on database commits to eliminate database \"deadlocks\".\n4.  New aggregation scout to \"stream-line\" the template writing process & improve template writing performance.\n5.  SQL tuned \"Hour Ahead\" template writing.  Confirmed performance of 1min 30 seconds on heavy transaction volume days.\n6.  And many other small previously unidentified bugs.\n\nWe are very excited about this newest release and are looking forward to your feedback over the next couple of days.  Susan will probably be your best contact but please feel free to contact me at anytime.\n\nThanks,  David Poston\n# 713-345-7834",
+   "new_text_source": "body",
+   "subject": "FW: FSP Ready Again for Production",
+   "thread_id": "t042e704ce2",
+   "to": [
+    "shift.dl-portland@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-30T18:59:12+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/272",
+   "new_text": "There are several annuities related to the profit sharing of this deal.\nFirst--\nAll deals should have been made under the ST-NW desk to route with the PGE =\ndeal-buy tranny-etc. (I recognize this did not happen but this was my inten=\nt and should or could have). Consequently all revenue from this deal origin=\nally went into the ST-NW book. Therefore. An annuity was made from ST-NW to=\n ST-WHOURLY. Deal #531524--$23468. Next an annuity was made from ST-Whourly=\n to LT-NW at $5472 to compensate LT-NW for the $48 purchase price (deal #53=\n1546). This left a profit of $17996 to be divided between ST-Whourly and L-=\nPac-30/70. Consequently, ST-Whourly made an annuity to L-Pac for their part=\n of the profit share, Deal #531549--$12597.73. All this left RT with a prof=\nit of $5399. If you place all the deals under LT-NW...it will be a large im=\npact on ST-NW, and will result in LT-NW getting paid a couple of times. The=\nse profit share numbers are accurate. After expenses--LT-NW gets $5472 for =\nthe original deal, then ST-WH gets $5399 and L-Pac gets $12597.73. All thes=\ne annuities cannot just be killed as they liquidated on the 26th--of Februa=\nry. It is probably a better idea to put everything back under the ST-NW boo=\nk...ideas?\n\nQuestions?\n\nJust come see me and let me know.",
+   "new_text_source": "new",
+   "subject": "RE: LP deal",
+   "thread_id": "t04b0ee733b",
+   "to": [
+    "virginia.thompson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-29T01:52:38+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/278",
+   "new_text": "Regarding this.\n\n -----Original Message-----\nFrom: \tSymes, Kate  \nSent:\tTuesday, August 28, 2001 11:00 AM\nTo:\tWilliams III, Bill\nSubject:\tRead this, please\n\nSound reasonable? Or should I be more firm?\n\nA reminder....\n\nIn an effort to curb El Paso settlements issues, I've requested several sets of tapes over the past few days. As you know, these are the most reliable resource we have in determining the truth behind our everyday dealings. However, none of the taped conversations I've listened to recently have made mention of the time they were being traded for; many didn't name a delivery point; and some left out a price. \n\nBecause mistakes are almost inevitable in a job as abstruse as yours, re-confirming deals just after making them is a valuable habit to form. A quick summary at the end of the conversation can potentially clear up discrepancies at the moment they're created, or serve as a tool for resolving them if they make it further than that.\n\nAs always, let me know if you have questions about this.\n\nKate",
+   "new_text_source": "body",
+   "subject": "RE: Read this, please",
+   "thread_id": "t04f6f19bb1",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  }
+ ]
+}

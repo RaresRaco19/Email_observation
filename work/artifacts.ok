@@ -1,10 +1,10 @@
 {
- "california_capacity_weekly_report": "b4eb68649b667a5b327520be2f628544f02e8730907711e285e8cee1e3006903",
- "deal_book_transfer_correction": "10dc4c8079ad4c5fbd6ca5dd43ef35fc22e936373d657ed96b9141c6e2fd0a99",
- "deal_price_invoice_discrepancy": "89b1dd8a70e80e72bc19c7a3f2f88590cc4ef1d025d43c8ee6120e3d3faf17b5",
- "meter_flow_missing_deal_resolution": "2d7ed43abc833b477121f29d3ab50c9197b1b4b5f2842d90f767e0ca6202d95c",
- "meter_volume_allocation_variance": "c997b94a60304e75f948555bf159bc4bf4a3c853acbebc72e74e94766b4f43c0",
- "realtime_deal_variance_reconciliation": "1acb6aec736883f4b6d0a8c1b66efd1b9fb8420477acbc12c4f14d09e3c2d14b",
- "realtime_desk_instructions": "c1ce8c88ac798aef92ceb0f80b78e1c856690b5ef768a27482c9f1675c3187c9",
- "trading_book_setup_access": "d2afa8ed48edf280d9938b45d499aa09a5d4a1e1aa83c67a39d3d468d61092d0"
+ "california_capacity_weekly_report": "e8c70de059b8409ed660f26829ff4949c11fc6257baaab114fd8c1cff3e733d7",
+ "deal_price_invoice_discrepancy": "02bf01156130ccfcb36792fefbed5c93b95275d7d8ba1b8e8ca6d86dcec774ed",
+ "meter_flow_missing_deal_resolution": "cd92e74751e46624927264c0a46d26ff08067f7b33f2ef71f24ca2f2b3bd1452",
+ "meter_volume_allocation_variance": "8d130221dce83ba01932b3b733fc6b063cf334046a8259878f7b966d91acd3c3",
+ "realtime_desk_instructions": "1a0d6fce7a7d0bccddb0b9babe210c4fec6da9513b8ac3dbfe0c4f37092c2f6a",
+ "realtime_settlement_reconciliation": "b6532d3306b3e148c5ec21ac8ec2afaa924e239cfa5af379a2da0982652f3617",
+ "realtime_shift_position_handoff": "4c76d7fed44f47c3b7197862b36d92875df435dafbe6a419fdcb86f1f719d7ad",
+ "sitara_deal_ticket_change_request": "28b022764b6be989c7a9e01be399edabe9a79b8c76ffa78eb6ae894939c90ac1"
 }

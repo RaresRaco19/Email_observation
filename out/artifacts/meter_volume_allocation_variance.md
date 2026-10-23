@@ -1,64 +1,61 @@
 ---
 opportunity: meter_volume_allocation_variance
 type: sop
-citations: [farmer-d/logistics/617, farmer-d/logistics/925, farmer-d/logistics/1013, farmer-d/logistics/924, farmer-d/logistics/682, farmer-d/logistics/743, farmer-d/logistics/902, farmer-d/logistics/1185, farmer-d/logistics/1357, farmer-d/logistics/2089, farmer-d/logistics/861]
+citations: [farmer-d/logistics/595, farmer-d/logistics/622, farmer-d/logistics/739, farmer-d/logistics/925, farmer-d/logistics/1185, farmer-d/logistics/1351, farmer-d/logistics/1483, farmer-d/logistics/2089]
 ---
 
-# SOP: Daily meter variance review (Logistics / Volume Management)
+# SOP: Daily and month-end meter exception review
 
-**Purpose.** Catch differences between nominated, metered, allocated and counterparty-reported volumes at each meter on the day they happen. Today they surface late, on the UA4 report, in imbalance reviews, or when a counterparty calls.
-
-> There wasn't any deal in OSS for the above reference meter, nor could I find anything in CPR.
-
-[farmer-d/logistics/617]
-
-> Someone needs to be overriding the 0 volumes so that Sitara is receiving correct information and the P&L is kept as accurate as possible.
-
-[farmer-d/logistics/925]
+**Owner:** volume management. **Users:** logistics desk, settlements/UA4 analysts, accounting managers.
 
 ## What the automation produces
 
-Once Gas Control / HPL Measurement actuals are loaded each day, a variance job compares every meter-day with confirmed nominations, POPS allocated volumes and the Sitara deals tied to the meter. It produces:
+After each POPS allocation run, and again before month-end UA4 close, a read-only job compares MIPs measurement volumes, POPS confirmed and allocated volumes, and Sitara, OSS and CPR deals by meter and gas day. Each rule hit becomes one row in a shared exception queue. A row shows the meter, period, the volume from each source, the prior month, a suggested owner, status and age. Rules:
 
-1. **Daily variance list** by meter and day, sent to the meter's assigned volume analyst. Each line carries one of four flags:
-   - (a) **No deal / no contract**: flow with no allocatable contract, which would otherwise land in UA4 [farmer-d/logistics/617].
-   - (b) **Zero POPS feed**: POPS shows zero or missing volume while the meter is flowing [farmer-d/logistics/925], [farmer-d/logistics/1013].
-   - (c) **Nomination gap**: actual vs nomination is outside tolerance, such as short days, receiving under nom, or a counterparty not pulling gas [farmer-d/logistics/682], [farmer-d/logistics/743], [farmer-d/logistics/902].
-   - (d) **Source mismatch**: two desks use different measurement at the same meter, or counterparty volumes differ from booked volumes [farmer-d/logistics/1185], [farmer-d/logistics/924].
-2. **Case sheet** for each flagged meter, showing month-by-month contract and deal history from OSS and CPR, so analysts no longer have to rebuild it by hand.
-3. **Daily decision digest** for the logistics lead (Daren Farmer), listing the meters that need a buyback, deal setup or reallocation call.
-4. **Shared open-variance tracker** with owner, age and resolution code. It replaces the hand-built outstanding-issues email [farmer-d/logistics/1185].
-5. **Month-end UA4 pre-check**: volumes still without a contract, run before the UA4 report is finalized.
+- flow with no deal
+- deal with no flow
+- zero or missing POPS-to-Sitara feed
+- delivery nom at a receipt meter
+- confirmation on a day the deal does not cover
+- nomination not pulled
+- allocated vs measured difference beyond tolerance
+
+Outputs: a daily exception list, a month-end UA4 summary, an aging report that replaces the manual interdesk/interconnect list, and an evidence pack per exception.
 
 ## Daily routine
 
-| When | Who | Action |
-|---|---|---|
-| After actuals load | Volume analyst | Open your variance list. For each flag, check the case sheet and confirm the Gas Control figure before you act. |
-| Same morning | Volume analyst | Flags (b) and (c) with a clear fix: enter the POPS override or reallocation, then close the case with a resolution code. |
-| Same morning | Volume analyst | Anything that needs a commercial call (deal setup, buyback, wellhead purchase): set it to "decision needed" so it appears in the digest. Do not email it separately. |
-| Midday | Logistics lead / trader | Work through the digest and record the decision on each case in the tracker [farmer-d/logistics/1357]. |
-| Weekly | Volume management lead | Review open cases by age. Escalate anything waiting on a counterparty, a pipeline or Legal. |
-| Month-end | Volume management | Run the UA4 pre-check and clear or assign every meter-day that still has no contract. |
+1. Volume management opens the daily list after the allocation run and confirms the owner on each new row (routing table: meter and rule type to owner).
+2. The owner checks the row's evidence pack before emailing anyone. The pack already answers the questions analysts used to ask by hand:
+   > Daren is there a deal in CPR which may not have fed over to OSS?
 
-## What a person still checks (stays manual)
+   [farmer-d/logistics/622]
+3. Flow with no deal [farmer-d/logistics/595] goes to the logistics desk. A zero feed to Sitara [farmer-d/logistics/925] goes to volume management the same day, so volumes are overridden before P&L is affected.
+4. The owner records a resolution note on the row and sets the status. Nobody sends a "status?" email; they read the queue instead of asking:
+   > What is the status on this meter?
 
-- **Commercial calls** on deal setup, buyback, reallocation or wellhead treatment. These belong to the trader or logistics lead.
-- **POPS overrides and reallocations.** The analyst confirms the Gas Control numbers before changing allocation that feeds the P&L.
-- **Disputes** with counterparties and pipelines over custody transfer or which measurement is authoritative, which may involve Legal.
-- **Historical meters** whose records are incomplete. The case sheet helps, but someone still decides which contract applies.
+   [farmer-d/logistics/739]
 
-## Exceptions
+## What a person checks
 
-- **Preliminary flow data**: mark the case *provisional* and re-run once measurement is final.
-- **Source disagreement** (type d): record which source is authoritative for that meter. Keep the case open as its own type until both desks agree [farmer-d/logistics/1185].
-- **Too many flags**: tell the logistics lead so the per-meter tolerances can be widened. The first month runs in shadow mode next to the current emails to tune them.
-- **Counterparty payment demand** on a meter with no allocation: open a type (a) case at once and attach the caller's volumes.
+- **Confirmations outside the deal dates.** A confirmation on a day the deal does not cover causes wrong prorating, as in [farmer-d/logistics/1351]. A person decides whether to move the volume or add the date to the deal.
+- **Desk-to-desk variances.** Different volume sources on each side [farmer-d/logistics/1185] are flagged. Logistics and the counterparty decide which number is custody.
+- **Unallocated flow awaiting a deal.** The owner confirms flow occurred and has a deal extended [farmer-d/logistics/1483].
+- **Counterparty payment calls.** Accounting checks the queue before forwarding a call such as [farmer-d/logistics/2089].
 
-> I am getting several phone calls from Alpine Resources demanding to be paid for meter 5892 and there is nothing there to be paid.
+## Exceptions and escalation
 
-[farmer-d/logistics/2089]
+- A row open past the age limit set by volume management escalates to the named manager on the routing table.
+- A row with no owner is assigned by volume management that day.
+- A tolerance that produces noise is logged and adjusted by volume management, not silenced by individual analysts.
+- If a source extract fails or is late, the job marks the run incomplete and the desk works from the prior day's list.
 
-## Measure of success
+## Stays manual
 
-Track the meter-days with flow but no deal, or zero POPS volume, that are still open at the month-end UA4, plus the median days from variance to resolution. The goal is to stop "status?" follow-ups like [farmer-d/logistics/861]. Value of the email handling time saved: $91 per month ($1,092 per year) at $85/hour.
+- Deciding which volume is correct when sources disagree.
+- Creating, extending or moving deals in Sitara, and reallocating in POPS.
+- Legal or commercial calls, such as the book a sale belongs in.
+- Talking to counterparties and pipelines.
+
+## Measure
+
+Meters with measured flow but no matching Sitara/OSS deal still open at month-end UA4 close, and the median age of open exceptions. Handling time saved is small, about $62/month ($744/year) at $85/hour. The real value is catching large feed failures the day they appear.

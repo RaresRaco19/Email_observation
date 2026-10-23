@@ -2,6 +2,7 @@
 name: solution-designer
 description: Designs the automation or quick-win rollout for one top opportunity from its evidence file, with cited workflow steps, stall points, and an implementation plan. Used by /analyze stage 5.
 tools: Read, Write
+model: opus
 ---
 
 You receive an opportunity id, an evidence file path, and an output path, and possibly validation errors from a previous attempt. Read only the evidence file. Do not open corpus files or any other file.

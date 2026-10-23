@@ -1,7 +1,7 @@
 {
  "allowed_figures": [
-  "$63",
-  "$756",
+  "$79",
+  "$948",
   "$85"
  ],
  "allowed_types": [
@@ -10,27 +10,40 @@
  ],
  "messages": [
   {
-   "date": "2000-02-24T14:52:00+00:00",
+   "date": "2000-02-24T13:57:00+00:00",
    "from": "lauri.allen@enron.com",
    "kind": "followup",
-   "msg_id": "farmer-d/logistics/839",
-   "new_text": "Do you guys agree with the rate?",
-   "quote": "Do you guys agree with the rate?",
-   "stall": true,
-   "subject": "Re: Midcon Invoices",
+   "msg_id": "farmer-d/logistics/837",
+   "new_text": "Kellie-\n\nI researched the statements you sent me and found deal ticket #109925 in \nSitara which shows HPLC transporting on Midcon from Live Oak to Hardy Street \nfor $.04/mm for the months of August and September.\n\nThe statement for November covers gas moving from Katy tailgate to Cogen \nLyondell and is covered by Sitara deal ticket #133257.  The deal ticket shows \na zero rate, however.  Elsa/Daren- do either of you remember this deal?  It \nwas on November 30th for 5000mm.  Kellie- what is Midcon charging for this \nhaul?\n\nThanks.",
+   "quote": "The deal ticket shows a zero rate, however. Elsa/Daren- do either of you remember this deal?",
+   "stall": false,
+   "subject": "Midcon Invoices",
    "thread_id": "t25223ee2b4",
    "to": [
-    "elsa.villarreal@enron.com",
+    "kellie.bilski@enron.com"
+   ]
+  },
+  {
+   "date": "2000-03-20T14:27:00+00:00",
+   "from": "julie.meyers@enron.com",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/922",
+   "new_text": "---------------------- Forwarded by Julie Meyers/HOU/ECT on 03/20/2000 02:26 \nPM ---------------------------\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Megan Parker @ ENRON                           03/20/2000 02:08 PM\n\t\n\nTo: Julie Meyers/HOU/ECT@ECT\ncc: William C Falbaum/HOU/ECT@ECT \nSubject: Mitchell Gas Services 2/00\n\nWe have a price difference with Mitchell Gas Services for 2/00 production, \ndeal 156658.  We have HSC -0.05 and Mitchell shows HSC - 0.04.  Can you tell \nme what the correct price is?  I need this ASAP.\n\nMegan",
+   "quote": "We have HSC -0.05 and Mitchell shows HSC - 0.04.  Can you tell \nme what the correct price is?",
+   "stall": true,
+   "subject": "Mitchell Gas Services 2/00",
+   "thread_id": "t3562e4764c",
+   "to": [
     "daren.farmer@enron.com"
    ]
   },
   {
-   "date": "2000-03-23T13:37:00+00:00",
+   "date": "2000-03-23T15:28:00+00:00",
    "from": "thu.nguyen@enron.com",
-   "kind": "followup",
-   "msg_id": "farmer-d/logistics/949",
-   "new_text": "Daren,\n\n There are only two deals on PGEV pipeline: Deal #156071- valid 02/01/00 - \n02/29/00, and Deal # 208083 - valid for 02/01/00 - 02/06/00.  Should there be \nanother deal for days 7-29??  Thanks\n\nThu",
-   "quote": "There are only two deals on PGEV pipeline: Deal #156071- valid 02/01/00 -",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/951",
+   "new_text": "Daren,\n\n I must be missing something.  Can I meet with you today and show you what I \nhave?\n\nThu",
+   "quote": "I must be missing something. Can I meet with you today and show you what I have?",
    "stall": true,
    "subject": "Re: Deal 156071 Feb 00",
    "thread_id": "tcf24484311",
@@ -41,10 +54,10 @@
   {
    "date": "2000-03-27T08:52:00+00:00",
    "from": "tina.valadez@enron.com",
-   "kind": "request",
+   "kind": "escalation",
    "msg_id": "farmer-d/logistics/963",
    "new_text": "Pat Dresner (accountant) at Midcon Texas says she does not show these deals \nin her system and she can not pay on them.  You created the deals in Sitara \nand I don't have another trader's name.  Could you please talk to your KN \ntrader regarding this situation?  If Midcon really got this gas, then someone \nat KN should tell their accountant about the deal.\n\nProd Mo. Entity     Point  Volume  Total Amount  Sitara #\n1/2000  Midcon Texas Gas Services Corp. 0984132 20000  $51,600.00 157006\n2/2000  Midcon Texas Gas Services  0984132 36000  $90,900.00 166523\n2/2000  Midcon Texas Pipeline Corp.  0984132 80,000  $206,800.00 170133\n\n\nPlease let me know as soon as possible what you find out.  The 2/2000 \nproduction invoices are due to be paid 3/27.\n\nThank You,\nTina Valadez\n3-7548",
-   "quote": "The 2/2000 production invoices are due to be paid 3/27.",
+   "quote": "Pat Dresner (accountant) at Midcon Texas says she does not show these deals",
    "stall": true,
    "subject": "Jan & Feb Midcon Invoices",
    "thread_id": "tbcab91d980",
@@ -53,40 +66,12 @@
    ]
   },
   {
-   "date": "2000-03-27T09:28:00+00:00",
-   "from": "karie.hastings@enron.com",
-   "kind": "followup",
-   "msg_id": "farmer-d/logistics/965",
-   "new_text": "Julie:\n\nCan you cut off deal 47472 going forward? I am forwarding the message from \nTommy Yanowski. Let me know if this is a problem.\n\nThanks, Karie (36759)",
-   "quote": "Can you cut off deal 47472 going forward? I am forwarding the message from \nTommy Yanowski.",
-   "stall": true,
-   "subject": "Re: Storage Deal 47472 and 60747",
-   "thread_id": "t31c99acad5",
-   "to": [
-    "julie.meyers@enron.com"
-   ]
-  },
-  {
-   "date": "2000-03-28T11:15:00+00:00",
-   "from": "jackie.young@enron.com",
-   "kind": "fulfillment",
-   "msg_id": "farmer-d/logistics/977",
-   "new_text": "Lauri, \n\nI've just completed this process (thanks to \nCarlos).............................sorry it took soooooooooooooo long but \nthe next time should be a doozie.\n\nThanks Carlos\n\n-Jackie-",
-   "quote": "I've just completed this process (thanks to \nCarlos)",
-   "stall": true,
-   "subject": "Re: Tejas Deliveries at Oasis Katy",
-   "thread_id": "t32478858da",
-   "to": [
-    "lauri.allen@enron.com"
-   ]
-  },
-  {
    "date": "2000-04-24T12:43:00+00:00",
    "from": "pat.clynes@enron.com",
    "kind": "request",
    "msg_id": "farmer-d/logistics/1066",
    "new_text": "Aimee,\nPlease check meter #1591 Lamay gas lift.  It doesn't appear to have very much \nflow and the\nBAV is showing the nom volume.  This could be adversely affecting the risk \nnumbers.  Pat",
-   "quote": "Please check meter #1591 Lamay gas lift.  It doesn't appear to have very much \nflow and the\nBAV is showing the nom volume.",
+   "quote": "Please check meter #1591 Lamay gas lift.",
    "stall": false,
    "subject": "Meter #1591 Lamay Gaslift",
    "thread_id": "t3404e750d6",
@@ -95,31 +80,31 @@
    ]
   },
   {
+   "date": "2000-09-06T12:38:00+00:00",
+   "from": "darron.giron@enron.com",
+   "kind": "request",
+   "msg_id": "giron-d/sent/665",
+   "new_text": "I am in the process of getting these deals valued.  I know what we have \nbooked in Tagg as of now, but need to reconcile it to what People's has \nbooked.  I got something from Steve last time I was up, but it does not have \ndeal terms.  Could you ask Steve for a list that has the terms of each deal?  \nI don't even know his last name.  Thanks.\n\nDG",
+   "quote": "I know what we have \nbooked in Tagg as of now, but need to reconcile it to what People's has \nbooked.",
+   "stall": true,
+   "subject": "Hub Deals",
+   "thread_id": "t19d62b3ce9",
+   "to": [
+    "kevin.radous@enron.com"
+   ]
+  },
+  {
    "date": "2000-09-21T09:04:00+00:00",
    "from": "darron.giron@enron.com",
    "kind": "fulfillment",
    "msg_id": "giron-d/sent/636",
    "new_text": "Genaro,\n\nThe Sitara was not updated for Aug.  I just corrected Sitara.  So you can \nredraft in Unify.  I attached the completed calc-sheet.  Sorry for the delay.\n\nDG  3-9573",
-   "quote": "The Sitara was not updated for Aug.  I just corrected Sitara.  So you can redraft in Unify.",
+   "quote": "The Sitara was not updated for Aug.  I just corrected Sitara.  So you can \nredraft in Unify.",
    "stall": true,
    "subject": "Re: Agave Price Calculation",
    "thread_id": "t1a8bd82fd1",
    "to": [
     "genaro.mendoza@enron.com"
-   ]
-  },
-  {
-   "date": "2000-10-02T17:19:00+00:00",
-   "from": "cynthia.hakemack@enron.com",
-   "kind": "request",
-   "msg_id": "farmer-d/logistics/1438",
-   "new_text": "Daren, There are five HPLC purchase deals for 09/99 from Ocean Energy Inc.  \nThey were Craig Falbaum's deals.  A person who is no longer in my group \nsuspended payment for these deals.  Gary suggested that I contact you and see \nif you have any insight as to why the deals might have been suspended, or \nknow anything that might help.  Thanks.",
-   "quote": "There are five HPLC purchase deals for 09/99 from Ocean Energy Inc.  \nThey were Craig Falbaum's deals.",
-   "stall": false,
-   "subject": "HPLC/Ocean Energy Inc. 09/99 Purchase",
-   "thread_id": "t314e992dc3",
-   "to": [
-    "daren.farmer@enron.com"
    ]
   },
   {
@@ -138,17 +123,17 @@
    ]
   },
   {
-   "date": "2001-02-20T15:31:00+00:00",
+   "date": "2001-02-16T08:56:00+00:00",
    "from": "katherine.herrera@enron.com",
-   "kind": "followup",
-   "msg_id": "farmer-d/logistics/2087",
-   "new_text": "Linda-\n\nI did not know that this was part of a Natural Gas / Crude Oil exchange deal \nand billed Texas General Land Office for the gas sale  in Jan. 01\n\nDo you have a Crude Oil payable to offset this sales invoice?\nIf so, will this A/R balance of $ 974,144.00 be netted against the Crude Oil \nPayable in SAP?\n\nPlease let me know, I would like to take care of the net in SAP ASAP.\n\nThanks- Katherine\nGas Settlements\n5-8643",
-   "quote": "will this A/R balance of $ 974,144.00 be netted against the Crude Oil \nPayable in SAP?",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/2083",
+   "new_text": "Deal # 547201\n\nTexas General Land office has called and is disputing that this sale is a \npart of the month exchange deal for transport.  \nDo we have the name of the trader at Texas General Land Office that did this \ndeal with us ?\n\nThe sale was for 01/01-01/31 for 99,200 mmbtus at $9.82.\n\nThanks - Katherine",
+   "quote": "Texas General Land office has called and is disputing that this sale is a part of the month exchange deal for transport.",
    "stall": true,
    "subject": "Jan. 01 Sale to Texas General Land Office",
    "thread_id": "t6bbf81cfda",
    "to": [
-    "linda.roberts@enron.com"
+    "daren.farmer@enron.com"
    ]
   },
   {
@@ -157,13 +142,41 @@
    "kind": "followup",
    "msg_id": "giron-d/sent/178",
    "new_text": "Thanks.  I noticed Lisa indicated that Linda was getting additional info.  Is \nit ready?  Mike Grigsby, who is the head physical trader on the desk asked \nabout Tenaska.  He thinks that they also charged us.  Please let me know.  \nThanks again.\n\nDG",
-   "quote": "I noticed Lisa indicated that Linda was getting additional info. Is it ready?",
+   "quote": "Mike Grigsby, who is the head physical trader on the desk asked \nabout Tenaska.  He thinks that they also charged us.",
    "stall": true,
    "subject": "Re: Penalty Charges",
    "thread_id": "tb3453fa62a",
    "to": [
     "bryce.baxter@enron.com",
     "lisa.valderrama@enron.com"
+   ]
+  },
+  {
+   "date": "2001-03-26T20:52:00+00:00",
+   "from": "gary.lamphier@enron.com",
+   "kind": "request",
+   "msg_id": "farmer-d/logistics/208",
+   "new_text": "Can we verified this gas flowed?  If it did it should have been billed on his term deal if there was one in place.  If the gas flowed and we did not invoice for it on term let me know and I will put it in.",
+   "quote": "Can we verified this gas flowed? If it did it should have been billed on his term deal if there was one in place.",
+   "stall": false,
+   "subject": "Re: CP&L",
+   "thread_id": "te7da9efe1b",
+   "to": [
+    "daren.farmer@enron.com"
+   ]
+  },
+  {
+   "date": "2001-04-16T20:56:45+00:00",
+   "from": "katherine.herrera@enron.com",
+   "kind": "escalation",
+   "msg_id": "farmer-d/logistics/177",
+   "new_text": "Elizabeth-\n\nDeal # 690249 - Sale\n\nCould you pls the pricing on this deal for March 2001 Production for days 25 & 26 to  $ 5.285?\n\nI think Daren is out for the remainder of the day and I need to send out my invoice this afternoon.\n\nThanks- Katherine\n\n5-8643",
+   "quote": "I think Daren is out for the remainder of the day and I need to send out my invoice this afternoon.",
+   "stall": true,
+   "subject": "Southern Union- 03/01 prod- Austin Spot deal # 690249 (sale)",
+   "thread_id": "tc9c7eac0ba",
+   "to": [
+    "elizabeth.hernandez@enron.com"
    ]
   },
   {
@@ -181,11 +194,11 @@
   {
    "date": "2001-05-24T20:21:36+00:00",
    "from": "tess.ray@enron.com",
-   "kind": "request",
+   "kind": "followup",
    "msg_id": "farmer-d/logistics/124",
    "new_text": "Mary  - Confirmed $5.30 price per correct deal for cowtrap & will send corrected invoice to you via e-mail for this.\nRequested 04/01 price confirm for Blue Dolphin.  Will try to get something to you today!\n\nDarren Farmer -\nCan you confirm if 04/01 sales price for SA-745578, IF - $.06 per entry in Sitara or IF - $.07 per Sandra Werner's e-mail (will forward to you)\n\nThanks!\nTess",
    "quote": "Can you confirm if 04/01 sales price for SA-745578, IF - $.06 per entry in Sitara or IF - $.07 per Sandra Werner's e-mail",
-   "stall": false,
+   "stall": true,
    "subject": "RE: Pymt for 03/01 Sales adjustment for Cowtrap",
    "thread_id": "t6b36e9ba2c",
    "to": [
@@ -193,54 +206,42 @@
    ]
   },
   {
-   "date": "2001-07-09T15:38:26+00:00",
-   "from": "l..hernandez@enron.com",
-   "kind": "followup",
-   "msg_id": "farmer-d/logistics/99",
-   "new_text": "I have not received a response from you regarding the pricing discrepancies on these deals.  Please let me know which price is correct if possible.",
-   "quote": "I have not received a response from you regarding the pricing discrepancies on these deals.",
+   "date": "2002-01-17T14:29:14+00:00",
+   "from": "michelle.lokay@enron.com",
+   "kind": "escalation",
+   "msg_id": "lokay-m/sent_items/45",
+   "new_text": "Let's discuss this prior to billing.  I agree that ENA owes us money, but there were certain conditions agreed to before we could get this capacity back!...",
+   "quote": "Let's discuss this prior to billing.  I agree that ENA owes us money, but there were certain conditions agreed to before we could get this capacity back!",
    "stall": true,
-   "subject": "FW: Duke Energy Trading and Marketing, L.L.C.",
-   "thread_id": "tb1f54813f2",
+   "subject": "RE: Transwestern Capacity Release - ENA/Burlington",
+   "thread_id": "ta6bae7cd40",
    "to": [
-    "j..farmer@enron.com"
-   ]
-  },
-  {
-   "date": "2001-10-03T17:48:04+00:00",
-   "from": "antoinette.beale@enron.com",
-   "kind": "request",
-   "msg_id": "farmer-d/logistics/53",
-   "new_text": "Mike,\n\nI have the following outstanding issue with TXU:\n\nMay 01- Contract 1856\n\nA path is needed on Delivery 17054701 for 19087mmbtus with the Receipt point 175054701. \n\n\nThanks!",
-   "quote": "A path is needed on Delivery 17054701 for 19087mmbtus with the Receipt point 175054701.",
-   "stall": false,
-   "subject": "TXU May 01",
-   "thread_id": "t6c879a8957",
-   "to": [
-    "michael.olsen@enron.com"
+    "richard.hanagriff@enron.com",
+    "elizabeth.brown@enron.com",
+    "amy.mulligan@enron.com"
    ]
   }
  ],
  "opportunity": {
-  "action_idea": "When a counterparty invoice or payment is received, its price and volume lines are matched against the Sitara deal ticket for that month and mismatches are routed to the deal owner with both values side by side. The deal owner still decides whether the deal or the invoice is wrong and confirms the correction.",
+  "action_idea": "When invoices or counterparty statements arrive, a match against the Sitara deal price and volume flags each line that differs and opens a case with the deal number, both figures and the trader. The trader still confirms which price is correct and approves any deal change or invoice dispute.",
   "confidence": {
-   "active_months": 23,
+   "active_months": 25,
    "mailboxes": 4,
-   "quotes": 101,
-   "stall_share": 0.34,
-   "threads": 82
+   "quotes": 127,
+   "stall_share": 0.42,
+   "threads": 96
   },
-  "description": "Settlements and counterparties raise price, volume or fee mismatches between invoices or payments and Sitara deal tickets; logistics verifies the deal, disputes the invoice or corrects the deal.",
-  "formula": "101 messages / 27.38 months observed (farmer-d, giron-d, lokay-m, williams-w3) = 3.69/month; x 20 min median handling x 60% automatable = 0.7 h/month; x $85/h = $63/month",
-  "hours_month": 0.7,
+  "description": "Settlements, accounting or counterparties report a price or volume mismatch between an invoice, a payment and the booked deal, and the desk verifies, disputes or corrects the deal so the invoice can be finaled.",
+  "formula": "127 messages / 27.38 months observed (farmer-d, giron-d, lokay-m, williams-w3) = 4.64/month; x 20 min median handling x 60% automatable = 0.9 h/month; x $85/h = $79/month",
+  "hours_month": 0.9,
   "id": "deal_price_invoice_discrepancy",
   "kinds": {
-   "escalation": 10,
-   "followup": 18,
-   "fulfillment": 14,
-   "fyi": 1,
-   "report": 1,
-   "request": 57
+   "escalation": 14,
+   "followup": 27,
+   "fulfillment": 21,
+   "fyi": 2,
+   "report": 4,
+   "request": 59
   },
   "mailboxes": [
    "farmer-d",
@@ -249,51 +250,51 @@
    "williams-w3"
   ],
   "median_minutes": 20,
-  "messages": 101,
-  "messages_per_month": 3.69,
+  "messages": 127,
+  "messages_per_month": 4.64,
   "name": "Deal price and invoice discrepancy resolution",
   "participants": [
    {
     "address": "daren.farmer@enron.com",
-    "messages": 54
-   },
-   {
-    "address": "j..farmer@enron.com",
-    "messages": 15
+    "messages": 58
    },
    {
     "address": "darron.giron@enron.com",
-    "messages": 14
+    "messages": 21
    },
    {
-    "address": "julie.meyers@enron.com",
-    "messages": 13
+    "address": "j..farmer@enron.com",
+    "messages": 19
    },
    {
     "address": "megan.parker@enron.com",
+    "messages": 13
+   },
+   {
+    "address": "julie.meyers@enron.com",
     "messages": 12
    },
    {
     "address": "katherine.herrera@enron.com",
-    "messages": 9
+    "messages": 12
    },
    {
     "address": "pat.clynes@enron.com",
-    "messages": 8
+    "messages": 9
    },
    {
-    "address": "kristen.hanson@enron.com",
+    "address": "sherlyn.schumack@enron.com",
     "messages": 8
    }
   ],
   "remedy": "automation",
   "stall": {
-   "flagged_messages": 34,
-   "max_gap_hours": 431.2,
-   "median_gap_hours": 17.0
+   "flagged_messages": 53,
+   "max_gap_hours": 588.7,
+   "median_gap_hours": 11.0
   },
-  "threads": 82,
-  "usd_month": 63,
-  "usd_year": 756
+  "threads": 96,
+  "usd_month": 79,
+  "usd_year": 948
  }
 }

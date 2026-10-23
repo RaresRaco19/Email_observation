@@ -31,6 +31,9 @@ def batch_label_errors(p: Paths, bid: str, payload: list[dict]):
 
     accepted_labels holds every label that passes the schema and belongs to the batch, whatever its quote;
     quotes are re-checked against the raw file whenever check-labels rebuilds the label status in messages.json.
+    The labeler writes each process description once, in a top-level "processes" map; it is copied onto
+    each label here, so the store keeps one shape. A missing description is not fatal: the consolidator
+    still has the name and sample subjects.
     """
     data = read_json(p.labels / f"{bid}.json")
     if data is None:
@@ -38,6 +41,8 @@ def batch_label_errors(p: Paths, bid: str, payload: list[dict]):
     labels = data.get("labels") if isinstance(data, dict) else None
     if not isinstance(labels, list):
         return ["top-level 'labels' list missing"], []
+    descriptions = data.get("processes")
+    descriptions = descriptions if isinstance(descriptions, dict) else {}
 
     expected = {m["msg_id"] for m in payload}
     fatal, accepted, bad_quotes, seen = [], [], [], set()
@@ -52,6 +57,9 @@ def batch_label_errors(p: Paths, bid: str, payload: list[dict]):
             fatal.extend(f"{mid}: {e}" for e in errs)
             continue
         seen.add(mid)
+        if lab["process"] != "none" and not isinstance(lab.get("process_description"), str):
+            d = descriptions.get(lab["process"])
+            lab = {**lab, "process_description": d if isinstance(d, str) else ""}
         accepted.append(lab)
         if lab["process"] != "none" and (qerr := quote_error(lab["quote"], mid, p.corpus)):
             bad_quotes.append(f"{mid}: {qerr}")
@@ -182,7 +190,7 @@ def candidates(p: Paths, reset: bool = False) -> dict:
         subj = meta[lab["msg_id"]]["subject"]
         if subj and subj not in c["sample_subjects"] and len(c["sample_subjects"]) < 5:
             c["sample_subjects"].append(subj)
-        d = lab["process_description"]
+        d = lab.get("process_description")
         if d and d not in c["sample_descriptions"] and len(c["sample_descriptions"]) < 3:
             c["sample_descriptions"].append(d)
     for c in cands.values():
@@ -222,22 +230,54 @@ def delta_errors(cands: dict, existing_ids: set, delta) -> list[str]:
     return errs[:MAX_LISTED_ERRORS]
 
 
-def check_process_map(p: Paths) -> dict:
-    """Validate the consolidator's delta and merge it into process_map.json, which only this code writes."""
+def salvage_delta(cands: dict, existing_ids: set, delta) -> tuple[dict, list[str], int]:
+    """Keep the valid part of a delta and map every other candidate to `none`, which can only drop claims.
+
+    Last resort after the consolidator has failed validation twice, so an unattended run still finishes.
+    Returns (delta, dropped process ids, labels forced to none).
+    """
+    if not isinstance(delta, dict):
+        delta = {}
+    procs = delta.get("new_processes") if isinstance(delta.get("new_processes"), list) else []
+    kept, dropped = [], []
+    for proc in procs:
+        pid = proc.get("id") if isinstance(proc, dict) else None
+        if (isinstance(pid, str) and pid != "none" and pid not in existing_ids and pid not in {k["id"] for k in kept}
+                and proc.get("remedy") in config.REMEDIES
+                and all(isinstance(proc.get(f), str) and proc[f].strip() for f in ("name", "description", "action_idea"))):
+            kept.append(proc)
+        else:
+            dropped.append(str(pid))
+    targets = {k["id"] for k in kept} | existing_ids | {"none"}
+    raw = delta.get("map") if isinstance(delta.get("map"), dict) else {}
+    mapping = {c: raw[c] if raw.get(c) in targets else "none" for c in cands}
+    forced = sum(1 for c in cands if raw.get(c) not in targets)
+    return {"new_processes": kept, "map": mapping}, dropped, forced
+
+
+def check_process_map(p: Paths, salvage: bool = False) -> dict:
+    """Validate the consolidator's delta and merge it into process_map.json, which only this code writes.
+
+    With salvage=True an invalid or missing delta is not refused: its valid part is merged and the rest goes to `none`.
+    """
     cdata = read_json(p.work / "candidates.json")
     if cdata is None:
         raise SystemExit("work/candidates.json missing; run candidates first")
     pm = EMPTY_MAP if cdata["reset"] else read_json(p.work / "process_map.json", EMPTY_MAP)
     delta_path = p.work / "process_map_delta.json"
+    salvaged = {}
     if cdata["candidates"]:
+        existing_ids = {proc["id"] for proc in pm["processes"]}
         try:
             delta = read_json(delta_path)
+            errs = ["process_map_delta.json missing"] if delta is None else delta_errors(cdata["candidates"], existing_ids, delta)
         except ValueError as e:
-            return {"ok": False, "errors": [f"invalid JSON: {e}"]}
-        errs = (["process_map_delta.json missing"] if delta is None
-                else delta_errors(cdata["candidates"], {proc["id"] for proc in pm["processes"]}, delta))
-        if errs:
+            delta, errs = None, [f"invalid JSON: {e}"]
+        if errs and not salvage:
             return {"ok": False, "errors": errs}
+        if errs:
+            delta, dropped, forced = salvage_delta(cdata["candidates"], existing_ids, delta)
+            salvaged = {"salvaged": True, "errors": errs, "processes_dropped": dropped, "labels_forced_none": forced}
         pm = {"processes": pm["processes"] + delta["new_processes"], "map": {**pm["map"], **delta["map"]}}
     write_json(p.work / "process_map.json", pm)
     delta_path.unlink(missing_ok=True)
@@ -245,4 +285,4 @@ def check_process_map(p: Paths) -> dict:
     added = len(cdata["candidates"])
     return {"ok": True, "labels_added": added, "processes": len(pm["processes"]),
             "processes_added": len(delta["new_processes"]) if added else 0,
-            "labels_mapped_to_none": sum(1 for v in pm["map"].values() if v == "none")}
+            "labels_mapped_to_none": sum(1 for v in pm["map"].values() if v == "none"), **salvaged}

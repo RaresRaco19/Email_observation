@@ -6,12 +6,14 @@ read-only context.
 """
 import json
 import shutil
+from collections import Counter
 from datetime import datetime
 
 from . import config
 from .config import Paths
 from .labels import absorb, load_store, message_key
 from .parse import normalize_subject, parse_file
+from .prefilter import none_reason, rule_batch_id
 from .util import read_json, sha, write_json
 
 
@@ -131,6 +133,24 @@ def ingest_label_files(p: Paths, store: dict) -> None:
             absorb(p, store, attempts, lf.stem, batch["messages"])
 
 
+def apply_prefilter(store: dict, unique: list[dict]) -> int:
+    """Label rule-matched non-work mail "none" in the store, so it is never batched; returns how many are new.
+
+    Entries from an older PREFILTER_VERSION are dropped first, so a changed rule re-evaluates them.
+    """
+    current = rule_batch_id("")
+    for k in [k for k, e in store["labels"].items()
+              if e.get("batch_id", "").startswith("rule:") and not e["batch_id"].startswith(current)]:
+        del store["labels"][k]
+    added = 0
+    for m in unique:
+        if m["key"] not in store["labels"] and (reason := none_reason(m)):
+            store["labels"][m["key"]] = {"label": {"msg_id": m["msg_id"], "process": "none"},
+                                         "batch_id": rule_batch_id(reason)}
+            added += 1
+    return added
+
+
 def run(p: Paths, force: bool = False, max_batches: int | None = None,
         expected_files: int | None = None) -> dict:
     if force:
@@ -147,6 +167,7 @@ def run(p: Paths, force: bool = False, max_batches: int | None = None,
 
     store = load_store(p)
     ingest_label_files(p, store)
+    ruled_new = apply_prefilter(store, unique)
     write_json(p.work / "label_store.json", store)
     labeled_by_thread = {}
     for m in sorted(unique, key=lambda m: (m["date"] or "", m["msg_id"])):
@@ -176,7 +197,10 @@ def run(p: Paths, force: bool = False, max_batches: int | None = None,
         "duplicates_removed": len(files) - len(unique), "threads": len({m["thread_id"] for m in unique}),
         "undated": sum(1 for m in unique if not m["date"]),
         "dates_out_of_range": sum(1 for m in unique if m["date_out_of_range"]), "truncated": sum(1 for m in unique if m["truncated"]),
-        "messages_cached": len(unique) - len(todo), "messages_to_label": len(todo),
+        "messages_cached": len(unique) - len(todo) - ruled_new, "messages_to_label": len(todo),
+        "messages_ruled_none": dict(sorted(Counter(
+            e["batch_id"].rsplit(":", 1)[1] for m in unique
+            if (e := store["labels"].get(m["key"])) and e.get("batch_id", "").startswith("rule:")).items())),
         "batches": batches,
     }
     write_json(p.work / "manifest.json", manifest)

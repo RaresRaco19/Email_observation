@@ -12,7 +12,7 @@ STAGES = {
     "prepare": lambda p, a: prepare.run(p, force=a.force, max_batches=a.max_batches),
     "check-labels": lambda p, a: labels.check_labels(p),
     "candidates": lambda p, a: labels.candidates(p, reset=a.reconsolidate),
-    "check-process-map": lambda p, a: labels.check_process_map(p),
+    "check-process-map": lambda p, a: labels.check_process_map(p, salvage=a.salvage),
     "rank": lambda p, a: rank.build(p),
     "check-solutions": lambda p, a: solutions.check(p),
     "check-artifacts": lambda p, a: artifacts.check(p),
@@ -26,6 +26,8 @@ def main(argv=None) -> int:
     ap.add_argument("--force", action="store_true", help="prepare: wipe work/ and out/ first")
     ap.add_argument("--max-batches", type=int, default=None, help="prepare: list at most N pending batches (smoke tests)")
     ap.add_argument("--reconsolidate", action="store_true", help="candidates: rebuild the process map from scratch")
+    ap.add_argument("--salvage", action="store_true",
+                    help="check-process-map: merge the valid part of a failing delta and map the rest to none")
     ap.add_argument("--port", type=int, default=None)
     args, _unknown = ap.parse_known_args(argv)  # tolerate the rest of /analyze's $ARGUMENTS, e.g. --no-serve
     p = default_paths()

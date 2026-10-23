@@ -1,0 +1,837 @@
+{
+ "batch_id": "7f0ca639927a",
+ "context": [],
+ "messages": [
+  {
+   "date": "2001-05-17T22:11:51+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/517",
+   "new_text": "Neta,\nI do not believe I should be on this list.  Please remove me.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: Mitten Inc. dba Mitten Truck Stop out of Oakley, KS",
+   "thread_id": "t950e864ba5",
+   "to": [
+    "neta.zitnik@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-13T20:08:22+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/504",
+   "new_text": "Thanks for the work Bob.\nI will see you on the 27th at PDX.\n\nBill",
+   "new_text_source": "new",
+   "subject": "RE: Meeting",
+   "thread_id": "t95826635fd",
+   "to": [
+    "bharsh@puget.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-27T00:39:18+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/74",
+   "new_text": "Thanks for reserving the room.\nI will not need any food ordered.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: meeting",
+   "thread_id": "t95826635fd",
+   "to": [
+    "jill.chatterton@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-27T02:35:37+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/523",
+   "new_text": "Looks great Jill!\n\nThanks,\n\nBill",
+   "new_text_source": "new",
+   "subject": "RE: review and approve bill williams 16jul travel",
+   "thread_id": "t9587f9557f",
+   "to": [
+    "jill.chatterton@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-25T22:47:11+00:00",
+   "from": "julie.kearney@enron.com",
+   "msg_id": "williams-w3/inbox/97",
+   "new_text": "I just heard from Chris Lue, UBS HR, regarding the UBS New Hire paperwork.  All New Hire paperwork must be completed before 3:00 PM TODAY, Friday, 1/25/02 or UBS will be unable to process your payroll.  \n\nThese forms were distributed during the HR Benefit meetings held yesterday.  If you were unable to attend these meetings and are unsure about what forms need to be completed, please see either Grace or I ASAP.\n\nThanks!\n\nJulie Kearney\nENA Human Resources\n503) 464-7404 \njulie.kearney@enron.com",
+   "new_text_source": "new",
+   "subject": "UBS Paperwork - ACTION REQ'D",
+   "thread_id": "t95ca825ff4",
+   "to": [
+    "tom.alonso@enron.com",
+    "susan.amador@enron.com",
+    "john.anderson@enron.com",
+    "tim.belden@enron.com",
+    "victor.bulbes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-15T02:22:16+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/20",
+   "new_text": "Grace,\nCould you sign me up for the bus pass. I am selling my car and no longer need the parking. \nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Metro pass",
+   "thread_id": "t9613219b43",
+   "to": [
+    "grace.rodriguez@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-09T05:19:03+00:00",
+   "from": "jon.gail@hcs.state.or.us",
+   "msg_id": "williams-w3/inbox/113",
+   "new_text": "Hi Guys,\n\nNot sure who is in charge of the indoor team but I noticed we have our first\ngame of the upcoming season this Thursday night at 10:15 against FC Cosmos.\nFor more info go to \nhttp://www.pdxindoorsoccer.com/\n\nAs for me my hamstring is slowly healing so I should be back out there\nbefore too long.  Later.\n\nJon",
+   "new_text_source": "new",
+   "subject": "PDX Indoor",
+   "thread_id": "t96582ff419",
+   "to": [],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-09T20:00:37+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/27",
+   "new_text": "Jon,\nGood to hear from you. Glad to hear you are healing up, as for me, I am still working on the sprained knee. Enough of this one game and out stuff. Do you know when the outdoor season starts? I am hoping to make some indoor games, but want to concentrate on outdoor.\n\nBill",
+   "new_text_source": "new",
+   "subject": "RE: PDX Indoor",
+   "thread_id": "t96582ff419",
+   "to": [
+    "jon.gail@hcs.state.or.us"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-29T19:26:08+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/273",
+   "new_text": "How about this?\n \nEvelyn,\nPlease try to send or copy any emails to me at Williams III, Bill. NOT Williams, Bill. This email went to Bill Williams with Enron who happen to be in Sweden...\n \nKate Symes will be taking care of your spreadsheet when she has an opportunity. As you may be aware we have recently brought out EnronOnLine to the hourly market. We have seen a dramatic increase in volumes, and priorities have shifted as a result. Daily deadlines must be met. We are working on our deal entry accuracy. I appreciate your patience, we will attend to this issue shortly.",
+   "new_text_source": "new",
+   "subject": "RE: August Hourly Bloomberg deals still not cleared",
+   "thread_id": "t96b23941e9",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-31T00:57:57+00:00",
+   "from": "daniel.diamond@enron.com",
+   "msg_id": "williams-w3/inbox/71",
+   "new_text": "We are in the process of confirming that all traders are set up correctly and ready to trade when the system goes live. \n\nWe need to make sure that your Stack Managers are accessing the correct database. In order to do this, we need to know how you access Stack Manager:\n\n1) Through Terminal Server (the one that opens up a desktop within a desktop and it actually appears that you have two Start buttons). \nor\n2) By opening the Stack Manager directly from your \"native\" desktop.\n\nPlease reply to this message with either a corresponding \"1\" or a \"2\" in the subject field.\n\nIf you're not sure which one you have, please contact myself x39673, Teresa Mandola x39807 or Jennifer McQuade x53614 and we'll come by your desk to help you.\n\nThank you,\n\nDan Diamond",
+   "new_text_source": "new",
+   "subject": "**IMPORTANT** Stack Manager Users",
+   "thread_id": "t9736d50ec7",
+   "to": [
+    "traders.dl-netco@enron.com",
+    "traders.dl-netco@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-23T03:30:20+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/158",
+   "new_text": "Group,\n\nThe Enron Derivatives II will be on Wednesday and Thursday, November 14th and 15th. The class is open to those who took Derivatives I earlier this year. Please see me or send me an email if you are interested and we will make scheduling arrangements.\n\nThanks,\n\nBill",
+   "new_text_source": "new",
+   "subject": "Derivatives II",
+   "thread_id": "t978bc1274f",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-06T18:54:35+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/425",
+   "new_text": "Good morning,\n\nYesterday for HE 10 and HE 11 we were cut Real Time by El Paso Electric on an import (EPMI_CISO_BLUE).  The import was cut by 30 mws and 42 mws respectively.  A purchase from the imbalance has been made.  Also for HE 12,  we bought back most of Harbor Cogeneration's schedule.  Harbor was going to run for 20 mws but could not.  We told Harbor that we would take the charge for them.  Therefore, the -20 mws of generation deviation for Harbor needs to be allocated to ECTRT as Load Deviation.  We put in a purchase of 20 mws from the imbalance in Enpower. \n\nFinally there is a variance for HE 17 and HE 18 possibly because of load shift from NP to SP.  We are flat in CAPS position manager.  And flat in Enpower.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Charge for HE 12",
+   "thread_id": "t980f1fba24",
+   "to": [
+    "kit.blair@enron.com",
+    "caroline.emmert@enron.com",
+    "eugene.lee@enron.com",
+    "kourtney.nelson@enron.com",
+    "p..o'neil@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-31T23:32:42+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/37",
+   "new_text": "Group,\nWe have had some problems recently with the creation of HA finals, with SQL errors, and as a result we have not been able to run reports. If it is a weekend (or holiday), we first need to import DA finals and then create DA finals in CAPS. After this is done we can import HA finals, and create the HA report. If the boxes are not checked, the CISO may have missed publishing certain hours. Please look in the load zones to find what hour-ahead finals may not have been published, or where CAPS may have just missed pulling them in. Sometimes it helps to pull the missing hour-ahead finals in individually. Once all the finals are in the load zones and int. interchanges, you should be able to create the final report. Please give me a call if you have any questions.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "DA and HA finals",
+   "thread_id": "t98b2fe0d40",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "linder.eric@enron.com",
+    "mark.guzman@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-16T01:15:46+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/301",
+   "new_text": "Monika,\n\nI have attached your review, for our conference call tomorrow morning at 10 AM Houston time.\nTalk to you then.\n\nBill",
+   "new_text_source": "new",
+   "subject": "Review for 08/16/01",
+   "thread_id": "t995687e283",
+   "to": [
+    "monika.causholli@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-28T18:23:10+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/458",
+   "new_text": "Oi!\n -----Original Message-----\nFrom: \tMeyers, Bert  \nSent:\tWednesday, June 27, 2001 3:26 AM\nTo:\tBresnan, Neil; Whalan, Jubran; Williams III, Bill\nSubject:\tEES MODEL for 06/26/01",
+   "new_text_source": "body",
+   "subject": "FW: EES MODEL for 06/26/01",
+   "thread_id": "t99d2102f19",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-06T04:41:12+00:00",
+   "from": "bob.shults@enron.com",
+   "msg_id": "williams-w3/inbox/26",
+   "new_text": "Preparations are continuing for our simulation on Thursday, Feb. 7 from 9-11 am.\n\nDuring the simulation, you will be able to use your normal, \"live\" Stack Manager User ID and password, which will be emailed to you separately.\n\nThe attached word document below provides a basic review on Accessing the Stack Manager.  You should manage the same products as you normally would, even if those products are not expected to be going live on our initial launch day. If you have products that need to be created, please contact Kevin Meredith (3-9555) or Chris Walker (3-7533) with UBSWenergy.com immediately.\n\nTrading Goals - for all traders participating in the simulation.\nLog into the stack manager on Wednesday afternoon and ensure that your products are ready to be activated on Thursday morning. We will send you a reminder on Wednesday to advise you of the time when the application will be available.\nStart and end with a flat position\nMake markets in your respective products\nMaintain tight spreads in the products you manage\n\nNON-UBS PERSONNEL WILL NOT BE ABLE TO SEE OR TRANSACT ON PRODUCTS DURING THE SIMULATION.\n\nInternal Originators will be playing the roles of customers and will be hitting your stacks throughout the simulation.  You will also be able to trade book to book via the website with your website User ID and password which will also be emailed separately.\n\nMarket \"News\" events may be emailed to you at certain points throughout the simulation (e.g. \"storm in the gulf\").\n\nImmediately after the simulation, the website will be inactivated, so that the operations group can test the mid/back-office systems, while the IT groups clean-up the transaction data from the simulation. \n\nThe system will be made available again for live, internal trading (book to book) between traders on Friday, February 8, 2002. FRIDAY'S TRADES ARE FOR REAL.\n\nIf you can't log into any application on the day or are having trouble with your systems, please contact the UBSWenergy.com Help Desk immediately at 713.584.4444\n\nRegards,\nUBSWenergy.com",
+   "new_text_source": "new",
+   "subject": "Online Trading Simulation Feb 7th",
+   "thread_id": "t99f72e46ce",
+   "to": [
+    "traders.dl-netco@enron.com",
+    "traders.dl-netco@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-20T18:08:05+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/480",
+   "new_text": "-----Original Message-----\nFrom: =09Comnes, Alan =20\nSent:=09Tuesday, June 19, 2001 5:30 PM\nTo:=09Dasovich, Jeff; Schwarz, Angela; Aden, Beverly; Votaw, Bill; Barreda,=\n Brenda; Moffett, Carol; Corbin, Cathy; Foster, Chris H.; Liscano, Christin=\na; Sutter, Craig; Leff, Dan; Whitehead, Debora; Benevides, Dennis; Black, D=\non; Dorothy Youngblood/HOU/ECT@ECT; Huth, Douglas; Sacks, Edward; Melvin, E=\nric; Dupre, Erika; Hughes, Evan; Deltoro, Fran; Muench, Gayle; Dernehl, Gin=\nger; Savage, Gordon; Buchanan, Harold; Kingerski, Harry; Iris Waser/HOU/EES=\n@EES; Steffes, James; Lewis, James; Wright, James; Messina, Jeff; Blachman,=\n Jeremy; Hewitt, Jess; Hartsoe, Joe; Denne, Karen; Bass, Kathy; Dodgen, Kat=\nhy; Gustafson, Ken; Hughes, Kevin; Lopez, Leasa; Botello, Leticia; Muller, =\nMark; Suggs, Marsha; Sunde, Marty; Eggleston, Meredith; Etringer, Michael; =\nMann, Michael; Cisneros, Michelle D.; mpalmer@enron.com; Bresnan, Neil; Hon=\ng, Neil; Kaufman, Paul; Warren, Paula; Zdunkewicz, Richard; Leibert, Richar=\nd; Shapiro, Richard; Hennessy, Rita; Roger Yang/SFO/EES@EES; Tijerina, Rosa=\nlinda; Sandra McCubbin/NA/Enron@ENRON; Novosel, Sarah; Gahn, Scott; Stoness=\n, Scott; Dick, Sharon; skean@enron.com; Leslie, Tanya; Lair, Tasha; Ted Mur=\nphy/HOU/ECT@ECT; Greenlee, Terri; Belden, Tim; Spruiell, Tony; Sharp, Vicki=\n; Gorny, Vladimir; Curry, Wanda; Bradford, William S.; Corbally, Kathryn; W=\nhalan, Jubran; Riley, Tony; Sanders, Richard B.; Williams, Robert C.; Wolfe=\n, Greg; Wright, James; VanUlden, Dirk; Walker, Steve; Rudolph, Jennifer; We=\nnzel, Martin; Douglas Condon/SFO/EES@EES; wgang@enron.com; Scott Govenar; H=\nedy Govenar; jklauber@llgm.com; Smith, Mike; Neslage, John; Guerrero, Janel=\n; Eric Letke/DUB/EES@EES; Sanders, Richard B.; gfergus@brobeck.com; Tribole=\nt, Michael; Frank, Robert; Sanders, Richard B.; gfergus@brobeck.com; Mara, =\nSusan; Holmes, Chris; Leboe, David; Alonso, Tom; Alvarez, Ray; Badeer, Robe=\nrt; Calger, Christopher F.; Choi, Paul; Driscoll, Michael M.; Fischer, Mark=\n; Guzman, Mark; Hall, Steve C.; Heizenrader, Timothy; Krebs, Holli; Mainzer=\n, Elliot; Mallory, Chris; Malowney, John; Motley, Matt; Perrino, Dave; Plat=\nter, Phillip; Richter, Jeff; Rosman, Stewart; Scholtes, Diana; Stokley, Chr=\nis; Swain, Steve; Swerzbin, Mike; Symes, Kate; Williams III, Bill\nSubject:=09RE: FERC Order Issued Tuesday Evening\n\nThe FERC \"Westwide\" order issued at approximately 8 p.m. EDT Tuesday and pe=\nr the order is effective begining 6/20/01.  It is available at http://www.f=\nerc.gov/electric/bulkpower.htm.\n\nA few hard copies are at my desk in Portland.",
+   "new_text_source": "body",
+   "subject": "FW: FERC Order Issued Tuesday Evening",
+   "thread_id": "t9a3392d755",
+   "to": [
+    "lester.rawson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-23T17:12:37+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/373",
+   "new_text": "Cara,\nWe are short 14 mws at the Portland General System in position manager for Friday, July 20th.  HE 5 and HE 6.  Pacificorp deal #694155 is not in for those hours.\nCould you look into this?\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Position manager",
+   "thread_id": "t9a536e3a20",
+   "to": [
+    "cara.semperger@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-23T18:10:01+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/372",
+   "new_text": "Great.\nThanks,\nB\n\n -----Original Message-----\nFrom: \tSemperger, Cara  \nSent:\tMonday, July 23, 2001 7:18 AM\nTo:\tWilliams III, Bill\nSubject:\tRE: Position manager\n\nI fixed it, no idea where those megawiggles went\n\n -----Original Message-----\nFrom: \tWilliams III, Bill  \nSent:\tMonday, July 23, 2001 7:13 AM\nTo:\tSemperger, Cara\nSubject:\tPosition manager\n\nCara,\nWe are short 14 mws at the Portland General System in position manager for Friday, July 20th.  HE 5 and HE 6.  Pacificorp deal #694155 is not in for those hours.\nCould you look into this?\nThanks,\nBill",
+   "new_text_source": "body",
+   "subject": "RE: Position manager",
+   "thread_id": "t9a536e3a20",
+   "to": [
+    "cara.semperger@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-23T16:42:30+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/291",
+   "new_text": "Good morning.\nWe are off in position manager at Mid Columbia because of Enron Canada. I notified Murray at Enron Canada at approximately 6:15 this morning. Position manager is also not working properly, it is reporting a variance at Pacificorp system border ? and at Palo Verde. However the position manager shows no variance when detail is clicked.\nIf you have questions, let me know.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Position Manager",
+   "thread_id": "t9a536e3a20",
+   "to": [
+    "heather.dunton@enron.com",
+    "fran.chang@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-06T01:42:58+00:00",
+   "from": "enron_update@concureworkplace.com",
+   "msg_id": "williams-w3/inbox/28",
+   "new_text": "The following expense report is ready for approval:\n\nEmployee Name: Michael G. Mier\nStatus last changed by: Jill C. Chatterton\nExpense Report Name: Mier, Michael  2/5/02\nReport Total: $30.00\nAmount Due Employee: $30.00\n\n\nTo approve this expense report, click on the following link for Concur Expense.\nhttp://expensexms.enron.com",
+   "new_text_source": "new",
+   "subject": "<<Concur Expense Document>> - Mier, Michael 2/5/02",
+   "thread_id": "t9a5ea7c78e",
+   "to": [
+    "bwillia5@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-09T19:03:05+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/313",
+   "new_text": "Jessica,\n\nPlease remove me from this list.\nI am not involved with the management of anyone in this pool.\n\nThanks,\nBill Williams III\n503-464-3730",
+   "new_text_source": "new",
+   "subject": "RE: Administrative Assitants",
+   "thread_id": "t9ad243134d",
+   "to": [
+    "jessica.ramirez@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-29T19:29:56+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/146",
+   "new_text": "Group,\nAs most of you are aware we changed time zones on Sunday. We are back in Pacific Standard Time. As such, we are once again in a different time zone than some of our counterparties. Please specify Pacific time zone in your summary of your deal at the end of each phone call--translate the deal to Mountain time only if necessary. We must be very clear on this going forward or disputes will be numerous and we will not be able to resolve them. See me if you have any questions regarding this expectation.\nThanks,\n\nBill",
+   "new_text_source": "new",
+   "subject": "Time Change",
+   "thread_id": "t9af3900f39",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-20T03:25:23+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/87",
+   "new_text": "Group,\n\nWe will have an emergency meeting on Monday, November 26th at 4 PM. We will be going live on EOL for HE 7-22 on Monday. We will be discussing EOL trading, the new confirmation workspace in Enpower, business practice changes, and the Dynegy merger. Please make plans to attend. Contact me as soon as you can if you think you may not be able to make it.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Emergency Meeting",
+   "thread_id": "t9b9b8ee458",
+   "to": [
+    "shift.dl-portland@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-28T18:30:28+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/457",
+   "new_text": "-----Original Message-----\nFrom: \tHall, Steve C.  \nSent:\tThursday, June 28, 2001 8:27 AM\nTo:\tWilliams III, Bill\nSubject:\tDuke plant employees turn out to be disgruntled, misinformed employees with an ax to grind\n\nThese guys filed a bunch of complaints against Sempra too, back when Sempra owned the plant.---sch\n\nDuke's Calif Whistleblowers Have History Of Grievances  Updated: Wednesday, June 27, 2001 07:36 PM ET \nBy Jason Leopold \nOf DOW JONES NEWSWIRES \nLOS ANGELES (Dow Jones)--Three former employees who last week told California lawmakers Duke Energy (DUK </investments/quotes/?symbol=DUK>, news </investments/news/?symbol=DUK>, msgs </investments/discuss/?symbol=DUK>) ramped down its South Bay power plant when supplies were tight filed a total of 34 complaints while they were still working at the plant, including allegations of harassment and racial discrimination, the men told Dow Jones Newswires. \nMost of the grievances were filed between 1999 and 2001 against the plant's previous owner, Sempra Energy (SRE </investments/quotes/?symbol=SRE>, news </investments/news/?symbol=SRE>, msgs </investments/discuss/?symbol=SRE>) unit San Diego Gas & Electric, for which the men continued to work while Duke controlled the plant. But interviews with the three men also revealed a dissatisfaction with Duke's profit-centered management style in the deregulated market. \nDuke has called the employees' allegations about its operating procedures \"baseless.\" Duke has said the employees have an \"ax to grind,\" because they weren't hired by the company in April when escrow on the power plant closed and Duke acquired some of SDG&E's workforce. \nThe men are the first to come forward publicly and testify against their employers, who are locked in a high-stakes struggle with the state of California over allegations of price gouging. The state is pursuing billions of dollars in refunds from power producers and hopes to bring criminal charges against their executives. \nGlenn Johnson, 52, a mechanic at the South Bay power plant, alone filed 30 complaints. On one occasion, Johnson said he called the California Division of Occupational Safety and Health, because an unqualified employee was found scraping up asbestos. He also has a harassment complaint against SDG&E regarding an employee who now works for Duke, but Johnson said his lawyer told him not to discuss it. \nAside from the formal complaints, Johnson said under the Duke regime he was disciplined for taking too much sick time after being out for 10 months for cancer treatment. \n\"This is just the kind of abuse we had to endure ever since this became a business,\" he said. \nOne of the other employees, Jim Olkjer, 56, a former assistant control room operator at the power plant, filed three complaints against SDG&E while Duke operated the plant, because his evaluations consistently said he needed supervision. The grievances were either turned down or settled, he said. \nOlkjer said he decided to testify against Duke after he learned he wouldn't be hired by the energy company when it took over plant operations in April. \n\"I'm on a fixed income now,\" Olkjer said in an interview. \"I can't afford my utility bills on a fixed income.\" \nThe third employee, Ed Edwards, 42, a certified power plant mechanic, said he filed one complaint against three SDG&E employees in 1999 for racial discrimination. One of the employees was hired by Duke. That case is still pending. \nEdwards, an African-American, said Duke didn't hire qualified minority employees after it took over the plant and instead hired less-qualified white employees. Edwards said the two minority supervisors that worked at the plant under SDG&E were replaced with white employees when Duke took over. \nEdwards, who stopped working at the plant in February, said he decided to testify against Duke after receiving a phone call from Johnson. \n\"I knew I wouldn't be hired,\" he said. \nEdwards and Johnson filed charges of harassment and racial discrimination against SDG&E with the U.S. Equal Employment Opportunity Commission. \nSDG&E spokesman Art Larson wouldn't comment on the allegations. Duke spokesman Tom Williams said the company stands by its hiring practices and \"always hires the most qualified employees.\" \nIn 1999, Duke settled a 1996 discrimination claim with the U.S. Department of Labor for $769,700, in which the department found some areas where white females and black males were paid less than white male and black female counterparts in similar positions. \nDissatisfaction With New Priorities \nThe former employees said they weren't motivated to blow the whistle on Duke by the prospects of cashing in on a possible settlement with the state. Johnson first alerted the media about Duke's behavior before state Attorney General Bill Lockyer mentioned financial rewards for whistleblowers. \nThe employees each earned about $1,000 a week. \nAll three employees said they believe Duke mismanaged the South Bay power plant by ramping the units up and down, tossing out spare parts, and operating machinery when it was broken. Olkjer said he saw the plant's output reduced during the worst power emergencies \"at least 50 times.\" \nWhen Edwards questioned his supervisors about the behavior he said they told him, \"It's none of your business.\" \nThe employees said that Duke was more concerned with making money than the happiness of its staff, and that the company tried to bust its union contract when it first took over the plant. \n\"I was paid to twist wrenches,\" Johnson said. \"The last raise I got two years ago was 2.25%. That's an insult to my skill.\" \nDuke said it is bringing the former SDG&E employees under its contract with International Brotherhood of Electrical Workers Local 1245. The workers were previously represented by another local, and Duke wanted a single contract. \nJohnson said he decided to blow the whistle on Duke because he was disgusted by the company's \"gluttony and greed.\" He said he stole the control room logs in February after a colleague pointed out to him that Duke was reducing output at the plant. \nJohnson, Edwards and Olkjer said \"in the old days\" the power plant ran at full throttle and never ramped up or down. But as soon as deregulation became law in the state, things started to change. SDG&E would also vary the plant's output, but not as dramatically as Duke did, they said. \n\"To the best of my recollection, we had years of being extremely reliable and being on line all the time,\" Edwards said. \"Once Duke took the reins, that changed. We were no longer a family.\" \nDuke has said that it adjusted the plant's output to meet its contractual commitments and to respond to the directions of the California Independent System Operator, manager of the state's power grid. \nThe ISO frequently directed plants to ramp output up and down to meet changing requirements on the grid, and the employees who testified weren't in a position to know the whole picture, said Bill Hall, vice president of Duke's western operations. \nDuke spokesman Tom Williams said the company plans to release data showing the ISO ordered the plant to ramp up and down Jan. 16-18, the period cited from the control-room logs, to keep supply in balance. A copy of the ISO control-room logs obtained by Dow Jones Newswires shows that the ISO did make such orders during a Stage 3 emergency, because it didn't need Duke's capacity, which it thought too expensive. \n-By Jason Leopold, Dow Jones Newswires; 323-658-3874; jason.leopold@dowjones.com <mailto:jason.leopold@dowjones.com> \n\n\n<Embedded Picture (Metafile)>",
+   "new_text_source": "body",
+   "subject": "FW: Duke plant employees turn out to be disgruntled, misinformed employees with an ax to grind",
+   "thread_id": "t9bfa06f4b6",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-23T16:51:39+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/374",
+   "new_text": "Kate,\nEPE will be lending us a schedule for Tuesday, 25 mws at $4 at PV. The schedule will be on peak.  Similar to today.  Please work with the preschedulers to get the sheet correct (Friday's sheet for Monday had a duplicate 10 mw schedule in it).\nLet me know if you have questions.\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "More lending",
+   "thread_id": "t9c11923d15",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-29T08:56:19+00:00",
+   "from": "dfuller@caiso.com",
+   "msg_id": "williams-w3/inbox/88",
+   "new_text": "Notice to Market Participants\n\nThe latest revision to the Market Design 2002 (MD02) proposal is now posted\non the ISO Home Page at http://www.caiso.com Current Issues, then  Market\nDesign 2002.  Or try this link:\nhttp://www.caiso.com/docs/09003a6080/13/d1/09003a608013d13f.pdf .  \n\nBased on feedback at the focus group meetings and the ISO review of written\ncomments on the January 8 preliminary draft, the ISO has modified the\nproposed MD02 timeline significantly.  \n\nThe ISO held four separate focus groups in Folsom on January 14-17, 2002 to\ndiscuss the proposal and to solicit feedback on the proposed MD02 package.\nOver 100 individuals participated in the meetings, either in person or by\nphone.  They represented scheduling coordinators, investor owned utilities,\nload serving entities, municipals, other control areas, and consumer\nrepresentatives.  In addition, many interested parties submitted comments\nlast week.  Two consistent messages the ISO received suggested that (1) the\ntimeline was too aggressive and (2) the Available Capacity (ACAP) proposal\nneeded additional work and explanation. \n\nIn response to these concerns, the ISO has modified the timeline:\n  \n*\tThe Board will receive a status report at its regularly scheduled\nmeeting on February 7, 2002, but will not vote on the comprehensive design\npackage until its March 14 meeting.  The ISO plans two separate filings at\nFERC, one in late March and one on May 1, 2002.    \n\n*\tThe ACAP proposal will likely not be included in the Phase 1 FERC\nfiling in late March.  \n\nPlease see the revised MDO2 draft proposal now posted on the ISO website for\nmore specifics regarding the schedule for advancing the proposal to the ISO\nBoard of Governors and the FERC.  The ISO requests that any additional\ncomments from the public be submitted by Thursday, January 31, 9 a.m. (PST),\nso they can be included in the Board discussion.  (Note the Thursday\ndeadline is an extension of the original Wednesday deadline discussed in\nearlier messages)  Please submit to Byron Woertz at bwoertz@caiso.com.  \n\nAgain, the ISO would like to thank those who attended the MD02 focus groups\nand/or submitted written comments.   The ISO will keep you posted on further\nopportunities for review and feedback on details of the MD02 design.  \n\n\nCR Communications",
+   "new_text_source": "new",
+   "subject": "MD02 Revised Draft - Comprehensive Design Proposal and Timeline",
+   "thread_id": "t9d9ecbddbd",
+   "to": [
+    "20participants@caiso.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-18T00:48:53+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/170",
+   "new_text": "Group,\n\nDavid Porter will be moving to the Utility Risk Management group with Enron Energy Services beginning Tuesday October 23. Please join me in thanking David for his effort in the real-time group over the past year (especially the 24-hour long shift), and wishing him good luck in his new position.\n\nStay tuned for a \"going away\" party for Dave in the near future.\n\nBill",
+   "new_text_source": "new",
+   "subject": "David Porter",
+   "thread_id": "t9dd08d3d94",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-18T23:18:46+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/168",
+   "new_text": "Kysers and Mary-\n\nST-WBOM is long at PV parking with PNM for HE 2 through HE 5, 20 mws each hour--for Friday and Saturday. The price of the power after the parking fee is $15.50. The deal number is 826094. This deal is just hanging out there under W-BOM and should make us 80 mws long at PV on Friday and Saturday. \n\nAlso--we are still short the two BOM pieces in SP-15 for a total of 50 mws each hour on peak-Friday and Saturday- average price of $27.60. You would have the deal numbers on this one.\n\nSweet.",
+   "new_text_source": "new",
+   "subject": "ST-WBOM in the SW actually.",
+   "thread_id": "t9e2a51e521",
+   "to": [
+    "kysa.alport@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T14:52:54+00:00",
+   "from": "albert.meyers@enron.com",
+   "msg_id": "williams-w3/inbox/78",
+   "new_text": "Bill:\n\nLast night as I was trying to log onto the ADS machine I kept getting a server error.  You will probably want to let one of the IT guys know of this problem\n\nBert",
+   "new_text_source": "new",
+   "subject": "ADS Machine",
+   "thread_id": "t9f5823c601",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-05T04:17:11+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/267",
+   "new_text": "Guys,\n\nWe are short for HE 21 through HE 23 at Malin. We are short at $40. The sale is to Pacificorp Power Marketing. 20 mws of the 50 is going to SMUD and 30 mws of the 50 is going to CERS. You can reference tag#'s 31892 and 31889.\nIf you have any questions just give me a call on my cell phone.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Short for HE 21 through HE 23",
+   "thread_id": "t9f9292ea08",
+   "to": [
+    "bert.meyers@enron.com",
+    "eric.linder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-27T19:31:03+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/359",
+   "new_text": "Steve,\nGreat email! Arbitrary and capricious indeed.\nMore like ridiculous.",
+   "new_text_source": "new",
+   "subject": "RE: Two Major Inconsistencies in FERC's Most Recent Refund Order and the Nov 1 and Dec 15 Orders",
+   "thread_id": "ta008b32111",
+   "to": [
+    "c..hall@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-19T21:01:54+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/162",
+   "new_text": "What are Tracy's thoughts on this?",
+   "new_text_source": "new",
+   "subject": "RE: CAISO OOM Procedure",
+   "thread_id": "ta051b6cfcb",
+   "to": [
+    "alan.comnes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-23T00:57:25+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/473",
+   "new_text": "Group,\n\nCAPS will be down from HE 20 through HE 1 on Saturday morning.  We will have to use workspace and run Enpower to CAPS after HE 1.  We may want to run Enpower to CAPs early (or at least create finals) so that we do not lose any data if the whole thing gets erased.  Please call with questions.\nGood luck.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "FW: R: Drive System outage",
+   "thread_id": "ta0c95eb64d",
+   "to": [
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com",
+    "eric.linder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-08T15:43:42+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/318",
+   "new_text": "Jim,\nWe have congestion revenue again for 08_07.\nWe moved 272 mws at $194.\nTotal revenue should be $52768.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Congestion for 08-07",
+   "thread_id": "ta118f5f1de",
+   "to": [
+    "kit.blair@enron.com",
+    "caroline.emmert@enron.com",
+    "eugene.lee@enron.com",
+    "kourtney.nelson@enron.com",
+    "p..o'neil@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-08T16:16:13+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/317",
+   "new_text": "Murray,\nWe tally up our exposure each day based on the California flash.  Our monthly exposure can be found at P:\\RealTime\\Exposure\\August Exposure.\nWe are keeping a very close eye on it.\n\nThanks,\nB",
+   "new_text_source": "new",
+   "subject": "RE: Congestion for 08-07",
+   "thread_id": "ta118f5f1de",
+   "to": [
+    "p..o'neil@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-31T22:47:21+00:00",
+   "from": "sap_security@enron.com",
+   "msg_id": "williams-w3/inbox/61",
+   "new_text": "Thank you for using our automated self service password reset option.    \n \nThe user id and password in SAP (Apollo Production and HR Production), eHRonline, iBuyit and iPayit are all synchronized.  When you reset your password in eHRonline, it automatically synchronizes the password in the other systems.  \n \nPlease follow the steps to reset and synchronize your passwords.\n \n1.        Go to ehronline.enron.com\n2.       Click on the   button\n3.       Enter your User Id (SAP Personnel Number) and temporary password (located at the bottom of this email)\n4.       You will then be asked to change your password\n5.       Enter your new password twice\n6.       Once you have successfully changed your password in eHRonline, you have synchronized your password for SAP (Apollo Production and HR Production), eHRonline, iBuyit and iPayit\n7.       If you were trying to access an application other than eHRonline, close eHRonline and proceed to the desired application.  You will now be able to log in with your NEW password.\n \n THIS IS A GENERATED EMAIL - DO NOT REPLY!\n \nIF YOU NEED FURTHER ASSISTANCE, CONTACT THE ISC HELP DESK AT:  713-345-4727\n \nThe password for your account: P00503927   has been reset to: 13397679  \n \nGo to eHRonline now: http://ehronline.enron.com <https://ehronline.enron.com/>",
+   "new_text_source": "new",
+   "subject": "Your password has been reset",
+   "thread_id": "ta1ce440f2b",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T18:54:23+00:00",
+   "from": "marketopshourahead@caiso.com",
+   "msg_id": "williams-w3/inbox/77",
+   "new_text": "After the Day ahead market ran, the Mirage branch group TTC in both\ndirections was changed from 70 MW to 0 MW for HE's 0700 through 2400 for\noperating day 1/30/02.  The reason(s) for the change is:  transfer trip\nforced out of service to Devers-Capwind.  The first applicable Hour Ahead\nmarket to run with these values is HE 1200.  The ISO will update you of any\nchanges in line rating status.  Sent by Market Operations, inquiries please\ncall the Hour Ahead Desk.\n\nThe system conditions described in this communication are dynamic and\nsubject to change.  While the ISO has attempted to reflect the most current,\naccurate information available in preparing this notice, system conditions\nmay change suddenly with little or no notice.",
+   "new_text_source": "new",
+   "subject": "Mirage de-rate",
+   "thread_id": "ta33660137c",
+   "to": [
+    "mktstathourahead@caiso.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-30T20:46:51+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/345",
+   "new_text": "Group,\n\nSTWBOM is short tomorrow (07/31/01) on Peak in SP-15.  We are short 25 mws at $51.74.\n\nSTCALI is short 4 mws(?) on peak in SP-15 at $51.74. ST-CALI is long 24 mws off peak at a price of $25.\n\nIf you have questions, just let me know.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Short in SP-15 (ST-Cali is long off-peak)",
+   "thread_id": "ta3542eafc3",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-10T05:52:27+00:00",
+   "from": "albert.meyers@enron.com",
+   "msg_id": "williams-w3/inbox/133",
+   "new_text": "Bill:\n\nJust wanted you to know that EPE lost one of the Turbines hour ending 18 @ about 17:30 or so...I tried to buy power from everyone but to almost no avail (exept 50mw @ 53.00 integrated to a 13mw 3/4 past the hour)...Furthermore, I cut IID to a 100mw from a 120mw which integrated to a 115mw (being as I kept the first 100 whole),\n\nFor HE 19 I was forced to cut one of a 25mw purchase from PNM @ $32.00 to a 13mw because our imports were over capacity.  I also bought back 50mw from IID for HE 20 @ $40.00.\n\nPlease see the note for more details or the model and ask me with any questions\n\nBert",
+   "new_text_source": "new",
+   "subject": "EPE for 12/09/01",
+   "thread_id": "ta35a20cafd",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-31T22:05:03+00:00",
+   "from": "enron_update@concureworkplace.com",
+   "msg_id": "williams-w3/inbox/63",
+   "new_text": "The following expense report is ready for approval:\n\nEmployee Name: Michael G. Mier\nStatus last changed by: Jill C. Chatterton\nExpense Report Name: Mier, Michael  1/31/02\nReport Total: $91.00\nAmount Due Employee: $91.00\n\n\nTo approve this expense report, click on the following link for Concur Expense.\nhttp://expensexms.enron.com",
+   "new_text_source": "new",
+   "subject": "<<Concur Expense Document>> - Mier, Michael 1/31/02",
+   "thread_id": "ta3b8d2aab1",
+   "to": [
+    "bwillia5@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-25T20:11:12+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/468",
+   "new_text": "Karen,\nYou must change your e-mail list for Bill Williams.  Please send this to bill.williams@enron.com.  Not bill.williams.III@enron.com.  Subtle difference.  But if you consider your information worthy of review - please make the e-mail change.\n\nRegards\nBill \n \n\n\n -----Original Appointment-----",
+   "new_text_source": "new",
+   "subject": "RE: EPC contractor risk review",
+   "thread_id": "ta3dd64249d",
+   "to": [
+    "l..barbour@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-25T18:45:03+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/214",
+   "new_text": "-----Original Message-----\nFrom: Tim Blackwell [mailto:tim.blackwell@amec.com]\nSent: Tuesday, September 25, 2001 8:07 AM\nTo: Pearson, Michael; Tim Blackwell\nCc: Jack Branson; Dieball, Scott; Rigby, John; Stovall, Darrell; Coneybeer, Tom; scofer@llgm.com; Williams III, Bill\nSubject: RE: Proposal for Basis of Payments to Engineering Subcontractor\n\n\n\nMike ,as we have discussed several times Amec will perform the work based on trhe rate schedules provided ton date with a lump sum based on the estimated hours times these rates.This does not mean we will provide the profit/overhead /bare wage breakdowns as described herein.We also said we would execute work in overrun at 60% of the scedule rates.This is what was discussed and written into the latest documents we reviewed last Friday.I am available in Toronto for awhile this a.m. at 905-8295400 ext.2489 if we need to discuss again.\n\n-----Original Message----- \nFrom: Pearson, Michael [ <mailto:Michael.Pearson@ENRON.com>] \nSent: Tuesday, September 25, 2001 10:56 AM \nTo: tim.blackwell@amec.com \nCc: jack.branson@amec.com; Dieball, Scott; Rigby, John; Stovall, \nDarrell; Coneybeer, Tom; scofer@llgm.com; Williams III, Bill \nSubject: FW: Proposal for Basis of Payments to Engineering Subcontractor \n\n\nIn order to further clarify our understanding of how the payment \nmechanism would work in the exhibits of the PSA, I am attaching a \nsummary of the preferred method for compensation under the Pre-NTP and \nNTP phases of the PSA's.  In particular, on the NTP Lump Sum price \ndetermination, we would prefer to see the breakdown of manhours in the \nformat previously transmitted (by task by month), and by Engineering \nDiscipline.  The Canadian rate structure you provided had about 15 or \nmore categories of Engineering Disciplines, and this should be used to \nreflect the all-in hourly rates times the manhours in each category \nwhich will equate to the estimated Lump Sum price noted in the \nattachment.  \n\nYour organization chart reflects all personnel in Vancouver being \nassigned to the project team, except the Customer Sponsor.  We would not \nexpect to have to pay for the sponsor's cost, nor any travel time for \npersonnel to/from Atlanta. \n\nWe are getting clarification from LED if the actual driving of the test \npiles will be included in your deliverables or will be done directly by \nLED during the Oct 1-31 period.  Will advise. \n\nMike    \n\n>  -----Original Message----- \n> From:         Cabrera, Louise L.  \n> Sent: Tuesday, September 25, 2001 9:35 AM \n> To:   Pearson, Michael \n> Subject:      Proposal for Basis of Payments to Engineering \n> Subcontractor \n> \n>  <<Proposal for Basis of Payments to Engineering Subcontractor.doc>> \n\n\n********************************************************************** \nThis e-mail is the property of Enron Corp. and/or its relevant affiliate and may contain confidential and privileged material for the sole use of the intended recipient (s). Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender or reply to Enron Corp. at enron.messaging.administration@enron.com and delete all copies of the message. This e-mail (and any attachments hereto) are not intended to be an offer (or an acceptance) and do not create or evidence a binding and enforceable contract between Enron Corp. (or any of its affiliates) and the intended recipient or any other party, and may not be relied on by anyone as the basis of a contract by estoppel or otherwise. Thank you. \n\n**********************************************************************",
+   "new_text_source": "body",
+   "subject": "FW: Proposal for Basis of Payments to Engineering Subcontractor",
+   "thread_id": "ta464249e53",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-25T18:50:59+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/213",
+   "new_text": "Michael,\nI think you intended to send this to Bill Williams in Technical Assets. Please note the difference in addresses and make the change.\nThanks,\n\nBill",
+   "new_text_source": "new",
+   "subject": "FW: Proposal for Basis of Payments to Engineering Subcontractor",
+   "thread_id": "ta464249e53",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-25T19:13:27+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/212",
+   "new_text": "I don't know...\n \n \n-----Original Message-----\nFrom: Pearson, Michael \nSent: Tuesday, September 25, 2001 9:12 AM\nTo: 'Tim Blackwell'\nCc: Jack Branson; Dieball, Scott; Rigby, John; Stovall, Darrell; Coneybeer, Tom; scofer@llgm.com; Williams III, Bill; McPhail, Ray\nSubject: RE: Proposal for Basis of Payments to Engineering Subcontractor\n\n\nThe compensation issue is still under review by our management.  The T&M rates AMEC has provided for the Pre-NTP PSA are all we have from AMEC at this point.  We do not have the NTP rates worked out for Exhibits yet. The current document is still in draft form and we are considering your wording, however our management is adamant at achieving an all-in rate per hour for the NTP PSA, so we consider this to be an open issue until we see your lump sum price estimate.  I assumed your position is that 60% is \"deemed\" to be what I refer to as the Variable Rate in the attached document.  Mike\n\n-----Original Message-----\nFrom: Tim Blackwell [mailto:tim.blackwell@amec.com]\nSent: Tuesday, September 25, 2001 10:07 AM\nTo: Pearson, Michael; Tim Blackwell\nCc: Jack Branson; Dieball, Scott; Rigby, John; Stovall, Darrell; Coneybeer, Tom; scofer@llgm.com; Williams III, Bill\nSubject: RE: Proposal for Basis of Payments to Engineering Subcontractor\n\n\n\nMike ,as we have discussed several times Amec will perform the work based on trhe rate schedules provided ton date with a lump sum based on the estimated hours times these rates.This does not mean we will provide the profit/overhead /bare wage breakdowns as described herein.We also said we would execute work in overrun at 60% of the scedule rates.This is what was discussed and written into the latest documents we reviewed last Friday.I am available in Toronto for awhile this a.m. at 905-8295400 ext.2489 if we need to discuss again.\n\n-----Original Message----- \nFrom: Pearson, Michael [ <mailto:Michael.Pearson@ENRON.com>] \nSent: Tuesday, September 25, 2001 10:56 AM \nTo: tim.blackwell@amec.com \nCc: jack.branson@amec.com; Dieball, Scott; Rigby, John; Stovall, \nDarrell; Coneybeer, Tom; scofer@llgm.com; Williams III, Bill \nSubject: FW: Proposal for Basis of Payments to Engineering Subcontractor \n\n\nIn order to further clarify our understanding of how the payment \nmechanism would work in the exhibits of the PSA, I am attaching a \nsummary of the preferred method for compensation under the Pre-NTP and \nNTP phases of the PSA's.  In particular, on the NTP Lump Sum price \ndetermination, we would prefer to see the breakdown of manhours in the \nformat previously transmitted (by task by month), and by Engineering \nDiscipline.  The Canadian rate structure you provided had about 15 or \nmore categories of Engineering Disciplines, and this should be used to \nreflect the all-in hourly rates times the manhours in each category \nwhich will equate to the estimated Lump Sum price noted in the \nattachment.  \n\nYour organization chart reflects all personnel in Vancouver being \nassigned to the project team, except the Customer Sponsor.  We would not \nexpect to have to pay for the sponsor's cost, nor any travel time for \npersonnel to/from Atlanta. \n\nWe are getting clarification from LED if the actual driving of the test \npiles will be included in your deliverables or will be done directly by \nLED during the Oct 1-31 period.  Will advise. \n\nMike    \n\n>  -----Original Message----- \n> From:         Cabrera, Louise L.  \n> Sent: Tuesday, September 25, 2001 9:35 AM \n> To:   Pearson, Michael \n> Subject:      Proposal for Basis of Payments to Engineering \n> Subcontractor \n> \n>  <<Proposal for Basis of Payments to Engineering Subcontractor.doc>> \n\n\n********************************************************************** \nThis e-mail is the property of Enron Corp. and/or its relevant affiliate and may contain confidential and privileged material for the sole use of the intended recipient (s). Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender or reply to Enron Corp. at enron.messaging.administration@enron.com and delete all copies of the message. This e-mail (and any attachments hereto) are not intended to be an offer (or an acceptance) and do not create or evidence a binding and enforceable contract between Enron Corp. (or any of its affiliates) and the intended recipient or any other party, and may not be relied on by anyone as the basis of a contract by estoppel or otherwise. Thank you. \n\n**********************************************************************",
+   "new_text_source": "body",
+   "subject": "FW: Proposal for Basis of Payments to Engineering Subcontractor",
+   "thread_id": "ta464249e53",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-05T23:48:45+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/117",
+   "new_text": "Keoni,\nI thought your email regarding the running of CONG with a heuristic rather than optimal solution may address and solve the problem. I have not yet been able to pull up \"corrected\" prices but hopefully they will now reflect our bids. The problems I referred to in my phone message last week were similar to what my original email detailed. Basically, we were awarded mw's on a congestion management schedule and the published prices did not match our bids. Will the change in running the \"solutions\" change this? Our volume management group will then be inputing our bid price rather than the published congestion management price--as those prices are not yet published correctly. \n\nI will be in the office this week and can be reached at your convenience.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "RE: SI Support for Enron",
+   "thread_id": "ta4737ea13b",
+   "to": [
+    "'almeida@enron.com",
+    "kalmeida@caiso.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-10T00:40:45+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/418",
+   "new_text": "Nice Job!\nLooks good!",
+   "new_text_source": "new",
+   "subject": "RE: EPE Reconciliation Model: Follow-up",
+   "thread_id": "ta4b10985a1",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-23T22:31:34+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/155",
+   "new_text": "-----Original Message-----\nFrom: pankaj.khanna@us.abb.com [mailto:pankaj.khanna@us.abb.com]\nSent: Tuesday, October 23, 2001 12:01 PM\nTo: tswg@caiso.com; gseitles@caiso.com\nCc: harvey.lindauer@us.abb.com; xiaofeng.zhang@us.abb.com\nSubject: Re: SI Certificate Expiration\n\n\n\n\nIn reference to the SI security upgrade can you please provide us a test server\nfor testing our product Gatewayplus( before the upgrade of the production\nserver).\nThis will help us knowing and inplementing changes we need to make in our\nproduct and release it to our customers in time.\n\nThanks,\n--Pankaj\n\n\n\n\n|------------->\n|(Embedded    |\n|image moved  |\n|to file:     |\n|pic09372.pcx)|\n|             |\n|------------->\n  >------------------------------------------------------------------------|\n  |XiaoFeng Zhang/USTRA/ABB                                                |\n  |10/08/2001 11:33 AM (Phone: + 408 615 6362, Dept.: Energy Information   |\n  |System)                                                                 |\n  >------------------------------------------------------------------------|\n\n\n\nTo:   Pankaj Khanna/USTRA/ABB@ABB_USTRA\ncc:\nSubject:  SI Certificate Expiration\n\nSecurity Level:?         Internal\n\nFYI.\n---------------------- Forwarded by XiaoFeng Zhang/USTRA/ABB on 10/08/2001 11:23\nAM ---------------------------\n|------------->\n|(Embedded    |\n|image moved  |\n|to file:     |\n|pic19469.pcx)|\n|             |\n|------------->\n  >------------------------------------------------------------------------|\n  |\"Seitles, Ginger\" <GSeitles@caiso.com>                                  |\n  |10/08/2001 10:53 AM                                                     |\n  >------------------------------------------------------------------------|\n\n\n\nTo:   TSWG <TSWG@caiso.com>\n\n      \"Blatchford, James\" <JBlatchford@caiso.com>\n      \"Glatz, Michael\" <MGlatz@caiso.com>\n      \"Langhorst, Mike\" <MLanghorst@caiso.com>\n      \"Rothleder, Mark\" <MRothleder@caiso.com>\n      \"Simmons, Bill\" <BSimmons@caiso.com>\n      \"DerGevorgian, Benik\" <BDGevorgian@caiso.com> (bcc: XiaoFeng\n      Zhang/USTRA/ABB)\nSubject:  SI Certificate Expiration\n\nSecurity Level:?         Internal\n\n\n\nAll,\nPlease be advised that the SI Server Certificates on the primary SI site in\nFolsom will expire in about a month.  We are planning to install ISO\nissued/trusted Certificates on the Folsom SI servers as we have already done\non the Alhambra server several months ago. We presently use Verasign as the\nThird Party Trust.  We would like input from you as to any known issues with\nauthentication at the Alhambra SI site and any impact you may have seen\nafter our implementation there.  Please provide feedback to me via e-mail\nprior to this Wednesday's TSWG meeting and I will consolidate concerns so\nthat we may discuss these in that forum.\nBest Regards,\n\n          Ginger Seitles\n          Senior Market Integration Engineer\n          California ISO, Market Operations\n          Phone: (916) 351-4420\n          gseitles@caiso.com",
+   "new_text_source": "body",
+   "subject": "FW: SI Certificate Expiration",
+   "thread_id": "ta596f4b9e3",
+   "to": [
+    "chip.cox@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-19T18:18:56+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/232",
+   "new_text": "LIBERALISM: The art of feeling superior to suburban drones and blue-collar workers through purported logic and philosophical jargon.",
+   "new_text_source": "new",
+   "subject": "RE: brain food",
+   "thread_id": "ta616f0de55",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-19T18:29:20+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/231",
+   "new_text": "HUBRIS: ex. 1.)--see Portland City Council-- 2.) Reed College",
+   "new_text_source": "new",
+   "subject": "RE: brain food",
+   "thread_id": "ta616f0de55",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-19T19:32:26+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/230",
+   "new_text": "Of course you were. Don't feel bad though, we all get confused at times. Some of us just more than others.",
+   "new_text_source": "new",
+   "subject": "RE: brain food",
+   "thread_id": "ta616f0de55",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-23T19:25:51+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/156",
+   "new_text": "Julie,\nI received this message yesterday from a student group at the University of Washington. Do you still want some to go to Seattle and stir up interest?\n \nBill",
+   "new_text_source": "new",
+   "subject": "FW: Dow Dawgs Investment Club",
+   "thread_id": "ta6b5369462",
+   "to": [
+    "julie.kearney@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-24T22:11:12+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/152",
+   "new_text": "Kate,\nIt is the end of the month and just like everyone else in your group you are needed to be at work at certain times. Granted, renewed motivation can be a great thing to help you attack various job functions with vigor, and I am a big believer in it. We have in the past discussed that I would prefer  that you take personal days/vacation days in the middle of the month and at the end of the week. If you would like to plan a longer vacation in advance, again like everyone else in your group, please just let me know.\nI appreciate your understanding.\n\nBill",
+   "new_text_source": "new",
+   "subject": "",
+   "thread_id": "ta71bd6bd5a",
+   "to": [
+    "kate.symes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-25T01:53:46+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/285",
+   "new_text": "Sweet.\nThanks for the call last night...Brad should be awesome.\nWhere is it at?\nLet me know how your \"evening\" with Rachel goes.\n\nBill",
+   "new_text_source": "new",
+   "subject": "RE: brad",
+   "thread_id": "ta8d3fef085",
+   "to": [
+    "craig@stollerinc.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-11T03:36:02+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/24",
+   "new_text": "-----Original Message-----\nFrom: \tAmador, Susan  \nSent:\tThursday, January 10, 2002 3:25 PM\nTo:\tSolberg, Geir\nCc:\tWilliams III, Bill; Poston, David\nSubject:\tEstate/NETCO split test\n\nGeir,\n\nPlease enter a few test deals on Saturday after the databases are brought back up.  There should be an EnPower stage for NETCO shortcut and an EnPower Stage for estate shortcut from the start menu in terminal server.  You will need to re-boot your system to see the new shortcuts.  The database are scheduled to be back up after 4 PM.  If they are not back up before the end of your shift, please ask your successor to enter a few deals, etc.  If you have any problems call David Poston.  (I'll be out of town due to a family emergency this weekend.)\n\nDavid's numbers:\n713.962.0973 cell\n713.345.7834 office\n\nThanks, \n\nSusan Amador\n503.464.8681 office",
+   "new_text_source": "body",
+   "subject": "FW: Estate/NETCO split test",
+   "thread_id": "ta8eabb1a79",
+   "to": [
+    "craig.dean@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-14T21:53:15+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/244",
+   "new_text": "Group,\nPlease remember to put the Tag # in the inc sheet. Every schedule should now be tagged if it is outside of the CAISO. Please get the tag # from our counterparties to put in the inc sheet. This should greatly improve our settlements process and minimize disputes. Include a comment in the Tag # section if there is no tag.\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Real Time Tags",
+   "thread_id": "ta991d31c6e",
+   "to": [
+    "john.anderson@enron.com",
+    "todd.bland@enron.com",
+    "craig.dean@enron.com",
+    "mark.guzman@enron.com",
+    "leaf.harasin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-13T22:18:08+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/252",
+   "new_text": "Darin,\n\nI liked the services portion of the night discussion note that you wrote on the 13th, but you need more information on sales on behalf of EPE for both HE 6 and HE 7...you need to explain any sales to marketers or utilities. I also need you to only sell to a marketer as last resort. A marketer is usually just flipping EPE's energy and is taking your spread. \n\nIf you have any questions, just let me know. Otherwise keep up the good work!\n\nThanks,\nBill",
+   "new_text_source": "new",
+   "subject": "Night Note",
+   "thread_id": "taac45239c7",
+   "to": [
+    "darin.presto@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T07:48:57+00:00",
+   "from": "albert.meyers@enron.com",
+   "msg_id": "williams-w3/inbox/79",
+   "new_text": "Bill:\n\nPlease note the following due to the past two days schedules have been wrong in the EPE Schedules in Excel:\n\nTag number 6181 has been cancelled (50mw to the CISO).\n\nLending is wrong in the EPE schedules (it is 75mw from PSCO instead of 50mw).\n\nSPS is wrong for HE 08 (it is 130mw instead of 100mw).\n\nI thought you might like to since this is the only income we have currently for real-time and a major screw-up could hurt our relationship.\n\nRegards,\n\nBert Meyers",
+   "new_text_source": "new",
+   "subject": "EPE Schedules for the past two days",
+   "thread_id": "taae15de789",
+   "to": [
+    "bill.williams@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-30T19:49:50+00:00",
+   "from": "bill.williams@enron.com",
+   "msg_id": "williams-w3/sent_items/10",
+   "new_text": "Bert,\nThis is good to know. Thank you for the update.\nWell done.\nB",
+   "new_text_source": "new",
+   "subject": "RE: EPE Schedules for the past two days",
+   "thread_id": "taae15de789",
+   "to": [
+    "albert.meyers@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-29T20:18:17+00:00",
+   "from": "jill.chatterton@enron.com",
+   "msg_id": "williams-w3/inbox/86",
+   "new_text": "Subject: Energy Market Report - 1/28/02\n\n\nEnergy Market Report\nMonday, January 28, 2002\n\n*See attached pdf file.\n__________________________________________________________\nWestern Pre-Scheduled Firm Electricity Prices($/MWh)\nJanuary 28, 2002 for January 29, 2002\n\nPeak(Heavy)\n                   Low      Change     High     Change\nNW/N. Rockies     18.80     -2.95      22.00    -0.50\nMid-Columbia      18.80     -2.95      22.00    -0.50\nCOB               21.00     -2.25      22.25    -2.50\nN. California     23.50     -1.50      25.00    -1.50\nMidway/Sylmar       NA        NA         NA       NA\nS. California     23.00     -2.00      25.00    -2.00\nMead              22.75     -2.50      25.75    -1.25\nPalo Verde        22.75     -0.75      25.75     0.00\nInland SW         19.50     -4.00      25.75    -1.25\n4-Corners         23.00     -1.50      24.50    -1.50\nCentral Rockies   22.00      0.25      26.00     3.25\n__________________________________________________________\nOff-Peak(Light)\n                   Low      Change     High     Change\nNW/N. Rockies     17.25     -3.75      18.50    -3.50\nMid-Columbia      17.25     -3.75      18.50    -3.50\nCOB               17.00     -2.00      18.00    -4.00\nN. California     16.75     -4.75      19.50    -4.00\nMidway/Sylmar       NA        NA         NA       NA\nS. California     17.00     -4.00      19.00    -4.00\nMead              17.50     -3.50      19.50    -3.50\nPalo Verde        14.00     -3.75      16.50    -4.00\nInland SW         13.50     -4.25      16.50    -6.50\n4-Corners         14.50     -4.50      16.50    -4.00\nCentral Rockies   11.50     -4.50      13.50    -6.00\n_________________________________________________________\nEnron-omic Stimulus?\n\nDespite the continuing grip of a cold snap, and a rash of unit outages over\nthe weekend, most Western power prices for Tuesday delivery ended slightly\nweaker in the first trading session of the new week.  \"Flows are up and\nhydro's cheap,\" explained one marketer of the weather's inability to inject\nstrength into Western markets.  \"If the weather weren't as cold as it is,\nthe market could even be worse for sellers.\"  As usual over the past few\nmonths, references to Enron were peppered across the mainstream media on\nMonday.  UBS Warburg, the Swiss bank that is in the process of purchasing\nthe now-defunct EnronOnLine, plans to have the trading business in full\noperation by the end of February.  To staff the reborn operation, UBS\nWarburg has offered contracts to about 625 of EnronOnLine's 800 former\nemployees.  The transaction is still pending the approval of various federal\nagencies.  In another chapter of the Enron saga, Vice Chairman J. Clifford\nBaxter's death was ruled a suicide by Harris County Medical Examiner Joye\nCarter on Saturday.  Baxter was considered an important potential witness in\nthe Enron affair after whistle-blower Sherron Watkins cited his discussion\nwith then-CEO Jeff Skilling about the company's dubious accounting\npractices.  A suicide note was found at the scene, but the details of the\nnote have not yet been released.  Equally serious are allegations made by\nRep. Henry Waxman of California, indicating that the White House had\napparently changed the contents of a draft energy proposal circulated\nthrough Congress in March of last year to add a provision that specifically\naided Enron Corp. in India.  According to Rep. Waxman, \"the provision\nappears to have been added to the plan during the period in which the White\nHouse directly controlled the drafting.\"  The Bush Administration has\nunderstandably tried to distance itself from their biggest political\ncontributor, denying that its energy plan was crafted to help Enron.  In\nrelated news, GAO head David M. Walker will likely sue Vice President Dick\nCheney for refusing to turn over documents relating to the VP's meetings\nwith Enron representatives last year.  It would mark the first time the\ninvestigative arm of Congress sued another branch of the government for refu\nsal to cooperate with an inquiry.  The Vice President insisted that the GAO\nwas overstepping its bounds. \"Their jurisdiction extends to agencies created\nby statute. That's not me,\" asserted Cheney, \"I'm a constitutional officer.\nAnd the authority of the GAO does not extend in that case to my office.\"\nSave it for the judge, Dick.  In gas news, NYMEX Henry Hub natural gas\nfutures fell hard in Monday trading, with the February contract losing 12.9\ncents to settle at 1.908$/mmBtu, and the March contract close behind,\nplummeting 12 cents to close at 1.984$/mmBtu.\n\nHeavy load energy prices in the Northwest fell almost 2$/MWh on the low end\nfor Tuesday delivery.  Healthy hydro flows and a cold front that did not\nquite live up to its prediction took the brunt of the blame.  Peak goods at\nMid-Columbia changed hands from 18.8 to 22$/MWh on Monday.  Flows at Chief\nJoseph remained as strong as ever this year, coming in at 110 kcfs Tuesday,\n105 kcfs Wednesday and Thursday, 100 kcfs Friday, 85 kcfs Saturday, 65 kcfs\nSunday, and 110 kcfs next Monday.  Temperatures were predicted to remain\nwell below normal through Friday, with lows expected to flirt with freezing.\nThe latest six-to-ten likewise called for temperatures to remain near to\nbelow normal from February 3 to 7.  There were no new unit outages to report\non Monday.\n\nDespite cold weather and a modest rise in natural gas values at the Socal\nborder, day-ahead electricity prices softened in the Golden State on Monday.\nHeavy load goods lost about 2$/MWh everywhere, while light load prices took\na bigger hit, slipping almost 4$/MWH.  Peak power at SP15 traded between 23\nand 25$/MWh, with the bulk of deals done closer to the high end, above\n24.25$/MWh. In California politicking, the CPUC voted to reject a compromise\nput forth by SDG&E parent Sempra Energy.  The proposal would have used $219\nmillion of the $363 million earned selling power from five-year contracts at\nwholesale prices last summer to pay down the balancing account, and thus\nbenefiting SDG&E rate payers, while allocating the remaining $144 million to\nshareholders.  The CPUC said they think the courts will award a higher\nnumber to the balancing account. Californians may soon be allowed to choose\ntheir power provider again, if CPUC administrative law judge Robert Barnett\nhas his way.  The initiative, a cornerstone of the 1996 deregulation bill,\nwas revoked September 20, 2001.  However, consumers would have to hurry\ntheir selection, as the option would be back in play for a limited time,\nthrough July 1, 2002.  Barnett said competitive choice was essential to keep\nutility customers from unfairly footing the bill for last year's energy\ncrisis.  On the generation front, Morro Bay #4 (336 MW) and Pittsburg #7\n(682 MW) returned to service over the weekend.  Helms PGP #1 (407 MW) joined\nsister unit #2 (407 MW) in the out of service category on Monday.  Alamitos\n#3 (320 MW) exited the grid on January 26.  Hydro Big Creek (1,020 MW) was\nderated, operating at 720 MW.  Sutter Plants (546 MW) was generating at 270\nMW.  Tuesday forecasts called for temperatures to linger almost 10 degrees\nbelow normal, with highs in the upper-40s to mid-50s across the state.  The\nlatest six-to-ten predicted below-normal temperatures from February 3 to 7.\n\nThe Southwest was a slight exception to the conditions prevalent across the\nWSCC on Monday.  While temperatures were lower than on Friday, peak power\nprices remained mostly flat.  Heavy load pieces at Palo Verde traded between\n22.75 and 25.75$/MWh, a loss of 75 cents on the low end and no change on the\nhigh.  Temperatures were expected to linger well below normal through\nFriday, and the latest six-to-ten predicted likewise from February 3 to 7.\nIn unit news, coal-fired Navajo #3 (750 MW) returned to the grid Monday\nmorning, while the ETR for Coronado #1 (395 MW) was revised to early morning\nTuesday, January 29.  Fellow coal unit Huntington #2 (455 MW) also climbed\nback onto the grid over the weekend after repairin",
+   "new_text_source": "new",
+   "subject": "FW: Energy Market Report - 1/28/02",
+   "thread_id": "tac44b0dc5a",
+   "to": [
+    "tom.alonso@enron.com",
+    "robert.badeer@enron.com",
+    "tim.belden@enron.com",
+    "sean.crandall@enron.com",
+    "m..driscoll@enron.com"
+   ],
+   "truncated": true
+  }
+ ]
+}

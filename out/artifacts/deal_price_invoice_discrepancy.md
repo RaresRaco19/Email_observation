@@ -1,60 +1,49 @@
 ---
 opportunity: deal_price_invoice_discrepancy
-type: sop
-citations: [farmer-d/logistics/133, farmer-d/logistics/124, farmer-d/logistics/949, farmer-d/logistics/963, farmer-d/logistics/839, farmer-d/logistics/99, farmer-d/logistics/1488, giron-d/sent/178, giron-d/sent/636, farmer-d/logistics/965, farmer-d/logistics/2087, farmer-d/logistics/1438]
+type: email
+citations: [farmer-d/logistics/922, farmer-d/logistics/177, farmer-d/logistics/963, giron-d/sent/636]
 ---
 
-# SOP: Invoice-to-Sitara Discrepancy Queue
+**To:** Logistics desk lead; Sitara deal desk
+**Subject:** Proposal: flag deal price and invoice mismatches automatically, with a case for the trader
 
-**Owner:** Gas Settlements (intake and close-out). Logistics deal owners resolve the items.
-**Systems:** Sitara (deals), Unify (invoice redraft), SAP (netting and adjustments).
-**Value:** about $63 per month ($756 per year) at $85 per hour. Most of the gain comes from fewer late payments and less chasing.
+Hello,
 
-## Why this exists
+**The problem.** Settlements and accounting find mismatches by hand, then email the trader and wait. A typical request:
 
-Today a mismatch reaches logistics as an email with two numbers in it, and someone has to look both up by hand.
+> We have HSC -0.05 and Mitchell shows HSC - 0.04.
+[farmer-d/logistics/922]
 
-> For sale deal 707274, DEFS says the price on 4/4 should be 5.25 and we have 5.20 in Sitara.
-[farmer-d/logistics/133]
+When the trader of record is away, the invoice still has to go out:
 
-Answers come late, so settlements has to chase them while the invoice stays open [farmer-d/logistics/99] [giron-d/sent/178]:
+> I think Daren is out for the remainder of the day and I need to send out my invoice this afternoon.
+[farmer-d/logistics/177]
 
-> I have not received a response from you regarding the pricing discrepancies on these deals.
-[farmer-d/logistics/99]
+Sometimes the counterparty does not show the deal at all:
 
-## What the automation produces
+> Pat Dresner (accountant) at Midcon Texas says she does not show these deals
+[farmer-d/logistics/963]
 
-1. **Matching run.** The run starts when settlements logs an invoice, payment or price statement, and it repeats every night against Sitara changes. For each line it finds the Sitara deal, compares price and volume within tolerance, and checks that every day in the range is covered by a valid deal. This is the gap check that is done by hand today [farmer-d/logistics/949].
-2. **Queue item.** Each mismatch becomes one item, routed to the deal owner in Sitara. It shows the counterparty value next to the Sitara value, plus the invoice due date.
-3. **Reminders and escalation.** Reminders are timed to the due date and go to the deal owner and their lead. They replace the "answer ASAP" escalation emails [farmer-d/logistics/1488].
-4. **Monthly report.** Discrepancies are counted by counterparty and cause.
+Sometimes the price in Sitara was never updated for the month:
 
-## Daily steps
+> The Sitara was not updated for Aug.  I just corrected Sitara.  So you can
+[giron-d/sent/636]
 
-**Gas Settlements analyst**
-1. Log each counterparty line with these fields: counterparty, production month, point or meter, deal number (if given), day range, volume, price, and payment due date. Payment dates matter, for example "The 2/2000 production invoices are due to be paid 3/27" [farmer-d/logistics/963].
-2. Check the line's match result. Lines that pass need nothing more.
-3. Lines with **no deal found** or an **exchange-type deal** flag go into the queue. Do not bill those lines until the item is resolved. One exchange deal had to be netted in SAP after billing [farmer-d/logistics/2087].
+Across the four mailboxes we see 127 messages in 96 threads, about 4.64 a month. 53 of them are flagged as stalls.
 
-**Logistics deal owner (mostly Daren Farmer's desk)**
-4. Open the item and choose one of three options:
-   - **Sitara is correct:** settlements disputes the invoice.
-   - **Sitara needs correction:** fix or cut off the deal in Sitara [farmer-d/logistics/965], then resolve the item.
-   - **Deal missing or another trader's deal:** name the trader. If needed, talk to the counterparty's trader [farmer-d/logistics/963].
-5. Resolve before the due date. Agreeing on a rate stays the owner's call [farmer-d/logistics/839].
+**The fix.** Settlements drops each counterparty statement or invoice extract into a shared intake template (deal number, production month, days, point, volume, price). A matching job compares each line with the Sitara deal price and volume. It flags lines that differ, lines with no matching deal, and deals with a zero or missing price. Each flag becomes a case for the creating trader, with a named backup, showing both figures and the due date. The trader answers once: Sitara is correct (dispute), or the counterparty is correct (correct the deal). A correction sends settlements a ready-to-redraft notice for Unify. Open cases near their due date escalate to the backup.
 
-**Gas Settlements, on the resolution notice**
-6. Redraft in Unify after the Sitara correction, as was done for the Agave price calculation [giron-d/sent/636]. Or net or adjust in SAP. Then send the corrected invoice to the counterparty [farmer-d/logistics/124].
+**The value.** The model gives 0.9 hours a month saved, which is $79 a month ($948 a year) at $85 an hour. This is small, so build cost must stay low: reuse existing extracts and spreadsheets, not a new application. The larger benefit is fewer invoices stuck waiting on one trader.
 
-## Exceptions (handled by a person, outside the auto-match)
+**What stays manual.** Deciding which price is contractually correct, approving Sitara changes and invoice disputes, exchange-versus-term deal disputes, penalty or capacity conditions, and contacting the counterparty's trader or accountant.
 
-- **Index-priced deals** (for example, IF plus a fee [farmer-d/logistics/124]) are flagged for review, not auto-matched.
-- **Stale owner:** if the deal's trader has left, the item goes to the logistics desk lead. Old suspended payments are investigated by hand [farmer-d/logistics/1438].
-- **Volume-only differences** caused by meter flow are kept in a separate list so they do not flood the price queue.
-- **Counterparty does not recognize the deal:** the deal owner handles this by phone or relationship contact.
+**What I need from you.**
+1. A read-only extract of Sitara deal tickets (deal number, counterparty, price, volume, creating trader). Please confirm these fields exist, since the emails do not.
+2. Agreement from settlements on the intake template and the tolerances that count as a mismatch. Start loose.
+3. A primary and backup trader roster per desk.
 
-## What a person checks weekly
+**Plan.** Pilot for one production month on the top counterparties, alongside the current email process. Compare flagged lines with the discrepancies raised by email, then tune the tolerances. Success measure: median hours from a case being raised to trader confirmation, and the share of mismatched lines still open on their due date.
 
-- Items still open as the payment due date nears.
-- Items routed to the wrong owner. Fix the owner field in Sitara.
-- Measures: median hours from logging to resolution, and the count of follow-up and escalation emails on price discrepancies.
+Please reply if you will sponsor the pilot.
+
+Thank you

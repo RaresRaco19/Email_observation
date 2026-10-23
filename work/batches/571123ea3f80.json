@@ -1,0 +1,850 @@
+{
+ "batch_id": "571123ea3f80",
+ "context": [],
+ "messages": [
+  {
+   "date": "2001-11-27T18:54:24+00:00",
+   "from": "marlene.hilliard@enron.com",
+   "msg_id": "farmer-d/logistics/15",
+   "new_text": "This deal is for Global # 96022051.  This is between HPL and Black Marlin Pipeline Company.  This should be handled by your group.\n\nThank you.",
+   "new_text_source": "new",
+   "subject": "FW: Deal 93836",
+   "thread_id": "t750e76a5c2",
+   "to": [
+    "tammie.huthmacher@enron.com",
+    "karen.lambert@enron.com",
+    "sherry.dupont@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-28T08:58:00+00:00",
+   "from": "mary.poorman@enron.com",
+   "msg_id": "farmer-d/logistics/1369",
+   "new_text": "Here are my notes, please let me know if you have any questions.\n\nWeekend of August 26 =01) 28, 2000\n\n\nSaturday:\n\n? Celanese Bayport meter 8018 was ramping back up.  Total nomination of=20\n35,000 in Mops was pathed =01) transmitted nom to Pops and confirmed.\n? Costilla , meter 9687 was still down 4,000 due to wellhead production=20\nlosses on Friday, expected short into the first of the week, possibly longe=\nr,=20\nmay need to fish the hole to bring the well back up.\n? Costilla Pilgreen =01) Running high H2S, causing our valve to shut-in 13,=\n000=20\nMM=01,s  (we changed our specs at the valve to accept 8 parts per mil for 3=\n0=20\nminutes last week, per Jill Zively).  Louis Dreyfus was diverting the well =\nto=20\nanother pipeline, per the contract that gas has to come to us or be shut-in=\n. =20\nWe got the well back on Saturday afternoon, and all was well.\n? All meters were updated in Pops for Satuday=01,s gas day.\n? Christy w/ PG&E called with Cuts into the Hub:\nVolume of 16,495 cut to 1,799\nVolume of 15,000 cut to 6,845\n? Meter 1505 lost two compressors and was about 2,000 short to us.  This=20\nissue was resolved.\n\n\nSunday:\n\n? Shell meter 1060 cut back from 35,000 to 15,000; Shell lost two units. =\n=20\nAlso, seeing meter 1394 which dels to Shell back down from 10,000 to 5,000.\n? Patty called re: the EPNG cuts, found out late afternoon that they are PC=\nC,=20\nPipeline Capacity Constraints, at the IVALEROW meter into PG&E.\n? Joey Stanton with Duke called regarding some new production coming up.  H=\ne=20\nwanted to sell it into HPL at Lonestar/Katy for Sunday and Monday.  Paged=\n=20\nDarren, we took the gas, it needs to be priced today.  Duke let me know tha=\nt=20\nthey would flow at a rate of 25,000/hour, and should average approximately=\n=20\n12-15,000 for the day.  Mark McCoy is working on getting a good meter total=\n=20\nfrom Lonestar for Sunday, we need to get the deal in Sitara and confirm=20\ntoday's gas day as well.\n? Regarding PG&E, I do not have final Cycle 4 numbers (they come out around=\n=20\n9pm on the gas day).\n\nAll in all, it was a pretty good weekend, and an educational one.  Gas=20\ncontrol did a great job communicating and assisting to resolve issues. =20\nPlease check all meters impacted to make sure that I Pop=01,d and Mop=01,d=\n=20\ncorrectly.=20\n\nThank you,\n\nMary Jane",
+   "new_text_source": "new",
+   "subject": "Weekend Notes",
+   "thread_id": "t751cc2b85d",
+   "to": [
+    "pat.clynes@enron.com",
+    "tom.acton@enron.com",
+    "clem.cernosek@enron.com",
+    "robert.cotten@enron.com",
+    "stella.morris@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-01-17T14:17:00+00:00",
+   "from": "brenda.herod@enron.com",
+   "msg_id": "farmer-d/logistics/689",
+   "new_text": "I received a call from Shannon last Wednesday (1/12), requesting what our \nneeds might be for new analysts who will be starting in 2/00.  Shannon and I \nhave talked specifics, but if you have an interest, please call Shannon ASAP \n@ x33853 to discuss the specifics.\n\nIt has been some time since we have put a new analyst into Logistics - Texas, \nbut the other groups have taken new ones in the past.  I'm just asking you to \nthink about it, and let me and Shannon know.  Thanks.\n\n\nShannon:  I do have an analyst rotating 6/1 from the Texas Risk team.  I \nmight be interested in putting another one into the group, and it's not a bad \nidea to start now with training.  Can you let me know who you still need to \nplace???  I would like to look at their resumes and talk with someone who \ninterviewed them.  Thanks.",
+   "new_text_source": "new",
+   "subject": "New Analysts",
+   "thread_id": "t751e95d72a",
+   "to": [
+    "pat.clynes@enron.com",
+    "daren.farmer@enron.com",
+    "steve.venturatos@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-05-11T16:02:00+00:00",
+   "from": "aimee.lannou@enron.com",
+   "msg_id": "farmer-d/logistics/1106",
+   "new_text": "Daren - The prices Duke is billing us are:\n\n4/99 at $ 1.5810\n 5/99  at $ 1.9975\n\nAimee",
+   "new_text_source": "new",
+   "subject": "Meter 5192",
+   "thread_id": "t7581946b0b",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-23T03:41:00+00:00",
+   "from": "bob.hall@enron.com",
+   "msg_id": "farmer-d/logistics/213",
+   "new_text": "Mike,\n\nSorry,\n\nYes this is still on.  I talked to everyone except Daren.  Just did and he is\nfine with this approach.\n\nToo many plates in the air.\n\nthanks\n\nbob",
+   "new_text_source": "new",
+   "subject": "Re: Follow Up",
+   "thread_id": "t766819c24a",
+   "to": [
+    "michael.olsen@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "1999-12-27T17:18:00+00:00",
+   "from": "timpowell@txu.com",
+   "msg_id": "farmer-d/logistics/615",
+   "new_text": "(See attached file: hpl1228.xls)\n\n - hpl1228.xls",
+   "new_text_source": "new",
+   "subject": "HPL Nominations for December 28, 1999",
+   "thread_id": "t76bf0e309e",
+   "to": [
+    "daren.farmer@enron.com",
+    "ggreen2@txu.com",
+    "cstone1@txu.com",
+    "kenenglish@txu.com",
+    "mjones7@txu.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-22T21:50:23+00:00",
+   "from": "g..barkowsky@enron.com",
+   "msg_id": "farmer-d/logistics/108",
+   "new_text": "Clarissa - Thanks so much for all your help with this pipe!  Everything looks great.  I just have a couple of paths\nthat I need to finish it:\n\nJanuary 2000 - I need deal #854688 pathed for EPGT and for TETC.  According to the invoice, we should have\n                      11,129 dth on the interconnect.\n\nFebruary 2000 - I need deal #871184 pathed for HPL and CHAN.  HPL should have 3,600 dth and CHAN should\n                       have 11,500 dth on the interconnect.\n\nJuly 2000 - Deal #871172 has an interconnect issue.  According to MOPS contract #105124, they received 8,275 dth\n                 on the Matagorda 624, but according to EPGT, they delivered 10,362 dth to HPL (?)  Could this possibly\n                 need to be split somehow, or do you have any other ideas?\n\nLet me know.  Thanks, Gloria 3-7118",
+   "new_text_source": "new",
+   "subject": "EPGT",
+   "thread_id": "t76e1ab7423",
+   "to": [
+    "clarissa.garcia@enron.com",
+    "j..farmer@enron.com",
+    "l..dinari@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-22T22:06:50+00:00",
+   "from": "l..dinari@enron.com",
+   "msg_id": "farmer-d/logistics/107",
+   "new_text": "Gloria, the difference between the two pipes for July 2000 is the actuals came in lower than what was nominated and scheduled on MOPS.  There isn't anything we can do about that difference, hopefully there is some kind of OBA that takes those variances.\n\nSabra",
+   "new_text_source": "new",
+   "subject": "RE: EPGT",
+   "thread_id": "t76e1ab7423",
+   "to": [
+    "g..barkowsky@enron.com",
+    "clarissa.garcia@enron.com",
+    "j..farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-29T21:47:25+00:00",
+   "from": "g..barkowsky@enron.com",
+   "msg_id": "farmer-d/logistics/102",
+   "new_text": "Daren - what about February 2000?  It doesn't look like it's been pathed for HPL and CHAN.\nPlease let me know.  Thanks, Gloria",
+   "new_text_source": "new",
+   "subject": "RE: EPGT",
+   "thread_id": "t76e1ab7423",
+   "to": [
+    "j..farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-07-17T20:00:09+00:00",
+   "from": "g..barkowsky@enron.com",
+   "msg_id": "farmer-d/logistics/97",
+   "new_text": "Daren - can you please let me know the status on this for 02/2000?  Thanks, Gloria",
+   "new_text_source": "new",
+   "subject": "FW: EPGT",
+   "thread_id": "t76e1ab7423",
+   "to": [
+    "j..farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-20T21:16:41+00:00",
+   "from": "shahnaz.lakho@enron.com",
+   "msg_id": "farmer-d/logistics/18",
+   "new_text": "Mike:\n\n  I am down to the last few error messages on the EPGT Quick Response and also looking into the external pool for WH034 in Unify.  About 70% of the line items have been cleaned up.\n\n  I need the following information from you as soon as possible.  \n  \n 1.  The downstream contract number for Aquila Marketing and a \"scheduled quantity report\" for the Pooling contract WH034, this is the report you would obtain from the pipeline at the end of each cycle to determine cuts etc. or you can give me the user id and password \n  and I can go pull it myself.\n\n  The EPGT's IT group is trying to research the correct DUNS # for Aquila Dallas Marketing.  If this issue is not resolved, I am planning on setting up a meeting with EL Paso on November 26th at 1:30 at their offices and I would like for you to go with me. We will meet with their IT and Business Group for about an hour or so.  \nYour prompt attention to this will be greatly appreciated.\n\n\n\n\n\n\n     Thank you.\n\n\n\n     Shane Lakho",
+   "new_text_source": "new",
+   "subject": "EPGT",
+   "thread_id": "t76e1ab7423",
+   "to": [
+    "michael.olsen@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-21T22:24:13+00:00",
+   "from": "shahnaz.lakho@enron.com",
+   "msg_id": "farmer-d/logistics/17",
+   "new_text": "Mike:\n\n    I have terminated about 12 to 13 inactive inter pipe/internal pools effective 12/01/01.  There are several  other inactive pools which I did not eliminate because \n    they had balances in it.\n    I also spoke to Jim Tobacco at EPGT for at least an hour or so, going over every line item which was rejected, please get with me once you are back in the office\n    and I will go over the \"correct\" pathing procedures.\n    I met with Richard and reviewed November transactions for EPGT to determine if we could eliminate the External Pools but unfortunately we cannot do this.\n    If we transport then we must use the External Pool.  However, you do not need to use internal pools but must use the imbalance pools which you are currently\n    using, therefore, I have terminated the internal pools.\n    Please review the changes and let me know if  this will work for you..\n    I will be in touch with you after I meet with El Paso.",
+   "new_text_source": "new",
+   "subject": "EPGT",
+   "thread_id": "t76e1ab7423",
+   "to": [
+    "michael.olsen@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-12-19T13:54:00+00:00",
+   "from": "clem.cernosek@enron.com",
+   "msg_id": "farmer-d/logistics/1986",
+   "new_text": "Daren:\n\nOn 9/24/99, the above meter recorded flow of 437 Mmbtus.  There was no deal \nat this meter the month prior or after.  Logistics needs either a deal to \nrecord these volumes which have flowed into HPL's pipeline or Logistics needs \napproval to writeoff these volumes to Unaccounted for Gas.  (Please print, \nsign, and return the original to Clem Cernosek).\n\n\n ________________________________________________________________\n APPROVAL to Writeoff the volumes to Unaccounted for Gas Loss\n\n    OR\n\n\n ________________________________________________________\n Deal/Deal Ticket#/ Customer (Buyer/Seller)\n\n\nThanks, Clem",
+   "new_text_source": "new",
+   "subject": "HPL Meter #989648 TRAM/HPL - TRANSTEXAS THOMPSON",
+   "thread_id": "t7722ab8bc2",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-01-28T08:54:00+00:00",
+   "from": "ami.chokshi@enron.com",
+   "msg_id": "farmer-d/logistics/725",
+   "new_text": "Is this Fri Feb 11 a problem for taking vacation?",
+   "new_text_source": "new",
+   "subject": "",
+   "thread_id": "t77c2c0a5af",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-02-11T17:01:00+00:00",
+   "from": "heidi.withers@enron.com",
+   "msg_id": "farmer-d/logistics/785",
+   "new_text": "We have been looking at the daily volumes for the gathering contract to \nanalyze the Producer Services portion of the P&L.  To do this, we have been \nlooking at daily volumes on the 96026572 contract.  POPS shows a daily BAV of \napproximately 612,000.  MOPS shows a daily BAV of approximately 601,000.  I \nwanted to confirm that these volumes sound reasonable for you.  By the way, \nit also looks like the noms for the gathering contract are a lot higher, \naround 750,000 per day.\n\nPlease advise as to how you feel these BAv's come in compared to what you \nexpect.  Thank you.\n\n\nHeidi",
+   "new_text_source": "new",
+   "subject": "Gathering Contract Volumes Feb 00",
+   "thread_id": "t7840edba9e",
+   "to": [
+    "daren.farmer@enron.com",
+    "pat.clynes@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-13T16:47:00+00:00",
+   "from": "mark.mccoy@enron.com",
+   "msg_id": "farmer-d/logistics/1204",
+   "new_text": "Daren----For 4/21 - 4/22, deal # 237415 has 6,400 MMBtu from Transwestern to \nOasis #6301, but it should have been from Northern #8724 (per Oasis, Karen \nLindely & our paper noms to Oasis)......how do I correct this since the deal \nticket is protected???\n\nThanks,\nMark",
+   "new_text_source": "new",
+   "subject": "Prior Month misnomination",
+   "thread_id": "t788f63a4f9",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-05-11T12:24:00+00:00",
+   "from": "stacey.neuweiler@enron.com",
+   "msg_id": "farmer-d/logistics/1105",
+   "new_text": "Could you please look into this for me?  Thanks.",
+   "new_text_source": "new",
+   "subject": "Re: I/C variance for deal 72893",
+   "thread_id": "t78937c90ea",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-05-12T09:25:00+00:00",
+   "from": "stacey.neuweiler@enron.com",
+   "msg_id": "farmer-d/logistics/1107",
+   "new_text": "Nevermind this one...",
+   "new_text_source": "new",
+   "subject": "Re: I/C variance for deal 72893",
+   "thread_id": "t78937c90ea",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-14T15:41:29+00:00",
+   "from": "scott.palmer@enron.com",
+   "msg_id": "farmer-d/logistics/3",
+   "new_text": "More deals that will be moved to the Bankruptcy book in TAGG and zeroed out 12/01 forward in Sitara. \n\n\nLogistics, as stated in earlier e-mails, call Stacey Richardson in contracts if any volumes have flowed after 11/30 on these deals. Thanks.",
+   "new_text_source": "new",
+   "subject": "FW: auto-termination deal listing - part 3",
+   "thread_id": "t7929fa8abb",
+   "to": [
+    "kam.keiser@enron.com",
+    "m..love@enron.com",
+    "d..winfree@enron.com",
+    "patti.sullivan@enron.com",
+    "victor.lamadrid@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-02-02T08:54:00+00:00",
+   "from": "jackie.young@enron.com",
+   "msg_id": "farmer-d/logistics/743",
+   "new_text": "Tom,\n\nCan you please seek Daren's advise on nom adjust at the aforementioned meter \ndue to this meter receiving 19 mmbtu's on a 28 nom?\n\nDaren, there are two Sitara deal numbers associated w/this receipt meter \n(both gathering) 154608 and 138572.  138572 is Wellhead gas.\n\nThanks\n-Jackie-",
+   "new_text_source": "new",
+   "subject": "98-9794 (Saxet Thompsonville) Receiving Under Nom",
+   "thread_id": "t79da162358",
+   "to": [
+    "tom.acton@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-02-03T08:36:00+00:00",
+   "from": "tom.acton@enron.com",
+   "msg_id": "farmer-d/logistics/746",
+   "new_text": "Jackie I  talked with Daren and we would like to wait for now, It is a little \nearly in the month and the well may be just getting revved up.  Wells tend to \nmove around a bit through the month and usually  even out at the end but \nthank you for bringing it to my attention and please feel free to inform me \nof any others that you might see.  The more eyes the better.  Thanks Jackie.",
+   "new_text_source": "new",
+   "subject": "Re: 98-9794 (Saxet Thompsonville) Receiving Under Nom",
+   "thread_id": "t79da162358",
+   "to": [
+    "jackie.young@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-02-03T15:09:00+00:00",
+   "from": "aimee.lannou@enron.com",
+   "msg_id": "farmer-d/logistics/749",
+   "new_text": "Daren - Deal # 97929, meter 1450 expired Nov. '99.  Is there a way for you to \nextend the deal or create a new one since there seems to be a little bit of \nflow each month?\n\n- Aimee",
+   "new_text_source": "new",
+   "subject": "Bridgeback Error at Meter 1450 for 11/99",
+   "thread_id": "t7a3906d248",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-12-26T14:26:00+00:00",
+   "from": "elsa.villarreal@enron.com",
+   "msg_id": "farmer-d/logistics/2009",
+   "new_text": "---------------------- Forwarded by Elsa Villarreal/HOU/ECT on 12/26/2000 \n02:26 PM ---------------------------\n   \n\t\n\t\n\tFrom:  Nicole Vo @ ENRON                           12/08/2000 11:28 AM\n\t\n\nTo: Elsa Villarreal/HOU/ECT@ECT\ncc:  \nSubject: MGI Supply\nHumble Gas Pipeline\nS#446339, 449505, 411836, 472615, 463236, 448454\n\nElsa,\n\nI was informed to bill anything on HGPL by my supervisor, but when I talk to \nPriscilla Hamic she informed me that HGPL should be billed by offsystem and \nnot the Texas desk.  The deals in Sitara that relate to HGPL all state that \nit is Texas desk.\n\nPlease let me know who should be billing MGI Supply for HGPL volume.\n\nThanks for your help.\nNicole Vo",
+   "new_text_source": "body",
+   "subject": "MGI Supply",
+   "thread_id": "t7a6051ec9a",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-27T15:29:00+00:00",
+   "from": "lisa.csikos@enron.com",
+   "msg_id": "farmer-d/logistics/1247",
+   "new_text": "Here are the spreadsheets for the unfinaled invoices prior to May 2000.  \nPlease notify me of any discrepancies.  We will send out unfinaled purchases \nnext week.\n\nThanks.",
+   "new_text_source": "new",
+   "subject": "Unfinaled Sales Invoices",
+   "thread_id": "t7a7ce0e936",
+   "to": [
+    "daren.farmer@enron.com",
+    "pat.clynes@enron.com",
+    "rita.wynne@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-15T14:55:00+00:00",
+   "from": "mary.poorman@enron.com",
+   "msg_id": "farmer-d/logistics/1520",
+   "new_text": "Daren,\n\nI show that you extended the purchase, deal ticket 461059, to cover flow on \nthe first two days.  However, now that measurement has closed, I show that we \nhave flow on this meter for the entire month, with the exception of a few \ndays in the middle.  Please let me know if we want to extend this deal (85% \nof hsc - lg, etc) or if I should put this gas on Strangers until we determine \nwhat to do.  I am now on the dreaded ua4 list from Vol. Mgmt.\n\nMary",
+   "new_text_source": "new",
+   "subject": "Meter 6315, purch from Torch/Rally, October",
+   "thread_id": "t7a833e63e6",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-16T08:33:00+00:00",
+   "from": "julie.meyers@enron.com",
+   "msg_id": "farmer-d/logistics/1522",
+   "new_text": "Yes it is a GTC Spot.  But the deal is a Day Firm.\n\nJulie",
+   "new_text_source": "new",
+   "subject": "Re: Meter 6315, purch from Torch/Rally, October",
+   "thread_id": "t7a833e63e6",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-02-29T13:52:00+00:00",
+   "from": "shari.mao@enron.com",
+   "msg_id": "farmer-d/logistics/856",
+   "new_text": "As you are aware, we are starting to collect data for our February price \nmodel. I've attached a survey to help us collect the data that will be \ndriving your costs from the activities to the commercial teams.  Please \nselect your RCs, and fill in the driver quantity for the requested driver for \nthe month of February. Please fill out the attached activity driver survey \nwith February numbers for your RC by end of day Friday, March 3rd.  If your \ngroup currently generates a standard report that captures the surveyed data, \nplease send the report to me, and put me on your recipient list beginning \nnext month.  This will eliminate your need to fill out this survey every \nmonth.  If you would like us to collect this information from someone within \nyour team beginning next month, please let me know.  \n\nPlease take this opportunity to verify the following:\n1. The driver indicates a measure for the time and effort your team spent to \nperform these activities for each commercial team.\n2. The activity is spent in support of the commercial teams identified \n(please let us know otherwise)\n3. If the activity is using an allocation (for example \"Allocate 0469\" or \n\"80-20 Split\"), that the percentage allocated to each commercial team has not \nchanged from last month.   (Please let us know if it has changed what the new \nallocation is).\n\nIn reference to these surveys, please note:\nIf you are allocating only infrastructure costs to some commercial teams \nlisted in the survey, please identify them.  We will take your business \nsupport costs (such as feedback, training, etc.) and allocate them evenly \namong these teams.\nThe costs for \"commercial team specific\" activities that you filled time out \nfor in the January time survey will be directly allocated to that commercial \nteam (e.g. Genco Support will trace 100% of its costs to Genco).  \n\nPlease let us know if you have any questions on this survey.  \n\nRegards,\nShari\n3-3859",
+   "new_text_source": "new",
+   "subject": "Activity Driver Quantity Survey",
+   "thread_id": "t7a8526fe19",
+   "to": [
+    "bob.klein@enron.com",
+    "bryce.baxter@enron.com",
+    "carrie.hollomon@enron.com",
+    "cheryl.dudley@enron.com",
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-07T15:45:00+00:00",
+   "from": "clem.cernosek@enron.com",
+   "msg_id": "farmer-d/logistics/1499",
+   "new_text": "Daren:\n\nOn 1/5/99, the above meter recorded flow 1,703 Mmbtus.  Currently, this \nvolume is booked to the HPL Strangers Gas Contract.  Logistics needs approval \nto writeoff this volume to Unaccounted for Gas Loss.\n\n\n\n                                                                              \n                                            ___________   \n APPROVAL to Writeoff the volumes to Unaccounted for Gas Loss\n\nPlease print, approve, and return original to me.\n\n\nThanks, Clem",
+   "new_text_source": "new",
+   "subject": "HPL Meter #981525 Texoma D/P- GSU HPL",
+   "thread_id": "t7ac04acd79",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-01-17T16:12:00+00:00",
+   "from": "timpowell@txu.com",
+   "msg_id": "farmer-d/logistics/688",
+   "new_text": "(See attached file: hpl0118.xls)\n\n - hpl0118.xls",
+   "new_text_source": "new",
+   "subject": "HPL Nomination for January 18, 2000",
+   "thread_id": "t7ae8852175",
+   "to": [
+    "ami_chokshi@enron.com",
+    "daren.farmer@enron.com",
+    "ggreen2@txu.com",
+    "cstone1@txu.com",
+    "kenenglish@txu.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-10T19:51:26+00:00",
+   "from": "t..zivley@enron.com",
+   "msg_id": "farmer-d/logistics/61",
+   "new_text": "Following up conversations I have had with several of you, I would appreciate your consideration of the following candidiate for a logistics position. Tom Moore, Jr. is currently a securities manager for Fidelity Investments in the Dallas area, but interested in seeking a position in a energy related business in Houston. He has an undergraduate degree (BBA) from Baylor and an MBA from University of Dallas. It is my understanding that you may be interviewing at this time or in the near future and I would appreciate your consideration of him for a position. I will be happy to introduce you to him and provide additional information about Tom if you have an interest. You may reach me at ext. 3-1791. Thanks much.",
+   "new_text_source": "new",
+   "subject": "Tom Moore, Jr.",
+   "thread_id": "t7b4c183194",
+   "to": [
+    "donna.greif@enron.com",
+    "victor.lamadrid@enron.com",
+    "lisa.kinsey@enron.com",
+    "patti.sullivan@enron.com",
+    "j..farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-26T08:27:00+00:00",
+   "from": "carlos.rodriguez@enron.com",
+   "msg_id": "farmer-d/logistics/1424",
+   "new_text": "F Y I\n\n\n---------------------- Forwarded by Carlos J Rodriguez/HOU/ECT on 09/26/2000 \n08:25 AM ---------------------------\nFrom: Joan M Quick on 09/25/2000 06:01 PM\nSent by: Joan Quick\nTo: Carlos J Rodriguez/HOU/ECT@ECT, Susan D Trevino/HOU/ECT@ECT, Stella L \nMorris/HOU/ECT@ECT\ncc:  \nSubject: Swift - OCTOBER 2000 Vols\n\n\n\nThis is the last month we will be buying this gas!!!!\n\nVPP 1,265 MMBtu/d \nXS 3,700 MMBtu/d\n --------\n 4,965 MMBtu/d",
+   "new_text_source": "body",
+   "subject": "Swift - OCTOBER 2000 Vols",
+   "thread_id": "t7b754da466",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-16T16:53:00+00:00",
+   "from": "julie.meyers@enron.com",
+   "msg_id": "farmer-d/logistics/1454",
+   "new_text": "done\n\n\n\n\n\nDaren J Farmer\n10/16/2000 03:46 PM\nTo: Julie Meyers/HOU/ECT@ECT\ncc:  \nSubject: Swift - OCTOBER 2000 Vols\n\nJM, \n\nThe message below is related to deal #138094.  According to Joan, October is \nthe last month for this deal.  However, the evergreen flag is activated in \nSitara and a new line has been created for November.  Can you look into this \nplease?\n\nD\n---------------------- Forwarded by Daren J Farmer/HOU/ECT on 10/16/2000 \n03:36 PM ---------------------------\n\n\nCarlos J Rodriguez\n09/26/2000 08:27 AM\nTo: Daren J Farmer/HOU/ECT@ECT\ncc:  \nSubject: Swift - OCTOBER 2000 Vols\n\nF Y I\n\n\n---------------------- Forwarded by Carlos J Rodriguez/HOU/ECT on 09/26/2000 \n08:25 AM ---------------------------\nFrom: Joan M Quick on 09/25/2000 06:01 PM\nSent by: Joan Quick\nTo: Carlos J Rodriguez/HOU/ECT@ECT, Susan D Trevino/HOU/ECT@ECT, Stella L \nMorris/HOU/ECT@ECT\ncc:  \nSubject: Swift - OCTOBER 2000 Vols\n\n\n\nThis is the last month we will be buying this gas!!!!\n\nVPP 1,265 MMBtu/d \nXS 3,700 MMBtu/d\n --------\n 4,965 MMBtu/d",
+   "new_text_source": "body",
+   "subject": "Re: Swift - OCTOBER 2000 Vols",
+   "thread_id": "t7b754da466",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-05-30T15:36:00+00:00",
+   "from": "julie.meyers@enron.com",
+   "msg_id": "farmer-d/logistics/1157",
+   "new_text": "Here is the lastest and greatest.",
+   "new_text_source": "new",
+   "subject": "June's update",
+   "thread_id": "t7b75aee1ba",
+   "to": [
+    "angela.henn@enron.com",
+    "howard.camp@enron.com",
+    "brenda.herod@enron.com",
+    "stephen.schwarz@enron.com",
+    "lee.papayoti@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-07-11T09:07:00+00:00",
+   "from": "jackie.young@enron.com",
+   "msg_id": "farmer-d/logistics/1270",
+   "new_text": "The above deal is a DD deal effective 7/1/2000-7/5/2000.  Can the deal be \nextended to the 6th to cover flow of .803 decatherms?\n\nWe've not yet received the OBA from TETCO yet.\n\nThanks\n-Jackie-\n3-9497",
+   "new_text_source": "new",
+   "subject": "98-6892 (Sitara Deal 319063)",
+   "thread_id": "t7cb713db97",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-03-07T17:18:00+00:00",
+   "from": "yvette.connevey@enron.com",
+   "msg_id": "farmer-d/logistics/887",
+   "new_text": "Please fill out and have submitted back to Kim by Friday at 3:00 pm. \n If you have any conflicts or questions, please call. \n\nThank you!\nYvette\nx3.5953",
+   "new_text_source": "new",
+   "subject": "EOPS salary survey questionnaire",
+   "thread_id": "t7cbc2a0ae3",
+   "to": [
+    "lisa.csikos@enron.com",
+    "daren.farmer@enron.com",
+    "mary.smith@enron.com",
+    "rita.wynne@enron.com",
+    "steve.venturatos@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-04-03T12:53:00+00:00",
+   "from": "tchristensen@anpower.com",
+   "msg_id": "farmer-d/logistics/1006",
+   "new_text": "Jennifer/Darren\nWould you please forward to Lisa Maillet (Fax# 508-786-7201) a copy of the\nTransaction Confirmation sheet regarding the gas (2,977 MMBtu at LSP\ninterconnect with Oasis-Waha and 5,000 MMBtu at LSP interconnect with PG&E\nNTP-36\" Maypearl) MELP, as limited agent for ABB Alstom Power Inc, purchased\nfrom Houston Pipe Line this past Wednesday (3/29/00).\nThanks\nTrey",
+   "new_text_source": "new",
+   "subject": "Transaction Confirmation Sheets",
+   "thread_id": "t7cd9c8220a",
+   "to": [
+    "jennifer.sabine@enron.com",
+    "dfarmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-21T20:27:20+00:00",
+   "from": "brian.redmond@enron.com",
+   "msg_id": "farmer-d/logistics/56",
+   "new_text": "Team:\n\nI have asked Troy Denetsosie to be responsible for compiling and updating a detailed supply, market and infrastructure analysis of Texas.  This information will support both our origination and trading activities and we will use a lot of the format (website and other) developed by the other regions.  Spcifically,  Troy will offload a lot the analysis work that JD is currently doing on the market side and he will work closely with Bryan Hull to support the more immediate needs of the traders.\n\nThe deliverables from Troy will be: (1) a Texas section on the gas fundamentals webpage modeled after the Central region, (2) a daily report on gas flows, deals, basis positons, etc., (3) a detailed infrastructure analysis (maps, flows, etc) that will support the development of our supply/market hub positions.  Please give him your support.\n\nRegards,\nBrian",
+   "new_text_source": "new",
+   "subject": "Texas market analysis",
+   "thread_id": "t7ce1d85db6",
+   "to": [
+    "gary.bryan@enron.com",
+    "jd.buss@enron.com",
+    "mark.knippa@enron.com",
+    "bryan.hull@enron.com",
+    "j..farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-17T15:49:00+00:00",
+   "from": "gary.hanks@enron.com",
+   "msg_id": "farmer-d/logistics/1344",
+   "new_text": "FYI\n---------------------- Forwarded by Gary A Hanks/HOU/ECT on 08/17/2000 03:44 \nPM ---------------------------\n\n\n\"Weir, Gordon R.\" <WeirG@EPEnergy.com> on 08/16/2000 05:40:30 PM\nTo: Blake Schwarz <SchwarzB@EPEnergy.com>, Charlie McGarity \n<McGarityC@EPEnergy.com>, David Quinn <QuinnD@EPEnergy.com>, Deborah \nValenzuela <ValenzuelaD@EPEnergy.com>, Dwight Gentry <GentryD2@EPEnergy.com>, \nGarald Ross <RossG@EPEnergy.com>, Gary Martinez <MartinezGM@EPEnergy.com>, \nGordon Weir <WeirG@EPEnergy.com>, Gregory Neese <NeeseG@EPEnergy.com>, Harry \nZimmer <ZimmerH@EPEnergy.com>, James Armenta <ArmentaJ@EPEnergy.com>, James \nJohnston <JohnstonJ@EPEnergy.com>, Jimmy Logan <LoganJ@EPEnergy.com>, Jimmy \nSteele <SteeleJ@EPEnergy.com>, Kelly Prespentt <PrespenttK@EPEnergy.com>, \nKent Barnes <BarnesK2@EPEnergy.com>, Larry Jaquet <JaquetL@EPEnergy.com>, Pat \nPhillips <PhillipsP@EPEnergy.com>, Phil Tibbets <TibbetsP@EPEnergy.com>, \nRichard Caster <CasterR@EPEnergy.com>, Robert Shimek <ShimekR@EPEnergy.com>, \nRobert Young <YoungR@EPEnergy.com>, Ronnie Benson <BensonR@EPEnergy.com>, \nRussell Cowart <CowartR@EPEnergy.com>, Ryan Coffey <CoffeyR@EPEnergy.com>, \nScheduling EPFS <EPFSScheduling@EPEnergy.com>, Scott Brown \n<BrownS@EPEnergy.com>, Steve Jurecek <JurecekS@EPEnergy.com>, Steven Liles \n<LilesS@EPEnergy.com>, Thomas Van Matre <VanMatreT@EPEnergy.com>, Walter \nFarley <FarleyW@EPEnergy.com>, Audrey Pullen <Audrey.Pullen@enron.com>, Chris \nSonneborne <Chris.Sonneborn@enron.com>, Earl Tisdale \n<Earl.Tisdale@enron.com>, Gary Hanks <Gary.A.Hanks@enron.com>, James McKay \n<James.McKay@enron.com>, Kimberly Vaughn <Kimberly.Vaughn@enron.com>, Lauri \nAllen <Lauri.A.Allen@enron.com>, Mike Morris <Michael.W.Morris@enron.com>\ncc:  \nSubject: Channel Dispatch 08/17/00\n\n\n - Book3.xls",
+   "new_text_source": "body",
+   "subject": "Channel Dispatch 08/17/00",
+   "thread_id": "t7d2a0447b9",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-01T11:19:00+00:00",
+   "from": "aimee.lannou@enron.com",
+   "msg_id": "farmer-d/logistics/1166",
+   "new_text": "Daren - Is there a reason there is a nom of 20.000/day at meter 385?  This is \na non-allocatable meter.\n\nAL",
+   "new_text_source": "new",
+   "subject": "Meter 385",
+   "thread_id": "t7d64e953ad",
+   "to": [
+    "daren.farmer@enron.com",
+    "george.grant@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-18T08:37:00+00:00",
+   "from": "mark.mccoy@enron.com",
+   "msg_id": "farmer-d/logistics/1458",
+   "new_text": "Danny--\n\nIt looks like deal 133196 (purchase from Duke) at meter 5892 South Katy Gas \nUnit#2 needs to be renegotiated.  The deal expired 8/31/00, and they are \nallocating the gas to us for September.  Let me know as soon as you can so we \ncan make sure the gas is allocated correctly for September, and so it can set \nit up for October if need be.\n\nThanks,\nMark\nx33396",
+   "new_text_source": "new",
+   "subject": "Feedback error for Meter 985892",
+   "thread_id": "t7d824200a7",
+   "to": [
+    "danny.conner@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-04-07T11:53:00+00:00",
+   "from": "katherine.herrera@enron.com",
+   "msg_id": "farmer-d/logistics/1025",
+   "new_text": "Robert-\nAttached, please find our calculation sheet for Feb. 2000 production.  Please \nreview it and let me know if you have any questions.\n\n\n\nAt this time, it appears that we owe Pan Energy $56,562.68.  \nThis amount, however, does not include the re-delivery fuel charges from PG& \nE that will be passed back to Pan Energy.  \nAs soon as we receive the information from PG& E, we will bill you \naccordingly.  \n\nThanks -Katherine (713) 345-8643",
+   "new_text_source": "new",
+   "subject": "Pan Energy Marketing Exchange Settlement",
+   "thread_id": "t7dd5b4fed7",
+   "to": [
+    "rheilman@duke-energy.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-25T08:34:00+00:00",
+   "from": "mary.johnson@enron.com",
+   "msg_id": "farmer-d/logistics/1364",
+   "new_text": "I have continued the Hilcorp Old Ocean deal.  Dan Hyvl is writing up the \ncontracts for me and they should be ready Monday.  Terms are as follows:\n\nSept - Nov 2000\nIFHSC + .02\n\nGas Daily for any mid month turn on as in our purchase contracts\n\nLetter of credit must be approved prior to Sept 1 (they said they will have \nit Monday by 2pm)\n\nvolume min/max is 7,000/day - 20,000/day with same tolerance currently \nexisting for swing.(we expect to level out around 10,000/d)\n\nPlease call if you have any concerns as we will continue this gas flow \nwithout interruption.  Thanks,  Mary Jo Johnson",
+   "new_text_source": "new",
+   "subject": "Hilcorp Old Ocean",
+   "thread_id": "t7e0506bb9b",
+   "to": [
+    "dan.hyvl@enron.com",
+    "jill.zivley@enron.com",
+    "linda.roberts@enron.com",
+    "steve.schneider@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-03T15:53:00+00:00",
+   "from": "james.scribner@enron.com",
+   "msg_id": "farmer-d/logistics/1319",
+   "new_text": "We are in the midst of enhancing the Operations Pricing Model (fka \nTransaction Costing Model) and as a result the following applies:\n\n - Do not need the hours surveys completed for July or August\n - Need the activity driver surveys completed for July and August\n \nAttached is the activity driver survey for the month of July.   Please fill \nout the attached activity driver survey with July numbers for your RC and \nreturn to Shari Mao by end of day Friday, August 11.\n\nDuring the enhancment period (July and August) we will be standardizing and \nconsolidating activities across all commodities and operational functions.  \nThis will result in a shorter survey and easier time assignment to activities \nfor your teams.  The shorter and easier surveying process will begin with the \nSeptember survey.\n\nPlease call either me or Shari Mao at 39641 or 33859, respectively for any \nclarification.  Thanks for your patience and help,\n\nJames Scribner",
+   "new_text_source": "new",
+   "subject": "July Activity Driver Survey",
+   "thread_id": "t7e514f618d",
+   "to": [
+    "bob.klein@enron.com",
+    "bryce.baxter@enron.com",
+    "carrie.hollomon@enron.com",
+    "cheryl.dudley@enron.com",
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-28T07:57:00+00:00",
+   "from": "edward.gottlob@enron.com",
+   "msg_id": "farmer-d/logistics/1540",
+   "new_text": "D.\n\nMary provided this to Brian, please check against your numbers ASAP",
+   "new_text_source": "new",
+   "subject": "King Ranch Processed volumes at Tailgate",
+   "thread_id": "t7e5c6be0eb",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-27T07:26:00+00:00",
+   "from": "silver.breaux@enron.com",
+   "msg_id": "farmer-d/logistics/1426",
+   "new_text": "---------------------- Forwarded by Silver Breaux/HOU/ECT on 09/27/2000 07:22 \n---------------------------\n\n\n\"Liles, Steven R.\" <LilesS@EPEnergy.com> on 09/27/2000 06:27:41\nTo: \"'Silver Breaux HPL'\" <SBreaux@enron.com>\ncc:  \nSubject: Accum.\n\n\n <<Book2.xls>>\n\n\n******************************************************************\nThis email and any files transmitted with it from El Paso\nEnergy Corporation are confidential and intended solely\nfor the use of the individual or entity to whom they are\naddressed. If you have received this email in error\nplease notify the sender.\n******************************************************************\n\n - Book2.xls",
+   "new_text_source": "body",
+   "subject": "Accum.",
+   "thread_id": "t7e5d2cbfa5",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-06-01T14:50:54+00:00",
+   "from": "rebecca.griffin@enron.com",
+   "msg_id": "farmer-d/logistics/120",
+   "new_text": "Daren,\n\nI want to confirm the May MidCon volumes for Mobil - I think it is 30,000 mmbtu/day?\n\nPlease let me know if I should ask someone else...\n\nThanks,\nRebecca",
+   "new_text_source": "new",
+   "subject": "Mobil Beaumont - May 2001",
+   "thread_id": "t7eafbfe7b8",
+   "to": [],
+   "truncated": false
+  },
+  {
+   "date": "2000-07-12T14:00:00+00:00",
+   "from": "aimee.lannou@enron.com",
+   "msg_id": "farmer-d/logistics/1274",
+   "new_text": "Daren - I need a deal set up for meter 1459 for June '00. It flowed 34/day \n6/1-6/6.  The last deal number used was  77352 for ENA.  Please let me know \nwhen this is set up.\n\nThanks, \nAimee",
+   "new_text_source": "new",
+   "subject": "Meter 1459, 6/00",
+   "thread_id": "t7eb7bba7a8",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-07-13T15:41:00+00:00",
+   "from": "aimee.lannou@enron.com",
+   "msg_id": "farmer-d/logistics/1279",
+   "new_text": "Yep, you're right, except it's out there for June 1999.  Please let me know.  \nI'll be out tomorrow, if you get this done then, let Carlos know and he can \nget it set up in POPS.\n\nAimee",
+   "new_text_source": "new",
+   "subject": "Re: Meter 1459, 6/00",
+   "thread_id": "t7eb7bba7a8",
+   "to": [
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-05-07T16:14:44+00:00",
+   "from": "tom.acton@enron.com",
+   "msg_id": "farmer-d/logistics/148",
+   "new_text": "Daren,   I need  deal ticket 745546 extended on both ends.   4/23 for flow of 35 and 5/1/ for flow of 132.  This will help clear up some allocation exceptions.  THANKS.",
+   "new_text_source": "new",
+   "subject": "1601",
+   "thread_id": "t7ed94f2c76",
+   "to": [
+    "j..farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-05-08T13:29:32+00:00",
+   "from": "h..wallis@enron.com",
+   "msg_id": "farmer-d/logistics/145",
+   "new_text": "Yes, that sounds great!!",
+   "new_text_source": "new",
+   "subject": "RE: 1601",
+   "thread_id": "t7ed94f2c76",
+   "to": [
+    "j..farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-05-23T21:17:07+00:00",
+   "from": "craig.breslau@enron.com",
+   "msg_id": "farmer-d/logistics/131",
+   "new_text": "Imperial Sugar's volumes will be 142,000-144,000 mmbtu for the month of may instead of the 155,000 which we have scheduled.  Could we please make the appropriate nomination change and also let me know how we plan to price the buyback.  Also, is there any way to roll the 12,000 mmbtu deficiency over to June business.",
+   "new_text_source": "new",
+   "subject": "",
+   "thread_id": "t7f3c47168c",
+   "to": [
+    "j..farmer@enron.com",
+    "michael.olsen@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-17T19:54:45+00:00",
+   "from": "valerie.vela@enron.com",
+   "msg_id": "farmer-d/logistics/74",
+   "new_text": "Jay,\n\nFor June, I need a couple of things changed in Sitara: \nDeal 819592 - the commodity price needs to be 3.6318\nDeal 819594 - the commodity price needs to be WAHA.HUB.GDP.D.A+.02\n\nAnd for July............\nIt looks like we're missing some volume............\nDeal 895651 - baseload deal - should have 55,000 per day allocated. AND in Sitara this deal should be priced at $3.0505.\nDeal 895691 - swing deal - currently has 234,000 in the scheduled column and it should be 441,000 based on the spreadsheet I sent. Did you have some conflicting volumes? I'm resending what the volumes should be. AND the pricing for this should be at WAHA.HUB.GDP.D.A+.02.\n\n \n\nI think that should do if for now. I'll wait to see how these changes come across. Please notify me when these changes have been made. Thanks!",
+   "new_text_source": "new",
+   "subject": "RE: error repairs",
+   "thread_id": "t7f452a5896",
+   "to": [
+    "joseph.smith@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-17T20:21:48+00:00",
+   "from": "valerie.vela@enron.com",
+   "msg_id": "farmer-d/logistics/73",
+   "new_text": "The pricing for the base deal is based on the GD, but it's the average of the gas daily plus .02, right? And I was told that Sitara could not handle this pricing structure, that it had to be calculated and entered as a fixed price. Is this correct?",
+   "new_text_source": "new",
+   "subject": "RE: error repairs",
+   "thread_id": "t7f452a5896",
+   "to": [
+    "j..farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-12T09:45:00+00:00",
+   "from": "lisa.csikos@enron.com",
+   "msg_id": "farmer-d/logistics/1199",
+   "new_text": "Please find the attached spreadsheets listing the unfinaled sales invoices \nfor May production.  We have indicated which group is responsible for the \noutstanding item in the \"Responsible Department\" column.  The Settlement \ncoordinator is also listed on these spreadsheets.  Please have your team \nmembers contact the coordinators directly for the information needed to final \nthe invoice.\n\nAs communicated last week in our meeting with Sally, the deadline for \ncompleting this work so that the invoices can be finaled is Friday, June 16, \n2000.  We appreciate any efforts your teams can make in expediting the \nresearch to ensure we can final all May invoices by the end of day Friday.\n\nThank you for your support and cooperation in these efforts. \n\nLisa",
+   "new_text_source": "new",
+   "subject": "Texas Unfinaled Invoices - May 2000 Production",
+   "thread_id": "t7f845dd4bb",
+   "to": [
+    "mary.solmonson@enron.com",
+    "daren.farmer@enron.com",
+    "rita.wynne@enron.com",
+    "steve.venturatos@enron.com",
+    "michael.eiben@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-04-25T14:57:59+00:00",
+   "from": "mary.poorman@enron.com",
+   "msg_id": "farmer-d/logistics/160",
+   "new_text": "Thu,\n\nWe have an ongoing issue every month between what we nominate from GEPL into HGPL and on to King Ranch (flows into HGPL at meter 8284) and what is in the system as purchase gas upstream of the meter.  The volume has been anywhere from 6,000 to 10,000/Day over the nomination for at least the past six months.  Would you please fax the meter statements from GEPL for February so that I can try to determine which meters are flowing over what is nominated and verify that we have deals in the system for each offsystem meter.  Should you require a more specific listing, I have Tom's schematic of the area.\n\nThank you for your time.  Should you require any further information, please do not hesitate to contact me.\n\nMary",
+   "new_text_source": "new",
+   "subject": "Big Cowboy/GEPL Actuals for February",
+   "thread_id": "t7f9c832de6",
+   "to": [
+    "thu.nguyen@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-04-25T19:15:36+00:00",
+   "from": "mary.poorman@enron.com",
+   "msg_id": "farmer-d/logistics/159",
+   "new_text": "Please see the attached xcel file.  I think that I have found the missing volumes on Big Cowboy.  There are two wells connected to system 429, which flows into the Big Cowboy system and interconnects with HGPL at Meter 8284.  They are meters 986679 (currently in Trade Zone 18) and 986742 (Currently in Trade Zone 1).  I think that these should probably both be reassigned to Trade Zone 21.  This should resolve our volumetric issue.\n\nDonna & George,\n\nPlease let me know if my assumption is in error.  I have a schematic that shows these meters going to HGPL off of GEPL Big Cowboy, however, if this is not correct then I will need to try to find the gas in another manner.\n\nThank you for your time.  Please let me know if you have any questions, comments, suggestions.\n\nMary\n\n35251",
+   "new_text_source": "new",
+   "subject": "Re: Big Cowboy/GEPL Actuals for February",
+   "thread_id": "t7f9c832de6",
+   "to": [
+    "tom.acton@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-12-15T08:10:00+00:00",
+   "from": "mary.poorman@enron.com",
+   "msg_id": "farmer-d/logistics/1976",
+   "new_text": "I received a call from the plant, apparently, they shorted us 60 Dth on the \n3rd of November.  However, someone opened the valve on the 20th and they \nflowed 69 Dth into the pipe without a nomination.  The plant is asking if we \nwill phone Tennessee and accept allocation of this volume.  I realize that it \nis really not alot of net difference volumetrically, but, the market has been \nvolatile and prices have risen significantly since the Nov. 3rd.  I also \ndon't know what the market situation is like on TGPL, would we be creating an \nimbalance on a contract, is there a market to allocate to, are there any \npotential penalties?   I would like to resolve this today, if at all possible.\n\nPlease advise.\n\nMary",
+   "new_text_source": "new",
+   "subject": "Gulf Plains into Tennessee for November",
+   "thread_id": "t80c4da8a47",
+   "to": [
+    "daren.farmer@enron.com",
+    "elsa.villarreal@enron.com",
+    "victor.lamadrid@enron.com",
+    "jesse.villarreal@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-05-01T16:23:27+00:00",
+   "from": "juliann.kemp@enron.com",
+   "msg_id": "farmer-d/logistics/150",
+   "new_text": "What would you like to do with the two day outage on May 8th and 9th. Meter 6722 will be shutdown for two days. \nThanks - Julie",
+   "new_text_source": "new",
+   "subject": "FW: Maintanence on HPL@Three Rivers",
+   "thread_id": "t80dee42281",
+   "to": [
+    "j..farmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-19T13:42:00+00:00",
+   "from": "ami.chokshi@enron.com",
+   "msg_id": "farmer-d/logistics/1463",
+   "new_text": "I have an exit interview scheduled for 2pm on Fri. Is there any way we can \nmake the interview a little later in the afternoon, so I can have most of the \nafternoon to train my replacement.\n\nThanks,\nAmi\n\n\n   \n\t\n\t\n\tFrom:  Hector McLoughlin                           10/17/2000 04:54 PM\n\t\n\nTo: David Baumbach/HOU/ECT@ECT, Ami Chokshi/Corp/Enron@ENRON\ncc: Janet De La Paz/HR/Corp/Enron@ENRON, Francisco deJesus/NA/Enron@ENRON, \nAnneMarie Allex/NA/Enron@Enron \n\nSubject: Re: Ami Chokshi Resigns  \n\nAmi and David, \nEither Frank or AnneMarie will conduct your exit interview on Friday.    \nJanet De La Paz will set up the exit interview time and place.    \nSorry to hear that you are leaving.   Stop by before you go.  \nhgm\n\n\n   \n\tEnron Capital Management\n\t\n\tFrom:  David Baumbach @ ECT                           10/17/2000 02:16 PM\n\t\n\nTo: Hector McLoughlin/Corp/Enron@Enron\ncc: Sally Beck/HOU/ECT@ECT, Thomas A Martin/HOU/ECT@ECT \n\nSubject: Ami Chokshi Resigns\n\nAmi has decided to resign from her present position.  Her reason is that she \nwants a change in atmosphere/scenery.  She has decided to pick up and move to \nSan Francisco.  She does not a job lined up and Tom Martin has agreed to let \nher stay until Friday, October 20.\n\nHector, let me and Ami know more about the time/location of the exit \ninterviews.  Also, if there is something else you need from me in this \nprocess, please let me know.\n\nDavid Baumbach",
+   "new_text_source": "new",
+   "subject": "Re: Ami Chokshi Resigns",
+   "thread_id": "t81894bb431",
+   "to": [
+    "hector.mcloughlin@enron.com",
+    "janet.paz@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-01T16:45:00+00:00",
+   "from": "mark.mccoy@enron.com",
+   "msg_id": "farmer-d/logistics/2072",
+   "new_text": "FYI---I changed points on this deal from PGTT-TECO Waha 18002800 to PGTT-TECO \nKaty 20606100 for the 2nd.  Let me know if you don't agree with this.  The \nsupply, Duke Field Svs, was originally trying to deliver to HPL at Midtex, \nthis deal #589257 was also changed to meter 20606100.\n\nThanks,\nMark",
+   "new_text_source": "new",
+   "subject": "point change for deals",
+   "thread_id": "t82266d5efc",
+   "to": [
+    "elsa.villarreal@enron.com",
+    "daren.farmer@enron.com"
+   ],
+   "truncated": false
+  }
+ ]
+}

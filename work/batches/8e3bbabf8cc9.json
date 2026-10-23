@@ -1,0 +1,872 @@
+{
+ "batch_id": "8e3bbabf8cc9",
+ "context": [
+  {
+   "date": "2000-10-17T10:13:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/588",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 10/17/2000 \n10:13 AM ---------------------------\n\n\nGreg Couch\n10/17/2000 10:04 AM\nTo: Darron C Giron/HOU/ECT@ECT, bbernard@hypercon.com, \nmafullerton@westernhubs.com, lbkudu@gateway.net\ncc:  \nSubject: FW: WORTH SHARING\n\n\n---------------------- Forwarded by Greg Couch/HOU/ECT on 10/17/2000 10:03 AM \n---------------------------\n\n\n\"Clark, Mike\" <mclark@ARC-AG.COM> on 10/17/2000 07:24:27 AM\nTo: \"Berg, Cindy\" <cberg@ARC-AG.COM>, \"Miller, David\" <dmiller@ARC-AG.COM>, \n\"Clark, Graydon\" <gclark@arc-ag.com>, \"'Greg Couch-Enron'\" <gcouch@enro",
+   "process": "none",
+   "subject": "FW: WORTH SHARING",
+   "thread_id": "t96c943e836"
+  }
+ ],
+ "messages": [
+  {
+   "date": "2001-03-28T11:06:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/116",
+   "new_text": "I changed the deal but thought you would want to see the correct name of the \nCP.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Deal # QZ2119",
+   "thread_id": "t942002fe27",
+   "to": [
+    "maria.garza@enron.com",
+    "b.palmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-20T18:33:25+00:00",
+   "from": "jennifer.rosado@enron.com",
+   "msg_id": "giron-d/inbox/234",
+   "new_text": "It's official!  Dawn and Gary Wilson are the proud parents of a beautiful baby girl.  She was born at 10:41am on 9-20-01, and weighed in at 6lbs, 13oz.  They named her Grace Elizabeth.  Mom and baby are doing great and the proud  father delivered the news at 1:00pm.  Dawn is registered at Texas Womens Hospital under the last name of Kenne.\n\nI'm sure you will all join me in wishing the new family lots of joy!\n\nThanks,\n\nJLR\n\nJennifer Rosado\n(713) 853-6890\nSr. Administrative Assistant for \nEnronOnline-Product Control Group",
+   "new_text_source": "new",
+   "subject": "Baby Wilson is here",
+   "thread_id": "t94ed8e902b",
+   "to": [
+    "houston.product@enron.com",
+    "joan.quick@enron.com",
+    "c..gossett@enron.com",
+    "m..love@enron.com",
+    "anne.bike@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-09T10:37:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/241",
+   "new_text": "Joe,\n\nCall Pat Ryder for West desk requests.\n\nDG\n\n\n\n   \n\t\n\t\n\tFrom:  Larry Joe Hunter                           02/08/2001 06:27 PM\n\t\n\nTo: Ellen Wallumrod/NA/Enron@ENRON, Jeffrey C Gossett/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Darron C Giron/HOU/ECT@ECT, \nErrol McLaughlin/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT\ncc:  \nSubject: Audit Request procedure\n\n\nJeff, \nThanks for the lead with Avril Forster, it looks like that will help us in \nthe near future.  Until we can get EnTelligence built to our specifications, \nwe'll need to continue to go to the different desks to provide Mark-to-Market \nvaluations for a Counterparty's portfolio.\n\nDesk heads,\n\nCan you provide to Ellen and myself the names of the person on your desk who \nwe should go to with these requests.  Also, please let these persons know \nthat we will be coming to them often with these requests (we recieve several \nper week).\n\nHere's the background of these requests.  Because of various accounting \nrules, Parties dealing in Derivatives must show third party valuations to \ntheir Auditors.  Our group (Confirmations) is responsible for providing MTM \nvalues and open position reports for these parties.  We do not have access to \nany system that values these deals, but are looking to get the on-line \n\"EnTelligence\" built so that it carries back-dated curves that will allow us \nto complete these requests without taking up a Risk person's time and without \nhaving to black out information (Delta/Vol) that is included in a mini-book.\n\nThanks for the help.  We'll try to get these off of your plates as soon as \npossible.\n\nJoe",
+   "new_text_source": "new",
+   "subject": "Re: Audit Request procedure",
+   "thread_id": "t952cea40f0",
+   "to": [
+    "larry.hunter@enron.com",
+    "ellen.wallumrod@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-11T16:56:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/655",
+   "new_text": "Done\n\nDG\n\n\n\n\n\tKevin W Drachenberg\n\t09/11/2000 10:24 AM\n\t\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: North Shore - Deal 116695 - pricing adjustment\n\nBarbara Dillard's worksheet shows the full 10,000 MMBtu for 8/1/00 - 8/2/00 \nas SIQ (see below) which is priced at NGPL.ILL-CITYGATE.NGI.M.I - .02 USD, \nnot tier priced as shown below in Sitara.  Unless there's some reason I'm not \naware of, can you please change the full volume to be priced at \nNGPL.ILL-CITYGATE.NGI.M.I - .02 USD.\n\nThanks,\nKevin\n\n\nFrom Barbara's spreadsheet.............",
+   "new_text_source": "new",
+   "subject": "Re: North Shore - Deal 116695 - pricing adjustment",
+   "thread_id": "t953853cf3f",
+   "to": [
+    "kevin.drachenberg@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-25T13:57:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/294",
+   "new_text": "Please read.\n\nDG\n---------------------- Forwarded by Darron C Giron/HOU/ECT on 01/25/2001 \n01:57 PM ---------------------------\n\n\nJeffrey C Gossett\n01/25/2001 01:46 PM\nTo: Kam Keiser/HOU/ECT@ECT, Darron C Giron/HOU/ECT@ECT, David \nBaumbach/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Phillip M \nLove/HOU/ECT@ECT\ncc: Hunter S Shively/HOU/ECT@ECT, Scott Neal/HOU/ECT@ECT, Phillip K \nAllen/HOU/ECT@ECT, Thomas A Martin/HOU/ECT@ECT \nSubject: Killing physical deals\n\nWe have had a few recent instances where deals have been unwound in TAGG and \nnot in Sitara.  This, has,  in all cases resulted in a negative financial \nimpact.  Going forward,  no long-term physical deals will be unwound without \nmy signature,  and that of the physical trader responsible for trading the \narea for which the deal was done.  Also,  all unwind tickets will require  \nthe old TAGG and Sitara deal number to be written on the ticket.",
+   "new_text_source": "body",
+   "subject": "Killing physical deals",
+   "thread_id": "t9561cea21c",
+   "to": [
+    "jason.wolfe@enron.com",
+    "anne.bike@enron.com",
+    "chris.walker@enron.com",
+    "carole.frank@enron.com",
+    "jennifer.bagwell@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-05T18:43:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/255",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/05/2001 \n06:43 PM ---------------------------\n   \n\n\nFrom:  Veronica Espinoza @ ENRON                                              \n               02/01/2001 04:12 PM\t\n\t\n\t\n\t                           \n\t\n\nTo: Larry Joe Hunter/HOU/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Kim S \nTheriot/HOU/ECT@ECT, Melinda Whalen/CAL/ECT@ECT, Dianne Seib/CAL/ECT@ECT, \nJanie Aguayo/HOU/ECT@ECT, Derek Bailey/Corp/Enron@ENRON, Kevin \nMeredith/Corp/Enron@ENRON, Ellen Wallumrod/NA/Enron@ENRON, Celeste \nCisneros/NA/Enron@Enron, Diane Anderson/NA/Enron@Enron, Tiffany \nWilliams/NA/Enron@Enron, Cindy Feldman/CAL/ECT@ECT, Patricia \nBoulanger/CAL/ECT@ECT, Linda Sietzema/CAL/ECT@ECT, Sharon \nCrawford/CAL/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Tanya \nRohauer/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, William S Bradford/HOU/ECT@ECT, \nRussell Diamond/HOU/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Nidia \nMendoza/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, \nDavid Baumbach/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Darron C \nGiron/HOU/ECT@ECT, Walter Guidroz/NA/Enron@Enron, Leslie Reeves/HOU/ECT@ECT, \nVeronica Gonzalez/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT\ncc:  \nSubject: Credit Report--2/1/01\n\n\n\nI apologize for the delay on the distribution, as we had systems issues.\n\n\nPlease contact Walter Guidroz at x5-3595 if you have any questions on the \nAquila COLW deal.",
+   "new_text_source": "body",
+   "subject": "Credit Report--2/1/01",
+   "thread_id": "t9576395a07",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-08-29T11:17:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/678",
+   "new_text": "I totally forgot about the weekly meeting.  Sorry.  Like I said yesterday, \nI'm working on getting new books set up for Chicago.  I just need to \nfollow-up with Mary Lynn on Friday before I submit requests.  I'm also \nworking on OA issues for July.  I will teach a class on Thursday and next \nTuesday to settlements about OA (just basics like desk price, customer price, \nand liquidations).  In addition, I need to ask you a few questions about the \nTrunkline deal.  When I meet with Mary Lynn on Friday, I am going to explain \nthe deal to her.  That's about it.  Once again, I apologize about missing the \nmeeting today.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Meeting",
+   "thread_id": "t95826635fd",
+   "to": [
+    "steve.jackson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-13T19:32:48+00:00",
+   "from": "kimberly.bates@enron.com",
+   "msg_id": "giron-d/inbox/449",
+   "new_text": "Frank, would like to meet with the group tomorrow at 2:00. Please let me know if you can not attend.\n\nKimberly Bates\nEast Gas/Origination\n713-853-5193\n713-646-8453 Fax",
+   "new_text_source": "new",
+   "subject": "Meeting",
+   "thread_id": "t95826635fd",
+   "to": [
+    "robin.barbe@enron.com",
+    "ruth.concannon@enron.com",
+    "scott.goodell@enron.com",
+    "david.jones@enron.com",
+    "jared.kaiser@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-12-27T16:34:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/361",
+   "new_text": "The $1.7M is in Jim's book.  He asked me to hold it back because he thought \nthe curve for ChiGate was set too high and he was making too much on Friday.  \nI think the $ is real, and it will be released before year end.\n\nI don't know about the annuity.  Kevin will return tomorrow and he will have \nto follow up with you.  I'll send the prior day P&L's tonight.\n\nDG\n\n\nFrom: Richard Tomaski@ENRON on 12/27/2000 03:49 PM\nTo: Kevin Radous, Darron Giron\ncc:  \nSubject: top-leveled P&L\n\nCan you guys confirm that we have $1.7 million top-leveled to allow for the \nNGPL ITS losses that we have not put into the books yets?  We need to put \nthese losses in on Thursday or friday.\n\nAlso did we reverse the $326000 annuity and subsequent origination out of my \nbookes and the FT-cental books?  We should have a new annuity to PGL for the \nsame amount.\n\nCan you send me a copy of the top page for enovate for last Friday and \nThursday like the one you sent me today for Monday's top page?\n\nCall me if you have any questions at 312.925.8906\n\nRichard",
+   "new_text_source": "new",
+   "subject": "Re: top-leveled P&L",
+   "thread_id": "t95a65012ea",
+   "to": [
+    "richard.tomaski@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-15T14:27:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/482",
+   "new_text": "A W4 calculates how much federal tax is withheld from your paycheck each pay \nperiod.  There are two basic drivers:  number of dependents and filing \nstatus.  The higher the number of dependents, the less is withheld.  Married \nand jointly will also have less withheld than married and seperately.  There \nis really no right or wrong answer, only opinion.  If you want more withheld \neach pay period so that there is less of a chance of actually owing $ on \nApril 15th, then claim fewer dependents and married and seperately.  If you \ndon't want the government to get your $ interest free, but are aware that you \nmay owe $ later on (April 15th), then claim a higher number of dependents and \nmarried and jointly.  I hope that made sense.\n\nDG",
+   "new_text_source": "new",
+   "subject": "W4",
+   "thread_id": "t963460bc3c",
+   "to": [
+    "scott.t.crowell@us.cgeyc.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-17T10:13:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/589",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 10/17/2000 \n10:12 AM ---------------------------\n\n\nGreg Couch\n10/17/2000 10:04 AM\nTo: Darron C Giron/HOU/ECT@ECT, bbernard@hypercon.com, \nmafullerton@westernhubs.com, lbkudu@gateway.net\ncc:  \nSubject: FW: WORTH SHARING\n\n\n---------------------- Forwarded by Greg Couch/HOU/ECT on 10/17/2000 10:03 AM \n---------------------------\n\n\n\"Clark, Mike\" <mclark@ARC-AG.COM> on 10/17/2000 07:24:27 AM\nTo: \"Berg, Cindy\" <cberg@ARC-AG.COM>, \"Miller, David\" <dmiller@ARC-AG.COM>, \n\"Clark, Graydon\" <gclark@arc-ag.com>, \"'Greg Couch-Enron'\" <gcouch@enron.com>\ncc:  \nSubject: FW: WORTH SHARING\n\n\n\n\n-----Original Message-----\nFrom: May, Dallas\nSent: Tuesday, October 17, 2000 7:11 AM\nTo: Clark, Mike; Graham, Annette; Kirksey, Andy; 'Wayne M.';\n'Tammy-Home'; 'rcamp'; 'Marlena'; 'Dean P.'; 'Dawn'\nSubject: FW: WORTH SHARING\n\n\n\n\n-----Original Message-----\nFrom: Bill Wallace [mailto:wallace@NSTEXAS.COM]\nSent: Tuesday, October 17, 2000 6:40 AM\nTo: Dallas May (E-mail); Brian Crawford (E-mail); Jay Yeaman (E-mail);\nJ. D. Hancock (E-mail); George Cudworth (E-mail); Rob Hayes (E-mail)\nSubject: WORTH SHARING\n\n\nThis one is worth sharing...Guess which global superpower these\n>statistics are from:\n>\n>\n>709,000 regular (active duty) service personnel\n>\n>293,000 reserve troops\n>\n>Eight standing Army divisions\n>\n>20 Air Force and Navy air wings with 2,000 combat aircraft\n>\n>232 strategic bombers\n>\n>13 strategic ballistic missile submarines with 3,114 nuclear warheads on\n>232 missiles\n>\n>500 ICBMs with 1,950 warheads\n>\n>Four aircraft carriers and all the support bases, shipyards and logistical\n>assets needed to sustain such a force\n>\n>Is this country Russia? . . . No\n>\n>Red China? . . . No\n>\n>Great Britain? . . . Wrong Again\n>\n>USA? . . . Hardly\n>\n>Give up??\n>\n>Well, don't feel too bad if you are unable to identify this global\n>superpower because this country no longer exists. It has vanished. These\nare\n>the American military forces that have disappeared since the 1992 election\n>of Bill Clinton and Al Gore.\n>\n>Sleep well, America. It's time to vote!\n\n\n - C.DTF",
+   "new_text_source": "body",
+   "subject": "FW: WORTH SHARING",
+   "thread_id": "t96c943e836",
+   "to": [
+    "kristi.giron@cfisd.net",
+    "hollyw@email.msn.com",
+    "phillip.love@enron.com",
+    "dawn.kenne@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-12T19:07:18+00:00",
+   "from": "csulzer@grenergy.com",
+   "msg_id": "giron-d/inbox/379",
+   "new_text": "I will be I my office.  (763)241-2490",
+   "new_text_source": "new",
+   "subject": "RE: Conference Call",
+   "thread_id": "t96ce63b90d",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-31T00:23:26+00:00",
+   "from": "d..winfree@enron.com",
+   "msg_id": "giron-d/inbox/45",
+   "new_text": "Question for NetCo employees:\nThe new corp id's xfer to UBS is being considered for this Sunday.  Hence, no start menu access to estate.  You will still have access to NT estate drive data to copy.\nDoes anyone have the need to retain a estate id for support estate application during the last week?  Exceptions have to be authorized.\nWanted to get a preliminary need analysis...\n \nThis was sent by an IT manager, let me know your thoughts... O",
+   "new_text_source": "new",
+   "subject": "New Corp Login",
+   "thread_id": "t976e3b432b",
+   "to": [
+    "kam.keiser@enron.com",
+    "m..love@enron.com",
+    "c..giron@enron.com",
+    "errol.mclaughlin@enron.com",
+    "scott.palmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-20T08:35:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/641",
+   "new_text": "Scott,\n\nRichard Tomaski wants one more physical book set up under the Enovate name \nwhile retaining the other books already set up.  This counterparty name \nEnovate is replacing the Midwest Energy Hub.  But wants to be able to \ndifferentiate deals done as solely Enovate with deals done as Enron Midwest.  \nCall me if you have any further questions, or if this presents a problem.  \nThanks.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Re: Book Request",
+   "thread_id": "t9866afcc74",
+   "to": [
+    "scott.mills@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-26T14:26:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/557",
+   "new_text": "This book is for the West desk.  Please call if you have any questions.",
+   "new_text_source": "new",
+   "subject": "Book Request",
+   "thread_id": "t9866afcc74",
+   "to": [
+    "susan.trevino@enron.com",
+    "burton.mcintyre@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-06T09:56:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/527",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 11/06/2000 \n09:55 AM ---------------------------\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Darron C Giron                           10/26/2000 02:26 PM\n\t\n\nTo: Susan D Trevino/HOU/ECT@ECT, Burton McIntyre/HOU/ECT@ECT\ncc:  \nSubject: Book Request\n\nThis book is for the West desk.  Please call if you have any questions.",
+   "new_text_source": "body",
+   "subject": "Book Request",
+   "thread_id": "t9866afcc74",
+   "to": [
+    "michael.abraham@us.arthuranderson.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-06T13:43:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/525",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 11/06/2000 \n01:42 PM ---------------------------\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Darron C Giron                           10/26/2000 02:26 PM\n\t\n\nTo: Susan D Trevino/HOU/ECT@ECT, Burton McIntyre/HOU/ECT@ECT\ncc:  \nSubject: Book Request\n\nThis book is for the West desk.  Please call if you have any questions.",
+   "new_text_source": "body",
+   "subject": "Book Request",
+   "thread_id": "t9866afcc74",
+   "to": [
+    "michael.abraham@us.arthurandersen.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-14T09:26:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/491",
+   "new_text": "Here is another one.  It will be another Chicago book.  We will never \nofficialize the book.  Thanks.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Book Request",
+   "thread_id": "t9866afcc74",
+   "to": [
+    "susan.trevino@enron.com",
+    "burton.mcintyre@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-08T15:39:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/160",
+   "new_text": "Burton,\nThanks for your help.  I need to use this tomorrow.\nDG",
+   "new_text_source": "new",
+   "subject": "Book Request",
+   "thread_id": "t9866afcc74",
+   "to": [
+    "burton.mcintyre@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-17T10:27:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/319",
+   "new_text": "Thanks.  I think I can get them both done tomorrow.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Re: Associates & Analysts Performance evaluations",
+   "thread_id": "t98e4718c2f",
+   "to": [
+    "hector.mcloughlin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-16T12:42:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/215",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/16/2001 \n12:41 PM ---------------------------\n\n\nGreg Couch\n02/05/2001 01:01 PM\nTo: Kyle R Lilly/HOU/ECT@ECT, Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Curve Fetch\n\nLet me know if either of you have questions.\n\nGreg",
+   "new_text_source": "body",
+   "subject": "Curve Fetch",
+   "thread_id": "t992e9365e2",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-11T11:37:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/337",
+   "new_text": "Bill,\n\nI need to have FT-DENVER set up in TDS.  The trader is Jay Reitmeyer.  There \nare two Tagg books that need to be mapped to this:  FT-DENVER and \nINTRA-DENVER.  The following people in Risk need access to the book:  Darron \nGiron, Chris Walker, Pat Ryder, Jason Wolfe, Carole Frank, Anne Bike, and \nJennifer Bagwell.  I also want it to roll up into ALL-WEST.  Call me if you \nhave any questions.  Thanks for your help.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Denver in TDS",
+   "thread_id": "t99e010b98e",
+   "to": [
+    "bill.fortney@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-08T09:44:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/511",
+   "new_text": "I see Jennifer Bagwell in the system, but not Christopher Walker.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Please change the supervisors for Analysts and Associates",
+   "thread_id": "t9a5d8809ed",
+   "to": [
+    "susan.wimberley@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-06T16:17:17+00:00",
+   "from": "m..love@enron.com",
+   "msg_id": "giron-d/inbox/191",
+   "new_text": "check this out.\n-----Original Message-----\nFrom: Doan, Jad \nSent: Monday, August 06, 2001 10:55 AM\nTo: Ames, Chuck; Love, Phillip M.; Mills, Bruce; Brady, Edward\nSubject: FW: FW: Priceless...\n\n\n \n-----Original Message-----\nFrom: Wendy Lilley [mailto:wklilley@hotmail.com]\nSent: Monday, August 06, 2001 10:52 AM\nTo: alicia_1313@hotmail.com; votawb@tyler.sprnet.org; wkalinec@hotmail.com; dkooser@yahoo.com; cecpittman@hotmail.com; Doan, Jad; kkdoan96@yahoo.com; Les.Woodard@COMPAQ.com; lcdavis51@hotmail.com; huebel@cvtv.net; toolgool@yahoo.com; traciebelsom@hotmail.com; tsloane@hotmail.com\nSubject: Fwd: FW: Priceless...\n\n\n>Us guys are on to you ladies, \n> \n>with your little tricks \n> \n> \n> \n> \n> \n> \n> \n>This is great! \n> \n> \n> \n>Read this before you open the picture: \n> \n>Formal dress: $120.00 \n> \n>Dinner and drinks before formal: $80.00 \n> \n>Having a picture passed around on the internet that shows you duct taped \n>your boobs together: \n> \n> \n> \n>PRICELESS!!! \n> \n> \n> \n\n  _____  \n\nGet your FREE download of MSN Explorer at http://explorer.msn.com <http://go.msn.com/bql/hmtag_itl_EN.asp>",
+   "new_text_source": "body",
+   "subject": "FW: FW: Priceless...",
+   "thread_id": "t9b70b5e168",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-03T21:38:29+00:00",
+   "from": "patty@swbellcottonbowl.org",
+   "msg_id": "giron-d/inbox/241",
+   "new_text": "Big 12 Ticket Holders,\n\nThank you for ordering Dr Pepper Big 12 Football Championship tickets.  We\nhave received your application and are in the process of assigning your\nseats.  Your tickets and parking will be mailed by the end of October.  If\nyou would like to know your seat assignment please send an email\n(ticket@cottonbowl.com <mailto:big12@cottonbowl.com> ) requesting your\nlocation and we will respond as soon as your seat has been assigned....or\ncontact the ticket office (214.634.7525) after Wednesday, October 10.\nThank you for supporting the Big 12 Conference.\n\nThank you.",
+   "new_text_source": "new",
+   "subject": "Order Confirmation Dr Pepper Big 12 Championship Game",
+   "thread_id": "t9ba2dff3a4",
+   "to": [
+    "ticket@cottonbowl.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-15T12:58:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/485",
+   "new_text": "Put me down for the 15th also.  Thanks.\n\nDG    3-9573\n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Irena D Hogan                           11/15/2000 12:08 PM\n\t\n\nTo: William Kelly/HOU/ECT@ECT, John Valdes/HOU/ECT@ECT, David \nBaumbach/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, Dutch Quigley/HOU/ECT@ECT, \nDarron C Giron/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Russ \nSeverson/HOU/ECT@ECT, Greg Couch/HOU/ECT@ECT\ncc: Jeffrey C Gossett/HOU/ECT@ECT \nSubject: December Management Calendar\n\nPlease review the below calendar, then inform me of  any revisions that need \nto be made on your vacation time.  \n\nThank you,\n\nIrena",
+   "new_text_source": "new",
+   "subject": "Re: December Management Calendar",
+   "thread_id": "t9bae1f03b8",
+   "to": [
+    "irena.hogan@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-02T14:28:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/258",
+   "new_text": "West is done.\n\nDG\n\n\n\n\tGregory A Mausser\n\t02/02/2001 02:19 PM\n\t\nTo: Kam Keiser/HOU/ECT@ECT, Darron C Giron/HOU/ECT@ECT, Phillip M \nLove/HOU/ECT@ECT, David Baumbach/HOU/ECT@ECT, Patrick Ryder/NA/Enron@Enron\ncc: Jim Little/HOU/ECT@ECT \nSubject: Are ya done yet?\n\nHey ya'll,\n\nPlease reply when your last day file is complete and don't forget to provide \nme with your Economics Detail and Summary Level Reports.  \nAlso, will you cc Jim Little in Gas Accounting so he can initiate processes \nin his group.\n\nThanks for all your help this month,\nGreg(37299)",
+   "new_text_source": "new",
+   "subject": "Re: Are ya done yet?",
+   "thread_id": "t9bbe21d900",
+   "to": [
+    "gregory.mausser@enron.com",
+    "jim.little@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-22T09:13:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/129",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 03/22/2001 \n09:13 AM ---------------------------\nFrom: Veronica Espinoza/ENRON@enronXgate on 03/22/2001 09:00 AM\nTo: Janie Aguayo/HOU/ECT@ECT, Diane Anderson/NA/Enron@Enron, Derek \nBailey/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, \nPatricia Boulanger/CAL/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Julie \nBrewer/NA/Enron@Enron, Lesli Campbell/ENRON@enronXgate, Celeste \nCisneros/NA/Enron@Enron, Sharon Crawford/CAL/ECT@ECT, Richard \nDeming/NA/Enron@Enron, Russell Diamond/ENRON@enronXgate, Cindy \nFeldman/CAL/ECT@ECT, Darron C Giron/HOU/ECT@ECT, Veronica \nGonzalez/ENRON@enronXgate, Jeffrey C Gossett/HOU/ECT@ECT, Walter \nGuidroz/ENRON@enronXgate, Larry Joe Hunter/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Bianca Ornelas/NA/Enron@Enron, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron\ncc:  \nSubject: Credit Report--3/22/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--3/22/01",
+   "thread_id": "t9bdee91b26",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-07-18T08:22:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/739",
+   "new_text": "It seems as if I have caused some confusion.  Last night's email attachment \nwas the P&L that did not include People's or Origination's share of the \ntotal.  Currently attached is the P&L that was signed off on last night.  If \nyou have any questions, please call.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "EMW 07/17",
+   "thread_id": "t9c332447f4",
+   "to": [
+    "janet.dietrich@enron.com",
+    "laura.luce@enron.com",
+    "carrie.hollomon@enron.com",
+    "kevin.radous@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-02T10:06:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/534",
+   "new_text": "I am in Chicago today and tomorrow.  I will look at this more while I am here.\n\nDG",
+   "new_text_source": "new",
+   "subject": "SocalEd deal",
+   "thread_id": "t9c4b86cd05",
+   "to": [
+    "virawan.yawapongsiri@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-12-07T10:13:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/410",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 12/07/2000 \n10:13 AM ---------------------------\n\n\nSusan D Trevino\n12/06/2000 01:39 PM\nTo: Darron C Giron/HOU/ECT@ECT\ncc: Shona Wilson/NA/Enron@Enron, Chris Abel/HOU/ECT@ECT \nSubject: requests for new curves, new books, porfolio changes\n\nDarron - Per Shona's request, I am forwarding the email with the hierarchy, \nbook, and curve forms.  Please contact me if you have any questions or \ncomments.\n\nThank you,\nSusan\nx3-1462\n\n---------------------- Forwarded by Susan D Trevino/HOU/ECT on 12/06/2000 \n01:28 PM ---------------------------\n\nFrom: Shona Wilson@ENRON on 11/22/2000 02:47 PM\nTo: James New/LON/ECT@ECT, Lloyd Fleming/LON/ECT@ECT, Andrew \nCornfield/LON/ECT@ECT, David A Wall/Risk Mgmt/LON/ECT@ECT, Jeffrey C \nGossett/HOU/ECT@ECT, Stacey W White/HOU/ECT@ECT, Peggy Hedstrom/CAL/ECT@ECT, \nJenny Latham/HOU/ECT@ECT, Scott Mills/HOU/ECT@ECT, Martha \nStevens/HOU/ECT@ECT, Scott Earnest/HOU/ECT@ECT, Michelle Bruce/HOU/ECT@ECT, \nSheila Glover/HOU/ECT@ECT, Clara Carrington/HOU/ECT@ECT, D Todd \nHall/HOU/ECT@ECT, Brenda F Herod/HOU/ECT@ECT, Michael E Moscoso/HOU/ECT@ECT, \nBarry Pearce/Enron Communications@Enron Communications, Kristin \nAlbrecht/Enron Communications@Enron Communications, Gary Stadler/Enron \nCommunications@Enron Communications, Neil Hong/HOU/EES@EES, Warren \nPrihoda/HOU/EES@EES, Louis Colarusso/NYC/MGUSA@MGUSA, Christian \nLeBroc/Corp/Enron@ENRON, Rebecca Miller, Jan-Erland Bekeng/AP/Enron@Enron, \nHeidi Mason/ENRON_DEVELOPMENT@ENRON_DEVELOPMENT, David Port/Market \nRisk/Corp/Enron@ENRON, Vladimir Gorny/HOU/ECT@ECT, Frank \nHayden/Corp/Enron@Enron, Bjorn Haglemann, Debbie R Brackett/HOU/ECT@ECT\ncc: Sally Beck/HOU/ECT@ECT, Brent A Price/HOU/ECT@ECT, Mike \nJordan/LON/ECT@ECT, Chris Abel/HOU/ECT@ECT, Susan D Trevino/HOU/ECT@ECT, \nBurton McIntyre/HOU/ECT@ECT \nSubject: requests for new curves, new books, porfolio changes\n\nIn the past few months, the procedures for setting up new curves and books \nhave not been followed by everyone. \n\nThe following memo documents the procedures to 1) set up a new curve, 2) set \nup a new book, and 3) change a portfolio hierarchy.  Please note that risk \nmanagement (for each commodity group), \"risk management\"  is responsible for \nensuring that information is flowing appropriately between the valuation \nsystems and RisktRAC (Risk Analysis and Reporting can help, but do not have \nall of the ERMS information to be able to ensure the completeness of \nRisktRAC).\n\nI have attached the request form for each of these changes at the bottom of \nthis memo.  Please ensure that everyone in your group obtains a copy. \n\nThe procedure to set up a new curve is as follows:\n\nTrader starts trading at a new location or a new commodity and needs a new \ncurve set up\nTrader communicates this to risk management\nRisk management constructs new curve in ERMS (with the help of the IT \ndepartment)\nRisk management completes a curve set up request form to set up curve in \nRisktRAC\nCurve form is forwarded to Risk Analysis and Reporting\nRisk Analysis and Reporting sets up curve in RisktRAC\nA system generated message is sent to people on the \"curve list\" indicating a \nchange in the RisktRAC curves has been made\n\nIf the curve is not set up in RisktRAC the positions are not captured in the \nVAR or engine, thereby making VAR inaccurate.  As a side note, Risk Analysis \nand Reporting has implemented a new process in which on a weekly basis new \ncurves set up in ERMS are reviewed to ensure that these have been set up in \nRisktRAC.  We did this for the first time today and noted numerous curves in \nERMS that are not in RisktRAC - which we are working with you to resolve.\n\nThe procedure to set up a new book in RisktRAC is as follows:\n\nTrader/risk management determines new book is needed\nNew book request form (for RisktRAC) is completed by risk management\nNew book request form is forwarded to Risk Analysis and Reporting\nRisk Analysis and Reporting sets up book in RisktRAC\nRisk Analysis and Reporting forwards request to ERMS administrator and global \ncounterparty group to request that book is set up in valuation and \ncounterparty systems\nOnce all groups have completed their individual set ups, a final e-mail is \nsent to personnel on the \"books list\" and the book administrator in the risk \nmanagement department who requested the book\n\nIt is important that there is a one to one link between the ERMS and RisktRAC \nbooks, or not all positions will be captured in RisktRAC (two commodities per \nERMS book does not flow properly into RisktRAC).\n\nThe above two processes have formally existed for a number of months.  \nAdditionally, we are formalizing the procedure for changing portfolio \nhierarchies.  The procedure now is:\n\nRisk management is responsible for requesting all portfolio hierarchy \nchanges.  Previously, changes could be made through a request by Risk \nAnalysis and Reporting or RAC.  These two groups are no longer allowed to \nsubmit change requests.  All requests must come through risk management.\nRisk management completes a request, including the reason for the requested \nchange in structure\nRisk management forwards the request to Risk Analysis and Reporting\nRisk Analysis and Reporting makes the change and notifies risk management \nthat the change has been made.\n\nIf you have any questions, comments or concerns, please call: me X39123, \nChris Abel X33012, Burton McIntyre X57197, or Susan Trevino X31462.\n\nThanks,\n\nShona",
+   "new_text_source": "body",
+   "subject": "requests for new curves, new books, porfolio changes",
+   "thread_id": "t9c66416170",
+   "to": [
+    "anne.bike@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-31T15:44:43+00:00",
+   "from": "m..love@enron.com",
+   "msg_id": "giron-d/inbox/40",
+   "new_text": "The positions file for last night is saved out to o_dropbox and is attached.\nPL",
+   "new_text_source": "new",
+   "subject": "positions file 1/30/02",
+   "thread_id": "t9c9901cda0",
+   "to": [
+    "elena.chilkina@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-18T15:56:26+00:00",
+   "from": "isc.registrar@enron.com",
+   "msg_id": "giron-d/inbox/229",
+   "new_text": "Dear DARRON,\n\n\nYour user account has been activated in the Learning Management System.\n\n\nYou may log in to the system by using your email address and date of birth as your login ID/password.\n\n\nThank you.",
+   "new_text_source": "new",
+   "subject": "User account activated",
+   "thread_id": "t9cc77fda1c",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-06T15:08:22+00:00",
+   "from": "karima.husain@enron.com",
+   "msg_id": "giron-d/inbox/190",
+   "new_text": "Please inform all ERMS RUNM users in your respective groups.\n\nThanks,\nKarima",
+   "new_text_source": "new",
+   "subject": "FW: New ERMS Application",
+   "thread_id": "t9cd3c95456",
+   "to": [
+    "chris.abel@enron.com",
+    "thomas.araujo@enron.com",
+    "david.baumbach@enron.com",
+    "r..brackett@enron.com",
+    "a..brown@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-05-01T10:53:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/28",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 05/01/2001 \n10:53 AM ---------------------------\nFrom: Veronica Espinoza/ENRON@enronXgate on 05/01/2001 09:03 AM\nTo: Diane Anderson/NA/Enron@Enron, Derek Bailey/Corp/Enron@ENRON, David \nBaumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, Patricia Boulanger/CAL/ECT@ECT, \nBob Bowen/HOU/ECT@ECT, Julie Brewer/NA/Enron@Enron, Lesli \nCampbell/ENRON@enronXgate, Celeste Cisneros/ENRON@enronXgate, Sharon \nCrawford/CAL/ECT@ECT, Richard Deming/NA/Enron@Enron, Russell \nDiamond/ENRON@enronXgate, Cindy Feldman/CAL/ECT@ECT, Darron C \nGiron/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Walter \nGuidroz/ENRON@enronXgate, Larry Joe Hunter/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Bianca Ornelas/NA/Enron@Enron, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron\ncc:  \nSubject: Credit Report--5/1/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--5/1/01",
+   "thread_id": "t9d2714630e",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-07T10:12:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/518",
+   "new_text": "I can't believe it is already time for our trip up to Kansas.  We are \narriving on Thursday morning and returning on Sunday morning.  Other than the \ngame on Saturday, we don't have any plans.  See you soon.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Trip",
+   "thread_id": "t9d636f1e88",
+   "to": [
+    "kim.mayers@mail.sprint.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-07T17:14:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/514",
+   "new_text": "Me and the kids get in at 10am, Kristi has to stay a little later for work \nand will be in at 3pm.  I was also thinking we could buy tickets at the \nstadium.  Don't worry about not taking time off.  See you Thursday.\n\nDG\n\n\n\n\nKim.Mayers@mail.sprint.com on 11/07/2000 10:24:50 AM\nTo: Darron.C.Giron@enron.com\ncc:  \nSubject: RE: Trip\n\n\nI can't believe it either.  I just accepted a new job, so unfortunately\nI don't think I can take any time off.  I am going to try and leave\nearly Friday.  I'm still testing out the waters over here in my new\ngroup.  I am free in the evenings so I will plan on coming over to\ndad's.  I would invite you all to stay at my house, but I don't have any\nbeds in the bedrooms!  I just moved in and am in the process of\nfurnishing.  What time are you coming in on Thursday?  Dad and I can\ncome up with some fun things for you all to do during the day.\n\nWe haven't purchased tickets for the game on Saturday.  We were thinking\nwe could just buy them the day of the game.  Shouldn't be a sell out!\nI'm sure KU will lose.  Michelle's family is all excited about going to\nthe game Saturday.\n\nI'm looking forward to seeing you all.  It's going to be a little cold\nso be sure to bring warm clothes!\n\nKim Mayers\nProduct Manager\nSprint Broadband Wireless Group\nPhone: (913) 315-9132\nPCS: (913) 269-8197\nFax: (913) 315-0760\nkim.mayers@mail.sprint.com",
+   "new_text_source": "new",
+   "subject": "RE: Trip",
+   "thread_id": "t9d636f1e88",
+   "to": [
+    "kim.mayers@mail.sprint.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-01T14:22:40+00:00",
+   "from": "carlos.giron@psiusa.com",
+   "msg_id": "giron-d/inbox/417",
+   "new_text": "Hey...have we had any luck locating NDvTEN tickets yet? How about da Bears game? Just curious.....I may have to bum some $ for tickets...At least till turkey day...I should have some extra cash by then.  So who are going to be rooting for in the games? I can't decide if I want to pull for the SEC or ND...I can't really root for Tenn.  I'll call you tonite to shoot the shit..LAter...Carlos",
+   "new_text_source": "new",
+   "subject": "Trip",
+   "thread_id": "t9d636f1e88",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-07-12T10:56:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/741",
+   "new_text": "Physical Books\nCENTRAL  483279  Gulf\nCENTMIDSTH  826984  Midcon1\nCENTMIDNTH  826985  Midcon2\nCENTMKTMIC  773281  Market\nCENTMKTCG  773283  Market2\nCENTRLTRSP  483282  Transport\n\nGas Daily & Price/Basis/Index Books\nINTRA-CENTRAL\nINTRA-CNT-GULF\nIM-CENT-MID\nINTRA-CEN-MID2\nINTRA-CNT-MKT\nINTRA-CNT-MKT2\nINTRA-CNT-TRANS\nINTRA-GD-TRANS\nINTRA-CNT-NEW\nINTRA-NGPL-STRG\n\nIf you have any questions, please call.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Officialized Books",
+   "thread_id": "t9e35bbff14",
+   "to": [
+    "rahmaan.mwongozi@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-20T15:10:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/209",
+   "new_text": "Sheri,\nWe are going to NO for JazzFest at the end of April.  April 27th-29th to be \nexact.  Let me know if you're going.\nDG",
+   "new_text_source": "new",
+   "subject": "southwest.com weekly specials",
+   "thread_id": "t9e90540e0d",
+   "to": [
+    "sheri.thomas@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-06T21:50:50+00:00",
+   "from": "carlos.giron@psiusa.com",
+   "msg_id": "giron-d/inbox/3",
+   "new_text": "Enjoy!!\nX-Apparently-To: ronniegiron@yahoo.com via web10108; 26 Jan 2002 13:00:17 -0800 (PST)\nX-Track: 1: 40\nReceived: from 63.175.134.130  (EHLO communicator.miamiair.com) (63.175.134.130)  by mta456.mail.yahoo.com with SMTP; 26 Jan 2002 13:00:00 -0800 (PST)\nFrom: Edward Parson <EParson@miamiair.com>\nTo: \"Jimmy Tovar (E-mail)\" <jtovar@powerfm.hn>\nCc: \"Jimmy Parson (E-mail)\" <jparson539@cs.com>, \"Luis Aviles (E-mail)\"\t <oporto00@hotmail.com>, =?iso-8859-1?Q?Ronnie_Gir=F3n_=28E-mail=29?=\t <ronniegiron@yahoo.com>\nSubject: wow...\nDate: Sat, 26 Jan 2002 15:57:33 -0500\nContent-Length: 485596\nMime-Version: 1.0\nContent-Type: multipart/mixed; boundary=\"=_E6BBB676.26472D7F\"\n\n\n\n>  -----Original Message-----\n> From: \tAlric Brown\n> Sent:\tSaturday, January 26, 2002 3:56 PM\n> To:\tEdward Parson\n> Subject:\tFW:\n>\n>\n>\n>\n>  <<1-1.jpg>>  <<1-2.jpg>>  <<2-1.jpg>>  <<2-2.jpg>>  <<3-1.jpg>>\n> <<3-2.jpg>>  <<4-1.jpg>>  <<4-2.jpg>>  <<4-3.jpg>>  <<5.jpg>>  <<6-1.jpg>>\n>  <<6-2.jpg>>\n\n - Part.001 \n - 1-1.jpg \n - 1-2.jpg \n - 2-1.jpg \n - 2-2.jpg \n - 3-1.jpg \n - 3-2.jpg \n - 4-1.jpg \n - 4-2.jpg \n - 4-3.jpg \n - 5.jpg \n - 6-1.jpg \n - 6-2.jpg",
+   "new_text_source": "new",
+   "subject": "Fwd: wow...",
+   "thread_id": "t9f243478a9",
+   "to": [
+    "c..giron@enron.com",
+    "m..love@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-19T09:12:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/151",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 03/19/2001 \n09:11 AM ---------------------------\nFrom: Russell Diamond/ENRON@enronXgate on 03/15/2001 09:10 AM\nTo: Janie Aguayo/HOU/ECT@ECT, Diane Anderson/NA/Enron@Enron, Derek \nBailey/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, \nPatricia Boulanger/CAL/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Debbie R \nBrackett/HOU/ECT@ECT, William S Bradford/ENRON@enronXgate, Lesli \nCampbell/ENRON@enronXgate, Celeste Cisneros/NA/Enron@Enron, Sharon \nCrawford/CAL/ECT@ECT, Richard Deming/NA/Enron@Enron, Russell \nDiamond/ENRON@enronXgate, Cindy Feldman/CAL/ECT@ECT, Darron C \nGiron/HOU/ECT@ECT, Veronica Gonzalez/ENRON@enronXgate, Jeffrey C \nGossett/HOU/ECT@ECT, Walter Guidroz/ENRON@enronXgate, Larry Joe \nHunter/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Kevin \nMeredith/Corp/Enron@ENRON, Tom Moran/ENRON@enronXgate, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron, Veronica Espinoza/ENRON@enronXgate\ncc:  \nSubject: Credit Report 3/15/01\n\n\n\n\nCounterparty    TAGG#  Action                                      \nADM Investor Services, Inc.  qX0865.1 Pending Brant Reves\n\nAGL Energy Services   qX0728.2 Pending Veronica Espinoza\n     qX0730.1\n     qX0747.1\n     qX0752.1 \n     qX0756.2\n     qX0758.2\n\nAmerada Hess Corporation  qW9317.1 Rebook to Hess Energy Trading Company LLC\nAnederson Exploration   qX0734.1 Pending Russell Diamond\nAshland Petroleum Company  qX1098.1 Rebook to Ashland Specialty Chemicals \nCompany\n\nAspect Resources LLC   qX0426.1 Pending Brant Reves/ Jay Williams\n     qX0427.1 \n\nCitizens Gas Utility District  qW7960.1 Pending Brant Reves\nEl Paso Gas Marketing Company qX0900.1.2      Rebook to El Paso Merchant \nEnergy LP\nImperial Sugar Company   qX0723.1 Pending Jay Williams\n\nLouis Dreyfus Natural Gas Holding qX0857.1 Rebook to Louis Dreyfus Corporation\n     qX1137.1 \n\nNew Counterparty   qW9498.1 Pending Darren Vanek\nPickens Fuel Corp   qX0714.2.3 Pending Brant Reves\nSempra Energy Resources  qX1028.1.2 Rebook to Sempra Energy Trading Corp\nSempra Energy Trading Services  qW9287.1 Rebook to Sempra Energy Trading Corp\nStatoil Energy Trading Inc.  qX0789.1 Rebook to Statoil Marketing & Trading US\nT. Boone Pickens   qX0714.1 Pending Brant Reves\n\nTransCanada Energy Financial Prod. qX0899.1 Rebook ENA trades to ECC ( under \nthe ISDA)\n     qX0898.1 \n\nVirginia Electric and Power Company qW9572.1 Rebook to Virginia Power Energy \nMarketing (Under the ISDA)",
+   "new_text_source": "body",
+   "subject": "Credit Report 3/15/01",
+   "thread_id": "t9f3dc51561",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-18T08:54:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/579",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 10/18/2000 \n08:49 AM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 10/18/2000 08:16:00 AM\nTo: \"Stan & Katie Wright\" <stanchas@aol.com>, \"Stacy Warren\" \n<swarre02@coair.com>, \"Sheri Thomas\" <Sheri.Thomas@enron.com>, \"Rochelle \nSmith\" <rochelle@waterengineers.com>, \"Rick Couvillon\" \n<julierickcouv@hotmail.com>, \"Raymond Paterson\" <ray_paterson@hotmail.com>, \n\"Randy Howes\" <rhowes@manistee-isd.k12.mi.us>, \"Mom&Dad\\(Lake\\) \\(E-mail\\)\" \n<rjones@mcia.com>, \"Nicol, Gary\" <nicolg@bp.com>, \"Lori Horrocks\" \n<loroks@yahoo.com>, \"Len\" <bigusdickus70@hotmail.com>, \"KRISTI GIRON\" \n<KRISTI.GIRON@cfisd.net>, \"John Schmitz\" <jschm@telxon.com>, \"Jim Miller\" \n<jraggie1@pdq.net>, \"Jim Henness \\(E-mail\\)\" <jhennes@c2i2.com>, \"Diego \nGotthelf\" <dygotthelf@hotmail.com>, \"Debbie Hall\" <gmind@icsi.net>, \"Darron C \nGiron\" <Darron.C.Giron@enron.com>\ncc:  \nSubject: Fw: Firestone\n\n\n\n----- Original Message -----\nFrom: \"Gregor, Lynn C\" <GregorLC@bp.com>\nTo: \"AlB (E-mail)\" <abelanger@PSP.com>; \"'AndrewWilliamson@aec. ca'\n(E-mail)\" <AndrewWilliamson@aec.ca>; \"Haverkamp, David S\" <HaverkDS@bp.com>;\n\"'Holly' (E-mail)\" <hollyw@email.msn.com>; \"OLIVER, JOHN J\"\n<john_j_oliver@amoco.com>; \"'Pinko' (E-mail)\" <belliott@texas.net>; \"Pedro.\nElio@transredes. com (E-mail)\" <Pedro.Elio@transredes.com>; \"raymond.\npaterson@dfait-maeci. gc. ca (E-mail)\" <raymond.paterson@dfait-maeci.gc.ca>;\n\"TJ (E-mail)\" <jens_thomassen@hotmail.com>\nSent: Wednesday, October 18, 2000 4:30 AM\nSubject: FW: Firestone\n\n\n\n - Firestone.jpg",
+   "new_text_source": "body",
+   "subject": "Fw: Firestone",
+   "thread_id": "t9f7c13f47e",
+   "to": [
+    "cgiron@mindspring.com",
+    "smmayers@earthlink.net",
+    "dawn.kenne@enron.com",
+    "phillip.love@enron.com",
+    "b.palmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-02T16:37:46+00:00",
+   "from": "kimberly.bates@enron.com",
+   "msg_id": "giron-d/inbox/420",
+   "new_text": "-----Original Message-----\nFrom: \tRangel, Ina  \nSent:\tFriday, November 02, 2001 10:37 AM\nTo:\tRybarski, Amanda; Moore, Kevin G.; Hogan, Irena D.; Bates, Kimberly; Villarreal, Alexandra; Presas, Jessica; Young, Becky; Vuittonet, Laura; Quezada, Daniel\nCc:\tHardy, Kimberly; Panos, Jason; Hernandez, Jesus A\nSubject:\t\n\nPlease forward to your groups\n\nThere is only 1 week left before moving into the new building.  There are two shredco containers located at EB3206E and in the freight elevator for documents that need shredding.  Also there will be a couple of large trash containers located on the 32nd floor today 11/2/01 and next Friday 11/9/01.   Please start the cleanup process. \n\nRemember:\n\n1.  You can only move 6 boxes per person plus equipment\n2.  Take home all IPAQ'S, Blackberry's, Palm Pilots and Laptops Friday 11/9/01 so that nothing is misplaced\n3.  If you have a cellular phone charger on your desk....don't forget to pack \n4.  Clean out all Voicemails by 5:00 PM on Friday 11/9/01\n5.  The new Enron Building will be closed to all until 5:00 AM on Monday Morning.  If you try to come up here, you will not be allowed in the     \tbuilding.\n6.  Please give your User ID and Password to your assistant so she/he can make sure that everything is up and running for you on Monday \tmorning.\n7.  If you have a headset, please pack it.   They will not be installed until Monday morning.\n8.  Since there are no amtels moving, please be sure you have MSN messenger installed in your computer because this is what your assistant \twill use to give you your \n     messages. If you do not have it, your assistant can help you install it.\n9.  Please label your PC, Boxes (on the ends), and cradles, scanners, etc.  You will have a new mouse and keyboard in the new building and your \tmonitors will have speakers on them so you don't have \n\n\nIf you have any other questions or concerns, please let me know.\n\nMany thanks!\nIna Rangel\nAdministrative Coordinator\nEnron North America\n713-853-7257 Voice\n713-646-3604 Fax",
+   "new_text_source": "body",
+   "subject": "FW:",
+   "thread_id": "t9fc92e6dbe",
+   "to": [
+    "chuck.ames@enron.com",
+    "f..brawner@enron.com",
+    "chris.germany@enron.com",
+    "john.hodge@enron.com",
+    "f..keavey@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-07T09:46:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/247",
+   "new_text": "I think everyone got the list.  Make sure we are using it.  Thanks.  I should \nbe in later this afternoon.\n\nDG",
+   "new_text_source": "new",
+   "subject": "NEW COUNTERPARTY LIST",
+   "thread_id": "t9ff3f2db58",
+   "to": [
+    "jason.wolfe@enron.com",
+    "anne.bike@enron.com",
+    "chris.walker@enron.com",
+    "carole.frank@enron.com",
+    "patrick.ryder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-11T14:08:59+00:00",
+   "from": "kam.keiser@enron.com",
+   "msg_id": "giron-d/inbox/132",
+   "new_text": "OK, the fun continues.\n\nWe need to assign EOL products to traders.  Torrey sent a file (Netco\\controls\\Trader-Book template (US Gas)_EOL new books) with all products and the old book assignments.  We need to get with the traders today and get these split out.....many will stay the same as before.  \n\nAlso, when physical deals are done, will all risk types go to the same desk or will one person be managing the index separately.  ex. the west desk used to book all index to Grigsby's book.  I have told Dawn that all risk types will go to that trader's book but if index needs to be changed let me know.\n\n\nThanks\n\nKK",
+   "new_text_source": "new",
+   "subject": "EOL products",
+   "thread_id": "ta09d7da873",
+   "to": [
+    "m..love@enron.com",
+    "scott.palmer@enron.com",
+    "c..giron@enron.com",
+    "d..winfree@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-28T19:31:29+00:00",
+   "from": "kam.keiser@enron.com",
+   "msg_id": "giron-d/inbox/63",
+   "new_text": "Now that we know which traders will be moving over, or we should, we need to make a second pass at the EOL product list.  Can you confirm with your desk heads that the list of names we have is correct, and then update the product mappings by tomorrow afternoon?\n\n\nO:\\erms\\erms_adm\\netco\\controls\\Trader-Book template (US Gas)_EOL new books.xls\n\n\nThanks\n\nKK",
+   "new_text_source": "new",
+   "subject": "EOL products",
+   "thread_id": "ta09d7da873",
+   "to": [
+    "m..love@enron.com",
+    "d..winfree@enron.com",
+    "scott.palmer@enron.com",
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-28T19:54:22+00:00",
+   "from": "d..winfree@enron.com",
+   "msg_id": "giron-d/inbox/62",
+   "new_text": "Texas is good...  O \n\n -----Original Message-----\nFrom: \tKeiser, Kam  \nSent:\tMonday, January  28, 2002 1:31 PM\nTo:\tLove, Phillip M.; Winfree, O'Neal D.; Palmer, B. Scott; Giron, Darron C.\nSubject:\tEOL products\n\nNow that we know which traders will be moving over, or we should, we need to make a second pass at the EOL product list.  Can you confirm with your desk heads that the list of names we have is correct, and then update the product mappings by tomorrow afternoon?\n\n\nO:\\erms\\erms_adm\\netco\\controls\\Trader-Book template (US Gas)_EOL new books.xls\n\n\nThanks\n\nKK",
+   "new_text_source": "body",
+   "subject": "RE: EOL products",
+   "thread_id": "ta09d7da873",
+   "to": [
+    "kam.keiser@enron.com",
+    "m..love@enron.com",
+    "scott.palmer@enron.com",
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-28T21:24:40+00:00",
+   "from": "m..love@enron.com",
+   "msg_id": "giron-d/inbox/60",
+   "new_text": "Per Grigsby, all ten traders have signed on and the products are fixed.  Thanks.\nPL",
+   "new_text_source": "new",
+   "subject": "RE: EOL products",
+   "thread_id": "ta09d7da873",
+   "to": [
+    "kam.keiser@enron.com",
+    "d..winfree@enron.com",
+    "scott.palmer@enron.com",
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-12-20T10:47:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/382",
+   "new_text": "Please read.\n\nDG\n---------------------- Forwarded by Darron C Giron/HOU/ECT on 12/20/2000 \n10:50 AM ---------------------------\n\n\nJeffrey C Gossett\n12/15/2000 08:27 AM\nTo: William Kelly/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Darron C \nGiron/HOU/ECT@ECT\ncc:  \nSubject: New Spreadsheet input\n\n\n---------------------- Forwarded by Jeffrey C Gossett/HOU/ECT on 12/15/2000 \n08:30 AM ---------------------------\n   \n\t\n\t\n\tFrom:  Burton McIntyre                           12/15/2000 08:22 AM\n\t\n\nTo: Jeffrey C Gossett/HOU/ECT@ECT, Robin Rodrigue/HOU/ECT@ECT, Rahmaan \nMwongozi/Corp/Enron@ENRON\ncc: Shona Wilson/NA/Enron@Enron, Susan D Trevino/HOU/ECT@ECT \nSubject: New Spreadsheet input\n\nFYI.  Pay special  attention to what Ramesh says about the \nIntra-Northeast-PHY book.  Call if any questions.\n\n\nBM\n\n\n---------------------- Forwarded by Burton McIntyre/HOU/ECT on 12/15/2000 \n08:23 AM ---------------------------\n\n\nGanapathy Ramesh\n12/15/2000 07:02 AM\nTo: Burton McIntyre/HOU/ECT@ECT\ncc: John D Powell/HOU/ECT@ECT \nSubject: New Spreadsheet input\n\n\nBurton,\nThe following spreadsheets were still loaded from the ng_directory. Rock did \ncall me saying that some pipe option spreadsheets were not loading through \nthe new process and when I checked it seemed like a network problem and asked \nhim to run it again and it seemed to be OK.\n\nWith the new process, there is no need for double quotes around the curve \ncode and counterparty code columns anymore. This has been automatically taken \ncare of since we process from the spreadsheet itself. This was the original \nproblem around the pipe option spreadsheets which we discovered yesterday and \nthe reason why the numbers did not match between the old and new processes.\n\nI also noticed that INTRA-NORTHEAST-PHY was officialised 4 times - 2 times in \na row in quick succcession.\n\nI would like Rock or Robin to load these spreadsheets once again during the \nday with Virendra or me as early as possible. We have been consistently been \nable to load these into the test data bases.\n\nThe ng spreadsheet also has a quoted price curve code. It should not take any \ntime to convert these spreadsheets over.\n\nThe ft_northwest sheet seems to be fine - just that it was put into the ng \ndirectory. Please advise them not to use this directory anymore. Any NT based \ndirectory will give much better response.\n\nThe surprises are the rll and the plastics text files. I thought these were \nthe first to go the new spreadsheet format.\n\nBrian Gillis was able to load his spreadsheets successfully through terminal \nserver from Calgary yesterday.\n\nRegards,\nRamesh\n\npipe_opt2_D_12142000.txt\npipe_opt_D_12142000.txt\npipe_opt_P_12142000.txt\nplas_exop_pos12142000.txt\nng_opt12142000.txt\nrll_exop_pos12142000.txt\npipe_opt2_D_12142000.xls\npipe_opt_D_12142000.xls\npipe_opt_P_12142000.xls\nft_northwest12142000.xls",
+   "new_text_source": "body",
+   "subject": "New Spreadsheet input",
+   "thread_id": "ta0dc69bee1",
+   "to": [
+    "jason.wolfe@enron.com",
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-26T09:37:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/633",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 09/26/2000 \n09:36 AM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 09/26/2000 08:09:42 AM\nTo: \"Stacy Warren\" <swarre02@coair.com>, \"Sheri Thomas\" \n<Sheri.Thomas@enron.com>, \"Rochelle Smith\" <rochelle@waterengineers.com>, \n\"Raymond Paterson\" <ray_paterson@hotmail.com>, \"Nicol, Gary\" <nicolg@bp.com>, \n\"Matt Frazier\" <fraz2girls@ev1.net>, \"Lori Horrocks\" <loroks@yahoo.com>, \n\"Len\" <bigusdickus70@hotmail.com>, \"KRISTI GIRON\" <KRISTI.GIRON@cfisd.net>, \n\"John Schmitz\" <jschm@telxon.com>, \"Jim Miller\" <jraggie1@pdq.net>, \"Jim \nHenness \\(E-mail\\)\" <jhennes@c2i2.com>, \"Jill Barnett\" \n<barnett.grp@gateway.net>, \"Debbie Hall\" <gmind@icsi.net>, \"Darron C Giron\" \n<Darron.C.Giron@enron.com>\ncc:  \nSubject: Fw: Nike\n\n\n\n----- Original Message -----\nFrom: \"Gregor, Lynn C\" <GregorLC@bp.com>\nTo: \"'AH' (E-mail)\" <alexhaw@yahoo.com>; \"'Ahmed' (E-mail)\" <AHMED@WT.net>;\n\"AlB (E-mail)\" <abelanger@PSP.com>; \"'AndrewWilliamson@aec. ca' (E-mail)\"\n<AndrewWilliamson@aec.ca>; \"'Bernie' (E-mail)\" <BERNARD.GUTNICK@ASPECT.COM>;\n\"'Couth' (E-mail)\" <CH729005@MSXSEPC.SHELL.COM>; \"Haverkamp, David S\"\n<HaverkDS@bp.com>; \"Mills, David E\" <millsde@bp.com>; \"'Holly' (E-mail)\"\n<hollyw@email.msn.com>; \"Greg Jeffrey (E-mail)\" <gjeffrey@csc.com>; \"'Jim.\nSledzik@waii. com' (E-mail)\" <Jim.Sledzik@waii.com>; \"OLIVER, JOHN J\"\n<john_j_oliver@amoco.com>; \"'phil_toy@atkearney. com' (E-mail)\"\n<phil_toy@atkearney.com>; \"Pedro. Elio@transredes. com (E-mail)\"\n<Pedro.Elio@transredes.com>; \"'Pinko' (E-mail)\" <belliott@texas.net>;\n\"raymond. paterson@dfait-maeci. gc. ca (E-mail)\"\n<raymond.paterson@dfait-maeci.gc.ca>; \"TJ (E-mail)\"\n<jens_thomassen@hotmail.com>; \"Steech (E-mail)\" <bcanada11@aol.com>\nSent: Tuesday, September 26, 2000 3:37 AM\nSubject: Nike\n\n\n>\n>\n>\n>\n>\n>\n\n - cj_1758.jpg",
+   "new_text_source": "body",
+   "subject": "Fw: Nike",
+   "thread_id": "ta14d6c6133",
+   "to": [
+    "phillip.love@enron.com",
+    "victor.guggenheim@enron.com",
+    "jackson.logan@enron.com",
+    "cgiron@mindspring.com",
+    "scrowell@us.oracle.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-04-04T14:32:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/96",
+   "new_text": "Everything is OK over here.  I heard about the spring game.  31K is alot of \npeople for a game that doesn't count.  Who is buying your company?  If it \ngoes south, I'm sure I can get you on over here.  Let me know how it turns \nout.  We need to get together for lunch again.  Can you on Friday?\n\nDG\n\n\n\n\nGreg_Carrow@valic.com on 04/04/2001 11:04:29 AM\nTo: Darron.C.Giron@enron.com\ncc:  \nSubject: what's up\n\n\nHow's it going.  Did you go to the spring game?  Our company (American\nGeneral) is being purchased.  We currently have 2 suitors.  I hope my name\nis still good at Enron.  We may all get flushed-out within the year.\n\nLet me know what's going on.",
+   "new_text_source": "new",
+   "subject": "Re: what's up",
+   "thread_id": "ta28d0ca344",
+   "to": [
+    "greg_carrow@valic.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-23T13:59:25+00:00",
+   "from": "greg_carrow@valic.com",
+   "msg_id": "giron-d/inbox/251",
+   "new_text": "Did you go to the game this weekend?    UT looked strong after the first\n20min.  Hopefully Neb. and Tech can beat OU.  The A&M game looks like it\ncould be more of a challenge than I had originally thought.    What's going\non at Enron?  I saw where the SEC will be investigating an Enron\npartership.  What's your take on the situation there?\n\nLet's go to lunch soon.\n\nGC",
+   "new_text_source": "new",
+   "subject": "What's up",
+   "thread_id": "ta28d0ca344",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-18T18:30:34+00:00",
+   "from": "scott.palmer@enron.com",
+   "msg_id": "giron-d/inbox/117",
+   "new_text": "-----Original Message-----\nFrom: \tRichardson, Stacey  \nSent:\tFriday, January 18, 2002 12:05 PM\nTo:\tGossett, Jeffrey C.; Palmer, B. Scott\nCc:\tTheriot, Kim S.; Hall, Bob M; Wallumrod, Ellen; Balfour-Flanagan, Cyndie; Elledge, Susan; Anderson, Bridgette\nSubject:\tENA Upstream deals to move\n\nWith the bankruptcy filing of ENA Upstream yesterday, please find a listing of auto-terminating deals that need to be moved into the bankruptcy books. \n\nPlease let me know if you have any questions.\n\nThanks,\nSBR x30569",
+   "new_text_source": "body",
+   "subject": "FW: ENA Upstream deals to move",
+   "thread_id": "ta2d1375db4",
+   "to": [
+    "m..love@enron.com",
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-18T20:11:01+00:00",
+   "from": "stacey.richardson@enron.com",
+   "msg_id": "giron-d/inbox/116",
+   "new_text": "Will do!\n\n -----Original Message-----\nFrom: \tLove, Phillip M.  \nSent:\tFriday, January 18, 2002 1:28 PM\nTo:\tRichardson, Stacey; Keiser, Kam; Giron, Darron C.\nSubject:\tRE: ENA Upstream deals to move\n\nI just left you a voice mail and wanted to follow it up with an email regarding the termination of deals.  Please start forwarding these requests to myself and Darron Giron.  Scott is heading another project for Gossett and Darron and I will be handling terminations from today forward.  Thanks for your help and let me know if you have any questions.  Thanks.\nPL\n\n\n -----Original Message-----\nFrom: \tPalmer, B. Scott  \nSent:\tFriday, January 18, 2002 12:31 PM\nTo:\tLove, Phillip M.; Giron, Darron C.\nSubject:\tFW: ENA Upstream deals to move\n\n\n\n -----Original Message-----\nFrom: \tRichardson, Stacey  \nSent:\tFriday, January 18, 2002 12:05 PM\nTo:\tGossett, Jeffrey C.; Palmer, B. Scott\nCc:\tTheriot, Kim S.; Hall, Bob M; Wallumrod, Ellen; Balfour-Flanagan, Cyndie; Elledge, Susan; Anderson, Bridgette\nSubject:\tENA Upstream deals to move\n\nWith the bankruptcy filing of ENA Upstream yesterday, please find a listing of auto-terminating deals that need to be moved into the bankruptcy books. \n\nPlease let me know if you have any questions.\n\nThanks,\nSBR x30569\n\n << File: ENA Upstream physicaldeals 120101 SBR.xls >>",
+   "new_text_source": "body",
+   "subject": "RE: ENA Upstream deals to move",
+   "thread_id": "ta2d1375db4",
+   "to": [
+    "m..love@enron.com",
+    "kam.keiser@enron.com",
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-19T18:47:23+00:00",
+   "from": "carole.frank@enron.com",
+   "msg_id": "giron-d/inbox/169",
+   "new_text": "As some of you might already know, I resigned today.  I feel fortunate and blessed to have had this experience here at Enron.  Not only have I learned a tremendous amount, but I also have met some very talented and unique people.  I am not 100% sure what I will do at this point, but I will probably be heading up to NYC in January.  I feel sad to end this chapter, yet excited as I begin a new one in my life.  \n\nAs always, it has been a pleasure working with you!  Keep in touch.  I will be interested to see what happens.\n\nCarole C. Frank\nEnron Net Works\n\n713.345.3960 work\n713.446.9307 cell\n713.467.3860 home\ncarole_frank@excite.com",
+   "new_text_source": "new",
+   "subject": "FW: Wishing you well",
+   "thread_id": "ta35ce7ffe6",
+   "to": [
+    "jay.reitmeyer@enron.com",
+    "frank.ermis@enron.com",
+    "mark.smith@enron.com",
+    "p..south@enron.com",
+    "barry.tycholiz@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-29T17:46:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/751",
+   "new_text": "It looks better.\n\n\nDG",
+   "new_text_source": "new",
+   "subject": "EMW-Trunkline",
+   "thread_id": "ta3e33c95be",
+   "to": [
+    "steve.jackson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-23T18:49:39+00:00",
+   "from": "lerea.pharr@enron.com",
+   "msg_id": "giron-d/inbox/252",
+   "new_text": "You are scheduled to attend the following:\n\nUNDERSTANDING OPTIONS\n\n\tWHERE:  Doubletree Downtown, Granger A/B, Houston, Texas, 713-759-0202\n\tWHEN:    October 31-November 1, 2001 - 8:00am-5:00pm\n\n\tThis is a TWO DAY SESSION.  Dress for the session is business casual.\n\nContinental breakfast is available at 7:30 a.m.  The session begins at 8:00 a.m. SHARP!!  Lunch will be available from Noon until 1:00 pm in the Dover's room.  The session will resume at 1:00 pm in Granger A/B.\n\nPlease remember to turn your pagers/cell phones to vibrate/silent mode to avoid disrupting the session and participants.  DO NOT bring your laptop to the session and attempt to work as this is distracting to the instructor and participants.\n\nthanks,\nLeRea\n713-345-8434",
+   "new_text_source": "new",
+   "subject": "Please Read this REMINDER - OPTIONS - October 31-November 1",
+   "thread_id": "ta41ce5d9e2",
+   "to": [
+    "thomas.araujo@enron.com",
+    "bo.barnwell@enron.com",
+    "stephen.borden@enron.com",
+    "michael.boutcher@enron.com",
+    "jacqueline.burnom@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-05-09T09:57:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/12",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 05/09/2001 \n09:57 AM ---------------------------\n\n\nGenaro Mendoza@ENRON\n05/08/2001 01:32 PM\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Deal 27253 - 04/01\n\nDarron,\n\nCan you please update the 04/01 price for deal # 27253 in Sitara? It \ncurrently has a rate of $2.3043 (last month's price). The customer invoiced a \nrate of $1.8351.\n\nThanks,\nGenaro",
+   "new_text_source": "body",
+   "subject": "Deal 27253 - 04/01",
+   "thread_id": "ta4ab5bd666",
+   "to": [
+    "kristen.clause@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-26T10:10:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/198",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/22/2001 \n04:55 PM ---------------------------\n\n\n\"hollyw\" <hollyw@email.msn.com> on 02/21/2001 10:45:12 PM\nTo: \"Steph\" <Stephmccue1@hotmail.com>, \"Shane Herzog\" <SHERZOG@ridgways.com>, \n\"Sheri Thomas\" <Sheri.Thomas@enron.com>, \"Pete Weidler\" \n<Peter.E.Weidler@enron.com>, \"Raymond Paterson\" <ray_paterson@hotmail.com>, \n\"Nicol, Gary\" <nicolg@bp.com>, \"Miguel Ottaviano\" \n<mottaviano@gastomarket.com>, \"KRISTI GIRON\" <KRISTI.GIRON@cfisd.net>, \"John \nSchmitz\" <john.schmitz@rlxtechnologies.com>, \"Steph and MO\" \n<headbergms1@home.com>, \"Gregor, Lynn C\" <GregorLC@bp.com>, \"Diego Gotthelf\" \n<dygotthelf@hotmail.com>, \"Debbie Hall\" <gmind@icsi.net>, \"Darron C Giron\" \n<Darron.C.Giron@enron.com>, \"Brent Wallace\" <bwallace@zahrsecurities.com>, \n\"Ben & Phyllis Tobias\" <benandphyllistobias@compuserve.com>\ncc:  \nSubject: Fw: Actual New Zealand dog food adverts\n\n\n\n----- Original Message -----\nFrom: \"Warren, Stacy\" <swarre02@coair.com>\nTo: \"Ugly Boo (E-mail)\" <hollyw@email.msn.com>\nSent: Wednesday, February 21, 2001 4:13 PM\nSubject: FW: Actual New Zealand dog food adverts\n\n\n\n\n-----Original Message-----\nFrom: John_Capshaw@Biogen.com [mailto:John_Capshaw@Biogen.com]\nSent: Wednesday, February 21, 2001 12:58 PM\nTo: cbosco1@aol.com; ggattis@bowstreet.com; kirkg@dnaco.com;\nnelson.haight@hstn.expl.pgs.com; rgrhunz@swbell.net; johnm@swbanktx.com;\nmulti1@yahoo.com; munozj@mail.rfweston.com; bwneely@yahoo.com;\npittman@banet.net; Steve_Ramirez@agfg.com; dugger@arkansas.net;\nbskataz@hotmail.com; suchniak@coastalnet.com; miket@usitx.com;\nECVigsnes@wellington.com; Warren, Stacy\nSubject: Actual New Zealand dog food adverts\n\n\n\nThese are actual advertisements from New Zealand. Frigging Hilarious!!!\n\n\n(See attached file: Dog1.jpg)\n(See attached file: Dog2.jpg)\n(See attached file: Dog3.jpg)\n(See attached file: Dog4.jpg)\n(See attached file: Dog5.jpg)\n\n\n\n\n - Dog1.jpg\n - Dog2.jpg\n - Dog3.jpg\n - Dog4.jpg\n - Dog5.jpg",
+   "new_text_source": "body",
+   "subject": "Fw: Actual New Zealand dog food adverts",
+   "thread_id": "ta4fe0274ef",
+   "to": [
+    "smmayers@earthlink.net",
+    "cgiron@mindspring.com",
+    "mark.ebert@broadwing.com",
+    "kwpope@pdq.net",
+    "kyle.lilly@enron.com"
+   ],
+   "truncated": false
+  }
+ ]
+}

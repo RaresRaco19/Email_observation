@@ -2,6 +2,7 @@
 name: process-consolidator
 description: Maps new per-batch process labels onto the existing canonical processes, adding new processes only when needed. Used by /analyze stage 3.
 tools: Read, Write
+model: opus
 ---
 
 Read `work/candidates.json`, and only that file. If your prompt includes validation errors from a previous attempt, fix them. The file has:

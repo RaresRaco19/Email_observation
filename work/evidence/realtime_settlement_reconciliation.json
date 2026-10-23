@@ -1,0 +1,309 @@
+{
+ "allowed_figures": [
+  "$77",
+  "$924",
+  "$85"
+ ],
+ "allowed_types": [
+  "sop",
+  "email"
+ ],
+ "messages": [
+  {
+   "date": "2001-06-11T18:18:19+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "fulfillment",
+   "msg_id": "williams-w3/sent_items/514",
+   "new_text": "Jim,\nHarbor and Martel were declined with the CISO for 06/08/01 HE 1 and HE 2.  The reasons: for Harbor the CISO inc'd them to 10, and ignored their operating limits as entered at 60 and 80.  Martel was inc'd but could not ramp up.  Both bids were properly entered by were ignored by the CISO.  Delano was incd'd and dec'd several times in the morning and was able to respond.\nLet me know if you have any other questions.\n\nThanks,\nBill",
+   "quote": "Harbor and Martel were declined with the CISO for 06/08/01 HE 1 and HE 2.",
+   "stall": false,
+   "subject": "RE: Supp Decline",
+   "thread_id": "t091e5056a3",
+   "to": [
+    "jim.reyes@enron.com",
+    "donna.johnson@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-12T03:20:48+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "report",
+   "msg_id": "williams-w3/sent_items/510",
+   "new_text": "Jim,\nJust a quick note regarding scheduling on Saturday.  There should be a 25 mw n-firm export for HE 7-10 and HE 13-22.  The schedule ID for HE 7-10 was CISO_EPMI_BUNNY.  The schedule ID for HE13-22 was EPMI_CISO_BUNNY.  For HE 11 and HE12, Danielle at the CISO misentered our schedule.  CAPS shows a final of 25 mws as a firm import.  This should be a n-firm export.  We recieved the energy as a firm export from the CISO.  All schedules should be under ECTSTSW not ECTRT.  If you have questions please let me know.\n\nThanks,\n\nBill",
+   "quote": "For HE 11 and HE12, Danielle at the CISO misentered our schedule.",
+   "stall": false,
+   "subject": "CAPS manual entry for 06/09/01",
+   "thread_id": "t144562fe1a",
+   "to": [
+    "kit.blair@enron.com",
+    "caroline.emmert@enron.com",
+    "donna.johnson@enron.com",
+    "eugene.lee@enron.com",
+    "kourtney.nelson@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-20T02:11:32+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "fulfillment",
+   "msg_id": "williams-w3/sent_items/481",
+   "new_text": "Heather,\nI spoke with Chris and he is on board with the annuity of $18750 from ST-CALI to ST-WHOURLY.\nThanks for the help with this.\n\nBill",
+   "quote": "I spoke with Chris and he is on board with the annuity of $18750 from ST-CALI to ST-WHOURLY.",
+   "stall": false,
+   "subject": "Annuity with ST-CALI.",
+   "thread_id": "tce50091fac",
+   "to": [
+    "heather.dunton@enron.com"
+   ]
+  },
+  {
+   "date": "2001-06-29T03:00:35+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "fulfillment",
+   "msg_id": "williams-w3/sent_items/453",
+   "new_text": "Heather,\nWe had some double deal-entry last night under the ST-WBOM book.  Consequently I zeroed the following deals out this morning after receiving the DPR and running a BOM SAR.  The deals are as follows: 665907 (buy from imbalance), and 665913 (sell to PowerX).  The extra sale to PowerX provided the excess $10,875 of revenue.  I apologize for our mistake.\nLet me know if you have any questions.\n\nThanks,\nBill",
+   "quote": "We had some double deal-entry last night under the ST-WBOM book. Consequently I zeroed the following deals out this morning after receiving the DPR and running a BOM SAR.",
+   "stall": false,
+   "subject": "Adjustments for ST-WBOM for 06/27/01",
+   "thread_id": "tdd3e76ebbd",
+   "to": [
+    "heather.dunton@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-03T16:31:22+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "escalation",
+   "msg_id": "williams-w3/sent_items/442",
+   "new_text": "Virginia,\n\nI have one question on this month's PMA and some questions from last month.  First, for deal #549162, this deal was originally put in incorrectly as counterparty TacomaSupp.  This counterparty was then changed to Tacomapubuit.  Why does a change in counterparty result in a loss of revenue?  Are we being charged for each counterparty again (like EES and ST-Cali last month), if so, we need to fix this flawed tool. \n\nSecond, for last month, we determined that the WBOM book needs a $108,000 PMA for change in price.  The appropriate price is in Enpower, but the revenue has never appeared (Deal #590753). Remember, this deal was originally input as a buy at $320 and a sell at $30 and liquidated at these prices. The deal is now at $320 and $300.  What do we need to do to get this trued up?\nPlease come see me with questions.\n\nThank you for your help.\nBill",
+   "quote": "The appropriate price is in Enpower, but the revenue has never appeared (Deal #590753). Remember, this deal was originally input as a buy at $320 and a sell at $30",
+   "stall": true,
+   "subject": "PMA's",
+   "thread_id": "t76de8158b5",
+   "to": [
+    "virginia.thompson@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-03T16:46:35+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "escalation",
+   "msg_id": "williams-w3/sent_items/441",
+   "new_text": "Virginia,\nI also had a question on a PMA from January.  On TransAlta deal #509285, your notes indicate that mw volumes for HE 23 and HE 24 were reduced by 95 mws each hour.  Enpower and the inc sheet do not reflect this change.  The PMA indicates a charge of $42750 for a reduction in our purchase from Transalta.  Why would we receive a charge for a reduction in purchased energy (ie. less money from us to Transalta)?  There is no indication of a reduction in volume on the other side of the trade (sale to Sempra-Deal#509277). Please come see me when you have a chance.  I think we need to go through this.\n\nThanks,\nBill",
+   "quote": "Enpower and the inc sheet do not reflect this change. The PMA indicates a charge of $42750 for a reduction in our purchase from Transalta.",
+   "stall": true,
+   "subject": "Transalta PMA from 01/31",
+   "thread_id": "td32cd9f448",
+   "to": [
+    "virginia.thompson@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-05T17:39:22+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "report",
+   "msg_id": "williams-w3/sent_items/431",
+   "new_text": "Jim,\nOn Tuesday we sold the CAISO replacement reserves at Malin for HE 15 and HE 16, then HE 18 through HE 22.  We were exercised for the first 40 minutes of HE 15 (for the last 20 minutes of HE 15 our energy was uninstructued and we received the dec price).  For HE 16, and HE 18-22 we were awarded the capacity payment but were not exercised.  The capacity payment should be at least $91.86 for each hour it was received.  If you have questions, please let me know.\nThanks,\nBill",
+   "quote": "we were awarded the capacity payment but were not exercised.  The capacity payment should be at least $91.86 for each hour it was received.",
+   "stall": false,
+   "subject": "Replacement Reserves",
+   "thread_id": "tecedc30912",
+   "to": [
+    "jim.reyes@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-05T19:42:12+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "request",
+   "msg_id": "williams-w3/sent_items/428",
+   "new_text": "Chip,\nI need to have a tape pulled for Ryan Slinger on July 3 at 14:40 and 14:45.  Let me know when you have the time and I will go up with you to pull the tape.\nThanks,\nBill",
+   "quote": "I need to have a tape pulled for Ryan Slinger on July 3 at 14:40 and 14:45.",
+   "stall": true,
+   "subject": "Tape",
+   "thread_id": "t3db50156dc",
+   "to": [
+    "chip.cox@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-06T01:17:29+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "followup",
+   "msg_id": "williams-w3/sent_items/426",
+   "new_text": "We could pull tapes?  Ask the person who did the deal?  There is nothing in notebooks.  Any word on the BOM PMA?",
+   "quote": "We could pull tapes?  Ask the person who did the deal?  There is nothing in notebooks.  Any word on the BOM PMA?",
+   "stall": true,
+   "subject": "RE: please check",
+   "thread_id": "t49ba2cafaa",
+   "to": [
+    "virginia.thompson@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-06T18:54:35+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "report",
+   "msg_id": "williams-w3/sent_items/425",
+   "new_text": "Good morning,\n\nYesterday for HE 10 and HE 11 we were cut Real Time by El Paso Electric on an import (EPMI_CISO_BLUE).  The import was cut by 30 mws and 42 mws respectively.  A purchase from the imbalance has been made.  Also for HE 12,  we bought back most of Harbor Cogeneration's schedule.  Harbor was going to run for 20 mws but could not.  We told Harbor that we would take the charge for them.  Therefore, the -20 mws of generation deviation for Harbor needs to be allocated to ECTRT as Load Deviation.  We put in a purchase of 20 mws from the imbalance in Enpower. \n\nFinally there is a variance for HE 17 and HE 18 possibly because of load shift from NP to SP.  We are flat in CAPS position manager.  And flat in Enpower.\n\nThanks,\nBill",
+   "quote": "the -20 mws of generation deviation for Harbor needs to be allocated to ECTRT as Load Deviation.  We put in a purchase of 20 mws from the imbalance in Enpower.",
+   "stall": false,
+   "subject": "Charge for HE 12",
+   "thread_id": "t980f1fba24",
+   "to": [
+    "kit.blair@enron.com",
+    "caroline.emmert@enron.com",
+    "eugene.lee@enron.com",
+    "kourtney.nelson@enron.com",
+    "p..o'neil@enron.com"
+   ]
+  },
+  {
+   "date": "2001-07-19T18:57:14+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "followup",
+   "msg_id": "williams-w3/sent_items/387",
+   "new_text": "I am available at any point this morning, including now.\nB",
+   "quote": "I am available at any point this morning, including now.",
+   "stall": true,
+   "subject": "RE: Annuity Deal changed #664324",
+   "thread_id": "tcfba1dbb5a",
+   "to": [
+    "virginia.thompson@enron.com"
+   ]
+  },
+  {
+   "date": "2001-08-07T20:30:23+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "report",
+   "msg_id": "williams-w3/sent_items/322",
+   "new_text": "Jim,\nI just wanted to bring to your attention the volume of congestion that we relieved last night.\nIt looks like 28 mws at $198 and 75 mws at $223.00.\nThis should be at total revenue of $22,269.00.\n\nPlease see me with any questions.\nThanks,\nBill",
+   "quote": "It looks like 28 mws at $198 and 75 mws at $223.00. This should be at total revenue of $22,269.00.",
+   "stall": false,
+   "subject": "Congestion",
+   "thread_id": "t912c395f60",
+   "to": [
+    "kit.blair@enron.com",
+    "caroline.emmert@enron.com",
+    "eugene.lee@enron.com",
+    "kourtney.nelson@enron.com",
+    "p..o'neil@enron.com"
+   ]
+  },
+  {
+   "date": "2001-08-23T16:42:30+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "escalation",
+   "msg_id": "williams-w3/sent_items/291",
+   "new_text": "Good morning.\nWe are off in position manager at Mid Columbia because of Enron Canada. I notified Murray at Enron Canada at approximately 6:15 this morning. Position manager is also not working properly, it is reporting a variance at Pacificorp system border ? and at Palo Verde. However the position manager shows no variance when detail is clicked.\nIf you have questions, let me know.\nThanks,\nBill",
+   "quote": "We are off in position manager at Mid Columbia because of Enron Canada. I notified Murray at Enron Canada at approximately 6:15 this morning.",
+   "stall": true,
+   "subject": "Position Manager",
+   "thread_id": "t9a536e3a20",
+   "to": [
+    "heather.dunton@enron.com",
+    "fran.chang@enron.com"
+   ]
+  },
+  {
+   "date": "2001-11-15T11:27:50+00:00",
+   "from": "bill.williams@enron.com",
+   "kind": "followup",
+   "msg_id": "williams-w3/sent_items/90",
+   "new_text": "Jim,\nWe also received congestion revenue for HE 10 through HE 18. HE18-although it shows nothing from the CAISO on their site (their server went down) is the same as HE17-the CAISO specifically relayed this to me on a recorded line.\nThanks,\nBill",
+   "quote": "We also received congestion revenue for HE 10 through HE 18.",
+   "stall": true,
+   "subject": "RE: Congestion Management Revenue for Tuesday",
+   "thread_id": "t7cd15ed2e0",
+   "to": [
+    "jim.reyes@enron.com"
+   ]
+  },
+  {
+   "date": "2002-01-02T04:57:55+00:00",
+   "from": "albert.meyers@enron.com",
+   "kind": "request",
+   "msg_id": "williams-w3/inbox/126",
+   "new_text": "Craig and Bill:\n\nPlease note that for Wednesday 01/02/02, Import ID ENRJ_CISO_8000 is wrong.  The On-peak needs to be a 35mw and the off-peak needs to be a 45mw.  You will want to change the load zones in SP15 to make us flat in position manager.\n\nThanks,\n\nBert Meyers",
+   "quote": "Import ID ENRJ_CISO_8000 is wrong. The On-peak needs to be a 35mw and the off-peak needs to be a 45mw.",
+   "stall": false,
+   "subject": "Imports for 01/02/02 @ Mead",
+   "thread_id": "t885428827d",
+   "to": [
+    "craig.dean@enron.com"
+   ]
+  }
+ ],
+ "opportunity": {
+  "action_idea": "A daily comparison of Enpower deals and congestion awards against CAPS and settlement data lists variances by hour and book. Settlements and the real-time desk still decide on the correcting entry or PMA.",
+  "confidence": {
+   "active_months": 8,
+   "mailboxes": 1,
+   "quotes": 55,
+   "stall_share": 0.38,
+   "threads": 44
+  },
+  "description": "The real-time desk reconciles Enpower deals, congestion revenue, annuities and prior-month adjustments against CAPS, inc sheets and settlement flashes, and chases corrections before the P&L flash.",
+  "formula": "55 messages / 9.05 months observed (williams-w3) = 6.08/month; x 15 min median handling x 60% automatable = 0.9 h/month; x $85/h = $77/month",
+  "hours_month": 0.9,
+  "id": "realtime_settlement_reconciliation",
+  "kinds": {
+   "escalation": 6,
+   "followup": 7,
+   "fulfillment": 9,
+   "fyi": 1,
+   "report": 15,
+   "request": 17
+  },
+  "mailboxes": [
+   "williams-w3"
+  ],
+  "median_minutes": 15,
+  "messages": 55,
+  "messages_per_month": 6.08,
+  "name": "Real-time congestion and deal settlement reconciliation",
+  "participants": [
+   {
+    "address": "bill.williams@enron.com",
+    "messages": 57
+   },
+   {
+    "address": "jim.reyes@enron.com",
+    "messages": 17
+   },
+   {
+    "address": "virginia.thompson@enron.com",
+    "messages": 16
+   },
+   {
+    "address": "kate.symes@enron.com",
+    "messages": 15
+   },
+   {
+    "address": "kit.blair@enron.com",
+    "messages": 7
+   },
+   {
+    "address": "caroline.emmert@enron.com",
+    "messages": 7
+   },
+   {
+    "address": "eugene.lee@enron.com",
+    "messages": 7
+   },
+   {
+    "address": "kourtney.nelson@enron.com",
+    "messages": 7
+   }
+  ],
+  "remedy": "automation",
+  "stall": {
+   "flagged_messages": 21,
+   "max_gap_hours": 139.5,
+   "median_gap_hours": 2.3
+  },
+  "threads": 44,
+  "usd_month": 77,
+  "usd_year": 924
+ }
+}

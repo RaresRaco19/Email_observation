@@ -20,6 +20,16 @@ DATE_RANGE = ("1997-01-01", "2002-12-31")  # dates outside the corpus period (lo
 STALL_GAP_MAX_DAYS = 30       # thread gaps longer than this are treated as unrelated, not stalls
 PORT = 8765
 
+# prepare marks obvious non-work mail as "none" without a labeler (observer/prefilter.py).
+# Bump PREFILTER_VERSION whenever a rule changes, so messages it labeled are re-evaluated.
+PREFILTER_VERSION = 1
+PERSONAL_DOMAINS = {"aol.com", "hotmail.com", "yahoo.com", "msn.com", "earthlink.net", "juno.com", "charter.net",
+                    "attbi.com", "swbell.net", "pdq.net", "prodigy.net", "excite.com", "worldnet.att.net",
+                    "compuserve.com", "mindspring.com", "cfisd.net"}
+BROADCAST_SENDER = r"^(no\.address|announcements?\.|enron\.announcements|chairman|office\.of)|announce"
+SOCIAL_SUBJECT = (r"\b(lunch|birthday|happy hour|(?<!3rd )(?<!third )party|baby shower|wedding|golf|football|"
+                  r"fantasy|joke|soccer|christmas)\b")
+
 
 @dataclass(frozen=True)
 class Paths:

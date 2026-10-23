@@ -1,56 +1,64 @@
 ---
 opportunity: meter_flow_missing_deal_resolution
 type: sop
-citations: [farmer-d/logistics/896, farmer-d/logistics/1055, farmer-d/logistics/1149, farmer-d/logistics/1160, farmer-d/logistics/1485, farmer-d/logistics/1356, farmer-d/logistics/1489, farmer-d/logistics/1972, farmer-d/logistics/1999, farmer-d/logistics/2137, farmer-d/logistics/130, farmer-d/logistics/117]
+citations: [farmer-d/logistics/130, farmer-d/logistics/1356, farmer-d/logistics/1149, farmer-d/logistics/1981, farmer-d/logistics/899]
 ---
 
-# SOP: Resolving metered flow with no valid Sitara deal (exception queue)
+# SOP: Daily meter-flow exception run (flow with no valid deal)
 
-**Owner:** Texas desk deal owner (currently Daren Farmer), with volume management and settlements as requesters.
-**Applies to:** current and recent production months only. Older periods stay on the manual approval path (step 5).
+**Scope.** Gas flowing at a meter with no Sitara deal, an expired deal term, or volume parked on Strangers Gas. Today Volume Management, logistics and accounting email the deal owner (mostly Daren Farmer's desk) one meter at a time. The evidence shows 260 messages over about 24 months, roughly 11 a month, worth about $184 a month ($2,208 a year) at $85/hour.
 
-## Why this exists
+## What the automation produces each day
+After the nightly allocation load, a job compares allocated and metered volumes by meter and day against active Sitara deal tickets. It writes one exception record per gap with:
+- meter, uncovered dates and volumes;
+- the closest existing deal (same meter and counterparty, term ending just before or starting just after), so the request names a deal to extend, as in this typical ask:
 
-Today volume management types the meter, deal number, dates and volume into a free-text email for every gap [farmer-d/logistics/896], then follows up until someone answers [farmer-d/logistics/1160] [farmer-d/logistics/1485]. Expired deals can go unnoticed for months:
+> Daren can you please extend Deal #422516 to cover flow of 9 dec. for 10/6/2000
+[farmer-d/logistics/1981]
 
-> There should be a deal ticket in Sitara for this sale to Engage, but it looks as though 12/99 was the last month a deal was entered
-[farmer-d/logistics/1055]
+- the deal owner on record, from the desk-maintained meter-to-owner lookup.
 
-The process runs at about 2.4 hours a month, modelled at $205 per month ($2,460 per year) at $85/hour.
+Outputs: a daily digest to each deal owner (extend / create / refer actions), a shared exception list with status, escalation notices, and a monthly aging report.
 
-## What the automation produces
+## Who does what
+| Role | Daily task |
+|---|---|
+| Deal owner (trader) | Open the digest. For each item choose extend, create new deal or buy-back, or refer for write-off. |
+| Volume Management / logistics analyst | Check the shared exception list instead of emailing. Add notes only where the record is wrong. |
+| Accounting / settlements | Watch items tied to a payment cutoff; confirm status before the deadline. |
+| Desk lead | Receives escalations and the aging report. Maintains the owner lookup and fallback owners. |
 
-A nightly job runs after the daily allocation load, and can also be run on demand before month-end close. It compares allocated daily volumes by meter and contract in Volume Management with active Sitara deals. It uses Unify paths and Feedback Monitor errors where they are available. For each meter-day with flow but no covering deal, it opens **one pre-filled case** with these fields:
+## What a person checks
+1. Digest items carry a plausible suggested deal. Reject or correct it if the term or counterparty is wrong.
+2. Parked volume is visible. An analyst who parks volume on Strangers Gas, as here, leaves it on the list until a deal is chosen:
 
-- meter, contract, counterparty, flow days and volume
-- the last Sitara deal number seen at that meter, and its evergreen flag
-- the suggested fix, such as extending a deal or creating a new one for days that are not covered (the partial-month case in [farmer-d/logistics/1149])
+> I'm going to place 98-9676 on Strangers Gas until you hear back from Daren or Julie.
+[farmer-d/logistics/899]
 
-The case goes to the owner of the last deal at that meter. If that owner is unknown, it goes to the desk fallback owner.
+3. Repeat gaps on the same meter (partial-month coverage) are grouped by deal, not listed day by day:
 
-## Daily routine
+> Can you assist Anita and I w/a deal number to place the 1st 20 days on.
+[farmer-d/logistics/1149]
 
-1. **Deal owner opens the queue each morning.** For each case, choose **Extend**, **New deal** or **Write-off/PPA**, and enter a reason. Commercial judgement stays with you: decide whether the gas should be flowing at all, and set the price and terms.
-2. **Extend / New deal:** make the change in Sitara, then enter the deal number on the case. The requester is notified automatically. This replaces one-off emails like [farmer-d/logistics/1999].
-3. **Wrong owner:** reassign the case to the right desk. Do not forward it by email. This avoids the hand-offs seen in [farmer-d/logistics/117].
-4. **Volume management / settlements:** check the queue before emailing. Raise a manual case only for gaps the job did not catch, such as a counterparty statement volume like the one in [farmer-d/logistics/2137], and fill in the same fields.
-5. **Exceptions that need an approver:** for old or large gaps, attach root cause and end-user billing details before you ask for sign-off [farmer-d/logistics/1356]. Very old periods may not be processable in the systems, so record a PPA/OBA decision on the case [farmer-d/logistics/1489].
-
-## Aging, deadlines and month-end
-
-- Cases still open after the agreed age escalate to the desk lead.
-- A month-end report lists open gaps by age and volume for volume management, settlements and the desk lead. The target is zero open meter-days at close.
-- Same-day payment deadlines are handled manually. Phone the deal owner and logistics directly:
+## Exceptions
+- **Near month-end or a payment cutoff:** items still open escalate to the desk lead. Example of the pressure this relieves:
 
 > Payment MUST be set up by noon 5/24/01 for prompt payment to Spinnaker.
 [farmer-d/logistics/130]
 
-## Things a person still checks
+- **Old or questionable volume** (found long after the fact, counterparty gone): not auto-resolved. It goes to the approver with an investigation request, since the approver will not sign off blind:
 
-- **Volumes that keep changing.** Cases on restated allocations are held until the allocation settles, so nobody reworks the same gap:
+> I am uncomfortable putting a deal out there without more details.
+[farmer-d/logistics/1356]
 
-> We go round and round at this point changing volumes two, three or more times.
-[farmer-d/logistics/1972]
+- **Cross-desk pieces** (for example East desk Unify paths): the deal owner coordinates by hand.
+- **Unowned meter:** goes to the fallback owner and appears on a weekly unowned list.
+- **Small or single-day volumes** below the threshold are held back from the digest and shown only on the aging report.
 
-- **Volume disputes with pipelines or counterparties.** These are negotiated outside the systems. Record the outcome on the case.
-- **Meters rolled every month.** Once a month, review meters that need a monthly roll and consider moving them to evergreen deals.
+## Stays manual
+Choosing extend vs. new deal vs. buy-back, pricing on new or extended deals, write-offs to unaccounted-for gas or OBA/PPA treatment, approval of old volumes, and Unify path changes across desks.
+
+## Run cadence and review
+Nightly after the allocation load, plus extra runs in the last week of the month and before settlement cutoffs. Roll out in report-only mode for one month, then review unresolved items after two production months. Track: exceptions open at month-end close, median days from first flow to a deal being extended or created, and the count of ad-hoc "please extend deal" emails.
+
+Caveat: evidence comes from one mailbox (farmer-d), and the allocation and Sitara data feeds must be confirmed before build; keep a manual export as fallback.

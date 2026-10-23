@@ -1,0 +1,832 @@
+{
+ "batch_id": "8523a69688dc",
+ "context": [],
+ "messages": [
+  {
+   "date": "2001-10-26T03:04:56+00:00",
+   "from": "bwells@pop.net",
+   "msg_id": "giron-d/inbox/261",
+   "new_text": "Your kind words and well wishes have moved me.  Try not to be so verbose.\nBW\n\n901 Brittany Drive\nLewisville, TX\n75067\n\nBill Wells\n\nNever be afraid to try something new.  Remember, amateurs built the ark.\nProfessionals built the Titanic.",
+   "new_text_source": "new",
+   "subject": "RE: Tickets",
+   "thread_id": "t84bd0273f5",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-29T23:49:50+00:00",
+   "from": "bwells@pop.net",
+   "msg_id": "giron-d/inbox/270",
+   "new_text": "I already have Enron stock.  Please send nice card.\n\nBill Wells\n\nNever be afraid to try something new.  Remember, amateurs built the ark.\nProfessionals built the Titanic.",
+   "new_text_source": "new",
+   "subject": "RE: Tickets",
+   "thread_id": "t84bd0273f5",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-19T21:13:34+00:00",
+   "from": "john.valdes@enron.com",
+   "msg_id": "giron-d/inbox/468",
+   "new_text": "Subject:\tWhat Enron Did Right\n\nA great editorial in the Wall Street Journal today.\n\nManager's Journal:\nWhat Enron Did Right\nBy Samuel Bodily and Robert Bruner\n\n11/19/2001\nThe Wall Street Journal\nA20\n(Copyright (c) 2001, Dow Jones & Company, Inc.)\n\n  This is a rough era for American business icons. Subject to the\nvagaries of age (Jack Welch), product failure (Ford/Firestone tires),\ncompetition (Lucent, AT&T), technology (Hewlett-Packard and Compaq), and\ndot-bomb bubbles (CMGI), managers and their firms remind us that being\nan icon is risky business. The latest example is Enron, whose fall from\ngrace has resulted in a proposed fire sale to Dynegy.\n\n   Once considered one of the country's most innovative companies, Enron\nbecame a pariah due to lack of transparency about its deals and the odor\nof conflicts of interest. The journalistic accounts of Enron's struggles\ndrip with schadenfreude, hinting that its innovations and achievements\nwere all a mirage.\n   We hold no brief regarding the legal or ethical issues under\ninvestigation. We agree that more transparency about potential conflicts\nof interest is needed. High profitability does not justify breaking the\nlaw or ethical norms. But no matter how the current issues resolve\nthemselves or what fresh revelations emerge, Enron has created an\nenormous legacy of good ideas that have enduring value.\n\n\n   -- Deregulation and market competition. Enron envisioned gas and\nelectric power industries in the U.S. where prices are set in an open\nmarket of bidding by customers, and where suppliers can freely choose to\nenter or exit. Enron was the leader in pioneering this business.\n\n   Market competition in energy is now the dominant model in the U.S.,\nand is spreading to Europe, Latin America, and Asia. The winners have\nbeen consumers, who have paid lower prices, and investors, who have seen\ncompetition force the power suppliers to become much more efficient. The\ncontrary experience of California, the poster child of those who would\nre-regulate the power industry, is an example of not enough\nderegulation.\n\n\n   -- Innovation and the \"de-integration\" of power contracts. Under the\nold regulated model of delivering gas and electricity, customers were\noffered a one-size-fits-all contract. For many customers, this system\nwas inflexible and inefficient, like telling a small gardener that you\ncan only buy manure by the truckload. Enron pioneered contracts that\ncould be tailored to the exact needs of the customer.\n\n   To do this, Enron unbundled the classic power contract into its\nconstituent parts, starting with price and volume, location, time, etc.,\nand offered customers choices on each one. Again, consumers won. Enron's\ninvestors did too, because Enron earned the surplus typically reaped by\ninventors. Arguably, Enron is the embodiment of what economist Joseph\nSchumpeter called the \"process of Creative Destruction.\" But creative\ndestroyers are not necessarily likable, pleasant folks, which may be\npart of Enron's problem today.\n\n\n   -- Minimization of transaction costs and frictions. Enron extended\nthe logic of de-integration to other industries. An integrated paper\ncompany, for instance, owns forests, mills, pulp factories, and paper\nplants in what amounts to a very big bet that the paper company can run\nall those disparate activities better than smaller, specialized firms.\nEnron argued that integrated firms and industries are riddled with\ninefficiencies stemming from bureaucracy and the captive nature of\n\"customers\" and \"suppliers.\" Enron envisioned creating free markets for\ncomponents within the integrated chain on the bet that the free-market\nterms would be better than those of the internal operations. The\ndevelopment of free-market benchmarks for the terms by which divisions\nof integrated firms do business with each other is very healthy for the\neconomy.\n\n\n   -- Exploiting the optionality in networks. In the old regulated\nenvironment, natural gas would be supplied to a customer through a\nsingle dedicated pipeline. Enron envisioned a network by which gas could\nbe supplied from a number of possible sources, opening the customer to\nthe benefits of competition, and the supplier to the flexibility of\nalternative sourcing strategies. Enron benefited from controlling\nswitches on the network, so that they could nimbly route the molecules\nor electrons from the best source at any moment in time to the best use,\nand choose when and where to convert molecules to electrons. This\npolicy, picked up by others in the industry, created tremendous value\nfor both customers and suppliers.\n\n\n   -- Rigorous risk assessment. The strategy of tailored contracts could\neasily have broken the firm in the absence of a clear understanding of\nthe trading risks that the firm assumed, and of very strong internal\ncontrols. Enron pioneered risk assessment and control systems that we\njudge to be among the best anywhere. Particularly with the advent of\nEnron Online, where Enron made new positions valued at over $4 billion\neach day, it became essential to have up-to-the-second information on\ncompany-wide positions, prices and ability to deliver.\n\n   The unexpected bad news from Enron has little to do with trading\nlosses by the firm, but with fears among trading partners about Enron's\nability to finance its trading activity. In a world where contracts and\ntrading portfolios are too complex to explain in a sound bite,\ncounterparties look to a thick equity base for assurance. It was the\nerosion in equity, rather than trading risk, that destroyed the firm.\n\n\n   -- A culture of urgency, innovation and high expectations. Enron's\ncorporate culture was the biggest surprise of all. The Hollywood\nstereotype of a utility company is bureaucratic, hierarchical, formal,\nslow, and full of excuses. And the stodgy images of a gas pipeline\ncompany -- Enron only 15 years ago -- is even duller and slower. Enron\nbecame bumptious, impatient, lean, fast, innovative, and demanding. It\nbred speed and innovation by giving its professionals unusual freedom to\nstart new businesses, create markets, and transfer within the firm.\n\n   Success was rewarded with ample compensation and fast promotion, and\nan open-office design fostered brainstorming. The firm's organization\nand culture was by all accounts not a safe haven for those who believe\nthe role of a large corporation is to fulfill entitlements for jobs.\nThis was a lightning rod for the firm's detractors. And yet, it could\nserve as a model for more hide-bound enterprises to emulate.\n\n   Enron was a prolific source of compelling new ideas about the\ntransformation of American business. It created a ruckus in once-quiet\ncorners of the business economy. It rewrote the rules of competition in\nalmost every area in which it did business. It thrived on volatility.\n\n   The proposed sale of Enron to Dynegy risks the loss of a major R&D\nestablishment, especially given Dynegy's track record as a second mover\nfollowing Enron's lead. Beyond what is likely to be a difficult and\ntime-consuming antitrust review, Dynegy's greater challenge will be to\nfind a way to make Enron's spirit of innovation its own. Or so we all\nshould hope, because prosperity depends on the ability of firms to\nreinvent themselves and remake their industries.\n\n   ---\n\n   Messrs. Bodily and Bruner are professors at the University of\nVirginia's Graduate School of Business Administration.",
+   "new_text_source": "new",
+   "subject": "FW: What Enron Did Right",
+   "thread_id": "t85933ddda3",
+   "to": [
+    "kam.keiser@enron.com",
+    "d..winfree@enron.com",
+    "scott.palmer@enron.com",
+    "m..love@enron.com",
+    "greg.couch@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-02T10:39:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/533",
+   "new_text": "Let's make sure we are doing this every night.  I think Jason has been \nrunning the official post id macro most nights, but we need to have the last \nperson finished do it every day.  I sure can crank out the emails when I get \nsome uninterrupted time to myself!\n\nDG",
+   "new_text_source": "new",
+   "subject": "V@R",
+   "thread_id": "t85d74bfbb1",
+   "to": [
+    "jason.wolfe@enron.com",
+    "anne.bike@enron.com",
+    "chris.walker@enron.com",
+    "carole.frank@enron.com",
+    "jennifer.bagwell@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-21T18:31:32+00:00",
+   "from": "carole.frank@enron.com",
+   "msg_id": "giron-d/inbox/236",
+   "new_text": "Thank you for agreeing to write a letter of recommending me for the Analyst Program.  I appreciate your time and opinion.  I have included a one page outline to help give you an idea of my accomplishments, job performance, and job development.  This outline is a guideline to help you.  \n\nPlease let me know if you have any questions.  Thank you again.\n\nSincerely,\n\nCarole Frank",
+   "new_text_source": "new",
+   "subject": "Carole Frank's Letter of Recommendation",
+   "thread_id": "t85f984ce72",
+   "to": [
+    "frank.ermis@enron.com",
+    "fred.lagrasta@enron.com",
+    "mike.grigsby@enron.com",
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-09T09:22:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/242",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/09/2001 \n09:22 AM ---------------------------\n   \n\n\nFrom:  Veronica Espinoza @ ENRON                                              \n               02/09/2001 09:19 AM\t\n\t\n\t\n\t                           \n\t\n\nTo: Larry Joe Hunter/HOU/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Kim S \nTheriot/HOU/ECT@ECT, Melinda Whalen/CAL/ECT@ECT, Dianne Seib/CAL/ECT@ECT, \nJanie Aguayo/HOU/ECT@ECT, Derek Bailey/Corp/Enron@ENRON, Kevin \nMeredith/Corp/Enron@ENRON, Ellen Wallumrod/NA/Enron@ENRON, Celeste \nCisneros/NA/Enron@Enron, Diane Anderson/NA/Enron@Enron, Tiffany \nWilliams/NA/Enron@Enron, Cindy Feldman/CAL/ECT@ECT, Patricia \nBoulanger/CAL/ECT@ECT, Linda Sietzema/CAL/ECT@ECT, Sharon \nCrawford/CAL/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Tanya \nRohauer/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, William S Bradford/HOU/ECT@ECT, \nRussell Diamond/HOU/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Nidia \nMendoza/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, \nDavid Baumbach/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Darron C \nGiron/HOU/ECT@ECT, Walter Guidroz/NA/Enron@Enron, Leslie Reeves/HOU/ECT@ECT, \nVeronica Gonzalez/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Jean \nBell/HOU/ECT@ECT, Ken Curry/HOU/ECT@ECT\ncc:  \nSubject: Credit Report--2/9/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--2/9/01",
+   "thread_id": "t863de5dcd1",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-05-02T09:19:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/25",
+   "new_text": "Czar Gironov\n\nSweet\n\n\n\n\n\"Brent Wallace\" <bwallace@zahrsecurities.com> on 04/27/2001 10:01:29 AM\nTo: \"Ben Rollman \\(E-mail\\)\" <BRollman@protrader.com>, \"Bill McMackin \n\\(E-mail\\)\" <bmcmackin@yahoo.com>, \"Chris Cooper \\(E-mail\\)\" \n<cccoop@bellsouth.net>, \"James Conlee \\(E-mail\\)\" <jconlee@tradecast.com>, \n\"Jeff Young \\(E-mail\\)\" <jyoung@tradecast.com>, \"Scot Jackson \\(E-mail\\)\" \n<Scot_Jackson@MCFA.COM>, \"Sheri. Thomas \\(E-mail\\)\" <Sheri.Thomas@enron.com>, \n\"Melinda Dickey \\(E-mail\\)\" <melinda@federalflange.com>, \"Robin Frederick \n\\(E-mail\\)\" <carousel13@ev1.net>, \"Jill \\(E-mail\\)\" \n<jill@chrisbellformayor.com>\ncc: <darron.c.giron@enron.com>, <alezhsu@zahrsecurities.com>, \n<rerdman@zahrsecurities.com>, \"Teri Quance \\(E-mail\\)\" \n<tquance@houston.rr.com>, <fallen@zahrsecurities.com> \nSubject: Hockey Name, Eh?\n\n\nhttp://www.maximonline.com/sports/hockey_name/\n\nGordie McWallaceson",
+   "new_text_source": "new",
+   "subject": "Re: Hockey Name, Eh?",
+   "thread_id": "t86ea38c477",
+   "to": [
+    "bwallace@zahrsecurities.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-16T15:31:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/328",
+   "new_text": "Both of us are out of town right now.  I'm in Chicago and Kristi is in \nRoundtop (outside of Brenham).  I'll let you know.  We may be spending the \nnight at the lake.  But I'm not sure.\n\nDG\n\n\n   \n\n\nFrom:  Sheri Thomas                                                           \n  01/16/2001 09:35 AM\t\n\t\n\t\n\t                           \n\t\n\nTo: kristi.giron@cfisd.net, Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: \n\nHey!  Do you guys want to play bunko Sat night?   Let me know....\n\nSheri",
+   "new_text_source": "new",
+   "subject": "Re:",
+   "thread_id": "t874e2346e2",
+   "to": [
+    "sheri.thomas@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-05T16:04:33+00:00",
+   "from": "dkenne@houston.rr.com",
+   "msg_id": "giron-d/inbox/157",
+   "new_text": "> RUSSIAN CONDOMS\n> >\n> >    Russian President Putin called President George W. Bush with an\n> \"emergency:\n> >    \"Our largest condom factory has exploded,\" the Russian President\ncried.\n> >    \"My people's favorite form of birth control......this is a true\n> disaster!\"\n> >    \"Mr. Putin, the American people would be happy to do anything within\n> their\n> >    power to help you,\" replied the President.\n> >    \"I do need your help,\" said Putin.  \"Could you possibly send\n1,000,000\n> >    condoms, ASAP, to tide us over?\"\n> >    \"Why certainly!  I'll get right on it,\" said Bush.\n> >    \"Oh, and one more small favor, please?\" said Putin.\n> >    \"Yes?\"\n> >    \"Could the condoms be red in color and at least 10 inches long and 4\n> inches\n> >    in diameter?\" asked Putin.\n> >    \"No problem,\" replied the President.\n> >    With that, George W. hung up the phone and then called the President\nof\n> the\n> >    Acme Condom Company.\n> >    \"I need a favor. You've got to send 1,000,000 condoms over to Russia\n> right\n> > away.\"\n> >    \"Consider it done,\" said the CEO of Acme.\n> >    \"Great!  Now listen.  They have to be red in color, 10 inches long,\nand\n> 4\n> >    inches in diameter.\"\n> >    \"Easily done.  Anything else?\"\n> >    \"Yeah,\" said Bush. On each one print   the words 'MADE IN TEXAS,\nSIZE:\n> > SMALL.\"\n> >\n> >\n>",
+   "new_text_source": "new",
+   "subject": "Fw: Condom Sense....",
+   "thread_id": "t876fd0d2ab",
+   "to": [
+    "desmarais.patti@enron.com",
+    "lorraine.becker@enron.com",
+    "kenne.bryon@enron.com",
+    "richard.bythewood@enron.com",
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-01T08:13:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/175",
+   "new_text": "OK, that's funny.\n\nDG\n\n\n\n\nSSCHROED@us.ca-indosuez.com on 02/28/2001 03:28:47 PM\nTo: david_craft@wbw-pc.com, dgiron@enron.com, jeff_graham@condley.com, \nbruce_d_jones@us.dell.com, sjordan@jw.com, \nrandy.g.kruger.jr@arthuranderson.com, Andy.Marusak@USASports.com, \nbshaffer@securitycapital.com, mikeshaw@andrews-kurth.com, \ntodd.w.taylor@bakernet.com, bwells@pop.net\ncc:  \nSubject: \n\n\n\n\n\n\n  Little  Johnny  walked  into  his  dad's bedroom one day and found him\n  sitting  on  the side of his bed sliding a condom onto his dick. In an\n  attempt  to hide his full erection, Johnny's father bent over as if to\n  look under the bed.\n\n\n  Little Johnny asked curiously, \"What ya doin', Dad?\"\n\n\n  His  father  quickly replied, \"I thought I saw a rat go underneath the\n  bed.\"\n\n\n  Johnny replied, \"What ya gonna do, fuck him?\"",
+   "new_text_source": "new",
+   "subject": "Re:",
+   "thread_id": "t87b8512e24",
+   "to": [
+    "sschroed@us.ca-indosuez.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-06T20:30:58+00:00",
+   "from": "claudia.clark@enron.com",
+   "msg_id": "giron-d/inbox/6",
+   "new_text": "Your PRODUCTION User ID and Password has been set up on UBSWenergy.  Please follow the steps below to access the new environment:\n\nFrom Internet Explorer connect to the UBSWenergy Production Cluster through the following link:\nhttp://remoteservices.netco.enron.com/ica/ubswenergy.ica  (use your UBSWenergy/Enron NT Log In & Password)\n\nFrom the second Start menu,  select appropriate application:\n\nUser ID:  dgiron\nPassword:   dgiron (Please Change)\n\n\nShould you have any questions or issues, please contact me at x3-9281 or the Call Center at 713-584-4444\n\n\nThank you,\n\nClaudia Clark\n713-853-9281",
+   "new_text_source": "new",
+   "subject": "Access to UBSWenergy Production Environment",
+   "thread_id": "t87eeac7b18",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-13T13:12:33+00:00",
+   "from": "m..love@enron.com",
+   "msg_id": "giron-d/inbox/224",
+   "new_text": "more gruesome pictures",
+   "new_text_source": "new",
+   "subject": "FW: pictures",
+   "thread_id": "t885a6ba9d7",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-19T12:54:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/147",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 03/19/2001 \n12:54 PM ---------------------------\nFrom: Russell Diamond/ENRON@enronXgate on 03/06/2001 04:46 PM\nTo: Barry Tycholiz/NA/Enron@ENRON, Tracey Irvin/HOU/ECT@ECT\ncc: Darron C Giron/HOU/ECT@ECT, William S Bradford/ENRON@enronXgate, Tanya \nRohauer/ENRON@enronXgate \nSubject: AEC Marketing -Credit Reserve\n\nTracey,\n\nPlease take a credit reserve for the transaction detailed below.\n\nCounterparty: AEC Marketing (USA) Inc.\nTAGG #: QT5176.1\nEnron Entity: ENA\nTransaction: 5-year Physical Nat Gas Purchase , 55,000 mmbtu/day (avg.), \nFixed Basis Price $-.305\nOriginator: Barry Tycholiz\nCredit Reserve Amount: $75,000.00",
+   "new_text_source": "body",
+   "subject": "AEC Marketing -Credit Reserve",
+   "thread_id": "t88aa4ec41b",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-19T10:17:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/646",
+   "new_text": "3-9573\n281-304-8303\n832-563-6328\nN/A\n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Irena D Hogan                           09/15/2000 09:17 AM\n\t\n\nTo: Kam Keiser/HOU/ECT@ECT, Souad Mahmassani/Corp/Enron@ENRON, Darron C \nGiron/HOU/ECT@ECT, Victor Guggenheim/HOU/ECT@ECT, Shawna \nJohnson/Corp/Enron@ENRON, Jackson Logan/HOU/ECT@ECT, Phillip M \nLove/HOU/ECT@ECT, B Scott Palmer/HOU/ECT@ECT, Cathy Sprowls/HOU/ECT@ECT, \nNatalie Baker/HOU/ECT@ECT, Jennifer Lee/NA/Enron@Enron\ncc:  \nSubject: Info for updated contact list please\n\nHi Everyone,\n\nPlease send me at your earliest convenience the following info:\n\nExtention #\n\nHome #\n\nCell #\n\nPager #\n\n\nThanks,\n\nVanessa",
+   "new_text_source": "new",
+   "subject": "Re: Info for updated contact list please",
+   "thread_id": "t88cbcca7b0",
+   "to": [
+    "irena.hogan@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-29T15:42:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/105",
+   "new_text": "Please get this info to Jim.  Thanks.\n\nDG",
+   "new_text_source": "new",
+   "subject": "December Denver Liquidation Support/March West Index Deals",
+   "thread_id": "t892b845b70",
+   "to": [
+    "patrick.ryder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-28T21:20:28+00:00",
+   "from": "csulzer@grenergy.com",
+   "msg_id": "giron-d/inbox/276",
+   "new_text": "As we discussed, I never received a confirmation of the May, June and July\nforward gas purchase (1,000 per day at Ventura at $2.895/mmBtu).  This\npurchase was made through Brian Frihart.  I need to know if Enron plans to\nstand behind this purchase.  Without confirmation, I will assume that the\ndeal is no longer valid.",
+   "new_text_source": "new",
+   "subject": "Confirmation of Forward Purchase",
+   "thread_id": "t892bf6c28c",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-29T13:53:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/106",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 03/29/2001 \n01:53 PM ---------------------------\nFrom: Darren Vanek/ENRON@enronXgate on 03/29/2001 12:44 PM\nTo: Janie Aguayo/HOU/ECT@ECT, Diane Anderson/NA/Enron@Enron, Derek \nBailey/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, \nPatricia Boulanger/CAL/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Julie \nBrewer/NA/Enron@Enron, Lesli Campbell/ENRON@enronXgate, Celeste \nCisneros/NA/Enron@Enron, Sharon Crawford/CAL/ECT@ECT, Richard \nDeming/NA/Enron@Enron, Russell Diamond/ENRON@enronXgate, Cindy \nFeldman/CAL/ECT@ECT, Darron C Giron/HOU/ECT@ECT, Veronica \nGonzalez/ENRON@enronXgate, Jeffrey C Gossett/HOU/ECT@ECT, Walter \nGuidroz/ENRON@enronXgate, Larry Joe Hunter/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Bianca Ornelas/NA/Enron@Enron, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron\ncc:  \nSubject: Credit Report 3/29/2001",
+   "new_text_source": "body",
+   "subject": "Credit Report 3/29/2001",
+   "thread_id": "t8949bab73c",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-17T12:22:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/582",
+   "new_text": "The macro in this file will query all official books for given Portfolio and \nBook codes.  Use it to make sure all your postid's that need to be, are \nofficialized each night.  Thanks.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Post ID file",
+   "thread_id": "t895068d968",
+   "to": [
+    "jason.wolfe@enron.com",
+    "anne.bike@enron.com",
+    "chris.walker@enron.com",
+    "carole.frank@enron.com",
+    "jennifer.bagwell@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-06T08:03:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/616",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 10/06/2000 \n08:03 AM ---------------------------\n   \n\t\n\t\n\tFrom:  Kevin P Radous @ ENRON                           10/05/2000 07:48 PM\n\t\n\nTo: Darron Giron\ncc:  \nSubject: stuff",
+   "new_text_source": "body",
+   "subject": "stuff",
+   "thread_id": "t897837b6c4",
+   "to": [
+    "richard.tomaski@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-31T20:19:17+00:00",
+   "from": "scott.palmer@enron.com",
+   "msg_id": "giron-d/inbox/36",
+   "new_text": "There is a P&L Summary for east desk in the Netco directory located at O:/ERMS/erms_adm/Netco/2002/0102/Regions0102/_Converted/East P&L Summ. Please take a look at it and tell me what you think. To simplify and speed up the reporting process, I added buttons that will link to the P&L's. The format may or may not resemble formats used on other desks, but I do believe the data shown is comprehensive.\n\nErrol - This may not fit your needs on the financial desk. You may need to design your own. If so, let me know if I can help. \n\n\nThanks.\n\nScott",
+   "new_text_source": "new",
+   "subject": "P&L summ",
+   "thread_id": "t898a96a83d",
+   "to": [
+    "m..love@enron.com",
+    "c..giron@enron.com",
+    "kam.keiser@enron.com",
+    "d..winfree@enron.com",
+    "errol.mclaughlin@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-13T13:45:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/777",
+   "new_text": "ENA-IM Mid Central South\nANR SW\nPEPL\nOGT (ONG)\nReliant\nWilliams\nMRT\nTransok\nEnogex\n\nENA-IM Mid Central North\nNNG\nNorthern Border\nNGPL\n\nDG    3-9573\n\n\n\nImelda Frayre\n\n06/13/2000 01:37 PM\nTo: Darron C Giron/HOU/ECT@ECT\ncc: George Smith/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT \nSubject: New ENA - IM Mid Business Units\n\nDarron, do you know which pipes these two new business units will be \ntrading?  I need to make sure that all necessary pipes are mapped to these \nbusiness units in order for traders to be able to book deals on them.  Let me \nknow if there are specific ones they will be using or if they just need all \npipes that are currently mapped to the ENA - IM Central business unit also \nmapped to these two new business units.  \n\nImelda Frayre\nx35423",
+   "new_text_source": "new",
+   "subject": "Re: New ENA - IM Mid Business Units",
+   "thread_id": "t8999b21ee6",
+   "to": [
+    "imelda.frayre@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-13T14:07:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/776",
+   "new_text": "On second thought, it might be easier to allow the two books to have deals on \nany Central pipe.  We will make sure that the deals are on the correct \ncounterparty (North or South)\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Re: New ENA - IM Mid Business Units",
+   "thread_id": "t8999b21ee6",
+   "to": [
+    "imelda.frayre@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-10T16:31:58+00:00",
+   "from": "ashley.worthing@enron.com",
+   "msg_id": "giron-d/inbox/140",
+   "new_text": "Russ,\n \nAttached are the Central Curve files and their status (old/new).\n \nAshley R. Worthing\nEnron NetWorks\nRisk Management - West Desk \n713-345-3727",
+   "new_text_source": "new",
+   "subject": "Central Curves",
+   "thread_id": "t8a2878cf40",
+   "to": [
+    "russ.severson@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-11T09:30:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/605",
+   "new_text": "Chuck - I am now working on the West desk.  In the future you can send these \nrequests to Scott.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Eastman Chemical Demand Charge",
+   "thread_id": "t8a2f8ee8f8",
+   "to": [
+    "charles.jacobs@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-01T21:57:59+00:00",
+   "from": "dgiron1@houston.rr.com",
+   "msg_id": "giron-d/inbox/167",
+   "new_text": "-----Original Message-----\nFrom: RSinBrilliance25@aol.com [mailto:RSinBrilliance25@aol.com] \nSent: Sunday, December 30, 20019:42 PM\nTo: dgiron1@houston.rr.com\nSubject: Re: Speakers\n \nWell, Good news for you! I have a friend that works at Quart and he sent me an upgraded set of cross overs. Here is my address: Douglas E. Nelson \n                                                                       24 Slater Park Ave. \n                                                                       PawtucketRI02861\nIf you can E-mail me your address I can have the package ready so as soon as I receive payment I will send them out. Thank you",
+   "new_text_source": "body",
+   "subject": "FW: Speakers",
+   "thread_id": "t8a378f6539",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-04-04T14:37:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/95",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 04/04/2001 \n02:36 PM ---------------------------\n\n\nDarnellmo@aol.com on 04/04/2001 06:45:26 AM\nTo: cgiron@mindspring.com, yhaynes@mindspring.com, Darron.C.Giron@enron.com, \nKRISTI.GIRON@cfisd.net\ncc: paulgrobasr@hotmail.com, mcnewsome@tmw.com, barbara.mcandrews@cfisd.net, \nsusan.cory@phschool.com \nSubject: Fwd: Texans !!!\n\n\nAnd this is from ?my Kansas brother!!!!\nReturn-Path: <jcmayers@earthlink.net>\nReceived: from  rly-yh05.mx.aol.com (rly-yh05.mail.aol.com [172.18.147.37]) \nby air-yh05.mail.aol.com (v77_r1.36) with ESMTP; Tue, 03 Apr 2001 11:23:57 \n-0500\nReceived: from  mail1.kc.rr.com (fe1.rdc-kc.rr.com [24.94.163.48]) by \nrly-yh05.mx.aol.com (v77_r1.36) with ESMTP; Tue, 03 Apr 2001 11:23:31 1900\nReceived: from pavilion ([65.28.17.153]) by mail1.kc.rr.com  with Microsoft \nSMTPSVC(5.5.1877.537.53);  Tue, 3 Apr 2001 10:20:33 -0500\nMessage-ID: <004d01c0bc63$0276d3e0$99111c41@kc.rr.com>\nFrom: \"Clark Mayers\" <jcmayers@earthlink.net>\nTo: <Darnellmo@aol.com>\nSubject: Texans !!!\nDate: Tue, 3 Apr 2001 10:24:59 -0700\nMIME-Version: 1.0\nContent-Type:  multipart/alternative; \nboundary=\"----=_NextPart_000_004A_01C0BC28.55F66A20\"\nX-Priority: 3\nX-MSMail-Priority: Normal\nX-Mailer: Microsoft Outlook Express 5.00.3018.1300\nX-MimeOLE: Produced By Microsoft MimeOLE V5.00.3018.1300\n\n\n?\nTexas Baby \n\nA Texan buys a round of drinks for all in  the bar?because, he announces\nhis wife has just produced \"a typical  Texas baby boy weighing 25 pounds.\"\nCongratulations shower him from all  around, and many?exclamations of\n\"Wow!\" are heard. A woman faints due  to?sympathy pains \n\nTwo weeks later, he returns to the bar. The  bartender?says, \"Say,\nyou're the father of the typical Texas  baby?that weighed 25 pounds at\nbirth. How much does he weigh now?\"  \n\nThe proud father answers, \"Seventeen pounds.\" \n\nThe bartender is  puzzled, concerned. \"Why? What?happened? He already\nweighed 25 pounds at  birth.\" \n\nThe Texas father takes a slow swig from his long-neck?Lone  Star, wipes\nhis lips on his shirtsleeve, leans into?the bartender and  proudly\nsays,? \"Had him circumcised.\" \n\n\n\n\n?",
+   "new_text_source": "body",
+   "subject": "Fwd: Texans !!!",
+   "thread_id": "t8a3f5b382d",
+   "to": [
+    "kristi.giron@cfisd.net",
+    "hollyw@email.msn.com",
+    "dawn.kenne@enron.com",
+    "scott.crowell@us.cgeyc.com",
+    "phillip.love@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-05-11T14:29:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/5",
+   "new_text": "Frank,\nAttached is my PBA nomination for Anne Bike.  Let me know if I left anything \nout, or need to do anything else.  Thanks,\nDG",
+   "new_text_source": "new",
+   "subject": "PBA",
+   "thread_id": "t8a86105e87",
+   "to": [
+    "frank.jesus@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-17T12:48:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/581",
+   "new_text": "I will be there.  Thanks.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Re: Farewell Luncheon Invite",
+   "thread_id": "t8a8a724779",
+   "to": [
+    "chantelle.villanueva@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-19T08:41:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/153",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 03/19/2001 \n08:40 AM ---------------------------\nFrom: Jason R Williams/ENRON@enronXgate on 03/13/2001 11:13 AM\nTo: Janie Aguayo/HOU/ECT@ECT, Diane Anderson/NA/Enron@Enron, Derek \nBailey/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, \nPatricia Boulanger/CAL/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Debbie R \nBrackett/HOU/ECT@ECT, William S Bradford/ENRON@enronXgate, Lesli \nCampbell/ENRON@enronXgate, Celeste Cisneros/NA/Enron@Enron, Sharon \nCrawford/CAL/ECT@ECT, Richard Deming/NA/Enron@Enron, Russell \nDiamond/ENRON@enronXgate, Cindy Feldman/CAL/ECT@ECT, Darron C \nGiron/HOU/ECT@ECT, Veronica Gonzalez/ENRON@enronXgate, Jeffrey C \nGossett/HOU/ECT@ECT, Walter Guidroz/ENRON@enronXgate, Larry Joe \nHunter/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Kevin \nMeredith/Corp/Enron@ENRON, Tom Moran/ENRON@enronXgate, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron, Veronica Espinoza/ENRON@enronXgate\ncc:  \nSubject: Credit Report for 3/13/2001\n\n\n\nCounterparty     TAGG#  \nAction                                                            \nAmoco Oil Company    qW3725.1 Rebook to BP Amoco Corporation\n      qW4703.1 Rebook to BP Amoco Corporation\n      qW5571.1 Rebook to BP Amoco Corporation\n      qW5749.1  Rebook to BP Amoco Corporation\n\nBP Exploration & Oil Inc.   qW4759.1 Pending Russell Diamond\n      qW4826.1 Pending Russell Diamond\n      qW4826.2 Pending Russell Diamond\n\nCNG Appalachian    qB8841.8 Pending Rudwell Johnson\n      qB8841.9 Pending Rudwell Johnson\n      qW5776.1 Pending Rudwell Johnson\n      qW5776.2 Pending Rudwell Johnson\n      qW5776.3 Pending Rudwell Johnson\n\nCoral Energy Resources, L.P.   qW4526.1 Rebook to Coral Energy Holding, L.P.\n\nLandmark Chemicals S.A.   qW4497.1 Pending Brant Reves\n      qW4610.1 Pending Brant Reves\n\nNew Counterparty    qW5666.1 Pending Jay Williams\n\nVirginia Electric and Power Co   qW4363.1 Rebook to Virginia Power Energy \nMarketing, Inc.\n\nWWF Paper National    qW5772.1 Rebook to WWF Paper Corporation\n\nWilliams Natural Gas Company   qW5417.1 Rebook to Williams Energy Marketing & \nTrading Company",
+   "new_text_source": "body",
+   "subject": "Credit Report for 3/13/2001",
+   "thread_id": "t8a98f5afb1",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-16T17:05:40+00:00",
+   "from": "mary.poorman@enron.com",
+   "msg_id": "giron-d/inbox/483",
+   "new_text": "Darron,\n\nThe daily imbalance check is Bill's and has been since the reorg. He is the only\none with sign off authority on it, so anything you send me I have to walk over to\nhim anyway.\n\nJust route it straight to Bill going forward.\n\nMary",
+   "new_text_source": "new",
+   "subject": "daily imbalance sign off",
+   "thread_id": "t8a9db7f504",
+   "to": [
+    "darron.giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-20T09:26:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/144",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 03/20/2001 \n09:26 AM ---------------------------\nFrom: Veronica Espinoza/ENRON@enronXgate on 03/20/2001 09:02 AM\nTo: Janie Aguayo/HOU/ECT@ECT, Diane Anderson/NA/Enron@Enron, Derek \nBailey/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, \nPatricia Boulanger/CAL/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Julie \nBrewer/NA/Enron@Enron, Lesli Campbell/ENRON@enronXgate, Celeste \nCisneros/NA/Enron@Enron, Sharon Crawford/CAL/ECT@ECT, Richard \nDeming/NA/Enron@Enron, Russell Diamond/ENRON@enronXgate, Cindy \nFeldman/CAL/ECT@ECT, Darron C Giron/HOU/ECT@ECT, Veronica \nGonzalez/ENRON@enronXgate, Jeffrey C Gossett/HOU/ECT@ECT, Walter \nGuidroz/ENRON@enronXgate, Larry Joe Hunter/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Bianca Ornelas/NA/Enron@Enron, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron\ncc:  \nSubject: Credit Report--3/20/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--3/20/01",
+   "thread_id": "t8af7ee074a",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-10-20T13:08:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/567",
+   "new_text": "We have some new procedures for changing deals that affect other books.  \nPlease read and let me know if you have any further questions.  You don't \nneed to request minibook access individually.  I have, so if needed we can \nrun them on my machine.  Thanks.\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Changing Deals",
+   "thread_id": "t8b86868851",
+   "to": [
+    "jason.wolfe@enron.com",
+    "anne.bike@enron.com",
+    "chris.walker@enron.com",
+    "carole.frank@enron.com",
+    "jennifer.bagwell@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-21T09:24:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/138",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 03/21/2001 \n09:24 AM ---------------------------\nFrom: Veronica Espinoza/ENRON@enronXgate on 03/21/2001 09:12 AM\nTo: Janie Aguayo/HOU/ECT@ECT, Diane Anderson/NA/Enron@Enron, Derek \nBailey/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, \nPatricia Boulanger/CAL/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Julie \nBrewer/NA/Enron@Enron, Lesli Campbell/ENRON@enronXgate, Celeste \nCisneros/NA/Enron@Enron, Sharon Crawford/CAL/ECT@ECT, Richard \nDeming/NA/Enron@Enron, Russell Diamond/ENRON@enronXgate, Cindy \nFeldman/CAL/ECT@ECT, Darron C Giron/HOU/ECT@ECT, Veronica \nGonzalez/ENRON@enronXgate, Jeffrey C Gossett/HOU/ECT@ECT, Walter \nGuidroz/ENRON@enronXgate, Larry Joe Hunter/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Bianca Ornelas/NA/Enron@Enron, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron\ncc:  \nSubject: Credit Report--3/21/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--3/21/01",
+   "thread_id": "t8be2ea41f9",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-24T09:13:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/300",
+   "new_text": "Genaro,\n\nThis is a Central deal.  I work on the West Desk.  I am forwarding it to the \nappropriate people.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "Re: 12/00 Agave Pricing",
+   "thread_id": "t8be618f9f0",
+   "to": [
+    "genaro.mendoza@enron.com",
+    "b.palmer@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-12-27T07:23:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/367",
+   "new_text": "It is good for me.\n\nDG    3-9573\n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Irena D Hogan                           12/14/2000 04:11 PM\n\t\n\nTo: John Valdes/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Darron C \nGiron/HOU/ECT@ECT, ECT QA/HOU/ECT@ECT, William Kelly/HOU/ECT@ECT, Greg \nCouch/HOU/ECT@ECT\ncc:  \nSubject: Offsite on Friday, February 2\n\n\nPlease reply, letting me know if Friday, February 2 , 2001, is a good day for\n\n you to be out of the office.  We are in the process for planning a team \nbuilding for Risk Management.\n\nPlease note, this will be an all day event. I will be waiting for you to all \nget back with me.\n\nThank you,\n\nIrena",
+   "new_text_source": "new",
+   "subject": "Re: Offsite on Friday, February 2",
+   "thread_id": "t8bf7661d75",
+   "to": [
+    "irena.hogan@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-14T14:08:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/224",
+   "new_text": "Hey,\nBrent has started a softball team to play on Sunday evenings.  He wants to \nknow if you are interested.  \nDG",
+   "new_text_source": "new",
+   "subject": "",
+   "thread_id": "t8c2f2db402",
+   "to": [
+    "sheri.thomas@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-05T09:54:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/348",
+   "new_text": "Thanks, I got it yesterday.\n\nDG\n\n\n\n\n\"Sean Quigley\" <sean@audionmore.com> on 01/04/2001 10:44:37 AM\nTo: <dgiron@enron.com>\ncc:  \nSubject: Order Shipped\n\n\nYour recent order from Audio N More was shipped from one of our shipping\nlocations on 12/27/00 and is scheduled for delivery today, 1/4/01.\n\nThe UPS tracking number is:  1ZE148140344435868\n\nUnfortunately, we your email address incorrect, therefore you did not\nreceive the tracking notification when your order shipped.  Please accept\nour apologies for this oversight.\n\nThank you again for your order.\nWe're open 24 hours/7days on the Web!\nShop direct from our catalog at:\nhttp://www.audionmore.com/Merchant2/merchant.mv?Screen=SFNT&Store_Code=ANM\n\nSecure server at:\nhttps://nereus.safe-order.net/custom-car-sound/order.htm\n\nPayment is quick & easy with on-line Telecheck.\nhttp://audio-n-more.com/customer/online_check_payment.htm\n\nSales hours posted on site: 1-866-365-4202",
+   "new_text_source": "new",
+   "subject": "Re: Order Shipped",
+   "thread_id": "t8c889c1e1d",
+   "to": [
+    "sean@audionmore.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-03T14:42:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/356",
+   "new_text": "Andrea,\n\nThe locations are all the same because I'm not sure exactly where they will \nsit.  The Cost Center is for my desk (West), and this will most likely change \nas well.  I think we need to meet them to see where they would be a better \nfit.  Thanks.\n\nDG    3-9573\n\n\nP. Ryan O'Rourke\nEB3262C\nEnergy Operations\nENA\n0413\n103816\nDarron Giron\n\nBart Roy Burk, Jr.\nEB3262C\nEnergy Operations\nENA\n0413\n103816\nErrol McLaughlin\n\nBiliana Pehlivanova\nEB3262C\nEnergy Operations\nENA\n0413\n103816\nKam Keiser\n\n\n   \n\tEnron North America Corp.\n\t\n\tFrom:  Andrea Richards @ ENRON                           01/03/2001 11:51 AM\n\t\n\nTo: Darron C Giron/HOU/ECT@ECT\ncc: Lisa Jones/NA/Enron@ENRON \nSubject: First Year Analyst  \n\nDarron, per our telephone conversation this morning, please confirm that you \nwill take the following Analysts in your group for their first rotation.\n\n P. Ryan O'Rourke\n Bart Roy Burk, Jr.\n Biliana Pehlivanova\n\nPlease provide the following information for all listed above.\n\nLocation       : \nDepartment     : \nCompany Name   : \nCompany Number : \nCost Center    : \nReviewing Supervisor: \n\nThanks!\n\nAndrea\nx36499",
+   "new_text_source": "new",
+   "subject": "Re: First Year Analyst",
+   "thread_id": "t8cdb0e69c0",
+   "to": [
+    "andrea.richards@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-28T14:16:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/114",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 03/28/2001 \n02:15 PM ---------------------------\n\n\nStacey Vallejo\n03/28/2001 12:51 PM\nTo: Jeffrey C Gossett/HOU/ECT@ECT, Darron C Giron/HOU/ECT@ECT, David \nBaumbach/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Kam \nKeiser/HOU/ECT@ECT\ncc: Sherry Dawson/NA/Enron@Enron \nSubject: Deals still to be flipped to FT-US/CAND-ERMS book by end of the day.\n\nHi guys,\n\nHere is a list of the deals that I've come across in the different books that \nstill need to be flipped to the P& book by the end of today.\n\nFT-CENT     \n\nQU4059.1\n\nFT-NORTHWEST\n\n\n\nFT-ONTARIO\n\n\n\nFT-WEST\n\n\n\nGD-CENTRAL\n\n\n\nNG-EXOTIC\n\nQY3631.1\n\nNG-PRICE\n\n\n\nThese were the only books that I found deals to be flipped.  I was looking \nfor all deals that are to settle during March and April 2001 with ECC.  If \nyou find any others that I might have missed, please flip them.  \n\nPlease let me know if you have any questions on this.  Thanks for all your \nhelp\n\nStacey",
+   "new_text_source": "body",
+   "subject": "Deals still to be flipped to FT-US/CAND-ERMS book by end of the day.",
+   "thread_id": "t8cf74e73fa",
+   "to": [
+    "ryan.o'rourke@enron.com",
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-08-09T17:17:26+00:00",
+   "from": "bryant.frihart@enron.com",
+   "msg_id": "giron-d/inbox/195",
+   "new_text": "-----Original Message-----\nFrom: Jerrell Clark [mailto:jlclark@bscn.com]\nSent: Wednesday, August 08, 2001 5:17 PM\nTo: Bryant Frihart\nSubject: Arkansas Gas Consumers\n\n\nBryant, attached is the AGC load profile data that we visited about on the phone today.  The load data has been \"sanitized\" so that individual AGC members cannot be identified.  \n \nPlease call if you have questions or need additional information.  \n \nRepresentatives from AGC who will be attending the meeting on August 20 are as follows:\nTed Impson, Lion Oil\nJohn Crnic, Kimberly Clark\nCarl Simpson, Riceland Foods\nTerry Freeman, Bibler Brothers\nRick Hice, Acme Brick\nBill Cates, Cross Oil\nGlen Hoggard, AGC Attorney\nJerrell Clark, AGC Executive Director\n \nWe are looking forward to visiting with you regarding gas supply opportunities.",
+   "new_text_source": "body",
+   "subject": "FW: Arkansas Gas Consumers",
+   "thread_id": "t8d78d66f64",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-12-03T17:33:23+00:00",
+   "from": "robert.jones@mailman.enron.com",
+   "msg_id": "giron-d/inbox/286",
+   "new_text": "Please review the home addresss and phone number shown on this eMail.  DO NOT RESPOND if the information is correct.  However, if incorrect then reply to this eMail with the correct information so you HR records can be updated accordingly.  Your home information is important in case the Company needs to forward critical materials to you or contact you regarding important Company information.\n\n\nAddress Line 1: 14343 MILLSTONE ESTATES\nAddress Line 2:\nAddress Line 3:\nCity: CYPRESS\nState: TX\nCountry: US\nZip: 77429\nPhone: 2813048303",
+   "new_text_source": "new",
+   "subject": "Home Contact Information",
+   "thread_id": "t8d93cceb17",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-04-09T08:38:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/83",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 04/09/2001 \n08:38 AM ---------------------------\n\n\nGenaro Mendoza@ENRON\n04/06/2001 12:49 PM\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: 03/01 Price Update - # 27253\n\nDarron,\n\nDeal # 27253 has a price of $2.7423 for 03/01 production (this is the price \nused for 02/01). The customer invoiced ENA a price of $2.3043. Can you please \nupdate the deal in Sitara to reflect the correct price for 03/01?\n\nThanks,\nGenaro",
+   "new_text_source": "body",
+   "subject": "03/01 Price Update - # 27253",
+   "thread_id": "t8dc71001a6",
+   "to": [
+    "kristen.clause@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-04-09T08:43:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/81",
+   "new_text": "We are updating the pricing today.  I'll let you know when it's finished.\n\nDG",
+   "new_text_source": "new",
+   "subject": "Re: 03/01 Price Update - # 27253",
+   "thread_id": "t8dc71001a6",
+   "to": [
+    "genaro.mendoza@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-10-16T17:53:30+00:00",
+   "from": "iris.mack@enron.com",
+   "msg_id": "giron-d/inbox/247",
+   "new_text": "Hi,\n\n\t \tThe power options trading desk is beginning to structure deals and to make markets in spark spread options ( options on the spreads between power prices and natural gas prices).  Please refer to the attached file for further information.   \n\t\n\n \t   \tIt would be most helpful to meet with the relevant individuals  on the Gas desk  who would be interested in spark spread options.\n\n   \t\n\t \t Thank you in advance for your assistance.\n    \nKind regards,\nIris Mack, MBA/PhD\nEnron Power Options Trading Desk\nx3-6711",
+   "new_text_source": "new",
+   "subject": "RE: Spark Spread Options",
+   "thread_id": "t8dde40de07",
+   "to": [
+    "iris.mack@enron.com",
+    "john.arnold@enron.com",
+    "mike.maggi@enron.com",
+    "tom.donohoe@enron.com",
+    "kevin.ruscitti@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-01T17:35:48+00:00",
+   "from": "elena.chilkina@enron.com",
+   "msg_id": "giron-d/inbox/35",
+   "new_text": "HI:\n\nThank you for a productive meeting this morning! Per our discussion, we will need Risk and Credit Aggregation to pull the same Post IDs in order to have counterparties $ exposure to reconcile. In addition, corporations and its divisions should be matched to arrive to the similar counterparty list, as well as the decision should be made on whether to include ENA Affiliates for this particular exercise. \n\nBelow is the contact information:\n\nEd McMichael\t(cell) 713.582.8379\nLouis DiCarlo \t(cell) 713.444.9138\nElena Chilkina\t(cell) 713.302.2619\n\nHave a great weekend,\n\nElena and Louis\n\nElena E. Chilkina\nEnron Americas\n713.853.4305",
+   "new_text_source": "new",
+   "subject": "Financial Gas",
+   "thread_id": "t8e5012c9e5",
+   "to": [
+    "c..giron@enron.com",
+    "greg.couch@enron.com",
+    "patrick.ryder@enron.com",
+    "tom.moran@enron.com",
+    "bjorn.hagelmann@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-09-27T16:35:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/630",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 09/27/2000 \n04:35 PM ---------------------------\n\n\n\tKevin W Drachenberg\n\t09/27/2000 11:24 AM\n\t\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Peoples Gas --> $5,000 Invoice for Summer-Winter Exchange 6-1-00 to \n7-31-00\n\nTrying to wrap up as much as I can before my last day on Friday.  Have you \nhad a chance to look into this?\n\nKevin\n---------------------- Forwarded by Kevin W Drachenberg/HOU/ECT on 09/27/2000 \n11:23 AM ---------------------------\n\n\n\tKevin W Drachenberg\n\t09/14/2000 10:31 AM\n\t\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Peoples Gas --> $5,000 Invoice for Summer-Winter Exchange 6-1-00 to \n7-31-00\n\nThis is the detail for the invoice I mentioned in my voice mail to you.  I \nneed to get the Sitara number if this has been set up so I can pay Peoples.\n\nThanks,\nKevin\nx3-0560\n---------------------- Forwarded by Kevin W Drachenberg/HOU/ECT on 09/14/2000 \n10:31 AM ---------------------------\n\n\n\tKevin W Drachenberg\n\t08/28/2000 05:34 PM\n\t\nTo: Kevin P Radous/Corp/Enron@Enron\ncc:  \nSubject: Peoples Gas --> $5,000 Invoice for Summer-Winter Exchange 6-1-00 to \n7-31-00\n\nKevin,\n\nDoing some more month end clean up.  \n\nI received an invoice from Peoples Gas to ENA for $5,000.  The description is:\n\nFor Summer-Winter Exchange Agreement between Peoples and ENA from June 1,2000 \nthrough July 31,200 for 1Bcf.\n\n1 Bcf Program Original Hedge:  1,000,000 MMBtu x .005 = $5,000\n\nI cannot find a Sitara deal for this amount.  Will you please look into \nthis?  They told me the deal maker is Richard Tomaski.\n\nIf you send me your fax number I'll send you a copy of the invoice.\n\nThanks,\nKevin",
+   "new_text_source": "body",
+   "subject": "Peoples Gas --> $5,000 Invoice for Summer-Winter Exchange 6-1-00 to 7-31-00",
+   "thread_id": "t8e50be634f",
+   "to": [
+    "kevin.radous@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-12-13T14:54:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/396",
+   "new_text": "Patrick,\nSee if you can help this guy.  I don't have access to Denver deals.\nDG",
+   "new_text_source": "new",
+   "subject": "TAGG # Needed",
+   "thread_id": "t8f090046c4",
+   "to": [
+    "patrick.ryder@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-01-12T15:05:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/331",
+   "new_text": "Andrea,\n\nWe would like to bring Bradley D. Jones into the Risk Management group.  The \nlocation may change.\n\nSladana Anna Kulic\nEB3255C\nEnergy Operations\nENA\n083E\n103818\nKam Keiser\n\nThanks.\n\nDG    3-9573",
+   "new_text_source": "new",
+   "subject": "",
+   "thread_id": "t8fed65e875",
+   "to": [
+    "andrea.richards@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-12-18T11:08:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/386",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 12/18/2000 \n11:07 AM ---------------------------\n\n\n\"Brent Wallace\" <bwallace@zahrsecurities.com> on 12/18/2000 11:01:25 AM\nPlease respond to <BWallace@zahrsecurities.com>\nTo: \"Darron. C. Giron@enron. com\" <Darron.C.Giron@enron.com>, \"Joe@gallup. \ncom\" <Joe@gallup.com>, \"Chris Cooper\" <chris@savatech.com>\ncc:  \nSubject: Gore in '04\n\n\nJust another reason, that I'm a Democrat.\n\nhttp://vegasinsider.com/vhtml/u/ce/column/0,2863,3214024,00.html\n\nJerry the Fixer",
+   "new_text_source": "body",
+   "subject": "Gore in '04",
+   "thread_id": "t9102838071",
+   "to": [
+    "jason.wolfe@enron.com",
+    "phillip.love@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-09-21T21:50:16+00:00",
+   "from": "ahadonation@heart.org",
+   "msg_id": "giron-d/inbox/237",
+   "new_text": "Dear  Darron  Giron,\nThank you for your contribution to the American Heart Association.\nWe appreciate your thoughtfulness in joining us in the fight\nagainst heart disease and stroke.\n\nSincerely,\n\nAmerican Heart Association\nThis e-mail is a receipt for your donation of $50.00.\nFor future reference your transaction number is 49782.\nNo goods or services were provided in consideration of this gift.",
+   "new_text_source": "new",
+   "subject": "Donation Confirmation",
+   "thread_id": "t912cc56703",
+   "to": [
+    "dgiron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-02-06T20:37:18+00:00",
+   "from": "c..kenne@enron.com",
+   "msg_id": "giron-d/inbox/5",
+   "new_text": "Darron and Brian\t\n\nI pushed a few test deals for Canadian products through and need you to review these deals in Tagg and Sitara to verify that they are booking correctly for valuation purposes.  Please let me know if you see any problems (indexes, books, pricing, etc.)  Don't worry about the deal highlighted in pink..I am working on getting this to bridge.\n\nPlease reply by e-mail!!!\n\nDawn",
+   "new_text_source": "new",
+   "subject": "Canada products",
+   "thread_id": "t914922a228",
+   "to": [
+    "brian.gillis@enron.com",
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-04-18T09:44:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/61",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 04/18/2001 \n09:43 AM ---------------------------\nFrom: Russell Diamond/ENRON@enronXgate on 04/18/2001 09:34 AM\nTo: Janie Aguayo/HOU/ECT@ECT, Diane Anderson/NA/Enron@Enron, Derek \nBailey/Corp/Enron@ENRON, David Baumbach/HOU/ECT@ECT, Jean Bell/HOU/ECT@ECT, \nPatricia Boulanger/CAL/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Julie \nBrewer/NA/Enron@Enron, Lesli Campbell/ENRON@enronXgate, Celeste \nCisneros/NA/Enron@Enron, Sharon Crawford/CAL/ECT@ECT, Richard \nDeming/NA/Enron@Enron, Russell Diamond/ENRON@enronXgate, Cindy \nFeldman/CAL/ECT@ECT, Darron C Giron/HOU/ECT@ECT, Veronica \nGonzalez/ENRON@enronXgate, Jeffrey C Gossett/HOU/ECT@ECT, Walter \nGuidroz/ENRON@enronXgate, Larry Joe Hunter/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Errol \nMcLaughlin/Corp/Enron@ENRON, Nidia Mendoza/ENRON@enronXgate, Tom \nMoran/ENRON@enronXgate, Bianca Ornelas/NA/Enron@Enron, Leslie \nReeves/HOU/ECT@ECT, Tanya Rohauer/ENRON@enronXgate, Dianne Seib/CAL/ECT@ECT, \nLinda Sietzema/CAL/ECT@ECT, Kim S Theriot/HOU/ECT@ECT, Ellen \nWallumrod/NA/Enron@ENRON, Melinda Whalen/CAL/ECT@ECT, Tiffany \nWilliams/NA/Enron@Enron, Veronica Espinoza/ENRON@enronXgate, Darren \nVanek/ENRON@enronXgate\ncc:  \nSubject: Credit Report -4/18/01\n\n\n\nCounterparty    TAGG#    \nAction                                                \nAEP Energy Services Ltd  v38781.1,v38820.1, v38836.1 Rebook to AEP Energy \nServices, Inc\n \"    v38853.1, v39705.1   \"\nAngus Energy, Inc.   v39878.1   Pending Brant Reves\nBank of America Corporation  v39653.1, v39655.1  Rebook to Bank of America, \nNat'l Assoc.\nCity of Palo Alto    v39713.1, v39713.1, v39741.1 Pending Jay Williams\nCross Timbers Oil Company  v37619.1, v37860.1.2  Pending Jay Williams\nEngage Inc.    v38646.1, v39926.1  Rebook to Engage Energy Canada LP\nIdaho Power Company   v39821.A   Rebook to Idacorp Energy Solutions LP\nOspraie Portfolio Limited   v39863.1   Rebook to The Ospraie Portfolio Ltd\nTransCanada Energy Ltd   v38459.1   Rebook to TransCanada Energy Financial \nProducts\nWestport Petroleum Inc   v39866.1.2   Pending Rudwell Johnson",
+   "new_text_source": "body",
+   "subject": "Credit Report -4/18/01",
+   "thread_id": "t914e60bbd1",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-06-19T12:25:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/762",
+   "new_text": "Done.\n\nDG\n\n\n\n\nAudrey Cook\n06/15/2000 07:15 PM\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Finalized Transport Invoices - May, 2000\n\n\n\n\n\nCan you update for transport?  Sitara #131389 (North Shore) and #131405 \n(Peoples).  Thanks.\najc\n(Please let me know when completed.Tks.)\n\n\nPeoples   North Shore\n$1,321,420   $176,589",
+   "new_text_source": "body",
+   "subject": "Re: Finalized Transport Invoices - May, 2000",
+   "thread_id": "t925225550c",
+   "to": [
+    "audrey.cook@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2002-01-28T17:17:13+00:00",
+   "from": "s..shively@enron.com",
+   "msg_id": "giron-d/inbox/66",
+   "new_text": "as of 1/28\n\nHunter Shively\nGeof Storey\nAndy Lewis\nJason Williams",
+   "new_text_source": "new",
+   "subject": "RE: Central Traders",
+   "thread_id": "t92a7c1c001",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-14T09:23:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/226",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/14/2001 \n09:23 AM ---------------------------\n   \n\n\nFrom:  Veronica Espinoza @ ENRON                                              \n               02/14/2001 09:21 AM\t\n\t\n\t\n\t                           \n\t\n\nTo: Larry Joe Hunter/HOU/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Kim S \nTheriot/HOU/ECT@ECT, Melinda Whalen/CAL/ECT@ECT, Dianne Seib/CAL/ECT@ECT, \nJanie Aguayo/HOU/ECT@ECT, Derek Bailey/Corp/Enron@ENRON, Kevin \nMeredith/Corp/Enron@ENRON, Ellen Wallumrod/NA/Enron@ENRON, Celeste \nCisneros/NA/Enron@Enron, Diane Anderson/NA/Enron@Enron, Tiffany \nWilliams/NA/Enron@Enron, Cindy Feldman/CAL/ECT@ECT, Patricia \nBoulanger/CAL/ECT@ECT, Linda Sietzema/CAL/ECT@ECT, Sharon \nCrawford/CAL/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Tanya \nRohauer/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, William S Bradford/HOU/ECT@ECT, \nRussell Diamond/HOU/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Nidia \nMendoza/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, \nDavid Baumbach/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Darron C \nGiron/HOU/ECT@ECT, Walter Guidroz/NA/Enron@Enron, Leslie Reeves/HOU/ECT@ECT, \nVeronica Gonzalez/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Jean \nBell/HOU/ECT@ECT\ncc:  \nSubject: Credit Report--2/14/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--2/14/01",
+   "thread_id": "t92aade9505",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2000-11-14T16:01:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/490",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 11/14/2000 \n04:01 PM ---------------------------\n\n\nJackson Logan\n11/14/2000 03:16 PM\nTo: Phillip M Love/HOU/ECT@ECT, B Scott Palmer/HOU/ECT@ECT, Kam \nKeiser/HOU/ECT@ECT, Victor Guggenheim/HOU/ECT@ECT, Darron C \nGiron/HOU/ECT@ECT, jlogan@hough.com, plogan@grubb-ellis-tx.com, \njennifer.stelling@gtedc.gte.com, jwooton@keystonemortpartners.com, \ncshi@dynegy.com, John_biegel@dell.com, bgalligan@mail.utexas.edu, \ncarey.t.ford@us.arthurandersen.com, gkaminski@dttus.com, \nBrian_Thorp@AIMFUNDS.COM, JAMES.SIVCO@chase.com, tifftalbot@hotmail.com, \njmwooton@yahoo.com, njw4@worldnet.att.net, KHunter75@aol.com, \nttalbot@bmoh.com, RCOLLINS@graubassett.com, cameron.moates@us.pwcglobal.com, \natransou@wsgr.com, onion@pdq.net, shack4@alumni.utexas.net, \nECard10007@aol.com, ryaf@softchoice.com, Madeofmetal@Sprintmail.Com, \nLtColby.H@att.net, Stefanie_Wagenfeld@AIMFUNDS.COM\ncc:  \nSubject: To Awesome not to forward\n\nSubject: Story of the ant and the grasshopper\n\nTHE CLASSIC VERSION -\n    The ant works hard in the withering heat all summer long, building his\nhouse and laying up supplies for the winter. The Grasshopper thinks he's a\nfool and laughs and dances and plays the summer away. Come winter, the ant\nis warm and well fed. The grasshopper has no food or shelter so he dies out\nin the cold.\n\nTHE MODERN VERSION -\n The ant works hard in the withering heat all summer long, building his\nhouse and laying up supplies for the winter. The Grasshopper thinks he's a\nfool and laughs and dances and plays the summer away.\n    Come winter, the shivering grasshopper calls a press conference and\ndemands to know why the ant should be allowed to be warm and well fed while\nothers are cold and starving. CBS, NBC and ABC show up to provide pictures\nof the shivering grasshopper next to a video of the ant in his comfortable\nhome with a table filled with food.\n    \"America\" is stunned by the sharp contrast. How can this be, that in a\ncountry of such wealth, this poor grasshopper is allowed to suffer so?\nKermit the Frog appears on Oprah with the grasshopper, and everybody cries\nwhen they sing \"It's Not Easy Being Green.\"\n    Bill and Hillary Clinton make a special guest appearance on the CBS\nEvening News to tell a concerned Dan Rather that they will do everything\nthey Can for the grasshopper who has been denied the prosperity he deserves\nby Those who benefited unfairly during the Reagan summers, or as Bill\nrefers\nto it as \"Temperatures of the 80's.\"\n    Jesse Jackson stages a demonstration in front of the ant's house where\nthe news stations film the group singing \"We shall overcome\". Jesse then\nhas\nthe group kneel down to pray to God for the grasshopper's sake.\n    Al Gore exclaims in an interview with Peter Jennings that the ant has\ngotten rich off the back of the grasshopper, and calls for an immediate tax\nhike on the ant to make him pay his \"fair share\".\n    Finally, the EEOC drafts the \"Economic Equity and Anti-Ant Act\",\nretroactive to the beginning of the summer. The ant is fined for failing to\nhire a proportionate number of green bugs and, having nothing left to pay\nhis retroactive taxes, his home is confiscated by the government.\n    Hillary gets her old law firm to represent the grasshopper in a\nDefamation suit against the ant, and the case is tried before a panel of\nfederal judges that Bill appointed from a list of single-parent welfare\nrecipients who can only hear cases on Thursday's between 1:30 and 3:00 PM\nwhen there are no talk shows scheduled. The ant loses the case.\n    The story ends as we see the grasshopper finishing up the last bits of\nThe ant's food while the government house he is in, which just happens to\nbe\nthe ant's old house, crumbles around him since he doesn't maintain it. The\nant has disappeared in the snow. And on the TV, which the grasshopper\nbought\nby selling most of the ant's food, they are showing Bill Clinton standing\nbefore a wildly applauding group of Democrats announcing that a new era of\n\"fairness\" has dawned in America.\n    The grasshopper is found dead in a drug related incident and the house,\nnow abandoned, is taken over by a gang of spiders who terrorize the once\npeaceful neighborhood.\n\nRemember to Vote .!!",
+   "new_text_source": "body",
+   "subject": "To Awesome not to forward",
+   "thread_id": "t934e29b855",
+   "to": [
+    "greg.couch@enron.com",
+    "smmayers@earthlink.net",
+    "mark.ebert@broadwing.com",
+    "kristi.giron@cfisd.net"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-11-26T19:32:36+00:00",
+   "from": "greg.couch@enron.com",
+   "msg_id": "giron-d/inbox/274",
+   "new_text": "<http://hrweb.enron.com/benefits/SPD/179.htm>",
+   "new_text_source": "new",
+   "subject": "",
+   "thread_id": "t935b88afde",
+   "to": [
+    "c..giron@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-12T09:15:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/234",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/12/2001 \n09:14 AM ---------------------------\n   \n\n\nFrom:  Veronica Espinoza @ ENRON                                              \n               02/12/2001 09:10 AM\t\n\t\n\t\n\t                           \n\t\n\nTo: Larry Joe Hunter/HOU/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Kim S \nTheriot/HOU/ECT@ECT, Melinda Whalen/CAL/ECT@ECT, Dianne Seib/CAL/ECT@ECT, \nJanie Aguayo/HOU/ECT@ECT, Derek Bailey/Corp/Enron@ENRON, Kevin \nMeredith/Corp/Enron@ENRON, Ellen Wallumrod/NA/Enron@ENRON, Celeste \nCisneros/NA/Enron@Enron, Diane Anderson/NA/Enron@Enron, Tiffany \nWilliams/NA/Enron@Enron, Cindy Feldman/CAL/ECT@ECT, Patricia \nBoulanger/CAL/ECT@ECT, Linda Sietzema/CAL/ECT@ECT, Sharon \nCrawford/CAL/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Tanya \nRohauer/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, William S Bradford/HOU/ECT@ECT, \nRussell Diamond/HOU/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Nidia \nMendoza/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, \nDavid Baumbach/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Darron C \nGiron/HOU/ECT@ECT, Walter Guidroz/NA/Enron@Enron, Leslie Reeves/HOU/ECT@ECT, \nVeronica Gonzalez/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT, Jean \nBell/HOU/ECT@ECT, Ken Curry/HOU/ECT@ECT\ncc:  \nSubject: Credit Report--2/12/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--2/12/01",
+   "thread_id": "t935f272132",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-02-02T13:51:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/264",
+   "new_text": "---------------------- Forwarded by Darron C Giron/HOU/ECT on 02/02/2001 \n01:51 PM ---------------------------\n   \n\n\nFrom:  Veronica Espinoza @ ENRON                                              \n               01/31/2001 09:28 AM\t\n\t\n\t\n\t                           \n\t\n\nTo: Larry Joe Hunter/HOU/ECT@ECT, Bob Bowen/HOU/ECT@ECT, Kim S \nTheriot/HOU/ECT@ECT, Melinda Whalen/CAL/ECT@ECT, Dianne Seib/CAL/ECT@ECT, \nJanie Aguayo/HOU/ECT@ECT, Derek Bailey/Corp/Enron@ENRON, Kevin \nMeredith/Corp/Enron@ENRON, Ellen Wallumrod/NA/Enron@ENRON, Celeste \nCisneros/NA/Enron@Enron, Diane Anderson/NA/Enron@Enron, Tiffany \nWilliams/NA/Enron@Enron, Cindy Feldman/CAL/ECT@ECT, Patricia \nBoulanger/CAL/ECT@ECT, Linda Sietzema/CAL/ECT@ECT, Sharon \nCrawford/CAL/ECT@ECT, Debbie R Brackett/HOU/ECT@ECT, Tanya \nRohauer/HOU/ECT@ECT, Tom Moran/HOU/ECT@ECT, William S Bradford/HOU/ECT@ECT, \nRussell Diamond/HOU/ECT@ECT, Lesli Campbell/HOU/ECT@ECT, Nidia \nMendoza/HOU/ECT@ECT, Jeffrey C Gossett/HOU/ECT@ECT, Kam Keiser/HOU/ECT@ECT, \nDavid Baumbach/HOU/ECT@ECT, Errol McLaughlin/Corp/Enron@ENRON, Darron C \nGiron/HOU/ECT@ECT, Walter Guidroz/NA/Enron@Enron, Leslie Reeves/HOU/ECT@ECT, \nVeronica Gonzalez/HOU/ECT@ECT, Phillip M Love/HOU/ECT@ECT\ncc: Brant Reves/HOU/ECT@ECT \nSubject: Credit Report--1/31/01",
+   "new_text_source": "body",
+   "subject": "Credit Report--1/31/01",
+   "thread_id": "t93f00dc0e2",
+   "to": [
+    "carole.frank@enron.com"
+   ],
+   "truncated": false
+  },
+  {
+   "date": "2001-03-28T11:04:00+00:00",
+   "from": "darron.giron@enron.com",
+   "msg_id": "giron-d/sent/117",
+   "new_text": "Done.\n\nDG\n\n\nFrom: Lesli Campbell/ENRON@enronXgate on 03/28/2001 09:56 AM\nTo: Darron C Giron/HOU/ECT@ECT\ncc:  \nSubject: Deal # QZ2119\n\nPlease rebook to W&T Offshore, Inc. short name is W&TOFFSHORE.\n\nThanks\n\nLesli",
+   "new_text_source": "new",
+   "subject": "Re: Deal # QZ2119",
+   "thread_id": "t942002fe27",
+   "to": [
+    "lesli.campbell@enron.com"
+   ],
+   "truncated": false
+  }
+ ]
+}

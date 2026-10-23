@@ -1,7 +1,7 @@
 {
  "allowed_figures": [
-  "$110",
-  "$1,320",
+  "$73",
+  "$876",
   "$85"
  ],
  "allowed_types": [
@@ -15,7 +15,7 @@
    "kind": "report",
    "msg_id": "lokay-m/inbox/10",
    "new_text": "Transwestern's average deliveries to California were 945 MMBtu/d (87%), with San Juan lateral throughput at 865 MMBtu/d.  Total East deliveries averaged 525 MMBtu/d.  \n\nEl Paso's average deliveries to California were 1782 MMBtu/d (66%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 667 MMBtu/d (59%)\n- SoCalEhr, capacity 1042 MMBtu/d, deliveries of 707 MMBtu/d (68%)\n- SoCalTop, capacity 512 MMBtu/d, deliveries of 408 MMBtu/d (80%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  3.03 (+.69)\n\tPG&E, large pkgs\t  3.02 (+.67)\n\tTW San Juan\t\t  n/a    \n\tTW Permian\t\t  2.86 (+.695)\n\nEnron Online bases:\n\t\tNov-Mar\t\tApr-Oct\nPerm-CA\t.17 (+.02)\t    \t.26 (+.03)\nSJ - CA\t.27 (+.03)  \t       \t.44 (+.03)\nSJ-Waha\t.14 (+.02)\t       \t.22 (even)\t\nPerm-Waha\t.04 (+.01)                 \t.04 (even)",
-   "quote": "Friday's posted Gas Daily prices:",
+   "quote": "Transwestern's average deliveries to California were 945 MMBtu/d (87%), with San Juan lateral throughput at 865 MMBtu/d.  Total East deliveries averaged 525 MMBtu/d.",
    "stall": true,
    "subject": "California Capacity Report for Week of 10/22-10/26",
    "thread_id": "tffcb3264ad",
@@ -106,7 +106,7 @@
    "msg_id": "lokay-m/sent_items/46",
    "new_text": "Sorry, the effective date for this new report is 01/07-01/11.",
    "quote": "Sorry, the effective date for this new report is 01/07-01/11.",
-   "stall": false,
+   "stall": true,
    "subject": "RE: California Capacity Report for Week of 01/07-01/11",
    "thread_id": "tfbe074dc54",
    "to": [
@@ -123,7 +123,7 @@
    "kind": "report",
    "msg_id": "lokay-m/sent_items/40",
    "new_text": "Transwestern's average deliveries to California were 854 MMBtu/d (78%), with San Juan lateral throughput at 844 MMBtu/d.  Total East deliveries averaged 473 MMBtu/d.  \n\nEl Paso's average deliveries to California were 1783 MMBtu/d (61%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 374 MMBtu/d (33%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 954 MMBtu/d (76%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 455 MMBtu/d (84%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.345 (+.21)\n\tPG&E, large pkgs\t  2.28 (+.19)\n\tTW San Juan\t\t  2.20 (+.19)   \n\tTW Permian\t\t  2.225 (+.185)\n\nEnron basis:\tn/a",
-   "quote": "Transwestern's average deliveries to California were 854 MMBtu/d (78%), with San Juan lateral throughput at 844 MMBtu/d.",
+   "quote": "Transwestern's average deliveries to California were 854 MMBtu/d (78%), with San Juan lateral throughput at 844 MMBtu/d.  Total East deliveries averaged 473 MMBtu/d.",
    "stall": false,
    "subject": "California Capacity Report for Week of 01/14-01/18",
    "thread_id": "t8446081d95",
@@ -177,7 +177,7 @@
    "kind": "report",
    "msg_id": "lokay-m/sent_items/86",
    "new_text": "Transwestern's average deliveries to California were 1011 MMBtu/d (93%), with San Juan lateral throughput at 872 MMBtu/d.  Total East deliveries averaged 337 MMBtu/d.  \n\nEl Paso's average deliveries to California were 2065 MMBtu/d (71%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 542 MMBtu/d (48%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 1035 MMBtu/d (83%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 488 MMBtu/d (90%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.16 (-.02)\n\tPG&E, large pkgs\t  2.15 (-.03)\n\tTW San Juan\t\t  2.01   \n\tTW Permian\t\t  2.03 (-.04)",
-   "quote": "Transwestern's average deliveries to California were 1011 MMBtu/d (93%), with San Juan lateral throughput at 872 MMBtu/d.",
+   "quote": "Transwestern's average deliveries to California were 1011 MMBtu/d (93%), with San Juan lateral throughput at 872 MMBtu/d.  Total East deliveries averaged 337 MMBtu/d.",
    "stall": true,
    "subject": "California Capacity Report for Week of 02/04-02/08",
    "thread_id": "tfd49ac0419",
@@ -267,7 +267,7 @@
    "kind": "report",
    "msg_id": "lokay-m/sent_items/146",
    "new_text": "Transwestern's average deliveries to California were 989 MMBtu/d (91%), with San Juan lateral throughput at 877 MMBtu/d.  Total East deliveries averaged 405 MMBtu/d.  \n\nEl Paso's average deliveries to California were 2136 MMBtu/d (73%):\n- PG&ETop, capacity of 1140 MMBtu/d, deliveries of 615 MMBtu/d (54%)\n- SoCalEhr, capacity 1250 MMBtu/d, deliveries of 1011 MMBtu/d (81%)\n- SoCalTop, capacity 540 MMBtu/d, deliveries of 510 MMBtu/d (94%)\n\nFriday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.805 (+.08)\n\tPG&E, large pkgs\t  2.81 (+.13)\n\tSan Juan (non-Bondad)\t  2.69 (+.125)   \n\tTW Permian\t\t  2.64 (+.10)",
-   "quote": "Friday's posted Gas Daily prices:\n\tSoCal gas, large pkgs\t  2.805 (+.08)",
+   "quote": "Transwestern's average deliveries to California were 989 MMBtu/d (91%), with San Juan lateral throughput at 877 MMBtu/d.",
    "stall": false,
    "subject": "California Capacity Report for Week of 03/11-03/15",
    "thread_id": "t08b60970b1",
@@ -281,17 +281,17 @@
   }
  ],
  "opportunity": {
-  "action_idea": "A weekly scheduled job pulls the delivery, utilization and Gas Daily price figures and generates the California Capacity Report in the existing format for distribution. An analyst only reviews the draft and adds commentary before it is sent.",
+  "action_idea": "A scheduled job each week pulls delivery and capacity data and posted Gas Daily prices and generates the report email in the existing format. The analyst only reviews the numbers and adds commentary before sending.",
   "confidence": {
    "active_months": 5,
    "mailboxes": 1,
    "quotes": 17,
-   "stall_share": 0.12,
+   "stall_share": 0.18,
    "threads": 16
   },
-  "description": "Commercial staff compile and email a weekly report of Transwestern and El Paso California deliveries, utilization and posted Gas Daily prices.",
-  "formula": "17 messages / 5.92 months observed (lokay-m) = 2.87/month; x 45 min median handling x 60% automatable = 1.3 h/month; x $85/h = $110/month",
-  "hours_month": 1.3,
+  "description": "Each week California deliveries, capacity utilization and Gas Daily prices are compiled and emailed to the Transwestern commercial team.",
+  "formula": "17 messages / 5.92 months observed (lokay-m) = 2.87/month; x 30 min median handling x 60% automatable = 0.9 h/month; x $85/h = $73/month",
+  "hours_month": 0.9,
   "id": "california_capacity_weekly_report",
   "kinds": {
    "followup": 1,
@@ -300,10 +300,10 @@
   "mailboxes": [
    "lokay-m"
   ],
-  "median_minutes": 45,
+  "median_minutes": 30,
   "messages": 17,
   "messages_per_month": 2.87,
-  "name": "Weekly California Capacity Report",
+  "name": "Weekly California capacity report",
   "participants": [
    {
     "address": "michelle.lokay@enron.com",
@@ -340,12 +340,12 @@
   ],
   "remedy": "automation",
   "stall": {
-   "flagged_messages": 2,
+   "flagged_messages": 3,
    "max_gap_hours": 165.8,
    "median_gap_hours": 165.8
   },
   "threads": 16,
-  "usd_month": 110,
-  "usd_year": 1320
+  "usd_month": 73,
+  "usd_year": 876
  }
 }

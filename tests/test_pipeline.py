@@ -35,13 +35,13 @@ class PipelineTest(unittest.TestCase):
     def setUp(self):
         self.c = TempCorpus()
         p = self.c.paths
-        # 9 meter requests (9 threads) spread over Mar 1 - Apr 30 + 1 lunch note
+        # 9 meter requests (9 threads) spread over Mar 1 - Apr 30 + 1 lunch note (subject kept clear of the prefilter)
         for i, day in enumerate([1, 8, 15, 22, 29, 36, 43, 50, 61]):
             month, d = (3 + (day - 1) // 31), ((day - 1) % 31) + 1
             d = min(d, 30)
             self.c.add(f"m/inbox/{i}", message(msg_id=f"<{i}@x>", date=f"Thu, {d} {['Mar','Apr','May'][month-3]} 2001 09:00:00 -0000",
                                                subject=f"Meter {1500 + i}", body=BODY.format(n=1500 + i)))
-        self.c.add("m/inbox/9", message(msg_id="<9@x>", subject="Lunch", body="Lunch at noon on Friday with everyone from the desk?"))
+        self.c.add("m/inbox/9", message(msg_id="<9@x>", subject="Friday", body="Lunch at noon on Friday with everyone from the desk?"))
         self.summary = prepare.run(p, expected_files=None)
         self.batch = self.summary["pending_batches"][0]
         self.payload = read_json(p.root / self.batch["path"])["messages"]
@@ -49,8 +49,9 @@ class PipelineTest(unittest.TestCase):
     def tearDown(self):
         self.c.cleanup()
 
-    def write_labels(self, labels_list):
-        write_json(self.c.paths.root / self.batch["output"], {"batch_id": self.batch["id"], "labels": labels_list})
+    def write_labels(self, labels_list, processes=None):
+        write_json(self.c.paths.root / self.batch["output"], {"batch_id": self.batch["id"], "labels": labels_list,
+                   "processes": {"meter_deal_fix": "Fix meters without deals"} if processes is None else processes})
 
     def write_delta(self, label="meter_deal_fix", pid="meter_fix", remedy="automation"):
         write_json(self.c.paths.work / "process_map_delta.json", {"new_processes": [{"id": pid, "name": "Meter deal fixes",
@@ -59,11 +60,10 @@ class PipelineTest(unittest.TestCase):
     def good_labels(self):
         out = []
         for m in self.payload:
-            if m["subject"] == "Lunch":
+            if m["subject"] == "Friday":
                 out.append({"msg_id": m["msg_id"], "process": "none"})
             else:
-                out.append({"msg_id": m["msg_id"], "process": "meter_deal_fix", "process_description": "Fix meters without deals",
-                            "kind": "request", "manual_steps": "create or extend deal", "minutes_estimate": 20,
+                out.append({"msg_id": m["msg_id"], "process": "meter_deal_fix", "kind": "request", "minutes_estimate": 20,
                             "stall_signal": "Allocations close today", "quote": QUOTE})
         return out
 
@@ -88,6 +88,22 @@ class PipelineTest(unittest.TestCase):
         self.assertEqual(len(s["retry_batches"]), 1)
         self.assertTrue(any("failed verbatim check" in e for e in s["retry_batches"][0]["errors"]))
         self.assertEqual(s["labels_valid"], 0)  # a batch awaiting its retry contributes nothing yet
+
+    def test_process_description_written_once_reaches_candidates(self):
+        p = self.c.paths
+        self.write_labels(self.good_labels())
+        labels.check_labels(p)
+        labels.candidates(p)
+        cand = read_json(p.work / "candidates.json")["candidates"]["meter_deal_fix"]
+        self.assertEqual(cand["sample_descriptions"], ["Fix meters without deals"])
+
+    def test_missing_process_description_is_not_fatal(self):
+        p = self.c.paths
+        self.write_labels(self.good_labels(), processes={})
+        s = labels.check_labels(p)
+        self.assertEqual((s["ok"], s["retry_batches"]), (1, []))
+        labels.candidates(p)
+        self.assertEqual(read_json(p.work / "candidates.json")["candidates"]["meter_deal_fix"]["sample_descriptions"], [])
 
     def test_rejected_quote_is_listed_in_report(self):
         p = self.c.paths
@@ -151,6 +167,36 @@ class PipelineTest(unittest.TestCase):
         self.assertFalse(r["ok"])
         self.assertTrue(any("unmapped" in e for e in r["errors"]))
 
+    def test_salvage_merges_valid_part_and_maps_rest_to_none(self):
+        p = self.c.paths
+        labs = self.good_labels()
+        labs[0] = {**labs[0], "process": "odd_one"}
+        self.write_labels(labs, processes={"meter_deal_fix": "Fix meters without deals", "odd_one": "Something else"})
+        labels.check_labels(p)
+        labels.candidates(p)
+        delta = {"new_processes": [{"id": "meter_fix", "name": "Meter deal fixes", "description": "d", "remedy": "automation",
+                                    "action_idea": "a"}, {"id": "bad", "name": "Bad", "description": "d", "remedy": "magic"}],
+                 "map": {"meter_deal_fix": "meter_fix"}}  # odd_one unmapped, bad has no action_idea and a wrong remedy
+        write_json(p.work / "process_map_delta.json", delta)
+        self.assertFalse(labels.check_process_map(p)["ok"])
+        write_json(p.work / "process_map_delta.json", delta)
+        r = labels.check_process_map(p, salvage=True)
+        self.assertTrue(r["ok"] and r["salvaged"])
+        self.assertEqual((r["processes_dropped"], r["labels_forced_none"]), (["bad"], 1))
+        pm = read_json(p.work / "process_map.json")
+        self.assertEqual(pm["map"], {"meter_deal_fix": "meter_fix", "odd_one": "none"})
+        self.assertEqual([proc["id"] for proc in pm["processes"]], ["meter_fix"])
+        rank.build(p)  # the salvaged map is accepted downstream
+
+    def test_salvage_without_delta_maps_everything_to_none(self):
+        p = self.c.paths
+        self.write_labels(self.good_labels())
+        labels.check_labels(p)
+        labels.candidates(p)
+        r = labels.check_process_map(p, salvage=True)
+        self.assertTrue(r["ok"])
+        self.assertEqual(read_json(p.work / "process_map.json")["map"], {"meter_deal_fix": "none"})
+
     def test_min_evidence_rejects(self):
         p = self.c.paths
         labs = [lab if i < 2 or lab["process"] == "none" else {"msg_id": lab["msg_id"], "process": "none"}
@@ -202,8 +248,8 @@ class PipelineTest(unittest.TestCase):
         self.assertEqual([m["msg_id"] for m in batch["messages"]], ["m/inbox/20"])
         self.assertEqual([c["process"] for c in batch["context"]], ["meter_deal_fix"])  # earlier thread message
         write_json(p.root / s["pending_batches"][0]["output"], {"batch_id": batch["batch_id"], "labels": [
-            {"msg_id": "m/inbox/20", "process": "deal_extension", "process_description": "Extend deals",
-             "kind": "request", "manual_steps": "extend", "minutes_estimate": 20, "stall_signal": "",
+            {"msg_id": "m/inbox/20", "process": "deal_extension",
+             "kind": "request", "minutes_estimate": 20, "stall_signal": "",
              "quote": "please extend the deal at meter 1500."}]})
         cl = labels.check_labels(p)
         self.assertEqual((cl["messages_labeled"], cl["labels_process"]), (11, 10))  # old labels kept from the store
