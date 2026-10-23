@@ -6,7 +6,7 @@
 
 One slash command, `/analyze`, conducts the run. The orchestrator never reads the corpus. It runs `python3 -m observer <stage>`, reads the JSON summary each stage prints, and launches subagents.
 
-**The split:** Python does everything that must be exact. That covers parsing, dedup, threading, batching, quote checks, the arithmetic, the dashboard and the server. Four subagents do only judgment, and code validates their output before anything uses it:
+**The split:** Python does everything that must be exact (next chapter). Four subagents do only judgment, and code validates their output before anything uses it:
 
 | Subagent | Sees | Rejected by code if |
 |---|---|---|
@@ -19,6 +19,14 @@ One slash command, `/analyze`, conducts the run. The orchestrator never reads th
 
 **Unattended:** `settings.json` pre-approves only `python3 -m observer` and file access under `work/` and `out/`. `analyze.md` forbids asking the user, maps each error to the stage that fixes it, and relaunches once any subagent that wrote nothing.
 
+## Why the deterministic work is a Python module
+
+`observer/` (standard library only, run as `python3 -m observer <stage>`) does every step whose answer has exactly one correct value. That covers parsing, dedup, threading, batching, the prefilter, quote checks, the arithmetic, the evidence files, the dashboard and the server.
+- **Cost:** these steps touch the whole corpus on every run. Parsing and dedup with a model would mean pushing all 1.8M tokens through agents just to get the same answer every time. Python does it in about 2 seconds, and all deterministic stages together take under 3 seconds, at zero tokens.
+- **Checking is cheap enough to do completely.** Every quote, about 1,300 per run, is matched against its raw file. Having a model check them would cost about as much as labeling again, and the checker would then need checking.
+- **Exact and testable.** The same input gives the same dollars every run, and 50 tests cover it without a model, as the brief requires.
+- **It keeps the orchestrator small.** It reads one JSON summary per stage, never message text.
+
 ## Why labelers run in parallel
 
 - **No single agent can read it all.** Even with quoted history cut, the corpus is about 0.7M tokens, far beyond one context. It is split into 48 batches of up to 60 messages, about 20k tokens each.
@@ -29,19 +37,15 @@ One slash command, `/analyze`, conducts the run. The orchestrator never reads th
 
 ## Decisions and their trade-offs
 
-- **Labelers see new text only.** Cutting quoted and forwarded history takes the corpus from about 1.8M to about 0.7M tokens; each message is capped at 8k characters. *Trade-off:* context that only appears in the quoted part is lost. Up to 20 labeled messages from the same thread go along as read-only context.
-- **Fewer tokens and less time in labeling:**
-  - Labeling went from 11.3 of 16.4 minutes in the first version to about 4.6 minutes, retry included.
-  - **A rolling pool of 15** replaced waves of 10, so one slow batch no longer holds up a wave.
-  - **Shorter output:** each process description is written once per batch, not on every label (all 295 repeats in the first run were identical).
-  - **A rule-based `none` label** (`prefilter.py`) covers broadcast senders, personal addresses and social subjects. It handles 337 messages without a model, cutting 54 batches to 48. 336 of the 337 matched the first run's model labels (the miss is `giron-d/sent/375`). *Trade-off:* the rules were written and scored on the same data.
-  - **Bigger batches were rejected.** Going from 60 to 120 messages saved 3–10% of tokens (79.7k vs 88.0k) but doubled the time per batch and coarsened the grouping.
-- **Cached by content hash.** Labels are cached per message; designs and drafts by the hashes of their evidence and design. A new file labels only that message. *Trade-off:* the process map is only extended, so a better regrouping needs a manual `--reconsolidate`.
-- **Evidence gates instead of a cap on the number of processes.** A process ships only with at least 8 verified quotes across at least 3 threads.
-- **Pricing:** `Σ(messages / months observed, per mailbox) × median minutes × 60% × $85`.
-  - Each mailbox's own observation window is used, not the process's own span, so a burst is not priced as recurring.
-  - The median damps outlier estimates. *Trade-off:* it likely runs low, since total time is count × mean.
-- **Threshold: at least $50/month, at most 8.** Below about $50/month, reviewing a draft against its evidence costs about a month of the saving, and most processes below the cut are variants of ones above it. The cut is made in `rank`, before any designer or writer runs, so nothing below it costs tokens. Here #8 is $59 and #9 is $52.
+- **Labelers see new text only.** That shrinks the corpus from about 1.8M to about 0.7M tokens. *Trade-off:* context that exists only in the quoted part is lost; thread context partly makes up for it.
+- **Labeling cost was cut where it didn't cost accuracy.** It went from 11.3 to 4.6 minutes:
+  - a rolling pool of 15;
+  - each process description written once per batch;
+  - a rule-based `none` label for 337 obvious non-work messages (336 matched the model).
+  - Bigger batches (120 messages) saved only 3–10% of tokens and doubled the time per batch. *Trade-off:* the rules were scored on the same data they were written from.
+- **Everything is cached by content hash,** so a re-run redoes nothing. *Trade-off:* the process map is only extended; regrouping needs `--reconsolidate`.
+- **Pricing uses the median minutes and each mailbox's own window.** *Trade-off:* the median likely runs low.
+- **Threshold: at least $50/month, at most 8.** Below that, reviewing a draft costs about a month of the saving. The cut happens before the designers run, so nothing below it costs tokens.
 
 ## Where Claude Code got it wrong, and how it was caught
 
