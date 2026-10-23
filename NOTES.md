@@ -19,6 +19,14 @@ One slash command, `/analyze`, conducts the run. The orchestrator never reads th
 
 **Unattended:** `settings.json` pre-approves only `python3 -m observer` and file access under `work/` and `out/`. `analyze.md` forbids asking the user, maps each error to the stage that fixes it, and relaunches once any subagent that wrote nothing.
 
+## Why labelers run in parallel
+
+- **No single agent can read it all.** Even with quoted history cut, the corpus is about 0.7M tokens, far beyond one context. It is split into 48 batches of up to 60 messages, about 20k tokens each.
+- **Batches are independent.** A message's label depends only on its own text and its thread's context, which goes along with the batch. Labelers don't need to talk to each other, so they can all run at once.
+- **Time:** at about a minute per batch, labeling one batch after another would take close to an hour, against a 30-minute budget. A rolling pool of 15 finishes in about 4–5 minutes.
+- **Small, isolated failures.** A small batch keeps each agent's context short, and a batch that fails validation is retried on its own.
+- **Trade-off:** each labeler names processes without seeing the other batches, so the same work gets different names. A single consolidator then merges these names. It runs alone on purpose, because it needs the full set of names.
+
 ## Decisions and their trade-offs
 
 - **Labelers see new text only.** Cutting quoted and forwarded history takes the corpus from about 1.8M to about 0.7M tokens; each message is capped at 8k characters. *Trade-off:* context that only appears in the quoted part is lost. Up to 20 labeled messages from the same thread go along as read-only context.
@@ -37,33 +45,21 @@ One slash command, `/analyze`, conducts the run. The orchestrator never reads th
 
 ## Where Claude Code got it wrong, and how it was caught
 
-Every rejection is recorded in `work/caught.json` and counted on the dashboard's Method page. In the shipped run:
-- **44 labeler quotes were dropped:** 35 too short and 9 not verbatim. They don't count as evidence and are listed in `report.md`.
-- **1 batch was rejected** (7 of 28 quotes too short); its retry passed. The first version showed the same pattern: 3 of 54 batches failed (one skipped message, two with 3-word quotes) and all passed on retry.
-- **The design and draft validators have never fired in a logged run,** so only unit tests back them.
-
-Caught while building:
-- **The prompt and the code disagreed** on quote length (8–40 words vs 5–60). The prompt now states the code's limit.
-- **Dedup would have merged real recurring work,** such as the daily Calpine nominations. A 16-hour window keeps them apart and still catches timezone-shifted copies (`test_daily_repeats_stay_separate`).
-- **Mixed-mailbox processes were underpriced** by dividing by the union of 6- to 24-month windows. Pipeline imbalance showed $11/month instead of $42 (`test_rate_is_summed_per_mailbox`).
-- **The orchestrator stopped on errors it could fix.** It now follows a recovery table, checked with a fault-injection run, and `check-process-map --salvage` replaces stopping after two bad consolidations (unresolved labels go to `none`, which only drops claims).
+- **In the run, validators rejected agent output before it shipped.** Each rejection is recorded in `work/caught.json`.
+- **Labeler quotes:** 44 were dropped (35 too short, 9 not verbatim) and 1 batch was retried. The design and draft validators never fired.
+- **Mistakes caught while building:**
+  - The monthly rate diluted processes that span several mailboxes (pipeline imbalance showed $11/month instead of $42).
+  - Dedup would have merged the daily recurring notices.
+  - Tests now cover both.
 
 ## Where it is most likely wrong, and what was taken on faith
 
-- **Minutes per message are model guesses,** and they drive every dollar figure. The 60% automatable share is an assumption.
-- **Process boundaries are judgment.** A different consolidation changes the counts and the ranking.
+- **Minutes per message are model guesses,** and the 60% automatable share is an assumption. Together they drive every dollar figure.
 - **A verbatim quote is not necessarily a relevant one.** Code proves the words are in the file, not that they support the label.
-- **Threading by subject** splits renamed threads and merges unrelated mail with generic subjects, which affects the 3-thread gate and stall measurement.
-- **One mailbox's view.** farmer-d contributes only its `logistics` folder; the figures are lower bounds.
-- **Taken on faith:**
-  - that 4 mailboxes are representative of the desk;
-  - that email volume tracks effort;
-  - that the prefilter rules hold on new data.
 
 ## Next steps
 
-1. **Measure label quality:** hand-check a stratified sample of labels and minute estimates, and calibrate the minutes against it.
-2. **Check that quotes are relevant,** not just verbatim, with a second-pass judge whose output is also validated.
-3. **Price with a mean (trimmed) and show a range** on the dashboard instead of a single figure.
-4. **Thread by the reply headers** embedded in the quoted text, not only by subject.
-5. **Test the design and draft validators against deliberately broken agent output,** since real runs haven't exercised them yet.
+1. **A hook that validates on write.** A `PostToolUse` hook on `Write` (label, design and draft paths) runs a new `observer check-file <path>`. On failure it exits with code 2, so the agent gets the errors and fixes them in the same turn. That removes most retries and recovers dropped quotes.
+2. **A new `evidence-judge` agent** (Haiku, one per shown opportunity) marks each quote as `supports` or `weak`. A `check-evidence` validator enforces one verdict per message, and `rank` stops counting `weak` quotes towards the evidence gate. Verdicts are cached by evidence hash.
+3. **Threading by reply headers, in code.** `parse.QUOTE_MARKERS` already finds the embedded reply headers. Match their sender and date to a parsed message, link each reply to its parent with union-find, and keep the subject as the fallback.
+4. **Mutation tests for the design and draft validators.** Fixtures with an invented figure, an unnamed system, a paraphrased quote and an outside citation must each be rejected with the right category. Real runs have never exercised these validators.
